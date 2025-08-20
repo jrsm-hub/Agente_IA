@@ -1,0 +1,11 @@
+# Ignorar arquivos de ambiente com senhas e chaves
+.env
+
+# Ignorar pastas de cache e ambiente virtual do Python
+__pycache__/
+*.pyc
+/venv/
+/env/
+
+# Ignorar o banco de dados vetorial local
+/banco_vetorial_chroma/

@@ -1,15 +1,31 @@
 # 3_vetorizacao_e_db.py (VERSÃO ATUALIZADA)
 
+
 import os
-import pickle # Biblioteca para carregar objetos Python
+import pickle
+from dotenv import load_dotenv # <-- 1. Importe a biblioteca
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain.vectorstores import Chroma
 
-# --- INÍCIO DA CONFIGURAÇÃO ---
-GOOGLE_API_KEY = "AIzaSyCKvrA9lEiiQCaZGhEmSJ2r0pZ9yCo2hDY"
+# --- INÍCIO DA CONFIGURAÇÃO SEGURA ---
+load_dotenv() # <-- 2. Carrega as variáveis do arquivo .env
+
+# 3. Pega a chave de API do ambiente, não mais do código
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY") 
+
+if not GOOGLE_API_KEY:
+    raise ValueError("A chave GOOGLE_API_KEY não foi encontrada. Verifique seu arquivo .env")
+
 arquivo_entrada_pkl = "fragmentos.pkl"
 pasta_db_vetorial = "banco_vetorial_chroma"
-# --- FIM DA CONFIGURAÇÃO ---
+# --- FIM DA CONFIGURAÇÃO SEGURA ---
+
+# O resto do seu código continua exatamente o mesmo...
+# ... (código para carregar fragmentos, inicializar embeddings, etc.) ...
+
+print("Inicializando o modelo de embeddings do Google...")
+embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001", google_api_key=GOOGLE_API_KEY)
+
 
 
 # --- ETAPA 1: Carregar os Documentos Fragmentados do Arquivo ---
