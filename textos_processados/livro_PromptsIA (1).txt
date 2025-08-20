@@ -1,0 +1,2318 @@
+Prompts (Infalíveis!) 
+para Pesquisa Acadêmica 
+com Inteligência Artificial
+u
+m
+ 
+g
+u
+i
+a
+ 
+d
+e
+s
+c
+o
+m
+p
+l
+i
+c
+a
+d
+o
+!
+05
+volume
+Prompts (Infalíveis!) 
+para Pesquisa Acadêmica 
+com Inteligência Artificial
+u
+m
+ 
+g
+u
+i
+a
+ 
+d
+e
+s
+c
+o
+m
+p
+l
+i
+c
+a
+d
+o
+!
+05
+volume
+UNIVERSIDADE FEDERAL DO PIAUÍ
+Reitora
+Nadir do Nascimento Nogueira
+Vice-Reitor
+Edmilson Miranda de Moura
+Superintendente de Comunicação Social
+Jacqueline Lima Dourado
+Diretora da EDUFPI
+Olívia Cristina Perez
+EDUFPI - Conselho Editorial
+Jacqueline Lima Dourado (presidente)
+Olívia Cristina Perez (vice-presidente)
+Carlos Herold Junior
+César Ricardo Siqueira Bolaño
+Fernanda Antônia da Fonseca Sobral
+Jasmine Soares Ribeiro Malta
+João Batista Lopes
+Kássio Fernando da Silva Gomes
+Maria do Socorro Rios Magalhães
+Teresinha de Jesus Mesquita Queiroz
+Projeto Gráfico. Capa. Diagramação.
+Marília Gabriella Lima Lira da Silva
+Revisão
+Vários integrantes do grupo “Impactos da IAG na pesquisa acadêmica” gentilmente nos ajudaram a revisar a 
+ortografia deste material, como Jane Cruz e  Samiriam Grimberg, as quais agradecemos. Em especial, agrade-
+cemos a Fabrícia de Souza, revisora profissional, que fez uma senhora revisão do texto inicial. Aqui, o contato 
+dela para trabalhos. Erros ainda presentes são culpa exclusiva dos autores.
+Sugestão de citação:
+SAMPAIO, R. C.; FIGUEIREDO, D. Prompts (Infalíveis!) para Pesquisa Acadêmica com Inteligência 
+Artificial (Coleção Para Bebês). Teresina, Edufpi. 2025.
+Editora da Universidade Federal do Piauí – 
+EDUFPI Campus Universitário Ministro Petrônio 
+Portella CEP: 64049-550 - Bairro Ininga - 
+Teresina - PI – Brasil
+ISBN: 978-65-5904-423-8
+Fundamentos Gerais de Prompting
+Exemplos iniciais de prompt 
+Construção de prompts mais eficientes 
+Elementos de um Bom PROMPT
+2.1 Função/Papel (Role)
+2.2 Tarefa/Contexto
+2.3 Estilo/Tom
+2.4 Formato/Restrição
+2.5 Público-Alvo
+Técnicas Específicas e  Exemplos de Uso Prático 
+3.1 Zero-Shot Learning  
+3.2 Few-Shot Learning  
+3.3 Chain-of-Thought (cadeia de raciocínio)  
+3.4 Prompts para modelos pensantes
+3.5 Deep Research Prompting: Potencializando Investigações 
+Acadêmicas Aprofundadas
+A IA como Parceira na Construção e  Refinamento de Prompts 
+Aplicações Práticas na Pesquisa Acadêmica
+5.1 Brainstorm e geração de ideias
+5.2 Busca por literatura acadêmica
+5.3 Leitura, resumo e síntese crítica
+5.4 Escrita científica e revisão
+5.5 Tradução
+Boas Práticas e  Recomendações de Uso 
+Exemplos de Retorno Iterativo
+Limitações e Riscos no Uso de IA em Pesquisa Acadêmica
+Prefácio - Olívia Cristina Perez
+Sobre este Guia
+Antes de tudo: Vamos falar sobre o uso de Inteligência Artificial 
+em Espaços Acadêmicos?
+ 11
+ 13
+ 15
+19
+20
+21
+21
+22
+23
+ 27
+ 28
+30
+33 
+34
+39
+ 43
+46
+47
+48
+50
+52
+55
+57
+60
+64
+ 5
+7
+8
+01
+00
+02
+03
+04
+05
+06
+07
+08
+PREFÁCIO
+A inteligência artificial (IA) já faz parte do uso público. Nos anos mais 
+recentes, com a popularização do ChatGPT, a IA generativa tornou-se 
+acessível para milhões de pessoas. De assistentes virtuais a ferramentas 
+de criação de conteúdo, a IA está cada vez mais presente no cotidiano.
+Apesar dessa rápida adoção, muitos profissionais ainda demonstram re-
+ceio de utilizá-la. Esse receio está diretamente ligado à falta de conhe-
+cimento sobre o assunto. Tudo o que é desconhecido gera insegurança. 
+Essa barreira impede que mais pessoas explorem o potencial das IAs e 
+se beneficiem de suas capacidades.
+Indo mais além, o uso da inteligência artificial por alguns e sua rejeição 
+por outros pode aprofundar desigualdades sociais. O acesso à tecnolo-
+gia já é, por si só, um fator de diferenciação: quem domina o uso da IA 
+tem vantagem na produção de conhecimento, no mercado de trabalho 
+e na criação de novas ideias. Nessa perspectiva, a IA não apenas reflete 
+desigualdades já existentes, mas também inaugura novas formas de ex-
+clusão digital e intelectual.
+A obra “ Prompts (Infalíveis!) para Pesquisa Acadêmica com Inteligên-
+cia Artificial”, de Rafael Cardoso Sampaio e Dalson Figueiredo, surge 
+justamente para preencher essa lacuna. O livro apresenta os conceitos 
+fundamentais dos prompts, que são os comandos ou instruções forne-
+cidas à IA para gerar respostas alinhadas às expectativas do usuário. A 
+maneira como formulamos um prompt é determinante para a qualida-
+de da resposta obtida. Esse conhecimento é essencial para quem deseja 
+usar a IA de forma produtiva e precisa.
+Ao longo deste manual, o leitor será introduzido aos princípios do promp-
+ting. São apresentados os elementos-chave para a construção de um bom 
+prompt, incluindo a definição clara do papel ou função (role) da IA, a 
+contextualização da tarefa, a escolha do tom, do estilo e do formato de-
+sejados, além da consideração do público-alvo. 
+Ao facilitar e estimular o uso da IA, inclusive para a escrita, o livro 
+contribui para a democratização do conhecimento. A escrita é uma das 
+principais formas de transmitir ideias que transformam o mundo. Quem 
+domina essa ferramenta tem maior poder de influência. Por isso a defe-
+Olívia Cristina Perez
+sa de que todos tenham acesso a ferramentas que facilitem a produção 
+e a difusão do conhecimento.  
+Por fim, é importante assumir: este prefácio foi escrito com o auxílio de 
+inteligência artificial generativa, seguindo as orientações do “ Prompts 
+(Infalíveis!) para Pesquisa Acadêmica com Inteligência Artificial”, de 
+Rafael Cardoso Sampaio e Dalson Figueiredo. A eles, expressamos nos-
+sa gratidão pelos ensinamentos valiosos que tornam o uso da IA mais 
+acessível e eficaz.
+Olivia Cristina Perez 
+Professora da Universidade Federal do Piauí
+sobre este
+GUIA
+Vamos nessa?
+	 Este guia apresenta boas práticas para o uso de modelos de inteli-
+gência artificial generativa, como ChatGPT, Claude, Gemini, Maritalk, 
+na pesquisa acadêmica. Detalhamos os fundamentos de construção 
+de prompts, explorando técnicas de prompting (Zero-Shot, Few-Shot, 
+Chain-of-Thought) e seus elementos (função, tarefa/contexto, estilo, for-
+mato, público). 
+	 Abordamos como fazer prompts para os recém lançados modelos de 
+“raciocínio” e “pesquisa profunda”. Discutimos algumas aplicações prá-
+ticas na pesquisa acadêmica (brainstorming, busca de literatura, síntese, 
+escrita, revisão e tradução), assim como alguns dos principais riscos e 
+preocupações éticas, a exemplo de possíveis “alucinações”, viés nos da-
+dos de treinamento. 
+	 O objetivo é capacitar a comunidade acadêmica brasileira a utilizar a 
+IA de forma ética e eficiente na produção de conhecimento científico. 
+Como usual da “coleção para bebês”, tentamos usar uma linguagem mais 
+acessível e leve e dar várias sugestões para complementar os estudos e 
+reflexões no tema.
+Boa leitura!
+ANTES DE TUDO
+Vamos falar sobre o uso de Inteligência 
+Artificial em Espaços Acadêmicos?
+9
+	 Vivemos um momento de grandes mudanças na pesquisa acadêmica, impul-
+sionadas pelo avanço exponencial dos modelos de Inteligência Artificial (IA) e 
+Inteligência Artificial Generativa (IAG), capazes de gerar textos, imagens, áu-
+dios, vídeos e códigos de programação. Mais especificamente, o uso dos grandes 
+modelos de linguagem (Large Language Models ou LLMs no original) — como 
+ChatGPT, Claude, Gemini, Deep Seek, Maritalk e outros — vem se tornando 
+cada vez mais acessível aos pesquisadores. Este guia, parte integrante da coleção 
+“Para Bebês”, visa democratizar o conhecimento sobre como obter os melhores 
+resultados com essa tecnologia, facilitando o uso por pesquisadores de todas as 
+áreas das Ciências Sociais e Humanas.
+	 O desenvolvimento acelerado dos LLMs tem gerado um  grande impacto nos 
+processos de pesquisa e produção de conhecimento (veja este trabalho super 
+bacana de um dos autores). Essas ferramentas oferecem diversas possibilidades 
+para otimizar tarefas do ofício acadêmico, como o levantamento bibliográfico, a 
+revisão textual, a análise de dados, a geração de hipóteses, a tradução e a própria 
+escrita científica. No entanto, a adoção dessas tecnologias vai além da mera bus-
+ca por eficiência; ela suscita questões metodológicas, epistemológicas, éticas e 
+geopolíticas que demandam uma reflexão crítica por parte da comunidade aca-
+dêmica. Afinal, posso escrever meu texto todo usando ChatGPT? Posso apri-
+morar meus scripts de R com auxílio do Deep Seek? Posso revisar a gramática 
+da minha dissertação com o Gemini? E a lista continua. 
+	 Portanto, o principal objetivo deste guia é capacitar o pesquisador brasilei-
+ro a navegar com mais segurança e autonomia nesse novo cenário tecnológico. 
+Para tanto, exploraremos a fundo as principais técnicas de prompting, ou seja, a 
+habilidade de formular instruções precisas para interagir com os LLMs e obter 
+resultados mais próximos dos desejados. Longe de serem meras “perguntas”, os 
+prompts ou comandos ajudam a trazer melhores resultados da inteligência arti-
+ficial generativa, o que pode ser útil em diversas etapas do processo de investi-
+gação.
+	 Ao longo deste manual, o leitor será apresentado aos fundamentos do promp-
+ting, incluindo os elementos de um bom prompt, como a definição clara do 
+papel ou função (role) da IA, a contextualização da tarefa, a especificação do 
+estilo, tom e formato desejados e a consideração do público-alvo. Serão apresen-
+tadas técnicas de prompting, como Zero-Shot, Few-Shot e Chain-of-Thought, 
+demonstrando sua aplicabilidade em diferentes tipos de pesquisa e tarefas aca-
+dêmicas, por meio de exemplos adaptados à realidade brasileira.
+	 Além disso, serão ilustradas, por meio de prompts, as diferentes formas que os 
+LLMs podem ser utilizados para aprimorar a pesquisa, desde o brainstorm ini-
+cial e a busca por referências até a leitura crítica, a síntese de textos, a escrita, a 
+revisão e a tradução de artigos para publicação em periódicos internacionais de 
+10
+alto impacto. Este guia também apresenta um conjunto de boas práticas, enfati-
+zando a importância da validação das informações geradas pela IAG, da integra-
+ção reflexiva dos seus resultados (outputs), do domínio das normas acadêmicas 
+e da interação com a ferramenta.
+	 Mas cuidado aí: a utilização de LLMs na pesquisa acadêmica não é isenta de 
+riscos e desafios. Este manual abordará essas questões, discutindo a possibilidade 
+de “alucinações” (geração de informações falsas ou enganosas), os vieses embu-
+tidos nos dados de treinamento, a defasagem temporal dos modelos, a falta de 
+conhecimento contextual e os riscos de plágio ou uso indevido de propriedade 
+intelectual.
+	 Embora a literatura sobre LLMs e prompting venha crescendo, este guia se 
+destaca por abordar de forma sistemática o uso dessas tecnologias na pesqui-
+sa acadêmica em língua portuguesa, com foco nas especificidades das Ciências 
+Humanas e na realidade brasileira — sem falar da linguagem simples, que é um 
+dos diferenciais da coleção ”Para Bebês”. Nosso objetivo é capacitar a comuni-
+dade acadêmica brasileira fornecendo-lhe subsídios para compreender e obter 
+melhores resultados de tais modelos, colocando tais ferramentas a serviço da 
+produção de um conhecimento científico rigoroso, ético e socialmente relevan-
+te. Logo, é óbvio que os prompts apresentados aqui não são infalíveis, esta é ape-
+nas uma brincadeira para o título. Ao longo da obra, vocês verão muitas dicas 
+sobre diversas tentativas e iteração com as IAs.
+	 Este guia não almeja ou sugere, em momento algum, substituir o pensamento 
+crítico, a criatividade e a autonomia intelectual do pesquisador. Pelo contrário, 
+acreditamos que tais princípios ainda são centrais a quaisquer pesquisas qualifi-
+cadas. No entanto, as IAGs se tornam cada vez mais naturais em nosso cotidiano, 
+e os pesquisadores e as pesquisadoras precisam enfrentar os desafios complexos 
+do nosso tempo, que estão diretamente conectados ao desenvolvimento de tec-
+nologias de ponta de um lado e de governança e regulações adequadas do ou-
+tro. O domínio do prompting é, nesse contexto, uma competência CRUCIAL, 
+como escreveria alguma IA.
+E aí, tá preparada?
+FUNDAMENTOS GERAIS
+DE PROMPTING
+01
+12
+	 O primeiro passo para elaborar prompts para pesquisa acadêmica é compreen-
+der como funcionam os grandes modelos de linguagem (veja o Apêndice 1 para 
+uma lista de vários modelos além do ChatGPT) e quais são as principais limita-
+ções e potencialidades dessas tecnologias. Grosso modo, um grande modelo de 
+linguagem funciona de maneira a identificar e reproduzir padrões presentes em 
+enormes volumes de texto que ele processa durante o treinamento. Ele não “en-
+tende” o significado das palavras como nós, mas aprende quais palavras e frases 
+tendem a aparecer juntas em diferentes contextos. Quando você faz uma per-
+gunta ou dá um comando, o modelo usa esses padrões para gerar uma resposta 
+provável, palavra por palavra, baseando-se no que já viu em seus dados de trei-
+namento. Assim, ele consegue criar respostas que parecem naturais e coerentes, 
+mesmo sem ter consciência ou compreensão real do conteúdo (aqui, um texti-
+nho bacanudo que explica melhor esse processo). 
+	 Um prompt é um texto de entrada (input) que direciona o padrão de respos-
+ta do modelo de IAG, podendo conter instruções, contexto histórico ou meto-
+dológico, exemplos de conteúdo desejado e até restrições de formatação. Em 
+outras palavras, é uma instrução detalhada e contextualizada para o modelo 
+“buscar” trechos e conexões mais complexas em sua gigantesca base de dados, 
+aproximando-se do que os pesquisadores esperam em termos de rigor acadê-
+mico. Logo, se o prompt for amplo ou genérico, a resposta também tende a ser 
+pouco específica. 
+	 Por isso, ao longo deste manual, faremos várias recomendações para melhorar 
+os prompts e ter respostas melhores. Se, por  exemplo, ao final do seu prompt, 
+você incluir “Entendeu exatamente o que estou pedindo?” ou “Antes de realizar 
+meu pedido, explique-me passo a passo como você irá realizar a tarefa”, irá for-
+çar a IAG a repetir como ela entendeu o prompt. E aí você pode fazer os ajustes 
+que julgar necessários para garantir resultados mais aderentes aos objetivos da 
+tarefa. 
+13
+“Explique, de forma objetiva, as principais divergências teóricas sobre o conceito 
+de inovação no setor público, ressaltando autores-chave em Administração Públi-
+ca. Utilize ao menos um exemplo prático de implementação em prefeituras brasi-
+leiras.”
+“Atue como um revisor acadêmico. A partir do trecho a seguir, identifique possíveis 
+inconsistências conceituais relacionadas à reforma gerencial do Estado e sugira 
+duas obras de referência para embasamento teórico.”
+“Escreva um resumo sobre teoria política para um quadro teórico de um projeto de 
+pesquisa em ciência política.” 
+Exemplos 
+iniciais de prompt 
+	 Nesse Prompt, a especificidade fica clara. “Conceito de inovação no setor pú-
+blico”, “autores-chave” e “exemplo prático” já norteiam a IAG, reduzindo gene-
+ralidades.
+	 Aqui, a IA saberá que precisa (1) detectar inconsistências e (2) citar obras re-
+levantes. Isso estimula respostas mais ricas. Veja o próximo exemplo, de como 
+não fazer:
+	 Este prompt pode ser considerado ruim, uma vez que é excessivamente gené-
+rico. Teoria política clássica? Teoria política contemporânea? Vai usar as revis-
+tas americanas ou vai focar na literatura do sul global?
+Figura 1: Resultado do ChatGPT após um prompt inadequado
+Fonte: Print de tela do ChatGPT 4o utilizado pelos autores
+14
+	 Pode ter certeza: um resumo como esse em um projeto de pesquisa levaria o 
+candidato direto para o paredão, sem a menor chance de ser salvo. O quadro te-
+órico deve discutir trabalhos específicos sobre o seu objeto, e não fazer uma sa-
+lada mista de Platão a Foucault. Viu como é fácil? Vamos em frente.  
+	 Logo, para que a interação com a IA seja proveitosa, é necessário considerar 
+alguns fundamentos:
+Clareza e especificidade
+	 Prompts Vagos tendem a gerar respostas igualmente genéricas. Se o objetivo é 
+obter uma lista de referências bibliográficas, especificar o período de publicação 
+ou o recorte temático pode fazer toda a diferença. Já se o interesse está em aná-
+lises conceituais, convém detalhar o que se entende por determinado conceito, 
+assim como as possíveis perspectivas teóricas envolvidas, incluindo nomes de 
+autores, períodos de tempo, nomes de periódicos, ênfase metodológica etc.
+Contextualização adequada
+	 Quando o modelo recebe um prompt, ele utiliza todas as pistas disponíveis 
+nessa entrada. Pense então que ele vai analisar o prompt da mesma forma que 
+devolve o conteúdo. Informações como a área do conhecimento, o tipo de traba-
+lho (artigo científico, projeto de pesquisa, relatório técnico) e o nível de profun-
+didade esperado ajudam a delimitar as possíveis respostas. Por exemplo, men-
+cionar explicitamente “pesquisa em Administração Pública” ou “estudo de caso 
+sobre políticas de transparência governamental” redireciona o modelo a buscar 
+informações mais específicas e precisas em seu banco de treinamento.  
+Encadeamento de ideias
+Algumas vezes, especialmente em pesquisas mais avançadas, apenas um prompt 
+não é suficiente. É melhor segmentar a tarefa em etapas, dialogando passo a pas-
+so com o modelo. Por exemplo, pode-se começar solicitando um resumo sobre 
+determinada teoria, para depois pedir uma análise crítica e, em seguida, compa-
+rar autores que dialogam com essa teoria.
+15
+Construção de  prompts 
+mais eficientes  
+	 Após entendermos o cenário geral, precisamos conhecer alguns fundamentos 
+que norteiam a construção de prompts mais eficientes. A seguir, apresentamos 
+um conjunto de instruções simples e objetivas para melhorar a interação com 
+modelos de linguagem em atividades acadêmicas. Cada dica vem acompanha-
+da de um exemplo de prompt para ilustrar como aplicar a orientação na prática. 
+Note que cada uma separadamente poderá gerar respostas rasas. A ideia é que 
+você junte os tópicos abaixo para um prompt mais complexo.
+1. Delimite o objeto de pesquisa
+	 Detalhar o tema e o recorte mitiga respostas vagas ou muito amplas.
+2. Adicione o contexto acadêmico
+	 Especificar a disciplina, o referencial teórico ou o âmbito geográfico orienta o 
+modelo sobre o cenário de discussão.
+3. Use termos específicos e palavras-chave
+	 Incluir conceitos técnicos ou expressões-chave ajuda a IA a focalizar o tema 
+central do pedido.
+“Elabore um resumo dos principais estudos empíricos sobre transparência muni-
+cipal no brasil entre 2015 e 2020, destacando as metodologias empregadas” 
+“Em uma abordagem de Políticas Públicas sobre orçamento participativo, quais 
+teorias ou frameworks são mais recorrentes na literatura europeia recente?
+“Liste em formato de tabela as principais  ‘metodologias mistas (quantitativo + 
+qualitativo)  utilizadas em investigações sobre governança local desde 2015”
+16
+4. Solicite exemplos ou aplicações práticas
+	 Pedir ilustrações concretas torna o conteúdo mais pertinente para quem rea-
+liza pesquisas empíricas.
+5. Combine variáveis e delimite parâmetros
+	 Solicitar resultados com base em datas, regiões ou enfoques metodológicos 
+específicos aumenta a pertinência do output.
+6. Peça ao modelo para explicitar possíveis contradições
+	 Ao se solicitar a identificação de conflitos teóricos ou metodológicos, amplia-
+-se a visão crítica sobre o tema.
+7. Solicite que o modelo destaque falhas ou incertezas
+	 Ao requerer que a IA aponte lacunas ou limitações, o pesquisador visualiza 
+pontos de melhoria ou aprofundamento. Isso pode ser especialmente útil para 
+escrever a seção de justificativa do seu projeto/pesquisa. 
+“Indique trabalhos publicados entre 2018 e 2022 que examinem políticas de ino-
+vação no setor público brasileiro, com enfoque quantitativo e recorte em cidades de 
+médio porte”
+“A partir do trecho abaixo, elenque as possíveis limitações metodológicas que po-
+dem comprometer a validade dos achados e sugira brevemente como mitigá-las
+“Analise as principais pesquisas sobre reforma administrativa e indique pontos 
+em que os autores divergem nas conclusões”
+“Mostre, com um exemplo de caso real, como a análise de discurso detecta mani-
+pulação política em campanhas eleitorais”
+17
+8. Combine o output com a leitura de dados concretos
+	 Se houver disponibilidade de dados estatísticos ou relatórios oficiais, integrar 
+essas informações ao prompt trará respostas que relacionam teoria e prática.
+9. Peça ao modelo para se autoavaliar
+	 Solicitar uma verificação interna sobre possíveis omissões ou vieses pode re-
+velar detalhes que não apareceriam em um pedido convencional.
+10. Use símbolos para destacar partes de seu prompt
+	 Você já notou que, quando copia a saída do modelo e cola no seu editor de 
+texto, o output vem com vários símbolos, como * # ’ e afins? Então, isso provém 
+da lógica de programação na qual os modelos são baseados. 
+	 Geralmente, você não vai precisar desses separadores para seus prompts aca-
+dêmicos, mas deixamos aqui algumas dicas básicas. Nos materiais presentes nos 
+apêndices, você pode se aprofundar nisso.
+ 
+Cerquilha #
+Uso recomendado: Enfatizar tópicos principais ou palavras-chave. Use # para 
+destacar o assunto central do seu prompt, ajudando a IA a focar no que é mais 
+importante.
+#Objetivo
+##Metodologia
+###Limitações
+ 
+Exemplo prático: “Organize sua resposta em: ##Definição #Exemplos #Aplica-
+ções ##Críticas”
+ 
+“Com base nestes indicadores de desempenho (cole aqui os dados), interprete a evo-
+lução dos gastos públicos em saúde e relacione com o conceito de accountability 
+horizontal”
+“Leia sua explicação sobre a implementação do orçamento participativo e liste tó-
+picos que você pode ter deixado de abordar, incluindo contra-argumentos relevan-
+tes”
+18
+Colchetes angulares < >
+Uso recomendado: Delimitar categorias, conceitos ou variáveis.
+Explique <conceito> considerando o contexto de <área>
+Exemplo prático: “Explique <inteligência artificial> considerando o contexto 
+de <ciências sociais>”
+ 
+Parênteses ( )
+Uso recomendado: Fornecer informações adicionais ou explicativas.
+Analise este tema (considere implicações éticas e sociais)
+Exemplo prático: “Analise o uso de algoritmos no jornalismo (considere ques-
+tões de transparência)”
+ 
+Colchetes [ ]
+Uso recomendado: Indicar opções ou alternativas.
+Discuta as abordagens [qualitativa/quantitativa] para este problema
+Exemplo prático: “Apresente métodos [experimentais/observacionais] para es-
+tudar comportamento político online”
+ 
+Chaves { }
+Uso recomendado: Definir parâmetros ou configurações específicas.
+Gere um resumo {extensão: 150 palavras, foco: aspectos metodológicos}
+Exemplo prático: “Critique este argumento {profundidade: acadêmica, perspec-
+tiva: epistemológica}”
+Calma!
+Não é preciso usar os exemplos acima. Só achamos importante saberem que eles 
+existem. Geralmente, você poderá ter excelentes resultados sem isso. Porém, 
+quando ficar craque dos prompts, dê uma tentada e veja se consegue resultados 
+melhores.
+19
+ELEMENTOS DE UM 
+BOM PROMPT
+02
+20
+	 Para obter melhores respostas, estruture o prompt considerando cinco dimen-
+sões: função, tarefa/contexto, estilo, formato/restrição e público-alvo. A seguir, 
+detalhamos cada elemento com exemplos. Lembre-se de que muitas vezes você 
+vai querer usar todos simultaneamente; já em outras ocasiões só precisará de al-
+gumas dimensões.
+3.1 Função/Papel (Role)
+	 Ao designar à IA a “função” ou papel de um certo especialista ou profissional, 
+torna-se mais provável receber respostas consistentes com o que se espera. Por 
+exemplo, em uma pesquisa sobre políticas públicas, pode ser útil pedir à IA que 
+assuma a função de um “analista de políticas públicas” ou de um “revisor acadê-
+mico” na área de Gestão Pública. 
+Exemplo de prompt completo:
+	 Nesse prompt, a função (professor universitário especializado em Gestão Pú-
+blica) e o contexto (programas de transparência governamental no Brasil) es-
+tão muito claros, possibilitando ao modelo focar em informações e perspectivas 
+mais adequadas ao tema.
+Outros exemplos:
+1.	Parecerista de revista científica
+	 Analisa coerência argumentativa, consistência metodológica e relevância dos 
+resultados para publicação acadêmica.
+2.	Revisor de metodologia quantitativa
+	 Examina a adequação de questionários, a definição e operacionalização de 
+variáveis, o desenho amostral e os testes estatísticos aplicados. 
+3.	Professor especialista em métodos qualitativos
+	 Oferece suporte em delineamento de pesquisa qualitativa, seleção de entre-
+vistados e análise de conteúdo.
+“Assuma a função de um professor universitário especializado em Gestão Pública, 
+com ênfase em políticas de transparência e governança. Diante disso, elabore um 
+panorama introdutório sobre a evolução histórica dos programas de transparência 
+governamental no Brasil, destacando a influência das inovações tecnológicas e a im-
+portância do controle social.”
+21
+4.	Especialista em revisão sistemática de literatura
+	 Orienta sobre critérios de inclusão e exclusão, identifica bases relevantes e au-
+xilia na síntese de achados comparados.
+5.	Tradutor acadêmico nativo em inglês
+	 Garante fluência e precisão na transposição de termos técnicos, respeitando 
+conceitos e estilo formal.
+6.	Membro de comitê de ética em pesquisa
+	 Avalia possíveis riscos éticos e metodológicos, sugerindo adequações em ter-
+mos de consentimento informado e proteção de dados.
+3.2 Tarefa/Contexto
+	 Definir a tarefa significa explicar o que você deseja obter: um resumo, uma 
+análise comparativa, um estado da arte, um argumento crítico. Além disso, in-
+cluir o contexto do que está sendo buscado — por exemplo, se a pesquisa é so-
+bre participação cidadã em licitações públicas ou sobre análise comparada de 
+diferentes leis de acesso à informação. Geralmente, tarefa e contexto devem ser 
+expostos juntos para o melhor resultado.
+Exemplo de prompt completo:
+	 Aqui, a tarefa (comparativo entre legislações) e o contexto (América Latina, 
+período pós-2015, enfase em accountability) estão claros, direcionando a res-
+posta para uma análise mais aprimorada.
+3.3 Estilo/Tom
+	 O estilo acadêmico costuma ser objetivo, claro e impessoal. Porém, em alguns 
+casos, pode-se desejar uma abordagem mais didática ou uma linguagem mais 
+acessível. Deixar isso explícito no prompt tende a gerar saídas (outputs) mais 
+próximas do objetivo do texto. 
+“Preciso que você atue como um consultor acadêmico em Políticas de Acesso à Infor-
+mação. Apresente um comparativo entre a Lei de Acesso à Informação (LAI) brasi-
+leira e legislações similares em países da América Latina, destacando aspectos histó-
+ricos, principais avanços e desafios contemporâneos. Foque em dados pós-2015 e na 
+relevância de práticas de transparência para a accountability governamental.”
+22
+Exemplo de prompt completo:
+	 A menção a “linguagem formal, mas acessível” e “exemplos práticos de cida-
+des brasileiras” orienta como a resposta deve ser construída em termos de estilo 
+e conteúdo. 
+	 Algumas sugestões para pedir um tom mais formal: acadêmico, objetivo, for-
+mal, impessoal, didático, reflexivo, persuasivo, argumentativo, descritivo, deta-
+lhado, instrutivo. Esses estilos são adequados para textos acadêmicos. 
+	 Já quando queremos um tom informal, devemos pedir um estilo narrativo, 
+criativo, ilustrativo, leve, acessível, humorístico. Esses estilos são apropriados 
+para aulas e materiais para públicos mais amplos.
+3.4 Formato/Restrição
+	 Em muitos casos, devemos definir limites de extensão, estrutura do texto ou 
+tipo de resposta (lista, texto corrido, tabela comparativa etc.) que esperamos. 
+Isso ajuda na hora de incorporar o texto em relatórios, artigos ou apresentações 
+(com a devida revisão humana, é claro!).
+Exemplo de prompt completo:
+	 Ao indicar “aproximadamente 300 palavras” e “dois parágrafos”, delimita-se a 
+forma final esperada, o que facilita a integração do conteúdo à pesquisa. O Qua-
+dro 1 apresenta diferentes formatos para prompts acadêmicos. 
+“Explique, de forma didática e organizada, a relevância do orçamento participativo 
+para a democratização da gestão pública. Utilize exemplos práticos de cidades bra-
+sileiras e mantenha uma linguagem formal, mas acessível para estudantes de gradu-
+ação em Administração.”
+“Elabore um texto de aproximadamente 300 palavras que apresente os principais 
+argumentos contra e a favor da implementação de parcerias público-privadas em 
+saneamento básico. Estruture o texto em dois parágrafos: no primeiro, apresente as 
+vantagens segundo a literatura; no segundo, discuta as críticas mais recorrentes.”
+23
+Textuais básicos
+Formatos 
+Acadêmicos
+Formatos visuais
+Formatos 
+Documentais
+Texto direto
+Resumo estruturado
+ou expandido
+Nuvem de palavras
+Apresentação 
+de slides
+Lista (bullet points)
+Fichamento
+(resenha crítica) 
+Fluxograma ou 
+organograma
+Planilha estruturada
+Comparação lado a 
+lado
+Parecer acadêmico
+Tabela/Quadro
+Arquivo BibTeX, 
+RIS
+Guia prático 
+(how-to)
+E-mail formal, 
+cover letter
+Linha do tempo
+Arquivo LaTeX, 
+HTML, JSON
+Passo a passo 
+(tutorial)
+Introdução, conclu-
+são
+Mapa mental
+Documento CSV, 
+TXT, PDF
+Perguntas e respos-
+tas (Q&A ou FAQ) 
+Quadro teórico ou 
+framework analítico 
+Grafo de redes
+Formato script
+Glossário/Definições
+Relatório técnico
+Gráficos
+Doc. Markdown
+E-mail informal
+Códigos/Script
+Quadro 1: Formatos para prompts acadêmicos
+Fonte: Elaborado pelos autores com auxílio de ChatGPT 4o
+3.3 Público - Alvo
+	 É algo que frequentemente será definido pela função ou estilo, mas definir 
+para quem o texto ou informação se destina permite calibrar o grau de comple-
+xidade, de detalhe e de terminologia especializada adotada para o modelo. Um 
+texto para iniciantes não deve abusar de jargões; já um texto para avaliadores de 
+um doutorado pode ter maior profundidade teórica.
+Exemplo de prompt completo:
+“Escreva um guia introdutório sobre a teoria dos Novos Institucionalismos aplicada 
+à Administração Pública. Imagine que o público é composto de servidores munici-
+pais de nível superior que ainda não possuem formação acadêmica avançada, mas 
+precisam compreender os conceitos básicos para aplicar em rotinas de gestão.”
+	 Nesse exemplo, a IA tende a adotar um tom intermediário, sem perder o rigor 
+conceitual, mas evitando termos excessivamente técnicos ou profundos. Abaixo, 
+estão outros exemplos de públicos que poderão fazer parte da vida acadêmica:
+•	  Público geral sem formação acadêmica; 
+•	  Estudantes universitários em fase inicial, no primeiro contato com pes-
+quisa científica;
+•	  Graduandos em fase de Iniciação Científica ou desenvolvendo Trabalho 
+de Conclusão de Curso;
+•	  Profissionais buscando fundamentação científica para sua prática de tra-
+24
+balho;
+•	  Técnicos e consultores que utilizam pesquisas científicas em sua ativida-
+de cotidiana;
+•	  Profissionais com experiência em pesquisa aplicada e produção técnico-
+-científica;
+•	  Mestrandos em processo de desenvolvimento de dissertação e primeiras 
+publicações científicas;
+•	  Doutorandos em fase de pesquisa original e desenvolvimento de contri-
+buição teórica;
+•	  pesquisadores em pós-doutoramento e jovens doutores em início de car-
+reira acadêmica independente;
+•	  Avaliadores de periódicos científicos e membros de comitês editoriais de 
+publicações acadêmicas;
+•	  Pesquisadores seniores com histórico consolidado de publicações de alto 
+impacto. 
+	 Você também pode solicitar que a IA adeque a linguagem de acordo com a 
+idade do seu público-alvo. Então, se o material vai ser consumido por crianças 
+ou adolescentes, basta adicionar essa informação para aumentar a chance de o 
+resultado atender ao objetivo do trabalho. Assim, você pode dizer que é uma 
+aula para alunos do ensino básico ou mesmo colocar, no prompt, a idade do pú-
+blico ou o ano escolar.
+ “Explique-me o conceito de grandes modelos de linguagem como se eu tivesse 5 anos.”
+Apresentados os principais elementos de um bom prompt, fizemos um quadro-
+-resumo para ficar mais fácil ainda, porque de difícil já basta acompanhar seu 
+time no brasileirão!
+Elemento
+Descrição
+Exemplo de Aplicação
+Função/Papel
+Indica qual perspectiva ou 
+função a IA deve “assumir”.
+“Você é um professor de Po-
+líticas Públicas especializa-
+do em licitações públicas.”
+Tarefa/Contexto
+Delimita o que se quer ob-
+ter (resumo, análise, refe-
+rências) e em qual tema ou 
+contexto.
+“Apresente um estado da 
+arte sobre controle social 
+em conselhos municipais, 
+com foco na literatura pós-
+2015.”
+Estilo/Tom
+Determina o tom (formal, 
+didático, argumentativo), 
+a linguagem (acadêmica, 
+acessível) e eventuais exi-
+gências de citação.
+“Use linguagem formal, mas 
+inclua exemplos práticos 
+para estudantes de gradua-
+ção.”
+Quadro 2: Cinco elementos de um prompt
+25
+Formato/Restrição
+Define a estrutura (tópicos, 
+texto corrido, tabela) e limi-
+tes de extensão (número de 
+palavras, parágrafos).
+“Resuma em até 300 pala-
+vras os principais achados 
+de um artigo sobre gover-
+nança local, dividindo em 
+dois parágrafos.”
+Público-Alvo
+Especifica a quem se desti-
+na (estudantes de iniciação, 
+banca de doutorado, gestor 
+público etc.).
+“Destine a explicação para 
+um público de servidores de 
+nível superior, sem forma-
+ção avançada em pesquisa 
+acadêmica.”
+Como esses elementos funcionam conjuntamente na prática? Primeiro, esclare-
+cemos que nem sempre você precisará de todos simultaneamente, mas o leitor 
+ou a leitora vão notar que usá-los em conjunto tende a gerar resultados melho-
+res de primeira!
+Seguem exemplos de prompts mais extensos, que abrangem todos ou quase to-
+dos esses componentes. Note que o prompt está descrito de forma narrativa, e 
+abaixo colocamos apenas didaticamente como os pontos foram cobertos. Não 
+é preciso usar ambos (texto inicial e depois a separação em cada elemento). So-
+mente o texto inicial de cada exemplo já é suficiente. 
+1.	Exemplo de prompt completo
+“Você é um editor sênior de revista científica em Administração. Preciso de um texto 
+de 2 parágrafos (aproximadamente 250 palavras) que discuta o avanço das parce-
+rias público-privadas em saneamento básico, focando nas perspectivas teóricas pós-
+2015. Mantenha uma linguagem formal, mas didática, e oriente a explicação para 
+mestrandos na área de políticas públicas.”
+Função: editor sênior de revista.
+Tarefa/Contexto: discutir avanço de PPPs em saneamento básico, centrado 
+em teorias pós-2015.
+Estilo: formal e didático.
+Formato/Restrição: 2 parágrafos, ~250 palavras.
+Público-alvo: mestrandos em políticas públicas.
+2.	Exemplo de prompt completo
+“Atue como professor universitário especializado em Sociologia Política. Explique, 
+em até 200 palavras, como a participação digital de movimentos sociais influencia 
+a elaboração de leis de transparência no âmbito municipal. Use exemplos de algum 
+município brasileiro para ilustrar.”
+Fonte: Elaborado pelos autores com auxílio de ChatGPT 4o
+26
+Função: professor de Sociologia Política.
+Tarefa/Contexto: explicar a influência de movimentos sociais na elabora-
+ção de leis de transparência.
+Estilo: texto relativamente curto e objetivo.
+Formato/Restrição: até 200 palavras, incluir um exemplo de município.
+Público-alvo: leitores interessados em interação entre sociedade civil e ges-
+tão pública.
+3.	Exemplo de prompt completo
+“Você é um consultor acadêmico em Ciência Política. Escreva um parágrafo (máxi-
+mo de 100 palavras) que apresente as principais barreiras na adoção de ferramentas 
+de e-governança em cidades de pequeno porte. Adote um tom formal-acadêmico, vol-
+tado a pesquisadores seniores que atuam em políticas de modernização do Estado.”
+Função: consultor acadêmico.
+Tarefa/Contexto: listar barreiras na adoção de e-governança em cidades de 
+pequeno porte.
+Estilo: formal-acadêmico.
+Formato/Restrição: 1 parágrafo, máximo de 100 palavras.
+Público-alvo: pesquisadores seniores em políticas públicas.
+Após detalharmos esses cinco elementos, passaremos, na próxima parte, à dis-
+cussão das técnicas específicas (Zero-Shot, Few-Shot e Chain-of-Thought), de-
+monstrando na prática como cada uma pode ser aplicada em cenários acadêmi-
+cos reais.
+Respira profundo. Conta até 10. Expira profundo. Repita o processo 3 
+vezes.
+Respirou? Agora, calma. A arte do prompt é um cadinho complicada mesmo. 
+Note que ao longo do guia tentamos ser didáticos e separar as coisas. Geralmen-
+te, você fará tudo junto. Se ainda não está conseguindo bons resultados, aqui vai 
+a dica para dar uma roubadinha… No apêndice, tem ferramentas para aprimorar 
+o prompt e mesmo GPTs especializados nisso. Se não está conseguindo, dá uma 
+olhada lá, agora. Não vamos nos importar (muito)!
+27
+TÉCNICAS ESPECÍFICAS 
+E EXEMPLOS DE 
+USO PRÁTICO
+03
+28
+	 A aplicação de algumas técnicas na elaboração de prompts pode melhorar 
+consideravelmente a qualidade das respostas geradas. A seguir, apresentamos 
+três das mais relevantes — Zero-Shot, Few-Shot e Chain-of-Thought. Em se-
+guida, tratamos como os modelos mais avançados no momento, os capazes de 
+“raciocinar", não dependem tanto de tais técnicas.
+3.1 Zero-Shot Learning
+	 Nesta abordagem, o pesquisador apresenta a tarefa diretamente ao modelo, 
+sem fornecer exemplos prévios de como a resposta deve ser formatada, seu con-
+teúdo ou o tom a ser adotado. O modelo, então, baseia-se apenas nas instruções 
+contidas no prompt e em seu treinamento prévio. Este método é útil quando a 
+tarefa é autoexplicativa, bem definida ou quando se busca uma resposta explo-
+ratória inicial e rápida.
+	 Em cenários de pesquisa em ciências humanas, o Zero-Shot pode ser útil para 
+obter definições conceituais, identificar o estado da arte sobre um tema ou gerar 
+hipóteses para investigação. Posteriormente, o usuário pode refinar a resposta 
+com prompts adicionais ou com as técnicas de Few-Shot.
+Exemplos de prompt (Zero-Shot)
+Exemplo 1: Administração Pública
+"Descreva, em até 200 palavras, o conceito de 'accountability horizontal' na admi-
+nistração pública brasileira, citando pelo menos dois autores relevantes no contexto 
+do Brasil." 
+	 O modelo deverá fornecer uma definição concisa de ”accountability horizon-
+tal”, explicando como ela se manifesta no Brasil e mencionando autores brasi-
+leiros que estudam o tema.
+Exemplo 2: Economia
+"Explique a relação entre a política fiscal contracíclica e o crescimento econômico no 
+Brasil entre 2003 e 2015, considerando as principais correntes sobre o tema." 
+	 O modelo deve discutir como a política fiscal contracíclica foi aplicada no 
+Brasil durante o período especificado, analisando seu impacto no crescimento 
+econômico e mencionando diferentes perspectivas teóricas (por exemplo, no-
+vo-desenvolvimentismo, ortodoxia liberal etc.).
+29
+Exemplo 3: Ciência Política
+"Analise o impacto da fragmentação partidária na governabilidade e na implemen-
+tação de políticas públicas no Brasil após a redemocratização, citando pelo menos 
+um estudo empírico recente sobre o tema." 
+	 O modelo deve abordar como a fragmentação partidária no Brasil afeta a ca-
+pacidade do Executivo de governar e implementar políticas, mencionando um 
+estudo empírico recente que investigou essa relação.
+Exemplo 4: Relações Internacionais e Política Externa Brasileira
+"Discorra sobre as mudanças na política externa brasileira em relação à América do 
+Sul entre os governos Lula e Bolsonaro, enfatizando a atuação do Brasil no Merco-
+sul." 
+	 O modelo deverá apresentar uma análise comparativa das abordagens de po-
+lítica externa para a América do Sul durante os governos mencionados, com 
+foco nas ações do Brasil dentro do Mercosul.
+Exemplo 5: Políticas Públicas e Desigualdade
+"Avalie a eficácia do Programa Bolsa Família na redução da desigualdade de renda 
+no Brasil, considerando seus pontos fortes e limitações, e cite ao menos um autor que 
+tenha avaliado o programa em profundidade." 
+	 O modelo deve avaliar o impacto do Bolsa Família na redução da desigualda-
+de, discutindo seus mecanismos, resultados, críticas e limitações, e mencionar 
+um autor ou estudo que tenha analisado o programa.
+	 Na prática acadêmica, a agilidade e rapidez proporcionadas por essa aborda-
+gem são ideais para momentos em que é necessário obter uma resposta inicial, 
+exploratória ou introdutória sobre um tema, permitindo que o pesquisador se 
+situe rapidamente em um novo campo de estudo ou conceito. Além disso, se a 
+resposta obtida for inconsistente, vaga ou superficial, há a necessidade de refinar 
+a pesquisa ou utilizar prompts mais específicos, como no Few-Shot Learning, 
+para aprofundar o conhecimento sobre o assunto. 
+	 Essa metodologia também estimula a exploração inicial, permitindo que o 
+pesquisador faça perguntas abertas e examine diferentes ângulos de um proble-
+ma de pesquisa sem estar limitado a formatos ou respostas predefinidas.
+30
+Uma estranha dica de amigo:
+	 Alguns estudos já evidenciaram que existem frases que, por alguma razão, 
+tendem a gerar resultados melhores dos modelos. Pesquisadores da DeepMind 
+do Google mostraram, em um estudo, que usar as frases “Take a deep breath” 
+e “Let 's think step by step” efetivamente geraram melhorias consideráveis nos 
+resultados dos modelos.
+	 Então, eventualmente, teste usar frases como “Você é meu melhor amigo” 
+“Respire profundamente”, “Pense no problema”, “Elabore os passos na melhor 
+ordem possível e execute checando sua resposta a cada etapa”. Soa meio engra-
+çado, mas funciona!! #fikdik
+3.2 Few-Shot Learning
+	 Diferentemente de pedir para um modelo de linguagem gerar uma resposta 
+"do zero" (zero-shot prompting), o few-shot prompting oferece um caminho mais 
+intuitivo e eficaz. A técnica consiste em fornecer ao modelo alguns exemplos 
+de como você espera que ele complete uma tarefa. Isso cria um "conjunto de 
+treinamento rápido" que reduz a probabilidade de respostas genéricas ou desali-
+nhadas. Assim, o modelo "aprende" o estilo, o formato ou a profundidade dese-
+jados, diminuindo o ruído na resposta final. Note que isso vai além do contexto 
+mencionado anteriormente.
+	 Imagine que você está ensinando um colega a analisar um tipo específico de 
+texto. Em vez de apenas descrever as regras, você mostra alguns exemplos prá-
+ticos, demonstrando o que você espera como resultado. O few-shot prompting 
+funciona de maneira similar.
+ 
+	 É particularmente útil para padronizar estilo, formato ou conteúdo das res-
+postas. Podem ser fornecidos textos escritos por você mesmo para que a respos-
+ta gerada tenha um estilo similar ou fornecer exemplos de relatórios ou textos 
+acadêmicos para facilitar a máquina a compreender como melhor formatar a 
+resposta. 
+	 Mostre ao modelo alguns pares de "entrada" (o problema ou dado inicial) e 
+"saída" (a resposta ou resultado desejado). Esses exemplos demonstram o padrão 
+que você quer que o modelo siga. Após os exemplos, apresente uma nova "en-
+trada" para a qual você deseja que o modelo gere uma "saída" seguindo o padrão 
+aprendido nos exemplos.
+  
+	 Vamos ver alguns exemplos práticos de como aplicar o few-shot prompting 
+em diferentes áreas da pesquisa em ciências sociais.
+ 
+31
+Exemplo 1: Análise temática de entrevistas
+“Classifique os seguintes trechos de entrevistas em categorias temáticas relacionadas 
+ao impacto da tecnologia no trabalho”.
+	 Para tanto, siga a seguinte lógica: Se o trecho original for: "Desde que começa-
+mos a usar o software novo, consigo fazer muito mais em menos tempo. Antes, 
+passava horas organizando planilhas.", retorne-me a categoria: Aumento da efi-
+ciência.
+ 
+Veja outros exemplos:
+Trecho: "O problema é que agora preciso estar online o tempo todo. Sinto 
+que nunca desligo do trabalho."
+Categoria: Intensificação do trabalho
+ 
+Trecho: "Ainda estou aprendendo a usar o sistema. Às vezes me sinto perdi-
+do e demoro mais que antes."
+Categoria: Curva de aprendizado inicial
+ 
+“Agora, veja a entrevista abaixo e classifique cada parágrafo da mesma maneira.”
+ 
+	 Esse Prompt demonstra como classificar trechos de entrevistas em categorias 
+temáticas. Ao fornecer exemplos de trechos e suas categorias correspondentes, 
+o modelo aprende o tipo de análise desejada.
+ 
+ 
+Exemplo 2 – Análise do discurso político
+“No discurso do político A, observou-se a utilização de metáforas para construir uma 
+narrativa de crise e renovação.” [cole uma parte do discurso que permita inferir 
+essa narrativa]
+ 
+“Já o discurso do político B evidencia estratégias de polarização, enfatizando a divi-
+são entre ‘nós’ e ‘eles’ para mobilizar a base eleitoral.” [cole uma parte do discurso 
+que permita inferir essa narrativa]
+“Com base nos exemplos acima, analise criticamente os elementos retóricos presentes 
+no discurso do político C, destacando a utilização de metáforas e estratégias de pola-
+rização.” [cole o discurso político C abaixo]
+ 
+	 Esse prompt trabalha com mais contexto, mas dá exemplos práticos de algu-
+ma análise anterior, o que irá direcionar a IAG para fazer uma análise similar.
+32
+Exemplo 3: Geração de perguntas de pesquisa criativas
+“Gere perguntas de pesquisa originais e relevantes para os seguintes temas em Ciên-
+cia Política”.
+ 
+Tema:  Desigualdade de gênero na política brasileira
+Pergunta de Pesquisa: "Como a sub-representação feminina em cargos po-
+líticos de decisão afeta a formulação de políticas públicas voltadas para a 
+igualdade de gênero no Brasil?"
+ 
+Tema:  Impacto das redes sociais na participação política juvenil
+Pergunta de Pesquisa: "De que maneira o uso de redes sociais influencia o 
+engajamento político de jovens brasileiros, considerando diferentes níveis 
+socioeconômicos?"
+ 
+Tema:  Eficácia de políticas públicas de combate à corrupção
+Pergunta de Pesquisa: "Quais fatores institucionais e sociais contribuem para 
+o sucesso ou fracasso de políticas anticorrupção em diferentes estados bra-
+sileiros?"
+ 
+“Agora, com base na literatura acadêmica brasileira sobre Ciência Política, gere 5 
+opções criativas de perguntas de pesquisa para estudar o presidencialismo de coali-
+zão na atualidade. Considere as mudanças no cenário político após as jornadas de 
+junho de 2013.”
+	 Esse Prompt demonstra como gerar perguntas de pesquisa originais e rele-
+vantes a partir de temas amplos. Ao fornecer exemplos de temas e perguntas de 
+pesquisa associadas, o modelo aprende a criar perguntas que sejam específicas, 
+investigativas e conectadas ao tema central. No prompt final, podemos inclusi-
+ve pedir variações das perguntas e fornecer mais contexto. Você pode fornecer 
+um conjunto de variáveis relevantes para a sua resposta. Por exemplo:
+ 
+“Variáveis relevantes: Operação Lava Jato, impeachment de Dilma Rousseff, au-
+mento de emendas do Legislativo, governo Bolsonaro”
+33
+3.3 Chain-of-Thought (cadeia de raciocínio)
+	 Na técnica de chain-of-thought, você tenta induzir o modelo a expor seu racio-
+cínio passo a passo, de forma a explicitar a linha de pensamento utilizada para 
+resolver um problema ou chegar a uma determinada conclusão. No contexto 
+acadêmico, isso pode ser especialmente interessante para verificar a coerência 
+argumentativa, aprofundar a análise sobre um tema ou construir uma linha lógi-
+ca para uma investigação. Quanto mais você entender do negócio, melhor, uma 
+vez que será possível fazer ajustes finos no conteúdo que está sendo produzido. 
+	 Essa Abordagem é adequada em situações que exigem a demonstração deta-
+lhada do raciocínio empregado, como ao construir uma argumentação teórica, 
+analisar comparativamente conceitos ou autores ou desenvolver a fundamen-
+tação metodológica de um estudo. Funciona também para a preparação de ar-
+tigos, dissertações e teses, permitindo ao pesquisador verificar a lógica de seu 
+trabalho, identificar lacunas na argumentação e refinar a estrutura do desenho 
+de pesquisa. 
+Exemplos de prompt (Chain-of-Thought)
+Exemplo 1: Avaliação de políticas públicas
+"Construa uma cadeia de raciocínio para avaliar o impacto do Programa Bolsa Fa-
+mília na redução da pobreza e da desigualdade no Brasil. A cadeia deve incluir os 
+seguintes passos: (1) verificar os objetivos e o funcionamento do Bolsa Família; (2) 
+encontrar os indicadores de pobreza e desigualdade antes e depois da implementação 
+do programa; (3) averiguar os mecanismos pelos quais o Bolsa Família pode contri-
+buir para a redução da pobreza e da desigualdade, considerando fatores como condi-
+cionalidades e focalização. Com base nisso, (4) apontar as limitações do programa e 
+os desafios para sua sustentabilidade a longo prazo, considerando o contexto fiscal e 
+político brasileiro."
+Exemplo 2: Desenvolvimento econômico e instituições
+"Construa uma cadeia de raciocínio que examine a relação entre instituições inclu-
+sivas, conforme definidas por Acemoglu e Robinson em 'Por que as Nações Fracas-
+sam', e o desenvolvimento econômico sustentável no Brasil. A cadeia deve incluir ao 
+menos os seguintes passos: (1) o conceito de instituições inclusivas; distinga-o de ins-
+tituições extrativistas; (2) o contexto histórico brasileiro, identificando exemplos de 
+instituições que se aproximam dos modelos inclusivo e extrativista; (3) como essas 
+instituições influenciaram o desenvolvimento econômico do Brasil, considerando in-
+dicadores como crescimento do PIB, distribuição de renda e inovação?; (4) com base 
+nessa análise, proponha reformas institucionais que poderiam promover um desen-
+volvimento econômico mais inclusivo e sustentável no Brasil."
+34
+Exemplo 3: Implementação de políticas de transparência
+“Analise os desafios da implementação da Lei de Acesso à Informação (LAI) em mu-
+nicípios de pequeno porte no Brasil. Organize sua resposta em passos. A cadeia deve 
+contemplar os seguintes passos: (1) pesquisar na internet em fontes confiáveis os prin-
+cipais objetivos e dispositivos da LAI; (2) elaborar as potenciais barreiras à imple-
+mentação da LAI em pequenos municípios, considerando fatores como capacidade 
+administrativa, recursos financeiros e cultura política; (3) verificar estratégias que 
+poderiam ser adotadas para superar essas barreiras, baseando-se em experiências 
+bem-sucedidas de outros municípios ou em recomendações de especialistas. Reflita a 
+respeito. Veja se há passos faltantes no processo. Ao final, elabore um texto sobre (4) 
+o impacto esperado da plena implementação da LAI nesses municípios, consideran-
+do aspectos como controle social, accountability e melhoria dos serviços públicos."
+	 Ao exigir que o modelo detalhe cada etapa de seu raciocínio, o pesquisador 
+obtém um "mapa" do processo de construção do conhecimento. Isso facilita a 
+identificação de eventuais pontos fracos na argumentação, seja na fundamen-
+tação teórica, na aplicação empírica ou na conexão entre diferentes conceitos. 
+Além disso, a explicitação do encadeamento lógico é útil para a escrita de seções 
+de artigos, dissertações e teses. A transparência didática proporcionada pela Ca-
+deia de Raciocínio contribui para a clareza, a precisão e o rigor da pesquisa.
+3.4 Prompts para modelos pensantes
+	 Modelos "pensantes" (thinking models), como OpenAI o3/o4, DeepSeek R1, 
+Grok 3 e Gemini 2.5 Pro, representam uma evolução na arquitetura de grandes 
+modelos de linguagem. Diferentemente de modelos tradicionais, eles realizam 
+raciocínio interno autônomo, decompondo tarefas complexas em etapas lógi-
+cas sem intervenção do usuário. A partir de 2025, empresas como a Deep Seek 
+tornaram transparente esse processo, exibindo o caminho de raciocínio seguido 
+pelo modelo, o que  mudou significativamente a interação dos humanos com 
+a IA. Isso modifica bastante a tarefa. Aqui, queremos mais dar o objetivo final 
+ao modelo, providenciar contexto adequado e deixar que ele siga seu caminho 
+para chegar à tarefa demandada.
+Menos é mais.
+	 Modelos de raciocínio costumam ter melhor desempenho quando recebem 
+prompts concisos e objetivos, sem excesso de instruções passo a passo. Ao evitar 
+sobrecarga de ordens, ao contrário dos modelos anteriores, o pesquisador per-
+mite que o modelo mobilize seu processo interno de raciocínio sem interferên-
+cias.
+35
+	 Aqui, você quer apenas definir a tarefa, o formato, as restrições ou observações 
+e adicionar bastante contexto. Os modelos de raciocínio funcionam MUITO 
+bem com BASTANTE contexto. Então, não hesite em providenciar páginas e 
+páginas de textos, referências e materiais que considerar relevantes. Em inglês, 
+eles chamam essa prática de “context dump”, um verdadeiro despejo de contex-
+to. Não hesite em mandar bastante material para ajudar a IA a raciocinar e en-
+tender o que você quer.
+	 Mas em suma a ideia é ser um tiro único. Será o modelo que vai tentar chegar 
+onde você quer.
+Exemplo 1:
+• Tarefa: 
+	 Analisar criticamente o impacto da globalização na construção e transforma-
+ção das identidades culturais dos países latino-americanos, considerando a in-
+tersecção de fatores econômicos, sociais e políticos desde a década de 1990 até 
+o presente, identificando padrões, contestações e resistências culturais específi-
+cas da região.
+• Formato:
+	 Texto acadêmico estruturado de forma analítica, com desenvolvimento ar-
+gumentativo claro e fundamentado. Deve apresentar uma introdução que con-
+textualize o tema e estabeleça a questão central, seguida de uma análise críti-
+ca baseada em referências acadêmicas relevantes. O modelo deve estruturar a 
+resposta como uma revisão de literatura aprofundada, articulando diferentes 
+perspectivas teóricas e evidências empíricas. Sempre que necessário, a exposi-
+ção pode ser complementada com um quadro-síntese para organizar conceitos, 
+correntes teóricas ou dados relevantes. O texto deve manter rigor acadêmico, 
+coerência argumentativa e embasamento em referências relevantes.
+• Restrições/Observações:
+Rigor Epistemológico: Evitar generalizações reducionistas sobre a região, reco-
+nhecendo a heterogeneidade dos processos culturais
+Perspectiva Decolonial: Incorporar teorias e autores latino-americanos, não ape-
+nas interpretações eurocêntricas ou norte-americanas
+Temporalidade: Considerar as diferentes fases da globalização e suas manifesta-
+ções específicas na região
+Materialidade: Ancorar a análise em dados demográficos, estatísticas culturais 
+36
+e indicadores socioeconômicos concretos
+• Contexto: 
+	 A globalização tem sido teorizada de maneiras diversas nas ciências sociais, 
+desde interpretações que a caracterizam como processo de homogeneização cul-
+tural (Ritzer), até perspectivas que enfatizam a hibridização (García Canclini) 
+ou a glocalização (Robertson). Na América Latina, esse fenômeno adquire con-
+tornos particulares devido ao histórico colonial, às assimetrias econômicas e à 
+diversidade cultural da região. Autores como Martín-Barbero, Ortiz e Migno-
+lo oferecem interpretações que contestam narrativas hegemônicas sobre esses 
+processos. A análise deve considerar tanto as forças macroestruturais quanto as 
+práticas culturais cotidianas que moldam as identidades em contextos globali-
+zados, contemplando elementos como indústrias culturais, fluxos migratórios, 
+tecnologias digitais e movimentos sociais contemporâneos.”
+Exemplo 2
+• Tarefa:
+ 
+	 Analisar criticamente os mecanismos pelos quais as políticas de transparên-
+cia institucional influenciam o desenvolvimento e a efetividade da accountabi-
+lity horizontal na administração pública brasileira, examinando a relação entre 
+transparência, controle institucional e governança democrática, identificando 
+barreiras estruturais, oportunidades de fortalecimento e efeitos sistêmicos nos 
+três níveis federativos.
+• Formato:
+	 Relatório técnico-analítico, estruturado para fornecer uma avaliação detalha-
+da dos impactos das políticas de transparência na accountability horizontal. O 
+documento deve conter uma introdução que contextualize a relevância do tema 
+e os objetivos da análise, seguida por uma seção metodológica, detalhando os 
+critérios de avaliação e as fontes utilizadas. O desenvolvimento deve apresentar 
+uma análise sistemática dos mecanismos institucionais envolvidos, destacando 
+desafios e oportunidades com base em evidências empíricas. A seção final deve 
+incluir recomendações práticas para aprimoramento da governança democráti-
+ca e do controle institucional. O relatório deve ser técnico, claro e embasado em 
+dados verificáveis, com tabelas ou gráficos ilustrativos sempre que necessário.
+37
+• Restrições/Observações:
+Distinção Conceitual: Diferenciar claramente accountability horizontal (entre 
+instituições) de accountability vertical (eleitoral) e social (societal)
+Contextualização Histórica: Considerar o legado autoritário e patrimonialista 
+da administração pública brasileira
+Especificidade Institucional: Reconhecer as particularidades do sistema presi-
+dencialista de coalizão brasileiro
+Multidimensionalidade: Incorporar aspectos técnicos, políticos, culturais e ad-
+ministrativos na análise
+Evidências Empíricas: Basear conclusões em dados quantitativos e qualitativos 
+verificáveis, evitando afirmações normativas sem fundamentação
+• Contexto:
+	 A discussão sobre accountability horizontal no Brasil ganhou proeminência a 
+partir da redemocratização e da Constituição de 1988, que estabeleceu um siste-
+ma complexo de checks and balances entre os poderes e criou órgãos específicos 
+de controle como os Tribunais de Contas e o Ministério Público. Posteriormen-
+te, marcos como a Lei de Responsabilidade Fiscal (2000), a Lei de Acesso à In-
+formação (2011) e a criação da Controladoria-Geral da União (2003) ampliaram 
+o escopo das políticas de transparência. Autores como O'Donnell, Schedler e 
+Mainwaring contribuíram para o entendimento teórico da accountability hori-
+zontal, enquanto pesquisadores brasileiros como Abrucio, Filgueiras e Loureiro 
+adaptaram esses conceitos às especificidades institucionais do país. A literatura 
+contemporânea tem destacado tanto avanços significativos quanto desafios per-
+sistentes na relação entre transparência e controle institucional, especialmente 
+considerando variáveis como capacidade estatal, desigualdades regionais e cul-
+tura política.”
+ 
+Uso do conjunto (ensemble) 
+	 Em determinados temas, especialmente, nos casos em que a precisão é crítica, 
+recomenda-se a execução de múltiplos prompts com variações metodológicas 
+complementares. Aqui, a sugestão de múltiplos prompts tratando apenas da ta-
+refa do modelo.
+38
+Exemplo 1: Análise de estudos sobre vacinação infantil 
+Prompt 1: "Realize uma meta-análise crítica dos protocolos metodológicos emprega-
+dos nas pesquisas empíricas sobre vacinação infantil no Brasil, publicadas em peri-
+ódicos indexados entre 2019-2024, identificando limitações epistemológicas, vieses 
+amostrais e fragilidades nos delineamentos de pesquisa."
+Prompt 2: "Analise sistematicamente as inconsistências metodológicas recorrentes 
+na literatura científica sobre imunização pediátrica no contexto brasileiro, com ên-
+fase na avaliação dos critérios de validade interna e externa, protocolos estatísticos 
+empregados e adequação das técnicas de amostragem, considerando o estado da arte 
+da epidemiologia contemporânea."
+Exemplo 2: Políticas de sustentabilidade no setor público
+Prompt 1: "Identifique e analise criticamente os obstáculos estruturais, institucio-
+nais e conjunturais que comprometem a implementação efetiva de políticas públicas 
+orientadas à sustentabilidade socioambiental na administração pública brasileira, 
+considerando as dimensões orçamentária, normativa, e de capacidade administrati-
+va nos diferentes níveis federativos."
+Prompt 2: "Elabore uma análise multidimensional dos fatores limitantes e potencia-
+lizadores da integração de critérios de sustentabilidade na formulação e implemen-
+tação de políticas públicas no Brasil, estabelecendo um diagnóstico que contemple 
+aspectos econômico-financeiros, regulatórios, político-institucionais e socioambien-
+tais, embasado em evidências empíricas do último quinquênio."
+	 Esse tipo de prompt explora a duplicação ou variação de solicitações sobre um 
+mesmo tema a fim de obter versões complementares, permitindo a combinação 
+de respostas para construir um arcabouço mais confiável sobre críticas metodo-
+lógicas. Ideal para metanálises, revisões sistemáticas ou relatórios de políticas 
+públicas, essa abordagem melhora a abrangência e a confiabilidade dos dados, 
+embora aumente o custo computacional devido à necessidade de mais chama-
+das ao modelo. A saída esperada é uma visão consolidada do tema, fortalecendo 
+a qualidade das informações obtidas.
+ 
+Tarefas complexas são onde eles brilham.
+	 Esses modelos se destacam em problemas com 5 ou mais etapas de raciocínio 
+(ex.: análises históricas aprofundadas, revisão de literatura extensa ou compa-
+rações teóricas complexas). Para perguntas ou tarefas simples e altamente es-
+truturadas, muitas vezes um modelo de linguagem “tradicional” é mais direto e 
+menos propenso a pensar em demasia e errar.
+ 
+39
+Use frases como "Considere múltiplas perspectivas antes de concluir" ou "Ana-
+lise criticamente os fatores abaixo" para problemas multidisciplinares.
+ 
+  
+Armadilhas a evitar:
+Cuidado ao pedir cadeia de raciocínio explícita
+De modo distinto da técnica de chain-of-thought, os modelos que “pensam” 
+já fazem esse encadeamento internamente. Pedir que o modelo exponha cada 
+passo pode atrapalhar o desempenho ou resultar em respostas menos claras.
+Não use "Pense passo a passo" ou "Descreva sua lógica". O modelo já faz isso in-
+ternamente.
+	 A elaboração de prompts para modelos pensantes requer uma abordagem di-
+ferenciada, que valorize a clareza e a objetividade, valorizando o raciocínio in-
+terno dos sistemas. Ao evitar instruções excessivas, o pesquisador tira o máxi-
+mo da capacidade desses modelos de estruturar e apresentar análises coerentes, 
+atendendo aos padrões acadêmicos de rigor.
+	 Os espertinhos já notaram que vão ficar um promptões (prompts grandões) 
+às vezes. É isso mesmo? Geralmente, sim, mas lembrem-se que aqui queremos 
+ser didáticos, então podemos estar exagerando na dose… Então, em cada descri-
+ção estamos tentando ser bem detalhados e no final fica 1 página de prompt. 		
+Nem sempre precisa ser isso. Muitas vezes uma ou duas linhas para cada aspec-
+to anunciado acima dá super conta do recado. Só note que modelos “pensantes” 
+conseguem lidar bem com prompts maiores e mais complexos. Aqui, o uso de 
+alguns símbolos, como <> ou {}, podem ser úteis para delimitar cada parte do 
+prompt. 
+3.5 Deep Research Prompting: Potencializando Investigações Acadêmicas 
+Aprofundadas
+	 Diferentemente das abordagens Zero-Shot ou Few-Shot, que dependem pri-
+mordialmente do conhecimento pré-treinado do modelo, modelos que usam 
+o Deep Research, como ChatGPT, Gemini e Perplexity, pesquisam, acessam e 
+integram fontes atualizadas na internet, devolvendo um relatório com o esta-
+do da arte. Portanto, tal tipo de ferramenta, no campo da revisão de literatura, 
+possibilita um mapeamento mais abrangente do estado da arte, identificando 
+correntes teóricas emergentes e lacunas investigativas que poderiam passar des-
+percebidas em abordagens tradicionais. Para o desenvolvimento teórico, facilita 
+a confrontação sistemática de perspectivas divergentes, evidenciando contradi-
+ções conceituais e oportunidades para sínteses inovadoras.
+	 Se pudéssemos simplificar, poderíamos dizer que temos um modelo que racio-
+40
+cina integrado com um poderoso buscador na web. Portanto, a maior parte dos 
+princípios apresentados na seção anterior é válida para aqui. Um prompt bem 
+elaborado direciona o modelo para as fontes mais relevantes, estabelece parâme-
+tros claros para análise e define critérios rigorosos para seleção e apresentação 
+dos resultados. Via de regra, esses modelos fazem perguntas para refinar a pes-
+quisa antes de iniciar, porém os resultados continuam fortemente vinculados ao 
+comando inicial. 
+Vamos ao resumão então!!
+Como estruturar um bom prompt para o Deep Research?
+1.Defina claramente o tema da pesquisa
+O primeiro elemento fundamental é a delimitação clara do objeto de investiga-
+ção, estabelecendo fronteiras conceituais que permitam ao modelo identificar 
+as fontes mais pertinentes. Quanto mais específica for a delimitação, maior será 
+a precisão do corpus bibliográfico selecionado.
+"Pesquise sobre inteligência artificial e democracia."
+"Conduza uma investigação sistemática sobre as implicações epistemológicas e insti-
+tucionais da implementação de sistemas de inteligência artificial generativa nos pro-
+cessos deliberativos democráticos contemporâneos, com ênfase em suas repercussões 
+para a esfera pública digital."
+2. Especifique os principais aspectos a serem analisados
+Dividir o tema em tópicos principais ajuda a obter uma pesquisa mais estrutu-
+rada e abrangente. Você pode, por exemplo, pedir para avaliar esses impactos da 
+IA generativa na democracia digital em termos  de efeitos no discurso político, 
+regulamentação, direitos digitais, riscos futuros etc.
+Inclua discussões sobre  efeitos no discurso político, regulamentação, direitos 
+digitais, riscos futuros etc.
+A pesquisa deve abranger quatro eixos principais: (1) impacto no discurso polí-
+tico, incluindo desinformação e manipulação eleitoral; (2) desafios regulatórios 
+e legislações emergentes para IA na democracia; (3) efeitos nos direitos digitais, 
+como liberdade de expressão, privacidade e viés algorítmico; e (4) riscos futuros, 
+como deepfakes, automação da participação política e transparência no uso da 
+IA em processos democráticos e outros temas próximos.
+41
+3. Peça por fontes variadas e confiáveis
+A ferramenta pode buscar artigos acadêmicos, relatórios governamentais, estu-
+dos de caso e notícias recentes. É interessante especificar o que você deseja.
+"Inclua referências acadêmicas, relatórios de organizações internacionais e estudos 
+de caso concretos."
+"Priorize uma hierarquia de fontes que valorize inicialmente artigos revisados por 
+pares em periódicos indexados, seguidos por publicações de centros de pesquisa espe-
+cializados com rigor metodológico comprovado. Inclua também relatórios técnicos 
+de organismos multilaterais, literatura cinzenta academicamente relevante e, quan-
+do pertinente, conjuntos de dados primários devidamente documentados, a exemplo 
+de estudos de caso"
+4. Inclua recortes temporais ou geográficos, se necessário
+Como não temos filtros, como aqueles presentes em bases indexadoras, a exem-
+plo de SciELO, Scopus e Web of Science, devemos no próprio prompt fazer a 
+definição temporal e histórica. Em muitos casos, a restrição geográfica também 
+pode ser definida. Se for relevante, peça dados de um período específico ou de 
+países diferentes.
+"Compare as abordagens regulatórias da UE, EUA e ONU em relação à IA na demo-
+cracia digital."
+"Concentre a análise no período pós-2016, com ênfase comparativa nas abordagens 
+regulatórias implementadas no espaço europeu (particularmente o AI Act da União 
+Europeia), no contexto norte-americano (iniciativas federais e estaduais), nas di-
+retrizes das Nações Unidas e nos marcos regulatórios emergentes no Sul Global, es-
+pecialmente Brasil, Índia e África do Sul. Esta delimitação permite capturar tanto 
+a evolução temporal das respostas institucionais quanto suas variações geopolíticas 
+frente a desafios semelhantes."
+5. Formate a saída para melhor compreensão
+Tais ferramentas podem produzir relatórios extensos que podem superar o ta-
+manho de um artigo acadêmico padrão (8 mil palavras), porém sem a definição 
+exata do que queremos alcançar geralmente vai levar a um relatório mais gene-
+ralista, senão genérico.
+Portanto, seja bem específico sobre o que você deseja como resultado final. Pe-
+dir tabelas, resumos estruturados ou gráficos pode facilitar a visualização dos 
+dados.
+42
+"Apresente nos resultados em um quadro resumo apontando diferenças entre os paí-
+ses."
+"Estruture os resultados conforme um framework metodológico que inclua inicial-
+mente um mapeamento sistemático da literatura atual, seguido por uma análise com-
+parativa das principais abordagens teóricas e seus pressupostos. Avance para uma 
+avaliação crítica das evidências empíricas disponíveis, identificando contradições e 
+lacunas metodológicas. Conclua com proposições para uma agenda de pesquisa fu-
+tura que contenha hipóteses potencialmente testáveis."
+Parada para hidratação!
+Essas ferramentas são capazes de produzir relatórios bem extensos, mas isso não 
+significa que você deve usar tais textos diretamente. Inclusive, não deve usar 
+nem revisando. A ideia é usar essas ferramentas para te ajudar na pesquisa. No 
+atual momento, elas ainda não servem nem como revisões de literatura de fato!!
+Tá vivo? Achou a seção muito densa? Tenha calma!
+Aqui, a gente explicou muita coisa mesmo. Note que os tópicos tem uma certa 
+lógica de ir ficando mais difícil, então normal não entender tudo de uma vez. Os 
+tópicos funcionam separadamente também. Não teste tudo junto, mas vá tes-
+tando cada tipo repetidas vezes até ir pegando o jeito tal qual fazia Dexter com 
+seus desafetos (viu Dexter? Não? Veja pelo amor do divino espírito santo).
+É como a vida depois dos 40 (no caso do Dalson, Rafa é novinho ainda. Ass: Rafael). 
+Devagar e sempre. ps. 40 com rosto de 30 e performance reprodutiva de 20, para 
+manter o decoro da linguagem, :).
+43
+A IA COMO PARCEIRA 
+NA CONSTRUÇÃO 
+E REFINAMENTO 
+DE PROMPTS
+04
+44
+	 Um aspecto subestimado no uso de modelos de linguagem é a possibilidade 
+de construir o próprio prompt em diálogo com a inteligência artificial generati-
+va. Em vez de simplesmente formular uma instrução final e enviá-la, o pesqui-
+sador pode engajar a IAG para solicitar melhorias, perguntas adicionais ou es-
+pecificações que ajudem a moldar o objetivo pretendido. Esse processo iterativo 
+permite que o modelo identifique lacunas ou ambiguidades no pedido original, 
+oferecendo sugestões de reformulação até que o usuário esteja satisfeito. 
+Perguntando antes de executar
+	 Uma forma prática de implementar essa abordagem é: em vez de ordenar di-
+retamente que a IA faça um resumo ou explique um conceito, o pesquisador 
+pode primeiro dizer ao modelo: “Analise a tarefa que desejo executar e me faça 
+perguntas relevantes para que, ao final, possamos gerar o conteúdo desejado 
+com maior precisão”. Assim, a própria IA se torna uma espécie de consultora na 
+etapa de elaboração do prompt, questionando detalhes — extensão, público-al-
+vo, profundidade teórica, autoria, tipo de linguagem etc. Vejamos um exemplo. 
+Prompt:
+“Preciso elaborar um resumo de um capítulo sobre políticas de transparência gover-
+namental, mas quero que você me faça perguntas para entender melhor o tipo de resu-
+mo, a extensão e o foco antes de escrever qualquer texto. Assim que me sentir satisfeito 
+com as perguntas respondidas, irei te avisar para preparar o resumo final. Responda 
+‘sim’ se compreendeu.”
+Nesse cenário, o modelo tende a responder com algo como:
+“Sim. Primeiro, gostaria de saber qual o nível de detalhamento desejado (poucas li-
+nhas, parágrafos etc.), se o capítulo contém dados empíricos importantes e se há al-
+gum recorte teórico que você queira salientar...”
+Essas interações sucessivas viabilizam ajustes finos antes de produzir o resumo 
+final, evitando perda de tempo com reformulações posteriores.
+Exemplo de refinamento de prompt
+Outra estratégia é pedir à IA que avalie a clareza de um prompt provisório e su-
+gira melhorias. Por exemplo, se o pesquisador pretende comparar modelos de 
+governança, pode apresentar um rascunho de prompt para a IA, solicitando crí-
+ticas ou pontos a esclarecer:
+Prompt inicial (rascunho):
+45
+“Compare diferentes modelos de governança, trazendo exemplos práticos de países e 
+citando autores que falem sobre a eficácia de cada um.”
+Pedido de refinamento:
+“Agora, ajude-me a melhorar este prompt. Que informações adicionais devo incluir 
+para deixar a tarefa mais clara e obter um melhor resultado?”
+Com base nessa solicitação, a IA pode responder sugerindo a inclusão de um 
+intervalo temporal (“pós-2000”), de um recorte regional (“países da América 
+Latina”), de formatos de output (“em dois parágrafos”, “em formato de tabela 
+comparativa” etc.) e de um tom (“formal acadêmico”). O pesquisador, após in-
+corporar ou rejeitar as sugestões, pode enfim gerar o prompt definitivo, mais 
+bem adaptado aos requisitos de seu trabalho. 
+Viu como é fácil? Segue o jogo.
+Em síntese, incorporar a IA como parceira na formulação e no refinamento de 
+prompts melhora a qualidade dos outputs. Esse processo dialógico aprimora 
+nossa construção de prompts e reforça a dimensão crítica do uso de IA, lem-
+brando-nos de que a construção de conhecimento é, antes de tudo, um exercí-
+cio contínuo de formulação de boas perguntas.
+ 
+46
+APLICAÇÕES PRÁTICAS 
+NA PESQUISA ACADÊMICA
+05
+47
+	 Os modelos de linguagem podem auxiliar em diversas fases de um projeto de 
+pesquisa. A seguir, descrevemos aplicações típicas em áreas como Administra-
+ção Pública, Políticas Públicas, Sociologia, Ciência Política e campos afins, sem 
+recorrer às áreas de exatas ou biológicas. Desculpem aí, mas as dicas compar-
+tilhadas aqui podem ser facilmente aplicadas a outras áreas do conhecimento 
+com as devidas adaptações. Beleza? Vamos em frente.
+5.1 Brainstorm e geração de ideias
+	 Para pesquisadores em início de projeto ou que buscam novos enfoques, a IA 
+pode propor outros temas, recortes e abordagens, funcionando como um ver-
+dadeiro sparring partner intelectual. Suponha que um mestrando ou doutoran-
+do deseje estudar um tema amplo, como inovação na gestão pública, políticas 
+de desenvolvimento regional ou o impacto de reformas econômicas, mas ainda 
+não definiu um objeto específico de pesquisa. Um prompt bem formulado pode 
+ajudar a organizar possibilidades, sugerir ângulos inexplorados e até mesmo co-
+nectar o tema a autores e teorias relevantes.
+Exemplos de prompt
+Exemplo 1: Inovação na gestão pública em cidades inteligentes
+"Assuma a função de um pesquisador sênior especializado em inovação na gestão 
+pública e cidades inteligentes. Gere cinco ideias de pesquisa originais relacionadas à 
+adoção de tecnologias digitais e inteligência artificial em municípios de médio porte 
+do Brasil (entre 100.000 e 500.000 habitantes). As propostas devem enfatizar a me-
+lhoria de serviços públicos para o cidadão, a promoção da transparência adminis-
+trativa e a participação social. Para cada ideia, sugira um possível título provisório 
+para a pesquisa." 
+	 O modelo deverá gerar cinco ideias de pesquisa, cada uma com um título pro-
+visório, abordando diferentes aspectos da inovação na gestão pública em cida-
+des inteligentes de médio porte no Brasil, com foco em tecnologias digitais, IA, 
+melhoria de serviços, transparência e participação.
+Exemplo 2: Transparência governamental e accountability
+"Você é um orientador de pós-graduação em Administração Pública com foco em 
+transparência e accountability. Um aluno deseja pesquisar a adoção de ferramentas 
+de transparência governamental em âmbito municipal. Liste cinco possíveis temas 
+de pesquisa sobre esse assunto, relacionando cada um com possíveis métodos de pes-
+quisa (quantitativos, qualitativos ou mistos) e indicando pelo menos dois autores de 
+referência para cada tema, um deles necessariamente brasileiro." 
+48
+	 O modelo deve apresentar cinco temas de pesquisa distintos, cada um acom-
+panhado de sugestões de métodos de pesquisa adequados e a indicação de dois 
+autores relevantes, sendo um brasileiro, para embasar teoricamente a pesquisa.
+Exemplo 3: Desenvolvimento regional e políticas públicas
+"Imagine que você é um pesquisador experiente em desenvolvimento regional e po-
+líticas públicas. Um doutorando está interessado em estudar o impacto de políticas 
+de incentivo fiscal no desenvolvimento econômico de regiões menos desenvolvidas do 
+Brasil. Proponha quatro temas de pesquisa inovadores dentro dessa temática, espe-
+cificando para cada um: (a) um objetivo geral; (b) uma possível questão de pesquisa; 
+e (c) uma abordagem metodológica (estudo de caso, análise comparativa, análise 
+econométrica etc.)." 
+	 O modelo deverá sugerir quatro temas de pesquisa originais, cada um com 
+um objetivo geral claro, uma questão de pesquisa bem definida e uma sugestão 
+de abordagem metodológica para guiar a investigação.
+	 Ao simular o papel de um pesquisador experiente ou de um orientador, a 
+IA organiza um mini cenário de pesquisa, indicando temas e recortes possí-
+veis, métodos de pesquisa, autores relevantes e até mesmo sugestões de títulos 
+e questões de pesquisa. Isso fornece ao pesquisador um ponto de partida para 
+sua investigação, permitindo que ele avalie as opções geradas, refine as ideias e 
+faça uma curadoria com base em seu background, seus interesses e a viabilidade 
+do projeto. O uso da IA para brainstorm e geração de ideias economiza tempo, 
+estimula a criatividade e amplia o horizonte de possibilidades do pesquisador, 
+contribuindo para a definição de projetos de pesquisa originais e bem funda-
+mentados. 
+Cuidado: As IAGs se baseiam no conhecimento disponível e podem repro-
+duzir ideias que já existem como se fossem novas!
+5.2 Busca por literatura acadêmica
+	 Embora a IA não substitua as bases de dados indexadas como Scopus, Web of 
+Science, SciELO ou Google Scholar, ela ajuda a sintetizar referências e  identifi-
+car o estado da arte sobre um tema, aponta linhas teóricas menos conhecidas ou 
+emergentes e até mesmo pode sugerir combinações pouco exploradas de con-
+ceitos e métodos.
+49
+Exemplos de prompt
+Exemplo 1: Orçamento participativo na América Latina
+"Atue como um bibliotecário virtual especializado em políticas públicas e estudos ur-
+banos na América Latina. Indique cinco artigos peer-reviewed publicados a partir 
+de 2019 sobre orçamento participativo em cidades latino-americanas. Para cada ar-
+tigo, destaque o principal método de pesquisa adotado, o país e a cidade analisados 
+e, se possível, mencione o link DOI ou a fonte de onde obtê-lo. Os artigos devem estar 
+em português, inglês ou espanhol." 
+	 O modelo deverá listar cinco artigos acadêmicos sobre orçamento participati-
+vo na América Latina, publicados a partir de 2019, fornecendo informações so-
+bre o método utilizado, o contexto analisado e o DOI ou outra fonte para cada 
+artigo. Pedir o DOI é importante para evitar a criação de referências artificiais. 
+SEMPRE verifique se aquele artigo está disponível nas bases indexadas. 
+Exemplo 2: Teorias de burocracia e implementação de políticas
+"Imagine que você é um especialista em teorias da burocracia e implementação de po-
+líticas públicas. Um pesquisador está buscando referenciais teóricos para analisar a 
+implementação de políticas de saúde no Brasil. Indique quatro autores ou correntes 
+teóricas relevantes para esse tema, explicando brevemente como cada um(a) pode 
+contribuir para a análise da implementação de políticas. Para cada autor ou corren-
+te, sugira ao menos uma obra de referência em português ou inglês." 
+	 O modelo deverá indicar quatro autores ou correntes teóricas úteis para o 
+estudo da implementação de políticas de saúde, explicando a contribuição de 
+cada um e sugerindo obras de referência.
+Exemplo 3: Métodos qualitativos em Ciência Política
+"Atue como um especialista em metodologia de pesquisa em ciência política. Um dou-
+torando precisa de referências sobre métodos qualitativos para estudar a relação entre 
+mídia e comportamento político no Brasil. Indique cinco livros ou artigos metodoló-
+gicos relevantes, publicados a partir de 2015, que abordem técnicas como análise de 
+discurso, process tracing, QCA,  etnografia política ou entrevistas em profundidade. 
+Para cada referência, forneça um breve resumo destacando sua contribuição meto-
+dológica." 
+	 O modelo deverá sugerir cinco referências metodológicas relevantes para a 
+pesquisa qualitativa em ciência política, com foco em técnicas adequadas ao es-
+tudo da relação entre mídia e comportamento político, publicadas a partir de 
+2015, com resumos que destaquem a contribuição de cada obra.
+50
+	 A IA, como um bibliotecário ou especialista, auxilia pesquisadores a navegar 
+na literatura acadêmica, sugerindo metodologias, recortes e teorias que podem 
+ser relevantes. Essas sugestões, embora não substituam uma busca sistemática, 
+podem agilizar partes da pesquisa. Entretanto, no atual momento, esses resulta-
+dos das IAs generativas não são suficientemente confiáveis e completos e devem 
+ser verificados e complementados por outras fontes acadêmicas. Note também 
+que muitas IAs que pesquisam apresentam fontes não acadêmicas.
+Tranquilo e calmo? Segue o jogo. 
+5.3 Leitura, resumo e síntese crítica
+	 O volume de textos em qualquer área pode ser grande, sobretudo em temas 
+que envolvem legislação comparada, revisão de literatura, análise de políticas 
+públicas ou estudos de casos. Um prompt bem estruturado pode resumir artigos, 
+capítulos de livros ou relatórios extensos, economizando tempo na fase inicial 
+de leitura e permitindo uma compreensão mais rápida dos principais pontos de 
+cada obra. Além disso, a IA pode ajudar a realizar sínteses críticas, identifican-
+do os pontos fortes e fracos de um estudo, comparando diferentes abordagens 
+sobre um mesmo tema ou conectando argumentos de diversos autores. Agora, 
+você tem a faca e o queijo na mão para aumentar a sua produtividade e melho-
+rar a qualidade dos seus trabalhos.
+Exemplo 1: Resenha acadêmica de um artigo
+"Escreva uma resenha acadêmica de até 400 palavras sobre o artigo anexo. A resenha 
+deve conter: (1) uma breve introdução ao tema e à pergunta de pesquisa do artigo; (2) 
+um resumo do referencial teórico e da metodologia utilizados pelos autores; (3) uma 
+síntese dos principais resultados e conclusões do estudo; e (4) uma avaliação crítica 
+dos pontos fortes e das limitações do artigo, considerando sua contribuição para a li-
+teratura sobre o tema. Adote uma linguagem formal."
+	 Esse Prompt é funcional porque estrutura a resenha em seções bem definidas, 
+cobrindo os principais elementos de um artigo científico. A solicitação de uma 
+avaliação crítica, com a identificação de pontos fortes e limitações, incentiva 
+uma leitura mais aprofundada e uma postura analítica em relação ao texto. 
+Cuidado: Esses resumos e resenhas devem servir para nos ajudar, e não para 
+substituir a leitura efetiva dos textos!
+Exemplo 2: Comparação de abordagens sobre federalismo fiscal
+"Compare as abordagens de Jonathan Rodden e Rui Prud'homme sobre federalismo 
+fiscal, com base nos textos anexados. Elabore uma síntese de até 600 palavras que 
+identifique os principais pontos de convergência e divergência entre os dois autores 
+51
+em relação aos seguintes aspectos: (1) os problemas do federalismo fiscal em países 
+em desenvolvimento; (2) propostas para a descentralização fiscal; (3) papel dos in-
+centivos na coordenação federativa; e (4) riscos de captura e moral hazard na des-
+centralização."
+	 Esse prompt funciona porque propõe uma comparação focada em autores e 
+aspectos específicos de um tema. A delimitação de pontos de convergência e 
+divergência a serem analisados direciona a leitura e facilita a identificação das 
+contribuições de cada autor. 
+Exemplo 3: Análise crítica de um livro sobre reforma do Estado
+"Escreva uma análise crítica de até 700 palavras do livro 'Reinventando o Governo', 
+de David Osborne e Ted Gaebler. A análise deve abordar: (1) a tese central e os prin-
+cipais argumentos do livro; (2) o contexto histórico em que a obra foi escrita e sua in-
+fluência no debate sobre reforma do Estado na década de 1990; (3) os pontos fortes 
+e as limitações da abordagem proposta pelos autores à luz da literatura posterior so-
+bre governança e administração pública; e (4) a relevância das ideias do livro para o 
+debate atual sobre a modernização do Estado no Brasil. Utilize uma linguagem aca-
+dêmica e faça referências a outros autores que dialoguem com as ideias de Osborne e 
+Gaebler."
+	 Esse prompt é útil porque solicita uma análise sistemática de um livro clássico, 
+contextualizando-o historicamente e relacionando-o com a literatura posterior. 
+A delimitação de pontos a serem abordados, incluindo a tese central, a influên-
+cia da obra, os pontos fortes e fracos e a relevância atual, estimula uma resposta 
+de qualidade. A solicitação de referências a outros autores que dialoguem com 
+as ideias analisadas enriquece a análise e demonstra a capacidade de relacionar 
+diferentes perspectivas sobre um mesmo tema. 
+Cuidado: Sempre confira se todas as referências existem e nunca cite qual-
+quer obra sem ter realizado a leitura!
+	 Esses exemplos mostram como prompts bem formulados podem auxiliar na 
+leitura, no resumo e na síntese crítica de textos acadêmicos e relatórios. É im-
+portante ressaltar, no entanto, que a leitura atenta dos textos originais é a úni-
+ca forma de garantir a precisão e a profundidade da análise. A IA deve ser vista 
+como uma ferramenta auxiliar, e não como um substituto para o trabalho inte-
+lectual do pesquisador.
+52
+5.4 Escrita científica e revisão
+	 Na etapa de redação, a IA pode atuar como um revisor de estilo, um assistente 
+para seções específicas (como Introdução, Objetivos, Metodologia, Resultados 
+e Conclusão) ou até mesmo um "leitor crítico" do seu texto. A ideia não é subs-
+tituir o trabalho do pesquisador, mas ajudar na coesão textual, na fluidez das 
+ideias, no ajuste de linguagem, na clareza da argumentação e na adequação às 
+normas acadêmicas.
+Se liga: Os pesquisadores precisam manter uma postura crítica quanto às sugestões da IA, 
+avaliando cuidadosamente cada alteração proposta e adaptando-a ao seu estilo e aos ob-
+jetivos do trabalho.
+Exemplos
+Exemplo 1: Revisão de estilo e coesão 
+"Atue como um revisor de textos acadêmicos na área de Administração Pública. Re-
+vise o trecho abaixo, de até 250 palavras, focando em melhorar a clareza, a coesão e 
+a concisão. Elimine redundâncias e repetições desnecessárias (como palavras repe-
+tidas) e ajuste a linguagem para um tom formal e impessoal, próprio da escrita aca-
+dêmica.” 
+	 Esse prompt especifica a área de conhecimento, o tipo de revisão desejada (es-
+tilo, coesão, concisão) e o tom adequado (formal e impessoal).
+Exemplo 2: Adequação de linguagem e formato 
+"Atue como um revisor de artigos para a Revista de Direito Administrativo. Adapte 
+o trecho abaixo, de até 400 palavras, ao estilo e às normas da revista, incluindo as 
+citações em notas de rodapé e a formatação correta das referências bibliográficas. 
+Corrija eventuais problemas de gramática, ortografia e pontuação. Mantenha o tom 
+formal e a precisão terminológica."
+	 Esse prompt especifica o periódico de destino e suas normas, direcionando 
+a revisão para a adequação do texto a um contexto específico. A solicitação de 
+correção gramatical, ortográfica e de pontuação garante a qualidade formal do 
+texto.
+Exemplo 3: Revisão com sugestão de duas versões 
+"Você é um especialista em Comunicação Política. Abaixo está um trecho de um arti-
+go analisando o discurso de posse de um presidente. Reescreva o trecho de duas for-
+mas diferentes, mantendo o sentido original: (1) uma versão mais concisa e direta, 
+53
+com frases curtas e objetivas; e (2) uma versão mais elaborada, com períodos mais 
+longos e maior detalhamento das ideias. Ambas as versões devem ter no máximo 200 
+palavras cada e manter o tom acadêmico."
+	 Esse prompt oferece ao pesquisador a possibilidade de escolher entre dois es-
+tilos diferentes de escrita, ambos adequados ao contexto acadêmico. Isso permi-
+te que o autor avalie qual versão se encaixa melhor em seu estilo pessoal e nos 
+objetivos do seu trabalho.
+Exemplo 4: Revisão crítica com comentários 
+"Atue como um parecerista de uma revista científica na área de Educação. Revise o 
+trecho abaixo, de até 350 palavras, que apresenta os resultados de uma pesquisa so-
+bre o uso de tecnologias digitais no ensino remoto. Faça as alterações necessárias no 
+próprio texto e, em seguida, adicione uma seção de comentários explicando as prin-
+cipais mudanças realizadas e sugerindo melhorias adicionais que podem fortalecer 
+a argumentação."
+	 Esse prompt combina a revisão textual com uma análise crítica, fornecendo 
+ao autor não apenas um texto revisado, mas também uma explicação das altera-
+ções realizadas e sugestões de melhorias. Isso contribui para o aprimoramento 
+da escrita e da argumentação do pesquisador.
+	 Esses são apenas alguns exemplos de como a IA pode ser utilizada para au-
+xiliar na escrita científica e na revisão de textos acadêmicos. A chave para um 
+bom resultado reside na clareza e na especificidade dos prompts, que devem ser 
+adaptados às necessidades de cada pesquisador e de cada texto. Lembre-se de 
+que a IA é uma ferramenta potente, mas que seu uso deve ser sempre acompa-
+nhado de uma leitura crítica e de uma avaliação cuidadosa por parte do autor. 
+Beleza? Podemos seguir com o barco? Então, fechou. 
+54
+	 A essa altura, os leitores e as leitoras já devem ter notado que as IAs generativas têm 
+seu próprio vício de linguagem e abusam de certas palavras. Abaixo temos um bingo das 
+IAs para facilitar a identificação de textos feitos pelos modelos e não revisados pelos hu-
+manos.
+Expressões gerais:
+Uso excessivo de expressões de ligação e de certos verbos: "Aprofundar-se em", "Além 
+disso", "Apesar do fato de que", "De forma fluida", "Importante considerar", "Lembre-se 
+de que", "Na verdade", "No fim das contas", "Navegar pelo cenário", "Pode-se argumentar 
+que", "Pode-se dizer", "Portanto", "Vale destacar que", "Vamos mergulhar". 
+ 
+Adjetivos:
+Uso excessivo de adjetivos, especialmente no lugar de “importante”:
+"Adepto", "Abrangente", "Animado", "Crucial", "Dinâmico", "Disruptivo", "Eficaz", "Efi-
+ciente", "Emocionante", "Envolvente", "Essencial", “Estratégico”, "Exemplar", "Fascinante", 
+"Fundamental", "Imperativo", "Inestimável", "Inovador", "Inspirador", "Instigante", "Louvá-
+vel", "Meticuloso", "Minucioso", “multifacetado”, "Poderoso", "Revolucionário", "Robusto", 
+"Significativo", "Sinérgico", "Transformador", "Único", "Valioso", "Vibrante", "Vital". 
+ 
+Advérbios:
+Uso excessivo de advérbios e locuções adverbiais: "Além disso", "Assim", "Certamente", 
+“Frequentemente”, "Consequentemente", "Contudo", "Na verdade", "Notavelmente", "Por-
+tanto", "Sem dúvida".
+ 
+Substantivos:
+"Âmbito", “Aliado”, “Chave”, "Dinâmico", “Experiência”, "Insight", “Mergulho”, "Mosaico", 
+“Parceiro”, “Potencial”, "Prova", “Rico”, “Sinergia”.
+ 
+Verbos:
+Uso excessivo de verbos não usuais no texto acadêmico e com um tom exagerado:
+"Aprimorar", "Aprofundar-se", "Aproveitar", "Embarcar", "Explorar", "Facilitar", “Maximi-
+zar”, "Mergulhar", "Perpetuar", “Potencializar”, "Revolucionar", "Sublinhar", “Transcender”, 
+“Transformar”.
+Cuidado: O simples emprego de algumas dessas palavras não significa, necessariamente, 
+o uso de IA. O que desejamos aqui é evidenciar que a frequência alta desses termos pode 
+ser indício de texto escrito ou revisado por IA. Veja aqui um excelente texto sobre ferra-
+mentas e técnicas de detecção de IA e seus limites.
+Bingo das IAGs
+55
+Tradução
+ 
+	 Em publicações internacionais, na comunicação com pesquisadores estran-
+geiros ou para a disseminação de conhecimento em congressos internacionais, 
+é comum precisar traduzir resumos, artigos, papers, pôsteres ou apresentações. 
+A IA pode oferecer uma base inicial para essas traduções, que será revisada e 
+refinada pelo pesquisador ou por um tradutor profissional. Todos os exemplos 
+de tradução a seguir serão para o inglês, visando periódicos e congressos de alto 
+impacto. É importante fornecer à IA o contexto do texto a ser traduzido, a área 
+de conhecimento e o público-alvo, além de especificar o tom, o estilo e a neces-
+sidade de soar natural para um falante nativo de inglês, sem fazer uma tradução 
+literal.
+Exemplos
+Exemplo 1 
+"Atue como um pesquisador experiente em Ciência Política, com doutorado pela Uni-
+versidade de Oxford e fluente em inglês, com vasta experiência em publicações nas 
+principais revistas da área. Traduza para o inglês o resumo do artigo anexo, que ana-
+lisa o impacto das fake news nas eleições presidenciais brasileiras de 2022. O artigo 
+será submetido à revista American Political Science Review. Adapte o texto ao estilo 
+acadêmico exigido por essa revista, garantindo que a tradução soe natural para um 
+falante nativo de inglês e que o sentido original seja preservado. Não faça uma tra-
+dução palavra por palavra, mas reestruture as frases para que se adequem ao esti-
+lo de escrita acadêmica em inglês americano. Explique, em um parágrafo separado, 
+quaisquer termos ou expressões que sejam específicos do contexto brasileiro e que não 
+tenham uma tradução direta para o inglês, sugerindo possíveis adaptações."
+	 Esse prompt define o role ou função (pesquisador experiente em Ciência Po-
+lítica, com doutorado por Oxford e fluente em inglês), o tipo de texto (resumo 
+de artigo), a área de conhecimento (impacto das fake news nas eleições brasi-
+leiras), o periódico-alvo (American Political Science Review) e o tom desejado 
+(acadêmico e natural para um falante nativo). A instrução para não fazer uma 
+tradução literal, mas reestruturar as frases, é importante para garantir a fluidez 
+e a adequação ao estilo da revista. A solicitação para explicar termos específicos 
+do contexto brasileiro ajuda o pesquisador na elaboração de eventuais ajustes/
+revisões.
+Exemplo 2
+"Como um linguista americano especializado em tradução para o inglês acadêmico 
+e com profundo conhecimento da área de Administração Pública, traduza para o in-
+glês o trecho abaixo, que faz parte da introdução de um paper a ser apresentado na 
+56
+conferência anual da American Society for Public Administration (ASPA). O paper 
+aborda a implementação de políticas de transparência em governos locais no Brasil. 
+Adapte o texto ao estilo e às convenções da ASPA, garantindo que a tradução soe na-
+tural para um acadêmico americano e que o sentido original seja mantido. Não adi-
+cione nem remova ideias do texto original."
+	 Esse prompt define o papel (linguista americano especializado em tradução 
+para o inglês acadêmico e com conhecimento de Administração Pública), o tipo 
+de texto (introdução de paper), a área de conhecimento (implementação de po-
+líticas de transparência em governos locais no Brasil), o evento-alvo (conferência 
+anual da ASPA) e o tom desejado (natural para um acadêmico estadunidense). 
+A instrução para manter o sentido original, sem adicionar nem remover ideias, 
+ajuda a manter a fidelidade da tradução. 
+Exemplo 3
+"Como antropólogo britânico de Cambridge especializado em estudos urbanos de fa-
+velas brasileiras, traduza o seguinte artigo para inglês. O texto aborda redes sociais e 
+organização comunitária em uma favela do Rio, destinando-se à revista Urban Stu-
+dies. Mantenha o estilo acadêmico britânico, preservando o significado original e 
+seguindo as normas da revista. Inclua breves comentários sobre os desafios de tradu-
+ção enfrentados."
+	 A instrução para utilizar as convenções da revista é importante para a adequa-
+ção ao periódico. A solicitação para comentar as dificuldades de tradução tam-
+bém ajuda a pensar em eventuais ajustes/correções. 
+	 Esses exemplos reforçam a importância de propósitos bem formulados para 
+orientar a IA na tradução de textos acadêmicos para o inglês. A definição preci-
+sa da função ou papel, do contexto, do público-alvo, do tom e do estilo deseja-
+dos, além da ênfase na adaptação cultural e na preservação do sentido original, 
+fundamentais para o sucesso desse processo. A solicitação para explicar termos 
+ou trechos que exigiram maior adaptação ajudam a compreender como se deu 
+a tradução do português para o inglês.
+	 Uma dica da incrível Fabrícia Eugênia de Souza é pedir que a IA generativa 
+traga o texto traduzido linha a linha, ou seja, texto original e texto traduzido de 
+cada linha. Isso facilita você verificar a tradução linha por linha. O mesmo vale 
+para a revisão feita pelas IAGs.
+Note que o bingo das IAGs também se aplica a expressões em inglês. Aqui, um 
+artigo mostra como a expressão "delve", entre outras, cresceu significativamente 
+em resumos de artigos após o lançamento do ChatGPT. Veja outras aqui.
+57
+BOAS PRÁTICAS E 
+RECOMENDAÇÕES DE USO
+06
+58
+	 A incorporação de ferramentas de IA na pesquisa acadêmica pode impulsio	
+nar a produtividade, aprofundar análises e acelerar a geração de conhecimento. 
+Contudo, essa adoção deve ser acompanhada de uma postura responsável e éti-
+ca. Pesquisadores de todas as áreas devem estar atentos a uma série de cuidados 
+para garantir a integridade e a qualidade de seus trabalhos. Se liga nestas dicas!
+Validação e verificação exaustiva de informações
+	 A primeira premissa ao se trabalhar com IA é nunca confiar cegamente em 
+suas respostas. Devemos checar todas as informações geradas - dados, referên-
+cias, citações, estatísticas - em fontes primárias e bases de dados confiáveis. A IA 
+pode produzir informações incorretas, desatualizadas ou até mesmo inventadas. 
+Sempre confirme a existência e a legitimidade de autores e publicações sugeri-
+das. Verifique a veracidade dos dados em institutos de pesquisa renomados, re-
+latórios de organizações internacionais e bases de dados governamentais. Além 
+disso, esteja atento a possíveis vieses nas respostas da IA, especialmente sobre 
+temas sensíveis. A validação independente é inegociável. Podemos dormir tran-
+quilos em relação a esse ponto? Beleza então. Sigamos. 
+Integração reflexiva e autoria responsável
+	 A IA deve ser encarada como uma ferramenta de auxílio, e não como um 
+substituto do pesquisador. A concepção da pesquisa, a formulação do problema, 
+a escolha metodológica, a análise crítica e a redação final são atribuições indele-
+gáveis do autor. Ao usar a IA para gerar resumos, sínteses ou revisões, o pesqui-
+sador deve ler criticamente o material, compreendê-lo a fundo e integrá-lo de 
+forma orgânica ao seu trabalho. Não se limite a copiar e colar; reescreva, adapte, 
+complemente e refine o texto com suas próprias ideias, garantindo a originali-
+dade da argumentação. A IA pode identificar lacunas na literatura e sugerir no-
+vas perspectivas, mas construir uma argumentação coerente é responsabilidade 
+do pesquisador. Mantenha uma conexão entre as diferentes seções do trabalho, 
+assegurando que o texto gerado pela IA esteja alinhado com os objetivos e a me-
+todologia da pesquisa.
+Domínio das normas acadêmicas e integridade científica
+	 Mesmo que a IA possa ser treinada para seguir normas de formatação e cita-
+ção, a revisão final é sempre responsabilidade do pesquisador. Verifique a con-
+sistência das citações, a formatação das referências, o uso de itálico, negrito, 
+maiusculas e minúsculas, a paginação e demais detalhes. Utilize softwares de 
+gerenciamento de referências e de detecção de plágio para garantir a originali-
+dade e a integridade do texto. Muito cuidado: nunca incorpore textos gerados 
+pela IA sem revisão, reescrita e citação adequada. Lembre-se de que a autoria 
+deve refletir contribuição intelectual substancial. Siga as normas de sua institui-
+59
+ção e do periódico para atribuição de autoria e integridade acadêmica. Muitas 
+revistas já estão perguntando se aquele conteúdo contou com apoio de IA. Seja 
+transparente nesse uso.
+Interação contínua e aprimoramento iterativo
+	 O processo de interação com a IA é, por natureza, dialógico e iterativo. Não es
+pere resultados perfeitos na primeira tentativa. Formule comandos precisos, for-
+neça feedback à IA, indique correções e solicite ajustes até obter um resultado 
+satisfatório. A prática leva ao aprimoramento; quanto mais você interagir com a 
+IA, melhor compreenderá suas capacidades e limitações. Aprenda com os erros, 
+ajuste suas estratégias de prompting e desenvolva um fluxo de trabalho adequa-
+do.  Explore diferentes ferramentas e técnicas, experimente diferentes prompts 
+e descubra novas formas de turbinar sua pesquisa.
+Contexto, adaptação e ética
+	 Ao utilizar a IA, devemos considerar o contexto regional, institucional e disci-
+plinar da pesquisa. Adapte os comandos e as respostas geradas à realidade local, 
+às normas da sua instituição e às especificidades da sua área de conhecimento. 
+Se a pesquisa se insere em Administração Pública ou Políticas Públicas, forneça 
+à IA informações sobre a localidade, o período temporal, as instituições envol-
+vidas e as políticas públicas específicas analisadas. Utilize bases de dados gover-
+namentais e relatórios de órgãos públicos para validar as informações. 
+Ética e transparência
+	 A questão ética é central. Cuidado ao subir dados inéditos ou sensíveis nos 
+chats de IAG, pois eles podem ser usados para treinar os modelos. Os resultados 
+dos modelos podem gerar plágio ou mesmo quebras de direitos autorais. Use as 
+respostas com cautela, cite as fontes quando necessário e indique SEMPRE o 
+uso de IA na elaboração do trabalho. A transparência é fundamental.
+Em suma, a IA pode ser uma boa aliada na pesquisa acadêmica, mas seu uso 
+exige responsabilidade e compromisso ético. Ao seguir essas recomendações, 
+pesquisadores podem aproveitar os benefícios da IA mantendo a integridade e 
+a qualidade de seus trabalhos. Veja mais diretrizes para isso neste material.
+Note que ali no finalzinho do finalzinho, antes do apêndice (que sempre me 
+lembra de apendicite, cruzes), declaramos o nosso uso de IA. Se não acredita, 
+confere lá!!
+60
+EXEMPLOS DE 
+RETORNO ITERATIVO
+07
+61
+	 O processo de iteração com a IA é inerentemente dialógico e raramente se 
+esgota em um único comando. Na maioria das vezes, após receber uma respos-
+ta inicial, o pesquisador precisará refinar, corrigir, aprofundar ou ajustar pontos 
+específicos, solicitando uma nova saída mais alinhada aos seus objetivos. Esse 
+processo iterativo de feedback busca alcançar os melhores resultados possíveis, 
+garantindo a precisão, a relevância e a qualidade do resultado final. Mamão com 
+açúcar, melzinho na chupeta. 
+Fluxo de diálogo: exemplos
+Exemplo 1: Aprofundando conceitos em Administração Pública
+Comando inicial: "Explique o conceito de governança colaborativa e seu impacto na efi-
+ciência dos serviços públicos, com base em autores relevantes da área."
+Resposta da IA (vaga e sem exemplos concretos): A IA fornece uma definição 
+genérica de governança colaborativa, menciona alguns autores sem especificar 
+obras e não apresenta exemplos concretos de seu impacto na eficiência.
+Feedback do pesquisador: "A definição está correta, mas ainda é muito abstrata. 
+Você poderia reformular a resposta, incluindo pelo menos dois exemplos con-
+cretos de governança colaborativa no Brasil que resultaram em melhorias men-
+suráveis na eficiência de serviços públicos? Além disso, cite obras específicas dos 
+autores mencionados, com ano e, se possível, o link para acesso."
+Nova resposta da IA (mais específica e com exemplos, mas ainda com impreci-
+sões): A IA reformula a resposta, incluindo exemplos de governança colabora-
+tiva no Brasil e citando obras de autores, mas comete erros nos anos de publica-
+ção ou nos links.
+Feedback do pesquisador: “Os exemplos são relevantes, mas as referências ain-
+da estão imprecisas. Além disso, inclua um parágrafo discutindo os desafios e as 
+limitações da governança colaborativa no contexto brasileiro. Cite, ao menos, 
+um autor que aborde criticamente esse modelo."
+Resposta refinada da IA: A IA checa as referências e adiciona um parágrafo so-
+bre os desafios da governança colaborativa, citando um autor crítico, conforme 
+solicitado. 
+Cuidado: Com o refinamento iterativo, você alcançou resultados melhores, mas 
+ainda podem ter erros e referências incorretas. 
+62
+Exemplo 2: Refinando uma revisão de literatura em Ciência Política
+Comando inicial: "Elabore uma revisão de literatura sobre o impacto das mídias sociais 
+na participação política dos jovens no Brasil, com foco em estudos empíricos publicados 
+nos últimos cinco anos."
+Resposta da IA (ampla demais e com estudos irrelevantes): A IA apresenta uma 
+revisão pertinente, mas inclui estudos não empíricos, artigos anteriores ao re-
+corte temporal solicitado e análises de outros países que não o Brasil.
+Feedback do pesquisador: "A revisão não ficou boa. Preciso que você se con-
+centre exclusivamente em estudos empíricos realizados no Brasil e publicados 
+de 2018 em diante. Remova as menções a estudos teóricos ou de outros países. 
+Além disso, para cada estudo citado, acrescente uma frase resumindo a metodo-
+logia utilizada."
+Nova resposta da IA (mais focada, mas com omissões): A IA ajusta a revisão, 
+excluindo os estudos inadequados e acrescentando informações sobre a meto-
+dologia, mas omite alguns estudos brasileiros relevantes publicados no período.
+Feedback do pesquisador: “A revisão melhorou consideravelmente. No entanto, 
+notei a ausência de estudos importantes, como o de Silva (2020) e o de Oliveira 
+(2021). Por favor, inclua esses estudos e, se possível, acrescente mais dois estudos 
+empíricos relevantes publicados nos últimos dois anos, mantendo o foco meto-
+dológico. Após essa revisão, faça um parágrafo final sintetizando as principais 
+conclusões desses estudos empíricos."
+{Inclua aqui as referências aos textos de Silva (2020) e Oliveira (2021)}
+Resposta refinada da IA: A IA inclui os estudos de Silva (2020) e Oliveira (2021) 
+e adiciona mais dois estudos recentes, apresentando um parágrafo de síntese.
+Benefícios do processo iterativo
+	 O processo iterativo traz uma série de vantagens para o uso da IA na pesqui-
+sa acadêmica. Primeiramente, ele garante maior precisão e profundidade na 
+análise, pois cada ciclo de feedback e resposta permite corrigir erros, omissões e 
+imprecisões. A cada iteração, a IA aprofunda a sua compreensão do tema e dos 
+objetivos da pesquisa, gerando resultados mais acurados e confiáveis. Além dis-
+so, a interação contínua assegura relevância e foco, direcionando a IA para os 
+aspectos mais importantes do estudo e eliminando informações desnecessárias 
+ou tangenciais. O feedback do pesquisador funciona como um filtro, refinando 
+progressivamente a saída da IA e garantindo que ela esteja alinhada com os ob-
+63
+jetivos da pesquisa.
+Outro benefício inegável é o aprendizado mútuo. Trata-se de uma via de mão 
+dupla: o pesquisador aprende mais sobre as capacidades, limitações e nuances 
+da ferramenta, e a IA, por sua vez, se ajusta ao estilo, às preferências e às exi-
+gências específicas do pesquisador. Esse processo resulta em respostas cada vez 
+mais personalizadas e úteis, otimizando o fluxo de trabalho e a qualidade da 
+pesquisa. Por fim, a iteração permite um refinamento gradual do texto, desde 
+a estrutura geral e a linha argumentativa até a escolha de palavras e o estilo de 
+escrita. A cada ciclo, o texto se aproxima um pouco mais dos padrões de exce-
+lência acadêmica, atingindo maior clareza, coesão, rigor e elegância. Em suma, 
+o processo iterativo facilita o uso da IAG em uma parceira intelectual, capaz de 
+contribuir substancialmente para o sucesso da empreitada científica.
+MAS E SE PIOROU?
+Por uma série de razões, algumas vezes a interação excessiva começa a gerar 
+piores respostas das IAs generativas. Talvez você tenha sido genérico demais 
+ou não soube explicar adequadamente como corrigir a rota depois. Em outros 
+casos, simplesmente você ativou os pontos não adequados da IAGs e a iteração 
+não está funcionando. Nesse caso, é aceitável e normal recomeçar do zero. Abra 
+uma nova conversa e tente já iniciar com prompts mais completos e próximos 
+do que deseja. Peça para a IA elaborar os passos ou fazer perguntas ideais para 
+chegar aonde você deseja. Como o Gemini e o Johnnie, take a deep breath and 
+keep walking.
+64
+LIMITAÇÕES E RISCOS 
+NO USO DE IA EM 
+PESQUISA ACADÊMICA
+08
+65
+	 Como vimos ao longo do guia, há diferentes formas de se usar a IAG na pes-
+quisa, o que pode gerar diversos benefícios. Todavia, tal uso em pesquisa acadê-
+mica também envolve limitações e riscos que devem ser considerados de forma 
+criteriosa e proativa. Os pesquisadores precisam estar cientes desses desafios 
+para poder mitigá-los e garantir a integridade, a confiabilidade e a qualidade de 
+seu trabalho.
+Alucinação de referências e informações incorretas
+	 Grandes modelos de linguagem podem gerar informações que parecem ve-
+rossímeis, mas que são na verdade inexistentes ou incorretas, um fenômeno co-
+nhecido como "alucinação". Isso ocorre devido à sua natureza probabilística, na 
+qual os modelos combinam dados do seu treinamento para gerar respostas co-
+erentes, porém não necessariamente precisas. A inclusão de referências fictícias 
+e dados errôneos pode comprometer a credibilidade de trabalhos acadêmicos e 
+induzir pesquisadores ao erro. 
+	 Para mitigar esse risco, deve-se verificar todas as referências, citações e dados 
+gerados pela IA em bases de dados confiáveis, como Scopus, Web of Science, 
+SciELO, Google Scholar, JSTOR e portais de periódicos. Nunca assuma que 
+uma referência fornecida pela IA é real ou correta sem antes confirmá-la.
+Vieses, estereótipos e interpretações equivocadas
+	 As IAs são treinadas em volumes gigantescos de dados textuais, que podem 
+refletir e perpetuar preconceitos culturais, sociais, regionais, de gênero, de raça, 
+entre outros, presentes na sociedade e/ou na literatura científica. Consequente-
+mente, as respostas geradas pela IA podem, inadvertidamente, reforçar estereó-
+tipos, apresentar análises enviesadas ou negligenciar perspectivas minoritárias. 
+	 Para mitigar esse risco, o pesquisador deve adotar uma postura crítica em re-
+lação ao output da IA, sempre questionando as informações e interpretações 
+fornecidas. Deve-se complementar a análise da IA com a consulta a fontes di-
+versas e a consideração de diferentes pontos de vista.
+Defasagem temporal e falta de contexto específico
+	 Modelos de IAG usam dados com um ponto de corte temporal, limitando o 
+acesso a informações recentes. A falta de conhecimento sobre contextos locais 
+pode gerar análises genéricas ou até incorretas. Se o modelo é incapaz de pesqui-
+sar na internet, esse ponto de corte dos dados impacta diretamente nos resulta-
+dos. Para superar essas limitações, deve-se incluir datas específicas, legislações 
+recentes, pesquisas e referências institucionais, complementando as respostas 
+com fontes oficiais e dados atualizados.
+66
+Excesso de confiança e abdicação da responsabilidade intelectual
+	 A capacidade da IAG de gerar respostas coesas, bem-articuladas e aparente-
+mente embasadas pode levar o pesquisador a depositar uma confiança excessi-
+va em suas conclusões, negligenciando a análise crítica e a validação indepen-
+dente. Isso pode resultar na reprodução acrítica de erros, vieses ou imprecisões, 
+comprometendo a qualidade e a originalidade do trabalho. Para evitar esse risco, 
+devemos comparar as respostas da IA com análises de especialistas renomados 
+na área, com estudos de caso empíricos e com o conhecimento acumulado pelo 
+próprio pesquisador. A postura crítica, o questionamento constante e a busca 
+por evidências sólidas devem ser a tônica em todas as etapas da pesquisa.
+Conflitos com normas éticas e diretrizes de publicação
+	 O uso de IAG na pesquisa acadêmica levanta questões éticas complexas, es-
+pecialmente em relação à autoria, originalidade, transparência e integridade. 
+Algumas instituições de ensino e pesquisa, bem como periódicos científicos, 
+já estabeleceram diretrizes específicas sobre o uso de IA na produção de tra-
+balhos acadêmicos, e é provável que essas normas se tornem mais detalhadas 
+e rigorosas nos próximos anos. O pesquisador deve estar atento às políticas de 
+sua instituição e às exigências dos periódicos aos quais pretende submeter seus 
+trabalhos. Em muitos casos, é recomendável ou até mesmo obrigatório indicar 
+explicitamente quando e como a IA foi utilizada na pesquisa (por exemplo, na 
+geração de rascunhos, na revisão de textos, na tradução ou na análise de dados). 
+A transparência é a base para garantir a integridade do processo de pesquisa e a 
+confiança na produção científica.
+Em suma, a utilização responsável e ética da IA na pesquisa acadêmica exige 
+uma postura vigilante, crítica e proativa por parte do pesquisador. Uma checa-
+gem final atenta de todo o material gerado pela IA é indispensável para garantir 
+a coerência, a consistência, a precisão e a conformidade com o contexto especí-
+fico da pesquisa e com os mais altos padrões de qualidade acadêmica.
+Ainda com dúvidas? É normal. É um momento de transição. Para melhor di-
+recionamento na questão, recomendamos a leitura do e-book “Diretrizes para 
+o uso ético e responsável da Inteligência Artificial Generativa: um guia prático 
+para pesquisadores”.
+ 
+67
+CONCLUSÃO
+	 Este guia se propôs a evidenciar como o domínio do prompting é a chave para 
+um uso mais adequado da IA generativa, que pode auxiliar na busca por excelên-
+cia científica. Longe de ser uma mera ferramenta de automação, a IAG, quando 
+utilizada com discernimento, expertise e, sobretudo, ética, pode se tornar uma 
+verdadeira parceira intelectual do pesquisador. 
+	 No entanto, este guia também enfatizou, de forma incisiva, os limites e riscos 
+inerentes ao uso da IA na Academia. A "alucinação" de referências, os vieses ocul-
+tos nos dados de treinamento, a defasagem temporal, a falta de conhecimento 
+contextual aprofundado e o risco de abdicação da responsabilidade intelectual 
+são armadilhas que exigem vigilância constante. 
+	 A ênfase na agência humana é o fio condutor que perpassa toda a argumentação 
+deste guia. A IAG não substitui, mas, sim, amplifica as capacidades do pesquisa-
+dor. A formulação de perguntas relevantes, a definição de problemas pertinentes, 
+a interpretação crítica dos resultados, a construção de argumentos originais e a 
+tomada de decisões éticas permanecem como prerrogativas exclusivas do intelec-
+to humano. A tecnologia é uma ferramenta, não um fim em si mesma.
+	 O domínio do prompting é, nesse contexto, uma competência importante para 
+melhor uso e compreensão dessa tecnologia e na busca constante por uma ciên-
+cia de maior impacto, mas, acima de tudo, humana. 
+Até a próxima!
+67
+68
+Declaração do uso de 
+inteligência artificial 
+generativa
+	 Uma versão anterior deste guia foi desenvolvida pelo primeiro autor com ela-
+boração de texto do ChatGPT o1, buscando ser um material informal para con-
+sulta. Os dois autores humanos editaram, acrescentaram e reduziram passagens 
+da versão anterior. 
+	 No processo de escrita, os autores usaram SciSpace, Perplexity e Elicit (infor-
+mações das versões não estavam disponíveis, acesso em janeiro de 2025) para 
+busca de materiais acadêmicos. ChatGPT (versões 4o, 4o com Canvas, o1, o3 mi-
+ni-high), Claude (versão 3.5 Sonnet, 3.7 Sonnet), Deep Seek (versão R1), Gemini 
+(versão 2.0 Pro), Qwen (versão 2.5 max) foram usados entre dezembro de 2024 e 
+fevereiro de 2025 para fazer resumos de anotações humanas, para testes de ideias, 
+para a revisão textual e para buscas de materiais. Após o uso dessas ferramentas, 
+os autores revisaram e editaram o conteúdo em conformidade com o método 
+científico e assumem total responsabilidade pelo conteúdo da publicação.
+69
+PERGUNTAS FREQUENTES
+As dúvidas mais frequentes sobre 
+o uso de IA na pesquisa acadêmica
+70
+	 A seguir, apresentamos um conjunto ampliado de perguntas e respostas fre-
+quentes relacionadas ao uso de Inteligência Artificial (IA) na pesquisa acadê-
+mica. O objetivo desta seção é aprofundar a reflexão sobre as implicações éticas, 
+metodológicas e geopolíticas do uso dessas tecnologias, reforçando a necessi-
+dade de transparência, responsabilidade e respeito à integridade científica e à 
+soberania digital.
+1. Posso usar os textos gerados pela IA diretamente em minha dissertação, tese 
+ou artigo científico?
+	 Usar texto gerado por IA sem revisão e adaptação cuidadosas compromete a 
+autoria do trabalho acadêmico, que exige contribuição original do pesquisador. 
+A IA pode auxiliar, mas não substituir o pesquisador. Lembre-se de que a IA 
+pode cometer erros factuais ("alucinações"), apresentar vieses e gerar informa-
+ções incorretas.
+2. Como devo citar o uso de IA no meu trabalho e por que isso é importante?
+	 A forma de citação do uso de IA pode variar de acordo com as normas de cada 
+instituição, revista ou área do conhecimento. No entanto, a transparência é um 
+princípio basilar. Recomenda-se declarar explicitamente o uso de IA na seção 
+de Metodologia ou em nota de rodapé, descrevendo detalhadamente como a 
+ferramenta foi utilizada (por exemplo, para brainstorm, revisão de texto, tradu-
+ção, análise preliminar de dados etc.). É importante também mencionar o nome 
+da ferramenta (ChatGPT, Gemini etc.), a versão/ano e, se possível, a data da in-
+teração. 
+3. Se a IA inventar dados, referências ou informações falsas, de quem é a res-
+ponsabilidade?
+	 A responsabilidade pela veracidade e pela correção de todas as informações 
+presentes em um trabalho acadêmico é exclusivamente do pesquisador. Isso in-
+clui a checagem rigorosa de dados, referências e quaisquer informações geradas 
+por IA. Mesmo que a IA forneça dados ou referências de forma convincente, é 
+dever do autor verificar autenticidade e precisão em fontes primárias e bases de 
+dados confiáveis. A "alucinação" de informações é um risco conhecido dos LLMs, 
+e o pesquisador deve estar preparado para identificar e corrigir esses erros.
+4. É ético usar IA para escrever um artigo ou capítulo inteiro?
+	 A IA pode auxiliar na escrita, mas não deve substituir a autoria acadêmica. 
+É antiético delegar totalmente a produção de um artigo a um modelo de lin-
+guagem. A IA serve para tarefas de apoio, como revisão gramatical, sugestões e 
+organização de ideias. A análise crítica, interpretação e redação final são de res-
+71
+ponsabilidade do pesquisador, que deve declarar o uso da IA e garantir a origi-
+nalidade do trabalho.
+5. As recomendações fornecidas pela IA substituem a aprovação do meu orien-
+tador ou de um parecerista?
+	 Não. A IA é uma ferramenta de auxílio, e suas sugestões devem ser sempre 
+submetidas à avaliação crítica do orientador, de pareceristas ou de outros espe-
+cialistas da área. A IA não tem a capacidade de julgamento, a experiência e o 
+conhecimento contextual necessários para substituir o papel do orientador ou 
+de um revisor humano. As recomendações da IA devem ser vistas como ideias 
+iniciais, pontos de partida ou sugestões a serem analisadas, validadas e refinadas 
+pelo pesquisador e seu orientador.
+6. A IA pode cometer erros metodológicos ou de interpretação teórica?
+	 Sim. A IA se baseia em padrões estatísticos e em correlações identificadas em 
+seu vasto corpus de treinamento, mas ela não tem uma compreensão profunda 
+dos conceitos, teorias e metodologias científicas. É possível que a IA sugira téc-
+nicas estatísticas inadequadas, confunda correntes teóricas distintas, apresente 
+interpretações equivocadas de conceitos ou ignore nuances metodológicas im-
+portantes. Portanto, o pesquisador deve ter um sólido domínio da metodologia 
+e da teoria de sua área de estudo para avaliar criticamente as sugestões da IA e 
+corrigir eventuais erros.
+7. Como lidar com possíveis vieses no texto gerado pela IA?
+	 Algumas estratégias para mitigar vieses incluem: (a) realizar uma leitura crítica 
+e atenta do output da IA, verificando se há reforço de estereótipos ou generali-
+zações indevidas; (b) fornecer, no prompt, informações contextuais que ajudem 
+a IA a gerar respostas mais equilibradas e imparciais; (c) revisar e ajustar manu-
+almente o texto, eliminando termos ou expressões discriminatórias; e (d) buscar 
+a diversificação de fontes, de modo a não se basear unicamente nas sugestões da 
+IA.
+8. A IA substitui o revisor de texto ou o tradutor humano?
+	 Não. A IA pode auxiliar em rascunhos de revisão e tradução, mas apresenta 
+limitações importantes. Erros em termos técnicos, expressões idiomáticas e nu-
+ances culturais são comuns. A IA não consegue captar completamente as suti-
+lezas de estilo em textos acadêmicos. Por isso, revisores e tradutores humanos 
+continuam importantes para garantir a qualidade e precisão dos textos.
+72
+9. Quais são as normas de confidencialidade e segurança ao usar dados de pes-
+quisa na IA?
+	 Deve-se ler os termos de uso e política de privacidade para entender como os 
+dados são tratados. Algumas plataformas podem reter dados para treinamento, 
+o que coloca em risco dados sensíveis. Em pesquisas com dados sigilosos, adote 
+medidas como anonimização e use plataformas com garantias de segurança.
+10. A IA pode ser usada para avaliar a qualidade de artigos científicos em um 
+processo de revisão por pares (peer review)?
+	 Não. A IA pode ajudar na identificação de problemas gramaticais e inconsis-
+tências, mas não substitui a revisão humana por pares. A avaliação crítica de um 
+artigo científico requer expertise, julgamento contextual e discernimento ético 
+que apenas revisores humanos qualificados têm. Portanto, a IA serve como fer-
+ramenta complementar, não como substituto do peer review tradicional.
+73
+Apêndice 1
+Repositórios e dicas para prompts
+1. Repositórios de prompts
+	 Flow GPT 
+	 GPT Prompt Tuner 
+	 IAEd Praxis  
+	 Prompt Base 
+	 Prompt Hero
+	 Prompt Library
+	 Prompt Perfect
+	 Snack Prompt  
+2. Ferramentas para melhorar prompts
+	 Prompt Enhancer
+	 Maxai 
+	 Prompt Generator
+	 Prompt Wise  
+3. GPTs para melhorar prompts
+	 Prompt Perfect 
+	 Prompt Engineer 
+	 Prompt Professor 
+	 ChatGPT - Deep Research Prompt Writing Expert
+4. Materiais com dicas sobre a elaboração de prompts acadêmicos
+	 Metropolitan State University of Denver
+	 University of Michigan
+	 New Jersey Institute of Technology
+	 Ultimate prompt guide for researchers and academics 
+	 ChatGPT Prompts for Academic Writing
+	 Texas A&M University 
+	 University of Connecticut 
+	 Stanford University
+	
+74
+	 Harvard University
+	 University of Oxford 
+	 MIT 
+5. Materiais com dicas para a elaboração de prompts gerais
+	 Guia da Anthropic com base no Claude
+	 Guia Gemini Academy para Educadores 
+	 Guia do Google (tem o Gemini como exemplo)
+	 Guia da Meta para prompts (tem o Llama como exemplo)
+	 Guia da Mistral baseado no Le Chat
+	 Guia da OpenAI com base no ChatGPT
+	 Guia da OpenAI para modelos com raciocínio 
+ 
+6. Outros guias gerais
+	 Rock Content
+	 Dicas gerais para projetar prompts
+	 Effective Prompts for AI: The Essentials
+7. Artigos acadêmicos sobre prompts
+	 The Prompt Report: A Systematic Survey of Prompting Techniques
+	 Prompt Engineering with ChatGPT: A Guide for Academic Writers
+	 Prompt Engineering com ChatGPT no contexto acadêmico de IHC: uma re-
+visão rápida da literatura:
+8. Ferramentas de busca profunda
+	 Alguns modelos de linguagem como ChatGPT, Gemini e Grok apresentam 
+ferramentas de busca profunda (ver abaixo).
+	 Elicit 
+	 Perplexity 
+	 SciSpace 
+	 Undermind
+75
+9. Modelos de linguagem
+	 Existe vida além do ChatGPT no mundo. Há muitos modelos de linguagem. 
+Alguns exemplos:
+	 Claude
+	 Copilot
+	 Deep Seek
+	 Gemini
+	 Grok
+	 LLama
+	 Mistral 
+	 Qwen 
+Vale a pena olhar também o modelo aberto e acadêmico Storm, desenvolvido 
+pela Universidade de Stanford. 
+10. E não se esqueça de que temos modelos brasileiros também: 
+	 Amazonia IA
+	 Maritalk
+Há, ainda, lugares para testar vários modelos, como ChatHub e Poe. 
+76
+Para dar
+aquele PUMP
+1. Filmes e Documentários
+"O Dilema das Redes" (2020) – Netflix: Documentário que explora o impacto 
+das redes sociais e da IA na manipulação do comportamento humano e da de-
+mocracia. Discute como os algoritmos e grandes modelos de linguagem podem 
+influenciar a disseminação de informações.
+"Her" (2013) – Direção de Spike Jonze: Ficção científica sobre um homem que 
+se apaixona por um sistema operacional de IA avançado. (Quem nunca agra-
+deceu o ChatGPT?) O filme levanta questões sobre a evolução dos LLMs e sua 
+interação com humanos. P.S: opinião impopular, esta interpretação de Joaquin 
+Phoenix é melhor que a do Coringa.
+"Ex Machina" (2014) – Direção de Alex Garland: Um thriller psicológico que 
+aborda a interação entre um programador e um robô com inteligência artificial 
+avançada. (Quem nunca brigou com o ChatGPT?) O filme levanta questões so-
+bre consciência e ética.
+"AlphaGo" (2017) – Direção de Greg Kohs: Documentário sobre como a IA 
+da DeepMind do Goole venceu campeões humanos no jogo milenar “Go”, que 
+causou muita comoção no oriente. Ele explora o aprendizado de máquina e o 
+avanço da IA na tomada de decisões complexas.
+“Coded Bias” (2020) - Direção de Shalini Kantayya: Este documentário aborda 
+os preconceitos embutidos nos algoritmos de IA e como eles podem perpetuar 
+a discriminação racial e de gênero
+2. Séries e Programas de TV
+"Black Mirror" (2011 – Presente) – Netflix: Série que explora cenários distópi-
+cos envolvendo tecnologia e IA. Recomendamos os episódios: Be Right Back, 
+Hated in the Nation, Metalhead e Joan is Awful. A série faz profundos questio-
+namentos sobre os impactos sociais e éticos das tecnologias na sociedade.
+77
+"Westworld" (2016–2022) – HBO Max: Série que discute a autonomia da IA e 
+a interação com humanos, abordando modelos avançados de IA em robôs hu-
+manoides super realistas  e suas implicações para a sociedade.
+"Mind Field" (2017–2019) – YouTube Originals: Programa educativo que ex-
+plora como a tecnologia afeta a cognição humana, discutindo a influência da IA 
+na psicologia e comportamento humano.
+“Years and Years” (2019) – BBC e HBO: E se a China usasse uma bomba atômi-
+ca? Partindo dessa premissa, o pano de fundo do seriado são as transformações 
+tecnológicas e seus impactos na sociedade, incluindo o transhumanismo 
+3. Livros
+“AI Superpowers: China, Silicon Valley, and the New World Order” - Kai-Fu 
+Lee (2021): Analisa a corrida pela supremacia em IA entre China e Vale do Si-
+lício e discute as implicações globais. 
+"A Era do Capitalismo de Vigilância" – Shoshana Zuboff (2021): Analisa de 
+forma abrangente e detalhada a crescente prática do capitalismo de vigilância, 
+suas consequências para indivíduos e sociedade, e o papel das empresas de tec-
+nologia em sua expansão.
+"A Inteligência Artificial é Inteligente?" – Lucia Santaella (2024): A autora abor-
+da a controvérsia entre a inteligência humana e a dos algoritmos, discutindo as 
+diferentes posições em relação à IA de forma objetiva e clara.
+"Big Tech: A Ascensão dos Dados e a Morte da Política" – Evgeny Morozov 
+(2018): O autor problematiza a lógica do "solucionismo" tecnológico e alerta so-
+bre os efeitos positivos e negativos do universo automatizado em que vivemos.
+"Desmistificando a Inteligência Artificial" – Dora Kaufman (2024): A autora 
+explora os benefícios e malefícios da IA, promovendo debates interessantes so-
+bre o futuro da tecnologia e seu impacto na sociedade.
+“Infocracia: Digitalização e a Crise da Democracia" – Byung-Chul Han (2022): 
+Explora como o regime de informação substituiu o regime disciplinar, desta-
+cando a vigilância psicopolítica e a crise da verdade na era digital.
+"Poder e Progresso: Uma Luta de Mil Anos entre a Tecnologia e a Prosperida-
+de" – Daron Acemoglu e Simon Johnson (2024): Os autores analisam mil anos 
+de história para mostrar como o progresso tecnológico pode gerar prosperidade 
+para todos, não apenas para as elites, e como a sociedade pode influenciar o des-
+tino das inovações tecnológicas
+78
+4. Podcasts e Canais no YouTube
+IA sob controle: Podcast da escola de cursos Alura sobre novidades da inteli-
+gência artificial com foco mais técnico.
+IA todo dia: Podcast mais geral sobre as novidades da inteligência artificial.
+Luneta Digital: Podcast de entrevistas com pessoas de várias áreas e aplicações 
+de inteligência artificial.
+Ricardo Limongi | IA e Data Analytics: Canal do professor Ricardo Limongi da 
+UFG sobre o uso inteligência artificial generativa na pesquisa
+Tech Won’t Save us: Podcast de ativista Paris Marx criticando a atuação das big 
+techs americanas e abordando formas de resistir a tal dominação.
+4. Para acompanhar
+Era of the Research Bots: Substack da pesquisadora Razia Aliani cheio de dicas 
+sobre como usar e implementar adequadamente ferramentas de inteligência ar-
+tificial na pesquisa acadêmica
+IAEdPraxis - Caminhos Inteligentes para a Educação: Substack do professor e 
+pesquisador Marcelo Sabbatini da UFPE sobre uso da IA generativa na educa-
+ção.
+Mushtaq Bilal, Phd: Pesquisador que testa e divulga inúmeras ferramentas de 
+IA generativa para pesquisa acadêmica
+The Effortless Academic: Site do pesquisador Ilya Shabanov com dicas e cursos 
+sobre como elaborar fluxos completos com ferramentas de anotação com solu-
+ções de inteligência artificial
+Se liga! Nesse link você vai encontrar teses e dissertações por ÁREA do conheci-
+mento e por TEMA. Ou seja, você pode pegar apenas coisas de Ciência Política 
+ou Direito. Ou, pode apenas pegar os trabalhos que citam "Inteligência Artificial" 
+no título. Veja como a sua vida está ficando cada vez mais fácil e divertida. Bom 
+trabalho e boa leitura! Bjo no ombro!!! https://osf.io/t5xws/files/osfstorage# 
+79
+	 Rafael Cardoso Sampaio é mineiro, cruzeirense, gosta de feijão tropei-
+ro e acha que Skank é a maior banda de rock do Brasil, mas adora praias 
+e é nordestino de coração. Atualmente, é professor do Departamento de 
+Ciência Política da Universidade Federal do Paraná (UFPR). É bolsista 
+de produtividade do CNPq 1-D. Foi presidente da Associação Brasileira 
+de Pesquisadores em Comunicação e Política (Compolítica) entre 2019 e 
+2021 e coordenador do Programa de Pós-Graduação em Ciência Política 
+da UFPR entre 2021 e 2023. Atualmente, é pesquisador do Instituto Na-
+cional de Ciência e Tecnologia Transformações da Participação, do As-
+sociativismo e do Confronto Político (INCT-Participa) e coordenador do 
+grupo de pesquisa Comunicação Política e Democracia Digital (COM-
+PADD). 
+	 Sua pesquisa se concentra no impacto da inteligência artificial na so-
+ciedade contemporânea, incluindo em políticas públicas, processos de-
+cisórios, educação e pesquisa. É um dos autores do e-book “Diretrizes 
+para o uso ético e responsável da Inteligência Artificial Generativa: um 
+guia prático para pesquisadores”, publicado pela Intercom com apoio da 
+ABCP e ANPOCS. Se quiser continuar a conversa: Lattes / Google Scho-
+lar / Twitter / Linkedin / BSK
+Sobre os Autores
+Disponível aqui
+80
+	 Dalson Figueiredo é pernambucano, torcedor do único campeão brasi-
+leiro de 1987 conforme estimativas do STF, gosta de caldinho de camarão 
+e, enquanto metaleiro, durante a adolescência ficou frustrado ao ganhar 
+o disco Samba Poconé do Skank quando esperava algo mais pesado.
+ 	 Atualmente, é professor do Departamento de Ciência Política da Uni-
+versidade Federal de Pernambuco (UFPE) e coordenador do Programa 
+de Pós-Graduação em Ciência Política. Em 2022 foi pesquisador visitan-
+te na Universidade de Oxford, Reino Unido e é catalisador do Berkeley 
+Initiative for Transparency in the Social Sciences. Idealizador da Coleção 
+para Bebês e autor do livro Métodos Quantitativos para Ciência Política 
+que, até agora, conta com nota 4,9 na Amazon. Se quiser continuar a con-
+versa: Lattes / Google Scholar / Twitter / Linkedin / BSK.
+Sobre o Autores
+Disponível aqui
+Disponível aqui

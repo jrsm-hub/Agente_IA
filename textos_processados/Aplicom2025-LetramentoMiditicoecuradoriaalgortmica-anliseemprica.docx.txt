@@ -1,0 +1,648 @@
+See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/394087253
+Agentes Inteligentes e Curadoria da Pesquisa Acadêmica: uma análise
+empírica de ferramentas de IA
+Conference Paper · July 2025
+CITATIONS
+0
+READS
+2
+2 authors, including:
+Raquel Evangelista
+Rio de Janeiro State University
+4 PUBLICATIONS   0 CITATIONS   
+SEE PROFILE
+All content following this page was uploaded by Raquel Evangelista on 29 July 2025.
+The user has requested enhancement of the downloaded file.
+ 
+ 
+Agentes Inteligentes e Curadoria da Pesquisa Acadêmica: uma análise 
+empírica de ferramentas de IA1 
+ 
+Raquel Evangelista2 
+Raquel Timponi3 
+Resumo: Este artigo procura investigar empiricamente o impacto da inteligência artificial 
+generativa (IAG) na curadoria da pesquisa acadêmica. Com base em um estudo comparativo 
+das ferramentas ChatGPT, DeepSeek, Consensus e Research Rabbit, a pesquisa avalia como 
+esses agentes inteligentes estruturam a busca, a organização e a validação de informações 
+científicas. A metodologia adotada combina experimentação prática com análise qualitativa, 
+explorando a transparência das fontes, a precisão dos dados e os desafios da mediação 
+algorítmica. Os achados revelam tanto o potencial dessas tecnologias para otimizar a triagem 
+de conhecimento quanto suas limitações, como viés algorítmico, opacidade das fontes e risco 
+de referências fictícias. Os resultados reforçam a necessidade dos letramentos midiático e 
+algorítmico como competências essenciais para a pesquisa acadêmica na era da IA. 
+Palavras-chave: inteligência artificial generativa; metodologia de pesquisa; plataformas. 
+ 
+INTRODUÇÃO 
+A pesquisa acadêmica tem sido cada vez mais mediada por agentes inteligentes, que 
+reconfiguram a curadoria do conhecimento e impõem desafios à autonomia do pesquisador. 
+Em nosso artigo anterior, intitulado “Letramento Midiático e Inteligência Artificial: o papel 
+dos agentes inteligentes na curadoria da pesquisa acadêmica” (prelo), foi realizada uma 
+reflexão teórica sobre o impacto da inteligência artificial generativa (IAG) na reorganização 
+do acesso à informação, na validação de fontes e na redefinição do papel do pesquisador. 
+Fundamentado em autores como Buckingham (2022), Gillespie (2014), Couldry e Mejias 
+(2019), o estudo evidenciou que a crescente dependência de ferramentas algorítmicas para 
+busca acadêmica reforça a necessidade do letramento midiático e algorítmico (Ferrari; 
+Machado; Ochs, 2020). A pesquisa destacou como a mediação algorítmica pode, tanto 
+3 Professora Adjunta do Curso de Jornalismo, da Faculdade de Comunicação, UERJ. Professora membro 
+permanente do PPGCom-UERJ. Pesquisadora em métodos digitais para Inteligência Artificial. Pós-doutora pelo 
+PPGCOm-UERJ:  Email: raquel.lobao@uerj.br 
+ 
+2  Professora Adjunta dos Cursos de Especialização em Comunicação Social do Centro de Estudos de Pessoal e 
+Forte Duque de Caxias (CEP/FDC), escola de Humanidades do Exército Brasileiro. Professora Colaboradora do 
+Mestrado Profissional em Tecnologias, Comunicação e Educação (PPGCE/UFU). Pós-doutoranda pelo 
+PPGCOm-UERJ. E-mail: raquel.timponi@gmail.com 
+1  Trabalho enviado para o II Encontro Nacional de Pesquisa Aplicada em Comunicação na trilha Métricas, 
+Dados, JGD , Big Data e IA na modalidade artigo. 
+ 
+otimizar a triagem de conhecimento, quanto introduzir novos riscos, como vieses ocultos, 
+opacidade na seleção das fontes e a disseminação de referências fictícias.  
+Aqui, apresentamos a continuidade desta reflexão teórica, na tentativa de responder a 
+seguinte questão: de que maneira as ferramentas de IAG influenciam a curadoria da 
+pesquisa acadêmica, a precisão dos dados e a autonomia do pesquisador? Para isso, quatro 
+objetos de estudo compõem nossa amostra: ChatGPT, DeepSeek, Consensus e Research 
+Rabbit. Desta forma, seu objetivo é investigar empiricamente o impacto da IAG na curadoria 
+da pesquisa acadêmica. 
+Por meio de testes práticos, esta investigação avalia como essas plataformas 
+estruturam a busca, a organização e a validação de informações científicas, explorando sua 
+transparência, precisão e limitações. A metodologia adotada combina uma abordagem 
+qualitativa e exploratória, com foco na análise comparativa do funcionamento de ferramentas 
+de pesquisa assistidas por IAG. A investigação se configura como uma pesquisa aplicada, 
+baseada em testes conduzidos por meio da engenharia reversa (Carneiro, 2023; Gillespie, 
+2018, Kitchin, 2017), com o objetivo de compreender as dinâmicas de busca e a transparência 
+na disponibilização de fontes. 
+Para a composição do corpus de análise, ao longo da primeira semana de março de 
+2025, foram realizadas buscas, utilizando os termos-chave mídia-educação, comunicação e 
+inteligência artificial, combinados pelo operador booleano AND, com o objetivo de 
+identificar conteúdos inter-relacionados. A escolha desses termos não foi aleatória, mas sim 
+orientada pela linha de pesquisa do grupo Cibercog, alinhando-se às investigações conduzidas 
+no Observatório de IAG pela Mídia-Educação. Além disso, a pesquisa foi restrita a 
+publicações em língua portuguesa e concentrada em resultados dos últimos 15 anos, 
+garantindo a relevância e a atualização das informações analisadas. 
+As ferramentas analisadas incluem os modelos ChatGPT 4.0, via API, e o Gemini, da 
+Google, bem como as plataformas Consensus e Research Rabbit. O teste de busca na API do 
+ChatGPT foi realizado via integração com a linguagem de programação Python, enquanto, 
+para Consensus e Research Rabbit, os procedimentos seguiram o fluxo padrão das 
+plataformas, simulando a experiência de um usuário-pesquisador comum. 
+Diferentemente dos mecanismos tradicionais de busca, que operam com base na 
+indexação de descritores e palavras-chave, acredita-se que essas ferramentas funcionem por 
+meio de algoritmos de recomendação. Esses algoritmos não apenas recuperam documentos 
+ 
+com base em termos específicos, mas também priorizam produções cadastradas em seus 
+bancos de dados, cruzando referências e sugerindo conteúdos considerados relevantes, o que 
+pode influenciar significativamente os resultados apresentados aos pesquisadores. 
+ 
+SOBRE AS FERRAMENTAS 
+ 
+Em seu site, o Research Rabbit se identifica com o slogan "É tempo de reimaginar a 
+pesquisa", evocando a lógica do fetichismo tecnológico e a promessa de transformação pela 
+IA. Seu funcionamento baseia-se na indicação inicial de um artigo científico pelo usuário. A 
+partir desse documento, a ferramenta compara o conteúdo com sua base de dados e sugere 
+artigos relacionados, buscando aproximar os resultados das expectativas do pesquisador. 
+Além dessa funcionalidade, a plataforma permite buscas por tema, organizando coleções de 
+artigos em categorias específicas. Dessa forma, viabiliza um levantamento bibliográfico 
+atualizado, agrupando estudos de autores que abordam temáticas correlatas ao artigo inicial. 
+Isso proporciona ao pesquisador uma visão estruturada do campo de estudo, facilitando a 
+identificação de tendências e referências relevantes. 
+Outro diferencial é sua capacidade de sugerir publicações altamente relevantes, 
+mesmo quando não contém necessariamente os termos exatos pesquisados. A ferramenta 
+utiliza um algoritmo avançado para identificar trabalhos conceitualmente relacionados ao 
+tema, garantindo uma alta acurácia na recomendação de estudos complementares. Dessa 
+forma, o Research Rabbit se torna um aliado na identificação de redes de pesquisa, ajudando 
+pesquisadores a mapear áreas de estudo emergentes e a estabelecer conexões entre diferentes 
+abordagens teóricas e metodológicas. 
+Sobre  a visualização e organização de referências acadêmicas, a ferramenta oferece 
+um mapeamento gráfico interativo das conexões entre autores e publicações. Diferente de 
+buscadores tradicionais, não apenas retorna uma lista de artigos, mas permite explorar as 
+relações entre as pesquisas de forma dinâmica, incluindo: ordem cronológica, permitindo 
+observar a evolução do tema ao longo do tempo; ordem alfabética das publicações, 
+facilitando a busca por autores ou periódicos específicos, e ordenação pelo maior número de 
+citações, ajudando a identificar os trabalhos mais influentes na área. 
+No entanto, uma análise preliminar do site não revelou informações detalhadas sobre 
+as bases de dados utilizadas. Pelo método da engenharia reversa (Carneiro, 2023) – isto é, por 
+ 
+meio do uso e teste da plataforma –, observou-se que o Research Rabbit opera com um 
+padrão de indexação por título e resumo, utilizando palavras-chave para retornar os 
+resultados. A organização dos artigos em pastas e a subdivisão dos temas por tópicos de 
+interesse permitem ao usuário estruturar melhor sua pesquisa com o auxílio da IA. 
+Entretanto, um ponto crítico é a falta de transparência sobre a origem dos dados. Não 
+há informações explícitas sobre quais bases a ferramenta consulta ou se as referências são 
+exclusivamente científicas. Ao examinar a política de privacidade da plataforma, constatou-se 
+que os próprios usuários são responsáveis pela veracidade das informações incorporadas. Isso 
+sugere que a qualidade dos resultados pode ser impactada pelo uso que os pesquisadores 
+fazem do serviço, principalmente se for possível indexar conteúdos próprios na plataforma. 
+Dessa forma, caso o usuário não tenha lido a política de privacidade – o que ocorre na 
+maioria dos casos –, ele pode não estar ciente dessas limitações e utilizar o Consensus sem 
+questionar a procedência dos resultados. Essa falta de clareza levanta questionamentos sobre 
+a confiabilidade do processo de triagem de artigos e resumos, além da acurácia 
+informacional, uma vez que a busca é conduzida por IA, mas sem transparência quanto aos 
+critérios utilizados para gerar as recomendações. 
+As pesquisadoras realizaram a seleção dos artigos entre os dias 13 e 22 de fevereiro 
+de 2025 no teste com o Consensus, resultando em uma coleção organizada com 11 artigos 
+considerados relevantes para a pesquisa. A análise dos resultados revelou que a maioria dos 
+textos pertence ao campo da Educação e sua relação com a IA. Entre os artigos retornados, 
+destaca-se um coautorado por Dora Kaufman, referência na área da Comunicação, e Lynn 
+Alves, especialista em Educação, ambas pesquisadoras reconhecidas na interface entre 
+Educação e Inteligência Artificial. 
+No entanto, ao avaliar o conjunto dos artigos selecionados, percebe-se uma 
+predominância de estudos voltados à Educação e IA, com menor incidência de conteúdos 
+relacionados diretamente aos termos Mídia-Educação e Comunicação. Essa discrepância 
+pode ser explicada por diferentes fatores. Um deles é a possível sub-representação da 
+produção acadêmica da área de Comunicação em bases amplamente indexadas, como Scopus 
+e SciELO. Além disso, pesquisas dessa área costumam ser publicadas em dossiês temáticos 
+de periódicos especializados, como as edições recentes das revistas Organicom, Matrizes e 
+Geminis, que abordaram a relação entre Inteligência Artificial e Comunicação. 
+ 
+Essa hipótese foi reforçada por um teste externo realizado pela pesquisadora, que 
+buscou diretamente pelos termos Comunicação e IA. O resultado revelou um número 
+significativo de estudos voltados para Relações Públicas, Publicidade, Comunicação 
+Organizacional e IAG, majoritariamente indexados em plataformas acadêmicas abertas, como 
+ResearchGate e Google Scholar. Observou-se ainda que muitos desses trabalhos foram auto 
+depositados pelos autores, possivelmente atendendo a critérios de avaliação da CAPES, como 
+a indexação no índice H e a inserção na coleta Sucupira. 
+Como forma de compreender mais sobre o processamento da informação pela 
+ferramenta Consensus, o site traz informações de que é uma plataforma de busca acadêmica 
+baseada em IAG, projetada para facilitar o acesso a artigos científicos. Semelhante ao Google 
+Scholar, ela emprega IA para aprimorar a precisão das buscas, permitindo que pesquisadores 
+encontrem estudos de forma mais eficiente. A ferramenta funciona por meio da inserção de 
+perguntas específicas, formuladas com base no problema de pesquisa, priorizando a 
+recuperação de artigos acadêmicos relevantes. Segundo a plataforma, “a partir da pergunta 
+inicial, a ferramenta identifica e sugere os melhores artigos de pesquisa relacionados ao tema 
+inserido pelo usuário”.  
+Para auxílio na busca, o serviço Consensus oferece filtros como idioma, ano de 
+publicação e tipo de estudo (artigo, jornal, etc). Seu recurso Pro Analysis, integrado a um 
+modelo GPT, permite gerar resumos compactos e identificar informações essenciais nos 
+artigos. A base de dados utilizada para a pesquisa inclui parcerias com OpenAI, Semantic 
+Scholar, Centaur Labs e Center for Open Science, aumentando o rigor na curadoria das 
+fontes. O sistema combina busca por palavras-chave e pesquisa vetorial, analisando títulos e 
+resumos. A relevância dos artigos é determinada por fatores como número e velocidade de 
+citações, metodologia e data de publicação, destacando os 20 resultados mais pertinentes.  
+A análise preliminar da ferramenta revelou que o Consensus oferece, além de insights 
+contextuais sobre artigos acadêmicos, um conjunto de filtros de pesquisa avançados que 
+permitem visualizar o consenso científico, por indicadores de qualidade. Além disso, a 
+plataforma disponibiliza opções de exportação dos resultados e listas em formatos como .csv 
+(para análise de dados por grafos) e .ris (compatível com ferramentas como Zotero e 
+EndNote, por exemplo). 
+Após o mapeamento prévio da ferramenta Consensus, foram realizados três tipos de 
+testes de busca na ferramenta: 1) com uso de prompt e palavra-chave; 2) com o auxílio da IA, 
+ 
+enquanto agente inteligente, para trazer resultados com síntese dos assuntos; 3) com uso de 
+termos e perguntas norteadoras, sem o auxílio da ferramenta Pro Analysis. 
+O primeiro teste fez uso do seguinte prompt: “sou pós-graduada e pesquisadora da 
+área de Comunicação. Meu foco de pesquisa é IAG, Comunicação e Mídia-Educação. Estou 
+produzindo uma revisão de literatura sistemática neste mesmo foco e, para isso, preciso que 
+você gere uma listagem de 20 artigos científicos, escritos em língua portuguesa, nos últimos 
+15 anos, que tenha OBRIGATORIAMENTE os termos inteligência artificial AND 
+Comunicação OR Educação em seus títulos ou abstracts. Em sua tarefa, considere artigos 
+jornalísticos ou opinativos”.  
+A ferramenta informou que não foi possível realizar a busca conforme solicitado. Ao 
+selecionar o idioma português, os resultados foram limitados e pouco relevantes. Como 
+alternativa, a plataforma sugeriu a consulta ao Google Scholar e ao SciELO, reconhecidas 
+como bases de indexação acadêmica mais consolidadas para pesquisas em língua portuguesa.  
+Ao selecionar a busca em inglês, a ferramenta retornou apenas 10 artigos, com uma 
+análise, predominantemente, voltada para a área de Educação e IA. A maioria dos estudos 
+estava relacionada a tutores inteligentes, ensino personalizado e processos de automatização 
+do ensino. Todos os resultados incluíram uma síntese do conteúdo, link para o artigo original, 
+ano de publicação, metodologia, país de origem e número de citações. Esses elementos 
+indicam que o Consensus tenta priorizar a veracidade das fontes acadêmicas e adota o 
+reconhecimento acadêmico como um critério de seleção. 
+Dos 10 artigos retornados na pesquisa, apenas um contemplava os três termos-chave 
+da busca: “Mídia-Educação AND Inteligência Artificial AND Comunicação”. Ao acessar o 
+link desse artigo, que se alinhava ao escopo da pesquisa e incluía a dimensão da 
+Comunicação, a ferramenta redirecionou o usuário para a plataforma de indexação Semantic 
+Scholar. Nessa página, foram disponibilizados 68 artigos adicionais, abrangendo temas 
+relacionados à Comunicação, Jornalismo, Relações Públicas, Educação e IA, com 
+publicações internacionais de países como Estados Unidos, Espanha, Grécia e China. Esse 
+encaminhamento sugere que a ferramenta pode funcionar como um ponto de partida para 
+uma pesquisa mais ampla e personalizada, direcionando o usuário para conteúdos 
+potencialmente relevantes. 
+A partir desse primeiro teste, constatou-se que as bases de indexação tradicionais 
+ainda oferecem uma cobertura mais ampla e uma recuperação de dados mais consistente, pois 
+ 
+já possuem um reconhecimento consolidado no meio acadêmico. No entanto, um dos 
+aspectos positivos do Consensus foi a capacidade de fornecer um link válido para um artigo 
+que, por sua vez, levou à descoberta de outras 68 referências relevantes, demonstrando o 
+potencial da IA na ampliação do acesso a fontes acadêmicas. 
+Os resultados do primeiro teste indicaram que as bases de indexação tradicionais 
+ainda apresentam uma cobertura mais ampla e um retorno mais preciso para pesquisas 
+acadêmicas, devido ao seu reconhecimento consolidado no meio científico. No entanto, o 
+Consensus demonstrou um aspecto positivo ao fornecer um link válido para um artigo que, 
+por sua vez, possibilitou o acesso a 68 outras referências relevantes, ampliando as 
+possibilidades de investigação para o pesquisador. 
+No segundo teste, adotou-se uma abordagem temática, utilizando o termo 
+"Implicações da IA para a Educação em Mídias na Comunicação", algo mais próximo a um 
+tema de pesquisa. Nesse caso, o Consensus teve um desempenho satisfatório, tanto na 
+identificação de artigos diretamente relacionados ao tema, combinando os três termos na 
+busca, quanto na síntese das informações essenciais, por meio da ferramenta inteligente Pro 
+Analysis – o que facilitou a compreensão dos tópicos abordados nos artigos coletados. 
+Como resultado, além de fornecer um resumo inicial e uma conclusão sobre o tema, o 
+Consensus identifica tópicos relevantes que podem ser abordados em pesquisas acadêmicas. 
+Além disso, ela mapeia quais artigos tratam desses tópicos, permitindo ao usuário acessar 
+diretamente os estudos mais pertinentes. Entre os temas destacados como resultados, estão 
+oportunidades do uso da IA, implicações éticas, com a indicação de quais artigos podem 
+servir como embasamento para cada aspecto possível de análise do tema. Dessa forma, a 
+ferramenta otimiza o tempo do pesquisador, direcionando-o para conteúdos mais alinhados ao 
+seu tema de interesse. 
+Já a extração de resultados sem o auxílio do recurso Pro Analysis, voltado à 
+organização automatizada do conteúdo, também apresentou artigos relevantes, fornecendo 
+links diretos para acesso às publicações e a possibilidade de exportação dos dados para 
+ferramentas complementares, como o Zotero. Entre os resultados, destaca-se a atualidade das 
+publicações e o número de citações, indicando a relevância dos autores na área. Um exemplo 
+é o artigo de Pavlik (2023), com 436 citações, abordando o “Jornalismo e o uso do ChatGPT 
+no ensino da Comunicação”. Outros destaques incluem estudos chineses, com 324 citações, 
+sobre aplicações da “IA na Educação e na Mídia”, evidenciando a interdisciplinaridade do 
+ 
+campo. Os resultados sugerem que o Consensus apresenta melhor desempenho quando a 
+busca é baseada em temas e questões, em vez de pesquisas por palavras-chave isoladas ou 
+prompts, que não foram tão eficazes. 
+Também foi realizada uma busca utilizando o ChatGPT 4.0, nos dias 10 e 11 de 
+março de 2023. O objetivo foi avaliar a capacidade da ferramenta em retornar artigos 
+relevantes sobre os termos estabelecidos no protocolo de pesquisa já mencionado. Para isso, 
+utilizamos a API desta plataforma integrada à linguagem de programação Python, o que 
+possibilitou a automação da busca e a extração dos dados. O processo seguiu três etapas 
+principais. Primeiro, foi definido um comando estruturado para a API, denominado user 
+prompt4, no qual foram solicitados 20 artigos acadêmicos sobre os temas especificados, 
+priorizando fontes científicas e publicações recentes.  
+​
+Diferente do user prompt, que é a entrada fornecida pelo usuário para gerar uma 
+resposta específica, o system prompt5 configura regras gerais de comportamento do modelo, 
+podendo influenciar sua abordagem ao processar informações e gerar respostas. Em seguida, 
+foram aplicados filtros para eliminar conteúdos irrelevantes, como artigos de opinião, 
+publicações comerciais e fontes sem rigor acadêmico. 
+​
+A princípio, os dados extraídos foram apresentados sem qualquer formatação 
+estruturada, dificultando sua organização, análise e transposição para outras ferramentas. A 
+fim de manter o rigor científico necessário à comparação de informações entre diferentes 
+ferramentas de busca acadêmica, foi necessário um novo processamento dos dados para 
+garantir sua clareza e usabilidade. Para isso, utilizou-se um script em Python que aplicou 
+técnicas de expressões regulares (regex) para identificar e extrair os campos relevantes, como 
+autor(es), título, ano de publicação, periódico e link de acesso. Em seguida, os dados foram 
+reorganizados e ordenados alfabeticamente, assegurando uma apresentação padronizada e 
+compatível com as exigências metodológicas desta pesquisa. Essa reestruturação também 
+possibilitou a comparação direta com os resultados de outras ferramentas analisadas, 
+permitindo uma avaliação mais precisa da eficácia da API do ChatGPT. 
+5 Eis o script em Python: “para esta tarefa, exclua na sua busca os artigos jornalísticos ou opinativos, bem como 
+aqueles escritos em qualquer outra língua que não português. Além disso , se certifique de que, em sua lista, 
+cada item tenha um link válido para acesso ao artigo” 
+4 Eis o script em Python: “procure os termos inteligência artificial e mídia e/ou no título ou no abstract de 
+artigos científicos de todas as bases de dados possíveis e gere um arquivo do tipo BibTex com um conjunto de 
+20 publicações”. 
+ 
+A própria IAG reconhece uma limitação importante no processo de recuperação de 
+informações: a possibilidade de alucinações, ou seja, a geração de referências inexistentes ou 
+imprecisas. Ao final do resultado, lê-se o seguinte aviso:  
+vale notar que alguns exemplos de links podem ser fictícios, uma vez que a busca 
+detalhada é simulada para atender aos critérios estabelecidos. Certifique-se de que 
+os links de exemplo sejam acessados através de bases de dados válidas e 
+reconhecidas. Caso você precise de um arquivo .bib com estes itens, eu recomendo 
+o uso de ferramentas de gestão de referências como EndNote, Mendeley ou Zbib, 
+que podem importar facilmente listas como essa. 
+​
+ 
+Esse fenômeno é especialmente crítico no contexto da pesquisa acadêmica, pois 
+compromete a confiabilidade dos dados extraídos e exige um processo rigoroso de 
+verificação manual. A recomendação do ChatGPT para que o usuário valide os links e utilize 
+ferramentas de gestão de referências, como EndNote, Mendeley ou Zbib, reforça a 
+necessidade de um uso crítico da IAG na pesquisa científica. 
+Finalmente, nosso último objeto de análise foi o Gemini. Desenvolvido pelo Google 
+DeepMind, trata-se de um modelo de IAG que se destaca por sua capacidade multimodal, ou 
+seja, sua habilidade de processar e interpretar diferentes tipos de dados, incluindo texto, 
+imagens, áudio, vídeo e código. Diferente do ChatGPT, que opera majoritariamente por meio 
+de LLMs, o Gemini é projetado para integrar múltiplos formatos de entrada e saída, 
+tornando-se uma ferramenta versátil para diversos tipos de tarefas, incluindo pesquisa 
+acadêmica, análise de dados e geração de conteúdo especializado. A plataforma está 
+integrada aos produtos do Google, como o Google Bard, e oferece acesso à sua API para 
+desenvolvedores, permitindo sua incorporação em aplicações personalizadas. No entanto, a 
+abordagem da ferramenta em relação à transparência na curadoria das informações apresenta 
+desafios. A política de privacidade do Gemini segue as diretrizes gerais do Google, o que 
+implica no uso de dados coletados para aprimoramento do modelo, mas sem detalhamento 
+explícito sobre quais bases de dados científicas são consultadas durante a recuperação de 
+informações, levantando questões sobre a verificabilidade das fontes e a confiabilidade dos 
+resultados. 
+Para avaliar a capacidade da ferramenta em fornecer referências científicas relevantes, 
+foi realizado um teste prático no Gemini, utilizando o seguinte  prompt: “sou pós-graduada e 
+pesquisadora da área de Comunicação. Meu foco de pesquisa é IAG, Comunicação, 
+Mídia-Educação. Estou produzindo uma revisão de literatura sistemática neste mesmo foco e 
+ 
+para isso que preciso que você gere uma listagem de 20 artigos científicos, escritos em língua 
+portuguesa, nos últimos 15 anos, que tenha OBRIGATORIAMENTE os termos inteligência 
+artificial AND Comunicação OR Educação em seus títulos, palavras-chave ou resumos. Em 
+sua tarefa, desconsidere artigos jornalísticos ou opinativos. A listagem deve ser apresentada 
+com uma publicação por linha, na seguinte ordem: autor, título da publicação, ano e link onde 
+o artigo pode ser acessado. 
+A análise preliminar dos resultados revelou algumas particularidades na abordagem 
+do Gemini em relação à pesquisa acadêmica. A ferramenta apresentou um maior alinhamento 
+com as especificações do prompt, respeitando a organização exigida e garantindo que cada 
+artigo fosse apresentado de forma estruturada. No entanto, assim como observado em outras 
+plataformas de IAG, a falta de transparência sobre as bases de dados utilizadas representa um 
+desafio, pois o usuário não consegue verificar se os artigos retornados são provenientes de 
+repositórios acadêmicos reconhecidos. Outro ponto crítico refere-se à possibilidade de 
+geração de referências inexistentes ou imprecisas, fenômeno conhecido como alucinação 
+algorítmica. Durante a avaliação dos links fornecidos, foi constatado que alguns endereços 
+levavam a páginas inexistentes ou a conteúdos não acadêmicos, o que reforça a necessidade 
+de verificação manual e uso complementar de ferramentas tradicionais de pesquisa científica, 
+como Google Scholar, Periódicos CAPES e bases indexadas. 
+ 
+COMPARATIVO E ALGUMAS INFERÊNCIAS 
+A comparação entre estas ferramentas exige a definição de critérios objetivos que 
+possibilitem a avaliação de suas potencialidades e limitações. A utilização de métodos 
+comparativos na pesquisa científica, conforme apontam Schneider e Schimitt (1998) e Ragin 
+(2014), permite não apenas identificar semelhanças e diferenças entre os objetos analisados, 
+mas também compreender padrões estruturais que influenciam seus desempenhos. No campo 
+da tecnologia e da curadoria digital, a adoção desse tipo de análise é particularmente útil para 
+mapear como diferentes ferramentas moldam o acesso e a organização do conhecimento.  
+Portanto, na Tabela 1, encontra-se o início de um estudo comparativo 
+exploratório-descritivo, estruturado a partir de 5 critérios: política de privacidade (como se dá 
+a gestão dos dados dos usuários); transparência das fontes (se há informação clara sobre as 
+bases de dados utilizadas); potencial (os benefícios oferecidos por cada ferramenta); riscos 
+ 
+(as limitações e problemas associados a cada plataforma, como viés algorítmico, 
+possibilidade de alucinação e confiabilidade das informações fornecidas) e, por fim, 
+resultados encontrados (as principais observações empíricas extraídas a partir do uso das 
+ferramentas, apontando padrões e inconsistências). 
+Tabela 1 - Estudo Comparativo entre ChatGPT, Gemini, Consensus e Research Rabbit 
+Ferramenta 
+Política de 
+privacidade 
+Transparência 
+das fontes 
+Potencial 
+Riscos 
+Descrição dos 
+resultados 
+encontrados 
+ChatGPT 4.0 
+Dados usados para 
+aprimorar o 
+modelo; não revela 
+bases de dados 
+utilizadas. 
+Não transparente: 
+pode gerar 
+referências 
+fictícias 
+(alucinação 
+algorítmica). 
+Automação da 
+busca e filtragem 
+rápida de 
+informações. 
+Possibilidade de 
+informações 
+falsas; 
+dependência de 
+curadoria manual. 
+20 artigos, cuja 
+maioria se concentra 
+na área de Educação, 
+apresentados de forma 
+desestruturada. 
+Alguns links 
+indicados não são 
+verificáveis.  
+Gemini  
+Segue a política de 
+privacidade do 
+Google; coleta 
+dados para 
+aprimoramento, 
+mas sem detalhar 
+fontes científicas. 
+Pouco 
+transparente: não 
+indica de quais 
+bases acadêmicas 
+extrai os dados. 
+Curadoria mais 
+precisa, quando 
+bem configurado. 
+Pode apresentar 
+links inválidos e 
+informações não 
+verificáveis. 
+15 artigos, com maior 
+equilíbrio entre 
+Educação e 
+Comunicação. Todos 
+os links são 
+verificáveis, mas 
+algumas publicações 
+provêm de fontes 
+institucionais.  
+Research 
+Rabbit 
+Não especifica 
+bases de dados 
+utilizadas; depende 
+do que os usuários 
+inserem na 
+plataforma. 
+Opaca: não há 
+clareza sobre a 
+origem das 
+referências. 
+Excelente para 
+visualização 
+interativa de redes 
+de pesquisa, com 
+gráficos dinâmicos 
+e organização por 
+citações, 
+cronologia e 
+conexões entre 
+autores 
+Pode reforçar 
+vieses, devido à 
+falta de controle 
+sobre os dados 
+indexados. 
+Retornou 11 artigos, 
+organizados em uma 
+rede de conexões entre 
+autores. Alta precisão 
+na recomendação de 
+artigos relevantes ao 
+tema, mesmo sem 
+conter os termos 
+exatos pesquisados. 
+Consensus 
+Utiliza bases 
+acadêmicas 
+reconhecidas, 
+como Semantic 
+Scholar e OpenAI. 
+Alta: menciona 
+fontes utilizadas e 
+combina diferentes 
+critérios na seleção 
+de artigos. 
+Melhor 
+desempenho com 
+perguntas 
+temáticas e busca 
+por tópicos. 
+Limitações na 
+busca em 
+português; sugere 
+bases externas 
+(Google Scholar e 
+SciELO) para 
+maior precisão. 
+Retornou 10 artigos, 
+majoritariamente 
+sobre Educação e IA. 
+Apenas um artigo 
+contemplou os três 
+termos da busca 
+(Mídia-Educação, IA 
+e Comunicação), mas 
+levou a mais 68 
+referências no 
+Semantic Scholar. 
+Fonte: Elaboração das autoras. 
+ 
+As quatro ferramentas analisadas compartilham o objetivo comum de facilitar o 
+processo de busca e organização da informação acadêmica, utilizando IA para otimizar a 
+curadoria de conteúdos. Todas operam com modelos algorítmicos avançados, promovendo 
+automatização da pesquisa e oferecendo respostas refinadas aos pesquisadores. No entanto, a 
+forma como cada uma processa e apresenta os dados varia significativamente, impactando a 
+confiabilidade e o nível de controle que o usuário tem sobre as fontes consultadas. 
+Uma das principais diferenças entre as ferramentas é a transparência das bases de 
+dados utilizadas. O Consensus se destaca por citar bases científicas reconhecidas, como 
+Semantic Scholar e OpenAI, garantindo maior credibilidade às informações recuperadas. Em 
+contrapartida, o ChatGPT e o Gemini não revelam de onde extraem seus dados, podendo 
+gerar respostas sem embasamento verificável, o que representa um risco na pesquisa 
+acadêmica. Já o Research Rabbit baseia-se no que os usuários inserem na plataforma, 
+tornando sua curadoria mais dependente do comportamento dos próprios pesquisadores, o 
+que pode influenciar os resultados conforme a forma como a ferramenta é utilizada. 
+Outro ponto de distinção entre as ferramentas é o método de busca e organização dos 
+resultados. O ChatGPT e o Gemini operam por meio de LLMs, gerando textos completos a 
+partir de perguntas abertas, sem necessariamente fornecer links diretos para fontes 
+verificáveis. Já o Research Rabbit e o Consensus organizam os resultados em listas 
+estruturadas, permitindo uma abordagem mais tradicional da revisão bibliográfica. Além 
+disso, a interação com o usuário também difere: o Consensus responde a perguntas 
+específicas com base em artigos científicos, enquanto o Research Rabbit prioriza a 
+construção de redes de conhecimento, sugerindo conexões entre autores e temas correlatos. 
+Este último também demonstrou ser uma ferramenta altamente eficaz para 
+visualização interativa da pesquisa acadêmica, gerando gráficos dinâmicos que representam a 
+relação entre artigos, autores e temas. Sua interface permite a organização dos resultados por 
+ordem cronológica, relevância por número de citações e agrupamento por proximidade 
+semântica, além do uso de cores distintas para diferenciar categorias e relações. Outra 
+característica relevante da ferramenta é sua capacidade de sugerir artigos relacionados ao 
+tema pesquisado, mesmo quando não contém exatamente os termos utilizados na busca, 
+garantindo uma curadoria de alta precisão para descobertas acadêmicas. No entanto, sua falta 
+de transparência quanto às bases de dados utilizadas e sua dependência do comportamento do 
+usuário são aspectos que exigem cautela por parte dos pesquisadores. 
+ 
+Em relação aos riscos, todas as plataformas apresentam desafios quanto à precisão e 
+confiabilidade da informação. A alucinação algorítmica, fenômeno em que a IA gera 
+referências fictícias ou imprecisas, é um problema recorrente, especialmente no ChatGPT e 
+no Gemini, que podem produzir citações inexistentes sem alertar claramente o usuário. Já o 
+Research Rabbit e o Consensus, embora mais orientados a fontes verificáveis, podem reforçar 
+vieses acadêmicos, uma vez que priorizam conteúdos amplamente indexados e reconhecidos, 
+deixando de fora produções independentes ou publicadas em repositórios menos 
+convencionais. 
+Apesar desses desafios, o potencial dessas ferramentas reside na capacidade de 
+acelerar a pesquisa acadêmica, tornando a triagem de conteúdos mais eficiente e acessível. 
+No entanto, o uso dessas tecnologias deve ser acompanhado de um olhar crítico, exigindo que 
+pesquisadores desenvolvam competências em letramento midiático e algorítmico, a fim de 
+compreender os mecanismos de curadoria digital e evitar a aceitação passiva das informações 
+fornecidas pela IA. A crescente dependência dessas ferramentas reforça a necessidade de 
+transparência e regulamentação, garantindo que a IA seja utilizada de maneira ética e 
+responsável, e que o conhecimento científico continue sendo validado com rigor 
+metodológico. 
+Dessa forma, cada ferramenta possui um papel distinto dentro do ecossistema da 
+pesquisa acadêmica assistida por IA. O Consensus destaca-se por sua transparência e precisão 
+na recuperação de artigos, mas apresenta limitações na busca em português. O Research 
+Rabbit oferece um formato inovador de visualização de redes de pesquisa, auxiliando na 
+descoberta de conexões entre autores e temas, mas sua curadoria é influenciada pelo 
+comportamento do usuário. Já o ChatGPT e o Gemini, embora úteis para resumos e 
+contextualizações rápidas, exigem verificação rigorosa das informações, pois podem gerar 
+conteúdos imprecisos ou fictícios. A complementaridade entre essas ferramentas pode 
+representar um avanço significativo na forma como a pesquisa acadêmica é conduzida, desde 
+que seu uso seja acompanhado de critérios rigorosos de avaliação e validação das fontes. 
+ 
+ 
+​
+Considerações finais  
+ 
+Ao longo deste artigo, foram discutidos os impactos dos agentes inteligentes na 
+pesquisa científica. Foi possível observar que, embora essas tecnologias otimizem a triagem e 
+organização de dados, elas também podem restringir o acesso a determinadas fontes, reforçar 
+vieses algorítmicos e apresentar referências fictícias. Assim, a questão central levantada neste 
+estudo – de que maneira a IA modifica os processos de busca e validação da informação no 
+meio acadêmico e quais são seus impactos na construção do pensamento crítico – pode ser 
+respondida a partir das transformações evidenciadas pela curadoria algorítmica e da 
+necessidade urgente de um letramento midiático e algorítmico crítico e atualizado. 
+Especificamente sobre o impacto da IA na pesquisa acadêmica, podemos afirmar que 
+ele vai além da mera automatização da busca por fontes. Na verdade, suas consequências 
+representam uma mudança estrutural na forma como o conhecimento é produzido, acessado e 
+hierarquizado, deslocando parte do processo decisório dos pesquisadores para os sistemas 
+algorítmicos, cujos critérios de seleção e priorização nem sempre são transparentes. A 
+mediação algorítmica, ao organizar e filtrar informações, pode tanto facilitar descobertas 
+inovadoras quanto limitar o escopo das investigações, reforçando padrões predefinidos pelos 
+próprios modelos de IA. 
+Já no campo do letramento midiático e algorítmico, a IA desafia a noção tradicional 
+de alfabetização digital, exigindo uma compreensão crítica dos processos algorítmicos que 
+estruturam a curadoria da informação. Com a crescente dependência de agentes inteligentes, 
+torna-se fundamental que pesquisadores adquiram competências para avaliar a credibilidade 
+das fontes, compreender os mecanismos de recomendação algorítmica e evitar a aceitação 
+passiva de informações sintetizadas por sistemas de IA.  
+O estudo empírico realizado indicou que, ao menos, três desafios e riscos devem ser 
+enfrentados. O primeiro é a perda de autonomia na seleção e análise das fontes. Isto porque a 
+centralização da curadoria informacional em sistemas algorítmicos reduz a autonomia do 
+pesquisador, que passa a depender de filtros invisíveis e critérios pré-programados para 
+acessar conhecimento relevante. O segundo diz respeito ao reforço de vieses algorítmicos. 
+Como demonstrado, muitos sistemas priorizam conteúdos amplamente indexados e 
+reconhecidos, o que pode excluir produções independentes e abordagens críticas, limitando a 
+diversidade epistemológica na pesquisa acadêmica. E, por fim, o terceiro é o risco de 
+disseminação de informações imprecisas ou fictícias. Ficou evidente que a alucinação 
+algorítmica, fenômeno em que a IA gera referências inexistentes ou distorcidas, compromete 
+ 
+a confiabilidade das fontes acadêmicas e pode levar à circulação de dados incorretos em 
+pesquisas científicas. 
+Diante desses desafios, propomos cinco diretrizes para um uso mais consciente e 
+responsável dos agentes inteligentes:  
+1.​ Verificação cruzada de fontes – é essencial confrontar as informações extraídas por 
+agentes inteligentes com bases científicas reconhecidas e validar sua autenticidade; 
+2.​ Transparência e letramento algorítmico – Pesquisadores devem buscar compreender o 
+funcionamento das ferramentas utilizadas, identificando suas bases de dados, critérios de 
+curadoria e eventuais limitações metodológicas; 
+3.​ Complementação com métodos tradicionais – A IA deve ser usada como ferramenta 
+auxiliar, e não como substituta da revisão bibliográfica tradicional, garantindo que a 
+seleção de fontes não fique restrita às sugestões algorítmicas;  
+4.​ Atenção à ética e privacidade dos dados – É fundamental analisar as políticas de 
+privacidade das plataformas e compreender como os dados dos pesquisadores são 
+utilizados, evitando a exposição de informações sensíveis e  
+5.​ Capacitação e desenvolvimento de competências digitais – A formação acadêmica deve 
+incluir um letramento midiático e algorítmico estruturado, preparando pesquisadores para 
+um ambiente de pesquisa cada vez mais mediado por IA. 
+Por fim, é importante destacar que o debate sobre IAG e curadoria acadêmica 
+permanece em constante evolução, já que as mudanças nos modelos agentes inteligentes 
+ocorrem de forma rápida e imprevisível. Esse cenário dinâmico exige que pesquisadores 
+estejam atentos ao desenvolvimento de estratégias de letramento midiático e algorítmico, 
+garantindo que o uso dessas tecnologias seja crítico, reflexivo e alinhado aos princípios éticos 
+e metodológicos da pesquisa científica. Essa pesquisa, de caráter experimental, integra um 
+projeto maior em andamento no Observatório de IAG pela Mídia-Educação (LMD/UERJ), 
+investiga as relações entre IA, curadoria da informação e letramento midiático.  
+ 
+Referências 
+BUCKINGHAM, David. Manifesto pela Educação Midiática. Trad. José Ignacio Mendes. 
+São Paulo: Edições Sesc São Paulo, 2022. 
+ 
+CARNEIRO, Márcio. Entrevistando um Robô: notas sobre a aplicação experimental da 
+metodologia EEAF usando a ferramenta ChatGPT de Inteligência Artificial. Revista 
+Comunicação & Inovação, v. 24, ed. 20238987, jan./dez. 2023. 
+COULDRY, N.; MEJIAS, U. A. The Costs of Connection: how data is colonizing human 
+life and appropriating it for capitalism. Stanford: Stanford University Press, 2019. 
+FERRARI, Ana Claudia; OCHS, Mariana; MACHADO, Daniela. Guia da Educação 
+Midiática.  1. ed.. São Paulo : Instituto Palavra Aberta, 2020. 
+GILLESPIE, Tarleton.The relevance of algorithms. In: GILLESPIE, T.; BOCZKOWSKI, 
+Pablo; FOOT, Kirsten. (Eds.). Media technologies: Essays on communication, materiality, 
+and society. Cambridge: MIT Press, 2014. p. 167–194. 
+KITCHIN, Rob. The Data Revolution: big data, open data, data infrastructures and their 
+consequences. London: SAGE Publications, 2014. 
+MACEDO, Sanderson. Agentes inteligentes: CrewAI para iniciantes. Volume 1, ebook, 
+2024. 
+OCHS, Mariana. Educação Midiática e inteligência Artificial: fundamentos.São Paulo: 
+Instituto Palavra Aberta, 2024. (Livro eletrônico). 
+View publication stats
