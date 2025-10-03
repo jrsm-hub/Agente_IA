@@ -1,5 +1,3 @@
-# 2_fragmentacao_e_salvamento.py (VERSÃO COM FRAGMENTAÇÃO INTELIGENTE)
-
 import os
 import pickle
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -29,9 +27,9 @@ for nome_arquivo_txt in os.listdir(pasta_textos):
             chunk_size=1000,
             chunk_overlap=150,
             length_function=len,
-            separators=["\n\n", "\n", ". ", " ", ""] # <<< Regra de separação mais inteligente
+            separators=["\n\n", "\n", ". ", " ", ""] 
         )
-        # --- FIM DA MUDANÇA ---
+       
 
         fragmentos_texto = text_splitter.split_text(texto_completo)
 

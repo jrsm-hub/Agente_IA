@@ -2,7 +2,7 @@
 
 import fitz  # PyMuPDF
 import os
-import unicodedata # <<< NOVA IMPORTAÇÃO: Biblioteca para normalizar texto
+import unicodedata 
 
 # Caminho para a pasta onde estão os seus PDFs
 pasta_fontes = "fontes"
