@@ -1,0 +1,1931 @@
+Manual de orientações para
+projetos de pesquisa
+Dalva Inês de Souza
+Deise Margô Müller
+Maria Angélica Thiele Fracassi
+Solange Bianco Borges Romeiro
+Fundação Escola Técnica Liberato Salzano Vieira da Cunha
+Novo Hamburgo
+2013
+FUNDAÇÃO ESCOLA TÉCNICA
+LIBERATO SALZANO VIEIRA DA 
+CUNHA
+Diretor Executivo
+Leo Weber
+Secretário Executivo
+Ramon Fernando Hans
+Diretor de Pesquisa e Produção 
+Industrial
+Leori Carlos Tartari
+Diretor Administrativo
+Ronaldo Garcia Forte
+Diretor de Recursos Humanos
+João Batista Flesch
+Diretora de Ensino
+Mareli Lurdes Regelin
+Coordenadores de Ensino
+Maria do Carmo de Menezes
+Paulo Alex Castro Viacava
+Revisão
+Dalva Inês de Souza
+Deise Margô Müller
+Maria Angélica Thiele Fracassi
+Solange Bianco Borges Romeiro
+Bibliotecária Responsável
+Lílian Amorim Pinheiro
+Editoração
+Lílian Amorim Pinheiro
+Capa
+Lucas Müller
+Contato
+Rua Inconfidente, 395 - Caixa Postal 621 - 
+Novo Hamburgo - RS - 93340-140
+Fone: (51) 3584 2000 - Fax: (51) 3584 2008
+www.liberato.com.br
+Manual de orientações para projetos de pesquisa/ Dalva Inês de Souza et al. – Novo 
+Hamburgo: FESLSVC, 2013.
+55 p. ; 21 cm.
+http://www.liberato.com.br/
+1. Pesquisa científica. 2. Metodologia científica. I. Souza, Dalva Inês de. II. 
+Müller, Deise Margô. III. Fracassi, Maria Angélica Thiele. IV. Romeiro, Solange 
+Bianco Borges.
+CDU 001.8
+Ficha catalográfica elaborada por Lílian Amorim Pinheiro (CRB 10/1574) 
+SUMÁRIO
+1 NOÇÕES GERAIS SOBRE PESQUISA..............................................7
+1.1 Pesquisar é........................................................................................7
+1.2 Motivação para a pesquisa...............................................................8
+1.3 Escolha do orientador......................................................................9
+1.4 Caderno de campo .........................................................................10
+1.5 Pasta de documentos......................................................................11
+2 CLASSIFICAÇÃO DA PESQUISA..................................................11
+2.1 Classificação da pesquisa com relação ao objeto...........................12
+2.1.1 Pesquisa científica.................................................................................12
+2.1.2 Pesquisa tecnológica (desenvolvimento experimental)...................13
+2.2 Classificação da pesquisa com relação à forma de abordagem ....14
+2.3 Classificação da pesquisa quanto aos objetivos ............................15
+2.4 Classificação da pesquisa quanto aos procedimentos técnicos ... 15
+2.5 Classificação da pesquisa quanto ao local de realização...............17
+3 ETAPAS DE UMA PESQUISA.........................................................19
+3.1 Discussão da ideia e a escolha do tema .........................................19
+3.2 Plano de pesquisa ..........................................................................21
+3.2.1 Justificativa.............................................................................................21
+3.2.2 Problema................................................................................................22
+3.2.3 Hipótese ............................................................................................... 25
+3.2.4 Objetivos .............................................................................................. 26
+3.2.5 Revisão de literatura ........................................................................... 27
+3.2.6 Metodologia ......................................................................................... 27
+3.2.7 Cronograma ......................................................................................... 27
+3.2.8 Recursos .................................................................................................28
+3.2.9 Descrição das etapas da execução ......................................................28
+3.2.10 Análise e avaliação dos resultados .................................................. 28
+3.2.11 Referências ......................................................................................... 29
+3.2.12 Anexos e apêndices ........................................................................... 29
+3.3 Conselhos de revisão..................................................................... 29
+3.3.1 Conselho de Revisão Institucional (CRI) ou Comitê de Ética 
+Institucional .................................................................................................. 30
+3.3.2 Comitê de Revisão Científica (CRC) .................................................31
+3.4 Execução do projeto ...................................................................... 31
+3.5 Elaboração do relatório ................................................................ 32
+3.5.1 Estrutura do relatório ......................................................................... 32
+3.1.2 Resumo ................................................................................................. 33
+3.1.3 Desenvolvimento ................................................................................ 35
+3.6 Divulgação .................................................................................... 36
+3.6.1 Artigo científico ....................................................................................36
+3.6.2 Participação em eventos científicos .................................................. 37
+3.6.2.1 Apresentação visual (pôster, banner, estande) ............................ 37
+3.6.2.2 Apresentação oral ............................................................................ 38
+REFERÊNCIAS ...................................................................................40
+ANEXOS
+ANEXO A - Exemplos de roteiros para projetos de pesquisa ................ 44
+ANEXO B - Verbos usados para objetivos................................................. 45
+ANEXO C - Sugestão para planos de pesquisa científicos e tecnológicos .48
+ANEXO D - Estrutura de relatório ABNT NBR 14724:2005 .................. 51
+ANEXO E - Exemplo de resumos de projetos científicos e tecnológicos... 52
+ANEXO F - Formato geral de apresentação de relatório......................... 54
+APRESENTAÇÃO
+Este manual foi elaborado com o objetivo de disponibilizar 
+subsídios aos professores e alunos interessados em conhecer e aplicar 
+a metodologia científica. Aqui reunidas estão sugestões e orientações 
+para elaboração de projetos de pesquisa, relatórios, cadernos de campo e 
+trabalhos em geral. 
+O desenvolvimento da pesquisa científica aliada à metodologia 
+de ensino possibilita ao aluno a sua auto-aprendizagem, motivando-o e 
+integrando-o na sociedade com autonomia e conhecimento, desenvol­
+vendo habilidades que lhe possibilitam posicionar-se frente a situações 
+adversas e na busca da realização de seus objetivos pessoais, profissio­
+nais e coletivos.
+Gostaríamos de externar os nossos agradecimentos à professora 
+Marlene Teixeira pelo material sobre questões de ética e segurança em 
+projetos, ao professor André Luis Viegas pelo material sobre avaliação 
+de projetos e ao professor Celestino Inácio Schneider pela correção 
+ortográfica e gramatical destas orientações.
+Fica evidente que devido à complexidade das diferentes 
+metodologias envolvidas nas pesquisas que podem ser realizadas por você, 
+este manual não se esgota por si próprio. Sugerimos que você procure se 
+aprofundar nas partes que sejam mais pertinentes ao seu projeto. Para 
+tanto, após consultar este manual, busque literatura complementar como 
+a que consta nas referências deste material, entre outras confiáveis que 
+você tenha acesso.
+As autoras
+7
+Manual de orientações para projetos de pesquisa
+1 NOÇÕES GERAIS SOBRE PESQUISA
+Cada vez mais os alunos do ensino médio têm sido incentivados a 
+refletirem sobre os problemas e necessidades de seu cotidiano e buscarem 
+soluções de forma científica e confiável. Esta prática exige um exercício de 
+investigação, planejamento e execução. 
+1.1 Pesquisar é...
+Do dicionário retiramos que pesquisar é o ato de informarse acerca 
+de, inquirir, indagar, investigar, esquadrinhar (FERREIRA, 2008).
+No uso cotidiano percebemos a aplicação deste termo em diversas 
+situações: pesquisa eleitoral, pesquisa de preço, pesquisa de opinião e 
+tantas outras.
+Quando falamos de pesquisa escolar estamos acostumados a ver 
+diversos trabalhos que reúnem uma quantidade de informações, algumas 
+vezes essas informações são cópias de textos, o tão chamado “Ctrl+C, 
+Ctrl+V”, ou resumos de vários textos. Podemos dizer que este é o 
+primeiro contato que todo o estudante tem com a pesquisa nos primeiros 
+anos escolares. A intenção deste manual é aprofundar este ato de inquirir, 
+indagar, acrescentando a ele o conceito de científico.
+Científico é o ato relativo à ciência ou que tem o rigor da ciência. 
+Sobre ciência o Aurélio diz que é
+1. Conjunto metódico de conhecimentos obtidos mediante a obser­
+vação e experiência. 2. Saber e habilidades que se adquire para o bom 
+desempenho de certas atividades. 3. Informação, conhecimento. 
+(FERREIRA, 2008, p. 145).
+Ao unirmos os dois termos, vamos estabelecer um novo conceito: 
+pesquisa científica, que é uma forma sistemática da aplicação do método 
+científico. O objetivo fundamental é pesquisar e descobrir respostas para 
+problemas através do emprego de procedimentos científicos. 
+Pesquisa Científica é um conjunto de ações propostas para encontrar 
+a solução para um problema que tem por base procedimentos racionais e 
+sistemáticos. A pesquisa é realizada quando se tem um problema e não se 
+tem informações para solucioná-lo.
+Os atos sistemáticos e racionais a que nos referimos são também 
+8
+Manual de orientações para projetos de pesquisa
+chamados de métodos ou metodologia científica. A pesquisa científica 
+é aquela que se propõe à adoção de métodos científicos para a solução 
+de um problema, seja ele da ordem de aprofundamento de uma área de 
+conhecimento ou a aplicação de um conhecimento na criação de um 
+novo produto.
+A pesquisa científica serve a vários fins. É aplicada para descober­
+tas científicas importantes como a solução de vários problemas da huma­
+nidade, tratamento de doenças, soluções para o meio ambiente, sempre 
+buscando novos conhecimentos que melhorem a qualidade de vida dos 
+seres humanos. Ela também é utilizada na educação como uma forma 
+didática para o desenvolvimento de várias competências essenciais ao 
+aprendizado do estudante.
+A pesquisa científica pode ser classificada por diversos critérios e 
+para cada uma dessas classificações vamos encontrar um método científi­
+co mais adequado ao desenvolvimento do projeto de pesquisa, que busca­
+rá a resposta para o problema que queremos elucidar através da pesquisa 
+científica. Algumas vezes para chegarmos à solução do problema, tere­
+mos que empregar mais de um método científico. Essas classificações da 
+pesquisa e os métodos possíveis serão tratados mais adiante.
+1.2 Motivação para a pesquisa 
+A motivação para fazermos uma pesquisa pode ser, como quase 
+sempre o é na primeira vez, para o mero cumprimento de uma exigência 
+escolar. Nesse caso valem alguns conselhos: fazer pesquisa envolve 
+estudar muito, ler mais ainda e dedicar-se ao assunto. Sendo um trabalho 
+escolar, facilitará em muito o processo, se ao buscar um problema a ser 
+respondido, esse seja um tema de interesse do estudante. Como afirma 
+Cauduro:
+Como pesquisador, estar dentro do contexto, viver o que se busca é 
+metade do caminho. É claro que, muitas vezes, dá trabalho, é cansativo, 
+parece não ter fim, dá vontade de desistir, etc. O segredo, para evitar 
+que isso aconteça ou que se assuma proporções imprevistas, está em 
+escolher o tema de seu interesse e conseguir especifícá-lo; focalizar 
+bem o que se deseja descobrir; formular as perguntas corretas; usar 
+uma metodologia adequada ao problema de investigação; vigiar 
+sempre o objetivo a ser alcançado (CAUDURO, 2004, p. 19).
+9
+Manual de orientações para projetos de pesquisa
+Fazer pesquisa nos impõe algumas escolhas iniciais que são de 
+suma importância para o desenvolvimento do processo. Escolher o tema 
+adequado, verificar o tempo que se tem para fazer a pesquisa, qual a 
+motivação: cumprir uma exigência curricular, participar de alguma feira, 
+fazer uma pesquisa institucional, etc. Todas essas questões precisam ser 
+levantadas e estudadas antes do início da pesquisa.
+1.3 Escolha do orientador
+Uma questão de suma importância para a pesquisa é a escolha 
+do orientador. Toda a pesquisa, que estiver ligada a uma instituição de 
+ensino, terá a presença de um orientador, este professor deverá estar 
+habilitado e capacitado a orientar todo o processo de pesquisa.
+O orientador é alguém que vai auxiliar na aplicação do método 
+durante a pesquisa, é quem pode fornecer apoio emocional, fazendo 
+encaminhamentos, dando sugestões e suporte nos momentos de cansaço 
+e angústias inerentes ao processo de pesquisa. O orientador fornece 
+suporte, ele é corresponsável pelo trabalho.
+O quadro 1 fornece algumas dicas para escolha do orientador. 
+Confira as regras da sua escola para a escolha do mesmo.
+Quadro 1 - Dicas para a escolha do orientador
+• Priorize orientadores com interesse no assunto a ser pesquisado e na mo­
+dalidade do projeto para que a orientação não seja superficial.
+• Verifique a disponibilidade do orientador. Caso ele esteja orientando mais 
+de seis projetos, opte por outro com mais tempo.
+• Converse informalmente com os possíveis candidatos a orientador para 
+saber de seus interesses e disponibilidade.
+• Escolha um orientador com quem tenha empatia.
+• Procure estudantes que já tenham sido orientados pelo professor escolhido 
+e verifique se suas características são compatíveis com seus interesses.
+•  Caso haja problemas na orientação no decorrer do processo, estude a 
+possibilidade de substituição.
+Fonte: Adaptado de Baroni (2009).
+No processo de pesquisa pode aparecer a figura do co–orientador 
+que é o responsável por complementar a orientação, principalmente nos 
+10
+Manual de orientações para projetos de pesquisa
+casos  em que o assunto pesquisado envolver mais que uma área de conhe­
+cimento pode-se optar por um coorientador que complemente a área que 
+falta. Ao optar pela escolha de um co–orientador sempre converse antes 
+com o orientador para que não haja conflitos de interesses.
+1.4 Caderno de campo 
+O projeto, ao ser pensado, escrito, executado, deve ter todos os 
+registros descritos no caderno de campo ou também chamado de diário 
+de bordo.  
+O caderno de campo é um instrumento indispensável para o êxito 
+e credibilidade de uma pesquisa científica. No caderno de campo, deve 
+conter o registro detalhado das informações, observações, bem como as 
+reflexões que surgem durante toda a pesquisa. 
+É a forma de registro diário de tudo que diz respeito ao assunto 
+pesquisado: datas, dados de bibliografias consultadas, endereços, trans­
+crições sintéticas de livros, revistas, visitas, conversas mantidas com pes­
+quisadores, pareceres do orientador, etc. 
+Ele ajuda a criar o hábito de escrever e observar com atenção, des­
+crever com precisão e refletir sobre os acontecimentos que envolvem a 
+pesquisa científica.
+O orientador deve vistoriar periodicamente o caderno para apontar 
+o direcionamento da pesquisa. 
+Formulários, fotos, materiais coletados devem ser citados no 
+caderno e arquivados na pasta de documentos. Evite colagens.
+Todas as anotações devem ser escritas a caneta, evitando espaços 
+vazios e sempre colocando a data e título nos registros de cada dia de 
+trabalho. Jamais arranque as folhas ou apague algum registro. Se ocorrer 
+algum engano, é melhor apenas anular com um traço ou fazer uma obser­
+vação para desconsiderar aquele registro. 
+O caderno deve ser de capa dura sem espiral, com todas as pági­
+nas numeradas. O caderno deve conter: folha de rosto contendo nome 
+da escola, título do projeto, nome(s) do(s) aluno(s), nome do orientador, 
+cidade e ano da pesquisa; o registro detalhado e preciso dos fatos, dos pas­
+sos, as descobertas e das novas indagações; o registro das datas e locais das 
+investigações; o registro dos testes e resultados alcançados; as entrevistas 
+conduzidas, a tabulação de questionários aplicados, etc.
+11
+Manual de orientações para projetos de pesquisa
+1.5 Pasta de documentos
+A pasta de documentos, tipo arquivo, com folhas plásticas indi­
+vidualizadas, pode conter recortes, cópias, periódicos, textos impressos, 
+fotos, catálogos e todo e qualquer documento que esteja relacionado com 
+o projeto. A pasta deve ser organizada de forma cronológica, conforme 
+o andamento do projeto. É interessante que haja uma conexão entre o 
+caderno de campo e o relatório.
+Depois de escolhido o assunto a ser pesquisado e o orientador, 
+depois de avaliar o tempo disponível para a realização da pesquisa, de 
+adquirir o caderno de campo, vem a etapa de definir qual o tipo de meto­
+dologia mais adequada para pesquisar o assunto escolhido. A adoção da 
+metodologia mais adequada varia conforme o tipo de pesquisa a ser fei­
+ta. Em seguida, passamos a uma descrição das classificações da pesquisa, 
+conforme diversos autores que escrevem sobre o tema.
+2 CLASSIFICAÇÃO DA PESQUISA
+Antes de se classificar a pesquisa, é interessante verificar o conceito 
+de pesquisa sob a ótica de instituições que financiam pesquisa no País. 
+Conforme Longo (1996) apud FINEP1 (2010), a pesquisa pode ser consi­
+derada como a aquisição de novos conhecimentos, geralmente envolven­
+do experimentação e, também, atividades que poderiam ser denominadas 
+de censo, levantamento de dados ou coleta de informações. Cada tipo de 
+pesquisa tem um porquê e para cada tipo existem certas etapas específicas 
+que devem ser seguidas.
+A pesquisa pode ser classificada segundo vários critérios. Na parte 
+da metodologia de qualquer projeto ou no relatório, é essencial descrever 
+que tipo de pesquisa que você fará (projeto) ou que já fez (relatório), 
+bem como os critérios que usará (projeto) ou já usou (relatório). Aqui 
+trataremos da classificação da pesquisa e dos critérios usados para tal.
+Para a realização de uma pesquisa, é preciso fazer um planejamen­
+to, o plano, ou seja, o projeto. De acordo com o sistema de indexadores 
+da FINEP (1994 apud FINEP, 2010), projeto é a atividade ou conjunto 
+coordenado de atividades dirigidas para alcançar objetivos explícitos e 
+1 FINEP - Empresa pública financiadora de estudos e pesquisa do Brasil, ligada ao 
+Ministério de Ciência e Tecnologia.
+12
+Manual de orientações para projetos de pesquisa
+justificados, segundo uma metodologia definida e empregando recursos 
+humanos e materiais, durante certo período de tempo. 
+Alguns autores e algumas feiras de ciências e tecnologia do País 
+classificam a pesquisa quanto ao tipo de projeto. Valeriano (1998), por 
+exemplo, classifica a pesquisa em: projetos de pesquisa científica, projetos 
+de desenvolvimento e projetos de engenharia.
+Outros autores têm outra nomenclatura de classificação e usam 
+outros parâmetros. 
+A FINEP (2010) classifica a pesquisa em três categorias: pesquisa 
+básica, pesquisa aplicada e pesquisa de desenvolvimento experimental. 
+Fazendo-se alguma adaptação de Valeriano (1998), Gil (2002), Ber­
+vian (2002), juntando conceitos de Jung (2003 e 2004), e FINEP (2010), 
+temos que a pesquisa pode ser classificada com relação: ao objeto, aos 
+objetivos, à forma de abordagem, ao delineamento e ao local. 
+2.1 Classificação da pesquisa com relação ao objeto
+Existe a necessidade de fazer uma distinção entre objeto e objetivo. 
+O objeto diz o quê quer fazer, enquanto que o objetivo diz para que quer 
+fazer. Exemplos:
+- objeto: Construção de um protótipo de uma cadeira de rodas 
+para paraplégicos de baixo custo;
+- objetivo: Tornar a cadeira de rodas acessível à população de baixa 
+renda. 
+Por objeto entende-se o que resulta da pesquisa: a construção de 
+um protótipo de uma cadeira de rodas com melhor design, ou de uma 
+cadeira de rodas mais barata que as existentes no mercado, ou a constru­
+ção de um software interativo do uso de ferramentas na área da mecânica, 
+ou um levantamento sobre o tipo de pássaros, ou a elaboração de uma 
+monografia sobre a mandioca no Brasil, etc. 
+Em função do objeto podemos definir a área do projeto e classificá-
+lo em pesquisa científica ou pesquisa tecnológica:
+2.1.1 Pesquisa científica
+Usa o método científico, um conjunto de técnicas e processos 
+utilizados pela ciência para formular e resolver problemas de aquisição 
+13
+Manual de orientações para projetos de pesquisa
+objetiva do conhecimento de maneira sistemática (JUNG, 2003). 
+A pesquisa científica pode ser pesquisa básica (ou pura) ou pesquisa 
+aplicada (VALERIANO, 1998):
+a) pesquisa básica - A OECD2 (1993 apud FINEP, 2010) conceitua 
+a pesquisa básica como o estudo teórico ou experimental original ou 
+incremental que visa a compreender fatos e fenômenos observáveis, sem 
+ter em vista uso ou aplicação específica imediata e analisar propriedades, 
+estruturas e conexões com vistas a formular e comprovar hipóteses, 
+teorias, etc. 
+Exemplo de questão de pesquisa científica básica: Por que o elétron 
+gira? Qual é o princípio ativo encontrado nas folhas de hortelã? Que 
+mecanismos os pássaros usam para voar?
+b) pesquisa aplicada – Visa adquirir ou gerar novos conhecimentos, 
+novos processos, para a solução imediata de problemas determinados e 
+específicos, com objetivo prático. Usa a pesquisa básica como suporte 
+para isto. A pesquisa aplicada operacionaliza as idéias.
+Exemplos de projetos de pesquisa científica:
+- avaliação do crescimento da alface com a adição de adubo orgânico;
+- verificação do aproveitamento escolar em função do tempo 
+dedicado à internet em sites de plataformas sociais tipo Orkut e MSN, 
+Faceboock, Twitter, etc; 
+- estudo da degradação ambiental nas áreas ribeirinhas do Rio das 
+Antas, etc.
+2.1.2 Pesquisa tecnológica (desenvolvimento experimental) 
+Na verdade, pesquisa tecnológica é um tipo de pesquisa científica 
+aplicada, só que visa à materialização de um produto, protótipo, processo, 
+instalação piloto ou um estudo de viabilização desses (adaptado de Vale­
+riano, 1998). 
+Protótipo é um modelo original representativo de alguma criação 
+nova, do qual todos os objetos ou utensílios do mesmo tipo são 
+2 OECD (Organization for Economic Co-operation and Development) - Organização para a Co­
+operação e Desenvolvimento Econômico. A OCDE é um órgão internacional e intergoverna­
+mental que reúne os países mais industrializados, em torno de 30 países e mais de 70 ONGs, 
+com o objetivo de potencializar o crescimento econômico e colaborar com o desenvolvimento 
+dos países associados.
+14
+Manual de orientações para projetos de pesquisa
+representações ou cópias [...]. É detentor de características essenciais 
+do produto pretendido. (OECD, 1993, p. 29 apud FINEP, 2010).
+A pesquisa tecnológica parte de um conhecimento pré-existente e, 
+através da pesquisa e/ou experiência prática, busca a produção de novos 
+materiais, produtos e aparelhagens, novos processos, sistemas e serviços 
+ou aperfeiçoamento de sistemas, processos já existentes.
+Exemplos de Projetos Tecnológicos (desenvolvimento experimental 
+ou de engenharia):
+- A construção de um protótipo de uma cadeira de rodas mais 
+econômica;
+- A construção de uma cadeira de rodas com um design para idosos;
+- Construção de um carrinho elétrico com uso de energia solar;
+- Criação de um software de segurança para laboratórios químicos;
+- Novo processo alternativo de tratamento de efluentes de laticínios.
+Eventos escolares que mostram projetos de pesquisa de estudan­
+tes de nível médio e técnico como a Mostra de Ciência e Tecnologia 
+(MOSTRATEC) e a Feira Interna de Ciência e Tecnológica (FEICIT), 
+organizadas pela Fundação Escola Técnica Liberato Salzano Vieira da 
+Cunha, para efeitos de inscrição, classificam os projetos como pesquisa 
+científica e pesquisa tecnológica. Estes dois tipos, por sua vez, podem se 
+situar em diversas áreas da ciência, subdivididas em subáreas, conforme 
+consta no site http://www.mostratec.com.br/pt-br/edicao-atual/desenvolva–
+seu-projeto/areas-de-pesquisa .
+A Feira Brasileira de Ciências e Engenharia (FEBRACE), da 
+Universidade de São Paulo, Escola Politécnica da USP (http://febrace.
+org.br/projetos) e a International Science and Engeeering Fair (Intel - 
+ISEF) nos USA (2011 Student Handbook, encontrada em http://www.
+societyforscience.org/document.doc?id=12.), para efeitos de inscrição 
+classificam os projetos em projetos de pesquisa científica e de engenharia 
+(tecnológicos), também divididos em diversas áreas e subáreas. 
+2.2 Classificação da pesquisa com relação à forma de abordagem
+Forma de abordagem refere-se ao tipo de análise e tratamento dos 
+dados. Com relação à abordagem, a pesquisa pode ser pesquisa qualitativa 
+ou quantitativa. 
+15
+Manual de orientações para projetos de pesquisa
+a) Pesquisa quantitativa: utiliza-se de parâmetros estatísticos, 
+para analisar os dados. Tudo é tranformado em números.  Exemplos:
+- relação entre o número de pessoas gripadas em outubro de 2010 e 
+o número de pessoas que receberam a vacina contra a gripe neste mesmo 
+ano, na cidade de Novo Hamburgo/RS;
+- censo escolar do Brasil.
+b) Pesquisa qualitativa: a pesquisa qualitativa usa a subjetividade 
+que não pode ser traduzida em números. É mais descritiva. Exemplo: 
+- avaliação de um programa de gestão ambiental para a escola 
+pública.
+2.3 Classificação da pesquisa quanto aos objetivos
+Por objetivos entende-se aquilo que se deseja atingir com a pesquisa. 
+Nesse contexto, a pesquisa pode ser exploratória, descritiva e explicativa.
+a) Pesquisa exploratória: visa proporcionar maior familiaridade 
+com o assunto, com o problema, para maior conhecimento ou para cons­
+truir hipóteses. Exemplo: pesquisa bibliográfica e pesquisa na internet.
+b) Pesquisa descritiva: visa identificar e descrever as caracterís­
+ticas de determinada população, indivíduo, local, máquina, empresa ou 
+fenômeno ou o estabelecimento de relações entre variáveis. “A pesqui­
+sa descritiva observa, registra, analisa e correlaciona fatos e fenômenos 
+(variáveis) sem manipulá-los” (BERVIAN, 2002, p. 66). Exemplo: levan­
+tamento e estudo de campo.
+c) Pesquisa explicativa: visa explicar, analisar e avaliar os fatores 
+que determinam ou contribuem para a ocorrência dos fenômenos. 
+Aprofunda o conhecimento da realidade. Explica a razão, o “porquê” das 
+coisas. Exemplo: pesquisa experimental e estudo de caso.
+2.4 Classificação da pesquisa conforme os procedimentos técnicos
+Delineamento refere-se aos procedimentos técnicos adotados para 
+fazer a pesquisa. Para Gil (2002), conforme este critério, a pesquisa pode 
+ser classificada, dentre outras, em: pesquisa bibliográfica, documental, 
+estudo de caso, estudo de campo, levantamento, quase experimental, 
+experimental, pesquisa ação, etc.
+16
+Manual de orientações para projetos de pesquisa
+a) Pesquisa bibliográfica: é a busca sistemática de conhecimento 
+sobre o assunto, do que já existe, o que os diferentes autores já discutiram, 
+propuseram ou realizaram. Elaborada a partir de material já publicado, 
+constituído principalmente de livros, artigos de periódicos e, atualmente, 
+com material disponibilizado na Internet. Exemplo: Que tipos de progra­
+mas  de educação ambiental já existem no RS? Como são os procedimen­
+tos já usados? Onde ocorrem estes programas? Quais foram os resultados 
+da implantação destes programas?
+b) Pesquisa documental: é semelhante à pesquisa bibliográfica, 
+porém as fontes são documentos como diários, gravações, memorandos, 
+ofícios, tabelas estatísticas que, em geral, não foram mostrados para o 
+grande público. Exemplo: dados históricos (que não constam em livros, 
+jornais,etc) sobre a cidade FF, aqueles encontrados em museus, acervos 
+particulares de pessoas de fotos da cidade FF.
+c) Pesquisa experimental: está relacionada a experimentar, gerar 
+inovações, testar materiais, elaborar e formular novos elementos, simular 
+eventos, fazer estudos de laboratório, estudos com protótipos, estudos de 
+amostras criteriosas (JUNG, 2004). Para ser pesquisa experimental, pre­
+cisa apresentar as propriedades: manipulação das variáveis; amostragem 
+aleatória; coleta de dados imparcial e controle das variáveis pelo pesqui­
+sador (GIL, 2002, p. 48). Exemplo: verificação prática da relação entre a 
+dureza dos aços e o teor de carbono.
+d) Levantamento: quando a pesquisa envolve a interrogação direta 
+das pessoas cujo comportamento se deseja conhecer. Podem ser usados 
+questionários, formulários, ou entrevistas. Pode se tratar de um censo ou 
+usar uma amostra representativa da população. Faz análise quantitativa 
+das respostas. É um tipo de pesquisa bem abrangente, mas não muito 
+profunda. Para a aplicação do questionário não é necessária a presença 
+do pesquisador, pode ser uma outra pessoa que aplica o questionário. 
+Exemplo: levantamento sobre o consumismo nas diferentes classes sociais 
+no RS (pode-se usar um questionário). 
+e) Estudo de campo: faz a pesquisa no lugar de origem onde ocor­
+rem os fenômenos. Usa procedimentos de coleta de dados, observações, 
+entrevistas, etc. É menos abrangente, mas tem maior profundidade. 
+Exemplo: estudo dos pássaros encontrados nos arredores da escola XXX. 
+O pesquisador vai ao local e usa uma ficha de observação sistemática, 
+17
+Manual de orientações para projetos de pesquisa
+fotografa, filma, entrevista pessoas, etc.
+f) Estudo de caso: quando envolve o estudo profundo a fim de 
+esgotar o assunto relativo a um indivíduo ou uma família, um grupo 
+de pessoas, uma máquina, uma decisão, um programa, um processo de 
+implantação, a economia de uma determinada região ou cidade, um 
+grupo de animais ou só um único animal, um grupo de pessoas, ou uma 
+única pessoa, um grupo de empresas, etc., de maneira que seja permitido 
+um profundo e detalhado conhecimento. Exemplo: relação entre o tipo 
+de acidentes e o tipo de atividade desenvolvida pelo operador em uma 
+indústria metal-mecânica, da cidade de NH/RS.
+g) Pesquisa ex-post-facto: é similar à experimental, mas é a partir 
+do fato passado. Já houve a alteração da variável dependente naturalmente 
+no curso do tempo. O pesquisador não tem controle das variáveis e nem 
+as manipula. O fato já ocorreu e os efeitos estão sendo analisados agora. 
+Exemplo: estudo sobre a incidência de doenças ósseas entre crianças 
+desnutridas. Escolhe-se um grupo de crianças que já sofreu desnutrição 
+na sua vida durante a infância e um grupo de crianças que nunca sofreu 
+desnutrição. Em ambos os grupos avalia-se a incidência de problemas 
+ósseos.
+h) Pesquisa-ação: quando é concebida e realizada com pesquisa 
+sobre os problemas que afligem uma comunidade associada com uma 
+ação ou com a resolução de um problema do coletivo. Os pesquisadores 
+e participantes representativos da situação ou do problema estão 
+envolvidos de modo cooperativo ou participativo. Exemplo: Programa 
+de reestruturação do bairro X com relação aos seus principais problemas 
+existentes. Pesquisadores e comunidades atuam em conjunto para 
+verificar quais os principais problemas, elaboram um plano e atuam em 
+conjunto para resolver o problema com mútua colaboração.
+2.5 Classificação da pesquisa quanto ao local de realização
+Conforme o local da pesquisa, ela pode ser: pesquisa de laboratório 
+e pesquisa em  campo.
+A pesquisa de laboratório,  também chamada in vitro, usa con­
+dições artificiais totalmente manipuladas pelo pesquisador. Ocorre em 
+condições (temperatura, pressão, concentrações e quantidades de subs­
+18
+Manual de orientações para projetos de pesquisa
+tâncias, escolha das amostras a serem analisadas, tempo, equipamentos 
+aferidos, etc) extremamente controladas. Exemplo: estudo da influência 
+do pH e da temperatura na atividade hidrolítica da lipase de Pseudomonas 
+cepacia empregando a técnica do planejamento experimental.
+A pesquisa em campo, também chamada in situ, ocorre no próprio 
+local onde o problema se manifesta. Não há controle efetivo de todas as 
+variáveis. Está sujeita às variáveis do próprio local, como as condições 
+climáticas, as condições de higiene do próprio local, o pH do solo, etc. 
+O pesquisador não modifica o local, nem as condições e composição de 
+nada, apenas relata as condições que encontra e verifica os efeitos que se 
+manifestam em relação ao problema estudado. Exemplo: estudo do efeito 
+do pH da chuva ácida no solo e o desenvolvimento da biodiversidade na 
+zona de mineração de carvão, em Criciúma/SC.
+Cada modalidade de pesquisa tem finalidades específicas  e etapas 
+que devem ser observadas. Procure maiores informações, por exemplo, 
+na bibliografia indicada ao final deste manual de informações.
+O Quadro 2 mostra um resumo de classificação da pesquisa, com 
+os principais tipos.
+Quadro 2 - Classificação da pesquisa
+Fonte: Souza, 2008 adaptado de Jung, 2003.
+19
+Manual de orientações para projetos de pesquisa
+3 ETAPAS DE UMA PESQUISA
+O fluxograma apresentado na figura 1 fornece um panorama geral 
+sobre as etapas necessárias à execução de uma pesquisa científica, sendo 
+ela básica ou aplicada.
+Figura 1 - Fluxograma das etapas de uma pesquisa
+Fonte: As autoras (2013).
+3.1 Discussão da ideia e escolha do tema
+Para escolher um bom tema, deve-se estar atento às nece-ssidades e 
+problemas que existem no cotidiano. Compartilha-se com outras pessoas, 
+como familiares, colegas ou professores, sobre ideias para resolver um de­
+terminado problema. Isto poderá ajudar na escolha do tema da pesquisa.
+O tema é o aspecto do assunto que se deseja abordar, provar ou 
+desenvolver. O conceito está vinculado ao objetivo da própria revisão que 
+se pretende fazer. A revisão de literatura deverá elucidar o tema, propor­
+20
+Manual de orientações para projetos de pesquisa
+cionar melhor definição do problema de pesquisa e contribuir na análise 
+e discussão dos resultados da pesquisa. Deverá ter uma definição dos ca­
+minhos que serão percorridos pela pesquisa e se concentrar em estudos 
+específicos na busca de informações para a revisão de literatura, para não 
+ficar perdido no emaranhado das publicações existentes. 
+De acordo com Bello (2009), existem fatores internos e externos 
+que interferem na escolha de um tema e algumas questões devem ser le­
+vadas em consideração nesta escolha.
+a) Fatores internos
+São os referentes ao próprio pesquisador como:
+a) o interesse pelo tema, o interesse pessoal na pesquisa, a fim de 
+que se torne uma atividade prazerosa;
+b) o tempo disponível para a realização da pesquisa, relacionando 
+as atividades que deverão ser executadas para o tempo previsto;
+c) a consciência do limite das capacidades do pesquisador em 
+relação ao tema, observando o conhecimento que ele possui, a fim de não 
+entrar em assunto fora de sua área e de suas possibilidades. Segundo o 
+autor: “Se minha área é a de ciências humanas, devo procurar me ater aos 
+temas relacionados a esta área” (BELLO, 2009, p. 20).
+b) Fatores externos
+São aqueles que dependem de situações, questões extra-pesquisa­
+dor. Dentre os fatores externos Bello (2004 e 2009) descreve os seguintes 
+itens:
+a) a significação do tema escolhido, inovação, oportunidade e va­
+lores acadêmicos e sociais. Deve-se tomar cuidado para não executarmos 
+um trabalho que não interessará a ninguém. O trabalho a ser feito deve 
+ter relevância científica e/ou social, sendo importante para uma pessoa, 
+grupos de pessoas ou para a sociedade em geral;
+b) o limite de tempo disponível: o tema escolhido deve estar deli­
+mitado dentro do tempo possível para a conclusão do trabalho;
+c) material de consulta e dados necessários ao pesquisador - outro 
+problema na escolha do tema é a disponibilidade de material para consulta. 
+Muitas vezes o tema escolhido é pouco trabalhado por outros autores e não 
+existem fontes para consulta. A falta dessas fontes obriga o pesquisador a 
+buscar fontes primárias (que não estão disponíveis ao grande público ain­
+da) e que necessitam de um tempo maior para a realização do trabalho. 
+21
+Manual de orientações para projetos de pesquisa
+3.2 Plano de pesquisa 
+O plano ou projeto de pesquisa, como o nome já diz, é um planeja­
+mento detalhado por escrito de como será realizada a pesquisa dentro dos 
+padrões científicos, com métodos e procedimentos adequados, garantin­
+do que os resultados sejam confiáveis. Deve apresentar o objeto de estudo, 
+os objetivos que se pretende alcançar, a problematização do tema, a pro­
+posta de desenvolvimento do trabalho e as bases de sustentação teórica.
+O pesquisador junto com o orientador, planeja a pesquisa delimi­
+tando sua abrangência e verificando as suas possibilidades. A aprovação do 
+projeto pelo professor orientador é o inicío para os demais procedimentos.
+Em muitas instituições, o projeto é o primeiro documento a ser 
+apresentado para aprovação da pesquisa que deve ser aprovado por um 
+órgão específico da Instituição (Conselho de Revisão Institucional - CRI), 
+ou Comitê de Ética, pois além de uma exigência institucional esse é um 
+passo importante para o sucesso da pesquisa,. 
+Existem diferentes roteiros de etapas para a elaboração de projetos, 
+algumas sugestões encontram-se no Anexo A. 
+A seguir, relacionam-se alguns itens básicos para a elaboração do 
+projeto da pesquisa:
+- introdução: justificativa,  problema,  objetivos e, se for o caso, 
+hipóteses;
+- metodologia;
+- resultados esperados. 
+No plano,  cada item deve estar  colocado separadamente.
+3.2.1Justificativa
+A Justificativa, num projeto de pesquisa, é o convencimento de que 
+o trabalho de pesquisa é fundamental de ser efetivado e relevante para a 
+sociedade ou para alguns indivíduos que se beneficiarão com a pesquisa. 
+Na justificativa, deve aparecer como as informações geradas pela 
+pesquisa são úteis e a quem. O que a pesquisa irá agregar e que decisões 
+poderão ser tomadas a partir dos dados gerados. 
+A justificativa exalta a importância do tema a ser estudado, justifica 
+a necessidade de se levar a efeito a realização de tal empreendimento e 
+encaminha para a formulação do problema.
+22
+Manual de orientações para projetos de pesquisa
+Deve ser ressaltado no trabalho que existem outros trabalhos que 
+evidenciam a importância do tema da pesquisa e estes devem ser referen­
+ciados. 
+3.2.2 Problema
+Após explicar e delimitar o tema, é preciso deixar claro qual é o 
+problema da pesquisa. 
+O problema tem como origem uma situação que provoca questões 
+sobre o tema e pode ser definido pela própria vivência do pesquisador 
+ou indicado por profissionais ligados ao tema. A partir da identificação 
+do problema, elabora-se uma questão específica a ser respondida pela 
+pesquisa, ficando assim estabelecido um foco de estudo para responder 
+a questão. As questões de pesquisa devem ser passíveis de respostas as 
+quais devem ser obtidas com metodologia científica e/ou tecnológica/de 
+engenharia. 
+As pesquisas geram questões, mas nem toda questão gera pesquisa 
+ou conhecimento novo. Por exemplo, questões tipo: como aumentar a 
+produtividade do grupo de funcionários da empresa X? É uma questão 
+que demanda uma ação prática conhecida, mas não irá gerar um novo 
+conhecimento. 
+Questões como essa, não são adequadas para uma pesquisa cientí­
+fica, porque já foram respondidas, já existe o conhecimento a respeito do 
+assunto, basta que seja aplicado.
+As questões propostas devem contribuir para o conhecimento de 
+algo que não se sabe, não necessariamente deve ser inédito; pode ser algo 
+sobre um assunto já pesquisado anteriormente, mas estudado ou aplicado 
+a um contexto que ainda não foi abordado. 
+Algumas regras básicas na formulação da pergunta de forma cien­
+tífica, citadas por Gil (1991) são muito importantes. Segundo ele o pro­
+blema deve ser formulado como pergunta, deve ser empírico, deve ser 
+claro e preciso, deve ser suscetível de solução, deve ser delimitado a uma 
+dimensão viável. 
+Fazemos a seguir alguns comentários a respeito destas regras.
+a) O problema deve ser formulado como pergunta, pois torna 
+muito fácil saber o que exatamente vai ser feito; as questões que começam 
+por: Como fazer? O que fazer...?  Como é? Como funciona? São proble­
+23
+Manual de orientações para projetos de pesquisa
+mas da área da engenharia. Na verdade são as primeiras dúvidas que sur­
+gem na cabeça do pesquisador ou são feitas por quem ainda não domina 
+a metodologia científica. Embora sendo consideradas como questões de 
+engenharia, são muito amplas e não indicam ainda um caminho a seguir. 
+Questões envolvendo valores ou se algo é certo, errado, bom ou mau, 
+desejável, indesejável, pior ou melhor não são científicas. (GIL, 1991, p. 27).
+Não são formuladas de forma científica perguntas  como: 
+- Qual a melhor técnica de tratamento da água urbana em São Pau­
+lo (problema de engenharia) ?
+- É certo praticar aborto (problema de valor moral, ético)?
+- É bom acreditar em Deus (problema de valor espiritual)?
+É evidente que esses temas podem ser pesquisados cientificamente, 
+mas a formulação da pergunta que dirige a pesquisa deve ser outra.
+b) O problema deve ser claro, preciso e bem delimitado, deve ter 
+sido informado o foco, o local e o tempo a que se refere a pesquisa. Se a 
+pergunta não está bem elaborada, o pesquisador fica sem rumo, não sabe 
+que caminho tomar. 
+c) O problema deve ser empírico, deve ter fatos empíricos (fatos 
+verificáveis na prática) e não percepções pessoais. Exemplo: Maus alu­
+nos têm um rendimento menor na escola. Ao invés de fazer referência 
+a “maus alunos”, pode-se dizer alunos que não estudam, não fazem os 
+temas, não prestam atenção em aula, conversam, brincam. Maus alunos é 
+uma percepção pessoal. Não estudam, brincam, conversam, não fazem os 
+temas são fatos empíricos, verificáveis na prática.
+d) O problema deve ser delimitado a uma dimensão viável, deve 
+ter um foco específico. Exemplo: O que pensam as pessoas idosas? Isto 
+dá margem a um campo muito amplo. Esta questão poderia ser melhor 
+formulada, como por exemplo: O que pensam as pessoas idosas, na faixa 
+dos 70 a 80 anos, sobre a influência do uso da tecnologia na velocidade do 
+raciocínio dos jovens de 13 a 18 anos?
+e) O problema deve envolver as variáveis de estudo. Quando a 
+pergunta científica está bem formulada, “[...] envolve as variáveis que po­
+dem ser tidas como testáveis”(GIL, 1991, p. 27). “O problema levantado 
+deve expressar a relação entre duas ou mais variáveis. A elaboração do 
+problema é fruto da revisão e da literatura e da reflexão pessoal” (CERVO; 
+BERVIAN, 2002, p. 84). 
+24
+Manual de orientações para projetos de pesquisa
+Se, após a formulação da pergunta, for possível ter respostas para 
+as questões como o que vai ser medido (variável dependente)? Em função 
+de quê (variável independente)? Sei o que vai ser feito? O problema está 
+delimitado? Onde? Quando?, então a questão problema está bem formu­
+lada (SOUZA, 2008).
+Exemplos de questões científicas, que observam os aspectos co­
+mentados sobre o problema: 
+Exemplo 1: qual a influência de um adubo orgânico produzido a 
+partir do material “X” 3, no crescimento da alface tipo americana, na zona 
+urbana de São Paulo, no inverno?
+a) O que vai ser medido, avaliado (variável dependente)?
+...crescimento da alface...
+b) Em função de quê (variável independente)?
+...adubo orgânico X...
+c) Sei o que será feito?
+... vai ser plantada alface usando o adubo X e verificado o seu 
+crescimento.
+d) Está delimitado? 
+O quê? ... crescimento da alface em função do adubo “X” 
+Onde? ...zona urbana de São Paulo...   
+Quando?...no inverno...
+Exemplo 2: com a nova Política Nacional de Resíduos Sólidos 
+(PNRS/2011), Lei 12.305/2010, a Educação Ambiental é incentivada com 
+objetivos de aprimorar os conhecimentos, comportamentos e valores re­
+lacionados com a gestão ambien-talmente adequada dos resíduos sólidos. 
+Sabe-se também que a educação ambiental nas escolas também está pre­
+vista nos Parâmetros Curriculares Nacionais(PCNs). Considerando-se 
+essas duas fontes, pergunta-se:
+- O Plano Político e Pedagógico das escolas do RS prevê hoje uma 
+implantação efetiva e eficaz da Educação Ambiental de acordo com a 
+nova Política Nacional de Resíduos Sólidos (2011) e os PCNs? 
+Esta pesquisa seria uma pesquisa documental ou levan-tamento 
+que inclui como variáveis independentes a nova Política de Resíduos Só­
+lidos 2011 e os PCNs e como variáveis dependentes os itens de a até e 
+(Implantação efetiva e eficaz da Educação Ambiental). Também é muito 
+importante que, após a pergunta, o pesquisador, para este caso, defina o 
+3 Adubo X seria o material novo a ser testado
+25
+Manual de orientações para projetos de pesquisa
+que significa, efetiva e eficaz em termos operacionais, na prática o que 
+significa, como o pesquisador vai verificar se é eficiente e eficaz.
+Exemplos de questões que envolvem projeto tecnológico (de en­
+genharia): 
+a) novos processos:
+- Como melhorar o tratamento de efluentes na escola X?
+- Como usar a energia da frenagem de um carro para obter energia 
+elétrica?
+b) protótipos:
+- Um sistema solar de placas planas, usando material tipo sucata, 
+apresentará eficiência similar em relação aos modelos existentes no mer­
+cado?
+- Como construir uma cadeira de rodas que tenha um design me­
+lhor em relação aos tipos mais usados encontrados no mercado?
+A formulação do problema direciona a pesquisa: “Desde Einstein, 
+acredita-se que é mais importante para o desenvolvimento da ciência sa­
+ber formular problemas do que encontrar soluções” (BERVIAN; CER­
+VO, 2002, p. 85). Einstein perguntava muito e fazia perguntas bem feitas, 
+com as perguntas já trilhava um possível caminho para procurar solução, 
+foi um gênio da ciência.
+3.2.3 Hipótese
+A hipótese é uma possível resposta à questão estabelecida no pro­
+blema do projeto de pesquisa. Segundo Bello (2009, p. 23), é uma pré­
+-solução para o problema levantado no tema escolhido para a pesquisa.
+Dependendo da opção metodológica feita, a pesquisa não precisará 
+obrigatoriamente estabelecer hipóteses. Para pesquisas do tipo levanta­
+mento ou pesquisas tecnológicas, por exemplo, hipótese não se torna um 
+item formal obrigatório. 
+Quando “[...] o objetivo é o de descrever um fenômeno ou carac­
+terísticas de um grupo, as hipóteses não são enunciadas formalmente.” 
+(GIL, 2002, p. 39). 
+Também, segundo o autor, “[...] pode ser que o objetivo da pesqui­
+sa seja: testar uma hipótese” (GIL, 2002, p. 112). Então, neste caso, não há 
+necessidade de se colocar formalmente hipótese, só o objetivo. 
+26
+Manual de orientações para projetos de pesquisa
+Segundo Gil, 
+Ocorre que em muitas pesquisas as hipóteses não são explícitas. (...) 
+Seja [...] a seguinte questão: Onde você comprou suas roupas? Está 
+implícita a hipótese de que a roupa foi comprada. (GIL, 2002, p. 38).
+Um censo, por exemplo, não parte rigorosamente de uma hipótese 
+formal, mas as alternativas de respostas para os respondentes já mostram 
+hipóteses implícitas.
+Já para pesquisas científicas experimentais, por exemplo, que en­
+volvem associação de variáveis causais, as hipóteses devem ser enuncia­
+das formalmente, como se verifica nos passos necessários para este tipo de 
+pesquisa, conforme Gil (2002, p. 94). 
+Em um projeto de pesquisa tecnológico, “[...] a elaboração de uma 
+hipótese auxilia na formação mental do problema, sem necessariamente 
+ter um caráter formal obrigatório” (JUNG, 2004, p. 12).
+3.2.4 Objetivos
+A definição dos objetivos determina o que o pesquisador quer atin­
+gir com a realização do trabalho de pesquisa e devem corresponder às 
+questões propostas. 
+Alguns autores separam os objetivos em gerais e específicos. 
+Objetivo geral: é muito semelhante à pergunta estabelecida no 
+problema da pesquisa, com a diferença de que o objetivo deve sempre 
+começar com o verbo no infinitivo, indicando a ação a ser realizada para 
+responder à questão proposta pela pesquisa. 
+O objetivo geral relaciona-se diretamente à hipótese formulada. 
+Exemplo: verificar se há diferença do crescimento da alface quanto ao uso 
+de adubo químico e orgânico.
+Objetivos específicos: referem-se às etapas da pesquisa que, em 
+conjunto, levam ao cumprimento do objetivo geral. Objetivos específicos 
+referem-se a todas as etapas do trabalho prático que serão feitas para con­
+firmar a hipótese. Exemplos:
+- determinar a melhor época de adubação em relação ao cresci­
+mento da planta;
+- verificar a melhor concentração de ambos adubos em relação ao 
+tipo de solo tal;
+27
+Manual de orientações para projetos de pesquisa
+- propor a melhor relação área/quantidade de adubo;
+- definir se há diferenças significativas entre os dois tipos de adu­
+bação utilizados.
+Os objetivos devem começar com o verbo no infinitivo, como por 
+exemplo: esclarecer tal coisa; definir tal assunto; procurar aquilo; permitir 
+aquilo outro, demonstrar alguma coisa, etc. (BELLO, 2009, p. 24).
+No Anexo B, consta uma lista de verbos usados para a redação dos 
+objetivos.
+3.2.5 Revisão de literatura
+Neste momento, o pesquisador busca, localiza e revisa a literatu­
+ra onde obterá  material bibliográfico que subsidiará o tema do trabalho 
+de pesquisa, tais como livros, artigos científicos, revistas, jornais, normas 
+técnicas, legislação, etc.
+Este levantamento é realizado junto às bibliotecas ou serviços de 
+informações existentes. Servirá de base para o referencial teórico (revisão 
+bibliográfica), que mostra o que já existe sobre o assunto, o que já foi feito 
+e o que tem para ser feito ou tem possibilidade de ser feito ainda.
+3.2.6 Metodologia 
+A Metodologia, que também é chamada de Materiais e Métodos, 
+é a descrição da estratégia a ser adotada, onde constam todos os passos 
+e procedimentos adotados para realizar a pesquisa e atingir os objetivos.
+É neste momento que devem ser feitas as opções e definições com 
+relação ao tipo de pesquisa e suas etapas, conforme referenciado na seção 
+1.3 deste manual, ou seja, a Classificação da pesquisa.
+Depois de realizar as opções, deve ser feita a descrição detalhada de 
+como será feita a pesquisa (como os dados serão coletados, questionários, 
+entrevistas, amostras e etc) e de como será feita a análise dos dados que 
+serão obtidos. Deve ser incluído o cronograma, os recursos que serão ne­
+cessários e a avaliação. 
+3.2.7 Cronograma
+O Cronograma é um planejamento adequado do tempo que o pes­
+28
+Manual de orientações para projetos de pesquisa
+quisador terá para realizar o trabalho, especificando as atividades a serem 
+cumpridas. As atividades e os períodos serão definidos a partir das ca­
+racterísticas de cada pesquisa e dos critérios determinados pelo autor do 
+trabalho.
+O tempo pode estar dividido em dias, semanas, quinzenas, meses, 
+bimestres, trimestres etc. A Tabela 1 mostra um exemplo de cronograma.
+Tabela 1 - Exemplo de um cronograma
+Atividades/Período       
+jan
+fev
+mar
+abr
+mai
+jun
+jul
+Atividade 1
+X
+X
+Atividade 2
+X
+X
+Atividade 3
+X
+X
+X
+Atividade 4
+X
+X
+X
+Atividade 5
+X
+Obs: as atividades devem ser especificadas de acordo com o seu projeto.
+3.2.8 Recursos
+Os recursos financeiros estão relacionados ao orçamento que será 
+utilizado ao longo do projeto. Os recursos são normalmente descritos em: 
+material permanente, material de consumo e pessoal. Esta divisão, segun­
+do Bello (2009), será definida a partir dos critérios de cada pesquisador ou 
+das exigências da instituição onde está sendo executado o projeto. 
+3.2.9 Descrição das etapas da execução
+As etapas a serem desenvolvidas durante a execução do projeto 
+devem ser descritas de tal forma que você tenha um caminho bem 
+planejado, que facilite ao máximo a realização das atividades propostas. 
+Uma boa sugestão pode ser uma espécie de fluxograma com as etapas e 
+depois descrevê-las.
+3.2.10 Análise e avaliação dos resultados
+Deve mostrar como será feita a análise, avaliação dos dados, com 
+o que vai comparar, vai usar algum método estatístico? Como vai poder 
+dizer se os resultados estão bons ou não, vai comparar os resultados com 
+29
+Manual de orientações para projetos de pesquisa
+o quê, com especificações de alguma norma ou com os resultados de 
+algum autor, ou com que outro tipo de pesquisa?
+3.2.11 Referências
+A referência dos documentos efetivamente citados dentro do pro­
+jeto da pesquisa é um item obrigatório para a elaboração do Projeto. Nela 
+normalmente constam os documentos e qualquer fonte de informação 
+consultados e citados na Revisão de literatura. Existe uma maneira de co­
+locá-los nesta seção. Para isso, consultar Associação Brasileira de Normas 
+Técnicas - ABNT NBR 6023:2002.
+3.2.12 Anexos e apêndices
+Anexo é um documento que não é de autoria do pesquisador, 
+mas que fundamenta, comprova ou ilustra aspectos contidos no 
+desenvolvimento. Anexos só são colocados no relatório se servirem para 
+alguma complementação ou comprovação de dados colocados no texto. 
+Não são absolutamente necessários por si só. Exemplos de anexos: laudo 
+técnico de um laboratório credenciado da análise de aço. 
+Apêndice é um texto escrito pelo autor, que complementa as idéias 
+contidas no desenvolvimento. Apêndices só são colocados quando se deve 
+incluir no Projeto algum documento que mostre que foi elaborado pelo 
+pesquisador. Exemplos de apêndices: um questionário elaborado pelo 
+pesquisador, um desenho tipo croqui da parte mecânica de um protótipo.
+Fotos, gráficos de seu projeto devem ser colocados dentro do 
+relatório, no lugar que está se referindo a elas. Evite colocá-los em anexos 
+ou apêndices, na medida do possível.
+A inclusão, ou não, de anexos e apêndices fica a critério do autor 
+da pesquisa. 
+Neste Manual, exemplos de roteiros de planos/projetos de pesquisa 
+científica e de plano/projeto de pesquisa tecnológica estão no Anexo C.
+3.3 Conselhos de revisão 
+Os conselhos ou comitês de revisão ou também chamados de 
+comissão/comitê de ética  analisam e avaliam os projetos de pesquisa 
+30
+Manual de orientações para projetos de pesquisa
+quanto aos riscos e questões de ética, envolvendo tanto os pesquisados 
+quanto os pesquisadores.
+3.3.1 Conselho de Revisão Institucional (CRI) ou Comitê de Ética In­
+stitucional 
+Depois da elaboração do projeto, o qual deve ser feito com a 
+supervisão  do orientador antes de começar a pesquisa, ele deverá ser 
+submetido ao comitê de ética da instituição para aprovação e autorização 
+para execução da pesquisa. A forma de apresentação ao comitê de ética 
+muda de instituíção para instituição. O pesquisador, juntamente com seu 
+orientador, deverá informar-se  de quais as regras para efetuar a pesquisa 
+na instituição a que está submetido. Os conselhos ou comitês de revisão 
+analisam e avaliam os projetos de pesquisa quanto aos riscos, tanto para 
+os pesquisados quanto para os pesquisadores.
+Este tipo de ação garante um compromisso ético para com a pes­
+quisa. A correta aplicação da metodologia científica prevê a preocupação 
+por parte do pesquisador e seu orientador com as questões éticas e de 
+segurança que envolvem a pesquisa. Questões como autorizações inter­
+nas da instituição à qual a pesquisa está submetida; autorizações para co­
+letas de dados através da aplicação de questionários, entrevistas, visitas; 
+autorização para divulgação de imagem; autorização para usar animais, 
+para usar substâncias químicas que tenham restrições legais; utilização 
+de máquinas e equipamentos perigosos etc... , até questões que envolvem 
+a fraude científica, plágio, uso de trabalhos de terceiros como sendo seu, 
+falsificação de assinaturas, de dados..., questões essas que são extrema­
+mente graves e que NÃO podem ser toleradas em uma pesquisa científica. 
+Na legislação brasileira, vamos encontrar a Resolução nº 251/97, 
+292/99, 303/00, 340/04, - 347/05, 404/08 e 421/09, as quais regulamentam 
+o uso de seres humanos na pesquisa e instituem o CONEP - Comissão 
+Nacional de Ética em Pesquisa e o CEP - Comitê de Ética em Pesquisa.
+Toda a pesquisa que envolve o ser humano deverá ter uma 
+avaliação cuidadosa quanto ao risco e benefício da pesquisa, ou seja, qual 
+é o beneficício da pesquisa em relação aos pesquisados e, em nível médio, 
+não são permitidas pesquisas onde sejam aplicados produtos na pele 
+ou a ingestão de alimentos, bebidas ... sem a supervisão e orientação de 
+cientista qualificado. 
+31
+Manual de orientações para projetos de pesquisa
+Também encontramos a Lei n° 11794/2008 que estabelece proce­
+dimentos para uso científico de animais, criando o CONCEA - Conselho 
+Nacional de Controle de Experimentação Animal e o CEUAs - Comissão 
+de Ética de Uso de Animais. Exemplos: usos de ratos, peixes, coelhos, etc.
+Conforme o artigo 12 do capítulo IV da referida lei, a criação ou 
+utilização de animais para pesquisa ficam restritas, exclusivamente, às 
+instituições credenciadas no CONCEA. Para obter este credenciamento, 
+a Instituição deve possuir um CEUA.
+Na Fundação Liberato, o responsável por verificar e autorizar as 
+pesquisas é o Conselho de Revisão Institucional (CRI). O CRI deve revisar 
+e aprovar toda a pesquisa proposta ou patrocinada pela Instituição antes 
+da realização da pesquisa. O professor orientador e o CRI são responsáveis 
+por garantir que o projeto do aluno esteja apropriado como pesquisa pré-
+universitária, obedecendo princípios éticos e regras de segurança.
+Para maiores detalhes sobre as regras e os formulários do CRI da 
+Fundação Liberato, consultar http://www.liberato.com.br/institucional_info.
+php?id=10 .
+3.3.2 Comitê de Revisão Científico (CRC)
+O CRC é um comitê  organizado por ocasião de um evento aberto à 
+comunidade externa à instituição, como uma feira ou mostra de trabalhos 
+científicos. O comitê é formado por professores e profissionais de áreas 
+específicas do conhecimento, referentes às áreas do evento.
+Esse comitê tem por objetivo revisar, selecionar os projetos que par­
+ticiparão do evento. Para isso, recorrem aos formulários necessários a cada 
+projeto específico, para verificar se os alunos pesquisadores se enquadram e 
+aderiram às regras do evento. Após a experimentação e antes da participação 
+em eventos de divulgação, o CRC deve ratificar a aprovação dos projetos, 
+para ter certeza de que o plano de pesquisa aprovado pelo CRI foi seguido.
+Para mais detalhes sobre o CRC e os formulários da MOSTRATEC, 
+consulte www.mostratec.com.br.
+3.4 Execução do projeto 
+Nesta fase, o aluno inicia a execução do projeto, devendo ser su­
+pervisionado de forma efetiva pelo orientador que, acompanhando cada 
+32
+Manual de orientações para projetos de pesquisa
+etapa do processo de execução, deve ficar atento e verificar possíveis si­
+tuações críticas que possam acarretar ao aluno problemas de integridade 
+física e/ou emocional. O cuidado com a segurança pessoal é de responsa­
+bilidade de todos os envolvidos no projeto, principalmente do orientador. 
+A execução segue o plano descrito no projeto de pesquisa e é 
+onde o estudante pesquisador faz as devidas observações, adaptações, 
+modificações, testes, etc.
+O projeto, ao ser pensado, escrito, executado, deve ter todos os 
+registros descritos no caderno de campo ou também chamado de diário 
+de bordo.  Materiais como cópias e textos impressos devem ficar em 
+uma pasta de documentos. O caderno de campo irá acompanhar todo 
+o desenvolvimento do projeto, pois todas as informações pertinentes 
+estarão contidas nele. No final, todo este material servirá de apoio para a 
+confecção do relatório final.
+3.5 Elaboração do relatório
+O relatório tem como função descrever todas as etapas do projeto 
+de forma clara e objetiva, relatando os assuntos que foram abordados 
+durante a pesquisa, relacionando e avaliando os resultados obtidos para a 
+elaboração da conclusão. 
+Segundo a ABNT NBR 14724:2005, a estrutura de tese, dissertação 
+ou de trabalhos acadêmicos e similares dividem-se em elementos pré-
+textuais, textuais e pós-textuais. 
+Cada Instituição pode seguir orientações próprias, conforme o 
+evento que realiza. 
+Por exemplo, o Anexo D mostra as orientações de acordo com a 
+Mostratec (2010) 
+3.5.1 Estrutura do relatório 
+A estrutura de um relatório deve conter os elementos pré-textuais, 
+os textuais e pós- textuais.
+Elementos pré-textuais:
+- folha de rosto;
+- dedicatória (opcional);
+33
+Manual de orientações para projetos de pesquisa
+- agradecimentos (opcional);
+- resumo em português;
+- resumo em língua estrangeira;
+- lista de ilustrações (opcional);
+- lista de tabelas (opcional);
+- sumário.
+Elementos textuais:
+- introdução;
+- desenvolvimento;
+- conclusão.
+Elementos pós-textuais:
+- referências bibliográficas;
+- glossário (opcional);
+- anexo(s) (opcional).
+3.5.2 Resumo
+O resumo é um elemento obrigatório. Deve ser redigido pelo 
+próprio autor de forma concisa e objetiva, consistindo de uma descrição 
+da finalidade do projeto, os procedimentos seguidos, os dados coletados 
+e as conclusões. Deve ser elaborado em parágrafo único. A Norma da 
+ABNT NBR 6028/2003, indica:
+- de 150 a 500 palavras, os de trabalhos acadêmicos (teses, disserta­
+ções e outros) e relatórios técnico-científicos;
+- de 100 a 250 palavras,  os de artigos de periódicos;
+- de 50 a 100 palavras, os destinados a indicações breves.
+Deve refletir a essência do projeto com clareza de conteúdo e 
+conclusões do trabalho. Segundo a NBR 6028/2003, deve ser escrito na 
+forma de frases sem utilização de tópicos, utilizando a terceira pessoa do 
+singular, os verbos na ativa e evitando o uso de expressões negativas. 
+A Mostratec, por exemplo, recomenda que seja digitado em fonte 
+Arial 12 ou Times New Roman 14, espaço simples. O conteúdo do resumo 
+deve abranger exclusivamente o projeto desenvolvido no ano. 
+Qualquer resumo deve incluir: o tema, o problema, o objetivo, a 
+metodologia, os resultados obtidos e as conclusões e recomendações. O 
+quadro a seguir mostra algumas dicas para o resumo.
+34
+Manual de orientações para projetos de pesquisa
+Quadro 1 - Dicas para um bom resumo
+Concentre-se apenas na pesquisa do ano corrente, quando se trata 
+de um projeto de continuação.
+Exclua qualquer nome de mentores, orientadores ou supervisores 
+do trabalho e instituições. 
+Omita detalhes e discussões.
+Use o verbo no passado para descrever as ações realizadas. 
+Use frases curtas, mas varie estrutura de frase.
+Use frases completas (Não abreviar omitindo artigos ou outras 
+palavras pequenas, a fim de economizar espaço).
+Use uma linguagem científica adequada.  
+Corrija ortografia, gramática, pontuação e concordância.
+Além disso, um bom resumo, ao ser enviado para avaliação, seleção 
+para um evento ou para constar em uma revista, um livro de resumos, 
+deve apresentar:
+a) objetivo do projeto ou da experiência executada:
+- uma exposição introdutória do que se trata e da razão para 
+investigar o tema;
+- a descrição do problema e a hipótese a ser estudada, se tiver;
+• 
+Concentre-se apenas na pesquisa do ano corrente, quan­
+do se trata de um projeto de continuação.
+• 
+Exclua qualquer nome de mentores, orientadores ou su­
+pervisores do trabalho e instituições. 
+• 
+Omita detalhes e discussões.
+• 
+Use o verbo no passado para descrever as ações realizadas. 
+• 
+Use frases curtas, mas varie estrutura de frase.
+• 
+Use frases completas (Não abreviar omitindo artigos ou 
+outras palavras pequenas, a fim de economizar espaço).
+• 
+Use uma linguagem científica adequada.
+• 
+Corrija ortografia, gramática, pontuação e concordância.
+35
+Manual de orientações para projetos de pesquisa
+b) procedimentos usados: 
+- resumir os procedimentos, destacando os principais pontos ou 
+etapas;
+- um resumo dos pontos-chave e uma visão geral de como a 
+investigação foi conduzida;
+- omitir detalhes sobre os materiais utilizados, a menos que 
+influencie muito no processo;
+- o resumo deve incluir apenas os procedimentos feitos pelo 
+estudante. Trabalho realizado por um orientador ou mentor feito antes 
+do envolvimento dos alunos não deve ser incluído;
+c) detalhar sucintamente observações / dados / resultados:
+- esta parte deve fornecer resultados que levam diretamente para 
+as conclusões;
+- não deve dar muitos detalhes sobre os resultados nem incluir 
+tabelas ou gráficos;
+d) conclusões / aplicações (devem ser escritos de forma sucinta):
+- a parte das conclusões deve refletir sobre os resultados e aplicações 
+do processo.
+Um resumo não inclui as referências bibliográficas, salvo se exigido 
+pela feira/evento. 
+No Anexo E, temos exemplos de resumos de projeto científico 
+(Borges et al, 2008) e tecnológico (Soares; Zucolotto, 2010), que observam 
+todas estas partes, enquanto que o Anexo F apresenta a formatação 
+orientada pela ABNT para relatórios de trabalhos escolares.
+3.5.3 Desenvolvimento
+O desenvolvimento é a parte mais extensa do relatório. Deve ser 
+elaborado de forma a conter o relato das etapas do projeto, tais como: 
+metodologia, resultados, interpretação dos dados, além de referencial 
+teórico, gráficos, tabelas, figuras e outros. 
+Divide-se, geralmente, em capítulos (seções) e subcapítulos (sub­
+seções) que variam em função da natureza do conteúdo. A metodologia 
+deve ser descrita detalhadamente, de modo que outra pessoa possa ser 
+capaz de repetir o processo a partir deste relato. O referencial teórico, 
+também chamado de revisão de literatura ou revisão bibliográfica, deve 
+36
+Manual de orientações para projetos de pesquisa
+conter somente dados e informações relevantes para o projeto. Todas as 
+ideias de outros autores devem ter seus respectivos nomes citados no tex­
+to. Isso é feito usando-se citações diretas ou indiretas, conforme orienta 
+a NBR 10520/2002 da ABNT. Dentro do desenvolvimento, podem ser 
+apresentadas várias formas de apresentação de ilustrações (figuras, qua­
+dros, mapas, gráficos, tabelas e outros). Tais elementos contribuem para 
+o enriquecimento da pesquisa.
+3.6 Divulgação 
+Uma vez terminada a investigação, você está pronto para mostrar 
+seu projeto. A divulgação pode ser feita de diferentes maneiras.
+Pode ser sob várias formas, por exemplo, na forma de artigo publi­
+cado em revista ou periódico e/ou sob forma de um pôster a ser divulgado 
+em eventos como feiras ou seminários.
+3.6.1 Artigo Científico
+Os trabalhos científicos, muitas vezes, pelo nível de excelência que 
+apresentam, são merecedores de publicação em revistas especializadas. 
+Artigo científico pode ser entendido como um trabalho completo 
+em si mesmo, mas possui dimensão reduzida. O artigo é a apresentação 
+sintética, em forma de relatório escrito, dos resultados de investigações 
+ou estudos realizados a respeito de uma questão. 
+O artigo é um meio de atualização de informações e, por isso, 
+enquanto fonte de pesquisa, jamais pode ser ignorado no processo de 
+busca e aquisição de conhecimentos. 
+Para a publicação de um artigo científico, é necessário que se 
+observem as recomendações fixadas pela ABNT NBR 6022/2003, a qual 
+estrutura, de maneira geral, os seguintes elementos: 
+- título: contém o termo ou expressão que indica o conteúdo do 
+artigo;
+- autoria: nome do autor ou autores, acompanhado de um breve 
+currículo (figura em nota de rodapé);
+- resumo: apresentam objetivos, metodologia, conclusões alcança­
+das, palavras-chave (termos indicativos do conteúdo do artigo);
+37
+Manual de orientações para projetos de pesquisa
+- texto:
+a) introdução: apresenta o tema-questão-problema, justifica-o, 
+expõe a finalidade e descreve a metodologia que foi adotada na realização 
+da pesquisa;
+b) desenvolvimento: apresenta todos os procedimentos realizados 
+e os resultados, sob análise crítica no estudo;
+c) conclusão: apresenta os resultados de forma sintética e abre 
+perspectivas para novas investigações;
+d) referências: apresenta as obras que foram citadas no corpo do 
+artigo, conforme a ABNT.
+É importante salientar que nem todas as revistas científicas seguem 
+rigorosamente a ordem dos elementos apresentados nas normas acima. 
+Alguns itens podem variar de acordo com as orientações de cada conselho 
+editorial. 
+3.6.2 Participação em eventos científicos
+Um evento científico pode se caracterizar por feiras científicas ou 
+de engenharia, congressos e seminários e implica uma exibição pública. 
+Participar em um evento desta natureza terá como conseqüência a 
+divulgação do trabalho desenvolvido e, para que isso ocorra, será preciso 
+conhecer as normas dos organizadores do evento e verificar se o trabalho 
+se qualifica. Em geral os trabalhos apresentados nesses eventos seguem as 
+normas gerais estabelecidas pela ABNT.
+3.6.2.1Apresentação visual (pôster, banner, estande) 
+Um pôster é uma opção utilizada em alguns eventos onde o material 
+fica exposto e é feito um escalonamento para apresentação. Na estrutura 
+do pôster, deve conter o título, a instituição e autores. As principais 
+características utilizadas são:
+- o tamanho em geral fica em torno de 80 cm de largura por  100 cm 
+de altura, mas varia de acordo com o espaço destinado no evento;
+- as informações são impressas em  papel ou plástico;
+- alguns eventos podem apresentar o pôster em meio eletrônico 
+com projeção de um único slide;
+38
+Manual de orientações para projetos de pesquisa
+- as letras devem ser de uma fonte que poderá ser lida até 1 m de 
+distância. 
+O projeto gráfico é de responsabilidade do autor (um recurso muito 
+utilizado é o CorelDraw). 
+Um pôster, banner ou estande devem ter, na sua estrutura, os 
+seguintes itens: 
+- introdução: que deve conter uma pequena redação que conste a 
+justificativa, o problema, os objetivos (geral e específicos) e hipóteses;
+- desenvolvimento: materiais e métodos utilizados, que podem ser 
+registrados por fotos, fluxograma, diagramas e/ou textos;
+- resultados: apresentar coleta e análise dos dados por meio de 
+ilustrações, gráficos e tabelas e pequenos comentários, caso seja do 
+interesse do autor;
+- conclusões e aplicações;
+- referências bibliográficas da sua pesquisa.
+Devem ser observadas as especificações exigidas em cada vento. 
+3.6.2.2 Apresentação oral
+A apresentação oral é um item fundamental na divulgação da 
+pesquisa/projeto, conforme a Mostratec, Manual do Avaliador,  para uma 
+boa apresentação oral o estudante pesquisador deve apresentar:
+Domínio do assunto: o expositor demonstra conhecimento pleno do 
+assunto pesquisado?
+Clareza e desenvoltura: o expositor demonstra naturalidade para 
+apresentar o projeto e esclarecer eventuais questionamentos?
+Capacidade de síntese: o expositor apresenta o projeto com a 
+objetividade desejada, destacando os pontos mais importantes para a 
+obtenção dos resultados desejados?
+Uso adequado da linguagem: a linguagem está adequada à apresentação 
+de um trabalho científico, com termos técnicos e linguagem formal 
+recomendáveis?
+Disposição para defesa do trabalho: o quanto o expositor demonstra 
+entusiasmo ou motivação na apresentação do trabalho? 
+Outra dica importante é que o estudante não apresente um texto 
+memorizado, tipo decorado para o público ou juízes e que sua apresenta­
+39
+Manual de orientações para projetos de pesquisa
+ção seja breve, mas mostre tudo o que fez e relate também as dificuldades 
+que teve ao longo do caminho. Quando a apresentação é muito longa, 
+torna-se cansativa e desinteressante para o público, embora, muitas ve­
+zes, o estudante queira mostrar tudo o que fez, nos mínimos detalhes. É 
+preciso avaliar que tipo de pessoa está assistindo e para que ela está assis­
+tindo a apresentação. O estudante deve dar oportunidade para perguntas 
+e respostas.
+40
+Manual de orientações para projetos de pesquisa
+REFERÊNCIAS
+ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. NBR 
+6022: informação e documentação: artigo em publicação periódica 
+científica impressa: apresentação. Rio de Janeiro: ABNT, 2003.
+______. NBR 6023: informação e documentação: referências: ela­
+boração. Rio de Janeiro: ABNT, 2002.
+______. NBR 6028: informação e documentação: resumo: apresen­
+tação. Rio de Janeiro: ABNT, 2003. 
+______. NBR 10520: informação e documentação: citações em do­
+cumentos: apresentação. Rio de Janeiro: ABNT, 2002.
+______. NBR 14724: informação e documentação: trabalhos aca­
+dêmicos: apresentação. Rio de Janeiro: ABNT, 2005.
+BARONI, Larissa Leiros. Orientação errada pode determinar 
+fracasso no TCC. São Paulo: Universia, 2009. Disponível em: 
+<http://especiais.universia.com.br/guiadotcc/esquerdameio/
+orientacao-errada-pode-determinar-fracasso-no-tcc>. Acesso em: 
+22 jun. 2013.
+BELLO, José Luís de Paiva. Metodologia científica. Rio de Janeiro, 
+2004. Disponível em: <http://www.pedagogiaemfoco.pro.br/met01.
+htm>. Acesso em: 22 jun. 2013.
+______. Metodologia científica: manual para elaboração de 
+monografias. Rio de Janeiro: Universidade Veiga de Almeida – 
+UVA, 2009. Disponível em: <http://www.pedagogiaemfoco.pro.br/
+mc200901.pdf>. Acesso em: 22 jun. 2013.
+BERVIAN, Pedro; CERVO, Amado L. Metodologia científica. 5. ed. 
+São Paulo: Prentice Hall, 2002.
+41
+Manual de orientações para projetos de pesquisa
+BORGES, Lucélia Justino et al. Satisfação com a vida de idosos 
+praticantes de atividade física em projetos sociais de Uberlândia. 
+Revista Digital Educación Fisica y Deportes, Buenos Aires, ano 
+12, n. 118, mar. 2008. Disponível em: <http://www.efdeportes.com/
+efd118/idosos-praticantes-de-atividade-fisica.htm>. Acesso em: 23 
+abr. 2011.
+BRASIL. Lei nº 11794/2008, de 8 de outubro de 2008. Procedimentos 
+para o uso científico de animais. Revoga a Lei nº 6.638, de 8 de maio 
+de 1979; e dá outras providências. JusBrasil. 2008. Disponível em: 
+<http://www.jusbrasil.com.br/legislacao/93064/lei-11794-08>. 
+Acesso em: 22 jun. 2013.
+BRASIL. Conselho Nacional de Saúde. Resolução 196. Diretrizes e 
+normas regulamentadoras de pesquisas envolvendo seres huma­
+nos. 1996. Disponível em: <http://www.sbpqo.org.br/suplemen­
+tos/33%20-%20Diretrizes.pdf>. Acesso em: 22 jun. 2013.
+CAUDURO, Maria T. (Org.). Investigação em Educação Física e 
+Esportes. Novo Hamburgo: FEEVALE, 2004.
+FEBRACE - FEIRA BRASILEIRA DE CIÊNCIAS E ENGENHARIA. 
+Projetos. Disponível em: <http://febrace.org.br/projetos>. Acesso 
+em: 22 jun. 2013.
+FERREIRA, Aurélio B. H. Aurélio: o dicionário da língua portu­
+guesa. Curitiba:Ed. Positivo, 2008.
+FINEP - Financiadora de Estudos e Projetos. Conceitos. Disponível 
+em: <http://www.finep.gov.br/o_que_e_a_finep/conceitos_ct.asp>. 
+Acesso em: 22 jun. 2013.
+GIL, Carlos Antônio. Como elaborar projetos de pesquisa. 4. ed. 
+São Paulo: Atlas. 2002.
+INTEL-ISEF. Student Handbook. 2011. Disponível em: <http://
+42
+Manual de orientações para projetos de pesquisa
+www.societyforscience.org/document.doc?id=12>. Acesso em: 22 
+nov. 2010.
+JUNG, Carlos Fernando. Tipos de pesquisa. In: ______. Elaboração 
+de artigos científicos. 2003. Disponível em: <www.jung.pro.br>. 
+Acesso em: 22 jun. 2013.
+______. Metodologia para a pesquisa & desenvolvimento. Rio 
+de Janeiro: Axcel Books. 2004.
+LIBERATO. Institucional: Conselho de Revisão Institucional 
+(CRI). Novo Hamburgo: FETLSVC, 2011. Disponível em: <http://
+www.liberato.com.br/institucional_info.php?id=10>. Acesso em: 
+22 jun. 2013.
+MOSTRATEC. Inscrição áreas e sub-áreas. Novo Hamburgo: 
+FETLSVC, 2011. Disponível em: <http://www.mostratec.com.br/
+pt-br/edicao-atual/desenvolva-seu-projeto/areas-de-pesquisa>. 
+Acesso em: 22 jun. 2013.
+ROSÁRIO, Nísia Martins do. Manual de pesquisa científica. São 
+Leopoldo: UNISINOS, 2010. 
+SOARES, Felipe G. K; ZUCCOLOTTO, Marcos. Detector pré 
+ignição. Revista Liberato, v. 11, n. 15, p. 7-15, jan./jun. 2010. .
+SOUZA, Dalva Inês de. Classificação da pesquisa. In: ______. 
+Projeto pesquisa: iniciação à metodologia científica e método 
+de engenharia. Disponível em: <http://febrace.org.br/arquivos/
+site/_conteudo/pdf/dicas-de-metodologia-de-pesquisa.pdf>. 2008. 
+Acesso em: 22 jun. 2013.
+VALERIANO, Dalton L. Gerência de projetos: pesquisa, desen­
+volvimento e engenharia. São Paulo: Makron Books, 1998.
+ANEXOS
+44
+Manual de orientações para projetos de pesquisa
+ANEXO A – Exemplos de roteiros para projetos de pesquisa
+ROTEIROS PARA PROJETOS DE PESQUISA
+Abaixo estão apresentados alguns tipos de roteiros para projeto de 
+pesquisa. 
+EXEMPLO 1
+EXEMPLO 2
+EXEMPLO 3
+EXEMPLO 4
+EXEMPLO 5
+1 - Delimitação 
+do tema
+1- Tema 
+1 - Título 
+1 - Título
+1 - Resumo da
+proposta
+2 - Problema 
+2 - Problema 
+2- Introdução 
+e Justificativa
+2 - Súmula 
+2 -Problema-
+tização
+3 - Hipóteses
+3 - Objetivos
+3 - Objetivos
+3 - Objeto e
+justificativa
+3 - Objetivos
+4 - Objetivo
+4.1 - Geral
+4.2- Específicos
+4 - Justificativa
+4 - Definição 
+do objeto de 
+estudo
+4 - Objetivos 
+e Resultados 
+esperados
+4- Base teórica
+5 - Justificativa
+5 - Contexto
+5 - Metodolo­
+gia
+5 - Métodos,
+materiais e
+cronograma
+5 -Metodolo­
+gia
+6 - Revisão bi­
+bliográfica
+6 - Metodolo­
+gia
+6 - Plano de
+atividades
+6 - Condições
+científicas do
+proponente
+6 - Referências 
+bibliográficas
+7 - Metodologia
+7 - Esboço
+7 - Bibliografia 
+de referência
+7 - Referên­
+cias 
+biblio­
+gráficas
+8 - Cronograma
+8 - Cronogra­
+ma
+9 - Roteiro
+9 - Referências
+bibliográficas
+10 - Levanta-
+mento 
+biblio-
+gráfico inicial
+Fonte: Adaptado de Rosário, 2010.4
+4 ROSÁRIO, Nísia Martins do. Manual de Pesquisa Científica São Leopoldo: 
+UNISINOS, 2010
+45
+Manual de orientações para projetos de pesquisa
+ANEXO B – Verbos usados para objetivos
+Verbos usados para objetivos 
+Taxonomia de Bloom
+A tabela seguinte ilustra a taxonomia de Bloom. A primeira coluna 
+mostra os objetivos de aprendizagem relacionados por Bloom. A segunda 
+coluna indica os processos para atingi-los e a terceira os resultantes da 
+aprendizagem. 
+objetivos
+processos
+resultantes
+conhecimento 
+especificar 
+- modos e meios para lidar com 
+itens específicos 
+- fatos universais e abstrações 
+num dado campo 
+definir 
+reconhecer 
+recitar 
+identificar 
+rotular 
+compreender 
+examinar 
+mostrar 
+coletar 
+listar 
+rótulos 
+nomes 
+fatos 
+definições 
+conceitos 
+compreensão 
+tradução 
+interpretação 
+extrapolação 
+traduzir 
+interpretar 
+explicar 
+descrever 
+resumir 
+demonstrar 
+argumento
+explicação 
+descrição
+resumo 
+aplicação 
+uso de abstrações em situações 
+específicas e concretas 
+aplicar 
+solucionar 
+experimentar 
+demonstrar 
+construir 
+mostrar 
+fazer 
+ilustrar 
+registrar 
+diagrama
+ilustração 
+coleção 
+mapa 
+jogo ou quebra-
+cabeças 
+modelo 
+relato 
+fotografia 
+lição 
+Análise  
+de elementos 
+de relacionamentos 
+de princípios organizacionais 
+conectar 
+relacionar 
+diferenciar 
+classificar 
+arranjar, etru­
+turar 
+agrupar
+interpretar 
+organizar 
+categorizar 
+retirar 
+comparar 
+dissecar 
+investigar
+gráfico 
+questionário 
+categoria 
+levantamento 
+tabela 
+delineamento 
+diagrama 
+conclusão 
+lista 
+plano 
+resumo 
+síntese 
+comunicação inédita 
+plano de operação 
+conjunto de relacionamentos ab­
+stratos 
+projetar 
+reprojetar 
+combinar 
+consolidar 
+agregar 
+compor 
+formular hipó­
+tese 
+construir 
+traduzir 
+imaginar 
+inventar 
+criar 
+inferir 
+produzir 
+predizer 
+poema 
+projeto 
+resumo de projeto 
+fórmula 
+invenção 
+história 
+solução 
+máquina 
+filme 
+programa 
+produto 
+avaliação 
+julgamento em termos de evi­
+dência interna 
+julgamento em termos de evi­
+dência externa 
+interpretar 
+verificar 
+julgar 
+criticar 
+decidir 
+discutir 
+verificar 
+disputar 
+escolher 
+opinião
+julgamento 
+recomendação 
+veredito 
+conclusão 
+avaliação 
+investigação 
+editorial 
+Fonte: UFRGS. Taxonomia de Bloom. Disponível em: <http://penta2.ufrgs.br/
+edu/bloom/bloom.htm> Acesso em: 04 jan. 2011.
+47
+Manual de orientações para projetos de pesquisa
+Exemplo de objetivos usando a coluna de processos e a de 
+resultados, fazendo adaptações necessárias:
+a) reconhecer rótulos de produtos químicos;
+b) construir um painel solar de placas planas com material tipo 
+sucata;
+c) projetar uma cadeira de rodas com melhor design;
+d) verificar se os dados obtidos estão de acordo com os parâmetros 
+da ABNT;
+e) inventar um programa tipo software simulador de acidentes em 
+laboratórios químicos escolares.
+48
+Manual de orientações para projetos de pesquisa
+ANEXO C – Sugestão para planos de pesquisa científico e tecnológico
+SUGESTÃO DE PLANO DE PESQUISA DE PROJETO CIENTÍFICO
+Professora MS Dalva Inês de Souza
+O plano de pesquisa, como o nome já diz, trata-se de uma descrição 
+do que será feito, por que será feito, o que já existe a respeito , como será 
+feito, o que será necessário para a realização da pesquisa, quando será 
+feita, quem fará, qual a previsão dos custos, etc. É uma organização do 
+pesquisador e uma exigência das instituições pois envolve questões de 
+ética, segurança, prazos, financiamento, etc. 
+Como se trata de um plano, os verbos deverão estar no futuro: será 
+feito, será realizado, será medido.
+Antes de escrever de forma oficial, faça um rascunho, com suas 
+idéias e já coloque no diário de bordo, depois as coloque em ordem. Este 
+roteiro aqui apresentado é apenas uma sugestão de modelo de plano. Use 
+somente os itens que forem pertinentes ao seu tipo de pesquisa. Existem 
+muitos outros roteiros. Siga o roteiro da instituição que solicita o plano.
+1 INTRODUÇÃO (obrigatório):
+- tema;
+- justificativa e problema;
+- hipóteses;
+- objetivos;
+- objeto.
+2 REFERENCIAL TEÓRICO (obrigatório)
+3 METODOLOGIA (MATERIAL E MÉTODOS) (obrigatório)
+3.1 Procedimentos 
+3.1.1 Plano de pesquisa (quais serão as etapas e a descrição das etapas)
+3.1.1.1 Variáveis 
+3.1.1.2 Indicadores
+3.1.1.3 Recursos necessários 
+3.1.1.4 Descrição das etapas e tipo da pesquisa
+3.1.2 Análise e avaliação dos dados 
+3.1.3 Cronograma
+49
+Manual de orientações para projetos de pesquisa
+REFERÊNCIAS (obrigatório)
+BIBLIOGRAFIA (opcional)
+ANEXOS (conforme o caso)
+APÊNDICE (conforme o caso)
+SUGESTÃO DE PLANO DE PESQUISA DE PROJETO 
+TECNOLÓGICO
+Professora MS. Dalva Inês de Souza
+O plano de pesquisa, como o nome já diz, trata de uma descrição 
+do que será feito, por que será feito, o que já existe a respeito , como será 
+feito, o que será necessário para a realização da pesquisa, quando será 
+feita, quem fará, qual a previsão dos custos, etc. É uma organização do 
+pesquisador e uma exigência das instituições, pois envolve questões de 
+ética, segurança, prazos, financiamento, etc. 
+Como se trata de um plano, os verbos deverão estar no futuro: será 
+feito, será realizado, será medido.
+Antes de escrever de forma oficial, faça um rascunho, com suas 
+idéias e já coloque no diário de bordo, depois as coloque em ordem. Este 
+roteiro aqui apresentado é apenas uma sugestão de modelo de plano. Use 
+somente os itens que forem pertinentes ao seu tipo de pesquisa. Existem 
+muitos outros roteiros. Siga o roteiro da instituição que solicita o plano.
+1 INTRODUÇÃO (obrigatório):
+- tema ;
+- justificativa e problema; 
+- hipóteses;
+- objetivos; 
+- metas e indicadores;
+- objeto.
+2 REFERENCIAL TEÓRICO (obrigatório)
+3 METODOLOGIA (MATERIAL E MÉTODOS) (obrigatório)
+3.1 Procedimentos 
+3.1.1 Análise de produto similar do mercado
+3.1.2 Produto/processo novo ou modificado
+50
+Manual de orientações para projetos de pesquisa
+3.1.2.1 Critérios básicos, variáveis de estudo e critérios diferenciais
+3.1.2.2 Busca de possíveis alternativas
+3.1.2.3 Escolha da melhor alternativa para cumprir os critérios
+3.1.2.4 Construção do novo produto/processo:
+- fluxograma ou diagrama de blocos;
+- desenho/projeto (croqui, planta baixa, circuito eletrônico, elétri­
+co, mecânico, etc.) preliminar que será feito, conforme o caso; 
+- materiais que serão necessários (tipo memorial descritivo); 
+- previsão de: custos, reuso, reciclagem.
+3.1.3. Análise e avaliação do novo produto 
+3.1.4 Cronograma
+REFERÊNCIAS (obrigatório)
+BIBLIOGRAFIA (opcional)
+ANEXOS (conforme o caso)
+APÊNDICE (conforme o caso)
+51
+Manual de orientações para projetos de pesquisa
+ANEXO D – Estrutura de relatório - ABNT NBR 14724:2005
+1 INTRODUÇÃO:
+- apresentação do tema e sua delimitação; 
+- pequeno histórico do problema; problema; 
+- justificativa; 
+- hipóteses;
+- objetivos (geral e específicos).
+2 REFERENCIAL TEÓRICO
+Pode estar em capítulo ou estar inserido dentro de qualquer parte 
+do relatório, mas tem que constar.
+3 METODOLOGIA (OU MATERIAIS E MÉTODOS):
+- início e término da pesquisa (conforme cronograma e caderno de 
+campo); 
+- local da pesquisa e descrição;
+- delineamento da pesquisa;
+- variáveis (se for o caso); definição conceitual, operacional e con­
+trole das variáveis, indicadores usados; 
+- população e sistema de amostragem; instrumentos de coletas de 
+dados, equipamentos e materiais; 
+- procedimentos: descrição das etapas, técnicas, normas e procedi­
+mentos usados para a coleta de dados; 
+- descrição dos métodos de análise, avaliação, validação, tratamento 
+estatístico dos dados obtidos, etc.
+4 RESULTADOS E DISCUSSÕES
+Mostrar os resultados e fazer uma discussão sobre o significado.
+5 CONCLUSÃO 
+REFERÊNCIAS (ABNT NBR 6023: 2002) 
+GLOSSÁRIO (opcional)
+ANEXOS (opcional)
+APÊNDICES (opcional)
+52
+Manual de orientações para projetos de pesquisa
+ANEXO E – Exemplo de resumos de projetos científico e tecnológico
+EXEMPLO DE RESUMO DE PROJETO CIENTÍFICO
+SATISFAÇÃO COM A VIDA DE IDOSOS PRATICANTES DE 
+ATIVIDADE FÍSICA EM PROJETOS SOCIAIS DE UBERLÂNDIA
+Lucélia Justino Borges1,2, Andreia Pelegrini1  
+João Marcos Ferreira de Lima Silva1,2, Geni de Araújo Costa3
+luceliajb@yahoo.com.br
+1.	Universidade Federal de Santa Catarina, Florianópolis, SC, Brasil - Núcleo de 
+Pesquisa  em Cineantropometria & Desempenho Humano - Centro de Desportos. 
+NuCIDH/CDS. 
+2.	Bolsista CAPES
+3.	Universidade Federal de Uberlândia, Uberlândia, MG, Brasil - Projeto Vida Ativa 
+AFRID/UFU. (Brasil) 
+RESUMO
+Este estudo teve por objetivo avaliar o nível de satisfação com a vida para 
+um grupo de idosos praticantes de atividade física em projetos sociais de 
+Uberlândia-MG. A pesquisa foi realizada com 419 idosos (365 mulheres e 
+54 homens), com idade de 60 a 95 anos. Para a coleta de dados, utilizaram-
+se informações sóciodemográficas e questionário sobre nível de satisfação 
+de vida. Os dados foram inicialmente analisados por meio de estatística 
+descritiva. Para verificar a associação entre as variáveis sóciodemográficas 
+e nível de satisfação de vida, utilizou-se o teste qui quadrado. Adotou-
+se nível de significância de p = 0,05. Os resultados obtidos retratam 
+que 92% dos idosos possuíam baixa escolaridade, 40,3% eram casados, 
+73,7% eram aposentados/pensionistas, 29,8% moravam com os filhos e 
+66,8% possuíam doenças crônicas. Em relação à satisfação com a vida, foi 
+constatado que 36%, 37,7% e 46% estão “muito” satisfeitos para os domínios 
+saúde física, mental e envolvimento social, respectivamente. Enquanto o 
+aspecto capacidade física apresentou percentuais similares (36%) para a 
+opção “mais ou menos” e “pouco satisfeito”. Quanto à associação entre os 
+aspectos da satisfação com a vida e variáveis sóciodemográficas, ressalta-se 
+que foi observada associação estatisticamente significante somente entre 
+53
+Manual de orientações para projetos de pesquisa
+ocupação e saúde física (p=0,030). De acordo com os dados, conclui-se 
+que os sujeitos praticantes de atividade física têm percepção positiva em 
+relação aos aspectos analisados sobre a satisfação com a vida. 
+Palavras-chave: Satisfação com a vida. Atividade física. Projetos sociais. 
+Idosos. 
+EXEMPLO DE RESUMO DE PROJETO TECNOLÓGICO 
+DETECTOR DE PRÉ-IGNIÇÃO1
+Felipe Gabriel Kuhn Soares2
+Marcos Zuccolotto3
+1.	Projeto premiado na Intel ISEF 2009: 4° lugar na categoria Engenharia Elétrica e 
+Mecânica.
+2.	Aluno do Curso Técnico de Eletrônica da Fundação Liberato. felipegks@gmail.com
+3.	Mestre em Engenharia Elétrica – UFRGS. Professor do Curso Técnico de Eletrônica 
+da Fundação Liberato. zucco@liberato.com.br
+RESUMO
+Este projeto aborda o desenvolvimento do protótipo de um sistema 
+detector de pré-ignição. A pré-ignição é uma combustão anormal que 
+pode ocorrer em motores de alto desempenho e que acarreta a perfuração 
+do êmbolo muito rapidamente. O detector de pré-ignição possibilita a 
+percepção da ocorrência deste fenômeno, podendo ser empregado em 
+testes laboratoriais em motores de competição com o intuito de evitar 
+a quebra por pré-ignição. A proposta consiste no desenvolvimento 
+de três etapas principais: o sensor de chama, o sensor de centelha e o 
+discriminador de pré-ignição. Os resultados dos testes com o protótipo 
+comprovam a viabilidade da proposta de solução. Os três estágios foram 
+simulados isoladamente e integrados. Tiveram boa resposta em bancada e 
+apresentaram imunidade ao ruído do sistema de ignição.
+Palavras-chave: Pré-ignição. Motores de combustão interna. Sistema de 
+ignição.
+54
+Manual de orientações para projetos de pesquisa
+ANEXO F – Formato geral de apresentação de relatório
+FORMATO GERAL DE APRESENTAÇÃO DE RELATÓRIO
+Item
+E s p a ç a ­
+mento en­
+trelinhas
+Alinhamento
+Fonte 
+Arial ou Times 
+New Roman
+Texto
+1,5
+Justificado; 
+Entrada de parágrafo a 1,5 cm 
+da margem esquerda.
+Tamanho 12
+Citações 
+longas 
+(com mais de 3 
+linhas)
+Simples
+Justificado; 
+Recuo de 4 cm da margem esquer­
+da em bloco único, sem entrada de 
+parágrafo ou aspas
+Tamanho10
+Figuras
+Simples
+O título (em negrito) deve ser 
+alinhado à esquerda na parte 
+inferior da figura, precedido da 
+palavra designativa, seguida de 
+seu número de ordem. 
+A legenda aparece abaixo do tí­
+tulo, indicando a fonte de onde 
+foi extraída a figura.
+Tamanho 
+11 
+para o título 
+Tamanho10 para 
+fonte de onde foi 
+extraída
+Tabelas 
+Simples
+O título (em negrito) deve ser 
+alinhado à esquerda na parte 
+superior da tabela, precedido da 
+palavra Tabela, seguida de seu 
+número de ordem; 
+A legenda com a fonte de onde 
+a tabela foi extraída e o ano 
+em que foi feita, bem como as 
+notas, devem figurar na parte 
+inferior da tabela, alinhadas à 
+esquerda;
+As laterais da tabela não devem 
+ser fechadas, ou seja, as linhas 
+verticais, nem as horizontais 
+não devem aparecer, a não ser 
+as duas primeiras linhas e a 
+última.
+Tamanho 
+11 
+para o título e 
+texto da tabela; 
+Tamanho 
+10 
+para a legenda 
+(fonte e notas).
+55
+Manual de orientações para projetos de pesquisa
+Resumo em lín­
+gua vernácula e 
+resumo em lín­
+gua estrangeira
+1,5
+Título centralizado no alto da 
+página, maiúsculo/minúsculo;
+Texto justificado e sem entrada 
+de parágrafos, em bloco único;
+Palavras-chave logo abaixo do 
+texto, justificadas. Devem ini­
+ciar com letras maiúsculas e ser 
+separadas entre si por ponto fi­
+nal (.).
+Tamanho 12
+Títulos das seções 
+primárias
+1,5
+Devem começar na margem su­
+perior da folha e ser separados 
+do texto que os sucede por dois 
+espaços 1,5;
+Por serem as principais divisões 
+de um texto, devem iniciar em 
+folha distinta;
+Tamanho 12
+Títulos de sub­
+seções 
+(seções 
+secundárias, ter­
+ciárias, etc.)
+1,5
+Devem ser separados do texto 
+que os precede e que os sucede 
+por um espaço 1,5 (uma linha 
+em branco).
+Tamanho 12
+Notas de rodapé
+Simples
+Devem ser digitadas dentro das 
+margens, ficando separadas do 
+texto por um espaço simples de 
+entrelinhas e por filete de 3 cm a 
+partir da margem esquerda.
+Tamanho 10
+Natureza 
+(tese, 
+dissertação, tra­
+balho de con­
+clusão de curso e 
+outros), objetivo 
+(aprovação 
+em 
+disciplina, 
+grau 
+pretendido e out­
+ros), nome da in­
+stituição a que é 
+submetido e área 
+de concentração
+Simples
+Devem figurar nas folhas de 
+rosto e de aprovação, alinha­
+dos do meio da mancha para a 
+margem direita.
+Tamanho 12
+Texto adaptado por professores da disciplina de português da FETLSVC a partir de: 
+Manual para Elaboração Trabalhos Acadêmicos, conforme NBR 14724:2005. Porto 
+Alegre: SENAC, 2007

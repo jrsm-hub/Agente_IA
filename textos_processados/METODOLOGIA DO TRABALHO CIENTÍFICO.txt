@@ -1,0 +1,7046 @@
+1
+2
+APRESENTAÇÃO
+Caros alunos,
+A vida acadêmica requer de pesquisadores e estudantes universitários habilidade
+em planejar, executar e apresentar trabalhos científicos. Nesse contexto, a disciplina
+Metodologia do Trabalho Científico constitui uma iniciação nas práticas de investigação e
+tem o propósito de discutir conceitos e características da ciência, bem como de familiari-
+zar os alunos com técnicas de estudo e de pesquisa científica.
+Sendo assim, abordaremos, neste curso, métodos e técnicas de estudo fundamentais para
+a compreensão e análise de textos escritos, entre os quais a leitura, a análise textual, as
+técnicas de fichamento, de resumo e de síntese. Trataremos também das normas que
+regem a publicação de trabalhos científico-acadêmicos, bem como questões vinculadas à
+participação em congressos. Discutiremos ainda os principais conceitos envolvidos nas
+atividades de pesquisa, as etapas pertinentes à elaboração do projeto e do trabalho
+monográfico, assim como a constituição de bases de dados, entrevistas, utilização de
+fontes e de recursos eletrônicos.
+As atividades apresentadas ao longo do curso podem ser realizadas com maior
+flexibilidade de tempo, por integrarem um curso a distância, mas não se deve esquecer de
+que foram planejadas para serem concluídas com prazo determinado. Além disso, é ne-
+cessário conscientizar-se de que as leituras e orientações devem ser complementadas
+pela bibliografia indicada no programa da disciplina.
+OBJETIVO E CONTEÚDO
+Objetivamos, neste curso, fornecer ao aluno condições para planejamento e
+operacionalização de projeto de pesquisa e de trabalho monográfico. Para tanto, parti-
+mos de uma discussão introdutória sobre a teoria do conhecimento e sobre a natureza,
+objetivos, concepções metodológicas, tipos e as principais fases de um projeto de pes-
+quisa, a fim de capacitá-lo na redação de textos científicos.
+Sob esse foco, o curso foi estruturado em módulos, contemplando o seguinte con-
+teúdo:
+MÓDULO I - TIPOS DE CONHECIMENTO E CIÊNCIA
+Neste módulo, discutiremos o conceito de ciência, caracterizando os diferentes
+níveis de conhecimento. Abordaremos também a classificação das ciências e os métodos
+que proporcionam a base lógica e os meios técnicos da investigação científica.
+METODOLOGIA DO TRABALHO CIENTÍFICO
+   MARIA CRISTINA DE ASSIS
+3
+MÓDULO II - A PESQUISA CIENTÍFICA
+Neste módulo, distinguiremos os diversos tipos de pesquisa, considerando sua na-
+tureza, objeto e procedimentos. Especificaremos finalidades, métodos e técnicas, bem
+como as etapas da pesquisa científica.
+MÓDULO III - TRABALHOS CIENTÍFICOS
+Neste módulo, identificaremos, caracterizaremos e produziremos diferentes formas
+de trabalho científico, buscando empregar adequadamente as técnicas e métodos de apre-
+sentação de trabalhos monográficos e de pesquisa.
+4
+1.1 Ciência
+O conceito de ciência não é unânime. Do ponto de vista etimológico, significa “co-
+nhecimento”, mas devido ao estágio atual de desenvolvimento da ciência, essa definição
+passou a ser considerada inadequada, uma vez que existem outras formas de conheci-
+mento que não são científicas. Ao longo do tempo, a palavra foi adquirindo outros senti-
+dos, de acordo com os diversos estudos que foram feitos sobre o assunto, tonando-se um
+conceito bastante controverso. Vejamos algumas das definições. Para Gil (2006), a ciên-
+cia é entendida como
+Para Ander-Egg (1978 apud Marconi; Lakatos (2007, p. 21) :
+Vemos, então, que o termo ciência pode ser compreendido em dois sentidos: lato
+sensu, com a acepção de “conhecimento” e stricto sensu, aludindo apenas ao conheci-
+mento que se obtém através da “apreensão e do registro dos fatos, com a demonstração
+de suas causas constitutivas ou determinantes” (MARCONI; LAKATOS, 2007, p. 23).
+1.2 Natureza da ciência
+A natureza da ciência pode ser percebida em duas dimensões inseparavéis: de um
+lado, a compreensiva, uma dimensão que envolve o aspecto contextual ou de conteúdo;
+de outro, a metodológica ou operacional, que se refere aos aspectos lógicos e/ou técni-
+cos da ciência.
+...uma forma de conhecimento que tem por objetivo formular, mediante lingua-
+gem rigorosa e apropriada - se possível com auxílio da linguagem matemática -,
+leis que regem fenômenos. (GIL, 2006, p. 20)
+A ciência é um conjunto de conhecimentos racionais1, certos ou prováveis2, ob-
+tidos metodicamente3 sistematizados4 e *verificáveis, que fazem referência a ob-
+jetos de uma mesma natureza5.
+MÓDULO I
+TIPOS DE CONHECIMENTO E CIÊNCIA
+Marconi; Lakatos (2007, p.21) explicam:
+1 conhecimentos racionais  - exigem métodos e se constituem de conceitos, hipóteses e definições.
+2 certos ou prováveis - não se pode atrair a ciência a certeza indiscutível.
+3 obtidos metodicamente - saber ordenado logicamente, constituindo um sistema de idéias (teorias).
+4 verificáveis - devem ser comprovados pela observação.
+5 objetos de uma mesma natureza - guardam entre si caracteres de homogeneidade.
+5
+O aspecto lógico da ciência refere-se ao método de raciocínio e de inferência sobre
+os fenômenos. É o método adotado para a construção de proposições e enunciados e
+envolve os procedimentos de manipulação dos fenômenos a serem investigados; relacio-
+na-se com o instrumento metodológico e o arsenal técnico para se operar em casos espe-
+cíficos.
+1.3 Caracterização do conhecimento científico
+Durante muito tempo, a pesquisa científica foi encarada como algo excepicional,
+que ocorria por inspiração, independente de planejamento, ou seja, era “coisa de gênio”.
+Modernamente já se entende que descobertas e invenções modernas não ocorrem por
+acaso, mas através de pesquisas sistemáticas.
+No entanto, em outro sentido, houve uma generalização do termo “pesquisa”, que
+vem sendo relacionados a trabalhso escolares que se constituem, muitas vezes, em repe-
+tições de experiências já realizadas, síntese de textos (ANDRADE, 2004). Por isso, deve-
+se atentar para algumas propriedades e características da ciência. De acordo com Salomon
+(1996, p. 107), uma atividade é considerada científica quando:
+a) produz ciência;
+b) ou dela deriva;
+c) acompanha seu modelo de tratamento.
+Nesse sentido, trabalho científico, segundo o autor, passa a designar a concreção
+da atividade científica, ou seja, a pesquisa e o tratamento por escrito de questões aborda-
+das metodologicamente.
+1.4 Formas de conhecimento
+O ser humano sente necessidade de conhecer, de compreender o mundo que o
+cerca, e busca fazê-lo através de suas capacidades. Trata-se de uma relação que supõe
+três elementos: o sujeito, o objeto e a imagem que se tem da realidade.
+O conhecimento não nasce no vazio. O homem pode adquirir conhecimento por
+meio de sensações, da percepção, da imaginação, da memória, da linguagem, do raciocí-
+nio e da intuição.
+      Há diversas modalidades de conhecimento, que se originam de diferentes fontes: a
+observação, as experiências acumuladas ao longo da vida, as crenças religiosas, os rela-
+cionamentos, as diferentes leituras são fontes de conhecimento. Lakatos; Marconi (2007,
+p. 15-21) apresentam as principais formas de conhecimento:
+a) Conhecimento popular (senso comum) - também chamado conhecimento vul-
+gar, baseia-se em informações obtidas por meio da convivência familiar e social, e carac-
+teriza-se, em geral, por ser:
+• valorativo - estados de ânimos e emoções da vida diária; os valores do sujeito
+impregnam o objeto conhecido;
+• reflexivo - mas limitado pela familiaridade com o objeto, isto é, não pode ser
+6
+reduzido a uma formulação geral;
+• assistemático - fundamenta-se nas experiências particulares do sujeito
+cognoscente que apreende o objeto conhecido, não possuindo um sistema organizado de
+idéias;
+• verificável- perceptível no cotidiano do sujeito cognoscente;
+• falível e inexato - limita-se à aparência e às informações sobre o objeto.
+b) Conhecimento filosófico - caracteriza-se pelo esforço da ração pura para ques-
+tionar os problemas humanos e poder discernir entre o certo e o errado, unicamente
+recorrendo às luzes da própria razão humana, com as seguintes características:
+• valorativo - suas hipóteses não são submetidas à observação; o conhecimento
+filosófico emerge da experiência e não da experimentação;
+• não verificável -  e seus resultados não podem ser confirmados nem rejeitados,
+pois seus enunciados são frutos da experiência;
+• racional - conjunto de enunciados logicamente relacionados;
+• sistemático - suas hipóteses e enunciados têm de representar objetivamente a
+realidade estudada;
+• infalível e exato -  seus postulados e hipóteses não são submetidos ao teste de
+observação ou experimentação.
+c) Conhecimento religioso (teológico) - funda-se na idéia de que as verdades
+tratadas são infalíveis e indiscutíveis por se consistirem em revelações de uma divindade
+(sobrenatural). Caracteriza-se por ser:
+• valorativo - suas doutrinas contêm pressupostos sagrados;
+• inspiracional - reveladas pelo sobrenatural;
+• infalível - pressupostos indiscutíveis e exatos;
+• sistemáticos - conhecimento organizado do mundo - origem, significado, finali-
+dade e destino revelado por divindades;
+• não verificável -  o conhecimento revelado implica uma atitude de fé.
+d) Conhecimento científico (real) - lida com ocorrências ou fatos, isto é, com
+toda forma de existência que se manifesta de algum modo e apresenta as características
+relacionadas a seguir:
+• contingente -suas proposições ou hipóteses têm sua veracidade  ou falsidade
+conhecida por meio da experimentação e não apenas da razão;
+• sistemático - saber ordenado logicamente formado em sistema de idéias,  [teo-
+ria] e não conhecimentos dispersos e desconexos;
+• verificabilidade - suas hipóteses são verificadas - observação/experimentação
+para comprovação/refutação;
+• falível - verdades não definitivas e/ou absolutas;
+• aproximadamente exato - novas proposições e desenvolvimento de técnicas
+podem  reformular o acervo de teoria existente.
+7
+A seguir, vejamos um quadro das características dos quatro tipos de conhecimento:
+Fonte: TRUJILLO (1974, p.11) apud Marconi; Lakatos (2007)
+1.5 Características essenciais da ciência
+É possível definir a ciência como uma forma de conhecimento que apresenta as
+seguintes características:
+a) Objetividade - descreve a realidade independentemente dos caprichos do
+pesquisador;
+b) Racionalidade - obtém seus resultados atravésda razão e  não impressões do
+pesquisador;
+c) Sistematicidade - preocupa-se em construir sistemas de idéias organizadas
+racionalmente e em incluir os conhecimentos parciais em totalidades cada vez
+mais amplas;
+d) Generalidade - busca elaborar leis ou normas gerais, que explicam todos os
+fenômenos de certo tipo;
+e) Verificabilidade - possibilita sempre demonstrar a veracidade das informa-
+ções;
+• Falibilidade - ao contrário de outros sistemas de conhecimento elaborados
+pelo homem, reconhece sua própria capacidade de errar.
+1.6 Classificação das ciências
+Os diferentes objetos que se manifestam no universo e a necessidade humana de
+entendê-los ocasionaram o desenvolvimento de ciências específicas. Para estudar esses
+fenômenos, as ciências utilizaram inúmeros sistemas classificatórios, baseados em critéri-
+os distintos: complexidade, conteúdo, diferenças de enunciados e metodologia emprega-
+da.
+Augusto Comte, no século XIX (1798-1857), apresentou uma classificação das
+ciências baseadando-se no grau de complexidade, partindo das mais abstratas para as
+mais complexas: Matemática, Astronomia, Física, Química, Biologia, Sociologia, Moral.
+O
+T
+N
+E
+M
+I
+C
+E
+H
+N
+O
+C
+R
+A
+L
+U
+P
+O
+P
+O
+T
+N
+E
+M
+I
+C
+E
+H
+N
+O
+C
+O
+C
+I
+F
+Í
+T
+N
+E
+I
+C
+O
+T
+N
+E
+M
+I
+C
+E
+H
+N
+O
+C
+O
+S
+O
+I
+G
+I
+L
+E
+R
+O
+T
+N
+E
+M
+I
+C
+E
+H
+N
+O
+C
+O
+C
+I
+F
+Ó
+S
+O
+L
+I
+F
+·
+o
+vitar
+ola
+v
+·
+etn
+e
+g
+nitn
+o
+c
+o
+vitar
+ola
+v
+o
+vitar
+ola
+v
+·
+o
+vix
+elfer
+·
+o
+citá
+m
+etsis
+la
+n
+oic
+arip
+s
+ni
+le
+v
+á
+cifire
+v
+o
+ã
+n
+·
+o
+citá
+m
+etsiss
+a
+·
+e
+d
+a
+dilib
+a
+cifire
+v
+le
+vílaf
+ni
+la
+n
+oic
+ar
+·le
+v
+á
+cifire
+v
+·
+le
+vílaf
+s
+o
+citá
+m
+etsis
+o
+citá
+m
+etsis
+o
+ta
+x
+e
+ni
+e
+le
+vílaf
+etn
+e
+m
+a
+d
+a
+m
+ix
+o
+r
+p
+a·
+o
+ta
+x
+e
+le
+v
+á
+cifire
+v
+o
+ã
+n
+o
+ta
+x
+e
+e
+le
+vílaf
+ni
+8
+Wilhelm Wundt (1832-1920) utilizou como critérios de classificação: complexi-
+dade e conteúdo: ciências formais, como a Matemática, e reais, envolvendo ciências da
+natureza (Química, Embriologia, Minerologia) e de espírito (Psicologia, História, Direito)
+Lakatos; Marconi (2007) baseando-se na classificação apresentada por Bunge,
+distinguem as ciências em: a) Ciências formais (Lógica e Matemática) as que se preocu-
+pam com o estudo das idéias, teorias, entidades ideais e suas relações e b) as Ciências
+reais, (empíricas, factuais) - tratam dos fatos e dos processos. Essas últimas podem ser
+classificadas em Ciências da natureza (Física, Química, Astronomia e Biologia) e as do
+espírito - ou culturais, ou sociais - (Sociologia, Antropologia, Ciência Política, Economia,
+História, Psicologia Social).
+Embora nenhuma dessas classificações possa ser considerada absolutamente
+satisfatória, é possível classificar as ciências em duas grandes categorias: formais e empíricas.
+Quadro 2: Caracterização, Esquematização e Função das Ciências Formais e Factuais.
+Fonte: Barros, Aidil Jesus da Silveira: Lehfeld, Neide Aparecida de Souza. Funda-
+mentos de Metodologia científica: um guia para iniciação científica. 2 ed. ampl.
+São Paulo: Pearson Education do Brasil, 2000, p. 49.
+2. O método científico
+Para atingir seu objetivo fundamental, que é chegar à veracidade dos fatos (GIL,
+2006, p. 26), a ciência se vale de diferentes métodos. A palavra metodologia vem do
+grego methodos (meta+hodós) significando “caminho para se chegar a um fim”6.
+S
+I
+A
+M
+R
+O
+F
+S
+A
+I
+C
+N
+Ê
+I
+C
+S
+I
+A
+U
+T
+C
+A
+F
+S
+A
+I
+C
+N
+Ê
+I
+C
+s
+a
+citsír
+et
+c
+a
+r
+a
+C
+s
+o
+d
+a
+ni
+m
+rete
+d
+s
+o
+d
+u
+ts
+e
+e
+d
+s
+o
+tejb
+o
+iu
+ss
+o
+P
+s
+a
+m
+oix
+a
+e
+d
+o
+ã
+çinife
+d
+e
+d
+a
+m
+etsis
+m
+u
+r
+o
+p
+s
+a
+m
+etsis
+s
+o
+d
+)cis(
+aticílp
+x
+e
+s
+o
+n
+e
+m
+u
+o
+sia
+m
+.
+m
+ara
+nigir
+o
+s
+o
+e
+u
+q
+s
+o
+d
+u
+ts
+e
+e
+d
+s
+o
+tejb
+o
+iu
+ss
+o
+P
+a
+s
+o
+d
+alu
+c
+niv
+m
+eres
+e
+d
+sie
+víte
+cs
+u
+s
+r
+o
+p
+s
+o
+d
+alu
+g
+er
+s
+o
+tn
+e
+m
+id
+e
+c
+o
+r
+p
+.s
+a
+vitis
+n
+es
+e
+sie
+vís
+n
+es
+s
+e
+õ
+ç
+atats
+n
+o
+c
+o
+ã
+ç
+a
+zit
+a
+m
+e
+u
+q
+s
+E
+e
+d
+oie
+m
+r
+o
+p
+o
+ã
+ç
+a
+cil
+p
+x
+e
+a
+m
+u
+es-e
+õ
+p
+u
+s
+-
+la
+u
+s
+a
+c
+a
+m
+e
+u
+q
+s
+E
+*
+s
+o
+ertn
+e
+o
+tiefe
+e
+as
+u
+a
+c
+e
+d
+aic
+n
+ê
+d
+n
+e
+p
+e
+d
+;s
+o
+n
+e
+m
+ô
+n
+ef
+e
+d
+e
+o
+ã
+ç
+ar
+u
+s
+n
+e
+m
+e
+d
+a
+m
+e
+u
+q
+s
+E
+*
+e
+d
+a
+dilib
+a
+b
+o
+r
+p
+la
+u
+s
+a
+c
+a
+m
+e
+u
+q
+s
+E
+*
+la
+n
+oic
+n
+u
+f
+a
+m
+e
+u
+q
+s
+E
+*
+lar
+u
+tu
+rts
+e
+a
+m
+e
+u
+q
+s
+E
+*
+o
+citélaid
+a
+m
+e
+u
+q
+s
+E
+*
+.o
+cig
+ólo
+n
+e
+m
+o
+n
+ef
+a
+m
+e
+u
+q
+s
+E
+*
+e
+d
+o
+ã
+ç
+n
+u
+F
+u
+o
+oi
+n
+íc
+oic
+a
+r
+o
+d
+o
+t
+é
+m
+o
+ã
+ç
+a
+cifitn
+a
+u
+q
+e
+o
+ã
+ç
+a
+v
+res
+b
+O
+*
+o
+ã
+ç
+atn
+e
+m
+ire
+p
+x
+E
+*
+o
+vitu
+d
+e
+d
+o
+d
+o
+té
+M
+*
+s
+o
+d
+atlu
+s
+er
+s
+o
+d
+o
+ã
+ç
+a
+cifire
+V
+*
+o
+ã
+ç
+a
+v
+res
+b
+O
+*
+a
+vitatitn
+a
+u
+q
+asiu
+q
+s
+e
+P
+*
+o
+vitu
+d
+ni
+o
+d
+o
+té
+M
+*
+s
+a
+u
+nítn
+o
+c
+s
+e
+õ
+ç
+aila
+v
+a
+e
+s
+e
+õ
+siv
+e
+R
+*
+.s
+o
+d
+atlu
+s
+er
+s
+u
+es
+s
+o
+d
+6 Nesse sentido, o curso Metodologia Científica, da Pesquisa ou da Ciência pode ser entendido como a que
+se relaciona com a epistemologia, e que consiste em avaliar os métodos disponíveis, identificando as suas
+limitações ou não, no tocante às implicações de suas utilizações.
+Método científico - conjunto de procedimentos intelectuais e técnicos adotados
+para se atingir o conhecimento. (GIL, 2006, p. 26)
+9
+Há diversos métodos científicos, que são determinados pelo tipo de objeto a inves-
+tigar e pela classe de propósitos a descobrir. Para os fins pretendidos neste trabalho,
+podem-se classificá-los em dois grandes grupos: métodos gerais, ou métodos de aborda-
+gem e os métodos de procedimentos. Vejamos com mais detalhes.
+1.6.1 Métodos de abordagem
+Os métodos gerais, também chamados de métodos de abordagem, são os que
+proporcionam as bases lógicas da investigação científica. Esses métodos referem-se ao
+plano geral do trabalho, ao processo de raciocínio adotado, baseando-se em princípios
+lógicos. Nesse sentido, são essencialmente racionais e exclusivos entre si e podem ser
+utilizados em várias ciências. Classificam-se em dedutivo, indutivo, hipotético-deduti-
+vo, dialético e fenomenológico e estão vinculados, conforme Gil (2006, p. 27), a uma
+das correntes filosóficas que se propõem a explicar como se processa o conhecimento da
+realidade.
+Método dedutivo
+De acordo com a acepção clássica, é aquele que parte de verdades universais para
+obter conclusões particulares, ou seja, parte de teorias e de leis gerais para a determina-
+ção ou previsão de fenômenos particulares. Trata-se de objetos ideais, pertence ao nível
+da abstração sendo, portanto, muito utilizado na Lógica e na Matemática, mas de menor
+aplicação nas ciências sociais. É defendido pelos racionalistas como Descartes, Spinoza,
+Leibniz, segundo os quais apenas a razão é capaz de levar ao conhecimento verdadeiro.
+Destina-se a demonstrar e a justificar e exige aplicação de recursos lógico-discursivos.
+Esse método tem como critérios de verdade a coerência, a consistência e a não-contradi-
+ção.
+O protótipo da dedução é o silogismo, um raciocínio lógico composto que, a partir
+de duas preposições chamadas premissas, chega a uma terceira, nelas logicamente
+implicadas, denominada conclusão.
+Exemplo clássico de raciocínio dedutivo:
+Todo homem é mortal: ___________________universal, geral;
+João é homem __________________________ particular;
+Logo, João é mortal. _____________________ Conclusão.
+O método dedutivo recebeu críticas no sentido de ser apontado como um raciocí-
+nio essencialmente tautológico, ou seja, permite concluir, de forma diferente, a mesma
+o
+vitu
+d
+e
+D
+o
+d
+o
+té
+M
+o
+m
+sila
+n
+oic
+ar
+o
+vitu
+d
+n
+I
+o
+d
+o
+té
+M
+o
+m
+sirip
+m
+e
+o
+vitu
+d
+e
+d
+-
+o
+citéto
+pi
+H
+o
+d
+o
+té
+M
+o
+m
+sivitis
+o
+p
+o
+e
+n
+o
+citélai
+D
+o
+d
+o
+té
+M
+o
+citélaid
+o
+m
+silaireta
+m
+o
+cig
+ólo
+n
+e
+m
+o
+n
+e
+F
+o
+d
+o
+té
+M
+aig
+olo
+n
+e
+m
+o
+n
+ef
+10
+coisa. Nesse sentido, quando se aceita, por exemplo, que todo homem é mortal e cita-se
+o caso de João, nada é adicionado, pois essa característica já foi inserida na premissa
+maior. Além disso, devido ao caráter apriorístico do raciocínio dedutivo, partir de uma
+afirmação geral significa supor conhecimento prévio.
+Método indutivo
+A indução percorre o caminho inverso da dedução, ou seja, a cadeia de raciocínio
+estabelece conexão ascendente do particular para o geral. Assim, são as condições par-
+ticulares que levam às teorias e leis gerais. O raciocínio indutivo parte do efeito para as
+causas, exigindo verificação, observação e/ou experimentação. O método indutivo nas-
+ceu com a filosofia moderna, defendido pelos empiristas, como Bacon, Hobbes, Locke,
+Hume, para os quais o conhecimento é fundamentado na experiência, sem levar em con-
+sideração princípios estabelecidos. O método trata de problemas empíricos, e a genera-
+lização deve ser constatada a partir da observação de casos concretos suficientemente
+confirmadores da realidade. As conclusões são prováveis, não contidas nas premissas.
+Para que ocorra indução é necessário que as observações sejam muitas e repetidas
+sob ampla variedade de situações. Além disso, nenhuma proposição de observação deve
+conflitar com a lei universal derivada.
+É possível um argumento indutivo ser falso, embora suas premissas sejam verda-
+deiras e ainda assim não haver contradição. Isso ocorre quando há uma (ou mais) propo-
+sição de observação (hipótese) logicamente possível, mas inconsistente, isto é, se essas
+premissas fossem estabelecidas como verdadeiras, terminariam por falsificar o argumen-
+to. Dizer, por exemplo, que todas as frutas que caem das árvores estão maduras é um fato
+logicamente possível, mas inconsistente.
+O método indutivo, mesmo tendo reconhecida a sua importância, recebeu inúmeras
+críticas. Uma delas, feita por David Hume (1711-1776), decorre do fato de o raciocínio
+indutivo não transmitir certeza e evidência. Além disso, a generalização exigiria a observa-
+ção de todos os fatos, como defende Karl Popper em sua obra “A lógica da investigação
+científica”.
+Método hipotético-dedutivo
+Método desenvolvido por Popper, em 1935, que parte da percepção de uma lacu-
+na nos conhecimentos acerca da qual se formulam hipóteses e, pelo processo de inferência
+dedutiva, testa a predição da ocorrência de fenômenos abrangidos pela hipótese
+(MARCONI; LAKATOS, 2006, p. 106). No método hipotético-dedutivo, o cientista,
+combina observação cuidadosa, habilidade nas antecipações e intuição científica, para
+alcançar um conjunto de postulados que regem os fenômenos de interesse; a partir daí,
+deduz as conseqüências observáveis e verifica as conseqüências por meio de experimen-
+tação, refutando ou substituindo os postulados, quando necessário, por outros e assim
+prosseguindo. Historicamente relacionado com a experimentação, esse método é uma
+tentativa de equilíbrio entre os métodos indutivo e dedutivo.
+Gil (2006, p. 30) apresenta o método hipotético-dedutivo a partir do seguinte es-
+quema:
+11
+Trata-se de um método bastante usado em pesquisas das ciências naturais que não
+se limita à generalização empírica das observações realizadas, podendo-se, através dele,
+chegar à construção de teorias e leis.
+Método dialético
+O conceito de dialética é usado desde a Antiguidade, embora o sentido tenha se
+alterado ao longo dos séculos. No método dialético tudo é visto em constante mudança,
+pois sempre há algo que nasce e se desenvolve e algo que se desagrega e se transforma.
+É possível, segundo Gil (2006, p.31), identificar alguns princípios comuns a toda
+abordagem dialética:
+a) Princípio da unidade e da luta dos contrários (unidade dos opostos) - os
+fenômenos apresentam aspectos contraditórios, que são organicamente unidos e constitu-
+em a indissolúvel unidade dos opostos. Os opostos não se apresentam simplesmente lado
+a lado, mas em estado constante de luta entre si. A luta dos opostos constitui a fonte do
+desenvolvimento da realidade.
+b) Princípio da transformação das mudanças quantitativas em qualitativas -
+Quantidade e qualidade são características imanentes (inerentes) a todos os objetos e
+fenômenos, e estão inter-relacionados. No processo de desenvolvimento, as mudanças
+quantitativas graduais geram mudanças qualitativas e essa transformação opera-se em
+saltos.
+c) Princípio da negação da negação (mudança dialética) - O desenvolvimento
+processa-se em espiral, isto é, suas fases repetem-se, mas em nível superior. A mudança
+nega o resultado e o resultado, por sua vez, é negado, mas essa segunda negação conduz
+a um desenvolvimento e não a um retorno ao que era antes.
+Método Fenomenológico
+Gil (2006, p. 32) inclui este método entre os de abordagem. Desenvolvido por
+Edmund Husserl (1859-1938) preocupa-se em entender o fenômeno como ele se apre-
+senta na realidade, isolando-o de influências, embora mais tarde, durante a verificação e
+comprovação dos resultados obtidos, as relações abandonadas possam ser levadas em
+consideração. Nesse sentido, propõe a estabelecer uma base segura, livre de pressuposi-
+Tese
+Antítese
+Síntese
+Nova afirmação
+(Tese)
+Afirmação               Negação                Negação
+Conjectura
+Problema
+Dedução de
+conseqüência
+observada
+Tentativa de
+falseamento
+Corroboração 
+12
+ções, para todas as ciências e consiste em mostrar o que é dado e em esclarecer esse
+dado. Sua adoção implica uma mudança radical de atitude em relação à investigação
+científica. Por isso, embora comentado, ainda não vem sendo muito empregado na pes-
+quisa social. Mas à medida que procura captar o essencial, o pesquisador evitará o
+parcelamento da pesquisa e a atomização dos dados. A reflexão fenomenológica poderá
+também auxiliar o pesquisador na formulação de problemas, na construção de hipóteses e
+na definição de conceitos com vistas à fundamentação teórica de pesquisa.
+1.6.2 Métodos de procedimentos
+Esses métodos têm por objetivo proporcionar ao investigador os meios técnicos
+para garantir a objetividade e a precisão no estudo dos fatos sociais. Constituem etapas
+mais concretas da investigação e se propõem a explicar os fenômenos de forma menos
+abstrata. Não são exclusivos entre si, mas devem adequar-se a cada área da pesquisa.
+Relacionam-se com as etapas do trabalho.
+Método experimental
+Esse método procura comprovar o fenômeno por meio da experimentação
+provocada, consistindo em observação, manipulação e controle de seus efeitos em uma
+dada situação. É considerado o método por excelência das Ciências Físicas e Naturais.
+Consiste em submeter os objetos de estudo à influência de certas variáveis, em condições
+controladas e conhecidas pelo investigador, para observar os resultados que a variável
+produz no objeto.
+Método observacional
+Trata-se de um dos métodos mais utilizados nas ciências sociais. De um lado, pode
+ser considerado o mais primitivo e, portanto, o mais impreciso dos métodos, mas, por
+outro lado, pode ser tido como um dos mais modernos, uma vez que permite o mais
+elevado grau de precisão nas ciências sociais. Difere do método experimental em um
+aspecto: nos experimentos, existe a interferência do pesquisador, enquanto o observacional,
+o cientista apenas observa algo que acontece ou já aconteceu.
+Método comparativo
+Este método procura identificar semelhanças e explicar diferenças entre grupos,
+pessoas, sociedades, culturas, sistemas e organizações políticas, padrões de comporta-
+mento familiar ou religioso etc. Seu objetivo é entender o comportamento humano, não só
+no presente, como também no passado. Ele se propõe a explicar o fenômeno por meio da
+análise completa de seus elementos. Exemplos: trabalhos de Piaget no campo do desen-
+volvimento intelectual das crianças.
+13
+Método estatístico
+Este método, desenvolvido por Quetelet, permite a transformação dos dados qua-
+litativos em resultados quantitativos, através de representações que demonstram a
+constatação de relações entre os fenômenos, objetivando generalizações sobre sua natu-
+reza, ocorrência e significado. Fundamenta-se na aplicação da teoria estatística da proba-
+bilidade e constitui um importante auxílio para as investigações sociais. Suas conclusões,
+embora admitam certa margem de erro, apresentam grandes possibilidades de serem
+verdadeiras. A manipulação estatística permite comprovar as relações dos fenômenos
+entre si, e obter generalizações sobre sua natureza, ocorrência ou significado.
+Método clínico
+Em sua realização, utilizam-se estratégias metodológicas que permitem o acesso
+indireto aos fenômenos da consciência, chegando ao inconsciente. Apóia-se numa rela-
+ção profunda entre pesquisador e pesquisado. É muito empregado na Psicologia, mas não
+possibilita generalizações, já que seus estudos são individuais, envolvendo experiências
+subjetivas.
+Método monográfico ou estudo de caso
+Elaborado por Frederico Le Play, tem como preocupação realizar um estudo
+aprofundado e exaustivo sobre determinado assunto (indivíduos, instituições, grupos, co-
+munidades), buscando sua generalização.
+Além dos métodos apresentados anteriormente, outros são acrescentados como
+específicos das ciências sociais. São eles:
+Método histórico
+Elaborado por Franz Boas, preocupa-se em estudar o passado das atuais formas
+de vida social, as instituições e os costumes para compreender o passado, entender o
+presente e predizer o futuro, verificando, não apenas a influência do fato e do fenômeno,
+como também sua formação, modificação e transformação durante determinado espaço
+de tempo. Consiste em investigar os acontecimentos, processos e instituições do passado
+para verificar sua influência na sociedade de hoje.
+Método tipológico
+Neste método, elaborado por Max Weber o pesquisador confronta fenômenos
+sociais complexos e cria modelos ideais, com base na análise de seus aspectos essenciais.
+Como não existem na realidade, esses modelos estabelecem características que determi-
+nam o tipo ideal para um caso concreto.
+14
+Método etnográfico
+O método etnográfico concentra-se nas descrições científicas de grupos culturais.
+Refere-se à análise descritiva das sociedades humanas, principalmente as tradicionais e
+de pequena escala. A etnografia é uma metodologia qualitativa de pesquisa que teve sua
+origem na antropologia cultural.
+Método de pesquisa-ação
+Elaborado por Michel Thiollent, possibilita a participação dos investigados na pes-
+quisa, do início até o final, de tal forma que os resultados analisados possam levar a
+comunidade a perceber e superar seus desequilíbrios, identificando-os e, em segundo
+momento, propondo atitudes de mudança que venham a beneficiá-los.
+1.6.3 Outros métodos
+Além dos tradicionais métodos específicos das Ciências Sociais, Marconi; Lakatos
+(2007, p. 268) apresentam outros dois importantes métodos nas investigações científicas:
+o qualitativo e o quantitativo.
+ Método Quantitativo
+Neste método, a coleta de informações e o tratamento dos dados são caracteriza-
+dos pelo uso da quantificação, isto é, de técnicas estatísticas (percentagem, média, desvio
+padrão, coeficiente de correlação, análise de regressão etc...).
+Método Qualitativo
+Preocupa-se em analisar e interpretar os dados em seu conteúdo psicossocial. Con-
+sidera que há uma relação dinâmica entre o mundo real e o sujeito, isto é, um vínculo
+indissociável entre o mundo objetivo e a subjetividade do sujeito que não pode ser tradu-
+zido em números. Na pesquisa qualitativa, a interpretação dos fenômenos e a atribuição
+de significados são fundamentais. É descritiva e não requer utilização de métodos e técni-
+cas estatísticas. O pesquisador, considerado instrumento chave, tende a analisar seus da-
+dos indutivamente, no ambiente natural. O processo e seu significado são os focos princi-
+pais de abordagem. As pesquisas qualitativas oferecem contribuições em diferentes cam-
+pos de estudo, como, por exemplo, à Antropologia, Sociologia, Psicologia, Educação.
+1.7 Teorias e Quadros de referência
+No processo de investigação em ciências sociais, bem como na metodologia da
+pesquisa, o papel das teorias é importante. De um lado definem conceitos, estabelecem
+sistemas conceituais, indicam lacunas no conhecimento, auxiliam na construção de hipóte-
+ses, entre outros fatores. De outro, possibilitam a racionalização e explicação do mundo.
+15
+A palavra teoria pode ter diversos sentidos e pode ser chamada de  “teoria de médio
+alcance”, já que desempenham papel limitado no campo da investigação científica.  Ou-
+tras já se encontram de tal forma elaboradas que podem constituir-se em verdadeiros
+quadros de referência. De acordo com Gil (2006, p. 36), estão entre essas últimas:
+Estruturalismo
+Desenvolvido por Lévi-Strauss, que “parte da investigação de um fenômeno con-
+creto, eleva-se a seguir ao nível abstrato, por intermédio da constituição de um modelo
+que represente o objeto de estudo retornando por fim ao concreto, dessa vez, como uma
+realidade estruturada e relacionada com a experiência do sujeito social”. Serve para a
+análise do fenômeno sob seus diversos aspectos. Este método caminha do concreto para
+o abstrato e vice-versa, dispondo, na segunda etapa, de um modelo para analisar a reali-
+dade concreta dos diversos fenômenos.
+Funcionalismo
+O Funcionalismo é uma corrente das ciências humanas que enfatiza as relações e o
+ajustamento entre os diversos componentes de uma cultura ou sociedade. De origem
+positivista (Herbert Spencer, 1820-1903; Émile Durkheim, 1858-1917), e consolidado
+por Bronislaw Malinowski, o enfoque funcionalista defende que toda atividade social e
+cultural é funcional ou desempenha funções e é indispensável. A função de toda atividade
+recorrente é seu papel na vida social e sua contribuição para sustentar as estruturas. Em
+alguns meios o funcionalismo sofre restrições, em virtude de estar identificado, em suas
+origens, com ideologias conservadoras. O funcionalismo estuda a sociedade do ponto de
+vista de um sistema organizado, reunindo uma trama de ações, de relações sociais e de
+instituições correlacionadas, que agem e reagem umas em relação às outras, de forma
+dependente e equilibrada. Se uma das partes perde o controle, ela entra em disfunção ou
+anomia e isso se reflete sobre o todo (sistema), causando desorganização e desequilíbrio
+social. A rigor, trata-se mais um método de interpretação do que de investigação, ao
+enfatizar as relações e o ajustamento entre os diversos componente de uma cultura ou
+sociedade. Nesse sentido, considera toda atividade social e cultural como funcional ou
+como desempenho de funções.
+Compreensão
+Max Weber (1864-1920) opõe-se ao uso dos métodos das ciências naturais no
+estudo da sociedade, propondo em seu lugar a apreensão empática do sentido finalista de
+uma ação, oriunda de motivações irracionais, envolvendo a reconstrução no sentido sub-
+jetivo original da ação e o reconhecimento da parcialidade da visão do observador. Para
+Max Weber, é importante que os cientistas sociais apreendam o mundo social sem elimi-
+narem a integridade subjetiva dos atores que atribuem significado. Ele define três tipos
+ideais: domínio legal, de caráter racional, domínio tradicional, fundamentado na crença da
+sacralidade das tradições e na legitimidade dos que assumem o poder em função do
+16
+costume; e carismático que se baseia no abandono dos membros ao valor pessoal de um
+homem que se distingue por sua santidade ou heroísmo.
+Materialismo histórico
+Funda-se também no método dialético e suas bases foram também definidas por
+Marx e Engels. Para o materialismo histórico, a produção e a troca dos produtos consti-
+tuem a base de toda a ordem social, isto é, em todas as épocas, através dos fatos mate-
+riais, essencialmente econômicos e técnicos. Quando o pesquisador adota esse quadro
+de referência, passa a enfatizar a dimensão histórica dos processos sociais.
+Etnometodologia
+O termo etnometodologia designa uma corrente da sociologia americana fundada
+por Harold Garfinkel, em 1967. Considera que a realidade social é constituída na prática
+cotidiana pelos atores sociais em interação, não é uma atividade pré-existente. Por isso,
+buscam analisar os procedimentos que os indivíduos utilizam para efetivar as diferentes
+operações que realizam em seu dia-a-dia, como comunicar-se, tomar decisões e racioci-
+nar.
+17
+Neste módulo, trataremos da pesquisa científica, apresentando, inicialmente, seu
+conceito e suas finalidades. Em seguida, destacaremos as diversas espécies e as etapas da
+pesquisa científica.
+2.1 Conceito de pesquisa científica
+Comecemos com a definição de Andrade (2004, p. 16),
+Gil (2006, p. 42) apresenta o conceito de pesquisa social, cujo propósito consiste
+em descobrir resposta para problemas, através do emprego de procedimentos científicos.
+Vê-se, segundo essa definição, que a pesquisa social permite a ampliação dos co-
+nhecimentos no campo da realidade social, entendida aqui em seu sentido amplo, envol-
+vendo todos os aspectos relativos ao homem em seus relacionamentos com outros ho-
+mens e instituições sociais. Nesse sentido então, por um lado, pesquisar significa desco-
+brir novos saberes científicos que possibilitam o desenvolvimento da ciência. Por outro
+lado, a pesquisa permite a resolução de uma dificuldade que não se pode solucionar
+automaticamente, mas apenas por meio de estudo conceitual ou empírico, com base em
+fontes de informação (GONÇALVES, 2005, p. 47).
+2.2 Finalidades da pesquisa científica
+De modo geral, a pesquisa pode ser caracterizada de forma qualitativa, conside-
+rando o interesse pessoal, a relevância social e científica, a autonomia, a postura
+dialética, a audácia, criatividade, ineditismo e originalidade.
+De acordo com as várias finalidades, a pesquisa pode ser classificada em dois
+grupos:
+a) Pesquisa pura - busca o progresso da ciência e tem por objetivo adquirir
+conhecimentos científicos, sem interessar-se por suas aplicações e conseqüências
+práticas. Seu desenvolvimento tende a ser bastante formalizado e tem como obje-
+tivo a generalização, visando à construção de teorias e leis;
+b) Pesquisa aplicada - interessa-se pela aplicação, utilização e conseqüências
+MÓDULO II
+A PESQUISA CIENTÍFICA
+...a pesquisa científica é o conjunto de procedimentos sistemáticos, baseados no
+raciocínio lógico, que tem por objetivo encontrar soluções para os problemas
+propostos, mediante o emprego de métodos científicos.
+...o processo formal e sistemático de desenvolvimento do método científico.
+18
+práticas dos conhecimentos. Destina-se a aplicar os conhecimentos científicos
+para a solução dos mais variados problemas individuais ou coletivos. Concretiza-
+se por meio das “ciências aplicadas” e “tecnológicas”.
+2.3 Níveis de pesquisa
+É possível agrupar as pesquisas em três níveis ou grupos, de acordo com o objeti-
+vo: exploratórias, descritivas ou explicativas (GIL, 2006, p. 43). A exploratória tem
+como finalidade proporcionar maiores informações sobre determinado assunto, facilitar a
+delimitação de um tema de trabalho. Normalmente constitue a primeira etapa de uma
+investigação mais ampla. Desenvolve-se com o objetivo de proporcionar uma visão geral,
+de tipo aproximativo, acerca de determinado fato (GIL, 2006, p. 43). É realizada especi-
+almente quando o tema escolhido é pouco explorado e torna-se difícil sobre ele formular
+hipóteses precisas e operacionalizáveis. A pesquisa exploratória permite definir objetivos
+ou formular as hipóteses de uma pesquisa mais ampla, descobrir novo enfoque para o
+tema, avaliar a possibilidade de se desenvolver uma boa pesquisa sobre determinado
+tema. Envolve, habitualmente, levantamento bibliográfico e documental, entrevistas não
+padronizadas e estudos de caso. Procedimentos de amostragem e técnicas quantitativas
+de coleta de dados não são costumeiramente aplicados nesse tipo de pesquisa.
+A descritiva visa observar, registrar, analisar, classificar e interpretar os dados sem
+interferência, sem manipulação do pesquisador. Entre essas pesquisas estão as de opi-
+nião, as mercadológicas, os levantamentos sócio-econômicos e psicossociais, em suma, a
+maioria das pesquisas desenvolvidas nas Ciências Humanas e Sociais. Envolve técnica
+padronizada da coleta de dados, realizada principalmente através de questionários e da
+observação sistemática.
+A explicativa registra, analisa e interpreta os fenômenos estudados, procurando
+identificar suas razões, seus fatores determinantes, suas causas. Embora esteja mais sujei-
+ta a erros, é o tipo de pesquisa que aprofunda o conhecimento da realidade e, por isso,
+fundamenta o conhecimento científico. A maioria das pesquisas explicativas utiliza o méto-
+do experimental, caracterizado pela manipulação e controle das variáveis, com o objetivo
+de identificar qual a variável independente que determina a causa da variável dependente
+ou do fenômeno em estudo. Assume, em geral, a formas de Pesquisa Experimental e
+Pesquisa Ex-post-facto.
+Ainda se podem apontar as seguintes modalidades de pesquisa
+• Teórica - a que tem como objetivo ampliar generalizações, definir leis mais am-
+plas, estruturar sistemas e modelos teóricos, relacionar e enfeixar hipóteses.
+• Aplicada  - a  que tem como objetivo investigar, comprovar ou rejeitar hipóteses
+sugeridas pelos modelos teóricos.
+2.4 Tipologia da pesquisa
+Os critérios utilizados para classificar os diferentes tipos de pesquisa variam, de
+acordo com a área da ciência, a natureza, os objetivos, os procedimentos, o objeto, a
+forma de abordagem.
+Quanto à área da ciência, a pesquisa pode ser teórica, metodológica, empírica e
+19
+prática. A pesquisa teórica dedica-se ao estudo das teorias; a metodológica relaciona-se
+às diferentes maneiras de estudar a ciência; a empírica ocupa-se com a face mensurável
+da realidade social e a prática se propõe a intervir na realidade social.
+As pesquisas podem classificar-se com base em diferentes critérios. Segundo a
+natureza, pode tratar-se de um trabalho científico original ou um resumo de assunto.
+De acordo com os procedimentos, pode constituir-se em uma pesquisa de campo ou de
+fonte de papel. Quanto ao objeto, pode ser uma pesquisa bibliográfica, de laboratório
+ou de campo. Conforme a forma de abordagem, ainda pode ser uma pesquisa quantita-
+tiva ou qualitativa. Vejamos como se caracterizam algumas delas, de acordo com Andrade
+(2004, p. 19):
+2.4.1 Pesquisa quanto à natureza
+Nesse sentido, a pesquisa pode constituir-se de um trabalho original ou de um
+resumo do assunto. No primeiro caso, trata-se de uma pesquisa realizada pela primeira
+vez, que venha a contribuir com novas conquistas e descobertas para a evolução do
+conhecimento científico; no segundo, consiste de uma pesquisa fundamentada em traba-
+lhos mais avançados, publicados por autoridades no assunto. Dispensa a originalidade,
+mas não o rigor científico, não se limitando a ser simples cópia das idéias. São qualidades
+necessárias num resumo de assunto: análise e interpretação dos fatos e idéias, metodologia
+adequada, originalidade de ponto de vista no enfoque ao tema.
+2.4.2 Pesquisa quanto aos procedimentos
+Procedimento é a maneira pela qual são obtidos os dados necessários para a ela-
+boração da pesquisa. De acordo com os procedimentos técnicos adotados, classificam-
+se em pesquisa de campo e pesquisa de fonte.
+• Pesquisa de campo - baseia-se na observação dos fatos tal como ocorrem na
+realidade, diretamente no local onde ocorrem os fenômenos. Utiliza-se de técnicas espe-
+cíficas, como observação direta, formulário e entrevistas. A coleta é efetuada onde ocor-
+rem os fenômenos, sem interferência do pesquisador. É utilizada com o objetivo de con-
+seguir informações e/ou conhecimentos sobre um problema para o qual se busca uma
+resposta, ou de uma hipótese que se queira comprovar ou, ainda, descobrir novos fenô-
+menos ou as relações entre eles.
+• Pesquisa de fontes - pode ser de dois tipos:
+ Pesquisa bibliográfica - fontes secundárias: livros e outros documentos
+bibliográficos. Segundo Andrade (2004, p. 21) essas denominações se referem muito
+mais ao ambiente onde se realizam do que ao tipo ou características da pesquisa. Nesse
+sentido, a pesquisa bibliográfica pode ser um trabalho independente ou constituir-se no
+passo inicial de outra pesquisa.
+ Pesquisa documental - documentos primários, originais, chamados
+“de primeira mão”, isto é, ainda não utilizados em estudos ou pesquisa: dados estatísticos,
+documentos históricos, correspondência epistolar de personalidades etc.
+• Pesquisa de laboratório - provoca, produz e reproduz fenômenos em condição
+de controle. Não se trata de um sinônimo de pesquisa experimental, embora a maioria das
+20
+pesquisas de laboratório seja experimental.
+2.4.3 Pesquisa quanto à forma de abordagem
+•
+Pesquisa quantitativa - a que traduz em números as opiniões e informa-
+ções, utilizando técnicas estatísticas para serem classificadas e analisadas;
+•
+Pesquisa qualitativa - é uma pesquisa descritiva, cujas informações não
+são quantificáveis; os dados obtidos são analisados indutivamente; a interpreta-
+ção dos fenômenos e a atribuição de significados são básicas no processo de
+pesquisa qualitativa.
+Quadro 3: Tipos de pesquisa
+2.4.4 Outros tipos de pesquisa
+• Pesquisa Experimental - privilegia a observação dos fatos ou dos fenômenos
+naturais, sob condições estabelecidas pelo pesquisador. Experimento ou situação criada
+em laboratório com a finalidade de observar, sob controle, a relação existente entre fenô-
+menos ou situações, ou seja, busca saber se um fenômeno é a causa do outro (GIL 2006,
+p.66).
+• Levantamento (surveys) - quando a pesquisa envolve a interrogação direta
+das pessoas cujo comportamento se deseja conhecer.
+• Estudo de caso - quando envolve o estudo profundo e exaustivo de um ou
+poucos objetos de maneira que se permita o seu amplo e detalhado conhecimento.
+• Pesquisa Ex-Post-Facto - quando o “experimento” se realiza depois dos fatos.
+• Pesquisa-ação - quando concebida e realizada em estreita associação com
+uma ação ou com a resolução de um problema coletivo. Os pesquisadores e participantes
+A
+T
+E
+R
+I
+D
+O
+Ã
+Ç
+A
+T
+N
+E
+M
+U
+C
+O
+D
+s
+o
+e
+d
+n
+o
+la
+c
+ol
+oir
+p
+ó
+r
+p
+o
+n
+o
+tn
+e
+m
+atn
+a
+v
+e
+L
+.
+m
+err
+o
+c
+o
+s
+o
+n
+e
+m
+ô
+n
+ef
+A
+T
+E
+R
+I
+D
+N
+I
+O
+Ã
+Ç
+A
+T
+N
+E
+M
+U
+C
+O
+D
+s
+a
+o
+ss
+e
+p
+s
+artu
+o
+r
+o
+p
+s
+o
+d
+atelo
+c
+s
+o
+d
+a
+d
+e
+d
+s
+etn
+o
+F
+)o
+ã
+n
+u
+o
+o
+d
+ar
+o
+b
+ale
+laireta
+m
+(
+o
+p
+m
+a
+c
+e
+d
+asiu
+q
+s
+e
+P
+e
+d
+asiu
+q
+s
+e
+P
+oir
+ó
+tar
+o
+b
+al
+e
+d
+(
+latn
+e
+m
+u
+c
+o
+d
+asiu
+q
+s
+e
+P
+)s
+airá
+m
+ir
+p
+s
+etn
+o
+f
+a
+cifárg
+oilbib
+asiu
+q
+s
+e
+P
+s
+etn
+o
+f
+e
+d
+(
+)s
+airá
+d
+n
+u
+c
+es
+e
+d
+s
+a
+cin
+c
+é
+T
+*
+aterid
+o
+ã
+ç
+a
+v
+res
+b
+o
+:a
+vis
+n
+etni
+,o
+ã
+ç
+a
+v
+res
+b
+o
+;atsiv
+ertn
+e
+e
+d
+s
+a
+cin
+c
+é
+T
+*
+aterid
+o
+ã
+ç
+a
+v
+res
+b
+o
+:a
+vis
+n
+etx
+e
+,oirá
+n
+oits
+e
+u
+q
+s
+a
+did
+e
+m
+,oirálu
+m
+r
+o
+f
+s
+e
+d
+u
+tita
+e
+o
+ãinip
+o
+e
+d
+s
+a
+cin
+c
+ét
+.s
+a
+cig
+ólo
+d
+a
+cre
+m
+e
+d
+s
+a
+cin
+c
+é
+T
+*
+aterid
+o
+ã
+ç
+a
+v
+res
+b
+o
+o
+ã
+ç
+a
+v
+res
+b
+o
+:a
+vis
+n
+etni
+;atsiv
+ertn
+e
+e
+e
+d
+s
+a
+cin
+c
+é
+T
+*
+aterid
+o
+ã
+ç
+a
+v
+res
+b
+o
+:a
+vis
+n
+etx
+e
+,oirá
+n
+oits
+e
+u
+q
+s
+a
+did
+e
+m
+,oirálu
+m
+r
+o
+f
+s
+e
+d
+u
+tita
+e
+o
+ãinip
+o
+e
+d
+s
+a
+cin
+c
+ét
+.s
+a
+cig
+ólo
+d
+a
+cre
+m
+s
+air
+á
+m
+ir
+p
+s
+et
+n
+o
+F
+e
+d
+-
+s
+etn
+ein
+e
+v
+o
+r
+p
+,o
+ã
+m
+arie
+m
+ir
+p
+siaicif
+o
+s
+o
+ã
+gr
+ó
+s
+oir
+p
+ó
+r
+p
+s
+o
+d
+e
+u
+q
+s
+eralu
+citra
+p
+u
+o
+:s
+e
+õ
+ç
+a
+v
+res
+b
+o
+s
+a
+m
+ara
+zila
+er
+,s
+a
+citsítats
+e
+s
+etn
+o
+f
+,s
+e
+õ
+ç
+a
+v
+arg
+,s
+aifarg
+o
+to
+f
+u
+o
+oid
+ár(
+a
+d
+alaf
+as
+n
+er
+p
+m
+i
+,s
+o
+h
+n
+es
+e
+d
+,)o
+ãsiv
+elet
+s
+o
+tejb
+o
+,s
+e
+õ
+ç
+n
+a
+c
+,s
+ar
+u
+tnip
+.cte
+er
+olclo
+f
+,etra
+e
+d
+e
+d
+o
+tn
+e
+m
+atn
+a
+v
+e
+L
+áj
+aifarg
+oilbib
+a
+a
+d
+o
+t
+a
+m
+r
+o
+f
+m
+e
+a
+d
+a
+cilb
+u
+p
+,s
+atsiv
+er
+,s
+o
+r
+vil
+e
+d
+e
+s
+aslu
+v
+a
+s
+e
+õ
+ç
+a
+cilb
+u
+p
+É
+.atircs
+e
+as
+n
+er
+p
+m
+i
+o
+a
+d
+are
+dis
+n
+o
+c
+e
+d
+o
+ss
+a
+p
+o
+rie
+m
+ir
+p
+asiu
+q
+s
+e
+p
+a
+a
+d
+o
+t
+.a
+cifítn
+eic
+21
+representativos da situação ou do problema estão envolvidos de modo cooperativo ou
+participativo.
+• Pesquisa Participante - quando se desenvolve a partir da interação entre pes-
+quisadores e membros das situações investigadas.
+2.5 Etapas do projeto de pesquisa
+As pesquisas sociais, tanto por seus objetivos quanto por seus procedimentos são
+muito diferentes entre si. No entanto, deve-se observar que o desenvolvimento de uma
+delas exige o emprego de um conjunto de normas e procedimentos racionais, sistematiza-
+dos, que devem ser planejados com minúcia: planejamento, coleta de dados, análise e
+interpretação dos dados e redação do relatório (Gil, 2006, p. 47). O autor esquematiza
+nove etapas da pesquisa, embora ressalte que nem sempre todas elas sejam rigorosamen-
+te observadas, ou apareçam de maneira clara: formulação do problema, construção de
+hipóteses ou determinação dos objetivos, delineamento da pesquisa,
+operacionalização dos conceitos e variáveis, seleção da amostra, elaboração dos
+instrumentos de coleta de dados, coleta de dados, análise e interpretação dos resul-
+tados e redação do relatório.
+Spina (1974, p. 7 apud Andrade, 2006, p.38)) apresenta três etapas para uma
+pesquisa científica: a heurística, que consiste na busca de um tema, na pesquisa bibliográ-
+fica e na coleta de dados; a projetiva, que envolve o registro dos dados (fichamento) e
+uma arrumação provisória do material fichado; e a executiva, que compreende a elabo-
+ração do trabalho.
+Escolha do tema
+Um bom tema deve possuir fontes para coleta de dados e consulta, portanto, ser
+viável. Além disso, deve ser relevante, original e oportuno. Vejamos o que se pode enten-
+der por esses predicados:
+a) Viabilidade - possibilidade de acesso a uma bibliografia, disponibilidade de
+tempo para a execução do trabalho, adaptabilidade ao nível do pesquisador e
+orientação de especialistas na área;
+b) Relevância - importância científica do tema e contribuição para o esclareci-
+mento ou enriquecimento de informações sobre o assunto;
+c) Originalidade - quantidade e qualidade de estudos sobre o tema, pontos obs-
+curos a serem elucidados e existência de novos questionamentos;
+d) Oportunidade - contemporaneidade ou relevância atual, interesse histórico ou
+documental.
+Se o aluno já tem conhecimentos prévios acerca do tema, seu trabalho será facilita-
+do. Por isso, é importante que o tema escolhido esteja ligado à área de atuação profissi-
+onal, ou que faça parte da sua experiência. Deve-se evitar:
+a) monografia que fale de muitas coisas;
+TEMA é o assunto que se deseja provar ou desenvolver
+22
+b) questões que envolvam juízo de valor;
+c) suspeitas, vagas sensações, primeiras impressões.
+Revisão da literatura
+É importante proceder a uma busca em pesquisas e publicações na área, a fim de
+detectar trabalhos semelhantes ou idênticos ao que se pretende desenvolver.
+Delimitação do assunto
+A delimitação do tema deve guardar uma relação espaço-tempo, especificando seu
+campo de conhecimento, situando a pesquisa no espaço geográfico onde se realiza e no
+tempo cronológico, ou seja, no período que realiza (GONÇALVES, 2004, p.22).
+O título do trabalho, por sua vez, deve relacionar-se diretamente com o assunto
+sobre o qual discorre. O título pode ser geral, destacando genericamente o teor do traba-
+lho, e subtítulo, que indica a temática abordada.
+Justificativa
+Justificar um projeto de pesquisa consiste em demonstrar ao leitor a necessidade e
+a importância da efetivação desse trabalho de pesquisa. Deve-se destacar a relevância
+social, humana, operativa, contemporânea e científica, especificando sua viabilidade e
+utilidade, isto é, as contribuições que a pesquisa pode trazer. No caso de uma tese de
+doutorado, deve-se ressaltar também a originalidade e o ineditismo da pesquisa. Consiste
+numa breve, mas completa exposição das razões de ordem teórica e dos outros motivos
+de ordem prática que tornam importante a realização da pesquisa.
+Definição do problema
+“A pesquisa científica começa pelo problema.[...] E problema é dúvida, é dificulda-
+de, é quebra-cabeça, é curiosidade, é mistério, é assombro”. Essas palavras de Salomon
+(1997, p.196) revelam a importância de defini-lo adequadamente para o projeto de pes-
+quisa. A formulação do problema envolve dois aspectos: de um lado, a lógica da formula-
+ção e de outro, a delimitação do problema. É importante que esclareça dificuldade com a
+qual se defronta o pesquisador e que ele pretende resolver através da pesquisa. Marconi;
+Lakatos (2006, p. 104) apresentam algumas questões que devem ser atendidas, para que
+um problema seja cientificamente válido:
+• pode o problema ser enunciado em forma de pergunta?
+• corresponde a interesses pessoais (capacidade), sociais e científicos, isto é, de
+conteúdo e metodológico? Esses interesses estão harmonizados?
+• constitui-se o problema em questão científica, ou seja, relacionam-se entre pelo
+DELIMITAR significa pôr limites, isto é, determinar a profundidade,
+abrangência, tipo de abordagem e extensão do assunto.
+23
+menos duas variáveis?
+• pode ser objeto de investigação sistemática, controlada e crítica?
+• pode ser empiricamente verificado em suas conseqüências?
+Depois que o tema é definido, levanta-se uma questão para ser respondida através
+de uma hipótese que deve ser confirmada ou negada através do trabalho de pesquisa.
+Objetivos
+Os objetivos da pesquisa indicam o que o autor pretende alcançar e as metas a
+serem atingidas com a pesquisa. Constituem-se em declarações claras e explícitas do que
+se pretende alcançar e devem ser formuladas relacionando-se com as questões de pes-
+quisa, quase que uma formulação afirmativa daquilo que foi colocado em forma de per-
+gunta.
+Os objetivos se desdobram em geral e específicos. O geral se trata de uma visão
+global e abrangente do tema e representa a pretensão maior do pesquisador com esse
+trabalho; os específicos apresentam um caráter mais concreto e têm uma função interme-
+diária e instrumental. São elaborados com verbos que exprimam ação, no infinitivo: veri-
+ficar, analisar, descobrir, determinar, entre outros.
+Hipóteses
+O papel fundamental da hipótese na pesquisa é sugerir explicações para os fatos
+que podem ser a solução do problema. Devem ser elaboradas de modo a conduzir a uma
+verificação empírica. Normalmente se originam da observação de fatos, de outras pesqui-
+sas, de teorias e da intuição. O trabalho de pesquisa, então, irá confirmar ou negar a
+hipótese (ou suposição) levantada.
+Em geral, há uma hipótese básica, a principal resposta provável, suposta e provi-
+sória para um problema de pesquisa, e outras secundárias, isto é, afirmações comple-
+mentares da resposta básica. Gil (2006, p.56) apresenta os três seguintes tipos de
+hipóteses:mar ou negar a hipótese (ou suposição) levantada.
+• Casuísticas - são as que se referem a algo que ocorre em determinado caso;
+afirmam que um objeto, ou uma pessoa, ou um fato específico tem determinada caracte-
+rística. São muito freqüentes na pesquisa histórica, em que os fatos são tidos como “úni-
+cos”.
+• as que se referem à freqüência de acontecimentos - são as que antecipam que
+determinada característica ocorre, com menor ou maior intensidade, num grupo, socieda-
+de ou cultura.
+• as que estabelecem relações entre variáveis - Enunciado conjetural das rela-
+ções entre duas ou mais variáveis (coisas que podem ser classificadas em duas ou mais
+categorias).
+Variáveis
+A variável refere-se ao fenômeno a ser pesquisado, o campo de variação de cada
+tipo de dado a ser pesquisado. Segundo Marconi; Lakatos (2006, p. 104), toda hipótese
+24
+é o enunciado geral de relações entre, pelo menos, duas variáveis. Trata-se de um concei-
+to que contém ou apresenta valores tais como quantidades, qualidades, características,
+magnitudes. Pode ser variável independente, aquela que influencia, determina ou afeta
+uma variável ou dependente, a que será explicada em função de ser influenciada, afetada
+pela variável independente.
+Metodologia
+Consiste na explicação minuciosa, detalhada, rigorosa e exata de toda a ação de-
+senvolvida e de tudo aquilo que se utilizou no trabalho de pesquisa: o tipo de pesquisa, o
+instrumental utilizado, como questionários, entrevistas, entre outros, o tempo previsto, a
+divisão do trabalho, as formas de tabulação e tratamento de dados, etc
+Delimitação do Corpus
+As pesquisas sociais, em geral, abrangem um grande número de elementos, fazen-
+do-se necessário delimitar o universo, trabalhando com amostra, isto é, com uma peque-
+na parte dos elementos que compõem a população.  Nesse sentido, então, entende-se
+por amostra um subconjunto do universo ou da população, por meio do qual se estabele-
+cem ou se estimam as características desse universo ou da população (GIL, 2006, p.
+100).
+Marconi; Lakatos (2006, p. 108) definem universo como o conjunto de seres ani-
+mados ou inanimados que apresentam pelo menos uma característica em comum. Delimi-
+tar o universo consiste em explicitar que pessoas ou coisas, fenômenos etc. serão
+pesquisados, enumerando suas características comuns, como, por exemplo, sexo, faixa
+etária, organização a que pertencem, comunidade onde vivem etc.
+Delineamento da pesquisa
+Após serem estabelecidos os primeiros passos do marco teórico ou sistema
+conceitual da pesquisa, a partir da formulação do problema, da construção das hipóteses
+e da identificação das relações entre as variáveis, o pesquisador deve passar para a etapa
+seguinte que é o delineamento da pesquisa.
+O delineamento consiste, conforme Gil (2006, p.64), no planejamento da pesquisa
+em sua dimensão mais ampla, no tocante à diagramação, coleta de dados, previsão de
+análise e interpretação de dados.
+A pesquisa pode ser delineada de várias formas, considerando que há muitas pos-
+sibilidades de testar hipóteses. O elemento mais importante para a identificação de um
+delineamento, segundo o autor, é o procedimento adotado para coleta de dados. Nesse
+sentido, então, há dois grandes grupos de delineamentos: os que se valem das “fontes de
+papel”, como a pesquisa documental e a bibliográfica, e os que são fornecidos “por pes-
+soas”, como a pesquisa experimental, a pesquisa ex-post-facto, o levantamento, o estudo
+de campo e o estudo de caso.
+25
+Levantamento de dados
+Esse levantamento, na pesquisa bibliográfica, é realizado junto às bibliotecas ou
+serviços de informações existentes. Uma pesquisa bibliográfica pode ser desenvolvida
+como um trabalho em si mesmo ou constituir-se numa etapa de elaboração de monografias,
+dissertações etc. Além disso, ela pode contribuir para a delimitação de um tema ou forne-
+cer subsídios para a preparação de outros tipos de pesquisa, como a de laboratório ou de
+campo. Também chamada de revisão da literatura, consiste na localização e obtenção de
+documentos para avaliar a disponibilidade de material que subsidiará o tema do trabalho
+de pesquisa. Nessa etapa da pesquisa, observam-se alguns procedimentos: identificação
+das fontes, localização das informações, documentação e fichamento.
+Identificação das fontes
+Fontes de consultas:
+• Obras de referência (vocabulários, dicionários, enciclopédias, anuários, índices
+de livros, catálogos de editoras e bibliotecas, abstracts de revistas especializadas, reper-
+tórios);
+• Fontes bibliográficas: documentos manuscritos (códices, apógrafos, autógra-
+fos etc.), impressos (livros de leitura corrente, revistas, jornais, folhetos, catálogos, bole-
+tins, textos legais, processos, pareceres, correspondência publicada), mimeografados
+(xerocopiados, microfilmes que reproduzem outros documentos, gravações de áudio e de
+vídeo), outras fontes: mapas, esboços, plantas, desenhos, cartazes, documentos
+cartográficos, fotográficos; fontes não publicadas: teses, dissertações, informações e co-
+municações pessoais, palestras e aulas etc., que devem ser indicadas na bibliografia se-
+gundo as normas da ABNT.
+Localização das informações
+• Leitura prévia ou pré-leitura - primeira leitura, feita através de índices, sumá-
+rios ou páginas salteadas, objetiva identificar as informações desejadas e selecionar as
+obras para leitura mais detalhada.
+• Leitura seletiva - tem a finalidade de verificar de maneira mais atenta as obras
+que contêm informações úteis sobre o trabalho.
+• Leitura crítica/analítica - feita com o intuito de apreender o conteúdo, que
+será submetido à análise e à interpretação.
+• Leitura interpretativa - busca estabelecer as relações, confrontar idéias, refu-
+tar ou confirmar opiniões.
+IDENTIFICAÇÃO é a fase de reconhecimento do
+assunto pertinente ao tema em estudo.
+26
+Documentação
+Esse material pode ser obtido por meio de fotocópias, xérox ou microfilmes. A
+documentação ou registro escrito do material levantado na pesquisa bibliográfica deve
+restringir-se apenas às informações referentes ao assunto da pesquisa que apresentam
+fundamento científico e deve, também, preencher os seguintes requisitos: exatidão, utili-
+dade e integridade. Embora possam ser feitas anotações no próprio texto, é preferível
+que sejam transcritas em fichas e sob a forma de resumo, a fim de garantir organização e
+facilidade no manuseio.
+Fichamento
+Fichar é transcrever anotações em fichas, para fins de estudo ou pesquisa. Os
+dados bibliográficos devem ser registrados em fichas documentais ou em arquivos (pas-
+tas) na memória do computador, distinguindo-se os mais significativos.
+Há dois aspectos que devem ser observados nos apontamentos. Em primeiro lugar,
+a precisão, ou seja, não deve haver dúvidas sobre o significado exato do apontamento;
+em segundo lugar, é fundamental exatidão nas informações, isto é, todos os dados neces-
+sários para voltar à fonte original devem ser indicados claramente. Além disso, importa
+que o material levantado seja separado das anotações pessoais, a fim de evitar plágio.
+Os registros podem ser feitos em folhas de papel comum ou em programas de
+banco de dados de um computador. O importante é que estejam bem organizados e de
+fácil acesso, para que os dados não se percam. Nos casos em que forem necessárias as
+tradicionais folhas de cartolina pautada, como, por exemplo, quando solicitados por pro-
+fessores, existem tamanhos padronizados internacionalmente para as fichas, o que facilita
+a utilização. A escolha do tamanho deve basear-se em características individuais, como
+tamanho de letra:
+• pequeno (7,5 X 12,5 cm) -  adequadas para indicações bibliográficas;
+• médio (10,5 X 15,5 cm) - anotações, sumários, apreciação sucinta sobre a
+obra;
+• grande (12,5 X 20,5) - resumo de obras, planos de trabalho, esboços.
+Distinguem-se três tipos básicos de fichamento: bibliográficas, de resumo ou con-
+teúdo e de citações.  A bibliográfica é a descrição, com comentários, dos tópicos abor-
+dados em uma obra inteira ou parte dela. A ficha de resumo consiste numa síntese das
+idéias principais contidas numa obra. O pesquisador elabora a síntese com suas próprias
+palavras, não sendo necessário seguir a estrutura da obra. A ficha de citação é a reprodu-
+ção fiel das frases que se pretende usar como citação na redação do trabalho. Normal-
+mente, são constituídas de três partes:
+DOCUMENTAÇÃO - é a ciência que trata da organização do manuseio de
+informações. (CHIZZOTI, 1991, p. 109 apud ANDRADE, 2004, p. 55)
+FICHAMENTO - registro sintético e documentado das idéias e/ou informa-
+ções mais importantes de uma obra.
+27
+Quadro 4: Estrutura da ficha
+Fonte: baseado em Andrade (2004, p. 58-62)
+Andrade (2004, p. 58-62) acrescenta que, se for necessário o uso de mais de uma
+ficha, é importante que venham numeradas, de preferência no alto, à direita.
+Ficha de Resumo ou Conteúdo
+Ficha Bibliográfica
+a
+h
+cif
+a
+d
+ol
+u
+tí
+T
+.atierid
+à
+,o
+tla
+o
+n
+,o
+tn
+u
+ss
+a
+e
+o
+ciré
+n
+e
+g
+olu
+tít
+aic
+n
+ê
+r
+ef
+e
+R
+a
+cif
+á
+r
+g
+oil
+b
+i
+b
+m
+e
+a
+dite
+p
+er
+,ata
+d
+e
+ar
+o
+tid
+e
+,la
+c
+ol,ar
+b
+o
+,r
+o
+tu
+a
+o
+d
+o
+ã
+ç
+a
+cid
+ni
+m
+o
+c
+.s
+a
+h
+cif
+s
+a
+s
+a
+d
+o
+t
+a
+h
+cif
+a
+d
+o
+p
+r
+o
+C
+s
+aié
+di
+o
+m
+u
+s
+er
+,s
+a
+m
+e
+u
+q
+s
+e
+,o
+ã
+ç
+aic
+er
+p
+a
+,s
+e
+õ
+çircs
+n
+art
+:o
+d
+ú
+etn
+o
+c
+-
+,s
+e
+õ
+ç
+atic
+ara
+p
+s
+a
+h
+cif
+s
+a
+N
+.s
+oirátn
+e
+m
+o
+c
+,s
+ar
+u
+tiel
+s
+ale
+p
+s
+a
+dire
+g
+u
+s
+o
+re
+m
+ú
+n
+o
+o
+d
+n
+ato
+n
+a
+,o
+d
+a
+n
+oic
+eles
+o
+h
+c
+ert
+o
+etn
+e
+m
+leif
+es-e
+v
+ercs
+n
+art
+s
+e
+õ
+ç
+aic
+er
+p
+a
+e
+s
+oirátn
+e
+m
+o
+c
+s
+O
+.o
+d
+ariter
+io
+f
+la
+u
+q
+a
+d
+a
+nig
+á
+p
+a
+d
+.s
+o
+ralc
+s
+a
+m
+,s
+e
+v
+er
+b
+res
+m
+e
+v
+e
+d
+A
+S
+E
+U
+G
+U
+T
+R
+O
+P
+A
+U
+G
+N
+Í
+L
+A
+D
+A
+I
+R
+Ó
+T
+S
+I
+H
+o
+sle
+C
+e
+d
+.d
+ar
+T
+.a
+s
+e
+u
+g
+u
+tr
+o
+P
+a
+u
+g
+ní
+L
+a
+d
+air
+ó
+tsi
+H
+.lu
+a
+P
+,
+R
+E
+I
+S
+S
+Y
+E
+T
+.4
+0
+0
+2
+,s
+etn
+o
+F
+s
+nitra
+M
+:olu
+a
+P
+o
+ã
+S
+.as
+e
+u
+g
+u
+tr
+o
+P
+.d
+e
+2
+.a
+h
+n
+u
+C
+,as
+e
+u
+g
+u
+tr
+o
+p
+a
+u
+g
+níl
+a
+d
+air
+ó
+tsih
+a
+atnic
+u
+s
+a
+m
+r
+o
+f
+e
+d
+atn
+es
+er
+p
+a
+r
+o
+tu
+a
+O
+s
+o
+e
+d
+s
+e
+d
+s
+o
+citsíü
+g
+nil
+e
+sia
+u
+tx
+et
+,s
+o
+cir
+ó
+tsih
+s
+o
+tc
+e
+p
+s
+a
+s
+o
+o
+d
+n
+a
+d
+r
+o
+b
+a
+s
+a
+m
+r
+o
+n
+s
+a
+éta
+a
+ciré
+b
+I
+alu
+s
+nín
+e
+P
+a
+n
+,as
+e
+u
+g
+u
+tr
+o
+p
+a
+u
+g
+níl
+a
+d
+s
+oid
+r
+ó
+m
+ir
+p
+.a
+cirf
+Á
+e
+ais
+Á
+,a
+ciré
+m
+A
+a
+n
+as
+e
+u
+g
+u
+tr
+o
+p
+a
+u
+g
+níl
+a
+d
+A
+S
+E
+U
+G
+U
+T
+R
+O
+P
+A
+U
+G
+N
+Í
+L
+A
+D
+A
+I
+R
+Ó
+T
+S
+I
+H
+o
+sle
+C
+e
+d
+.d
+ar
+T
+.a
+s
+e
+u
+g
+u
+tr
+o
+P
+a
+u
+g
+ní
+L
+a
+d
+air
+ó
+tsi
+H
+.lu
+a
+P
+,
+R
+E
+I
+S
+S
+Y
+E
+T
+.4
+0
+0
+2
+,s
+etn
+o
+F
+s
+nitra
+M
+:olu
+a
+P
+o
+ã
+S
+.as
+e
+u
+g
+u
+tr
+o
+P
+.d
+e
+2
+.a
+h
+n
+u
+C
+s
+ê
+u
+g
+u
+tr
+o
+p
+-
+o
+g
+ela
+g
+m
+e
+s
+o
+tx
+et
+s
+o
+rie
+m
+ir
+p
+s
+o
+a
+m
+ital
+o
+D
+.1
+O
+I
+R
+Á
+M
+U
+S
+etn
+e
+m
+a
+d
+a
+m
+ix
+o
+r
+p
+a
+a
+0
+0
+2
+1
+e
+d
+(
+s
+ê
+u
+g
+u
+tr
+o
+p
+-
+o
+g
+ela
+g
+O
+.2
+.)III
+X
+olu
+c
+és(
+.4
+.)s
+aid
+s
+o
+ss
+o
+n
+s
+o
+a
+V
+I
+X
+olu
+c
+és
+o
+d
+(
+u
+e
+p
+o
+r
+u
+e
+s
+ê
+u
+g
+u
+tr
+o
+P
+O
+.3
+.)0
+5
+3
+1
+.ais
+Á
+a
+n
+e
+a
+cirf
+Á
+a
+n
+s
+ê
+u
+g
+u
+tr
+o
+p
+O
+.5
+.lis
+ar
+B
+o
+d
+s
+ê
+u
+g
+u
+tr
+o
+p
+O
+a
+atn
+es
+er
+p
+a
+e
+u
+q
+a
+cir
+ó
+tsi
+H
+a
+citsíü
+g
+niL
+a
+d
+a
+erá
+a
+n
+o
+hla
+b
+ar
+T
+s
+o
+cir
+ó
+tsih
+s
+o
+taf
+s
+o
+d
+o
+d
+nitra
+p
+,s
+ê
+u
+g
+u
+tr
+o
+p
+a
+m
+oidi
+o
+d
+asic
+n
+o
+c
+air
+ó
+tsih
+s
+a
+citsíretc
+ara
+c
+s
+a
+o
+d
+n
+asila
+n
+a
+,a
+u
+g
+níl
+a
+er
+b
+o
+s
+o
+ãss
+u
+cre
+p
+er
+m
+are
+vit
+e
+u
+q
+a
+d
+a
+c
+a
+s
+erailu
+c
+e
+p
+s
+o
+tx
+et
+s
+o
+d
+s
+é
+v
+arta
+,a
+c
+o
+p
+é
+a
+d
+a
+c
+e
+d
+s
+a
+citsíü
+g
+nil
+a
+u
+g
+níl
+a
+d
+s
+oid
+r
+ó
+m
+ir
+p
+s
+o
+e
+d
+s
+e
+d
+as
+e
+u
+g
+u
+tr
+o
+p
+a
+u
+g
+níl
+a
+e
+v
+ercs
+e
+D
+.o
+d
+oíre
+p
+as
+e
+u
+g
+u
+tr
+o
+p
+a
+u
+g
+níl
+a
+d
+s
+a
+m
+r
+o
+n
+s
+a
+éta
+a
+ciré
+b
+I
+alu
+s
+nín
+e
+P
+a
+n
+,as
+e
+u
+g
+u
+tr
+o
+p
+.a
+cirf
+Á
+e
+ais
+Á
+,a
+ciré
+m
+A
+a
+n
+28
+Ficha de Citações
+O levantamento de dados na pesquisa documental assemelha-se ao que ocorre na
+bibliográfica, com a diferença de que as fontes são documentos que ainda não passaram
+por tratamento analítico, tais como: documentos oficiais, reportagens de jornais, cartas,
+contratos, diários, filmes, fotografias, gravações etc., ou aquelas que já tiveram algum tipo
+de análise como relatórios de pesquisa, de empresas, tabelas estatísticas etc.
+Na pesquisa de campo e de laboratório, a etapa de coleta de dados caracteriza-se
+pela aplicação dos instrumentos e das técnicas da pesquisa previamente selecionadas.
+Utiliza-se documentação direta, isto é, levantamento de dados no próprio local onde os
+fenômenos ocorrem. Para a coleta de material, realizam-se estudos observacionais, como
+a aplicação de questionários, estudos de campo, registro de dados exploratórios, etc.
+A elaboração dos instrumentos a serem utilizados para a coleta das informações
+deve ser feita de acordo com as fontes que serão empregadas, necessitando, em alguns
+casos, de um pré-teste, denominado de estudo piloto nas pesquisas experimentais, ex-
+post-facto e estudo de caso. Nele, aplica-se o instrumento de coleta de dados para que
+sejam testadas sua validade, seu nível de compreensão e as dificuldades existentes e so-
+mente depois, é que se aplica o instrumento na população / universo da pesquisa. A elabo-
+ração requer a observação de alguns aspectos, como precisão, clareza, estruturação lógi-
+ca, estética, quantidade de perguntas, organização cronológica das perguntas.
+A pesquisa de laboratório caracteriza-se por interferir artificialmente na produção
+do fato, fenômeno ou processo estudado. Tanto as pesquisas de campo quanto as de
+laboratório usam documentação direta, fazem o levantamento de dados no próprio local
+onde os processos ocorrem, coletando o material através da realização de estudos
+observacionais, como a aplicação de questionários, estudos de campo, registro de dados
+exploratórios, etc. Nesse sentido, o ambiente ou os mecanismos de percepção são con-
+trolados para que o fato/fenômeno/processo seja produzido ou percebido adequadamen-
+te.
+Instrumentos de pesquisa
+Os instrumentos são recursos utilizados dentro de cada técnica com a finalidade de
+A
+C
+I
+R
+Ó
+T
+S
+I
+H
+A
+C
+I
+T
+S
+Í
+Ü
+G
+N
+I
+L
+o
+a
+o
+ã
+ç
+u
+d
+o
+rtni
+a
+m
+u
+:a
+cir
+ó
+tsih
+a
+citsíü
+g
+niL
+.o
+tre
+bl
+A
+s
+olra
+C
+,
+O
+C
+A
+R
+A
+F
+.5
+0
+0
+2
+.lair
+o
+tid
+E
+alo
+b
+ára
+P
+:olu
+a
+P
+o
+ã
+S
+.s
+a
+u
+g
+níl
+s
+a
+d
+air
+ó
+tsih
+a
+d
+o
+d
+u
+ts
+e
+s
+a
+m
+o
+c
+etn
+e
+m
+latn
+e
+m
+a
+d
+n
+u
+f
+,o
+ãtn
+e
+,es-a
+p
+u
+c
+o
+a
+cir
+ó
+tsih
+a
+citsíü
+g
+nil
+A
+"
+ale
+n
+e
+u
+q
+s
+atsiü
+g
+nil
+s
+o
+e
+;o
+p
+m
+et
+o
+n
+s
+a
+u
+g
+níl
+s
+a
+d
+s
+e
+õ
+ç
+a
+m
+r
+o
+fs
+n
+art
+s
+ass
+e
+re
+d
+n
+e
+er
+p
+m
+o
+c
+e
+ratn
+es
+er
+p
+a
+,re
+d
+n
+e
+er
+p
+r
+u
+s
+m
+ar
+u
+c
+o
+r
+p
+m
+a
+hla
+b
+art
+r
+o
+p
+,s
+aferat
+s
+ass
+e
+d
+o
+ã
+ç
+u
+c
+e
+x
+e
+a
+n
+,es-
+o
+d
+n
+atn
+eir
+o
+,s
+e
+õ
+ç
+a
+m
+r
+o
+fs
+n
+art
+)1
+9
+.p
+(
+".s
+o
+cir
+ó
+et
+s
+a
+m
+etsis
+s
+etn
+erefid
+29
+coletar dados. Entre os diferentes instrumentos de coleta de dados, os mais comuns são:
+• Questionário - instrumento ou programa de coleta de dados confeccionado pelo
+pesquisador, cujo preenchimento é realizado pelo informante. Deve apresentar linguagem
+simples e direta, para que o informante compreenda com clareza o que está sendo per-
+guntado. Antes de ser aplicado, todo questionário deve passar por uma etapa de pré-
+teste, num universo reduzido, para que eventuais erros de formulação possam ser corrigi-
+dos. Deve incluir uma carta explicação, contendo a proposta da pesquisa, as instruções
+de preenchimento e devolução e agradecimento. Deve-se evitar a identificação do
+respondente. O questionário permite mais abrangência, menor esforço e maior uniformi-
+dade nas perguntas, além de favorecer a tabulação das respostas. Pode conter questões
+fechadas, abertas, e dos dois tipos.
+• Entrevista - conversação com a finalidade de obter determinadas informações.
+Possibilita a coleta de dados subjetivos, além de ampliar as possibilidades de compreen-
+são da realidade. Podem ser:
+• Livre ou não-diretiva - não há roteiro pré-estabelecido pelo pesquisa-
+dor.
+• Estruturada ou diretiva - as perguntas são elaboradas pelo pesquisador
+com a finalidade de obter uma resposta direta à pergunta realizada.
+• Semi-estruturada ou semi-diretiva - o pesquisador estabelece um rotei-
+ro não fixo de perguntas que pode sofrer alterações no todo ou em parte,
+no momento da entrevista.
+• Observação - atividade deliberada e controlada de coleta de dados que envolve
+o critério da intersubjetividade, ou seja, outro observador, na mesma situação, obtém a
+mesma conclusão. Antes de iniciar o processo de observação, é importante o exame do
+local, para especificar quais os fenômenos que devem ser registrados. A observação pode
+ser simples, sistemática, participante. Outro aspecto importante é preparar-se para arma-
+zenar fenômenos inesperados. Por outro lado, os registros iconográficos (fotografias, fil-
+mes, vídeos etc.) devem ser autorizados. O registro da observação deve ser feito o mais
+cedo possível.
+Análise e interpretação dos dados
+Após a obtenção dos dados, é nece ssário proceder-se à seleção do que realmente
+vai ser aproveitado no trabalho. A análise é realizada à luz do marco teórico, já parcial-
+mente desenvolvido nas fases anteriores, observando os dois tipos de análise e de dados:
+os qualitativos e os quantitativos.
+A análise consiste na organização e sumarização dos dados obtidos na pesquisa,
+que fornecem respostas ao problema investigado. A interpretação, por sua vez, tem o
+propósito de fazer a ligação das informações com outros conhecimentos previamente
+obtidos, que devem ser separados em seus aspectos básicos e submetidos a uma reflexão
+(GIL, 2006, p.185). Os elementos colhidos entre diversos autores devem ser confronta-
+dos, contrapondo pontos de vista convergentes ou divergentes, para escolher o que mais
+se adapta aos objetivos da pesquisa. A informação básica pode ser resumida em quadros,
+30
+gráficos, tabelas. Os dados alcançados devem ser relacionados com outros conhecimen-
+tos já elaborados. Por último, passa-se a uma reflexão sobre a informação já estruturada
+e efetua-se uma busca geral das conclusões obtidas.
+Há um ponto importante a ser ressaltado. A pesquisa bibliográfica permite uma
+cobertura mais ampla do que na pesquisa direta, mas depende da validade dos dados
+coletados. Isso porque tais dados podem ser equivocados, possibilitando a ampliação de
+eventuais erros. Daí a necessidade de, após os dados serem ordenados em fichas, proce-
+der-se a crítica do material bibliográfico, que pode ser:
+a) Crítica externa - feita sobre o significado, importância e valor histórico do
+documento, considerado em si mesmo e em função do trabalho que está sendo elaborado
+(SALOMON, 1972, p. 256). Abrange a crítica do texto - investiga se o texto sofreu ou
+não alterações, interpretações e falsificações; a crítica da autenticidade e a crítica da pro-
+veniência do texto.
+b) Crítica interna - é aquela que aprecia o sentido e o valor do conteúdo. Com-
+preende a crítica de interpretação ou hermenêutica e a crítica do valor interno do conteú-
+do.
+Conclusão
+As conclusões devem ser elaboradas com base nos estudos realizados. É impor-
+tante fazer as comparações pertinentes e as generalizações apropriadas.
+Redação
+A redação da pesquisa bibliográfica vai variar em conformidade com o tipo de
+trabalho científico a se apresentar. Pode ser uma monografia, dissertação ou uma tese. O
+texto deve ser estruturado de modo a indicar o problema, a metodologia, os resultados e
+as conclusões e sugestões.
+É preciso ter em conta que a redação de textos técnico-científicos e acadêmicos
+apresenta peculiaridades que permitem distingui-los de outros gêneros textuais, tais como
+o jornalístico, o literário, o publicitário. Alguns princípios básicos devem ser observados
+na produção desses textos.
+O trabalho acadêmico deve ter unidade, objetividade e coerência e tratar o tema de
+maneira direta e simples. Isso significa que a apresentação das idéias deve seguir uma
+seqüência lógica e ordenada, mantendo os objetivos iniciais e procurando não desviar o
+assunto com considerações dispensáveis e irrelevantes. Além disso, o autor não deve
+fazer prevalecer seu ponto de vista, sua opinião e seus preconceitos, ou seja, toda argu-
+mentação e toda explanação na redação de trabalhos acadêmicos devem fundamentar-se
+em dados e provas observáveis, evitando idéias preconcebidas e a exposição com base
+em opiniões pessoais ou de outrem, que não possam ser confirmadas.
+É importante lembrar que a linguagem científica é didática e, como conseqüência, o
+uso da língua padrão deve ser priorizado, preferindo-se termos técnicos e evitando-se
+palavras, expressões e frases coloquiais. Uma atenção especial deve ser dada para que
+não surjam desvios da norma culta, desde os mais simples até os mais complexos, repe-
+tições de palavras, chavões, expressões vulgares e/ou frases desconexas. Atualmente,
+recomenda-se o uso de frases curtas e de palavras e expressões que indiquem de modo
+preciso e claro as proporções e quantidades, evitando-se imprecisão e ambigüidade.
+31
+É importante manter a uniformidade ao longo de todo o texto, seja no que se refere
+às formas de tratamento, pessoa gramatical, unidades de medidas, citações e títulos das
+seções, entre outros. Em suma, são qualidades na linguagem de textos técnico-científicos
+e acadêmicos: correção, objetividade, clareza, precisão, impessoalidade e concisão.
+Cronograma de atividades
+O cronograma consiste na previsão de tempo - dias, semanas, quinzenas, meses,
+bimestres, trimestres etc. - que será gasto na realização do trabalho. As atividades e os
+períodos em que deverão ser cumpridas serão determinados com base nas peculiaridades
+de cada pesquisa e em critérios definidos pelo autor do trabalho. No cronograma devem
+constar as partes, etapas, com previsão de tempo para cada uma delas. No planejamen-
+to, não se deve esquecer que algumas dessas partes podem ser executadas simultanea-
+mente por diferentes membros da equipe, enquanto outras dependem das etapas anterio-
+res.
+Quadro 5: Cronograma
+Orçamento
+Em geral, em monografias, dissertações e teses acadêmicas dispensam a inclusão
+de recursos financeiros. A explicitação desses gastos só ocorre quando o Projeto é apre-
+sentado para uma instituição financiadora de Projetos de Pesquisa.
+O orçamento distribui os gastos por itens como material permanente (computadores, cal-
+culadoras), de consumo (papel, canetas, lápis, cartões, cópias, encadernação etc.) e pes-
+soal (coordenador, pesquisadores etc.), sendo que esta divisão vai ser determinada com
+base nos critérios de organização dos pesquisadores ou das exigências da instituição onde
+está sendo apresentado o Projeto.
+Bibliografia Básica
+O projeto de pesquisa deve apresentar uma lista contendo as obras essenciais rela-
+tivas aos pressupostos teóricos do tema, ou a seu embasamento teórico. Não necessita
+ser exaustiva, mas deve ser organizada de acordo com as normas da ABNT.
+Vejamos, a seguir, um quadro com a síntese das etapas da pesquisa.
+Fonte: Baseado em ANDRADE, 2004, p. 39  41
+O crescimento da produção científica verificado nos últimos anos muito contribuiu
+S
+O
+D
+O
+Í
+R
+E
+P
+/
+S
+E
+D
+A
+D
+I
+V
+I
+T
+A
+n
+aj
+v
+ef
+ra
+m
+r
+b
+a
+ia
+m
+n
+uj
+luj
+o
+g
+a
+tes
+tu
+o
+1
+ar
+u
+taretil
+e
+d
+o
+tn
+e
+m
+atn
+a
+v
+e
+L
+X
+2
+o
+tejo
+r
+P
+o
+d
+m
+e
+g
+atn
+o
+M
+X
+3
+s
+o
+d
+a
+d
+e
+d
+atelo
+C
+X
+X
+X
+4
+s
+o
+d
+a
+d
+s
+o
+d
+o
+tn
+e
+m
+atar
+T
+X
+X
+X
+X
+5
+la
+niF
+oir
+ó
+tale
+R
+o
+d
+o
+ã
+ç
+ar
+o
+b
+al
+E
+X
+X
+X
+6
+o
+tx
+et
+o
+d
+o
+ãsiv
+e
+R
+X
+7
+o
+hla
+b
+art
+o
+d
+a
+g
+ertn
+E
+X
+32
+A
+D
+S
+A
+P
+A
+T
+E
+A
+SI
+U
+Q
+S
+E
+P
+S
+E
+Õ
+SI
+V
+I
+D
+B
+U
+S
+S
+O
+I
+R
+É
+T
+I
+R
+C
+O
+D
+A
+H
+L
+O
+C
+S
+E
+A
+M
+E
+T
+;o
+tn
+u
+ss
+a
+m
+u
+ra
+n
+oic
+ele
+S
+;r
+o
+d
+asiu
+q
+s
+e
+p
+o
+d
+o
+ts
+o
+g
+*
+o
+ara
+p
+r
+ola
+v
+e
+d
+e
+sie
+v
+ár
+u
+d
+s
+aic
+n
+êire
+p
+x
+e
+e
+d
+e
+d
+a
+dilibiss
+o
+p
+*
+a
+cir
+ó
+et
+aic
+n
+âtr
+o
+p
+m
+i,sie
+c
+áf
+s
+o
+tn
+u
+ss
+a
+es-
+o
+d
+n
+ativ
+e
+,r
+o
+d
+asiu
+q
+s
+e
+p
+;a
+citár
+p
+u
+o
+à
+,r
+o
+d
+asiu
+q
+s
+e
+p
+o
+d
+la
+u
+tc
+eletni
+o
+ã
+ç
+a
+cifila
+u
+q
+à
+o
+ã
+ç
+a
+u
+q
+e
+d
+a
+*
+e
+d
+u
+o
+o
+ã
+ç
+a
+zilo
+b
+m
+is
+e
+d
+,o
+ã
+ç
+arts
+b
+a
+e
+d
+e
+d
+a
+dic
+a
+p
+a
+c
+e
+etn
+eicif
+u
+s
+o
+cifárg
+oilbib
+laireta
+m
+e
+d
+aic
+n
+êtsix
+e
+o
+ã
+çiu
+tni
+e
+d
+s
+e
+d
+a
+dilibiss
+o
+p
+s
+à
+re
+d
+n
+o
+p
+s
+err
+o
+c
+e
+v
+e
+d
+o
+tn
+u
+ss
+a
+o
+le
+vín
+o
+p
+sid
+;r
+o
+d
+asiu
+q
+s
+e
+p
+o
+d
+s
+o
+ci
+m
+ô
+n
+o
+c
+e
+s
+o
+sr
+u
+c
+er
+e
+d
+u
+o
+o
+hla
+b
+art
+e
+d
+,o
+p
+m
+et
+etn
+e
+m
+a
+vits
+u
+a
+x
+e
+s
+o
+d
+a
+d
+u
+ts
+e
+áj
+s
+o
+tn
+u
+ss
+a
+rativ
+E
+*
+e
+o
+ãs
+n
+etx
+e
+a
+u
+s
+rati
+m
+ile
+D
+;o
+ãs
+n
+e
+er
+p
+m
+o
+c
+s
+aic
+n
+âts
+n
+u
+cric
+o
+d
+n
+a
+ni
+m
+rete
+d
+,o
+ãs
+n
+etx
+e
+a
+ra
+xiF
+*
+;s
+ar
+o
+d
+a
+cific
+e
+p
+s
+e
+;s
+o
+tie
+c
+n
+o
+c
+e
+s
+o
+m
+ret
+rinife
+D
+*
+;o
+tn
+u
+ss
+a
+o
+ra
+zila
+c
+o
+L
+o
+n
+e
+o
+ç
+a
+p
+s
+e
+o
+n
+ra
+u
+tis(
+laireta
+m
+o
+ã
+ç
+a
+zila
+c
+ol
+a
+re
+d
+e
+c
+o
+r
+P
+*
+,sia
+p
+u
+rg
+,sia
+o
+ss
+e
+p
+s
+ate
+m
+s
+a
+d
+s
+e
+õ
+s
+n
+e
+m
+id
+s
+a
+ra
+cid
+ni,o
+p
+m
+et
+e
+u
+q
+o
+f
+n
+e
+e
+d
+o
+pit
+o
+ra
+cid
+ni(
+la
+m
+r
+o
+f
+e
+)s
+atulo
+s
+b
+a
+e
+s
+airáteic
+o
+s
+:o
+d
+a
+zilitu
+o
+tn
+e
+m
+atart
+o
+o
+d
+n
+a
+cific
+e
+p
+s
+e
+,o
+tn
+u
+ss
+a
+o
+a
+o
+d
+a
+d
+).cte
+o
+cif
+ó
+s
+olif
+,o
+cir
+ó
+tsih
+,o
+cig
+óloic
+o
+s
+,o
+cig
+ólo
+cis
+p
+.s
+o
+vitejb
+o
+s
+o
+ra
+cilp
+x
+E
+s
+o
+cifíc
+e
+p
+s
+e
+e
+siare
+g
+s
+o
+vitejb
+o
+raticilp
+x
+E
+*
+O
+Ã
+Ç
+A
+L
+U
+M
+R
+O
+F
+O
+D
+A
+M
+E
+L
+B
+O
+R
+P
+s
+o
+vitir
+c
+s
+e
+D
+-
+s
+eretc
+ara
+c
+e
+s
+e
+d
+a
+d
+eir
+p
+o
+r
+p
+o
+tn
+u
+ss
+a
+o
+m
+e
+u
+g
+nitsid
+e
+u
+q
+;s
+etn
+a
+hle
+m
+es
+s
+o
+rtu
+o
+e
+d
+,s
+o
+n
+retx
+e
+s
+o
+tc
+e
+p
+s
+a
+s
+as
+u
+a
+c
+,s
+o
+vitatitn
+a
+u
+q
+s
+a
+n
+retni
+;o
+hla
+b
+art
+o
+d
+o
+d
+ú
+etn
+o
+c
+o
+a
+etn
+e
+d
+n
+o
+p
+s
+err
+o
+c
+olu
+tít
+o
+d
+a
+hlo
+cs
+E
+*
+;s
+o
+d
+a
+g
+er
+p
+m
+e
+s
+o
+m
+ret
+s
+o
+d
+la
+n
+oic
+are
+p
+o
+e
+la
+u
+tie
+c
+n
+o
+c
+o
+ã
+çinife
+D
+*
+;o
+ãts
+e
+u
+q
+a
+d
+o
+ã
+ç
+a
+u
+tiS;atsiv
+e
+d
+o
+tn
+o
+p
+o
+d
+o
+ã
+çinife
+D
+*
+.o
+hla
+b
+art
+o
+ass
+eretni
+m
+e
+u
+q
+a
+o
+cilb
+ú
+p
+o
+d
+o
+ã
+ç
+a
+nits
+e
+D
+*
+s
+o
+vit
+a
+cil
+p
+x
+E
+es-
+m
+erefer
+-
+o
+d
+o
+tn
+e
+m
+ivlo
+v
+n
+es
+e
+d
+o
+a
+o
+d
+o
+té
+m
+o
+a
+u
+o
+o
+tn
+u
+ss
+a
+.ol-ê
+vlo
+v
+n
+es
+e
+d
+ara
+p
+o
+tn
+u
+ss
+a
+o
+d
+la
+m
+r
+o
+f
+e
+laireta
+m
+m
+e
+d
+r
+o
+e
+d
+s
+e
+õ
+ç
+a
+g
+a
+d
+n
+I
+*
+e
+esilá
+n
+a
+,o
+ã
+çis
+o
+p
+x
+e
+:o
+tn
+u
+ss
+a
+o
+d
+o
+ã
+ç
+atn
+es
+er
+p
+a
+e
+d
+aic
+n
+ê
+ü
+q
+e
+S
+*
+.o
+ã
+ç
+arts
+n
+o
+m
+e
+d
+O
+Ã
+Ç
+A
+R
+O
+B
+A
+L
+E
+O
+N
+A
+L
+P
+M
+U
+E
+D
+-
+o
+tn
+u
+ss
+a
+o
+d
+o
+n
+alP
+air
+p
+ó
+r
+p
+à
+es-erefer
+:o
+ã
+ç
+atressid
+e
+o
+tn
+e
+m
+ivlo
+v
+n
+es
+e
+d
+,o
+ã
+ç
+u
+d
+o
+rtni
+a
+n
+o
+tn
+u
+ss
+a
+o
+d
+o
+ãsivi
+D
+*
+o
+ãs
+ulc
+n
+o
+c
+-
+s
+e
+d
+a
+divita
+s
+a
+d
+o
+n
+alP
+asiu
+q
+s
+e
+p
+a
+d
+o
+ã
+ç
+u
+c
+e
+x
+e
+e
+d
+s
+etn
+o
+f
+e
+d
+a
+cs
+u
+b
+para o aumento de publicações técnico-científicas nas diferentes áreas do conhecimento.
+Em geral, universidades ou faculdades têm normas próprias para os cursos e para a ela-
+boração e apresentação de trabalhos de graduação e pós-graduação, observando-se
+pequenas diferenças entre elas e mesmo entre as áreas dentro de uma mesma universida-
+de. Entretanto, alguns pontos, como objetivos, finalidades e classificação dos cursos de
+pós-graduação são comuns a todos.
+33
+3.1 Cursos de pós-graduação
+De maneira geral, a pós-graduação distingue-se  em lato sensu e stricto senso:
+•  Lato sensu - destinam-se ao treinamento técnico-científico em uma área
+profissional. Exigem-se freqüência às aulas, seminários e apresentação de um
+trabalho monográfico perante uma banca examinadora. São eles o Aperfeiço-
+amento e a Especialização.
+•  Stricto sensu - são programas que sucedem à graduação, com o objetivo
+de tornar mais ampla e profunda a formação científica e cultural do candidato.
+Compreendem duas fases: a primeira exige freqüência às aulas, com apresen-
+tação de seminários, pesquisas bibliográficas, elaboração de trabalhos cientí-
+ficos e exame de qualificação; a segunda fase é dedicada às pesquisas prepa-
+ratórias para o trabalho final. Abrange o Mestrado, cujo trabalho final
+corresponde a uma dissertação, que exige domínio do tema, capacidade de
+pesquisa e sistematização; e o Doutorado, que tem como trabalho final a tese:
+trabalho original de pesquisa que constitua uma contribuição para o conheci-
+mento do assunto abordado.
+3.2 Trabalhos de síntese
+Sinopses
+Resumo analítico do trabalho, redigido pelo próprio autor ou editor, publicado
+simultaneamente ao trabalho. Pode ser colocado entre o título e o texto ou ao final da
+publicação. Deve ser escrito em português, inglês ou outra língua de difusão interna-
+cional. Indica o assunto relativo ao trabalho e seu enfoque.
+Resumos
+Apresentação concisa e seletiva do texto, destacando-se os elementos de mai-
+or importância, isto é, as principais idéias do autor da obra.
+Etapas na elaboração de resumos
+Para a elaboração de um bom resumo, é importante observar algumas etapas:
+a) Leitura integral do texto, para conhecimento do assunto;
+b) Aplicação da técnica de sublinhar (palavras e sintagmas nominais), para res-
+saltar as idéias importantes e os detalhes relevantes em cada capítulo;
+c) Reestruturação do plano de redação do autor, valendo-se do índice ou su-
+MÓDULO III
+TRABALHOS CIENTÍFICOS
+34
+mário - elaboração de um plano ou esquema de redação do resumo;
+d) Rascunho dos capítulos ou partes do texto, com base no esquema ou plano
+de redação;
+e) Leitura comparativa com o original para verificação de necessidade de alte-
+rações;
+f) Redação final do resumo em fichas, segundo as normas de fichamento.
+Tipos de resumos
+A Associação Brasileira de Normas Técnicas (ABNT) apresenta os seguintes
+tipos de resumo:
+• Indicativo ou descritivo - indica os pontos principais do texto; utilização de
+frases curtas, cada uma correspondendo a um elemento importante da obra; descre-
+ve a natureza, forma e propósito do trabalho. De modo geral, não dispensa a consulta
+ao original.
+- o Abstract - trata-se de um tipo de resumo descritivo ou indicativo
+encontrado em artigos e livros publicados atualmente, com cerca de 150 a 500 pala-
+vras, em duas versões (língua vernácula e língua estrangeira). Apresenta os pontos
+relevantes do texto - conteúdo das partes, tipo de abordagem e conclusões do traba-
+lho -, de forma concisa e clara.
+• Informativo - contém as informações principais e permite dispensar a leitura
+do original: assunto, objetivos, metodologia, resultados, conclusões. Não deve con-
+ter comentários pessoais, críticas ou julgamentos de valor. Preferência pela forma
+impessoal.
+• Crítico - também chamado de Resenha crítica - apresentação sucinta e apre-
+ciação crítica do conteúdo, dos aspectos metodológicos, do desenvolvimento da ló-
+gica da demonstração e da técnica de apresentação de uma obra. Não pode haver
+citações. O resumo crítico de uma edição, entre várias é denominado recensão (ter-
+mo em desuso).
+Resenha crítica
+A resenha tem como objetivo facilitar o conhecimento prévio do conteúdo e do
+valor de um livro. São requisitos básicos para a elaboração de uma resenha:
+a) conhecimento completo da obra;
+b) competência na matéria exposta no livro;
+c) capacidade de juízo crítico;
+d) independência de juízo para ler, expor e julgar;
+e) correção e urbanidade  (respeito à pessoa do autor);
+f) fidelidade ao pensamento do autor.
+35
+Fonte: Gonçalves (2005, p. 43)
+3.3 Trabalhos de divulgação científica
+Envolvem trabalhos de divulgação de pesquisas em andamento ou concluídas.
+Nota
+Consiste em um texto de extensão mais reduzida que as comunicações, que trata de
+pesquisas em andamento.
+Comunicação científica
+Consiste na informação apresentada oralmente em eventos científicos, onde se ex-
+põem os resultados de uma pesquisa original; pode ser em forma de estudos breves
+sobre algum aspecto da ciência, sugestões para solução de problemas, esclareci-
+mentos de textos filosóficos, apreciações (interpretação ou correção) de textos ou
+obras, fixação do enfoque, recensão particular de um livro, crônicas inéditas de
+congressos. Pode ser individual ou coordenada.
+a
+citír
+c
+a
+h
+n
+e
+s
+e
+r
+a
+d
+a
+r
+u
+t
+u
+rts
+E
+olutíT
+;ar
+b
+o
+a
+d
+o
+d
+ú
+etn
+o
+c
+o
+n
+o
+d
+a
+es
+a
+b
+,ais
+atn
+af
+e
+d
+olu
+títb
+u
+S
+arbo
+a
+d
+aicnêrefe
+R
+T
+N
+B
+A
+/
+3
+2
+0
+6
+R
+B
+N
+a
+o
+d
+niu
+g
+e
+S
+rotu
+a
+o
+erbos
+oirátne
+m
+o
+C
+:oãçu
+dortnI
+m
+e
+airéta
+m
+a
+la
+u
+q
+,a
+n
+oic
+el
+e
+d
+n
+o
+,z
+af
+e
+u
+q
+o
+,r
+o
+tu
+a
+o
+d
+o
+ã
+ç
+atn
+es
+er
+p
+A
+.cte
+s
+a
+divlo
+v
+n
+es
+e
+d
+s
+asiu
+q
+s
+e
+p
+,s
+a
+d
+a
+cilb
+u
+p
+s
+ar
+b
+o
+,e
+d
+a
+dir
+o
+tu
+a
+é
+e
+u
+q
+otn
+ussa
+od
+oãçatneserp
+A
+.a
+d
+a
+d
+r
+o
+b
+a
+a
+citá
+m
+et
+a
+d
+o
+ã
+ç
+a
+zila
+u
+tx
+etn
+o
+C
+arbo
+a
+d
+o
+m
+use
+R
+.s
+o
+vitatila
+u
+q
+s
+o
+tc
+e
+p
+s
+a
+,ar
+b
+o
+a
+n
+s
+ats
+o
+p
+x
+e
+s
+aié
+di
+sia
+pic
+nir
+p
+s
+a
+ri
+m
+u
+s
+e
+R
+m
+e
+u
+o
+s
+olu
+típ
+a
+c
+e
+d
+o
+p
+u
+rg
+m
+e
+,s
+olu
+típ
+a
+c
+s
+o
+n
+es
+a
+b
+m
+o
+c
+atief
+res
+e
+d
+o
+P
+.o
+d
+ú
+etn
+o
+c
+o
+o
+d
+o
+t
+arbo
+a
+d
+sovitatila
+u
+q
+sotceps
+A
+.ar
+b
+o
+a
+d
+o
+ã
+ç
+a
+zin
+a
+gr
+o
+à
+e
+olits
+e
+o
+a
+,a
+m
+r
+o
+f
+à
+s
+o
+d
+a
+n
+oic
+ale
+R
+acitír
+C
+.cte
+s
+a
+d
+a
+d
+r
+o
+b
+a
+s
+aié
+di,o
+d
+ú
+etn
+o
+c
+,o
+ã
+çid
+e
+à
+es-
+o
+d
+nirefe
+R
+arbo
+a
+d
+oãçacid
+nI
+.o
+tx
+et
+o
+e
+girid
+es
+m
+e
+u
+q
+a
+;o
+vla-
+o
+cilb
+ú
+P
+36
+Estrutura da comunicação oral
+• Introdução - formulação clara e simples do tema da pesquisa, apresentação sin-
+tética do problema, dos objetivos, da delimitação, do ângulo de abordagem e exposição
+precisa da idéia central;
+• Desenvolvimento - texto ou corpo do trabalho: apresentação de informações,
+argumentos, fundamentação lógica do trabalho. É importante subdividir o corpo da co-
+municação em itens e subitens para permitir maior compreensão ao leitor/ouvinte.
+• Conclusão - síntese completa dos resultados da pesquisa e resumo das principais
+informações ou argumentos.
+Aspectos textuais
+Paper
+Também chamado de position paper ou posicionamento pessoal, é o texto escrito
+de uma comunicação oral. Discussão de resultados de estudos ou pesquisas científicas
+feitas pelo próprio autor. Pode apresentar o resumo ou o conteúdo integral da comunica-
+ção e tem por objetivo sua publicação nas ATAS ou ANAIS do evento em que foi apre-
+sentada. Geralmente é traduzido por artigo, embora não corresponda exatamente ao sig-
+a
+r
+u
+tr
+e
+b
+A
+o
+ã
+ç
+alu
+tit
+e
+e
+m
+o
+n
+,r
+o
+tu
+a
+o
+d
+e
+m
+o
+n
+,olu
+tí
+T
+o
+ã
+çiu
+tits
+ni
+e
+o
+sr
+u
+c
+,r
+o
+d
+atn
+eir
+o
+o
+d
+s
+et
+n
+e
+d
+e
+c
+et
+n
+a
+u
+o
+o
+ã
+ç
+u
+d
+o
+rt
+n
+I
+o
+d
+asiu
+q
+s
+e
+p
+o
+tn
+u
+ss
+a
+o
+d
+o
+ã
+ç
+atn
+es
+er
+p
+A
+s
+o
+vit
+ej
+b
+O
+?
+asiu
+q
+s
+e
+p
+a
+m
+o
+c
+u
+e
+d
+n
+eter
+p
+r
+o
+tu
+a
+o
+e
+u
+q
+O
+s
+e
+õ
+ts
+e
+u
+q
+u
+o
+a
+si
+u
+q
+s
+e
+p
+e
+d
+a
+m
+el
+b
+o
+r
+P
+s
+a
+r
+o
+d
+a
+etr
+o
+n
+asiu
+q
+s
+e
+p
+à
+m
+e
+gir
+o
+u
+e
+d
+e
+u
+q
+o
+ãts
+e
+u
+Q
+o
+h
+la
+b
+a
+rt
+e
+d
+s
+e
+s
+et
+ó
+p
+i
+H
+e
+a
+cis
+á
+b
+(
+a
+m
+elb
+o
+r
+p
+o
+d
+s
+ats
+o
+p
+s
+er
+sie
+v
+á
+v
+o
+r
+P
+)airá
+d
+n
+u
+c
+es
+ai
+g
+olo
+d
+o
+t
+e
+M
+o
+cifítn
+eic
+o
+d
+o
+té
+M
+asiu
+q
+s
+e
+p
+e
+d
+s
+a
+cin
+c
+é
+T
+s
+o
+d
+a
+d
+e
+d
+atelo
+c
+e
+d
+s
+o
+tn
+e
+m
+u
+rts
+n
+I
+m
+e
+g
+a
+d
+r
+o
+b
+a
+e
+d
+a
+m
+r
+o
+F
+asiu
+q
+s
+e
+p
+a
+d
+arts
+o
+m
+a
+e
+o
+sre
+vin
+U
+ai
+g
+olo
+d
+o
+t
+e
+M
+s
+o
+d
+a
+d
+s
+o
+d
+o
+ã
+ç
+ater
+p
+retni
+e
+a
+citírc
+esilá
+n
+A
+-
+o
+cir
+ó
+et
+etn
+err
+o
+c
+/
+es
+a
+b
+e
+d
+air
+o
+e
+T
+a
+cig
+ólo
+d
+o
+te
+m
+asiu
+q
+s
+e
+p
+e
+d
+s
+o
+pi
+T
+s
+a
+d
+a
+zilitu
+s
+etn
+o
+F
+o
+t
+n
+u
+s
+s
+A
+sia
+pic
+nir
+p
+s
+a
+u
+s
+e
+d
+o
+ã
+ç
+atn
+es
+er
+p
+A
+s
+a
+citsíretc
+ara
+c
+e
+s
+o
+tc
+e
+p
+s
+a
+sia
+pic
+nir
+p
+s
+o
+d
+o
+ã
+ç
+atn
+es
+er
+p
+A
+a
+m
+et
+o
+d
+s
+etn
+a
+v
+eler
+s
+er
+o
+taf
+s
+o
+d
+it
+b
+o
+s
+o
+d
+atl
+u
+s
+e
+R
+s
+a
+p
+a
+m
+,s
+o
+to
+f
+,s
+ale
+b
+at
+,s
+o
+r
+d
+a
+u
+q
+,s
+o
+cifár
+G
+s
+e
+õ
+s
+u
+lc
+n
+o
+C
+asiu
+q
+s
+e
+p
+a
+m
+o
+c
+s
+a
+d
+a
+ç
+n
+a
+cla
+s
+e
+õ
+s
+ulc
+n
+o
+C
+37
+nificado no Brasil. (ANDRADE, 2004, p. 87). Segue as normas do artigo científico.
+Pôster e/ou painel
+Consiste na apresentação em forma de cartaz, artesanal ou em banner, menos for-
+mal que a comunicação oral. A apresentação pode ser informal, com a exposição do
+conteúdo, ou dialogada, através da argüição da pesquisa feita por avaliadores.
+Alguns cuidados na elaboração do painel
+• O dia, horário, espaço para afixação do trabalho e as exigências normativas para
+a confecção do trabalho são preestabelecidos pela organização do evento.
+• O trabalho deve ser resumido em frases/parágrafos que especifiquem;
+• O material escrito e visual deve estar disposto de forma seqüencial, agradável,
+completa e concisa, incluindo figuras, fotografias, tabelas e/ou gráficos pertinentes.
+• Se necessário, pode-se recorrer aos serviços profissionais em artes gráficas, para
+elaboração do banner.
+• Podem ser utilizados diferentes materiais na confecção do pôster: plastificados,
+papéis especiais e laminados.
+Artigo
+Trata-se de trabalho pequeno, porém completo, que apresenta, discute e divulga
+idéias, métodos e técnicas, processos e resultado de estudos e pesquisas científicas. São
+publicados em revistas ou periódicos especializados. Do ponto de vista do conteúdo,
+TÍTULO
+NOME DO ALUNO
+NOME DO ORIENTADOR
+INSTITUIÇÃO
+INTRODUÇÃO
+OBJETIVOS 
+(geral e específicos)
+PROBLEMA
+HIPOTÉSES DE TRABALHO
+(básicas e secundárias)
+PROBLEMATIZAÇÃO
+QUESTINAMENTOS
+METODOLOGIA
+Métodos
+Técnicas
+DADOS OBTIDOS
+Gráficos
+DADOS OBTIDOS
+Fotos
+Tabelas
+Gráficos
+DADOS OBTIDOS
+Fotos
+Tabelas
+Gráficos
+DADOS OBTIDOS
+Fotos
+Tabelas
+Gráficos
+CONCLUSÃO
+REFERÊNCIAS
+38
+pode constar de um argumento teórico, artigo de análise e artigo classificatório.
+Organização do texto
+FONTE: Andrade, (2004, p. 83)
+Memória científica
+• Memória recapitulativa - apresenta todos os conhecimentos referentes a um
+assunto, num conjunto completo e sistemático; final da graduação.
+• Memória científica original - tese
+Relatórios e informes científicos
+Esses trabalhos devem ser apresentados apenas quando concluídos.
+Relatório de pesquisa
+Narração, descrição ou exposição do planejamento, apresentação dos instrumen-
+tos de pesquisa,  procedimentos adotados, dados obtidos,  resultados e  conclusões.
+Informes científicos
+Relato das atividades de pesquisa desenvolvida; descrição dos resultados parciais
+ou totais de uma pesquisa de campo, de laboratório ou documental; divulgação das des-
+cobertas feitas pelo pesquisador ou primeiros resultados de uma investigação em curso.
+Trabalhos monográficos
+Monografias
+Estudo sobre tema específico ou particular, com suficiente valor representativo e
+que obedece a uma rigorosa metodologia. São numerosos e variados os conceitos dos
+diferentes dos diferentes autores sobre monografia.
+O
+G
+I
+T
+R
+A
+O
+D
+S
+E
+T
+R
+A
+P
+sia
+u
+t
+x
+et-
+é
+r
+p
+s
+o
+t
+n
+e
+m
+el
+E
+:o
+h
+la
+ç
+e
+b
+a
+C
+e
+olu
+tí
+T
+e
+m
+o
+n
+,)re
+v
+u
+o
+h
+es(
+olu
+títb
+u
+s
+,)s
+e(r
+o
+tu
+a
+)s(o
+d
+:e
+s
+p
+o
+n
+iS
+alu
+c
+á
+n
+re
+v
+a
+u
+g
+níl
+a
+n
+e
+v
+a
+h
+c-s
+ar
+v
+ala
+p
+,o
+tx
+et
+o
+d
+o
+tx
+et
+o
+d
+alu
+c
+á
+n
+re
+v
+a
+u
+g
+níl
+sia
+u
+t
+x
+e
+T
+:o
+gitr
+a
+o
+d
+o
+p
+r
+o
+C
+s
+a
+m
+o
+c
+siatn
+e
+m
+a
+d
+n
+u
+f
+s
+etra
+p
+s
+êrt
+sia
+u
+t
+x
+et-s
+ó
+P
+:laic
+n
+e
+r
+ef
+e
+r
+etr
+a
+P
+u
+o
+s
+e
+cid
+n
+ê
+p
+a
+,aifarg
+oilbib
+e
+s
+o
+tn
+e
+m
+ic
+e
+d
+arg
+a
+,s
+o
+x
+e
+n
+a
+.ata
+d
+39
+Salomon (1996, p. 179) apresenta três sentidos para o termo
+• Sentido etimológico - Monos (um só); graphéin (escrever) -
+• Sentido estrito - estudo por escrito de um único tema específico que resulte de
+pesquisa científica com o escopo de apresentar uma contribuição relevante ou original e
+pessoal à ciência. = tese
+• Sentido lato - todo trabalho científico de primeira mão, que resulte de pesquisa.
+Incluem-se as dissertações científicas, dissertações de mestrado, antigas exercitações
+e tesinas, memórias científicas, informes científicos ou técnicos, college papers ame-
+ricanos, e as monografias, no sentido acadêmico.
+Para Marconi; Lakatos (2006, p. 151), é o estudo sobre um “tema específico ou
+particular, com suficiente valor representativo e que obedece a rigorosa metodologia.
+Investiga determinado assunto não só em profundidade, mas em todos os seus ângulos e
+aspectos, dependendo dos fins a que se destina”.
+Características
+Analisando-se os diferentes conceitos, é possível observar que a monografia apre-
+senta algumas características:
+a) trabalho escrito, sistemático e completo;
+b) tema específico ou particular de uma ciência ou parte dela;
+c) estudo pormenorizado e exaustivo, abordando vários aspectos e ângulos do caso;
+d) tratamento extenso em profundidade, mas não em alcance (nesse caso é limitado);
+e) metodologia científica;
+f) contribuição importante, original e pessoal para a ciência.
+Quadro baseado em Barquero (1979, p. 16-25 apud MARCONI; LAKATOS, 2006, p. 152)
+é
+aif
+a
+r
+g
+o
+n
+o
+m
+A
+é
+o
+ã
+n
+aif
+a
+r
+g
+o
+n
+o
+m
+A
+e
+a
+v
+res
+b
+o
+e
+u
+q
+o
+hla
+b
+art
+m
+U
+;s
+e
+õ
+ç
+a
+v
+res
+b
+o
+alu
+m
+u
+c
+a
+es
+m
+es
+,o
+rtu
+o
+r
+o
+p
+o
+tid
+io
+f
+áj
+e
+u
+q
+o
+rite
+p
+e
+R
+o
+a
+o
+ã
+ç
+aler
+m
+e
+u
+o
+o
+v
+o
+n
+e
+d
+a
+d
+a
+n
+ratn
+es
+er
+p
+a
+;s
+e
+õ
+s
+ulc
+n
+o
+c
+s
+à
+u
+o
+o
+tn
+e
+m
+ivlo
+v
+n
+es
+e
+d
+o
+a
+,e
+u
+q
+r
+o
+f
+n
+e
+e
+s
+e
+õ
+ç
+a
+m
+r
+o
+f
+ni
+s
+ass
+e
+a
+zin
+a
+gr
+O
+;s
+e
+õ
+ç
+a
+v
+res
+b
+o
+é
+o
+ã
+n
+;oirá
+n
+oits
+e
+u
+q
+e
+d
+eic
+é
+p
+s
+e
+a
+m
+u
+a
+re
+d
+n
+o
+p
+s
+e
+R
+m
+e
+z
+af
+es
+e
+u
+q
+o
+a
+etn
+a
+hle
+m
+es
+o
+hla
+b
+art
+m
+u
+ratu
+c
+e
+x
+e
+;s
+eralo
+cs
+e
+s
+ere
+v
+e
+d
+u
+o
+e
+m
+a
+x
+e
+m
+u
+s
+e
+d
+a
+diralu
+g
+er
+e
+s
+e
+õ
+ç
+aler
+ar
+u
+c
+o
+r
+P
+;s
+ale
+ertn
+e
+re
+v
+a
+h
+e
+d
+o
+p
+e
+u
+q
+m
+es
+,sia
+o
+ss
+e
+p
+s
+e
+õinip
+o
+s
+are
+m
+rats
+efin
+a
+M
+s
+oir
+ó
+ta
+b
+o
+r
+p
+m
+o
+c
+s
+o
+d
+a
+d
+m
+o
+c
+s
+al-átn
+e
+m
+a
+d
+n
+u
+f
+m
+e
+s
+o
+d
+as
+a
+b
+m
+e
+e
+s
+o
+d
+a
+n
+oic
+alerr
+o
+c
+etn
+e
+m
+a
+cig
+ol
+;oiníc
+oic
+ar
+;s
+ê
+u
+q
+r
+o
+p
+s
+o
+er
+b
+o
+s
+a
+g
+a
+d
+n
+I
+s
+aie
+hla
+,s
+atarts
+b
+a
+etn
+e
+m
+a
+d
+ais
+a
+m
+e
+d
+s
+aié
+di
+r
+o
+p
+x
+E
+,s
+e
+õ
+ç
+a
+p
+u
+c
+o
+er
+p
+,s
+o
+tn
+e
+m
+as
+n
+e
+p
+s
+o
+a
+o
+tn
+at
+a
+d
+r
+o
+tu
+a
+o
+d
+sia
+o
+ss
+e
+p
+s
+ojes
+e
+d
+u
+o
+s
+o
+tn
+e
+m
+ic
+e
+h
+n
+o
+c
+e
+d
+a
+dir
+u
+ta
+m
+ralu
+citra
+p
+a
+u
+s
+e
+d
+o
+m
+o
+c
+aifarg
+o
+n
+o
+m
+;la
+u
+tc
+eletni
+e
+a
+cig
+ólo
+cis
+p
+s
+a
+etn
+e
+giletni
+a
+m
+r
+o
+f
+e
+d
+a
+zilit
+U
+ara
+p
+s
+aic
+n
+êire
+p
+x
+e
+e
+s
+ar
+u
+tiel
+;o
+ã
+ç
+a
+v
+o
+r
+p
+m
+o
+c
+s
+es
+arf
+o
+d
+n
+atic
+,a
+cs
+er
+vil
+o
+ã
+çid
+u
+re
+a
+m
+u
+rats
+efin
+a
+M
+u
+o
+,s
+a
+d
+ali
+m
+iss
+a-la
+m
+e
+s
+etn
+e
+nitre
+p
+o
+ã
+n
+,s
+etn
+a
+v
+elerri
+u
+o
+o
+d
+ú
+etn
+o
+c
+m
+es
+s
+es
+arfíre
+p
+re
+vlo
+v
+n
+es
+e
+d
+.o
+s
+a
+c
+a
+d
+a
+c
+e
+d
+aic
+n
+êire
+p
+x
+e
+ralu
+citra
+p
+a
+d
+s
+a
+d
+aic
+n
+atsid
+s
+u
+es
+sia
+m
+e
+d
+s
+o
+a
+a
+cin
+u
+m
+o
+C
+.s
+o
+d
+atlu
+s
+er
+40
+CAPA
+FOLHA DE ROSTO
+FOLHA DE APROVAÇÃO
+DEDICATÓRIA
+AGRADECIMENTO
+EPÍGRAFE
+RESUMO
+SUMÁRIO
+TEXTO
+GLOSSÁRIO
+REFERÊNCIAS
+ANEXOS OU APÊNDICES
+Tipos de monografia
+Há vários tipos de monografia, entre as quais, podem-se citar:
+• Monografias escolares - trabalhos de caráter didático, apresentados ao final de
+um curso específico, elaboradas por alunos iniciantes na autêntica monografia ou de “ini-
+ciação à pesquisa e como preparação de seminários” (Salvador, 1980, p. 32).
+• Trabalho de conclusão de curso de graduação - ao final da graduação, alguns
+cursos exigem a apresentação de um trabalho baseado, geralmente em fontes bibliográfi-
+cas. Não é necessário ser muito extenso nem muito específico, mas deve ter clareza e
+encadeamento lógico.
+• Monografia de especialização
+• Monografia científica -  trabalho científico apresentado ao final do curso de
+mestrado.
+Estrutura da monografia
+Os trabalhos científicos, em geral, apresentam a mesma estrutura: Introdução, de-
+senvolvimento e conclusão.
+Fonte: Bello, 2005, p. 35.
+Elementos pré-textuais
+• Capa ou falsa folha de rosto - elemento obrigatório em que constam o nome da
+universidade (opcional), nome do autor, título, subtítulo (se houver), número de volumes
+(se houver mais de um), local (cidade) e ano do depósito; É importante ressaltar que a
+ABNT não determina a disposição destes dados na folha. Esta distribuição deve ser
+41
+definida pelo professor ou pela Instituição, para uniformização de seus trabalhos acadê-
+micos.
+• Folha de Rosto - elemento obrigatório, em que devem aparecer as mesmas infor-
+mações contidas na Capa, ou seja, as informações essenciais da origem do trabalho.
+• Folha de aprovação - obrigatório, deve conter o nome do autor, título (e subtí-
+tulo, se houver) do trabalho, natureza, objetivos, nome da instituição, área de concentra-
+ção, data da aprovação, nome, titulação, assinatura dos componentes da banca e as
+instituições a que fazem parte.
+• Dedicatória - opcional, devendo ser breve e colocada à margem direita inferior
+da folha.
+• Agradecimentos - elemento opcional em que o autor agradece a todas as pesso-
+as que contribuíram na elaboração do trabalho.
+• Epígrafe - opcional; citação direta escolhida pelo autor para destacar o trabalho.
+A localização fica a critério da estética do autor do trabalho. Deve vir acompanhada do
+nome do autor da frase. Podem estar localizadas também nas folhas de abertura das
+seções primárias.
+• Resumo em língua vernácula - elemento obrigatório em língua vernácula e em
+língua estrangeira (inglês, espanhol ou francês). Texto (e não tópicos) que represente um
+resumo conciso do trabalho. Não deve ultrapassar 500 palavras.
+• Lista(s) (figuras, tabelas, siglas, símbolos e abreviatura) - item opcional que
+deve ser apresentado na ordem em que aparece no trabalho, com o nome da ilustração e
+a página onde se encontra. Caso haja mais de um tipo pode ser apresentado separada-
+mente (fotografias, gráficos, tabelas etc.).
+• Sumário - item obrigatório, consiste na enumeração das principais divisões, se-
+ções e outras partes de um documento, na mesma ordem em que a matéria nele se suce-
+de. O título de cada seção deve ser datilografado com o mesmo tipo de letra em que
+aparece no corpo do texto. A indicação das páginas localiza-se à direita de cada seção.
+Elementos textuais
+• Introdução - formulação clara e simples do tema investigado, a apresentação
+sintética da questão, justificativa, objeto e objetivos, importância da metodologia utilizada
+e rápida referência a trabalhos anteriores realizados sobre o mesmo assunto.
+• Desenvolvimento - fundamentação lógica do trabalho de pesquisa, cuja finalida-
+de é expor e demonstrar as idéias principais. É a parte onde toda a pesquisa é apresenta-
+da e desenvolvida. O texto deve expor um raciocínio lógico, ser bem estruturado, com o
+uso de uma linguagem simples, clara e objetiva. No desenvolvimento devem constar:
+• Explicação - apresentar o sentido de uma noção, analisar e compreender,
+42
+procurando suprimir o ambíguo ou obscuro.
+• Discussão - exame, argumentação, fundamentação e enunciação das pro-
+posições.
+• Demonstração - é a dedução lógica do trabalho, implica o exercício de
+raciocínio e seqüência lógica.
+• Conclusão - resumo completo, mas sintetizado, da argumentação dos dados e
+dos exemplos constantes das duas primeiras partes do trabalho. O autor avalia os resulta-
+dos obtidos e propondo soluções e aplicações práticas.
+Elementos pós-textuais
+• Referências - item obrigatório, devendo ser organizadas segundo a norma NBR
+6023 da ABNT. Representam o conjunto de indicações que possibilitam a identificação
+de documentos, publicações, no todo ou em parte.
+• Anexos (se achar necessário) - compreendem o material elaborado por tercei-
+ros, que devem ser identificado por letras maiúsculas consecutivas,  travessão e respecti-
+vos títulos.
+• Apêndices - materiais suplementares elaborados pelo autor.
+• Glossário - item opcional que consiste na explicação dos termos técnicos, verbe-
+tes ou expressões que constam do texto.
+• Índice(s) - elemento opcional que contém a relação detalhada dos assuntos, no-
+mes, pessoas etc. observando a ordem alfabética acompanhados das páginas em que são
+comentados dentro do trabalho.
+Normas para indicação de referência
+Por referência entende-se “o conjunto padronizado de elementos descritivos, reti-
+rados de um documento, que permite sua identificação individual” (NBR 6023, p. 2),
+determinada por meio de normatização.
+O principal padrão internacional que orienta a elaboração de documentos é a Nor-
+ma ISO-690. A partir da International Standardization Organization (ISO) outros países
+criaram seus próprios órgãos normativos. No Brasil, a Associação Brasileira de Normas
+Técnicas (ABNT) é a responsável por adaptar, criar e comercializar as normas nacionais.
+Fundada em 1940, além de representante da ISO e da Associação Mercosul de Norma-
+lização - AMN, a ABNT está organizada em Comitês Brasileiros e Organismos de Nor-
+malização Setorial, sendo que estes Comitês e Organismos são orientados para atender
+ao desenvolvimento da tecnologia e a participação efetiva na normalização internacional e
+regional. As normas de documentação são estabelecidas pelo Comitê Brasileiro da área
+de Bancos, Técnico da ABNT (CB -14 Bancos, Seguros e Documentação) e servem
+como ferramentas de apoio e padronização na elaboração de trabalhos acadêmicos.
+A NBR-10520, de acordo com a ABNT, trata especificamente da elaboração de
+43
+citações bibliográficas e a última revisão aconteceu em agosto de 2002.
+A Associação reformulou a NBR-10520, e ela é a norma regida atualmente para
+padronização dos trabalhos acadêmicos e técnico-científicos. A partir daí, diversas publi-
+cações que abordam a metodologia do trabalho científico foram revisadas e algumas ain-
+da permanecem com a normalizada antiga da ABNT.
+O texto acadêmico deve ser apresentado em papel branco, formato A4 (21,0 cm x
+29,7 cm); Somente o anverso da folha deve ser utilizado. A fonte deve ter o tamanho 12
+para o texto e 10 para as citações longas, resumo e notas de rodapé.
+Para uma apresentação estética do trabalho, as margens devem ser respeitadas:
+esquerda e superior de 3,0 cm e direita e inferior de 2,0 cm; o espaçamento de 1,5 de
+entrelinhas, exceto citações e notas de rodapé. As citações que ultrapassam três linhas
+são escritas em outro parágrafo, em fonte menor.
+Os títulos das seções devem ser separados do texto que os precedem ou que os
+sucedem com um espaço duplo ou dois espaços simples. Fonte Arial 12, em negrito. O
+texto deve ser digitado com 1,5 de entrelinhas. Fonte Arial 12, espaçamento “ antes 6pt e
+depois 6 pt ‘
+As notas de rodapé são indicações ao pé das páginas, podendo ser de referência
+ou de conteúdo. Devem ser digitadas dentro das margens, ficando separadas do texto por
+um espaço simples de entrelinhas e por um filete de 3,0 cm, a partir da margem.
+Indicativos de seção
+O número da seção deve estar antes do título e à esquerda, separado por um
+espaço de caractere, obedecendo à ordem crescente. Os títulos, sem indicativos numéri-
+cos, devem ser apenas centralizados, como lista de ilustrações, resumo, referências e
+outros.
+Citações
+Citação é a menção, no texto, de uma informação obtida em outra fonte. De acor-
+do com a ABNT (NBR 10520), as formas de citações mais conhecidas são:
+• Citação direta - literais ou textuais: transcrição textual de parte da obra do autor
+consultado;
+• Citação indireta - texto baseado na obra do autor consultado;
+• Citação de citação - citação direta ou indireta de um texto em que não se teve
+acesso ao original;
+• Notas de referência - indicam fontes consultadas ou remetem a outras partes
+onde o assunto foi abordado;
+• Notas de rodapé - indicações, observações ou aditamentos ao texto feitos pelo,
+tradutor ou editor, podendo também aparecer na margem esquerda ou direita da mancha
+gráfica;
+• Notas explicativas - notas usadas para comentários, esclarecimentos ou explana-
+ções, que não podem ser incluídos no texto.
+As citações podem aparecer no próprio texto ou nas notas de rodapé. As citações
+44
+são mencionadas no texto com a finalidade de esclarecer ou completar as idéias do autor,
+ilustrando e sustentando afirmações. Toda documentação consultada deve ser obrigatori-
+amente citada em decorrência aos direitos autorais. Vejamos algumas:
+• A citação direta curta, isto é, com menos de 3 linhas, deve ser feita na continuação
+do texto, entre aspas.
+• Se a citação for longa (com 3 linhas ou mais), as margens devem ser recuadas à
+direita em 4 cm, em espaço um (1), com a letra menor que a utilizada no texto e sem
+aspas.
+• As supressões [...], interpolações, acréscimos ou comentários [   ], ênfase ou
+destaque (grifo, negrito ou itálico) devem ser indicadas.
+• Se os dados forem obtidos por informação verbal (palestras, debates, comunica-
+ções etc.), deve-se indicar entre parênteses a expressão (informação verbal), mencionan-
+do-se os dados disponíveis em nota de rodapé.
+No caso da citação feita por outro pesquisador, cita-se o nome do autor do docu-
+mento não consultado, seguido das expressões apud ou “citado por”, “conforme”, “se-
+gundo” e, em seguida, o sobrenome do autor do documento consultado, seguido da data
+de publicação.
+Nas citações indiretas, o texto é baseado na obra do autor consultado, podendo
+ser usada a paráfrase.
+A citação pode vir logo após o texto, no rodapé da página onde aparece a citação
+ou no final de cada parte ou capítulo. Se vier em rodapé, coloca-se um número ou um
+asterisco sobrescrito que deverá ser repetido no rodapé da página. As citações colocadas
+em forma de notas no final do capítulo devem ser numeradas em ordem crescente. Todas
+as citações aparecem no final do trabalho listadas em ordem numérica crescente, no todo
+ou por capítulo.
+Referências
+Por referência entende-se um conjunto de elementos que permitem a representa-
+ção e identificação dos documentos citados no trabalho ou, conforme a NBR 6023, p. 2,
+é o “o conjunto padronizado de elementos descritivos, retirados de um documento, que
+permite sua identificação individual”, determinada por meio de normatização.
+As referências possuem elementos essenciais (indispensáveis à identificação do
+documento) e complementares (permitem melhor caracterização dos documentos). As
+informações essenciais à identificação das fontes consultadas e utilizadas em pesquisas e
+elaboração de trabalhos acadêmicos devem ser retiradas da folha de rosto ou da ficha
+catalográfica e agrupadas de maneira padronizada. São essenciais AUTORIA, título:
+subtítulo (se houver). Edição. Local: Editora, ano. Os elementos complementares são:
+AUTORIA, título: subtítulo (se houver). Organização. Tradução. Edição. Local: Editora,
+ano. Total de páginas. Tradução de: Título original. ISBN.
+• Toda referência deve ser datada com algarismos arábicos.
+• O alinhamento deve ser feito à margem esquerda do texto e de forma a identificar
+45
+cada documento.
+• Materiais consultados e sem autoria, cujo elemento de entrada é o próprio título,
+devem ser destacados pelo uso de letras maiúsculas na primeira palavra (com exceção de
+artigos).
+A seguir, são apresentados alguns procedimentos para referenciar livros e artigos
+publicados em periódicos:
+a) Livro de um único autor
+b) Livros até com três autores
+c) Livros com mais de três autores
+d) Livros com vários autores com um organizador
+e) Tese ou dissertação
+f)   Artigo ou revista assinado
+RUDIO, F. V. Introdução ao Projeto de Pesquisa Científica. Ed. Vozes. São
+Paulo, 1996.
+CERVO, Amado Luiz; BERVIAN, Pedro Alcino. Metodologia científica. 5.ed.
+São Paulo, SP: Pearson Pretice Hall, 2002.
+FERNANDES, Florestan (Org.) Comunidade e sociedade no Brasil: leituras
+basicas de introdução ao estudo macro e sociológico no Brasil. São Paulo: Na-
+cional/Edusp, 1972.
+NASCIMENTO, Eloy Lago; MOURA, Gercinaldo; AZEVEDO, Sérgio L. M.
+de. et. all.Manual de Normalização e Normas Técnicas da FASETE. Paulo
+Afonso-BA: 2005.
+RIBEIRO, Maria das Graças Carvalho. Uma abordagem semântico-discursiva
+de estruturas nominais em -mente em discursos orais dialogados, Tese (Dou-
+torado em Lingüística) - Pós-Graduação em Letras e Lingüística. Recife-PE:
+UFPE. 2003.
+DEMO, Pedro.  A sociologia crítica e a educação: contribuições das ciênci-
+as sociais para a educação. Rev. Em Aberto, Brasília: ano 9, n. 46. 1990
+46
+MOURA, Gevilasio A. C. de. Citações e referências de documentos eletrô-
+nicos (on line). Recife: jun. 1996. Disponível em [3 mar 1997].
+SILVA NETO, Amâncio. Situación social de America Latina. Anais do II
+Congresso Latino-americano de Estudos Sociais. Santiago do Chile:
+CEPAL, 1982.
+UNIVERSIDADE ESTADUAL PAULISTA. Coordenação Geral de Bibliote-
+cas e Editora Unesp. Normas para publicação da Unesp. São Paulo: Unesp,
+1994, 4 v.
+g) Artigo de jornal - assinado
+h) Artigo de jornal - não assinado
+i)   Obras de entidades coletivas
+j)   Trabalho apresentado em evento científico
+k)   Documentos eletrônicos
+IRLANDA do Norte fecha acordo de paz histórico. Folha de S. Paulo, São
+Paulo, 11 abr. 1997, p. 1-10.
+BATISTA JR., Paulo Nogueira. Chile em transe. Folha de S. Paulo, São Paulo,
+2 jul. 1998, p. 2-2.
+47
+REFERÊNCIAS
+ABNT - Associação Brasileira de Normas Técnicas. NBR 6023 - Informação e
+documentação - Referências - Elaboração. São Paulo: ABNT, 2002. 24p.
+ABNT - Associação Brasileira de Normas Técnicas. NBR 6027 - Sumário. São
+Paulo: ABNT, 2003. 2p.
+ABNT - Associação Brasileira de Normas Técnicas. NBR 6028 - Resumos. São
+Paulo: ABNT, 1990. 3p.
+ABNT - Associação Brasileira de Normas Técnicas. Informação e documentação
+ABNT - Associação Brasileira de Normas Técnicas. NBR 10520 - Apresentação de
+citações em documentos. São Paulo: ABNT, 2002. 7p.
+ABNT - Associação Brasileira de Normas Técnicas. NBR 14724 Informação e
+documentação. Trabalhos Acadêmicos - Apresentação. São Paulo: ABNT, 2002.
+6p.
+ANDRADE, Maria Margarida de. Introdução à metodologia do trabalho científico:
+elaboração de trabalhos na graduação. 4 ed. São Paulo: Atlas, 1998.
+______ . Como preparar trabalhos para cursos de pós-graduação. São Paulo: Atlas,
+1995.
+CENTRO UNIVERSITÁRIO SÃO CAMILO. Trabalhos científicos: orientações e
+normas. São Paulo: Centro Universitário São Camilo, 2002.
+GIL, Antonio Carlos. Métodos e Técnicas de Pesquisa Social 5. ed. São Paulo:Atlas,
+2006.
+GONÇALVES, Hortência de Abreu. Manual de metodologia da pesquisa. São Paulo:
+Avercamp, 2005.
+______. Manual de resumos e comunicações científicas. São Paulo:  Avercamp, 2005.
+______. Manual de artigos científicos. São Paulo: Avercamp, 2004b.
+______. Manual de monografia, dissertação e tese. São Paulo: Avercamp, 2004.
+LAKATOS, Eva Maria; MARCONI, Maria de Andrade. Metodologia científica. São
+Paulo: Atlas, 1986. 248 p. (Esclarece o que é conhecimento científico e as técnicas de
+pesquisa).
+48
+LAKATOS, E. M. & MARCONI, M. A. Metodologia do Trabalho Científico. Ed.
+Atlas, São Paulo, 1995.
+LAKATOS, E. M. & MARCONI, M. A. Técnicas de Pesquisa. São Paulo: Ed. Atlas,
+1999.
+______ . Técnicas de pesquisa. São Paulo: Atlas, 1986.
+MACHADO, Ana Raquel (coordenação)...[et al].Planejar gêneros acadêmicos. São
+Paulo: Parábola Editoria, 2005
+MARTINS, Gilberto de Andrade; LINTZ, Alexandre. Guia para elaboração de
+monografias e trabalhos de conclusão de curso. São Paulo: Atlas, 2000.
+MEDEIROS, João Bosco. Redação científica: a prática de fichamentos, resumos, rese-
+nhas. 9 ed. São Paulo: Atlas, 2007.
+PATERNEZ. Ana Carolina A. Colucci; CHINEN Jorge. Normas para elaboração de
+trabalhos acadêmicos. Faculdades Integradas Coração de Jesus. Santo André. 2004.
+Disponível em: http:/www.fainc.br/Normas. Pdf. Acesso em: 22 fev. 2008.
+SALOMON, Delcio V. Como fazer uma monografia. São Paulo: Martins Fontes, 1996.
+SEVERINO, Antonio Joaquim. Metodologia do trabalho científico. 19. ed. São Paulo
+: Cortez, 1993.

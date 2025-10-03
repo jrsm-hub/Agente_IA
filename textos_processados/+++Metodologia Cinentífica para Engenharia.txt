@@ -1,0 +1,3834 @@
+ 
+ 
+1
+ 
+ 
+ 
+ 
+ 
+ 
+MATERIAL DE APOIO 
+ 
+ 
+ 
+ 
+ 
+METODOLOGIA DE PESQUISA EM 
+ENGENHARIA 
+ 
+ 
+DEPARTAMENTO DE CIÊNCIAS EXATAS 
+ 
+MATERIAL ORGANIZADO PELOS PROFESSORES 
+ 
+Maria Ap. Silva Salim 
+Celso Henrique Telles Ferreira 
+Chafiha Maria S. Laszkiewicz 
+Ligia Ramo de Souza Rosa 
+ 
+ALUNO:___________________________________RA:_____________ 
+CURSO:__________________________________SALA:____________ 
+ 
+ 
+ 
+ 
+ 
+UNIVERSIDADE NOVE DE JULHO 
+ 
+2º SEMESTRE  -  2009 
+ 
+ 
+2
+ 
+ 
+CIÊNCIA 
+ 
+Definição de ciência 
+ 
+Dicionário Aurélio 
+ 
+Ciência [Do lat. scientia.] Conhecimento. Saber que se adquire pela leitura e meditação; 
+instrução, erudição, sabedoria. Conjunto organizado de conhecimentos relativos a um 
+determinado objeto, especialmente os obtidos mediante a observação, a experiência dos fatos 
+e um método próprio. 
+  
+Dicionário Houaiss 
+ 
+Conjunto de conhecimentos sistematizados relativos a um determinado objeto de estudo.  
+O que é ciência afinal? 
+               Durante muito tempo o homem iniciou uma jornada em busca do conhecimento para buscar 
+possíveis respostas a certas questões referentes a problemas do seu dia-a-dia. Algumas destas respostas 
+eram, muitas vezes, explicadas de forma mística à medida que utilizavam a mitologia para explicá-las. 
+Quando o homem passou a questionar estas respostas e a buscar explicações mais plausíveis, por meio 
+da razão, excluindo suas emoções e suas crenças religiosas, passou-se a obter respostas mais realistas, 
+se aproximavam mais da realidade das pessoas e por isto, talvez, passaram a ser bem aceitas pela 
+sociedade. Podemos dizer que essa nova forma de pensar do homem foi que criou a possibilidade do 
+surgimento da idéia de ciência e que sua tentativa de explicar os fenômenos, por meio da razão, foi o 
+primeiro passo para se fazer ciência. Mas o que é ciência afinal?                                     
+               A ciência é uma especialização, um refinamento de potenciais comuns a todos. [...] é a 
+hipertrofia de capacidades que todos têm. Isto pode ser bom, mas pode ser muito perigoso. Quanto 
+maior a visão em profundidade, menor a visão em extensão. A tendência da especialização é conhecer 
+cada vez mais de cada vez menos [...] a aprendizagem da ciência é um processo de desenvolvimento 
+progressivo do senso comum. Só podemos ensinar e aprender partindo do senso comum de que o 
+aprendiz dispõe (Alves: 1981, p. 12). 
+               Entende-se por senso comum o conhecimento adquirido pelas pessoas através do convívio 
+social com outros indivíduos (o senso comum advêm das múltiplas relações entre os familiares, os 
+amigos, na rua e até mesmo na escola) de onde é extraído o conhecimento científico. 
+               Senso comum é aquilo que não é ciência [...] a ciência é uma metamorfose do senso comum. 
+Sem ele, ela não pode existir. (Alves: 1981, p. 14) 
+              A diferença entre o senso comum e o conhecimento científico é que o senso comum é 
+formado por sentimentos, desejos e misticismo já, o conhecimento científico, é formado através da 
+razão e de forma metodologicamente rigorosa procurando excluir, do seu contexto, as emoções, as 
+crenças religiosas e os desejos do homem. Isto quer dizer que há uma relação entre estes 
+ 
+ 
+3
+conhecimentos, pois se pode observar uma continuidade entre o pensamento científico e o senso 
+comum. 
+               Estou tentando mostrar que existe uma continuidade entre o pensamento científico e o senso 
+comum [...].(Alves: 1981, p. 17). 
+               A comunidade científica pode ter criado a expressão "senso comum" , como uma forma de 
+diferenciar o cientista do cidadão comum, causando uma certa polêmica, mas o que nos interessa é 
+que, atualmente, essa mesma comunidade científica, procura enveredar os caminhos a busca do 
+conhecimento científico para possibilitar um maior avanço da ciência. Isto porque, segundo eles, 
+devemos aprender a inventar soluções novas abrindo portas até então fechadas e a descobrir novas 
+trilhas, devemos procurar a aprender maneiras novas de sobrevivência. 
+              Pessoas que aprendem a inventar soluções novas são aquelas que abrem portas até então 
+fechadas e descobrem novas trilhas. A questão não é saber uma solução já dada, mas ser capaz de 
+aprender maneiras novas de sobreviver (Alves: 1981, p. 23). 
+              Durante toda a história da humanidade o homem sempre se preocupou em organizar as coisas, 
+seja no trabalho, em casa ou em qualquer outra situação para que  possa fazer as coisas com mais 
+praticidade e qualidade a fim de facilitar nossa vida no dia-a-dia. O mesmo ocorre na ciência, pois os 
+cientistas quando anunciam uma teoria, eles procuram mostrar como se processa a ordem das coisas 
+para que se possa formar um modelo representativo da realidade. Esse modelo tem por objetivo a 
+busca de um padrão que possibilite fazer previsões. Isto quer dizer que o homem, através da ciência, 
+busca uma ordem das coisas. 
+              A ordem é a primeira inspiração da ciência. Quando um cientista anuncia uma lei ou uma 
+teoria, ela está contando como se processa a ordem, está oferecendo um modelo da ordem. Agora ele 
+poderá prever como a natureza vai se comportar no futuro. É isto que significa testar uma teoria: ver 
+se, no futuro, ela se comporta como o modelo previu. [...] as coisas são nos céus como são no homem. 
+Tudo é um cosmos, ordem [...] (Alves: 1981, p.27). 
+               Partindo da concepção que os cientistas só buscam fatos decisivos para a confirmação ou 
+negação de suas teorias também é necessário saber que só os resultados destas teorias é que permite 
+julgar se a elaboração dos conhecimentos produzidos segue ou não a via segura da ciência como 
+ocorreu com a Lógica, a Matemática e a Física, por exemplo. Pois, o que há de razão nas ciências é 
+algo que é conhecido como a priori. É desse algo que possibilita a razão se referir ao seu objeto de 
+estudo através da determinação deste e do seu conceito ou então pela sua realização. Esse termo a 
+priori corresponde a aquele conhecimento que já possuímos sem tê-lo visto e representado, pois ele 
+existe apenas na mente, abstratamente que, torna possível, antes da realização de um experimento, já 
+existir um plano, uma razão de realizá-lo e, consequentemente, uma teoria. 
+               A razão só entende aquilo que produz segundo os seus próprios planos; que ela tem que 
+tomar a dianteira com princípios, que determinam nos seus juízos segundo leis constantes e deve 
+forçar a natureza a responder às suas interrogações em vez de se deixar guiar por esta; de outro modo, 
+as observações feitas ao acaso, realizadas sem plano prévio, não se ordenam segundo a lei necessária,  
+que a razão procura e de que necessita. (Kant: 1997, p.18). 
+              Uma ciência madura é governada por um único paradigma. O paradigma determina os 
+padrões para o trabalho legítimo dentro da ciência que governa. Ele coordena e dirige a atividade de 
+"solução de charadas" do grupo de cientistas normais que trabalham em seu interior. A existência de 
+um paradigma capaz de sustentar uma tradição de ciência normal é a característica que distingue a 
+ciência da não-ciência (Chalmers: 1929 p. 125). 
+ 
+ 
+ 
+4
+ 
+ 
+ 
+TIPOS DE CONHECIMENTO                   
+(Texto adaptado/extraído de JARDILINO, José Rubens, ROSSI, Gisele, SANTOS, Gérson 
+Tenório. Orientações metodológicas para elaboração de trabalhos acadêmicos. São Paulo: 
+Gion, 2000, p. 14-17)                       
+ 
+“Sobre uma tipologia do conhecimento, existe uma quase unanimidade nos autores 
+que estudam o ato de conhecer. Certamente, essa tipologia não nasceu do nada. Ela nos 
+persegue desde os primórdios da filosofia. Os pré-socráticos, na sua procura pela arché,  
+buscavam o conhecimento das coisas e dos seres. Desta maneira, podemos entender que o ato 
+de conhecer não é meramente um problema da era científica, mas algo que sempre norteou a 
+filosofia. Os compêndios de metodologia científica e a filosofia da ciência, portanto, 
+procuram elucidar o problema do conhecimento e os métodos e técnicas de comunicá-los. 
+Cervo & Bervian (1983) trabalham de maneira didática os níveis de conhecimento, 
+agrupando-os em quatro modalidades – conhecimento empírico ou vulgar, conhecimento 
+científico, conhecimento filosófico e conhecimento teológico.  
+O conhecimento empírico diz respeito aos conhecimentos obtidos pelo mundo 
+sensível, mediatizados pela experiência, porém sem aprofundamento e sem obediência a uma 
+ordem metódica. Este tipo de conhecimento é adquirido através do saber transmitido pelas 
+tradições de uma geração à outra, e, em muitos casos, pela aprendizagem de um saber já 
+produzido pela humanidade. É ametódico e assistemático. 
+ Por outro lado, os autores apresentam um outro tipo de conhecimento que se opõe ao 
+empírico – o conhecimento científico – que, fruto de uma observação sistemática e metódica, 
+vai além fenômeno percebido pela experiência sensível. É demonstrado através de 
+argumentações ou comprovações laboratoriais. 
+O conhecimento científico se caracteriza por três propriedades: demonstração – saber 
+explicar os motivos pelos quais se chegou a determinada conclusão; por isso, trata-se de um 
+conhecimento que contém uma verdade demonstrável; universalidade – maneira pela qual um 
+saber se torna válido, ou seja, o fenômeno ou coisa observada serve para todos os casos da 
+mesma espécie; metódico/objetivo – o saber científico reconhece que existe uma correlação 
+entre os fenômenos e, portanto, necessita de um método para selecionar, observar 
+ordenadamente os dados sobre o fenômeno estudado. Este caminho possibilita ao cientista 
+estabelecer – pela demonstração de suas hipóteses – leis, princípios e teorias. É universal 
+porque obedece a um método: “a ciência, partindo do indivíduo concreto, procura o que nela 
+há de comum com os demais da mesma espécie” (Cervo & Bervian, 1983:8). Desta maneira, 
+o conhecimento científico busca compreender o fenômeno e explicá-lo. Nesta caminhada em 
+busca da verdade, ele encontra novas explicações e revisões do conhecimento anterior; por 
+isso, ele é dinâmico. A ciência não é considerada como algo pronto ou definitivo, não tem a 
+posse definitiva de verdades imutáveis; é algo dinâmico, em constante renovação e avaliação. 
+É um processo. 
+Outro tipo de conhecimento citado é o conhecimento filosófico. Se for verdade que a 
+filosofia nasce do espanto e de um ato de admiração, podemos dizer que este tipo de 
+conhecimento se distingue em gênero e grau do anterior. Primeiro porque não obedece ao 
+mesmo método e, segundo, por seu objeto não estar preso à experiência sensível. A filosofia 
+não se preocupa em explicar o fenômeno, mas em refletir sobre ele. Se a ciência procura 
+tomar pose do objeto como ato de conhecimento, a filosofia busca compreendê-lo em sua 
+essência fazendo-lhe perguntas. No dizer de Karl Jaspers:  
+ 
+ 
+5
+Só o conhecimento filosófico nos pode libertar da prisão deste mundo [científico]. 
+O conhecimento filosófico deve, antes de tudo, ser capaz de surpreender-se com o 
+óbvio: qual a significação do fato de que, pensando nós sejamos sujeitos que se 
+dirigem a objetos (sic) e dessa dicotomia vejamos residir a clareza? A partir desse 
+espanto em relação ao que está presente a todo instante, ao que até agora era 
+evidente e não levantava dificuldade, ao que não merecia atenção mais demorada, 
+a partir desse espanto, dizíamos, chegamos a outros problemas, (Jaspers 1965:41) 
+ 
+Assim, podemos dizer que o conhecimento filosófico resume-se na reflexão sobre o 
+real, o interroga e o problematiza. A tarefa fundamental da filosofia  é fazer perguntas e não 
+dar respostas. 
+Por fim, temos o conhecimento teológico, que será todavia, denominado, neste texto, 
+de conhecimento metafísico, uma vez que nos parece mais abrangente. Este conhecimento 
+está sempre relacionado a um conhecimento revelado a grupo pequeno de “iluminados”, os 
+quais têm a incumbência de pedagogicamente repassar para os iniciados tudo o que lhes foi 
+revelado. É considerado “metafísico” porque é um conhecimento que transcende a realidade 
+concreta dos seres humanos, provém de outras instâncias que se encontram fora da concretude 
+histórica, mas produz uma visão de mundo pela qual os homens se orienta. Esta maneira de 
+pensar, especialmente na cultura ocidental, consiste em aceitar as explicações legitimadas por 
+uma autoridade eclesiástica e outras que já tenham desvelado os mistérios que envolvem 
+determinado objeto [podem estar ligados a elementos da natureza, vida futura ou até mesmo à 
+existência de divindades]”. 
+ 
+Leia os textos a seguir e identifique-os entre os quatro tipos de conhecimentos: 
+ 
+ 
+1. “Aristóteles (...) embora em diversas passagens de seus escritos (na Metafísica, na Física, na 
+Psicologia) formule algo que poderia parecer-se com o que chamaríamos hoje provas da existência de 
+Deus – não crê que seja necessário demonstrar a existência de Deus. Porque para Aristóteles a 
+existência de algo implica necessariamente na existência de Deus. (...) Para Aristóteles não faz falta a 
+prova da existência de Deus, porque a existência de Deus é tão certa como que algo existe. Se estamos 
+certos de que algo existe, estamos certos de que Deus existe.”  
+(MORENTE, M. Garcia. Fundamentos de Filosofia. Lições preliminares. São Paulo: Mestre 
+Jou, [1970], p.99) 
+ 
+ 
+2. Um copo de cristal quebra, quando submetido a um forte golpe. 
+ 
+3. “Toda fonte de calor transmite ao corpo aquecido uma dose de energia. A energia contida no calor 
+(energia térmica) é transformada em energia mecânica. Essa energia é absorvida pelas partículas que 
+fazem parte da substância. São as chamadas moléculas. As moléculas, tendo maior energia, tendem a 
+se deslocar com maior velocidade e a se afastar umas das outras”. 
+(Adaptado de LUNGARZO, Carlos. O que é ciência. 6ª ed. São Paulo: Brasiliense, 1994, col. 
+“Primeiros Passos”, nº 22, p.9-16). 
+4. A água começa a ferver aos cem graus de temperatura. 
+ 
+5. Uma pessoa, em contato com um cabo de aço ligado a uma fonte de alta tensão, morre. 
+ 
+6. “O cristal do copo é constituído por pequenas partículas, ligadas por forças muito fracas. É 
+suficiente um forte golpe para eliminar essa ligação e decompor o copo em pedaços. Todos os líquidos 
+podem ferver a determinadas temperaturas. No caso da água, cem graus é, por definição, essa 
+temperatura”. 
+(Adaptado de LUNGARZO, Carlos. O que é ciência. 6ª ed. São Paulo: Brasiliense, 1994, col. 
+“Primeiros Passos”, nº 22, p.9-16). 
+ 
+ 
+6
+ 
+7. “E eletricidade é produzida pela relação entre partículas elementares dentro dos átomos de um 
+corpo. A ‘corrente elétrica’ é transmitida por certos corpos, porque eles permitem a passagem de 
+elétrons. O aço é um metal, e os metais são bons condutores. Então, ele transmite a eletricidade desde 
+a fonte de força até a pessoa que segura o cabo. Uma tensão elétrica alta produz perturbações muito 
+graves nas células. Portanto, a pessoa que recebe aquela tensão, morre”. 
+(Idem, ibidem). 
+ 
+8.  “Magos e xamãs têm poderes extraordinários para ajudar e proteger os seres humanos 
+porque podem entender-se com espíritos invisíveis de todos os tipos e enfrentá-los. Esses 
+poderes se manifestam tanto em atos como em atributos”.  
+(FRAZER, James George Sir. O ramo de ouro. Rio de Janeiro: 1982, p. 19) 
+ 
+9. “(...) a teoria de Leibniz sobre a origem da verdade de razão descobre aquilo que, a partir 
+dele, e sobretudo em Kant, vamos chamar a priori. A priori é um termo latino que quer dizer, 
+nesses arrazoados filosóficos, independentes da experiência. Diremos, pois, que as verdades 
+de razão são a priori, independentes da experiência, são prévias à experiência, ou, melhor 
+dito, alheias a elas, se desenvolvem florescendo dos germes que há em nosso espírito, sem 
+necessidade de ter sido impressas em nós pela experiência, a qual não poderia imprimi-las, 
+porque aquilo que imprime em nós são os fatos, e os fatos são sempre contingentes, nunca 
+necessários”.  
+(MORENTE, M. Garcia. Fundamentos de Filosofia. Lições preliminares. São Paulo: Mestre 
+Jou, [1970], p.197) 
+ 
+ 
+A IMPORTÂNCIA DO PADRÃO METODOLÓGICO 
+                                                                                           
+ 
+A METODOLOGIA E A UNIVERSIDADE 
+(Texto adaptado/extraído de BARROS, Aidil Jesus Paes de; LEHFELD, Neide Aparecida de 
+Souza. A metodologia e a universidade. In: _____. Fundamentos de metodologia: um guia 
+para a iniciação científica. São Paulo: Mc Graw-Hill, 1986, p. 1-14) 
+                                                 
+ 
+“Porque não começarmos pela apresentação de um problema àquele que acaba de 
+ingressar no curso superior: O que é Metodologia? Que relação há entre Ciência e 
+Metodologia Científica? Qual a sua importância e utilidade para o universitário? 
+Partindo da definição etimológica do termo temos que a palavra Metodologia vem do 
+grego “meta” = ao largo; “odos” = caminho; “logos” = discurso, estudo. 
+A Metodologia é entendida como uma disciplina que consiste em estudar e avaliar os 
+vários métodos disponíveis, identificando as limitações de suas utilizações. A Metodologia, 
+num nível aplicado, examina e avalia as técnicas de pesquisa bem como a geração ou 
+verificação de novos métodos que conduzem à captação e processamento de informações com 
+vistas à resolução de problemas de investigação. 
+A Metodologia seria a aplicação do método através de técnicas. Constitui o 
+procedimento que deve seguir todo conhecimento científico para comprovar sua verdade e 
+ensiná-la. 
+O método é o caminho ordenado e sistemático, a orientação básica para se chegar a um 
+fim e técnica é a forma de aplicação do método. Representa a maneira de atingir um propósito 
+bem definido. Têm-se então o método como estratégia e as técnicas como táticas necessárias 
+para se operacionalizar a estratégia. 
+ 
+ 
+7
+Assim, o método estabelece de modo geral o que fazer e técnica nos dá o como fazer, 
+isto é, a maneira mais hábil, mais perfeita de fazer uma atividade. 
+A Metodologia no quadro geral da ciência é uma “Metaciência”, isto é, um estudo que 
+tem por objeto a própria Ciência e as técnicas específicas de cada Ciência. A Metodologia não 
+procura soluções mas escolhe as maneiras de encontrá-las, integrando os conhecimentos a 
+respeito dos métodos em vigor nas diferentes disciplinas científicas ou filosóficas. 
+Com relação à importância da Metodologia Científica, esta é baseada na apresentação 
+e exame de diretrizes aptas a instrumentar o universitário no que tange a estudar e aprender. 
+Para nós, mais vale o conhecimento e manejo desta instrumentação para o trabalho científico 
+do que o conhecimento de uma série de problemas ou o aumento de informações acumuladas 
+sistematicamente. Estamos pois voltados para assessorar e colaborar como crescimento 
+intelectual do aluno para a formação de um compromisso científico frente à realidade 
+empírica. 
+A Metodologia auxilia e, portanto, orienta o universitário no processo de investigação 
+para tomar decisões oportunas na busca do saber e na formação do estado de espírito crítico e 
+hábitos correspondentes necessários ao processo de investigação científica. O uso de 
+processos metodológicos permitirá ao estudante o desenvolvimento de seu raciocínio lógico e 
+de sua criatividade. 
+Assim, a Metodologia Científica deve-se propor a desenvolver a capacidade de 
+observar, selecionar e organizar cientificamente os fatos da realidade. 
+Portanto devemos estar voltados para capacitar o estudante, através de reflexões, 
+práticas e reflexões sobre estas mesmas práticas, a uma análise do conhecimento e do seu 
+processo de produção.  
+Através da Metodologia Científica deve-se criar ou estimular o desenvolvimento do 
+espírito crítico e observador do aluno para que ele possa ver a realidade com toda sua nudez, 
+analisando-a e refletindo-a à luz de concepções filosóficas e teóricas. 
+Assim, através do estudo da Metodologia Científica vão sendo apresentadas diretrizes 
+para a formação paulatina de hábitos de estudos científicos já que a pesquisa e a reflexão 
+devem constituir-se em objetivos principais da vida universitária. 
+Metodologia Científica não é um amontoado de técnicas, embora elas devam existir, 
+mas sim um conhecimento que deve estar sempre em relacionamento e a serviço de uma 
+proposta nova de Universidade e conhecimento. 
+A Metodologia Científica estrutura-se, portanto, para contribuir para que a 
+Universidade desenvolva as funções que lhe são impostas frente às necessidades culturais e 
+econômicas emergentes. 
+Assim, a Metodologia Científica vem para auxiliar na formação profissional do 
+estudante. Pretende-se alcançar uma formação profissional competente bem como uma 
+formação sócio-política que conduzirão o aluno a ler crítica e analiticamente o seu cotidiano. 
+A formação profissional competente está diretamente relacionada ao crédito dado ao 
+estudo e à elaboração de um projeto de estudo. Isto é, deve estar implícita a preocupação em 
+aprender as funções advindas de sua carreira profissional. 
+Considerando-se a Universidade como centro do saber, como uma instituição 
+preocupada com a qualificação do ensino, com o rigor da aprendizagem e com o progresso da 
+ciência, ela terá na Metodologia um valioso ajudante quanto ao desenvolvimento de 
+capacidades e habilidades do universitário. Vem, portanto, fornecer os pressupostos do 
+trabalho científico, ou seja, normas técnicas e métodos reconhecidos pelos uso entre 
+cientistas, referentes ao planejamento da investigação científica, à estrutura e à aplicação, 
+apresentação e comunicação dos seus resultados. 
+ 
+ 
+8
+Aprendendo a pensar, a pesquisar e formando o seu espírito científico, o universitário 
+estará obtendo conhecimentos novos e ao mesmo tempo construindo-se como ativo e 
+participante da História”. 
+ 
+Métodos Indutivo e Dedutivo 
+(Texto adapt.  de GARCIA, Othon M. Comunicação em prosa moderna. 7 ed. R. Janeiro: 
+FGV, 1978, p. 296-300 e 485)             
+ 
+Popularmente, método é a melhor maneira de fazer as coisas. Quando dizemos que 
+alguém não tem método de trabalho, o que entendemos é que essa pessoa perde tempo, 
+desperdiça esforço e energia, faz e refaz, isto é, não tem nenhuma disciplina, nenhuma 
+organização. A palavra “método” é o caminho, o fim, pelo qual se chega a um objetivo. Vem 
+do grego meta (= através de) e odos (= caminho). A Lógica – parte da Filosofia – conceitua 
+“método” por processos que o ser humano emprega para investigar, descobrir e chegar à 
+comprovação da verdade. Existem dois tipos principais de operações mentais (métodos de 
+raciocinar): a indução e a dedução. 
+Pela indução, parte-se do particular para o geral, e seu contrário é a dedução – parte-se 
+do geral para o particular. 
+Contudo, existem outros métodos que ajudam a descobrir e a comprovar a verdade, 
+muitos dos quais usamos com freqüência: a análise, a síntese, a classificação, a definição, a 
+demonstração, a comparação, o histórico, o normativo etc. 
+ 
+O método indutivo 
+Parte-se da observação e análise de fatos concretos para se chegar a uma conclusão, a 
+uma lei, norma, regra, ou seja, a uma generalização. Parte-se então do efeito para a causa. 
+Quando se pede a um aluno para fazer um trabalho sobre qualquer tema, através de 
+dissertações, monografias ou ensaios e teses, o que ele primeiramente deve fazer é saber o que 
+já existe, o que já se fez ou se faz, o que se diz sobre o assunto – enfim, ele deve pesquisar: 
+observar os fatos, colher os dados, analisá-los, classificá-los, discuti-los e, finalmente, chegar 
+a uma conclusão. 
+ 
+O método dedutivo 
+O contrário do método indutivo é o dedutivo: parte-se da generalização, do geral, para 
+o particular, da causa para o efeito. É partir daquilo que já existe, já é lei ou norma ou regra 
+para chegar à conclusão. A dedução é formalizada pelo raciocínio chamado “silogístico”. 
+Observe o seguinte exemplo: O estudante X quer vencer as eleições para o grêmio de sua 
+faculdade e usa de fraudes para isso. Ele vence e, mais tarde, é descoberta sua fraude através 
+de inquéritos. Prova-se sua culpa. Como é um mau caráter, candidata-se novamente no ano 
+seguinte e os eleitores, valendo-se do método dedutivo, elaborará o seguinte raciocínio: 
+“Todo candidato condenado por fraude é inelegível; ora, o estudante X foi condenado 
+por fraude; logo, ele é inelegível”.  
+É necessário que a primeira parte do silogismo seja uma premissa universal: todo ou 
+nenhum. Não vale alguns, pois a característica da primeira premissa (primeira frase) deve ser 
+universal. Como se chegou à primeira frase: pelo método indutivo (pela pesquisa, observação, 
+análise); a segunda frase, então, tende a ser verdadeira, logo, a última parte do período 
+ 
+ 
+9
+também é verdadeira. No caso do estudante X, sua inelegibilidade é verdadeira, pois se 
+pesquisou que candidatos fraudadores sempre se tornam inelegíveis, pois não têm integridade 
+moral, então ele também não poderá ser reeleito. Assim dizem as regras. Dessa forma, os 
+eleitores conscientes não deverão votar no estudante X... 
+Contudo, este raciocínio pode apresentar problemas. Observe o silogismo a seguir e 
+decida se é verdadeiro ou não: 
+“Todo comunista lê Karl Marx; ora, José da Silva lê Karl Marx; logo, José da Silva é 
+comunista”. 
+ 
+EXERCÍCIOS 
+ 
+A) Diga se é indução ou dedução: 
+1. Ao longo da história da humanidade, tem sido verificado que, mais cedo ou mais tarde, 
+todos os homens acabam morrendo. Não houve até agora nenhuma exceção. Tal fato nos 
+permite dizer que o homem é mortal 
+ 
+2. As leis científicas, regras, normas, princípios, teorias, generalizações enfim, resultam de um 
+processo de raciocínio dedutivo ou indutivo? 
+ 
+3. Agora, você está diante da palavra “urubu”: põe-lhe acento ou não? Quando se decidir, que 
+método de raciocínio terá seguido? 
+ 
+4. Para chegar à generalização de que toda laranja verde é azeda, você armou um silogismo 
+indutivo ou dedutivo? 
+ 
+ 
+ 
+A PESQUISA 
+ 
+Material preparado pela Profª Ms. Márcia Alegro 
+ 
+I – CONCEITO DE PESQUISA 
+O texto abaixo foi extraído de: SANTAELLA, Lucia. Comunicação e Pesquisa. São Paulo: Hacker 
+Editores, 2001. (p. 111 - 113) 
+“À luz de Peirce, uma definição muito geral e sintética de pesquisa seria a seguinte: toda a 
+investigação de qualquer espécie que seja, nasce da observação de algum fenômeno surpreendente, 
+de alguma experiência que frustra uma expectativa ou rompe com um hábito de expectativa (CP 
+6.469). Quando um hábito de pensamento ou crença é rompido, o objetivo é se chegar a um outro 
+hábito ou crença que se prove estável, quer dizer, que evite a surpresa e que estabeleça um novo 
+hábito. Essa atividade da passagem da dúvida à crença, de resolução de uma dúvida genuína e 
+conseqüente estabelecimento de um hábito estável é o que Peirce chamou de investigação. 
+Da generalidade dessa definição decorre que ela pode se referir a qualquer tipo de 
+investigação e não apenas à científica. Entretanto, ela contém aquilo que se constitui no núcleo de 
+qualquer pesquisa: livrar-se de uma dúvida, buscar uma resposta já é um processo investigativo 
+(grifo nosso), ‘mesmo que seja imediato, assistemático e definido por traços puramente ligados ao 
+senso-comum’ (BARROS e LEHFELD, 1988: 13). Toda pesquisa nasce, portanto do desejo de 
+encontrar resposta para uma questão (grifo nosso). Aliás um tal desejo se constitui sempre na 
+mola central de uma pesquisa, principalmente da científica, pois, sem esse desejo, o pesquisador 
+fenece tragado nos desencantos das obrigações. 
+Por vezes, a pergunta que se busca responder é abstrata. Outras vezes, é prática e, até 
+mesmo, urgente. De todo modo, só a pesquisa nos permitirá respondê-las. Nesse sentido, o esforço 
+dirigido e o conjunto de atividades orientadas para a solução da questão abstrata ou prática ou 
+operativa que se apresenta, resultará na aquisição de conhecimento, mesmo quando o esforço, as 
+atividades e o resultante conhecimento se situam no contexto não especializado do nosso cotidiano. 
+ 
+ 
+10
+Se tem todos esses pontos em comum com a pesquisa em geral, o que faz, então, uma pesquisa ser 
+científica? 
+Antes de tudo, a pesquisa científica exige, pelo menos como pano de fundo, um certo estado 
+de alerta do pesquisador para as questões filosóficas, especialmente epistemológicas1, sobre as leis 
+que regem o conhecimento, sua busca, aquisição, validade etc. Lopes (1990: 88), por exemplo, 
+considera a epistemologia um pólo intrínseco à pesquisa científica e uma das instâncias da prática 
+metodológica. Assentada sobre essas bases, a pesquisa deve se conduzir dentro de um determinado 
+campo da ciência a que o objeto ou assunto da pergunta pertence e à luz de algum quadro teórico de 
+referência e de suas predições, quadro teórico este que deve ser selecionado em função de sua 
+adequação para responder a pergunta que se tem. 
+Além disso, para resolver a dificuldade, formulada no problema, o pesquisador não pode 
+‘apenas adivinhar, fazer suposições gratuitas ou emitir opiniões superficiais e inconsistentes’, mas 
+deve realizar sua busca através de levantamento de dados, através de um método coletâneo ao 
+quadro teórico de referência e também adequado à dificuldade a ser resolvida, método este com suas 
+técnicas específicas. Tudo isso se constitui em ‘um processo pelo qual, ao mesmo tempo, se busca, 
+examina e prova a solução’ (RUDIO, 1992: 9, 71). 
+Só isso pode ser chamado de pesquisa científica porque só isso pode resultar em 
+conhecimento com as características que a ciência exige, isto é, conhecimento verdadeiro e 
+justificado, no sentido em que ‘verdadeiro e justificado’ foi discutido mais acima. Tem-se aí por que a 
+pesquisa é o alimento da ciência. Pesquisa é o modo próprio que a ciência tem para adquirir 
+conhecimento. (grifo nosso) No seu aspecto gerativo, o conhecimento só pode continuar crescendo 
+na medida em que as pesquisas são incessantemente realizadas. Caso contrário, o conhecimento se 
+cristalizaria em fórmulas fixas, nos axiomas2 das crenças estabilizadas ou em meras imposições 
+burocráticas do fazer científico que Peirce chamaria de excremento da ciência. Em suma, a pesquisa 
+científica é uma atividade específica e especializada. Demanda de quem se propõe a desenvolvê-la 
+uma certa vocação, um certo grau de renúncia às agitações da vida mundana e insubmissão às 
+tiranias da vida prática, demanda a curiosidade sincera pelo legado do passado e a vontade 
+irrefreável de prosseguir; exige isolamento disciplinado e conseqüente capacidade para a solidão 
+reflexiva, hábitos de vida muito específicos, ao mesmo tempo que abertura para a escuta cuidadosa e 
+sempre difícil da alteridade, junto com a capacidade renovada de se despojar do conforto das 
+crenças, quando isso se mostra necessário. Exige, ao fim e ao cabo, amor pelo conhecimento. Só 
+esse amor pode explicar a docilidade do pesquisador aos rigores da ciência, especialmente aos 
+rigores do método. 
+O conhecimento científico, portanto, não pode ser alcançado de maneira dispersiva e errante, 
+pois a errância é, via de regra, não apenas custosa em termos de perda de energia e recursos mas é, 
+sobretudo, sem garantias. Por isso mesmo, junto com as questões epistemológicas, a teoria dos 
+sistemas cognitivos ou conceituais engloba questões lógicas e metodológicas.” 
+ 
+ 
+Finalidades da pesquisa 
+ 
+O texto abaixo foi extraído de: OLIVEIRA, Sílvio Luiz de. Tratado de metodologia científica: projetos 
+de pesquisas, TGI, TCC, monografias, dissertações e teses. São Paulo: Pioneira Thomson Learning, 
+2001. (p. 118) 
+“A pesquisa tem por finalidade tentar conhecer e explicar os fenômenos que ocorrem nas 
+suas mais diferentes manifestações e a maneira como se processam os seus aspectos estruturais e 
+funcionais, a partir de uma série de interrogações, tais como: 
+- 
+Por que a classe média tem empobrecido nos últimos anos no Brasil? 
+- 
+Por que os homens vivem em comunidade? 
+- 
+Por que o céu é azul? 
+- 
+Por que o homem assiste TV e o cachorro não? 
+- 
+Por que e quais as razões do homem morrer? 
+- 
+Por que deve existir vida na Lua?” 
+ 
+                                               
+1 Epistemologia: Conjunto de conhecimentos que têm por objeto o conhecimento científico, visando a 
+explicar os seus condicionamentos (sejam eles técnicos, históricos, ou sociais, sejam lógicos, 
+matemáticos, ou lingüísticos), sistematizar as suas relações, esclarecer os seus vínculos, e avaliar os 
+seus resultados e aplicações. 
+2 Axioma: Premissa imediatamente evidente que se admite como universalmente verdadeira sem 
+exigência de demonstração. 
+ 
+ 
+11
+II - PROJETO DE PESQUISA 
+ 
+a) FUNÇÃO 
+ 
+Esclarecer o objetivo principal do trabalho e o caminho (método) para se atingi-lo. 
+ 
+Fornecer todos os elementos importantes para que se julgue a importância, pertinência e 
+suficiência do trabalho para o contexto em que se insere. 
+ 
+Impor uma disciplina de trabalho não só na ordem dos procedimentos lógicos, mas em 
+termos de organização do tempo, de seqüência de roteiros e cumprimentos de prazos. 
+ 
+O texto abaixo foi extraído e adaptado de: SANTAELLA, Lucia. Comunicação e Pesquisa. São Paulo: 
+Hacker Editores, 2001. (p. 150 - 152) 
+ 
+b) O QUE É O PROJETO DE PESQUISA? 
+ 
+" Toda pesquisa começa: pela elaboração de seu projeto. Sem isso, a pesquisa já estaria 
+comprometida de saída, pois seria o mesmo que fazer uma viagem sem conhecimento de seu 
+caminho. Iniciar uma pesquisa sem projeto é apostar alto demais na improvisação (...)". 
+O projeto funciona como uma visão antecipada, um planejamento dos passos que serão 
+dados pela pesquisa. 
+ 
+"Planejar significa traçar um curso de ação que podemos seguir para que nos leve às 
+nossas finalidades desejadas". (CHURCHMAN, C.W. Introdução à Teoria dos Sistemas. Petrópolis: 
+Vozes, 1971) 
+ 
+Projetar - antever e metodizar as etapas ou fases para a operacionalização de um 
+trabalho. 
+ 
+O trabalho científico exige a construção prévia de um instrumento técnico - o projeto de 
+pesquisa - que conduza a ações orientadas para um fim e mantidas sobre uma base de recursos 
+humanos, técnicos, materiais e humanos. 
+ 
+O projeto, portanto, serve de guia para a execução da pesquisa. 
+ 
+O projeto de pesquisa deve enfrentar algumas questões: o que será pesquisado? 
+(Tema), por que a pesquisa é necessária? (Justificativa e Objetivos), como será pesquisado? 
+(Metodologia e Procedimentos), que recursos humanos, intelectuais, bibliográficos, técnicos, 
+instrumentais e financeiros serão mobilizados? Em que período? 
+Previstas e respondidas essas perguntas, o projeto cumprirá suas funções. 
+ 
+ 
+III - TEMPOS VERBAL E PESSOAL EM UM TEXTO CIENTÍFICO 
+O texto abaixo foi extraído e adaptado de: HÜBNER, Maria Martha. Guia para elaboração de 
+monografias e projetos de dissertação de mestrado e doutorado. São Paulo: Pioneira Thomson 
+Learning/Mackenzie, 2001. (p. 69) 
+ 
+a) TEMPO PESSOAL 
+A ciência avalia os trabalhos e não as pessoas que os escrevem. 
+Em textos científicos: 
+ 
+Utilize a terceira pessoa do singular, com a partícula apassivadora se. 
+ 
+Expressão inadequada
+Expressão adequada
+“Nesse trabalho, estudei os aspectos ideológicos 
+da comunicação” 
+“Nesse 
+trabalho, 
+estudou-se 
+os 
+aspectos 
+ideológicos da comunicação” 
+ 
+ Utilize a 1ª pessoa do plural (nós). 
+Expressão inadequada
+Expressão adequada
+“eu pesquisei os impactos dos programas infantis 
+sobre as crianças...” 
+“pesquisamos os impactos dos programas infantis 
+sobre as crianças...” 
+ 
+ Pode-se indeterminar o sujeito através da passiva analítica. 
+Expressão inadequada
+Expressão adequada
+“utilizei a entrevista como técnica de coleta de 
+dados” 
+“foi utilizada a entrevista como técnica de coleta 
+de dados” 
+   
+Essa é uma forma de deixar o trabalho à mostra, pronto para ser analisado. 
+ 
+ 
+12
+ 
+c) TEMPO VERBAL 
+ 
+Em monografias:  
+ 
+ Quando se referir ao próprio trabalho, objetivos, conclusões, emprega-se o tempo presente  
+Exemplos: 
+Estuda-se neste trabalho...  
+Tem-se como objetivo ...  
+ quando se referir a outros estudos, emprega-se o pretérito perfeito ou o imperfeito 
+Exemplos: 
+Paulo Freire, no livro x, tratou da democratização do ensino. 
+Paulo Freire, no livro x, falava sobre a democratização do ensino. 
+ 
+Em projeto de pesquisa, o tempo verbal é o futuro, pois o trabalho ainda será realizado.  
+Exemplo: 
+Buscar-se-á, com este trabalho, a compreensão dos fatores que levam à corrupção na 
+política brasileira. 
+ 
+ 
+IV - ETAPAS PARA A ELABORAÇÃO DO PROJETO DE PESQUISA 
+ 
+1 -  Tema 
+ 
+“Os temas podem surgir da observação do cotidiano, da vida profissional, do contato e 
+relacionamento com especialistas, do feedback de pesquisas já realizadas ou do estudo de literatura 
+especializada. 
+Um tema surge quase sempre de uma intenção ainda imprecisa, vaga e geral. Porém, a 
+indefinição inicial de um tema é normal,  pois o que importa não é o seu modo de ser, mas a 
+elaboração que deve ser realizada para que ele vá ganhando concretude, precisão e determinação”. 
+(SANTAELLA, Lucia. Comunicação e Pesquisa. São Paulo: Hacker Editores, 2001. p. 156 – 158) 
+Critérios para a escolha do tema: 
+ “A temática a ser trabalhada deve surgir de um interesse pessoal. 
+ Estar sintonizado com as linhas de pesquisa do programa de estudos e/ou do departamento e 
+faculdade. 
+ Deve ser um tema que retrate questões relevantes para o indivíduo e a sociedade mais ampla. 
+ Ser tema acessível para se desenvolver uma pesquisa de acordo com as possibilidades do autor. 
+Problemas: 
+ Evitar temas enciclopédicos e panorâmicos. 
+ Delimitar o tema a um só objeto de pesquisa”. (JARDILINO, José Rubens, ROSSI, Gisele, 
+SANTOS, Gérson Tenório. Orientações Metodológicas Para Elaboração de Trabalhos 
+Acadêmicos. São Paulo: Gion, 2000. p. 51) 
+ 
+2 - Estudos Preliminares 
+ 
+O texto abaixo foi extraído e adaptado de: SANTAELLA, Lucia. Comunicação e Pesquisa. 
+São Paulo: Hacker Editores, 2001. (p. 158 – 159) 
+“Por onde começar? Buscando informações sobre o tema, seja de ordem factual, seja de 
+ordem teórica”. 
+ “É de máxima importância saber em que ÁREA, e melhor ainda, em que SUB-ÁREA do 
+conhecimento nosso tema se situa para que possamos determinar os fundamentos teóricos que 
+lhe servem de base, isto é, estabelecer relações entre o assunto de nossa pesquisa e a Teoria 
+Científica que desejamos utilizar”. 
+ Ir para a biblioteca e ler sobre o assunto. Pesquisar o tema enciclopédias, livros, periódicos 
+especializados, catálogos, teses e dissertações, jornais, vídeos e banco de dados. 
+ “O contato com esse acervo é fundamental não apenas para buscar subsídios que orientem e 
+dêem mais segurança sobre a escolha do tema, mas que ajudem a formular o seu enunciado. De 
+resto, também para saber se o assunto que se pretende estudar já foi objeto de outras pesquisas 
+e sob que ângulos essas pesquisas o enfocaram”. 
+ 
+ 
+ 
+13
+3 – Título 
+ 
+Indica o assunto do trabalho. É o "nome" dado ao tema da pesquisa. 
+O título pode ser dividido em: 
+GERAL: indica mais genericamente o teor do trabalho. Deve ser amplo e chamativo. 
+TÉCNICO: aparece como um subtítulo, especifica o tema abordado. Deve ser próximo ao 
+objeto de estudo. 
+Exemplos:  
+Educação e Trabalho: um Conflito Sócio-Econômico 
+A Lógica do Fenômeno Comunicacional: Semiose ou Comunicação? 
+Tipografia na Era Digital: o Impacto da Novas Tecnologias 
+Os Guerreiros dos Negócios: Seis Casos Clássicos de Batalhas Campais Travadas em 
+Grandes Companhias Americanas 
+ 
+4 – Introdução 
+ 
+Definição: começo, abertura. Estudo que serve de preparação para o estudo de uma matéria. 
+Texto que antecede uma obra escrita e que serve para apresentá-la ao leitor. 
+Inicialmente, apresenta-se o tema, argumentando as implicações sociais que o estudo do 
+tema poderá ter ou os benefícios para a população de uma discussão e/ou encaminhamento do 
+assunto. 
+Faz-se, em seguida, uma revisão histórica do tema, destacando a importância para a 
+sociedade que o mesmo teve ao longo de um período de tempo. 
+Após a apresentação e análise da relevância social, passa-se à importância científica, 
+indicando o que já foi estudado (investigado), discutido e concluído, ou seja, far-se-á uma breve 
+revisão bibliográfica, apresentando estudos relevantes sobre o assunto relacionados ao tema. Em 
+geral, buscam-se as publicações dos últimos dez anos, principalmente, os estudos mais recentes. 
+Por fim, o autor apresentará suas próprias questões e discussões a respeito da temática. 
+OBSERVAÇÃO: “é na introdução que se deve defender o tema dentro da parcimônia que a ciência 
+requer. Portanto, os argumentos que apresentam as relevâncias social e científica devem ser muito 
+bem fundamentados” (HÜBNER, Maria Martha. Guia para elaboração de monografias e projetos de 
+dissertação de mestrado e doutorado. São Paulo: Pioneira Thomson Learning/Mackenzie, 2001.  p. 
+41) 
+ 
+5 - Justificativa  
+ 
+O texto abaixo foi adaptado de: RICHARDSON, Roberto Jarry. Pesquisa social: métodos e 
+técnicas. 3. ed. São Paulo: Atlas, 1999. (p. 56 – 57) 
+A justificativa visa destacar a importância da pesquisa proposta, tanto no campo da teoria 
+quanto no da prática, para a área de conhecimento em que a pesquisa é desenvolvida. 
+Deve responder as perguntas: Por que se deseja fazer a pesquisa? Por que a pesquisa é 
+relevante? Qual sua importância? Quais suas contribuições? 
+Partes de uma justificativa: 
+ Experiência vivida em relação ao tema: apresentar sua experiência relativa ao fenômeno que 
+quer estudar, o modo como foi escolhido o tema, o problema a ser estudado, apresentação das 
+razões em defesa do estudo e a relação do problema com o contexto social.  1 ou 2 parágrafos 
+ Após a experiência vivida em relação ao tema, formula-se o problema que será estudado.  1 
+parágrafo 
+ Indicar a importância do tema e a atualidade (referência aos possíveis aspectos inovadores do 
+trabalho) da questão a ser pesquisada.  1 parágrafo 
+Exemplo: "Assim, pretendo estudar (...) como a extensão universitária, na UFPB, pode 
+contribuir para a ampliação da hegemonia dos setores subalternos da sociedade". 
+ Contribuições do trabalho - possíveis contribuições teóricas e práticas que o trabalho pode trazer: 
+responder a um aspecto novo da realidade, aplicar uma teoria para solução de problemas, 
+aplicação tecnológica, contribuição social (se o conhecimento resultante da pesquisa estiver 
+voltado para a reflexão e debate de problemas sociais). 
+ 
+ 
+ 
+6 - Objeto da Pesquisa e Problematização 
+ 
+ 
+14
+ 
+a) OBJETO DA PESQUISA 
+ 
+O texto abaixo foi extraído e adaptado de: JARDILINO, José Rubens, ROSSI, Gisele, SANTOS, 
+Gérson Tenório. Orientações Metodológicas Para Elaboração de Trabalhos Acadêmicos. São Paulo: 
+Gion, 2000. (p. 52) 
+ “Enunciar com clareza o objeto específico da pesquisa. 
+ Delimitar os contornos do objeto de pesquisa. 
+ Atentar para os critérios demarcatórios de seu objeto: 
+ 
+Demarcação espaço/temporal: localização do objeto e período ou época em que o 
+objeto será estudado”.  
+Exemplo: Violência contra a mulher brasileira na década de 60. 
+ 
+“Demarcação Pessoal: pessoas ou segmentos sociais e coletivos a serem 
+investigados”. 
+Exemplo: Mulheres trabalhadoras. 
+ 
+“Demarcação Teórica: enfoque da abordagem - autor ou autores a serem 
+trabalhados”. 
+Exemplo: Michel Foucault (corpos dóceis). 
+ 
+b) PROBLEMATIZAÇÃO 
+ 
+Determinar e delimitar o problema de pesquisa implica conhecimento do fenômeno 
+selecionado para estudo, ou seja, o que se quer estudar (objeto de estudo). 
+O que é um problema de pesquisa? 
+ É um enunciado interrogativo. 
+ "É uma dificuldade ainda sem solução que deve ser determinada com precisão para que 
+se possa realizar seu exame, avaliação, crítica, tendo como meta sua solução". (ASTI 
+VERA, A. Metodologia da Pesquisa Científica. Porto Alegre: Globo, 1974. p. 94) 
+ 
+OBSERVAÇÃO: Não faria sentido pesquisar o que o pesquisador já conhece. Portanto, somente as 
+questões que necessitam de uma resposta é que serão consideradas problemas de pesquisa. 
+ 
+O texto abaixo foi extraído e adaptado de: RICHARDSON, Roberto Jarry. Pesquisa social: métodos e 
+técnicas. 3. ed. São Paulo: Atlas, 1999. (p. 59 – 60) 
+Condições para a determinação de um problema: 
+ Natureza do problema: social, psicológica ou tecnológica. 
+“Se a pesquisa for na área de Ciências Sociais, a natureza do problema será social. 
+ O problema deve ser concreto e estar formulado de forma CLARA e PRECISA. De acordo com o 
+sentido da palavra problema, exige-se uma resposta. Portanto, é conveniente formulá-lo como 
+pergunta.  
+Exemplos: Quais os fatores que contribuem para a evasão escolar? Como a extensão universitária 
+pode contribuir para o desenvolvimento de uma comunidade?” 
+ 
+OBSERVAÇÃO: Não se recomenda a apresentação isolada das perguntas. Apresente-as dentro de 
+um texto dissertativo. 
+ 
+ “(...) Um problema de pesquisa não pode estabelecer juízos de valor sobre o que é melhor ou 
+pior em uma situação social. 
+ O problema deve referir-se a fenômenos observáveis, possíveis de verificação empírica3. 
+ O problema não deve referir-se a casos únicos e isolados; deve ser representativo e passível de 
+ser generalizado. 
+ O problema deve apresentar certa originalidade. Portanto, não se deve insistir em problemas já 
+conhecidos e estudados, salvo se forem incluídos novos enfoques ou pontos de vista”. 
+ 
+ 
+ 
+ 
+                                               
+3 Empírico: derivado de experimento ou de observação da realidade. 
+ 
+ 
+15
+ 
+ 
+7 – Hipótese 
+ 
+O texto abaixo foi extraído e adaptado de: SANTAELLA, Lucia. Comunicação e Pesquisa. São Paulo: 
+Hacker Editores, 2001. (p. 176-179) 
+“A hipótese (...) está ligada por um cordão umbilical ao problema da pesquisa. Deve, por isso 
+mesmo, ser obrigatoriamente inserida em um projeto de pesquisa”. 
+“O problema que o pesquisador circunscreveu4, isto é, conseguiu recortar de um fundo 
+temático muito amplo, tem a forma de uma indagação, uma interrogação, uma pergunta para a qual, 
+no seu percurso, a pesquisa buscará respostas. Ora, a hipótese é uma resposta antecipada, 
+suposta, provável e provisória que o pesquisador lança e que funcionará como guia para os passos 
+subseqüentes do projeto e do percurso da pesquisa. Se o problema tem uma forma interrogativa, a 
+hipótese tem uma forma afirmativa. Não se trata, entretanto, de uma afirmação indubitável, mas 
+apenas provável. Funciona como uma aposta do pesquisador de que a resposta a que o 
+desenvolvimento da pesquisa levará será a mesma ou estará muito perto da resposta anunciada na 
+hipótese. Ela cria, por isso mesmo, uma expectativa na mente do pesquisador, expectativa esta que 
+costuma dar ao curso da pesquisa emoções similares àquelas que nos acompanham em uma 
+situação de suspense, pois como toda aposta, a hipótese pode ser confirmada ou cair no vazio, 
+caso em que a hipótese tem de ser repensada e as estratégias reconduzidas”. 
+“Trata-se, pois, de uma suposição objetiva ‘que se faz na tentativa de explicar o que se 
+desconhece’. Para ter bases sólidas, ela deve estar assentada e suportada por boas teorias e ‘por 
+matérias primas consistentes da realidade observável’ (p. 176). Portanto, ‘não pode ter fundamento 
+incerto’. Mas por ter a natureza de uma suposição, a hipótese tem por características o fato de ser 
+provisória, devendo, portanto ser testada para se verificar sua validade” (p. 177). 
+ 
+Critérios para a elaboração de hipóteses: 
+“Assim sendo, cabe à hipótese ser PLAUSÍVEL, isto é ‘deve indicar uma situação passível de 
+ser admitida, de ser aceita; ela deve também ter CONSISTÊNCIA, termo este que indica que o 
+enunciado da hipótese não pode estar ‘em contradição nem com a teoria e nem com o conhecimento 
+científico mais amplo’, do mesmo modo que não pode existir contradição dentro do próprio enunciado; 
+além disso, ‘a hipótese deve ser VERIFICÁVEL pelos processos científicos’ em curso; o enunciado 
+da hipótese deve ainda ‘ser ESPECIFICADO, dando as características para identificar o que deve 
+ser observado; seu enunciado precisa ser CLARO, isto é, ‘constituído por termos que ajudem 
+realmente a compreender o que se pretende afirmar e indiquem, de modo denotativo5, os fenômenos 
+a que se referem’; não basta ser claro, o enunciado precisa ser também SIMPLES, quer dizer, ‘ter 
+todos os termos e somente os termos que são necessários à compreensão’; da simplicidade decorre 
+que o enunciado deve ser também ECONÔMICO, ou seja, além de utilizar tão somente os termos 
+necessários à compreensão, deve fazê-lo na menor quantidade possível. Por fim, ‘uma das 
+finalidades básicas de uma hipótese é servir de explicação para o problema que foi enunciado. 
+Se isso não acontece, a hipótese não tem razão de ser”.  
+“Toda e qualquer pesquisa deve contar com a formulação das hipóteses, caso contrário, 
+estará lhe faltando um norte, pois a função da hipótese é servir como uma bússola”.(p. 179) 
+ 
+Exemplo: 
+Exemplo adaptado de: RICHARDSON, Roberto Jarry. Pesquisa social: métodos e técnicas. 3. ed. 
+São Paulo: Atlas, 1999. (p. 107) 
+Tema: Migração 
+Problema: O que leva um indivíduo abandonar seu local de nascimento, sua terra, sua 
+família, seus costumes e suas relações sociais para migrar para um local estranho, desconhecido? 
+Hipóteses: O desejo de migrar de um camponês é influenciado por uma complexa relação de 
+fatores psicológicos e estruturais. 
+O desejo de migrar é influenciado pelas aspirações e expectativas educacionais e 
+econômicas do camponês. 
+O desejo de migrar é influenciado pelo nível de desenvolvimento da localidade em que vive o 
+camponês. 
+ 
+                                               
+4 Circuncrever: limitar, restringir. 
+ 
+ 
+ 
+5 Denotar: revelar por meio de notas ou sinais; fazer notar; fazer ver; manifestar, indicar, mostrar; 
+significar, exprimir, simbolizar. 
+ 
+ 
+16
+ 
+ 
+8 – Objetivo 
+ 
+Nesta etapa, o autor apresenta os objetivos que o trabalho pretende atingir relacionados às 
+contribuições que pretende trazer. Serão extraídos a partir dos problemas levantados anteriormente. 
+“Tem por finalidade elucidar uma situação; aprofundar um tema; oferecer subsídios para sua 
+área de estudos; analisar, discutir e até mesmo refutar posições e teorias”. (JARDILINO, 2000: 53) 
+ 
+Os objetivos da pesquisa podem ser : 
+O texto abaixo foi extraído e adaptado de: RICHARDSON, Roberto Jarry. Pesquisa social: métodos e 
+técnicas. 3. ed. São Paulo: Atlas, 1999. (p. 62-64) 
+ 
+GERAIS: visão geral e abrangente do problema, definem o que se pretende alcançar com a 
+realização da pesquisa. 
+Exemplo: Verificar os fatores que contribuem para a migração rural-urbana no Estado da 
+Paraíba. 
+ 
+ESPECÍFICOS: definem etapas que devem ser cumpridas para alcançar o objetivo geral. 
+ 
+Exemplo: Levantar informações sobre a migração rural-urbana no Estado da Paraíba. 
+ 
+Verbos usados na elaboração dos objetivos: 
+ Os verbos devem ser utilizados no infinitivo. 
+ “Em uma pesquisa exploratória, o objetivo geral  começa com os verbos: conhecer, identificar, 
+levantar, descobrir”. 
+ “Em uma pesquisa descritiva, inicia com os verbos: caracterizar, descrever, traçar”. 
+ “Em uma pesquisa explicativa, começa com os verbos: analisar, avaliar, verificar, explicar etc”. 
+ 
+Regras para a formulação dos objetivos: 
+ “O objetivo deve ser claro, preciso e conciso.  
+ Deve expressar apenas uma idéia. Em termos gramaticais, deve incluir apenas um sujeito e um 
+complemento. 
+ O objetivo deve referir-se apenas à pesquisa que se pretende realizar. Não são objetivos de uma 
+pesquisa, propriamente, discussões, reflexões ou debates em torno dos resultados”. 
+ 
+ 
+ 
+9 - Referencial Teórico 
+ 
+Segundo Lucia Santaella, "problemas específicos exigem soluções específicas, do mesmo 
+modo que soluções específicas só podem ser encontradas por meio do auxílio de teorias que se 
+ajustem às soluções buscadas. (...) Opções teóricas só podem nascer das exigências internas que o 
+problemas da pesquisa cria". (SANTAELLA, 2001: 183) 
+O referencial resulta de uma escolha consciente, crítica e avaliativa da teoria mais 
+adequada para FUNDAMENTAR o desenvolvimento da pesquisa. 
+ 
+Portanto, o referencial teórico: 
+O texto abaixo foi extraído e adaptado de: JARDILINO, José Rubens, ROSSI, Gisele, SANTOS, 
+Gérson Tenório. Orientações Metodológicas Para Elaboração de Trabalhos Acadêmicos. São Paulo: 
+Gion, 2000. (p. 54) 
+ 
+É uma “categoria de análise que vem de uma opção do autor e depende de tendências 
+teóricas e políticas do autor e do próprio objeto. 
+ 
+Deve constituir-se num conjunto de conceitos (que não pode ser eclético, misturando 
+referenciais contraditórios e excludentes) e princípios sistemáticos, lógicos e coerentes. 
+ 
+Tem a função de clarear os conceitos no trabalho acadêmico; iluminar o objeto e 
+desenvolver as posições (hipóteses) do autor. 
+ 
+Pode ser usado no corpo do trabalho de duas maneiras: por meio da elaboração de um 
+capítulo teórico ou mesclando-se os conceitos referenciais ao longo da análise e no capítulo de 
+demonstração das hipóteses”. 
+ 
+ 
+ 
+17
+ 
+ 
+10 - Metodologia  
+ 
+Texto abaixo foi extraído de: SEVERINO, Antônio Joaquim. Metodologia do Trabalho Científico. 21. 
+ed. rev. e ampl. São Paulo: Cortez, 2000. 
+"Nesta fase do projeto, bem caracterizada a natureza do problema, o autor deve anunciar o 
+tipo de pesquisa que desenvolverá. (...) Diretamente relacionados com o tipo de pesquisa serão os 
+métodos e técnicas a serem adotados. Entende-se por métodos os procedimentos mais amplos de 
+raciocínio, enquanto técnicas são procedimentos mais restritos que operacionalizam os métodos, 
+mediante emprego de instrumentos adequados" (p.162) 
+ 
+10.1 – Métodos de Pesquisa 
+ 
+O texto abaixo foi extraído de: JARDILINO, José Rubens, ROSSI, Gisele, SANTOS, Gérson Tenório. 
+Orientações Metodológicas Para Elaboração de Trabalhos Acadêmicos. São Paulo: Gion, 2000. (p. 
+48 - 49) 
+“Pode-se entender por método ou técnica de pesquisa a etapa de coleta de dados que tem 
+por função levantar informações sobre a realidade ou o contexto investigado. O tipo de informações 
+que se quer obter determina a escolha do instrumento que será utilizado para a coleta de dados e 
+também o método de aplicação deste instrumento. 
+São dois os modelos básicos ou as técnicas de pesquisa adotadas: a quantitativa e a 
+qualitativa. A pesquisa quantitativa ou experimental se caracteriza como uma investigação que 
+permite a transformação de informações em números que, depois de tratados estatisticamente, 
+permitem a generalização dos resultados. O objetivo deste tipo de pesquisa é a formulação de leis e a 
+possibilidade de testar hipóteses. Este modelo de pesquisa busca esclarecer as causas das 
+ocorrências de mudanças e reduzir os vieses que possam influenciar na percepção do fenômeno em 
+estudo. 
+O método utilizado pela pesquisa quantitativa é o método dedutivo, que vai da teoria para os 
+dados.  
+A pesquisa qualitativa, por sua vez, não utiliza a quantificação das informações ou a análise 
+estatística dos dados. Este é um modelo de pesquisa que se preocupa fundamentalmente com a 
+compreensão e a interpretação do fenômeno. Tem como principal objetivo compreender, explorar e 
+especificar um fenômeno, o que pressupõe a influência das crenças, percepções, sentimentos e 
+valores nos dados coletados. É um tipo de estudo que busca entender a situação pesquisada. 
+O método da pesquisa qualitativa é o indutivo, do dado para a teoria, permeado por 
+definições que envolvem e se concretizam no processo; é um método criativo e intuitivo que se dá 
+pela análise comparativa de uma pequena amostra minuciosamente selecionada. 
+Enquanto o método quantitativo se preocupa com os traços individuais, com as relações 
+causais, ou seja, com os ‘porquês’ da ocorrência do fenômeno, o foco da pesquisa qualitativa está 
+nas experiências individuais, no senso comum, com o ‘como’ acontece o fato. 
+Não podemos esquecer que para chegar a um dado quantitativo partimos de um qualitativo 
+que, compreendido e interpretado, transformou-se em quantitativo e que, mesmo quando optamos 
+por uma metodologia qualitativa, muitas vezes precisamos partir das quantitativas. 
+A coleta de dados quantitativos se utiliza, no geral, de instrumentos que buscam a 
+mensuração e, portanto, são sistematizados, como, por exemplo, a observação sistemática e 
+estruturada, o questionário fechado ou semi-aberto ou a entrevista estruturada ou diretiva. 
+Para a coleta de dados qualitativos, são escolhidos os instrumentos que obtenham um 
+volume de dados originais e relevantes não influenciados por conceitos operacionais ou índices 
+quantitativos. Alguns instrumentos para a coleta de dados qualitativos são a observação participante, 
+a entrevista não estruturada ou não diretiva, o questionário de questões abertas, o estudo de caso ou 
+a história de vida.” 
+ 
+10.2 - Tipos de Pesquisa 
+ 
+O texto abaixo foi extraído e adaptado de: JARDILINO, José Rubens, ROSSI, Gisele, SANTOS, 
+Gérson Tenório. Orientações Metodológicas Para Elaboração de Trabalhos Acadêmicos. São Paulo: 
+Gion, 2000.  (p. 35 – 39) 
+ 
+ 
+18
+"Podemos entender que são diversas as formas de estudar sistemática ou cientificamente 
+um objeto específico e são, portanto, diferenciados os métodos e os tipos de pesquisa mais 
+relevantes" (p.35). 
+ 
+a) PESQUISA DESCRITIVA 
+ 
+"Nesse tipo de pesquisa, o cientista observa, registra, analisa e correlaciona fatos ou 
+fenômenos, mas não os manipula; o pesquisador não interfere ou controla as possíveis variáveis 
+interferentes na ocorrência estudada. 
+A função do pesquisador aqui é exclusivamente a de investigar a causa, a natureza, a 
+freqüência e a intensidade da ocorrência ou de determinado fenômeno e a sua relação com os 
+demais. 
+O objetivo principal da pesquisa descritiva é o de estudar, levantar informações sobre um 
+tema específico e desta forma auxiliar na formulação do problema de pesquisa. A pesquisa descritiva 
+subdivide-se em dois tipos básicos: 
+ Pesquisa Documental é aquela que inclui o levantamento de informações através de 
+documentos escritos, impressos ou sonoros que se encontram em arquivos 
+públicos, bibliotecas, museus, igrejas, cartórios, videotecas e filmotecas em forma de 
+fotografias, correspondências, diários, memórias, autobiografias" (p.35). 
+ "Pesquisa Bibliográfica pode ser descrita como um levantamento mais abrangente que 
+a documental, já que inclui um levantamento de referências bibliográficas sobre o 
+tema escolhido. Os tipos de documentos aqui utilizados podem ser classificados como 
+primários, que incluem resultados de pesquisa, e documentos secundários, que 
+abrangem listas, revisões, bibliografias, papers e relatos de casos. 
+Para este tipo de pesquisa, devemos seguir algumas etapas que possibilitem a sua 
+realização: identificação, localização, compilação, fichamento. 
+É interessante pensarmos que a pesquisa bibliográfica nos possibilita escolher temas, 
+desvendar questões ainda não estudadas ou solucionadas" (p.36). 
+ 
+ 
+ 
+ 
+b) PESQUISA EXPERIMENTAL 
+ 
+"Caracteriza-se pela manipulação direta das variáveis envolvidas ou relacionadas ao objeto 
+estudado, buscando identificar e estabelecer uma relação funcional entre as variáveis intervenientes, 
+realizando o que podemos chamar de experimento. 
+Quando manipulamos variáveis, facilitamos o estudo das relações entre causa e efeitos da 
+ocorrência estudada; na pesquisa tipo experimental, ocorre a manipulação de uma ou mais variáveis 
+que se classificam como independentes. 
+A manipulação das variáveis acontece através da criação de situações de controle com a 
+intenção de evitar a influência de variáveis (p.37) externas, ou seja, das variáveis independentes, 
+para que se possa observar, interpretar e entender o que ocorre com as variáveis dependentes ou 
+que estão estreitamente relacionadas ao objeto de pesquisa. O objetivo desta situação de controle é 
+evitar que os dados sejam contaminados, modificando, camuflando ou enviesando os resultados 
+encontrados". (p. 38) 
+ 
+ 
+c) PESQUISA DE CAMPO ou PESQUISA-AÇÃO 
+ 
+ 
+"O pesquisador de campo investiga e coleta informações no local em que ocorrem os 
+fenômenos estudados, colocando o pesquisador em contato direto com as variáveis interferentes e 
+com o fenômeno como um todo. O objetivo é determinar as relações causais do processo estudado. 
+Nesta classe de pesquisa pode-se utilizar enquanto recursos para a obtenção de dados e 
+informações a observação, as entrevistas ou ainda os questionários. A pesquisa-ação é um tipo de 
+pesquisa na qual o pesquisador participa ativamente no processo de levantamento de informações, 
+participando junto aos sujeitos da pesquisa, no levantamento e avaliação dos problemas e questões 
+envolvidas" (p. 38) 
+ 
+ 
+19
+Ou seja, a pesquisa de campo consiste na observação dos fatos tal como ocorrem 
+espontaneamente, na coleta de dados e no registro de variáveis presumivelmente para posteriores 
+análises. 
+ 
+ 
+d) PESQUISA HISTÓRICA 
+ 
+"É a pesquisa que se interessa pela determinação, avaliação e entendimento de fatos 
+passados e a sua influência sobre o contexto presente e futuro (p.38). Caracteriza-se pela 
+investigação crítica, pela análise cuidadosa de eventos, experiências do passado, de fatos que são 
+únicos e não reproduzíveis em laboratório; as interpretações têm como referência pressupostos 
+teóricos e parâmetros para comparação dos fatos" (p.39). 
+ 
+e) PESQUISA DE OPINIÃO 
+ 
+Na qual se procura saber o ponto de vista ou preferência que as pessoas possam ter acerca 
+de um assunto, preferência por marcas de produto, preferência por empresa, pessoas, ou ainda o seu 
+comportamento em relação a determinadas situações. Por exemplo: 
+Quantas pessoas aceitariam a introdução da pena de morte no país? 
+Qual a preferência do público em relação aos automóveis da GM, Ford, Wolkswagen, Fiat? 
+Qual a opinião da classe média sobre a atual situação político-econômica? 
+Qual a opinião do público interno sobre as suas condições de trabalho, lazer, mecanismos 
+de comunicação, relacionamento social dentro da empresa? 
+ 
+10.3 - Técnicas de Pesquisa 
+ 
+"Não se pode conceber um trabalho científico que não inclua a busca e coleta de 
+informações, o levantamento bibliográfico, a revisão da literatura existente que sustentem e viabilizem 
+o trabalho de pesquisa". (...) 
+"Para a coleta de informações faz-se necessário o uso de instrumentos específicos e 
+técnicas previamente selecionadas que obtenham as informações previstas" (p.39). 
+ 
+ 
+ 
+a) ENTREVISTA 
+ 
+"Tem seu uso indicado em situações em que não se têm fontes disponíveis ou seguras para 
+a obtenção de dados, quando se quer complementar informações já levantadas ou também para 
+auxiliar no diagnóstico ou tratamento de um problema. 
+Alguns autores apontam como possíveis objetivos da entrevista: a compreensão de 
+informações, o conhecimento e as opiniões sobre fatos, a conduta diante dos fatos, a descoberta de 
+fatores influentes nas opiniões, sentimentos e condutas dos entrevistados. (...) 
+ Entrevista padronizada, 
+diretiva ou estruturada - é constituída por perguntas 
+predeterminadas que seguem um roteiro previamente determinado, o que significa que o 
+entrevistador não tem liberdade de alterar, adaptar ou aumentar perguntas em seu roteiro. 
+Entrevista não padronizada, não diretiva ou não estruturada - pode se compor por perguntas 
+predeterminadas em um roteiro que não necessariamente precisa ser seguido. Ela dá possibilidades 
+ao entrevistador e ao entrevistado de desenvolver de forma mais livre as perguntas feitas, ampliando-
+as, aumentando-as e até modificando-as" (p.40). 
+ 
+Exemplo - Roteiro de Entrevista 
+ 
+1 - Em um hospital, quem é considerado como paciente terminal? 
+2 - O que significa a morte para um paciente em fase terminal? 
+3 - Quais são as reações mais comuns de um indivíduo ao saber que sua doença o levará à 
+morte?" (p. 41) 
+ 
+b) QUESTIONÁRIO 
+ 
+ 
+ 
+20
+"É um instrumento que permite a abordagem de temas mais complexos, constituindo-se em 
+um conjunto de questões ordenadas, respondidas por escrito, na presença ou não do entrevistador. 
+Pode ser enviado pelo correio ou deixado sob a responsabilidade de alguém que o distribuirá, 
+recolherá e devolverá ao pesquisador. 
+ 
+Questionários podem ser compostos por perguntas do tipo abertas ou fechadas. 
+Questionários abertos permitem respostas mais amplas e livres e trazem a opinião de quem 
+responde. São mais elaborados e analisados com maior complexidade. 
+ 
+Exemplo: 
+Na sua opinião, quais são as atividades que um psicólogo pode desenvolver na escola? 
+Quais profissionais você considera como fundamentais para auxiliá-lo em sua atividade 
+profissional? 
+ 
+Questionários fechados buscam respostas mais exatas e limitadas, com alternativas fixas 
+que já trazem as opções para a escolha, como as respostas de múltipla escolha ou as de 'sim' ou 
+'não'. Trazem questões padronizadas de fácil aplicação e de tabulação e análise simplificada (p.41). 
+ 
+Exemplo:  
+1 - Você já teve alguma experiência de trabalho conjunto com um sociólogo? 
+a- Sim (  )   
+b- Não (  ) 
+2 - Para quais grupos deveriam se estender os serviços de um psicólogo dentro da escola? 
+(escolha quantas quiser) 
+a- Pais 
+b- Alunos 
+c- Corpo técnico 
+d- Direção 
+e- Funcionários 
+f- 
+Professores 
+g- Outros (quais?)" 
+ 
+ 
+ 
+ 
+c) COLETA ou ANÁLISE DOCUMENTAL 
+ 
+"Caracteriza-se pela busca de dados em documentos de arquivos públicos ou particulares 
+(relatórios, laudos, correspondências, anuários, projetos de lei, atas, registros de casamento, 
+nascimento ou outros, escrituras, testamentos, etc.), de fontes estatísticas de órgãos particulares e 
+oficiais como IBGE, IBOPE, etc. 
+ 
+Este tipo de coleta oferece informações sobre as características de grupos ou épocas, em 
+diferentes aspectos, sendo geralmente, (p.42) utilizado quando não há possibilidades de contato com 
+os sujeitos envolvidos na situação estudada. Trata-se de uma técnica exploratória para complementar 
+ou verificar informações". (p. 43) 
+ 
+d) OBSERVAÇÃO 
+ 
+"A observação de fatos, comportamentos e situações, que pode ser participante ou não, 
+permite ao pesquisador verificar na prática, no contexto real, fatos relatados, respostas já fornecidas, 
+comportamentos, reações e atitudes, além de possibilitar que se consigam informações novas, antes 
+não levantadas. 
+ 
+A observação participante implica a participação do investigador na comunidade ou grupo-
+alvo em suas atividades cotidianas, o que subentende uma proximidade, um envolvimento do 
+pesquisador, que passa a ser um integrante do grupo. Já na observação não-participante o 
+pesquisador não faz parte integrante do grupo, mantendo-se à distância, apenas presenciando os 
+fatos, como um espectador". (p. 43) 
+ 
+ 
+ 
+21
+ 
+ 
+ 
+ 
+ 
+e) FORMULÁRIO 
+ 
+"Podemos definir o formulário como uma lista, um catálogo ou um inventário, geralmente 
+preenchido pelo próprio pesquisador, em que são registrados dados coletados através de 
+observações ou interrogatórios". (p. 43) 
+ 
+f) 
+TESTES 
+ 
+"A coleta de informações pode se dar através de aplicação de testes psicológicos que levem 
+à caracterização ou classificação da população estudada em diferentes aspectos: intelectual, motor, 
+personalidade, etc. (p.43)". 
+ 
+ 
+g) HISTÓRIA DE VIDA 
+ 
+"É um instrumento que busca agregar informações sobre a vida pessoal do investigado, 
+valorizando o testemunho de épocas ou períodos históricos. Pode apresentar-se em forma de 
+memórias, crônicas ou autobiografia" (p.44). 
+ 
+h) ESCALAS 
+ 
+"Viabilizam a estimativa do grau em que determinado comportamento, fato ou situação 
+ocorrem". 
+Exemplo: 
+Assinale para cada afirmação a opção que mais se parece com sua forma de pensar e agir. 
+As opções são: 
+DT - discordo totalmente 
+D   - discordo   
+DP - discordo parcialmente 
+CP - concordo parcialmente 
+C   - concordo 
+CT - concordo totalmente" 
+ 
+ITENS 
+DT 
+D 
+DP 
+CP 
+C 
+CT 
+Resolvo meus problemas com a primeira idéia que tenho 
+ 
+ 
+ 
+ 
+ 
+ 
+Tomo decisões baseadas em meus sentimentos 
+ 
+ 
+ 
+ 
+ 
+ 
+Gosto de trabalhar seguindo instruções 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+j) 
+ESTUDO DE CASO 
+ 
+"Caracteriza-se pelo registro de dados de um caso específico ou de vários casos com o 
+objetivo de se organizarem criticamente ou avaliarem os relatórios de uma experiência para, através 
+destes dados, se tomarem decisões ou proporem estratégias de intervenção"(p.45). 
+ 
+11 – Cronograma 
+ 
+Trecho extraído de: SANTAELLA, Lucia. Comunicação e Pesquisa: projetos para mestrado e 
+doutorado. São Paulo: Hacker Editores, 2001. 
+"Este item diz respeito ao planejamento do tempo de desenvolvimento da pesquisa. Cada 
+etapa deve ser cuidadosamente pensada, inclusive prevendo o tempo que cada uma deve levar para 
+se desenvolver. Quanto mais bem formulado estiver o projeto, mais clareza e segurança se terá na 
+previsão de sua consecução" (p.187). 
+O tempo de duração da pesquisa pode ser mensal, bimestral, semestral ou anual. 
+ 
+ 
+ 
+ 
+22
+ 
+ 
+ 
+ 
+ 
+12 – Referências Bibliográficas 
+ 
+Usa-se a expressão Referências Bibliográficas quando relacionamos apenas os 
+documentos utilizados, consultados e citados ao longo do trabalho. O termo Bibliografia será usado 
+quando relacionarmos as obras genéricas sobre o tema, ou seja, aquelas utilizados para compor o 
+trabalho, as obras consultadas e não citadas no trabalho e as obras gerais sobre o tema. 
+ “A apresentação dar-se-á por ordem alfabética de autor e pela ordem cronológica da 
+publicação. Observe-se que o sobrenome do autor e o título do documento têm um destaque gráfico, 
+ou seja, o sobrenome do autor que abre a referência deve vir em maiúsculas ou caixa alta, enquanto 
+o título principal deve vir em itálico (grifado, somente quando o texto é datilografado). Quando um dos 
+dados bibliográficos não é identificável no documento, ele pode ser substituído pelas seguintes 
+abreviações: s.l. = sem local de publicação; s.ed. = sem editor; s.d. = sem data; s.n.t. = sem notas 
+tipográficas, quando faltam todos os elementos”. (SEVERINO, Antônio Joaquim. Metodologia do 
+Trabalho Científico. 21. ed. rev. e ampl. São Paulo: Cortez, 2000. p. 115)  
+ 
+ 
+ Livros 
+SOBRENOME, Nome. Título. Edição. Cidade de publicação: Editora, ano de publicação. 
+Exemplo: 
+CHAUI, Marilena. O que é ideologia. 42. ed. São Paulo: Brasiliense, 1997. 
+ 
+Até três autores: indica-se o nome dos três autores. 
+Exemplo: 
+JARDILINO, J. R. L.; ROSSI, G.; SANTOS, G. T. Orientações metodológicas para elaboração de 
+trabalhos acadêmicos. São Paulo: Gois Editora e Publicidade, 2000. 
+ 
+Mais de três autores: indicar o nome do organizador ou do coordenador da obra. 
+Exemplo: 
+DANTAS, Audálio (org.). Repórteres. São Paulo: Editora SENAC, 1998. 
+ 
+Referência bibliográfica de parte da obra ou capítulo. 
+SOBRENOME, Nome do autor do capítulo. Título do capítulo. In: SOBRENOME, Nome do autor do 
+livro. Título do livro. Edição. Cidade de publicação: Editora, ano de publicação. 
+Exemplo: 
+MEIRELLES, Domingos. Acerto de Contas. In: DANTAS. Audálio (org.). Repórteres. São Paulo: 
+Editora SENAC, 1998. 
+ 
+ 
+ 
+ Dissertações e teses. 
+SOBRENOME, Nome. Título. Cidade de publicação, ano de apresentação. Tese (Doutorado) / 
+Dissertação (Mestrado). Unidade de Ensino, Instituição.   
+Exemplo: 
+SILVA, Janete Bernardo da. Abrindo janelas à noção de competência para a construção de um 
+currículo interdisciplinar: estudo preliminar. Dissertação de Mestrado. Faculdade de Educação, 
+Pontifícia Universidade Católica de São Paulo, 1999. 
+ 
+ Trabalhos apresentados em congresso. 
+SOBRENOME, Nome. Título do trabalho. In: NOME DO CONGRESSO, número do congresso, ano e 
+cidade de realização. Título. Local: Editora, ano de publicação. páginas inicial-final. 
+Exemplo: 
+BRAYNER, A. R. A.; MEDEIROS, C. B. Incorporação do tempo em SGBD orientado a objetos. In: 
+SIMPÓSIO BRASILEIRO DE BANCO DE DADOS, 9., 1994, São Paulo. Anais... São Paulo: USP, 
+1994. p. 16-29.  
+ 
+ 
+ 
+23
+ Artigos de publicações periódicas 
+SOBRENOME, Nome. Título do artigo. Título do periódico, cidade de publicação: Editor, número do 
+volume, número do fascículo, páginas inicial-final, mês e ano. 
+Exemplo: 
+SILVA, Dalmo O. Souza. Ágora ou o Zoológico Humano?- uma contribuição para o debate sobre os 
+Reality Shows. Cenários da Comunicação, São Paulo: UNINOVE, v. 1, n. 1, p. 57-71, set. 2002.  
+ 
+ Artigo de jornal 
+SOBRENOME, Nome. Título do artigo. Título do Jornal, cidade, data. Número ou título do caderno, 
+seção ou suplemento, páginas inicial-final. 
+Exemplo: 
+CARDOSO, Raquel. Zeca, o pivô da guerra das cervejas. Diário de S. Paulo, São Paulo, 16 de março 
+de 2004. Economia, p. B3. 
+ 
+ Trabalhos de fontes eletrônicas 
+SOBRENOME, Nome / EDITOR. (Ano). Título do trabalho, Tipo de mídia. Produtor (opcional). 
+Disponível: identificador (data de acesso).  
+Exemplo: 
+ARAÚJO, J.G.F. e MOREIRA, A.Z.M. (1999). Mass Media: um enfoque político-social. (On-line). 
+INTERCOM. Disponível: http://www.intercom.org.br/papers/xxii-ci/gt27/27z02.PDF , (14 de junho de 
+2004). 
+ 
+ 
+ 
+ 
+ 
+I – REDAÇÃO DO TEXTO ACADÊMICO 
+ 
+(O texto abaixo foi extraído e adaptado de: JARDILINO, José Rubens, ROSSI, Gisele, SANTOS, 
+Gerson T. Orientações Metodológicas para Elaboração de Trabalhos Acadêmicos São Paulo: Gion, 
+2000) 
+ 
+1 – A Questão da Objetividade 
+“A redação acadêmica, por se moldar nos princípios que regem a pesquisa científica, 
+caracteriza-se pela OBJETIVIDADE, 
+pelo texto denotativo, pela 
+evitação 
+de quaisquer 
+AMBIGÜIDADES, termos e orações confusas, indeterminações, etc. O texto objetivo é aquele que se 
+centra no OBJETO DE ESTUDO, busca revelá-lo, sem que os traços de subjetividade do pesquisador 
+interfiram neste trabalho. É por esta razão que no texto científico busca-se evitar o uso da primeira 
+pessoa. Se o caráter denotativo é o mais importante, obviamente o uso da terceira pessoa será o 
+mais destacado, pois é ela que se reporta ao objeto externo, ao elemento referencial da pesquisa. 
+A linguagem denotativa – em contraposição à conotativa – intenta precisar os vocábulos e 
+conceitos, não permitindo obscuridades e duplos sentidos que possam ameaçar a compreensão do 
+que está sendo transmitido. Ela busca sempre a isenção, a maior distância possível entre o 
+pesquisador e o objeto de pesquisa. Tal rigor prende-se ao fato de que a ciência busca a 
+consensualidade, a validade de seus argumentos baseada não na opinião de cada um, mas nas leis 
+gerais que regem os fenômenos naturais, sociais e culturais.” (p. 57) 
+“A busca de precisão e rigor exigida pela redação acadêmica reflete-se diretamente no uso 
+adequado de conceitos fundamentais ao tema do trabalho e na organização lógica e lingüística dos 
+enunciados do texto. Conceitos vagos, ambíguos, sem respaldo dos estudos teóricos da área em 
+questão comprometem a qualidade da pesquisa. Conceitos como os de ‘amor’, ‘democracia’, 
+ 
+ 
+24
+‘estresse’, ‘histeria’ podem resvalar facilmente para o senso comum, se não forem precisados, 
+delimitados, esclarecidos dentro de uma dada linha de pesquisa. É imperioso, portanto, que o 
+pesquisador, apoiado numa alentada pesquisa bibliográfica extensiva, busque esclarecer ao máximo 
+os conceitos com que está trabalhando. Se for o caso, é importante diferenciá-los das acepções 
+existentes em outros campos de pesquisa, pois isto ajuda na compreensão da extensão e na 
+delimitação da pesquisa. O conceito de ‘símbolo’, por exemplo, tem diferentes enfoques na 
+psicanálise, na psicologia, na semiótica, na filosofia, na teologia, na matemática, etc. 
+A organização lógica dos enunciados se dá em função dos temas e subtemas que se 
+articulam hierarquicamente no sentido de se conseguir a unidade desejada pela redação. Assim, não 
+cabem frases soltas, desconexas, sem sentido ou clichês saturados pelo uso cotidiano. Mesmo a 
+pontuação deficiente compromete a intenção do autor e a veracidade dos fatos.” (p. 58-59) 
+ 
+2 – A Questão da Clareza e Precisão 
+(O texto abaixo foi extraído de : UNIVERSIDADE FEDERAL DO PARANÁ. Biblioteca Central. Normas 
+para apresentação de documentos científicos. Curitiba: Ed. da UFPR, 2000. v. 8) 
+“A fim de facilitar a leitura e o entendimento do conteúdo que se quer expor, é importante: 
+a) apresentar as idéias de modo claro, coerente e objetivo, conferindo a devida ênfase às 
+idéias e unidade ao texto; 
+b) evitar comentários irrelevantes, acumulações de idéias e redundâncias; 
+c) usar um vocabulário preciso, evitando as linguagens rebuscada e prolixa; 
+d) usar a nomenclatura técnica aceita no meio científico; 
+e) evitar termos e expressões que não indiquem claramente proporções e quantidades 
+(médio, grande, bastante, muito, pouco, mais, menos, nenhum, alguns, vários, quase todos, nem 
+todos, muitos deles, a maioria, metade e outros termos ou expressões similares), procurando 
+substituí-los pela indicação precisa em número ou porcentagem, ou optando por associá-los a esses 
+dados: 
+Em Curitiba, 80% da população... 
+As chuvas atingiram cerca de 45a residências. 
+A grande maioria (90%) da população pesquisada concorda com... 
+f) evitar adjetivos, advérbios, locuções e pronomes que indiquem tempo, modo ou lugar de 
+forma imprecisa, tais como aproximadamente, antigamente, em breve, em algum lugar, em outro 
+lugar, adequado, inadequado, nunca, sempre, raramente, às vezes, melhor, provavelmente, 
+possivelmente, talvez, algum, pouco, vários, tudo, nada e outros termos similares.” (p. 2) 
+ 
+3 – A Questão da Imparcialidade 
+(O texto abaixo foi extraído de : UNIVERSIDADE FEDERAL DO PARANÁ. Biblioteca Central. Normas 
+para apresentação de documentos científicos. Curitiba: Ed. da UFPR, 2000. v. 8) 
+ 
+ 
+25
+“Na redação de documentos técnico-científicos e acadêmicos, o autor não deve fazer 
+prevalecer o seu ponto de vista, sua opinião e seus preconceitos. Ao mesmo tempo, deve evitar 
+idéias preconcebidas, não superestimando a importância das idéias em debate, nem subestimando 
+outras que pareçam contraditórias ou menos abrangentes.” (p. 3) 
+ 
+4 – A Importância da Citação 
+A citação é a referência de uma idéia extraída da obra de outro autor. 
+ 
+A utilidade da citação é dar suporte, ratificar e fundamentar as idéias que o autor deseja 
+transmitir, aclarar ou questionar em relação ao tema em discussão.  
+Para citar a idéia de outro autor, no entanto, deve-se seguir algumas regras e identificar os 
+diferentes tipos de citação. 
+ Citação Direta 
+Chamada também de citação textual ou citação literal. Consiste na transcrição integral de 
+parte do texto de outro autor. 
+Não é recomendável o uso excessivo da citação direta, pois pode sinalizar insegurança por 
+parte do autor  ao redigir e argumentar suas idéias. 
+Se a idéia citada for igual ou inferior a cinco linhas deverá ser apresentada dentro do seu 
+próprio parágrafo, entre aspas e, ao final da mesma, após o ponto e entre parênteses, vem a 
+indicação bibliográfica (SOBRENOME DO AUTOR, ano de publicação da obra: número da página). 
+Exemplo: 
+No início da televisão, no Brasil, era nítida a divisão entre ficção e realidade. Os telejornais 
+apresentavam os fatos ocorridos como uma cópia fiel da realidade, enquanto as telenovelas 
+contavam histórias imaginadas pela mente criativa de um autor. Hoje, essa separação não é mais 
+visível, há uma inversão entre realidade e ficção. “(...) a tese é a de que a telenovela é o mundo real e 
+o noticiário de televisão (os telejornais, as reportagens, os documentários), esse sim, é um mundo 
+ficcional.” (MARCONDES FILHO, 1994: 39) 
+  
+A citação  superior a cinco linhas deverá ser apresentada em parágrafo separado do texto 
+do autor, com o dobro do recuo da primeira linha, com espaço duplo antes e depois da citação, 
+espaçamento simples, fonte 11, sem aspas e, ao término da citação, indicação bibliográfica 
+(SOBRENOME DO AUTOR, ano de publicação da obra: número da página). 
+Exemplo: 
+No início da televisão, no Brasil, era nítida a divisão entre ficção e realidade. Os telejornais 
+apresentavam os fatos ocorridos como uma cópia fiel da realidade, enquanto as telenovelas 
+contavam histórias imaginadas pela mente criativa de um autor. Hoje, essa separação não é mais 
+visível, há uma inversão entre realidade e ficção. 
+ 
+Em primeiro lugar, a tese é a de que a telenovela é o mundo real e o noticiário de 
+televisão (os telejornais, as reportagens, os documentários), esse sim, é um mundo 
+ficcional. E por que isso? 
+ 
+ 
+26
+As pessoas ligam a televisão e acompanham com assiduidade quase religiosa os 
+capítulo das novelas. Assistem regularmente cada episódio, todas as noites, com 
+exceção dos domingos, mas sem cancelar feriados, Natal, Carnaval ou qualquer 
+outra data universal de guarda. A novela é tão cotidiana quanto a própria vida. 
+(MARCONDES FILHO, 1994: 39-40) 
+ 
+  
+ Citação Indireta 
+É a síntese das idéias extraídas do texto de outro autor, ou seja, dar-se-á redação própria às 
+idéias desenvolvidas por outro autor. 
+Primeiro, indique a fonte à qual pertencem as idéias (SOBRENOME do autor), em seguida, 
+entre parênteses, o ano de publicação da obra. Na citação indireta, não se usam aspas. 
+Exemplos: 
+Segundo MARCONDES FILHO (1994), atualmente, já não existe mais divisão entre realidade 
+e ficção, há uma inversão entre ficção e realidade na televisão. 
+Para MARCONDES FILHO (1994), atualmente, já não existe mais divisão entre realidade e 
+ficção, há uma inversão entre ficção e realidade na televisão. 
+MARCONDES FILHO (1994) defende a inexistência de fronteira entre realidade e ficção, há 
+uma inversão entre ficção e realidade na televisão. 
+6 – Numeração de Páginas ou Paginação 
+A numeração de páginas podem ser de duas formas: 
+a) Em algarismos arábicos  
+Paginação utilizada quando o trabalho apresentar pouco elementos textuais. Nesse caso, 
+todas as folhas, a partir da folha de rosto, devem ser contadas seqüencialmente, mas não 
+numeradas. A numeração é colocada a partir da primeira folha da parte textual (introdução), em 
+algarismos arábicos, no canto superior direito da folha, a 2 cm da borda superior. Se o trabalho tiver 
+mais de um volume, as folhas devem ter numeração contínua. Havendo apêndice, e anexo, as suas 
+folhas devem ser numeradas de maneira contínua dando segmento à do texto principal. 
+ 
+7 – Uso de Aspas, Itálico e Negrito 
+(O texto abaixo foi extraído de : UNIVERSIDADE FEDERAL DO PARANÁ. Biblioteca Central. Normas 
+para apresentação de documentos científicos. Curitiba: Ed. da UFPR, 2000. v. 8) 
+“O uso de aspas, itálico e negrito deve ser estabelecido antes de se iniciar a digitação ou a 
+datilografia do documento e deve ser coerente e uniforme, evitando-se o uso alternado de diferentes 
+tipos de destaque para o mesmo tipo de expressão. 
+Nos casos seguintes, apenas o itálico pode ser utilizado: 
+a) palavras e frases em língua estrangeira e expressões em latim; 
+b) nomes de espécies em botânica, zoologia e paleontologia; 
+c) títulos de documentos (livros, revistas, artigos e outros) citados no texto. 
+ 
+ 
+27
+Recomenda-se apenas o uso de negrito6 para letras ou palavras que mereçam ênfase, 
+quando não for possível dar esse realce pela redação 
+As aspas são sinais de pontuação empregados: 
+a) no início e no final de uma citação que não exceda cinco linhas; 
+b) em citações textuais no rodapé; 
+c) em expressões do idioma vernáculo usuais apenas no meio profissional; 
+d) em termos relativizados, isto é, utilizados com significado diferente, como apelidos e gíria, 
+ou ainda com sentido irônico; 
+e) em definições conceituais de termos.” (p. 52-53) 
+ 
+ 
+8 – Uso de Abreviaturas 
+(O texto abaixo foi extraído e adaptado de: JARDILINO, José Rubens, ROSSI, Gisele, SANTOS, 
+Gerson T. Orientações Metodológicas para Elaboração de Trabalhos Acadêmicos São Paulo: Gion, 
+2000) 
+“O uso de abreviaturas, em geral, nos trabalhos acadêmicos é um recurso usado para não 
+tornar o texto pesado e repetitivo. A grande maioria se compõe de expressões latinas usadas como 
+referência universal e freqüentemente utilizadas em textos acadêmicos. Segue uma lista limitada das 
+mais usadas.” (p. 111-113) 
+ 
+Abreviaturas
+Expressão Latina
+Significado
+ad. lit. 
+ad. litteram
+ao pé da letra 
+ampl. 
+ 
+ampliado 
+anot. 
+ 
+anotado 
+apóg. 
+ 
+apógrafo [cópia de manuscrito] 
+ap. 
+apud
+segundo fulano, referido por 
+aum. 
+ 
+aumentado 
+cf. 
+ 
+confira, compare 
+col. 
+ 
+coleção 
+comp. 
+ 
+compilador 
+dir. 
+ 
+direção 
+doc. 
+ 
+documento 
+ed. 
+ 
+edição 
+ed. cit. 
+ 
+edição citada 
+e.g. 
+exempli gratia
+por exemplo, a saber 
+et. al. 
+et. alii
+e outros 
+et. pas. 
+et. passin
+em diversas partes, aqui e ali 
+et. seqs. 
+et. sequentes
+e seguintes 
+glos. 
+ 
+glossário 
+ibid. 
+ibidem
+na mesma obra 
+id. 
+idem
+o mesmo autor 
+i.é. 
+ 
+isto é 
+il. [ilus.] 
+ 
+ilustrado 
+in. 
+ 
+em 
+                                               
+6 O uso de negrito é comumente empregado em: títulos de capítulos e sub-capítulos; expressões que indicam 
+consulta (ver, vide); indicação das palavras: Fonte, Tabela, Quadro, Figura, Foto, Nota, etc. 
+ 
+ 
+ 
+28
+in-fine
+no fim
+intr.
+introdução
+infra
+abaixo linhas ou páginas
+ip. lit.
+ipsis litteris
+literalmente
+ip.v.
+ipsis verbis.
+letra por letra - textualmente
+loc.cit.
+loco citado
+no lugar citado
+melh.
+melhorado
+Ms, ms, mss
+manuscrito[s]
+n.
+número
+n. b.
+nota bene
+observe bem
+op.cit.
+opus citatum
+obra citada
+org.
+organizado
+p. 
+página
+pas.
+passim
+em diversos lugares aqui e ali
+pref.
+prefácio
+q.v.
+quod.vide
+que se veja
+rec.
+recensão
+ref.
+referência
+refund.
+refundido
+rem.
+ 
+remissivo
+ver 
+ 
+revisto 
+silicet 
+ 
+subentende-se 
+s.d. 
+ 
+sem data 
+s.ed. 
+ 
+sem editor 
+s.l. 
+ 
+sem local de publicação 
+sel. 
+ 
+seleção, selecionado 
+sic. 
+ 
+assim mesmo, tal qual 
+supra 
+ 
+linhas ou p.p. atrás 
+sep. 
+ 
+separata 
+t. 
+ 
+tomo 
+trad. 
+ 
+tradução, traduzido 
+v. 
+ 
+volume 
+V. 
+ 
+ver 
+v.o 
+ 
+ver o original 
+v.g. 
+verbi gratia
+por exemplo 
+videlicet 
+ 
+notadamente, é fácil de ver 
+ 
+ 
+II - A FORMA GRÁFICA DO TEXTO ACADÊMICO 
+ 
+1 – Tamanho do papel: A4 (210 x 297 mm) 
+ 
+2 – Tipo, Tamanho e Estilo da Fonte Usada no Texto 
+ 
+Texto geral: times new roman ou arial tamanho 12 - estilo: normal 
+ 
+Capítulo: times new roman ou arial tamanho 14 - estilo: negrito 
+ 
+Tópico: times new roman ou arial tamanho 12 - estilo: negrito 
+ 
+Subtópico: times new roman ou arial tamanho 12 - estilo: itálico 
+ 
+Citação em parágrafo distinto (citação direta): times new roman ou arial tamanho 11 - estilo: 
+normal 
+ 
+3 – Configuração de Página 
+ 
+Margem superior: 3,0 cm 
+ 
+Margem inferior: 2,0 cm 
+ 
+Margem esquerda: 3,0 cm (justificado) 
+ 
+Margem direita: 2,0 cm (justificado) 
+ 
+Cabeçalho: 1,25 cm 
+ 
+Rodapé: 1,25 cm 
+ 
+ 
+ 
+29
+4 - Paragrafação e Espaçamento: 
+ 
+Paragrafação direta com recuo da primeira linha de 1,25 cm 
+ 
+Espaçamento antes: 6 pt 
+ 
+Espaçamento depois: 0 pt 
+ 
+Espaçamento do texto geral: 1,5 linha 
+ 
+Espaçamento das citações e notas de rodapé: simples 
+ 
+Espaçamento entre capítulo e texto: duplo 
+ 
+Espaçamento entre tópico e texto: 1,5 linha 
+ 
+Espaçamento entre subtópico e texto: 1,5 linha 
+ 
+III - A ORGANIZAÇÃO DO TEXTO ACADÊMICO 
+ 
+1 – Elementos Externos 
+ 
+ 
+Capa (obrigatório) 
+Capa é a cobertura de papel ou de outro material, flexível (brochura) ou rígida (capa dura ou 
+cartonada), que reúne e protege as folhas que constituem o trabalho. Contém os seguintes 
+elementos: o nome do autor na ordem normal com letras maiúsculas (no alto da página); o título 
+completo do trabalho (no centro da página); nome da instituição, a cidade e o ano (embaixo). (Ver 
+p. 22) 
+ 
+2 – Elementos Pré-Textuais 
+Como o próprio nome indica, são os elementos que antecedem o texto. Uma apresentação 
+adequada, permite que o leitor identifique o autor do trabalho, o tema e a instituição de ensino, além 
+de despertar o interesse do leitor em conhecer seu trabalho. 
+ 
+Folha de Rosto (obrigatório) 
+Também chamada de página de rosto, apresenta os seguintes elementos: o nome completo 
+do autor (no alto), se o trabalho foi escrito por mais de um autor, relacionar os nomes em ordem 
+alfabética ; o título completo do trabalho (no centro da página); indicação da natureza do trabalho, 
+seu objetivo acadêmico, a instituição a que se destina e nome do professor orientador do trabalho 
+(abaixo do título e à direita); nome da instituição de ensino, cidade e ano da realização do trabalho 
+(embaixo). (Ver p. 23) 
+ 
+ Errata (condicionado à necessidade) 
+Errata é uma lista das folhas e linhas em que ocorrem erros, com as devidas correções e 
+indicação das folhas e linhas em que aparecem.  Normalmente, apresenta-se em papel avulso ou 
+encartado, acrescentado ao trabalho depois de impresso. 
+OBSERVAÇÃO: a errata deve ser evitada, pois a sua utilização implica na perda da qualidade 
+e credibilidade do trabalho. Deve-se, portanto, fazer tantas revisões quantas forem necessárias. (Ver 
+p. 25) 
+ Sumário (obrigatório) 
+ 
+ 
+30
+Enumeração das principais divisões (capítulo, seções, artigos, etc.) de um documento, na 
+mesma ordem em que a matéria nele se sucede; visa  facilitar a visão do conjunto da obra e a 
+localização de suas partes, e indicar, para cada parte, a página inicial correspondente. 
+Devem estar relacionados no sumário: 
+a) os títulos dos elementos pré-textuais: lista de ilustrações, lista de abreviaturas, siglas e 
+símbolos, resumos. Os títulos desses elementos são relacionados sem indicativo numérico e 
+alinhados à esquerda. Uma linha pontilhada, não negritada, liga os títulos aos números da página 
+inicial, cujo alinhamento é à direita. 
+b) os títulos dos elementos textuais que compõem o trabalho: introdução, capítulos, tópicos e 
+subtópicos. Os capítulos, tópicos e subtópicos são relacionados com o indicativo numérico e 
+alinhados à esquerda. Uma linha pontilhada, não negritada, liga os títulos aos números da página 
+inicial, cujo alinhamento é à direita.  
+c) os títulos dos elementos pós-textuais: referências, anexos, etc. Não apresentam indicativo 
+numérico. O alinhamento é à esquerda. Uma linha pontilhada, não negritada, liga os títulos aos 
+números da página inicial, cujo alinhamento é à direita. (Ver p. 31) 
+ Lista de Ilustração (elemento condicionado à necessidade) 
+(O texto abaixo foi extraído de : UNIVERSIDADE FEDERAL DO PARANÁ. Biblioteca Central. Normas 
+para apresentação de documentos científicos. Curitiba: Ed. da UFPR, 2000) 
+“Lista de ilustrações é a relação de tabelas, quadros e figuras constantes em um trabalho. 
+Recomenda-se a elaboração de lista própria para cada tipo de ilustração, desde que a lista 
+apresente no mínimo dois itens. Caso contrário, pode-se elaborar uma única lista denominada LISTA 
+DE ILUSTRAÇÕES, identificando-se necessariamente o tipo de ilustração antes do número. 
+No texto, com exceção de tabelas e quadros, todas as demais ilustrações podem ser 
+referidas por figura, ou denominadas especificamente como gráfico, mapa, planta, entre outros. 
+Quando pouco extensas, as listas podem figurar seqüencialmente na mesma folha. 
+As listas devem: 
+a) ser apresentadas em folha distinta, após o sumário; 
+b) apresentar cada seção com os seguintes dados: 
+- 
+tipo de ilustração e indicativo numérico; 
+- 
+título; 
+- 
+número da folha que contém a ilustração, ligado ao título por uma linha pontilhada.” (v.2, 
+p. 21) (Ver p. 32) 
+ Lista de Abreviaturas, Siglas e Símbolos (elemento condicionado à necessidade) 
+ 
+ 
+31
+“É a relação alfabética de abreviaturas, siglas e símbolos empregados no trabalho, com o 
+significado correspondente. No caso dos símbolos, não sendo possível ordená-los alfabeticamente, 
+recomenda-se que sejam relacionados conforme a ordem em que aparecem no texto. 
+Quando pouco extensas, as listas podem figurar seqüencialmente na mesma folha, 
+separadas por tipo. Em caso de siglas estrangeiras, adotar o significado correspondente à sigla no 
+seu original, evitando traduções não consagradas na língua portuguesa.” (v. 2, p. 21) 
+“A lista de abreviaturas, a de siglas e a de símbolos localizam-se em páginas distintas, após o 
+sumário, ou após a lista de ilustrações, quando houver, e devem ser apresentadas, cada qual, da 
+seguinte maneira: 
+a) um título centralizado, em letras maiúsculas negritadas; 
+b) as abreviaturas e siglas (em ordem alfabética) e os símbolos (...) devem ser apresentados 
+da seguinte forma: 
+- 
+abreviatura, sigla ou símbolo alinhados à margem esquerda; 
+- 
+um hífen precedido e seguido de um espaçamento (pode-se optar por fazer o 
+alinhamento de todos os hífens pelo hífen correspondente à maior abreviatura, sigla ou 
+símbolo); 
+- 
+significado 
+por 
+extenso 
+da 
+abreviatura, 
+sigla 
+ou 
+símbolo, 
+em 
+letras 
+maiúsculas/minúsculas.” (v. 8, p. 36) (Ver p. 33-35) 
+ Resumo em Língua Portuguesa (nacional) 
+“Resumo é a apresentação concisa do texto, destacando seus aspectos de maior relevância. 
+Na elaboração do resumo, deve-se: 
+a) apresentar o resumo precedendo o texto, em entrelinhamento menor e em folha distinta; 
+(...) 
+b) redigir em um único parágrafo; 
+c) (...) apresentar o resumo com, no máximo, 500 palavras (...); 
+d) empregar termos geralmente aceitos e não apenas os de uso particular; 
+e) expressar na primeira frase do resumo o assunto tratado, situando-o no tempo e no 
+espaço, caso o título do trabalho não seja suficientemente explícito; 
+f) dar preferência ao uso da terceira pessoa do singular; 
+g) evitar o uso de citações bibliográficas; 
+h) ressaltar os objetivos, os métodos, os resultados e as conclusões do trabalho.” (v. 2, p. 25) 
+ 
+ 
+32
+“As palavras-chave e sua respectiva tradução são colocadas logo após cada resumo, (...) 
+sem recuo de parágrafo, e antecedidas do título Palavras-chave, na respectiva língua.” (v. 8, p. 38) 
+(Ver p. 36) 
+3 – Elementos Textuais 
+Esta é a parte em que o trabalho apresentado e desenvolvido. Os elementos textuais são 
+compostos por: introdução, desenvolvimento e conclusão. 
+ 
+ 
+ Título 
+(Os textos abaixo foram extraídos e adaptados de: JARDILINO, José Rubens, ROSSI, Gisele, 
+SANTOS, Gerson T. Orientações Metodológicas para Elaboração de Trabalhos Acadêmicos São 
+Paulo: Gion, 2000) 
+“O título é parte essencial de um texto acadêmico. Não deve ser escolhido a esmo. 
+Encontramos no mundo acadêmico vários tipos de títulos. Alguns são de natureza poética e outros de 
+natureza apelativa. A maioria, porém, é referencial. Reporta-se diretamente ao objeto de pesquisa e 
+procura dar indicações do tema pesquisado, do problema a ser resolvido. Ou seja, dirige a atenção 
+do leitor para o foco da pesquisa e dá pistas para a interpretação da mensagem.” (p. 61) 
+O título é composto de uma parte geral (indica o teor do trabalho. É amplo e chamativo) e de 
+uma parte específica ou técnica (explica, especifica o tema - subtítulo). 
+  
+ Introdução 
+“O objetivo da introdução é apresentar de maneira clara o tema, o problema e a hipótese 
+levantados pela pesquisa. É importante ao apresentar o objetivo do trabalho fazer uma breve 
+justificativa e indicar qual a metodologia ser usada. Não deve ser longa nem adiantar questões 
+fundamentais  a  serem  tratadas pelo  desenvolvimento.   Na  introdução  cabe  sempre  uma  breve  
+retrospectiva de como o tema foi abordado por outros autores para que fique bem claro para o leitor 
+qual é a perspectiva adotada pelo trabalho. (...) Não se deve aqui fazer longas análises. O tem é de 
+colocações breves que ajudem o leitor a se dar conta daquilo que deverá ser discutido no 
+desenvolvimento. Neste sentido, cabe, também, na introdução uma breve antecipação do que cada 
+capítulo tratará. Isto ajuda a se perceber a articulação do trabalho com um todo. 
+Resumimos a seguir alguns indicadores que ajudam a compor a introdução: 
+ 
+Apontar os objetivos do trabalho; 
+ 
+Apresentação do tema do trabalho; 
+ 
+Colocação clara do problema e da hipótese do trabalho; 
+ 
+Delimitação do tema e o enfoque teórico a ser adotado; 
+ 
+(...) Rápida referência aos trabalhos anteriores referentes ao tema; 
+ 
+ 
+33
+ 
+Indicação clara da metodologia a ser usada pela pesquisa; 
+ 
+Breve apresentação esquemática dos capítulos; 
+ 
+Ser breve (aproximadamente 3 ou 4 páginas para uma monografia de 30 laudas) e direta, sem 
+fazer análises ou discussões.” (p. 61-62) 
+ Ainda que a introdução seja a abertura do trabalho, será redigida por último. Agindo dessa forma, 
+tem-se a certeza de que nenhum aspecto relevante foi esquecido, como: tema, problema, justificativa, 
+objetivos, revisão histórica e bibliográfica, metodologia adotada e síntese dos capítulos.  
+ 
+ Desenvolvimento 
+“O desenvolvimento é o núcleo central da monografia. É nele que se buscará comprovar 
+através de um raciocínio lógico (dedutivo e/ou indutivo) apoiado em vários argumentos a hipótese 
+fundamental levantada a partir de um dado problema apontado na introdução. (...) 
+Como se trata de uma comprovação, deve-se evitar a tentação de somente se exporem as 
+idéias, tornando o texto mais enciclopédico que argumentativo. A divisão do desenvolvimento em 
+vários capítulos, que por sua vez se subdividem em tópicos e subtópicos, deve ter como base a 
+oposição de duas teses opostas a fim de se optar por uma destas soluções: a) aceitar uma e rejeitar a 
+outra; b) rejeitar ambas; c) alcançar uma solução complementar (síntese). Cada uma dessas 
+possibilidades leva a uma dada organização em capítulos, tópicos e subtópicos. No caso a), por 
+exemplo, no primeiro capítulo pode-se rejeitar a tese com a qual não se concorda; no segundo, 
+apresenta-se a tese com qual se concorda e no terceiro pode-se argumentar porque tal tese é 
+importante para se resolver o problema levantado. (...) 
+Não há uma regra geral de como cada divisão da monografia deve ser feita, porém a 
+articulação das partes que compõem o desenvolvimento deve obedecer alguns princípios lógicos e 
+psicológicos salutares ao trabalho acadêmico: partir do conhecido para o desconhecido, do mais 
+simples para o mais complexo, do que é consenso geral para o que é polêmico, dos pontos 
+mais evidentes para os mais obscuros. Isto auxilia o leitor a perceber com maior clareza o 
+problema, acompanhar melhor os passos da demonstração e aceitar como válida a conclusão em 
+função da coerência entre os enunciados e seus objetos na realidade e da coerência entre os vários 
+níveis lógicos da argumentação. 
+É recomendável, ainda, que a quantidade e a extensão dos capítulos sejam equilibradas. 
+Dividir demais faz o texto perder coesão e a não se perceber a exposição e a discussão das 
+principais idéias que convergem para a demonstração da hipótese central do trabalho. (...) Dividir de 
+menos, obscurece o trabalho, torna-o confuso, pois não se permite perceber suas divisões 
+articuladoras e o esquema lógico adotado pelo pesquisador. 
+A extensão desequilibrada também pode contribuir para a não consistência do trabalho. Um 
+capítulo muito longo em contraposição a um curto deixa dúvida com relação à importância e à 
+relevância deste último ou leva à impressão de que o primeiro contém muitas idéias que poderiam ser 
+ 
+ 
+34
+dispensadas. Às vezes perde-se muito tempo num capítulo mais descritivo ou expositivo, que se 
+alonga por intermináveis páginas, e se economiza nos capítulos argumentativos em que se tem que 
+comprovar e discutir as teses fundamentais do trabalho. Naturalmente, a consistência e a relevância 
+ficam comprometidas, pois estes capítulos são os mais importantes de uma monografia. (p.64) 
+Apresentamos abaixo vários pontos importantes para a construção do desenvolvimento: 
+ 
+Exposição - apresentação, descrição dos fatos e das idéias relativas ao tema do trabalho; 
+ 
+Discussão - comparação de idéias, exame de teses a fim de se refutar uma e confirmar outra, ou 
+se alcançar uma solução complementar entre ambas, ou se refutar ambas, propondo-se uma 
+solução nova; 
+ 
+Argumentação - defesa, comprovação da idéias central e idéias subsidiárias através do uso de 
+raciocínios lógicos indutivos e/ou dedutivos; 
+ 
+Divisão hierárquica em capítulos, tópicos e subtópicos a fim de se construir unidades lógicas que 
+se inter-relacionem e sejam interdependentes; 
+ 
+Uso de fontes fidedignas para a comprovação das idéias; sempre buscar fontes de primeira mão 
+(trabalhos, pesquisas, dados originais) recentes; 
+ 
+Uso (...) de citações para dar fundamento às idéias refutadas ou aceitas pelo trabalho; 
+ 
+Apresentação e análise de dados com base em métodos experimentais endossados pela área de 
+pesquisa científica a que se filia o trabalho monográfico; 
+ 
+Uso de figuras, mapas, diagramas, tabelas, gráficos e outros elementos não-verbais quando 
+importantes para esclarecer e comprovar um conceito, juízo ou raciocínio.” (p. 62-65) 
+ Conclusão 
+Se a introdução é abertura do trabalho, as considerações finais são seu fecho. É a síntese 
+dos argumentos mais importantes apresentados no desenvolvimento, é a apresentação dos 
+resultados e a retomada das contribuições proporcionadas pelo estudo do tema.  
+As considerações finais são caracterizadas pela brevidade (em poucas linhas, recuperar a 
+idéia central e os resultados), pela concisão (uso de expressões precisas, claras e objetivas) e pela 
+consistência (os argumentos apresentados demonstrarão se a hipótese do trabalho foi confirmada ou 
+negada). 
+ 
+4 – Elementos Pós-Textuais 
+Os elementos pós-textuais são: 
+ 
+ Referências Bibliográficas 
+ 
+ 
+35
+É a relação ordenada de todas as obras citadas ao longo do trabalho. A apresentação das 
+obras é feita em folha separada, logo após a conclusão e segue as normas da ABNT para referências 
+bibliográficas. 
+Os documentos lidos, porém não citados no trabalho, poderão ser apresentados em outra 
+lista, nomeada de Bibliografia Recomendada ou Obras Consultadas. 
+ 
+ 
+a) Livros 
+SOBRENOME, Nome. Título. Edição. Cidade de publicação: Editora, ano de publicação. 
+Exemplo: 
+CHAUI, Marilena. O que é ideologia. 42. ed. São Paulo: Brasiliense, 1997. 
+ 
+Até três autores: indica-se o nome dos três autores. 
+Exemplo: 
+JARDILINO, J. R. L.; ROSSI, G.; SANTOS, G. T. Orientações metodológicas para elaboração de 
+trabalhos acadêmicos. São Paulo: Gois Editora e Publicidade, 2000. 
+ 
+Mais de três autores: indicar o nome do organizador ou do coordenador da obra. 
+Exemplo: 
+DANTAS, Audálio (org.). Repórteres. São Paulo: Editora SENAC, 1998. 
+ 
+Referência bibliográfica de parte da obra ou capítulo. 
+SOBRENOME, Nome do autor do capítulo. Título do capítulo. In: SOBRENOME, Nome do autor do 
+livro. Título do livro. Edição. Cidade de publicação: Editora, ano de publicação. 
+Exemplo: 
+MEIRELLES, Domingos. Acerto de Contas. In: DANTAS. Audálio (org.). Repórteres. São Paulo: 
+Editora SENAC, 1998. 
+ 
+b) Dissertações e teses. 
+SOBRENOME, Nome. Título. Cidade de publicação, ano de apresentação. Tese (Doutorado) / 
+Dissertação (Mestrado). Unidade de Ensino, Instituição.   
+Exemplo: 
+SILVA, Janete Bernardo da. Abrindo janelas à noção de competência para a construção de um 
+currículo interdisciplinar: estudo preliminar. Dissertação de Mestrado. Faculdade de Educação, 
+Pontifícia Universidade Católica de São Paulo, 1999. 
+ 
+c) Trabalhos apresentados em congresso. 
+SOBRENOME, Nome. Título do trabalho. In: NOME DO CONGRESSO, número do congresso, ano e 
+cidade de realização. Título. Local: Editora, ano de publicação. páginas inicial-final. 
+Exemplo: 
+BRAYNER, A. R. A.; MEDEIROS, C. B. Incorporação do tempo em SGBD orientado a objetos. In: 
+SIMPÓSIO BRASILEIRO DE BANCO DE DADOS, 9., 1994, São Paulo. Anais... São Paulo: USP, 
+1994. p. 16-29.  
+ 
+d) Artigos de publicações periódicas 
+SOBRENOME, Nome. Título do artigo. Título do periódico, cidade de publicação: Editor, número do 
+volume, número do fascículo, páginas inicial-final, mês e ano. 
+Exemplo: 
+SILVA, Dalmo O. Souza. Ágora ou o Zoológico Humano?- uma contribuição para o debate sobre os 
+Reality Shows. Cenários da Comunicação, São Paulo: UNINOVE, v. 1, n. 1, p. 57-71, set. 2002.  
+ 
+e) Artigo de jornal 
+SOBRENOME, Nome. Título do artigo. Título do Jornal, cidade, data. Número ou título do caderno, 
+seção ou suplemento, páginas inicial-final. 
+Exemplo: 
+ 
+ 
+36
+CARDOSO, Raquel. Zeca, o pivô da guerra das cervejas. Diário de S. Paulo, São Paulo, 16 de março 
+de 2004. Economia, p. B3. 
+ 
+f) Trabalhos de fontes eletrônicas 
+SOBRENOME, Nome / EDITOR. (Ano). Título do trabalho, Tipo de mídia. Produtor (opcional). 
+Disponível: identificador (data de acesso).  
+Exemplo: 
+ARAÚJO, J.G.F. e MOREIRA, A.Z.M. (1999). Mass Media: um enfoque político-social. (On-line). 
+INTERCOM. Disponível: http://www.intercom.org.br/papers/xxii-ci/gt27/27z02.PDF , (14 de junho de 
+2004). 
+ 
+ Apêndices  (opcional) 
+Os apêndices são textos, tabelas, fotos, entrevistas, modelo de questionário ou qualquer 
+outro documento elaborados pelo autor do trabalho e têm a finalidade de complementar o assunto ou 
+a argumentação, cuja apresentação não é pertinente ao corpo do trabalho. Os apêndices recebem 
+numeração em algarismos arábicos, acompanhados do título correspondente. Cada apêndice deve 
+iniciar em folha própria. 
+ 
+ Anexos (opcional) 
+De acordo com a NBR 6029 (1993, p.5), anexo é o “documento, nem sempre do próprio autor 
+que serve de fundamentação, comprovação ou ilustração”, como textos sobre legislação, estatutos, 
+regimentos, mapas, entre outros. Os anexos recebem numeração em algarismos arábicos, 
+acompanhados do título correspondente. Cada anexo deve iniciar em folha própria. 
+ 
+ Capa final 
+Conhecida também como quarta capa, não compreende nenhum elemento, ou seja, é apenas 
+uma folha em branco. 
+ 
+ 
+37
+MODELO DE CAPA 
+ 
+ 
+ 
+3 cm 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   3 cm  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+          2 cm
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+        
+ 
+          2 cm 
+               ↔ 
+ 
+ 
+ 
+ 
+     2 cm 
+JOÃO TEODORO SAMPAIO 
+Tamanho 14, negrito, maiúsculo, centralizado e 
+digitado rente à margem superior 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+COMUNICAÇÃO SOCIAL: REPRODUÇÃO OU 
+CONSCIENTIZAÇÃO NA SOCIEDADE 
+CAPITALISTA? 
+Tamanho 16, maiúsculo, negrito, centralizado, espaço entrelinhas simples. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Tamanho 14 negrito, maiúsculo, centralizado e 
+digitado acima da margem inferior. Espaço entrelinhas simples 
+UNIVERSIDADE NOVE DE JULHO 
+SÃO PAULO - 2009
+ 
+ 
+38
+MODELO DE FOLHA DE ROSTO 
+  
+3 cm 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   3 cm  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+          2 cm
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+        
+ 
+          2 cm 
+               ↔ 
+ 
+ 
+ 
+ 
+ 
+          2 cm      
+JOÃO TEODORO SAMPAIO 
+Tamanho 14, negrito, maiúsculo, centralizado e 
+digitado rente à margem superior 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+COMUNICAÇÃO SOCIAL: REPRODUÇÃO OU 
+CONSCIENTIZAÇÃO NA SOCIEDADE 
+CAPITALISTA? 
+Tamanho 16, maiúsculo, negrito, centralizado, espaço entrelinhas simples. 
+ 
+ 
+ 
+Projeto de Pesquisa apresentado como exigência 
+parcial 
+para 
+a 
+aprovação 
+na 
+disciplina 
+Metodologia de Pesquisa em Engenharia, do 
+curso de Engenharia da Universidade Nove de 
+Julho (UNINOVE). 
+ 
+Orientador: Prof. Dr. Carlos Alberto Damasceno 
+Tamanho 12, normal, justificado,  espaço entrelinhas simples, 
+recuo de 7 cm. 
+ 
+ 
+ 
+ 
+ 
+Tamanho 14 negrito, maiúsculo, centralizado e 
+digitado acima da margem inferior. Espaço entrelinhas simples 
+ UNIVERSIDADE NOVE DE JULHO 
+SÃO PAULO - 2009 
+ 
+ 
+39
+MODELO DE SUMÁRIO 
+ 
+ 
+ 
+ 3 cm 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   3 cm  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+          2 cm
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+        
+ 
+          2 cm 
+               ↔ 
+ 
+ 
+ 
+ 
+                      
+                         2 cm         
+2 linhas em branco e escrever na 3ª linha. Espaço entrelinhas 1,5 
+ 
+ 
+SUMÁRIO 
+Letras 14, maiúsculas e negrito. 1 linha em branco e escrever na 2ª linha. Espaço entrelinhas 1,5 
+ 
+LISTA DE ILUSTRAÇÃO.......................................................... viii 
+LISTA DE ABREVIATURAS..................................................... ix  
+LISTA DE SIGLAS....................................................................... x 
+LISTA DE SÍMBOLOS................................................................ xi 
+RESUMO........................................................................................ xii 
+ABSTRACT................................................................................... xiii 
+INTRODUÇÃO............................................................................. 01 
+1 
+CONCEITUAÇÃO................................................................. 04 
+1.1 CONCEITO DE COMUNICAÇÃO SOCIAL......................... 04 
+1.2 CONCEITO DE REPRODUÇÃO........................................... 05 
+1.3 CONCEITO DE CONSCIÊNCIA............................................ 07 
+2 
+HISTÓRIA DA PUBLICIDADE.......................................... 10 
+2.1 PUBLICIDADE NO MUNDO OCIDENTAL: EUROPA E 
+AMÉRICA DO NORTE........................................................... 11 
+2.2 PUBLICIDADE NO BRASIL.................................................. 15 
+3 
+REPRODUÇÃO OU CONSCIENTIZAÇÃO?.................... 20 
+3.1 PUBLICIDADE COMO REPRODUTORA DA 
+SOCIEDADE CAPITALISTA................................................. 25 
+3.2 PUBLICIDADE E CONSCIENTIZAÇÃO NA  
+SOCIEDADE CAPITALISTA................................................. 32 
+CONSIDERAÇÕES FINAIS........................................................ 38 
+REFERÊNCIAS BIBLIOGRÁFICAS......................................... 39 
+APÊNDICES.................................................................................. 42 
+ANEXOS......................................................................................... 53 
+Digitar todo o sumário em tamanho 12. Os números das páginas e pontilhados não são em negrito. 
+Os títulos devem ser apresentados em negrito e os subtítulos e intertítulos sem negrito. 
+ 
+ 
+40
+MODELO DE LISTA DE ILUSTRAÇÃO 
+ 
+ 
+MODELO DE LISTA DE ABREVIATURAS 
+ 
+ 3 cm 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   3 cm  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+          2 cm
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+        
+ 
+          2 cm 
+               ↔ 
+ 
+ 
+ 
+ 
+                      
+                      2 cm          
+2 linhas em branco e escrever na 3ª linha. Espaço entrelinhas 1,5 
+ 
+ 
+LISTA DE ILUSTRAÇÕES 
+Letras 14, maiúsculas e negrito. 1 linha em branco e escrever na 2ª linha. Espaço entrelinhas 1,5 
+ 
+ 
+TABELA  
+1 –  Caracterização da Publicidade no Brasil na 
+década de 1990.................................................... 16 
+MAPA 
+1 -  Áreas Urbanas nas Regiões Sudeste e Sul do 
+Brasil................................................................... 18 
+GRÁFICO 1 -  Características do Consumo no Brasil.................. 19 
+FIGURA 
+1 -  Peça Publicitária do Cigarro Free......................... 25 
+MAPA 
+2 -  Consumo de Cigarro por Região.......................... 27 
+FIGURA 
+2 -  Peça Publicitária do Código de Desarmamento... 33 
+MAPA 
+3 -  Desarmamento por Região................................... 35
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+41
+ 
+ 
+ 
+MODELO DE LISTA DE SIGLAS 
+ 
+ 3 cm 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   3 cm  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+          2 cm
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+        
+ 
+          2 cm 
+               ↔ 
+ 
+ 
+ 
+ 
+                      
+                   2 cm          
+2 linhas em branco e escrever na 3ª linha. Espaço entrelinhas 1,5 
+ 
+ 
+LISTA DE ABREVIATURAS 
+Letras 14, maiúsculas e negrito. 1 linha em branco e escrever na 2ª linha. Espaço entrelinhas 1,5 
+ 
+aum. 
+-  aumentado 
+cf. 
+-  confira compare 
+col. 
+-  coleção 
+comp. 
+-  compilador 
+dir. 
+-  direção 
+doc. 
+-  documento 
+ed. 
+-  edição 
+ed. cit. -  edição citada 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+42
+ 
+ 
+ 
+ 3 cm 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   3 cm  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+          2 cm
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+        
+ 
+          2 cm 
+               ↔ 
+ 
+ 
+ 
+ 
+                      
+                      2 cm          
+2 linhas em branco e escrever na 3ª linha. Espaço entrelinhas 1,5 
+ 
+ 
+LISTA DE SIGLAS 
+Letras 14, maiúsculas e negrito. 1 linha em branco e escrever na 2ª linha. Espaço entrelinhas 1,5  
+ 
+ALCA 
+-  Área de Livre Comércio das Américas 
+BOCC 
+-  Biblioteca On-line de Ciências da     
+Comunicação 
+CONAR 
+-  Conselho de Auto-Regulamentação 
+Publicitária 
+INTERCOM 
+-  Sociedade Brasileira de Estudos 
+Interdisciplinares da Comunicação 
+MERCOSUL 
+-  Mercado Comum do Sul 
+PROCON 
+-  Procuradoria de Proteção e Defesa do 
+Consumidor 
+UE 
+-  União Européia 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+43
+MODELO DE LISTA DE SÍMBOLOS 
+(A lista de símbolos abaixo foi extraída de : UNIVERSIDADE FEDERAL DO PARANÁ. Biblioteca 
+Central. Normas para apresentação de documentos científicos. Curitiba: Ed. da UFPR, 2000. v. 2, P. 
+24) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+44
+ 
+MODELO DE RESUMO EM LÍNGUA PORTUGUESA 
+(O resumo abaixo foi extraído de : UNIVERSIDADE FEDERAL DO PARANÁ. Biblioteca Central. 
+Normas para apresentação de documentos científicos. Curitiba: Ed. da UFPR, 2000. v. 2, P. 26) 
+ 
+ 3 cm 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   3 cm  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+          2 cm
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+        
+ 
+          2 cm 
+               ↔ 
+ 
+ 
+ 
+        
+                 2 cm        
+2 linhas em branco e escrever na 3ª linha. Espaço entrelinhas 1,5 
+ 
+ 
+LISTA DE SÍMBOLOS 
+Letras 14, maiúsculas e negrito. 1 linha em branco e escrever na 2ª linha. Espaço entrelinhas 1,5 
+ 
+@ 
+- Arroba 
+% 
+- Por cento 
+Al 
+- Alumínio 
+B 
+- Boro 
+C 
+- Carbono 
+Ca 
+- Cálcio 
+Fe 
+- Ferro 
+K 
+- Potássio 
+Mg 
+- Magnésio 
+Mn 
+- Manganês 
+P 
+- Fósforo 
+Zn 
+- Zinco 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+45
+ 
+ 
+ 
+ 
+ 3 cm 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   3 cm  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+          2 cm
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+        
+ 
+          2 cm 
+               ↔ 
+ 
+ 
+ 
+ 
+                      
+                    2 cm        
+2 linhas em branco e escrever na 3ª linha. Espaço entrelinhas 1,5 
+ 
+ 
+RESUMO 
+Letras 14, maiúsculas e negrito. 1 linha em branco e escrever na 2ª linha. Espaço entrelinhas 1,5 
+ 
+Análise das dissertações de mestrado apresentadas e defendidas no 
+Programa de Pós-Graduação em Ciência da Informação do 
+Conselho Nacional de Desenvolvimento Científico e Tecnológico 
+(CNPq) e da Escola de Comunicação da Universidade Federal do 
+Rio de Janeiro (UFRJ), no período de 1972 a 1995, sob enfoque 
+crítico, com o propósito de levantar e acompanhar, entre as linha e 
+tendências metodológicas concretizadas, as mais evidentes e 
+significativas contribuições à área de Biblioteconomia e Ciência da 
+Informação. Discorre sobre as mais relevantes contribuições de 
+pensadores à questão do método e enfatiza a pesquisa como prática 
+criativa necessária para a evolução do campo analisado, sem 
+esquecer o contexto político-cultural do Brasil, como pano de 
+fundo de criação e desenvolvimento do curso e seus 
+desdobramentos para as opções metodológicas. Apóia-se em dados 
+quantitativos para a análise de um corpus constituído de 215 
+dissertações, pelo que determina algumas das considerações finais, 
+sendo 
+constatada 
+a 
+inversão 
+de 
+prioridades 
+na relação 
+assunto/opção metodológica. 
+ 
+Palavras-chave: 
+Dissertações; 
+Biblioteconomia; 
+Ciência 
+da 
+Informação; Metodologia. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+46
+MODELO DE PÁGINA DE INTRODUÇÃO 
+ 
+ 
+ 
+ 
+ 3 cm 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   3 cm  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+          2 cm
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+        
+ 
+          2 cm 
+               ↔ 
+ 
+ 
+ 
+ 
+                      
+                             2 cm 
+2 linhas em branco e escrever na 3ª linha. Espaço entrelinhas 1,5 
+ 
+ 
+INTRODUÇÃO 
+Letras 14, maiúsculas e negrito. 1 linha em branco e escrever na 2ª linha. Espaço entrelinhas 1,5 
+ 
+Xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxx. 
+Xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx. 
+Xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx. 
+ 
+ 
+47
+MODELO DE PÁGINA INICIAL DE CAPÍTULO 
+ 
+  
+ 
+ 
+ 3 cm 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   3 cm  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+          2 cm
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+        
+ 
+          2 cm 
+               ↔ 
+ 
+ 
+ 
+ 
+                      
+                             2 cm 
+2 linhas em branco e escrever na 3ª linha. Espaço entrelinhas 1,5 
+ 
+ 
+1 
+CONCEITUAÇÃO 
+Letras 12, maiúsculas e  negrito. 1 linha em branco e escrever na 2ª linha. Espaço entrelinhas 1,5 
+ 
+Xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx. 
+ 
+1.1 
+CONCEITO DE COMUNICAÇÃO SOCIAL 
+Letras 12, maiúsculas e sem negrito, 1 linha em branco e escrever na 2ª linha. Espaço entrelinhas 1,5 
+ 
+Xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx. 
+ 
+1.1.1 Comunicação Social no Brasil 
+Letras 12, maiúsculas e minúsculas e sem negrito, 1 linha  em branco e escrever na 2ª linha. Espaço 
+entrelinhas 1,5 
+ 
+ 
+Xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxx. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+48
+ 
+SÍNTESE 
+ 
+ 
+PROPOSTA DE TRABALHO CIENTÍFICO 
+ 
+Projeto de Pesquisa – Parte I: 
+ 
+Título 
+Introdução e Justificativa 
+Objetivo 
+Problematização 
+Hipótese 
+ 
+ 
+Entrega do Projeto de Pesquisa:  
+ 
+Parte I  
+Referencial Teórico 
+Metodologia 
+Cronograma 
+Referências Bibliográficas 
+ 
+Estrutura do Projeto 
+ 
+Apresentação 
+ 
+ 
+(quem ?) 
+Capa 
+            Autores 
+Instituição 
+Título 
+Local e data 
+ 
+Objetivo 
+ 
+ 
+ 
+(para quê ?) 
+ 
+Justificativa  
+ 
+ 
+(por quê ?) 
+ 
+ 
+Metodologia  
+ 
+ 
+(como ? com quê ? onde ? quanto ?) 
+Método de Abordagem 
+Técnicas e Procedimentos 
+ 
+Referencial Teórico  
+ 
+Teoria 
+ 
+Cronograma  
+ 
+ 
+(quando ?) 
+ 
+ 
+ 
+Referências Bibliográficas 
+                    
+                Fontes 
+ 
+ 
+ 
+ 
+ 
+ 
+49
+Título 
+ 
+O título difere do tema. O tema sofre um processo de delimitação para tornar a pesquisa 
+viável. O título sintetiza o conteúdo da pesquisa. 
+ 
+O título não corresponde ao tema, mas aos objetivos da pesquisa. 
+ 
+Exemplos: 
+ 
+Tema: 
+Organização Social do Trabalho de Produção Artesanal durante a idade Média na 
+Europa Ocidental 
+Título: 
+Determinação das aspirações dos trabalhadores na empresa industrial 
+ 
+Tema: 
+Custo de Implantação de uma Rede Sem Fio (Wireless) em Empresas de 
+Pequeno Porte no interior do Estado de São Paulo  
+Título: 
+Análise da relação custo benefício de redes sem fio para pequenas empresas 
+ 
+ 
+Introdução 
+ 
+Rápido comentário do propósito do trabalho 
+Condições e necessidades 
+Motivações que levaram ao estudo 
+ 
+Utilizada para introduzir o leitor no assunto que será abordado. 
+ 
+ 
+Justificativa 
+ 
+De grande importância no projeto, normalmente é responsável pela aceitação (ou não) da 
+pesquisa por parte de quem vai financiá-la.  
+ 
+Consiste em exposição das razões teóricas e práticas que tornam a pesquisa importante 
+para a comunidade empresarial e/ou acadêmica. 
+ 
+Enfatiza: 
+O estágio em que se encontra a teoria (com relação ao tema) 
+Contribuições teóricas que a pesquisa pode trazer 
+Importância do tema do ponto de vista geral 
+Importância do tema para casos particulares 
+Possibilidade de sugerir modificações na realidade do tema 
+Descoberta de soluções para casos gerais e/ou particulares 
+ 
+A justificativa não é uma revisão bibliográfica, portanto não possui citações ou referências 
+de outros autores. 
+ 
+Na justificativa, vale o conhecimento científico, a criatividade e a capacidade de convencer ! 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+50
+Problematização 
+ 
+A formulação do problema prende-se ao tema proposto. Esclarece a dificuldade específica 
+com a qual se defronta e que pretende resolver pela pesquisa.  
+ 
+Para ser válido, basicamente, deve-se responder as perguntas sobre um problema: 
+1. Pode ser enunciado em forma de questão? 
+2. É de questão científica? 
+3. Pode ser objeto de investigação sistemática, controlada e crítica ? 
+ 
+Ex. 
+Será que as categorias ocupacionais e os status ocupacionais na estrutura 
+organizacional levam o empregado a possuir diferentes tipos de aspirações? 
+ 
+Com a evolução da tecnologia de redes sem fio, já é viável para as pequenas 
+empresas assumirem seu custo, especialmente fora dos grandes centros? 
+ 
+Hipótese 
+ 
+É uma afirmação básica que surge como resposta provável ao problema. É o que se supõe 
+inicialmente. 
+ 
+O funcionário do setor burocrático, ocupando uma posição na alta administração, 
+tende a dar preferência a satisfação com o trabalho realizado. 
+O funcionário do setor de produção, ocupando posições mais baixas na estrutura da 
+organização, tende a dar preferência a bons salários. 
+Os funcionários, tanto do setor burocrático quanto do setor de produção, ocupando 
+posições médias na empresa, tendem a dar preferência à possibilidade de 
+promoção. 
+ 
+A tecnologia das redes sem fio teve uma redução de custo devido à evolução 
+tecnológica e a sua crescente utilização nas empresas. 
+A tecnologia existente (rede por cabos e fibras) manteve seu custo, pois não houve 
+avanço tecnológico considerável nem crescimento acentuado de seu uso. 
+A globalização permite as empresas terem acesso à tecnologia em qualquer local, 
+mesmo distante dos grandes centros. 
+ 
+ 
+Objetivo 
+ 
+Está ligado a uma visão global do tema. Relaciona-se com o conteúdo, seja dos fenômenos 
+ou das idéias estudadas. Vincula-se diretamente ao próprio significado da tese proposta. 
+ 
+Verificar os motivos específicos que influem e/ou determinam as aspirações dos 
+trabalhadores em relação à natureza organizacional e social da empresa industrial. 
+ 
+Avaliar a possibilidade de utilização de tecnologia de ponta em redes de 
+computadores fora dos grandes centros para tornar pequenas empresas 
+competitivas. 
+ 
+ 
+Referencial Teórico  
+ 
+Teoria de Base 
+ 
+ 
+ 
+51
+Pesquisa científica não é apenas um relatório de fatos, mas o desenvolvimento relacionado 
+aos fatos obtidos. É essencial correlacionar a pesquisa com o conhecimento teórico. Todo 
+projeto de pesquisa deve conter premissas ou pressupostos teóricos sobre os quais o 
+pesquisador fundamentará sua interpretação. 
+ 
+Nenhuma pesquisa parte da estaca zero. Até as pesquisas exploratórias devem possuir 
+dados encontrados por alguém em algum lugar que servem como referência. A procura 
+dessas fontes documentais ou bibliográficas torna-se de extrema importância para não 
+haver duplicação de esforços ou a descoberta de idéias que já existiam. 
+ 
+A citação das principais conclusões a que outros autores chegaram permite salientar a 
+contribuição da pesquisa realizada, demonstrar contradições ou confirmar resultados obtidos 
+em outra sociedade. 
+ 
+ 
+Metodologia  
+ 
+ 
+Constituem etapas mais concretas da investigação, com finalidade mais restrita. Refere-se a 
+uma atitude mais concreta em relação a um domínio em particular. 
+ 
+Levantamentos históricos (base histórica) 
+Estudos comparativos 
+Análises estatísticas 
+Relações de causa e efeito 
+Experimentação (científica), simulações 
+Estudos de caso 
+Formulação de hipóteses e variáveis 
+Dedução lógica 
+etc... 
+ 
+Cronograma 
+ 
+Responde a questão quando ? 
+ 
+A pesquisa deve ser dividida em partes, fazendo-se a previsão do tempo necessário para 
+passar de uma fase a outra. Levar em consideração que algumas tarefas podem ser 
+executadas simultaneamente por vários membros de uma equipe e algumas tarefas 
+dependem das anteriores. 
+ 
+Etapa
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+Definição do Tema
+XXXX
+Pesquisas Preliminares
+XXXX
+XXXX
+Definição do Título
+ 
+XXXX 
+ 
+ 
+ 
+ 
+ 
+ 
+Levantamento dos Dados
+ 
+XXXX 
+XXXX 
+XXXX 
+ 
+ 
+ 
+ 
+Análise dos Dados
+XXXX
+XXXX
+XXXX
+Interpretação e Conclusões
+ 
+ 
+ 
+ 
+ 
+XXXX 
+ 
+ 
+Redação do Relatório
+ 
+ 
+ 
+ 
+XXXX 
+XXXX 
+XXXX 
+ 
+Apresentação Final
+XXXX
+ 
+ 
+Referências Bibliográficas 
+ 
+ A bibliografia final abrange as publicações e documentos utilizados. Livros, artigos, teses... 
+ 
+ 
+52
+ 
+PROJETO DE PESQUISA 
+                                  ORGANIZAÇÃO DA EQUIPE DE TRABALHO 
+CAMPUS: _____________TURMA _______ SALA ________PERÍODO _________ 
+ 
+Todos são pesquisadores e responsáveis pelo resultado final do projeto. 
+ 
+FUNÇÃO 
+NOME DO ALUNO 
+E-MAIL 
+FONES 
+1.Coordenador (a) (Líder) 
+    e tarefas diversas 
+ 
+ 
+ 
+2.Formatação 
+(ABNT)/IMAGEM/ 
+Mídia  
+ 
+ 
+ 
+3.LEVANTAMENTO 
+BIBLIOGRÁFICO (Dinâmico) 
+ 
+ 
+ 
+4.LEVANTAMENTO   
+BIBLIOGRÁFICO 
+ 
+ 
+ 
+5.ORGANIZAÇÃO/
+RASCUNHO/ARQUIVO 
+(Organizado) 
+6.REDAÇÃO (competente) 
+ 
+7. Verificar COERÊNCIA –
+Manutenção da linha de 
+trabalho (pensamento lógico) 
+8.Pesquisador de Internet
+ 
+ 
+9.Pesquisador de Livros
+ 
+ 
+ 
+ 
+ 
+10.Pesquisador de Artigos, 
+Dissertações, Teses 
+ 
+ 
+ 
+ 
+11.Informações pertinentes 
+      atualizadas 
+ 
+ 
+ 
+12. Anotação de orientações 
+       em sala de aula  
+ 
+ 
+ 
+ 
+13. Revisão e redação final
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+53
+ 
+ 
+BIBLIOGRAFIA 
+ 
+ 
+ 
+JARDILINO, José Rubens, Rossi, Gisele, SANTOS, Gérson Tenório. Orientações 
+Metodológicas para Elaboração de Trabalhos Acadêmicos. São Paulo: Gion, 2000. 
+ 
+OLIVEIRA, Silvio Luiz de. Tratado de Metodologia Científica: projetos de pesquisas, 
+TGI, TCC, monografias, dissertações e teses. São Paulo: Pioneira Thomson 
+Learning, 2001. 
+ 
+LAKATOS, Eva Maria, MARCONI, Marina de Andrade. Ed. Atlas, 1999. 
+ 
+RICHARDSON, Roberto Jarry. Pesquisa Social: métodos e técnicas. São Paulo: 
+Atlas, 1999. 
+ 
+SANTAELLA, Lucia. Comunicação e Pesquisa. São Paulo: Hacker Editores, 2001. 
+ 
+SEVERINO, Antônio Joaquim. Metodologia do Trabalho Científico. São Paulo: 
+Cortez,  2000. 
+ 
+ 
+http://www.webciencia.com/03_ciencia.htm 
+  

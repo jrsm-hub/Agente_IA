@@ -1,0 +1,4583 @@
+Metodologia da Pesquisa e  
+Elaboração de Dissertação 
+UFSC Universidade Federal de Santa Catarina 
+http://www.ufsc.br 
+CTC Centro Tecnológico 
+http://www.ctc.ufsc.br 
+PPGEP Programa de Pós-Graduação em Engenharia de Produção 
+http://www.deps.ufsc.br 
+ 
+CED Centro de Ciências da Educação 
+http://www.ced.ufsc.br 
+ 
+CIN Departamento de Ciência da Informação 
+http://www.cin.ufsc.br 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Equipe Técnica 
+Elaboração do Conteúdo 
+Edna Lúcia da Silva, Dr. 
+Estera Muszkat Menezes, M. 
+ 
+Revisão de Texto 
+Daniela Alves da Silva 
+Renato Tapado 
+Diagramação 
+Daniel Blass 
+ 
+Universidade Federal de Santa Catarina - UFSC 
+ 
+ 
+ 
+Metodologia da Pesquisa e  
+Elaboração de Dissertação 
+ 
+4a edição revisada e atualizada 
+ 
+ 
+Edna Lúcia da Silva 
+Estera Muszkat Menezes 
+ 
+Florianópolis 
+2005 
+Ficha Catalográfica 
+(Catalogação na fonte pelo Departamento de Ciência da Informação da UFSC) 
+ 
+S586m 
+Silva, Edna Lúcia da 
+Metodologia da pesquisa e elaboração de dissertação/Edna 
+ 
+Lúcia da Silva, Estera Muszkat Menezes. – 4. ed. rev. atual. 
+– Florianópolis: UFSC, 2005. 
+138p. 
+1. Pesquisa – Metodologia. I. Menezes, Estera Muszkat. 
+II. Título 
+ 
+CDU: 001.8 
+ 
+ 
+Sumário 
+Apresentação .......................................................................................................... 9 
+O Pesquisador e a  Comunicação Científica ..................................................... 13 
+A Pesquisa e suas Classificações ...................................................................... 19 
+Métodos Científicos.............................................................................................. 25 
+As Etapas da Pesquisa ........................................................................................ 29 
+Revisão de Literatura ........................................................................................... 37 
+Como Levantar Informações para Realizar Pesquisas em Engenharia de 
+Produção? ............................................................................................................. 45 
+Leitura, Fichamento, Resumo, Citações e Referências.................................... 65 
+Problema e  Hipóteses de Pesquisa ................................................................... 83 
+O Projeto de Pesquisa (dissertação ou tese) .................................................... 91 
+Elaboração e Apresentação  do Relatório de Pesquisa  (dissertação/tese) .. 97 
+Como Apresentar Graficamente seu Relatório de Pesquisa  (dissertação ou 
+tese)...................................................................................................................... 103 
+Como Elaborar Artigos para Publicação? ....................................................... 121 
+Referências.......................................................................................................... 127 
+Apêndice A - Relação de Títulos de Periódicos da Engenharia de Produção 
+disponíveis no Portal  Capes............................................................................. 129 
+Apresentação  
+“Curiosidade, criatividade, disciplina e especialmente paixão são algumas exigên-
+cias para o desenvolvimento de um trabalho criterioso, baseado no confronto per-
+manente entre o desejo e a realidade.” 
+Mirian Goldenberg 
+ 
+A Metodologia tem como função mostrar a você como andar no 
+“caminho das pedras” da pesquisa, ajudá-lo a refletir e insti-
+gar um novo olhar sobre o mundo: um olhar curioso, indaga-
+dor e criativo. 
+A elaboração de um projeto de pesquisa e o desenvolvimento 
+da própria pesquisa, seja ela uma dissertação ou tese, neces-
+sitam, para que seus resultados sejam satisfatórios, estar ba-
+seados em planejamento cuidadoso, reflexões conceituais sóli-
+das e alicerçados em conhecimentos já existentes. 
+Pesquisar é um trabalho que envolve um planejamento análo-
+go ao de um cozinheiro. Ao preparar um prato, o cozinheiro 
+precisa saber o que ele quer fazer, obter os ingredientes, asse-
+gurar-se de que possui os utensílios necessários e cumprir as 
+etapas requeridas no processo. Um prato será saboroso na 
+medida do envolvimento do cozinheiro com o ato de cozinhar e 
+de suas habilidades técnicas na cozinha. O sucesso de uma 
+pesquisa também dependerá do procedimento seguido, do seu 
+envolvimento com a pesquisa e de sua habilidade em escolher 
+o caminho para atingir os objetivos da pesquisa. 
+A pesquisa é um trabalho em processo não totalmente contro-
+lável ou previsível. Adotar uma metodologia significa escolher 
+ 
+ 
+10 
+um caminho, um percurso global do espírito. O percurso, 
+muitas vezes, requer ser reinventado a cada etapa. Precisa-
+mos, então, não somente de regras e sim de muita criatividade 
+e imaginação. 
+Esta publicação  Metodologia da Pesquisa e Elaboração de Dis-
+sertação visa fornecer para você informações básicas de meto-
+dologia da pesquisa servindo de guia à elaboração do projeto e 
+da dissertação de mestrado e da tese de doutorado do Progra-
+ma de Pós-Graduação em Engenharia de Produção da Univer-
+sidade Federal de Santa Catarina. Descreve princípios teóricos 
+e fornece orientações práticas que ajudarão você a aprender a 
+pensar criticamente, ter disciplina, escrever e apresentar traba-
+lhos conforme padrões metodológicos e acadêmicos. 
+Está estruturada da seguinte forma: 
+ l 
+O Pesquisador e a Comunicação Científica 
+Descreve os processos de comunicação na pesquisa científica 
+e tecnológica dando ênfase aos canais de comunicação usados 
+pelo pesquisador. 
+ 2 
+A Pesquisa e suas Classificações 
+Apresenta as definições de pesquisa, as formas clássicas de 
+sua classificação e as etapas de um planejamento de pesqui-
+sa. 
+ 3 
+Métodos Científicos 
+Identifica como se processam as operações mentais no proces-
+so de pesquisa científica. Mostra como é a abordagem científi-
+ca pelos métodos: dedutivo, indutivo, hipotético-dedutivo, dia-
+lético e fenomenológico. 
+ 4 
+As Etapas da Pesquisa 
+Sistematiza o processo de pesquisa em etapas e mostra os 
+procedimentos que precisam ser adotados em cada uma delas. 
+ 
+11 
+ 5 
+Revisão de Literatura 
+Identifica os passos para a elaboração da revisão de literatura 
+e os procedimentos que devem ser adotados em cada etapa. 
+ 6 
+Como Levantar Informações para Realizar  
+Pesquisas em Engenharia de Produção? 
+Identifica as fontes disponíveis para pesquisa em Engenharia 
+de Produção e mostra as possibilidades oferecidas pelas fontes 
+digitais, fontes impressas em papel e como localizar os mate-
+riais necessários à pesquisa. 
+ 7 
+Leitura, Fichamento, Resumo, Citações e Referências 
+Fornece elementos para que se faça leituras proveitosas e sín-
+teses que facilitem o processo de análise dos textos. Mostra 
+como devem ser as citações e as referências dos textos nos 
+moldes da ABNT. 
+ 8 
+Problema e Hipóteses de Pesquisa 
+Define problema e hipóteses de pesquisa. Identifica parâme-
+tros à formulação do problema e da(s) hipótese(s). 
+ 9 
+O Projeto de Pesquisa (Dissertação ou Tese) 
+Define o esquema de um Projeto de Pesquisa. Orienta quanto 
+ao conteúdo de todos os tópicos do projeto. 
+ 10 
+Elaboração e Apresentação do Relatório de Pesquisa 
+(Dissertação ou Tese) 
+Orienta quanto à forma e ao conteúdo dos elementos que 
+constituem o relatório de pesquisa. Mostra os tópicos que de-
+vem aparecer na dissertação ou tese. 
+ 
+ 
+12 
+ 11 
+Como Apresentar Graficamente seu Relatório de Pesquisa  
+(Dissertação ou Tese)? 
+Identifica como as normas da ABNT devem ser aplicadas na 
+apresentação gráfica do relatório de pesquisa. 
+ 12 
+Como Elaborar Artigos para Publicação? 
+Define, segundo a ABNT, a estrutura de um artigo. Mostra o 
+conteúdo de cada um dos elementos pré-textuais, textuais e 
+pós-textuais. 
+ 
+Edna Lúcia da Silva e Estera Muszkat Menezes 
+Professoras do Departamento de Ciência da Informação da UFSC 
+ 
+O Pesquisador e a  
+Comunicação Científica 
+Descrever o processo de comunicação na pesquisa científica e tecnológica; 
+identificar e descrever os canais de comunicação usados pelos pesquisadores; 
+apontar as qualidades de um bom pesquisador. 
+INTRODUÇÃO 
+Hoje se reconhece que a ciência e a tecnologia se viabilizam 
+por meio de um processo de construção do conhecimento e 
+que esse processo flui na esfera da comunicação. 
+Garvey (1979), um autor clássico da área de Sociologia da Ci-
+ência, incluiu no processo de Comunicação Científica “as ati-
+vidades associadas com a produção, disseminação e uso da 
+informação, desde a hora em que o cientista teve a idéia da 
+pesquisa até o momento em que os resultados de seu trabalho 
+são aceitos como parte integrante do conhecimento científico”. 
+O SISTEMA DE COMUNICAÇÃO NA CIÊNCIA 
+O sistema de comunicação na ciência, estudado por Garvey, 
+apresenta dois tipos de canais de comunicação dotados de di-
+ferentes funções. O canal informal de comunicação, que re-
+presenta a parte do processo invisível ao público, está caracte-
+rizado por contatos pessoais, conversas telefônicas, corres-
+ 
+ 
+14 
+pondências, cartas, pré-prints e assemelhados. O canal formal, 
+que é a parte visível (pública) do sistema de comunicação ci-
+entífica está representado pela informação publicada em for-
+ma de artigos de periódicos, livros, comunicações escritas em 
+encontros científicos, etc. 
+CANAIS INFORMAIS 
+Nos canais informais o processo de comunicação é ágil e sele-
+tivo. A informação circulada tende a ser mais atual e ter maior 
+probabilidade de relevância, porque é obtida pela interação 
+efetiva entre os pesquisadores. Os canais informais não são 
+oficiais nem controlados e são usados geralmente entre dois 
+indivíduos ou para a comunicação em pequenos grupos para 
+fazer disseminação seletiva do conhecimento. 
+CANAIS FORMAIS 
+Nos canais formais o processo de comunicação é lento, mas 
+necessário para a memória e a difusão de informações para o 
+público em geral. Os canais formais são oficiais, públicos e 
+controlados por uma organização. Destinam-se a transferir 
+informações a uma comunidade, não a um indivíduo, e tor-
+nam público o conhecimento produzido. Os canais formais são 
+permanentes, as informações que veiculam são registradas em 
+um suporte e assim tornam-se mais acessíveis. 
+FUNÇÃO DOS CANAIS INFORMAIS 
+Os canais informais, por meio do contato face a face ou medi-
+ados por um computador, são fundamentais aos pesquisado-
+res pela oportunidade proporcionada para troca de idéias, dis-
+cussão e feedbacks com os pares. 
+O trabalho publicado nos canais formais, de certa forma, já foi 
+filtrado via canais informais. Os contatos informais mantidos 
+com os pares pelos pesquisadores foram chamados por Price 
+(1979) de colégios invisíveis; Crane (1972) e Kadushin (1976) 
+denominaram de círculos sociais e, mais recentemente, Latour 
+ 
+15 
+(1994) denominou de redes científicas. Latour incorporou às 
+redes científicas a idéia de que estas não visam propriamente 
+à troca de informações; representam um esquema operacional 
+para construção do conhecimento e nesse esquema estão in-
+cluídos os híbridos, elementos não-humanos, representados 
+pelos equipamentos e toda a parafernália de produtos e servi-
+ços necessários à produção da ciência e da tecnologia. 
+Atualmente, com o advento da Internet, as listas de discussão 
+representam um canal informal semelhante aos colégios invi-
+síveis e os círculos sociais dos tempos passados. As listas de 
+discussão permitem a criação de comunidades virtuais onde 
+pessoas que possuem interesses comuns discutem, trocam 
+informações por meio de um processo comunicacional instan-
+tâneo, ágil e, portanto, sem barreiras de tempo e espaço. A 
+Internet amplia as possibilidades de troca de informação na 
+medida em que permite ao pesquisador compartilhar e intera-
+gir com a inteligência coletiva (LEVY, 1998). 
+FUNÇÃO DOS CANAIS FORMAIS 
+Os canais formais, por intermédio das publicações, são funda-
+mentais aos pesquisadores porque permitem comunicar seus 
+resultados de pesquisa, estabelecer a prioridade para suas des-
+cobertas, obter o reconhecimento de seus pares e, com isso, 
+aumentar sua credibilidade no meio técnico ou acadêmico. 
+DIFERENÇAS BÁSICAS ENTRE  
+CANAIS FORMAIS E INFORMAIS 
+Antes de chegarem a ser publicados os resultados de uma 
+pesquisa, a informação percorre um longo caminho nesta pas-
+sagem do domínio informal para o formal. Vale dizer que este 
+processo não é estanque ou linear e que os avanços tecnológi-
+cos e as redes de comunicação têm feito com que as duas 
+formas de comunicação estejam se sobrepondo e têm tornado 
+tênues as fronteiras entre os dois domínios da comunicação 
+(informal e formal). 
+No quadro a seguir foram sintetizadas por Le Coadic (1996) as 
+principais diferenças entre os elementos formais e informais 
+da comunicação científica: 
+ 
+ 
+16 
+Diferenças entre os Elementos Formais  
+e Informais da Comunicação Científica 
+Comunicação formal 
+Comunicação informal 
+Pública. 
+Privada. 
+Informação armazenada de forma per-
+manente, recuperável. 
+Informação não-armazenada,  
+não-recuperável. 
+Informação relativamente velha. 
+Informação recente. 
+Informação comprovada. 
+Informação não-comprovada. 
+Disseminação uniforme. 
+Direção do fluxo escolhida pelo produtor. 
+Redundância moderada. 
+Redundância às vezes muito importante. 
+Ausência de interação direta. 
+Interação direta 
+Fonte: LE COADIC, Y-F. A ciência da informação. Brasília: Briquet de Lemos, 1996. 
+A freqüência e o uso de um canal informal ou formal são de-
+terminados por sua acessibilidade. 
+O TRABALHO CIENTÍFICO E SUA AVALIAÇÃO 
+O trabalho científico, propriamente dito, é avaliado, segundo 
+Demo (1991), pela sua qualidade política e pela sua qualidade 
+formal. Qualidade política refere-se fundamentalmente aos 
+conteúdos, aos fins e à substância do trabalho científico. Qua-
+lidade formal diz respeito aos meios e formas usados na pro-
+dução do trabalho. Refere-se ao domínio de técnicas de coleta 
+e interpretação de dados, manipulação de fontes de informa-
+ção, conhecimento demonstrado na apresentação do referen-
+cial teórico e apresentação escrita ou oral em conformidade 
+com os ritos acadêmicos. 
+O PESQUISADOR E SUAS QUALIFICAÇÕES 
+Alguns atributos pessoais são desejáveis para você ser um bom 
+pesquisador. Para Gil (1999), um bom pesquisador precisa, a-
+lém do conhecimento do assunto, ter curiosidade, criatividade, 
+integridade intelectual e sensibilidade social. São igualmente 
+importantes: a humildade para ter atitude autocorretiva, a i-
+maginação disciplinada, a perseverança, a paciência e a confi-
+ança na experiência. 
+ 
+17 
+Atualmente, o sucesso de um pesquisador está vinculado, ca-
+da vez mais, a sua capacidade de captar recursos, enredar 
+pessoas para trabalhar em sua equipe e fazer alianças que 
+proporcionem a tecnologia e os equipamentos necessários pa-
+ra o desenvolvimento de sua pesquisa. Quanto maior for o seu 
+prestígio e reconhecimento, obtido pelas suas publicações, 
+maior será o seu poder de persuasão e sedução no processo 
+de fazer aliados. 
+CONSIDERAÇÕES FINAIS 
+Tanto os canais formais quanto os informais são importantes 
+no processo de construção do conhecimento científico e tecno-
+lógico. Os canais informais cumprem suas funções como meio 
+de disseminação de informação entre você e seus pares, e os 
+canais formais são responsáveis pela comunicação oficial dos 
+resultados de uma pesquisa. A publicação proporciona o con-
+trole de qualidade de uma área, confere reconhecimento da 
+prioridade ao autor e possibilita a preservação do conhecimen-
+to. Na verdade você, estando em atividade de pesquisa, parti-
+cipa de um processo permanente de transações e mediações 
+comunicativas. 
+ 
+A Pesquisa e suas Classificações 
+Definir o que é pesquisa; 
+mostrar as formas clássicas de classificação das pesquisas; 
+identificar as etapas de um planejamento de pesquisa. 
+INTRODUÇÃO 
+O que é pesquisa? Esta pergunta pode ser respondida de mui-
+tas formas. 
+Pesquisar significa, de forma bem simples, procurar respostas 
+para indagações propostas. 
+Minayo (1993, p.23), vendo por um prisma mais filosófico, 
+considera a pesquisa como “atividade básica das ciências na 
+sua indagação e descoberta da realidade. É uma atitude e 
+uma prática teórica de constante busca que define um proces-
+so intrinsecamente inacabado e permanente. É uma atividade 
+de aproximação sucessiva da realidade que nunca se esgota, 
+fazendo uma combinação particular entre teoria e dados”. 
+Demo (1996, p.34) insere a pesquisa como atividade cotidiana 
+considerando-a como uma atitude, um “questionamento sis-
+temático crítico e criativo, mais a intervenção competente na 
+realidade, ou o diálogo crítico permanente com a realidade em 
+sentido teórico e prático”. 
+Para Gil (1999, p.42), a pesquisa tem um caráter pragmático, 
+é um “processo formal e sistemático de desenvolvimento do 
+método científico. O objetivo fundamental da pesquisa é des-
+ 
+ 
+20 
+cobrir respostas para problemas mediante o emprego de pro-
+cedimentos científicos”. 
+Pesquisa é um conjunto de ações, propostas para encontrar a 
+solução para um problema, que têm por base procedimentos 
+racionais e sistemáticos. A pesquisa é realizada quando se tem 
+um problema e não se têm informações para solucioná-lo. 
+CLASSIFICAÇÕES DAS PESQUISAS 
+Existem várias formas de classificar as pesquisas. As formas 
+clássicas de classificação serão apresentadas a seguir: 
+Do ponto de vista da sua natureza, pode ser: 
+ Pesquisa Básica: objetiva gerar conhecimentos novos úteis 
+para o avanço da ciência sem aplicação prática prevista. 
+Envolve verdades e interesses universais. 
+ Pesquisa Aplicada: objetiva gerar conhecimentos para apli-
+cação prática e dirigidos à solução de problemas específi-
+cos. Envolve verdades e interesses locais. 
+Do ponto de vista da forma de abordagem do problema pode ser: 
+ Pesquisa Quantitativa: considera que tudo pode ser quanti-
+ficável, o que significa traduzir em números opiniões e in-
+formações para classificá-las e analisá-las. Requer o uso de 
+recursos e de técnicas estatísticas (percentagem, média, 
+moda, mediana, desvio-padrão, coeficiente de correlação, 
+análise de regressão, etc.). 
+ Pesquisa Qualitativa: considera que há uma relação dinâmi-
+ca entre o mundo real e o sujeito, isto é, um vínculo indis-
+sociável entre o mundo objetivo e a subjetividade do sujeito 
+que não pode ser traduzido em números. A interpretação 
+dos fenômenos e a atribuição de significados são básicas no 
+processo de pesquisa qualitativa. Não requer o uso de mé-
+todos e técnicas estatísticas. O ambiente natural é a fonte 
+direta para coleta de dados e o pesquisador é o instrumen-
+to-chave. É descritiva. Os pesquisadores tendem a analisar 
+seus dados indutivamente. O processo e seu significado são 
+os focos principais de abordagem. 
+ 
+21 
+Do ponto de vista de seus objetivos (GIL, 1991) pode ser: 
+ Pesquisa Exploratória: visa proporcionar maior familiarida-
+de com o problema com vistas a torná-lo explícito ou a 
+construir hipóteses. Envolve levantamento bibliográfico; en-
+trevistas com pessoas que tiveram experiências práticas 
+com o problema pesquisado; análise de exemplos que esti-
+mulem a compreensão. Assume, em geral, as formas de 
+Pesquisas Bibliográficas e Estudos de Caso. 
+ Pesquisa Descritiva: visa descrever as características de de-
+terminada população ou fenômeno ou o estabelecimento de 
+relações entre variáveis. Envolve o uso de técnicas padroni-
+zadas de coleta de dados: questionário e observação siste-
+mática. Assume, em geral, a forma de Levantamento. 
+ Pesquisa Explicativa: visa identificar os fatores que deter-
+minam ou contribuem para a ocorrência dos fenômenos. 
+aprofunda o conhecimento da realidade porque explica a 
+razão, o “porquê” das coisas. Quando realizada nas ciências 
+naturais, requer o uso do método experimental, e nas ciên-
+cias sociais requer o uso do método observacional. Assume, 
+em geral, a formas de Pesquisa Experimental e Pesquisa  
+Expost-facto. 
+Do ponto de vista dos procedimentos técnicos (GIL, 1991), pode ser: 
+ Pesquisa Bibliográfica: quando elaborada a partir de mate-
+rial já publicado, constituído principalmente de livros, arti-
+gos de periódicos e atualmente com material disponibilizado 
+na Internet. 
+ Pesquisa Documental: quando elaborada a partir de materi-
+ais que não receberam tratamento analítico. 
+ Pesquisa Experimental: quando se determina um objeto de 
+estudo, selecionam-se as variáveis que seriam capazes de 
+influenciá-lo, definem-se as formas de controle e de obser-
+vação dos efeitos que a variável produz no objeto. 
+ Levantamento: quando a pesquisa envolve a interrogação 
+direta das pessoas cujo comportamento se deseja conhecer. 
+ Estudo de caso: quando envolve o estudo profundo e exaus-
+tivo de um ou poucos objetos de maneira que se permita o 
+seu amplo e detalhado conhecimento. 
+ Pesquisa Expost-Facto: quando o “experimento” se realiza 
+depois dos fatos. 
+ 
+ 
+22 
+ Pesquisa-Ação: quando concebida e realizada em estreita 
+associação com uma ação ou com a resolução de um pro-
+blema coletivo. Os pesquisadores e participantes represen-
+tativos da situação ou do problema estão envolvidos de mo-
+do cooperativo ou participativo. 
+ Pesquisa Participante: quando se desenvolve a partir da in-
+teração entre pesquisadores e membros das situações in-
+vestigadas. 
+O PLANEJAMENTO DA PESQUISA 
+Pesquisa é a construção de conhecimento original de acordo 
+com certas exigências científicas. Para que seu estudo seja 
+considerado científico você deve obedecer aos critérios de coe-
+rência, consistência, originalidade e objetivação. Para a reali-
+zação de uma pesquisa científica, segundo Goldemberg (1999, 
+p.106), é imprescindível: 
+“a) a existência de uma pergunta que se deseja respon-
+der;  
+b) a elaboração de um conjunto de passos que permitam 
+chegar à resposta;  
+c) a indicação do grau de confiabilidade na resposta ob-
+tida”. 
+O planejamento de uma pesquisa dependerá basicamente de 
+três fases: 
+ fase decisória: referente à escolha do tema, à definição e à 
+delimitação do problema de pesquisa; 
+ fase construtiva: referente à construção de um plano de 
+pesquisa e à execução da pesquisa propriamente dita; 
+ fase redacional: referente à análise dos dados e informações 
+obtidas na fase construtiva. É a organização das idéias de 
+forma sistematizada visando à elaboração do relatório final. 
+A apresentação do relatório de pesquisa deverá obedecer às 
+formalidades requeridas pela Academia. 
+As etapas envolvidas no planejamento de uma pesquisa estão 
+detalhadamente abordadas no capítulo 4. 
+ 
+23 
+CONSIDERAÇÕES FINAIS 
+Pesquisa científica seria, portanto, a realização concreta de 
+uma investigação planejada e desenvolvida de acordo com as 
+normas consagradas pela metodologia científica. Metodologia 
+científica aqui entendida como um conjunto de etapas orde-
+nadamente dispostas que você deve vencer na investigação de 
+um fenômeno. Nessas etapas estão incluídos desde a escolha 
+do tema, o planejamento da investigação, o desenvolvimento 
+metodológico, a coleta e a tabulação de dados, a análise dos 
+resultados, a elaboração das conclusões e até a divulgação de 
+resultados. 
+Os tipos de pesquisa apresentados nas diversas classificações 
+não são estanques. Uma mesma pesquisa pode estar, ao 
+mesmo tempo, enquadrada em várias classificações, desde 
+que obedeça aos requisitos inerentes a cada tipo. 
+Realizar uma pesquisa com rigor científico pressupõe que você 
+escolha um tema e defina um problema para ser investigado, 
+elabore um plano de trabalho e, após a execução operacional 
+desse plano, escreva um relatório final e este seja apresentado 
+de forma planejada, ordenada, lógica e conclusiva. 
+ 
+Métodos Científicos 
+Mostrar os métodos que proporcionam  
+as bases lógicas à investigação científica. 
+INTRODUÇÃO 
+A investigação científica depende de um “conjunto de proce-
+dimentos intelectuais e técnicos” (GIL, 1999, p.26) para que 
+seus objetivos sejam atingidos: os métodos científicos. 
+Método científico é o conjunto de processos ou operações 
+mentais que se devem empregar na investigação. É a linha de 
+raciocínio adotada no processo de pesquisa. Os métodos que 
+fornecem as bases lógicas à investigação são: dedutivo, indu-
+tivo, hipotético-dedutivo, dialético e fenomenológico (GIL, 
+1999; LAKATOS; MARCONI, 1993). 
+De forma breve veja a seguir em que bases lógicas tais méto-
+dos estão pautados. 
+MÉTODO DEDUTIVO 
+Método proposto pelos racionalistas Descartes, Spinoza e 
+Leibniz que pressupõe que só a razão é capaz de levar ao co-
+nhecimento verdadeiro. O raciocínio dedutivo tem o objetivo 
+de explicar o conteúdo das premissas. Por intermédio de uma 
+cadeia de raciocínio em ordem descendente, de análise do ge-
+ 
+ 
+26 
+ral para o particular, chega a uma conclusão. Usa o silogismo, 
+construção lógica para, a partir de duas premissas, retirar 
+uma terceira logicamente decorrente das duas primeiras, de-
+nominada de conclusão (GIL, 1999; LAKATOS; MARCONI, 
+1993). Veja um clássico exemplo de raciocínio dedutivo: 
+Exemplo: 
+Todo homem é mortal. ...........................................(premissa maior) 
+Pedro é homem......................................................(premissa menor) 
+Logo, Pedro é mortal..............................................(conclusão) 
+ 
+MÉTODO INDUTIVO 
+Método proposto pelos empiristas Bacon, Hobbes, Locke e Hu-
+me. Considera que o conhecimento é fundamentado na experi-
+ência, não levando em conta princípios preestabelecidos. No 
+raciocínio indutivo a generalização deriva de observações de 
+casos da realidade concreta. As constatações particulares le-
+vam à elaboração de generalizações (GIL, 1999; LAKATOS; 
+MARCONI, 1993). Veja um clássico exemplo de raciocínio indu-
+tivo: 
+Exemplo: 
+Antônio é mortal. 
+João é mortal. 
+Paulo é mortal. 
+... 
+Carlos é mortal. 
+Ora, Antônio, João, Paulo... e Carlos são homens. 
+Logo, (todos) os homens são mortais. 
+ 
+27 
+MÉTODO HIPOTÉTICO-DEDUTIVO 
+Proposto por Popper, consiste na adoção da seguinte linha de 
+raciocínio: “quando os conhecimentos disponíveis sobre deter-
+minado assunto são insuficientes para a explicação de um fe-
+nômeno, surge o problema. Para tentar explicar a dificuldades 
+expressas no problema, são formuladas conjecturas ou hipóte-
+ses. Das hipóteses formuladas, deduzem-se conseqüências que 
+deverão ser testadas ou falseadas. Falsear significa tornar fal-
+sas as conseqüências deduzidas das hipóteses. Enquanto no 
+método dedutivo se procura a todo custo confirmar a hipótese, 
+no método hipotético-dedutivo, ao contrário, procuram-se evi-
+dências empíricas para derrubá-la” (GIL, 1999, p.30). 
+MÉTODO DIALÉTICO 
+Fundamenta-se na dialética proposta por Hegel, na qual as 
+contradições se transcendem dando origem a novas contradi-
+ções que passam a requerer solução. É um método de inter-
+pretação dinâmica e totalizante da realidade. Considera que os 
+fatos não podem ser considerados fora de um contexto social, 
+político, econômico, etc. Empregado em pesquisa qualitativa 
+(GIL, 1999; LAKATOS; MARCONI, 1993). 
+MÉTODO FENOMENOLÓGICO 
+Preconizado por Husserl, o método fenomenológico não é de-
+dutivo nem indutivo. Preocupa-se com a descrição direta da 
+experiência tal como ela é. A realidade é construída social-
+mente e entendida como o compreendido, o interpretado, o 
+comunicado. Então, a realidade não é única: existem tantas 
+quantas forem as suas interpretações e comunicações. O su-
+jeito/ator é reconhecidamente importante no processo de 
+construção do conhecimento (GIL, 1999; TRIVIÑOS, 1992). 
+Empregado em pesquisa qualitativa. 
+ 
+ 
+28 
+CONSIDERAÇÕES FINAIS 
+Na era do caos, do indeterminismo e da incerteza, os métodos 
+científicos andam com seu prestígio abalado. Apesar da sua 
+reconhecida importância, hoje, mais do que nunca, se percebe 
+que a ciência não é fruto de um roteiro de criação totalmente 
+previsível. Portanto, não há apenas uma maneira de raciocínio 
+capaz de dar conta do complexo mundo das investigações cien-
+tíficas. O ideal seria você empregar métodos, e não um método 
+em particular, que ampliem as possibilidades de análise e ob-
+tenção de respostas para o problema proposto na pesquisa. 
+Para maior aprofundamento desta matéria consulte a biblio-
+grafia indicada nas fontes ao final desta publicação (FEYERA-
+BEND, 1989; POPPER, 1993). 
+As Etapas da Pesquisa 
+Identificar as etapas da pesquisa; 
+planejar uma pesquisa. 
+INTRODUÇÃO 
+A pesquisa é um procedimento reflexivo e crítico de busca de 
+respostas para problemas ainda não solucionados. 
+O planejamento e a execução de uma pesquisa fazem parte de 
+um processo sistematizado que compreende etapas que po-
+dem ser detalhadas da seguinte forma: 
+1) escolha do tema; 
+2) revisão de literatura; 
+3) justificativa; 
+4) formulação do problema; 
+5) determinação de objetivos; 
+6) metodologia; 
+7) coleta de dados; 
+8) tabulação de dados; 
+9) análise e discussão dos resultados; 
+10) conclusão da análise dos resultados; 
+11) redação e apresentação do trabalho científico 
+(dissertação ou tese). 
+ 
+ 
+30 
+AS ETAPAS DA PESQUISA 
+1 Escolha do Tema 
+Nesta etapa você deverá responder à pergunta: “O que preten-
+do abordar?” O tema é um aspecto ou uma área de interesse 
+de um assunto que se deseja provar ou desenvolver. Escolher 
+um tema significa eleger uma parcela delimitada de um as-
+sunto, estabelecendo limites ou restrições para o desenvolvi-
+mento da pesquisa pretendida. 
+A definição do tema pode surgir com base na sua observação 
+do cotidiano, na vida profissional, em programas de pesquisa, 
+em contato e relacionamento com especialistas, no feedback 
+de pesquisas já realizadas e em estudo da literatura especiali-
+zada (BARROS; LEHFELD, 1999). 
+A escolha do tema de uma pesquisa, em um Curso de Pós-
+Graduação, está relacionada à linha de pesquisa à qual você 
+está vinculado ou à linha de seu orientador. 
+Você deverá levar em conta, para a escolha do tema, sua atua-
+lidade e relevância, seu conhecimento a respeito, sua prefe-
+rência e sua aptidão pessoal para lidar com o tema escolhido. 
+Definido isso, você irá levantar e analisar a literatura já publi-
+cada sobre o tema. 
+2 Revisão de Literatura 
+Nesta fase você deverá responder às seguintes questões: quem 
+já escreveu e o que já foi publicado sobre o assunto, que as-
+pectos já foram abordados, quais as lacunas existentes na li-
+teratura. Pode objetivar determinar o “estado da arte”, ser 
+uma revisão teórica, ser uma revisão empírica ou ainda ser 
+uma revisão histórica. 
+A revisão de literatura é fundamental, porque fornecerá ele-
+mentos para você evitar a duplicação de pesquisas sobre o 
+mesmo enfoque do tema. Favorecerá a definição de contornos 
+mais precisos do problema a ser estudado (veja o capítulo 5, 
+que abordará especialmente a Revisão de Literatura). 
+ 
+31 
+3 Justificativa 
+Nesta etapa você irá refletir sobre “o porquê” da realização da 
+pesquisa procurando identificar as razões da preferência pelo 
+tema escolhido e sua importância em relação a outros temas. 
+Pergunte a você mesmo: o tema é relevante e, se é, por quê? 
+Quais os pontos positivos que você percebe na abordagem 
+proposta? Que vantagens e benefícios você pressupõe que sua 
+pesquisa irá proporcionar? A justificativa deverá convencer 
+quem for ler o projeto, com relação à importância e à relevân-
+cia da pesquisa proposta. 
+4 Formulação do Problema 
+Nesta etapa você irá refletir sobre o problema que pretende 
+resolver na pesquisa, se é realmente um problema e se vale a 
+pena tentar encontrar uma solução para ele. A pesquisa cien-
+tífica depende da formulação adequada do problema, isto por-
+que objetiva buscar sua solução (veja o capítulo 8, que abor-
+dará especialmente o Problema de Pesquisa). 
+5 Determinação dos Objetivos: Geral e Específicos 
+Nesta etapa você pensará a respeito de sua intenção ao propor 
+a pesquisa. Deverá sintetizar o que pretende alcançar com a 
+pesquisa. Os objetivos devem estar coerentes com a justificati-
+va e o problema proposto. O objetivo geral será a síntese do 
+que se pretende alcançar, e os objetivos específicos explicita-
+rão os detalhes e serão desdobramentos do objetivo geral. Os 
+objetivos informarão para que você está propondo a pesquisa, 
+isto é, quais os resultados que pretende alcançar ou qual a 
+contribuição que sua pesquisa irá efetivamente proporcionar. 
+Os enunciados dos objetivos devem começar com um verbo no 
+infinitivo e este verbo deve indicar uma ação passível de men-
+suração. Como exemplos de verbos usados na formulação dos 
+objetivos, podem-se citar para: 
+ determinar estágio cognitivo de conhecimento: os verbos a-
+pontar, arrolar, definir, enunciar, inscrever, registrar, rela-
+tar, repetir, sublinhar e nomear; 
+ determinar estágio cognitivo de compreensão: os verbos 
+descrever, discutir, esclarecer, examinar, explicar, expres-
+sar, identificar, localizar, traduzir e transcrever; 
+ 
+ 
+32 
+ determinar estágio cognitivo de aplicação: os verbos aplicar, 
+demonstrar, empregar, ilustrar, interpretar, inventariar, ma-
+nipular, praticar, traçar e usar; 
+ determinar estágio cognitivo de análise: os verbos analisar, 
+classificar, comparar, constatar, criticar, debater, diferenciar, 
+distinguir, examinar, provar, investigar e experimentar; 
+ determinar estágio cognitivo de síntese: os verbos articular, 
+compor, constituir, coordenar, reunir, organizar e esquema-
+tizar; 
+ determinar estágio cognitivo de avaliação: os verbos apreci-
+ar, avaliar, eliminar, escolher, estimar, julgar, preferir, sele-
+cionar, validar e valorizar. 
+6 METODOLOGIA 
+Nesta etapa você irá definir onde e como será realizada a pesqui-
+sa. Definirá o tipo de pesquisa, a população (universo da pesqui-
+sa), a amostragem, os instrumentos de coleta de dados e a forma 
+como pretende tabular e analisar seus dados. 
+População (ou universo da pesquisa) é a totalidade de indiví-
+duos que possuem as mesmas características definidas para 
+um determinado estudo. Amostra é parte da população ou do 
+universo, selecionada de acordo com uma regra ou plana. A 
+amostra pode ser probabilística e não-probabilística. 
+Amostras não-probabilísticas podem ser: 
+ amostras acidentais: compostas por acaso, com pessoas que 
+vão aparecendo; 
+ amostras por quotas: diversos elementos constantes da po-
+pulação/universo, na mesma proporção; 
+ amostras intencionais: escolhidos casos para a amostra que 
+representem o “bom julgamento” da população/universo. 
+Amostras probabilísticas são compostas por sorteio e podem ser: 
+ amostras casuais simples: cada elemento da população tem 
+oportunidade igual de ser incluído na amostra; 
+ amostras casuais estratificadas: cada estrato, definido pre-
+viamente, estará representado na amostra; 
+ amostras por agrupamento: reunião de amostras represen-
+tativas de uma população. 
+ 
+33 
+Para definição das amostras recomenda-se a aplicação de téc-
+nicas estatísticas. Barbetta (1999) fornece uma abordagem 
+muito didática referente à delimitação de amostras e ao em-
+prego da estatística em pesquisas. 
+A definição do instrumento de coleta de dados dependerá dos 
+objetivos que se pretende alcançar com a pesquisa e do uni-
+verso a ser investigado. Os instrumentos de coleta de dados 
+tradicionais são: 
+Observação: quando se utilizam os sentidos na obtenção 
+de dados de determinados aspectos da realidade. A ob-
+servação pode ser: 
+ observação assistemática: não tem planejamento e 
+controle previamente elaborados; 
+ observação sistemática: tem planejamento, realiza-se 
+em condições controladas para responder aos propósi-
+tos preestabelecidos; 
+ observação não-participante: o pesquisador presencia o 
+fato, mas não participa; 
+ observação individual: realizada por um pesquisador; 
+ observação em equipe: feita por um grupo de pessoas; 
+ observação na vida real: registro de dados à medida 
+que ocorrem; 
+ observação em laboratório: onde tudo é controlado. 
+Entrevista: é a obtenção de informações de um entrevis-
+tado, sobre determinado assunto ou problema. A entre-
+vista pode ser: 
+ padronizada ou estruturada: roteiro previamente esta-
+belecido; 
+ despadronizada ou não-estruturada: não existe rigidez 
+de roteiro. Pode-se explorar mais amplamente algumas 
+questões. 
+Questionário: é uma série ordenada de perguntas que de-
+vem ser respondidas por escrito pelo informante. O ques-
+tionário deve ser objetivo, limitado em extensão e estar 
+acompanhado de instruções As instruções devem escla-
+recer o propósito de sua aplicação, ressaltar a importân-
+cia da colaboração do informante e facilitar o preenchi-
+mento. 
+ 
+ 
+34 
+As perguntas do questionário podem ser: 
+ abertas: “Qual é a sua opinião?”; 
+ fechadas: duas escolhas: sim ou não; 
+ de múltiplas escolhas: fechadas com uma série de res-
+postas possíveis. 
+Young e Lundberg (apud PESSOA, 1998) fizeram uma sé-
+rie de recomendações úteis à construção de um questio-
+nário. Entre elas destacam-se: 
+ o questionário deverá ser construído em blocos temáti-
+cos obedecendo a uma ordem lógica na elaboração das 
+perguntas; 
+ a redação das perguntas deverá ser feita em linguagem 
+compreensível ao informante. A linguagem deverá ser 
+acessível ao entendimento da média da população es-
+tudada. A formulação das perguntas deverá evitar a 
+possibilidade de interpretação dúbia, sugerir ou indu-
+zir a resposta; 
+ cada pergunta deverá focar apenas uma questão para 
+ser analisada pelo informante; 
+ o questionário deverá conter apenas as perguntas rela-
+cionadas aos objetivos da pesquisa. Devem ser evitadas 
+perguntas que, de antemão, já se sabe que não serão 
+respondidas com honestidade. 
+Formulário: é uma coleção de questões e anotadas por 
+um entrevistador numa situação face a face com a outra 
+pessoa (o informante). 
+O instrumento de coleta de dados escolhido deverá proporcio-
+nar uma interação efetiva entre você, o informante e a pesquisa 
+que está sendo realizada. Para facilitar o processo de tabulação 
+de dados por meio de suportes computacionais, as questões e 
+suas respostas devem ser previamente codificadas. 
+A coleta de dados estará relacionada com o problema, a hipó-
+tese ou os pressupostos da pesquisa e objetiva obter elemen-
+tos para que os objetivos propostos na pesquisa possam ser 
+alcançados. 
+Neste estágio você escolhe também as possíveis formas de ta-
+bulação e apresentação de dados e os meios (os métodos esta-
+tísticos, os instrumentos manuais ou computacionais) que se-
+rão usados para facilitar a interpretação e análise dos dados. 
+ 
+35 
+Na Engenharia de Produção, muitas vezes, as dissertações e 
+teses estão comprometidas com o desenvolvimento de modelos 
+e produtos. Em tais casos a metodologia não seguirá os pas-
+sos indicados acima, e sim deve estar adequada à necessidade 
+requerida para criação específica do modelo ou produto que 
+está sendo desenvolvido. 
+7 Coleta de Dados 
+Nesta etapa você fará a pesquisa de campo propriamente dita. 
+Para obter êxito neste processo, duas qualidades são funda-
+mentais: a paciência e a persistência. 
+8 Tabulação e Apresentação dos Dados 
+Nesta etapa você poderá lançar mão de recursos manuais ou 
+computacionais para organizar os dados obtidos na pesquisa 
+de campo. Atualmente, com o advento da informática, é natu-
+ral que você escolha os recursos computacionais para dar su-
+porte à elaboração de índices e cálculos estatísticos, tabelas, 
+quadros e gráficos. 
+9 Análise e Discussão dos Resultados 
+Nesta etapa você interpretará e analisará os dados que tabu-
+lou e organizou na etapa anterior. A análise deve ser feita para 
+atender aos objetivos da pesquisa e para comparar e confron-
+tar dados e provas com o objetivo de confirmar ou rejeitar a(s) 
+hipótese(s) ou os pressupostos da pesquisa. 
+10 Conclusão da Análise e dos Resultados Obtidos 
+Nesta etapa você já tem condições de sintetizar os resultados 
+obtidos com a pesquisa. Deverá explicitar se os objetivos fo-
+ram atingidos, se a(s) hipótese(s) ou os pressupostos foram 
+confirmados ou rejeitados. E, principalmente, deverá ressaltar 
+a contribuição da sua pesquisa para o meio acadêmico ou pa-
+ra o desenvolvimento da ciência e da tecnologia. 
+ 
+ 
+36 
+11 Redação e Apresentação do Trabalho Científico 
+Nesta etapa o pesquisador deverá redigir seu relatório de pes-
+quisa: dissertação ou tese. Azevedo (1998, p.22) argumenta 
+que o texto deverá ser escrito de modo apurado, isto é, “gra-
+maticalmente correto, fraseologicamente claro, terminologica-
+mente preciso e estilisticamente agradável”.  Normas de do-
+cumentação da Associação Brasileira de Normas Técnicas 
+(ABNT) deverão ser consultadas visando à padronização das 
+indicações bibliográficas e a apresentação gráfica do texto. 
+Normas e orientações do próprio Curso de Pós-Graduação 
+também deverão ser consultadas (veja o capítulo 11, que a-
+bordará especialmente esta parte). 
+CONSIDERAÇÕES FINAIS 
+As etapas aqui identificadas e as orientações feitas deverão 
+servir de guia à elaboração de sua pesquisa e não como uma 
+“camisa-de-força”. Portanto, não devem impedir sua criativi-
+dade ou causar entraves à elaboração da pesquisa. A intenção 
+deste documento é fornecer a você orientações básicas à ela-
+boração de uma investigação científica. 
+ 
+Revisão de Literatura 
+Mostrar a importância da revisão de literatura no processo de pesquisa; 
+identificar os passos para a elaboração de uma revisão de literatura. 
+INTRODUÇÃO 
+Uma das etapas mais importantes de um projeto de pesquisa 
+é a revisão de literatura. A revisão de literatura refere-se à 
+fundamentação teórica que você irá adotar para tratar o tema 
+e o problema de pesquisa. Por meio da análise da literatura 
+publicada você irá traçar um quadro teórico e fará a estrutu-
+ração conceitual que dará sustentação ao desenvolvimento da 
+pesquisa. 
+A revisão de literatura resultará do processo de levantamento 
+e análise do que já foi publicado sobre o tema e o problema de 
+pesquisa escolhidos. Permitirá um mapeamento de quem já 
+escreveu e o que já foi escrito sobre o tema e/ou problema da 
+pesquisa. 
+Para Luna (1997), a revisão de literatura em um trabalho de 
+pesquisa pode ser realizada com os seguintes objetivos: 
+ determinação do “estado da arte”: o pesquisador procura 
+mostrar através da literatura já publicada o que já sabe 
+sobre o tema, quais as lacunas existentes e onde se encon-
+tram os principais entraves teóricos ou metodológicos; 
+ revisão teórica: você insere o problema de pesquisa dentro 
+de um quadro de referência teórica para explicá-lo. Geral-
+mente acontece quando o problema em estudo é gerado por 
+ 
+ 
+38 
+uma teoria, ou quando não é gerado ou explicado por uma 
+teoria particular, mas por várias; 
+ revisão empírica: você procura explicar como o problema 
+vem sendo pesquisado do ponto de vista metodológico pro-
+curando responder: quais os procedimentos normalmente 
+empregados no estudo desse problema? Que fatores vêm a-
+fetando os resultados? Que propostas têm sido feitas para 
+explicá-los ou controlá-los? Que procedimentos vêm sendo 
+empregados para analisar os resultados? Há relatos de ma-
+nutenção e generalização dos resultados obtidos? Do que 
+elas dependem?; 
+ revisão histórica: você busca recuperar a evolução de um 
+conceito, tema, abordagem ou outros aspectos fazendo a in-
+serção dessa evolução dentro de um quadro teórico de refe-
+rência que explique os fatores determinantes e as implica-
+ções das mudanças. 
+Para elaborar uma revisão de literatura é recomendável que 
+você adote a metodologia de pesquisa bibliográfica. Pesquisa 
+Bibliográfica é aquela baseada na análise da literatura já pu-
+blicada em forma de livros, revistas, publicações avulsas, im-
+prensa escrita e até eletronicamente, disponibilizada na Inter-
+net. 
+A revisão de literatura/pesquisa bibliográfica contribuirá para: 
+ obter informações sobre a situação atual do tema ou pro-
+blema pesquisado; 
+ conhecer publicações existentes sobre o tema e os aspectos 
+que já foram abordados; 
+ verificar as opiniões similares e diferentes a respeito do te-
+ma ou de aspectos relacionados ao tema ou ao problema de 
+pesquisa. 
+Para tornar o processo de revisão de literatura produtivo, você 
+deverá seguir alguns passos básicos para sistematizar seu 
+trabalho e canalizar seus esforços. Os passos sugeridos por 
+Lakatos e Marconi (1991) são: 
+ESCOLHA DO TEMA 
+O tema é o aspecto do assunto que você deseja abordar, pro-
+var ou desenvolver. A escolha do tema da revisão de literatura 
+ 
+39 
+está vinculada ao objetivo da própria revisão que você preten-
+de fazer. A revisão de literatura deverá elucidar o tema, pro-
+porcionar melhor definição do problema de pesquisa e contri-
+buir na análise e discussão dos resultados da pesquisa. 
+Em função da explosão da informação, você deverá definir pa-
+ra onde ele irá dirigir e concentrar seus esforços na revisão de 
+literatura, porque só assim não ficará perdido no emaranhado 
+das publicações existentes. Pesquisadores experientes sabem 
+que o risco de perder tempo e o rumo pode ser fatal neste pro-
+cesso. Além de atravancar todo o desenvolvimento das etapas 
+da pesquisa, pode até impedir sua realização. 
+ELABORAÇÃO DO PLANO DE TRABALHO 
+Para evitar dispersão e perda de tempo no processo de leitura 
+de textos, é importante levantar os aspectos que serão abor-
+dados sobre o tema. Para isso você deve elaborar um esquema 
+provisório de sua revisão de literatura, onde serão listadas de 
+forma lógica as abordagens que pretende fazer referentes ao 
+tema ou problema de sua pesquisa. O esquema servirá de guia 
+no processo de leitura e na coleta de informações nos textos. 
+Veja o exemplo na pesquisa indicada abaixo: 
+Exemplo 
+ROCHA, Simone Karla da. Qualidade de vida no trabalho: um es-
+tudo de caso no setor têxtil. 1998. Dissertação (Mestrado em Enge-
+nharia de Produção) - Programa de Pós-Graduação em Engenharia 
+de Produção, UFSC, Florianópolis. 
+Nesta pesquisa a autora escolheu para realização de sua revisão de 
+literatura: 
+TEMA 
+Pressupostos básicos que permeiam a qualidade de vida no trabalho. 
+ESTRUTURA (esquema mostrando os tópicos que seriam abordados) 
+EVOLUÇÃO DAS TEORIAS ADMINISTRATIVAS 
+O ENFOQUE DA QUALIDADE DE VIDA NO TRABALHO 
+A origem e a evolução dos estudos de qualidade de vida no trabalho 
+ 
+ 
+40 
+Os conceitos de qualidade de vida no trabalho 
+Os modelos para avaliação da qualidade de vida no trabalho: 
+Modelos de Hackman e Oldham; 
+Modelo de Westley; 
+Modelo de Werther e Davis; 
+Modelo de Walton. 
+IDENTIFICAÇÃO 
+Após a definição do que será abordado na revisão de literatura 
+e a elaboração de um esquema com os aspectos a serem abor-
+dados que servirá de guia para organização do processo de 
+leitura, você deve identificar o material. 
+A identificação implica fazer um levantamento bibliográfico para 
+recuperar as informações sobre o que já foi publicado sobre o 
+tema e os aspectos que constam no esquema/sumário dos tópi-
+cos. Esse processo requer o uso de obras de referência para mi-
+nimizar esforços e recuperar a maior quantidade de informação 
+possível. Obras de referência, usadas para levantamento biblio-
+gráfico, são organizadas especialmente para facilitar a consulta 
+de itens específicos de informação. Possuem, geralmente, índices 
+de autores e assuntos/palavras-chave que remetem às informa-
+ções arranjadas em itens numerados para facilitar a recupera-
+ção: Bibliografias, Abstracts e  Bases de Dados.. 
+Para efetuar o levantamento bibliográfico na área de Engenha-
+ria de Produção você poderá fazer uso de fontes de informação 
+de referência, como por exemplo: 
+ ABI/Inform; 
+ Compendex; 
+ Computer & Control Abstracts; 
+ Dissertation Abstracts International; 
+ Engineering Index; 
+ Ergonomics Abstracts; 
+ Psychological Abstracts; 
+ Social Sciences Citation Index; 
+ Sociological Abstracts. 
+ 
+41 
+Outra forma de fazer levantamento bibliográfico é usando as 
+ferramentas de busca da Internet, as bibliotecas virtuais e os 
+catálogos on-line de bibliotecas disponibilizados na rede. 
+Também não devem ser desprezadas as indicações bibliográfi-
+cas feitas em artigos ou livros disponíveis e lidos sobre o tema 
+da pesquisa. 
+No capítulo 6 serão abordadas as Fontes de Informação para 
+pesquisa em Engenharia de Produção e serão dadas orienta-
+ções de como fazer busca na Internet. 
+LOCALIZAÇÃO E COMPILAÇÃO 
+Realizada a identificação (o levantamento bibliográfico), é ne-
+cessário que você obtenha os materiais considerados úteis à 
+realização da pesquisa. É preciso, então, localizá-los. Deve-se 
+começar pela Biblioteca que está mais próxima e, se essa não 
+possuir, pode-se consultar outras no País ou no mundo. Veja 
+como proceder para localização dos materiais no capítulo 6. 
+Para fazer a compilação, reunião sistemática dos materiais 
+selecionados e localizados, os seguintes recursos: fotocópias, 
+impressões e a própria aquisição, quando for indispensável. 
+FICHAMENTO 
+Os materiais selecionados para leitura serão analisados e fi-
+chados. O Fichamento permite que você reúna as informações 
+necessárias e úteis à elaboração do texto da revisão. Podem 
+ser elaborados diversos tipos de fichas, como: 
+ bibliográfica: com dados gerais sobre a obra lida; 
+ citações: com a reprodução literal entre aspas e a indicação 
+da página da parte dos textos lidos de interesse específico 
+para a redação dos tópicos e itens da revisão; 
+ resumo: com um resumo indicativo do conteúdo do texto; 
+ esboço: apresentando as principais idéias do autor lido de 
+forma esquematizada com a indicação da página do docu-
+mento lido; 
+ 
+ 
+42 
+ comentário ou analítica: com a interpretação e a crítica pes-
+soal do pesquisador com referência às idéias expressas pelo 
+autor do texto lido. 
+O Fichamento irá permitir: identificação das obras lidas, aná-
+lise de seu conteúdo, anotações de citações, elaboração de crí-
+ticas e localização das informações lidas que foram considera-
+das importantes. 
+Veja o capítulo 7, que abordará especialmente como elaborar 
+fichamentos. 
+ANÁLISE E INTERPRETAÇÃO 
+De posse dos Fichamentos você fará então, a classificação, a 
+análise, a interpretação e a crítica das informações coletadas. 
+REDAÇÃO 
+Na redação do texto final você deve observar os seguintes cri-
+térios: objetividade, clareza, precisão, consistência, linguagem 
+impessoal e uso do vocabulário técnico (veja o capítulo 7). 
+Recomendações importantes: 
+ o texto deve ter começo, meio e fim. 
+ faça um texto introdutório explicando o objetivo da revisão 
+de literatura; 
+ revisão de literatura não é fazer colagem de citações biblio-
+gráficas; então: 
+ faça uma abertura e um fecho para os tópicos tratados; 
+ preencha as lacunas com considerações próprias; 
+ crie elos entre as citações. 
+Citação, segundo a Associação Brasileira de Normas Técnicas 
+(2002, p.1), é a “menção de uma informação extraída de outra 
+fonte.” 
+Os tipos de citações que podem ser utilizadas no texto, segun-
+do a NBR 10520 da ABNT (2002), são: 
+ 
+43 
+ citação direta: transcrição textual de parte da obra do  autor 
+consultado; 
+ citação indireta: transcrição livre do texto do autor consul-
+tado; 
+ citação de citação: citação  direta ou indireta de um texto 
+em que não se teve acesso ao original. 
+O capítulo 7 irá mostrar como fazer citações de forma padro-
+nizada de acordo com as Normas da ABNT. 
+ 
+ 
+44 
+ 
+ 
+45 
+Como Levantar Informações para 
+Realizar Pesquisas em Engenharia de 
+Produção? 
+Identificar as fontes de informação acessíveis à pesquisa  
+em Engenharia de Produção; 
+mostrar as possibilidades oferecidas por cada fonte; 
+mostrar a Internet como fonte de informação. 
+ 
+INTRODUÇÃO 
+A Engenharia de Produção caracteriza-se como uma engenha-
+ria de métodos e de procedimentos. Seu objetivo é o estudo, o 
+projeto e a gerência de sistemas integrados de pessoas, mate-
+riais, equipamentos e ambientes. Procura melhorar a produti-
+vidade do trabalho, a qualidade do produto e a saúde das pes-
+soas (no que se refere às atividades de trabalho). 
+A área de Engenharia de Produção tem uma abordagem inter-
+disciplinar como suporte da sua construção cognitiva. Nesse 
+sentido está envolvida com diversas Ciências Humanas, em 
+particular com a Economia e as ciências da organização (que 
+envolvem temas ligados à Administração, à Sociologia, às Ci-
+ências Ambientais, à Psicologia e à Matemática Aplicada). 
+Visto que a Engenharia de Produção é uma área interdiscipli-
+nar, as fontes de informação para pesquisa podem ser de ou-
+tras áreas do conhecimento. Tais fontes serão utilizadas 
+quando você estiver elaborando sua revisão de literatu
+ 
+ra/pesquisa bibliográfica (conforme foi exposto no capítulo 5) 
+para identificar referências e possibilitar a recuperação de tex-
+tos que irão dar fundamentação teórica a sua pesquisa. 
+FONTES DE INFORMAÇÃO PARA PESQUISA 
+As fontes de informação destinadas para pesquisa são o-
+bras/bases de dados especialmente organizadas para consul-
+ta. Apresentam arranjos dos itens de forma a facilitar o pro-
+cesso de busca da informação. Possuem índices de autor, títu-
+lo e assunto. Podem estar apresentadas em formato digital (on 
+line ou CD-ROM) ou em formato impresso em papel. As obras 
+digitais são mais indicadas quando se deseja aliar rapidez e 
+precisão ao processo de busca. Algumas fornecem apenas re-
+ferências bibliográficas (bases referenciais) e outras, além da 
+referência bibliográfica, possibilitam acesso ao documento, 
+são bases com texto completo (full text). As bases digitais de-
+vem ser preferidas mesmo quando você tiver que pagar pelo 
+processo. A relação custo-benefício é bem maior quando se 
+compara o tempo necessário para se fazer uma busca em for-
+mato impresso em papel com a feita via processo digital. Os 
+meios digitais possibilitam que uma busca que se faria em 15 
+dias nas obras impressas em papel seja feita em minutos via 
+recursos digitais.  No Brasil, atualmente, existem iniciativas 
+estatais que disponibilizam para instituições de ensino e pes-
+quisa recursos informacionais digitais que possibilitam que 
+grande parte das buscas de informações  seja agilizada pelo 
+uso desse meio.   
+As obras de referência  em papel estão paulatinamente sendo 
+substituídas  por obras em formato digital.  Para buscas mui-
+to retrospectivas às vezes é necessária ainda a consulta de 
+obras existentes no formato antigo (papel). 
+As fontes de informação para pesquisa serão usadas para fa-
+zer o levantamento bibliográfico de sua pesquisa. 
+FONTES DE INFORMAÇÃO DIGITAIS 
+As fontes de informação digitais disponíveis para consulta por 
+meio de bibliotecas universitárias brasileiras ou de institui-
+ções  integrantes da Rede Nacional de Pesquisa são: 
+ 
+ 
+ 
+48 
+Internet com Acesso Restrito 
+Portal Brasileiro de Informação Científica (Portal Capes) 
+A Capes possibilita o acesso à produção científica mundial 
+atualizada para 152 instituições de ensino superior e de pes-
+quisa em todo o país através deste serviço. Os usuários das 
+instituições participantes têm acesso livre e gratuito as  bases 
+de dados referenciais ou com texto completo, periódicos com 
+texto completo ou não e, ainda, outras obras de referências, 
+arquivos abertos e redes de e-prints, patentes, livros, dados 
+estatísticos através de qualquer terminal de computador liga-
+do à Internet  das instituições participantes ou através de se-
+nhas por elas distribuídas. 
+Na UFSC,  você pode ter acesso através dos terminais existen-
+tes no Campus Universitário ou através do acesso doméstico 
+usando a Rede UFSC. 
+ 
+O endereço para o acesso ao Portal Capes é o seguinte: 
+http://www.periodicos.capes.gov.br/ 
+ 
+BASES DE DADOS (Portal Capes)  
+Como a área de Engenharia de Produção é uma área multidis-
+ciplinar você pode optar entre escolher bases de dados dirigi-
+das à área ou usar dependendo do assunto de sua pesquisa 
+várias bases de outras áreas para uma cobertura  mais com-
+pleta e interdisciplinar. 
+ 
+Bases direcionadas à Engenharia de Produção e áreas    
+afins: 
+ 
+Applied Science and Technology Full Text  
+Base referencial de dados nas áreas de Ciências Exatas e da 
+Terra e Engenharias. Indexa periódicos acadêmicos, industri-
+ais e comerciais, catálogos comerciais, trabalhos de congres-
+sos e outros materiais. O período disponível online é de 1983 
+até o presente para indexação e de 1993 até o presente para 
+resumos. Inclui texto completo de publicações selecionadas 
+a partir de 1997. 
+ 
+Business Full Text  
+Base referencial de dados com resumos nas áreas de Adminis-
+tração e Negócios, Contabilidade e Economia. O período dis-
+ponível online é de 1982 até o presente para indexação e re-
+sumos. Inclui textos completos de publicações selecionadas 
+a partir de 1995. 
+ 
+ 
+49 
+Compendex Ei Engineering Index  
+Base referencial de dados com mais de 7 milhões de registros 
+nas áreas de Engenharia Civil, Energia, Engenharia Ambien-
+tal, Engenharia Química, Engenharia de Minas, Engenharia 
+Metalúrgica, Engenharia Térmica, Engenharia Mecânica, En-
+genharia Aeroespacial, Engenharia Nuclear, Engenharia de 
+Transportes, Engenharia Naval, Ciência da Computação, Ro-
+bótica e Controle. Indexa mais de 5.000 publicações periódi-
+cas, trabalhos de congressos e conferências, livros e relatórios 
+governamentais. O período disponível online é de 1969 até a 
+presente data. 
+ 
+CSA Cambridge Scientific Abstracts  
+Conjunto de bases de dados na área de Engenharia e Tecnolo-
+gia. O período disponível online é a partir de 1962. Inclui as 
+seguintes publicações de possível interesse para a engenharia 
+de produção:  
+ 
+Aluminium Industry Abstracts 
+ANTE: Abstracts in New Technologies in Engineering 
+Ceramics Abstracts / World Ceramics Abstracts 
+Civil Engineering Abstracts 
+Composites Industry Abstracts 
+Computer and Information Systems Abstracts 
+Cooper Data Center Database 
+CSA Technology Research Database  
+Environmental Engineering Abstracts 
+Engineered Materials Abstracts 
+Engineered Materials Abstracts: Ceramics 
+Engineering Research Database 
+Materials Business File 
+Materials Research Database with METADEX 
+WELDASEARCH 
+ 
+ 
+Econlit 
+Base referencial de dados que indexa artigos de mais de 750 
+periódicos nas áreas de Economia e Administração, além de 
+livros, trabalhos de congressos e conferências, teses, relatórios 
+de pesquisa e outras publicações. Inclui a seção bibliográfica 
+do Journal of Economic Literature (JEL) e os trabalhos publica-
+dos no arquivo aberto RePEc Research Papers in Economics. O 
+período disponível online é de 1969 até a presente data. 
+ 
+ 
+50 
+Guide to Computing Literature  
+Base referencial de dados contendo mais de 750.000 registros 
+de mais de 3.000 editores, incluindo a Association for Compu-
+ting Machinery (ACM). Indexa artigos de periódicos, livros, tra-
+balhos de congressos e conferências, teses e relatórios de pes-
+quisa. O período disponível online é de 1947 até o presente. 
+ 
+Inspec (Institution of Electrical Engineers – IEE) 
+Base referencial de dados com mais de 8 milhões de registros. 
+Indexa artigos de mais de 3.400 periódicos, trabalhos de con-
+gressos e conferências, teses, livros e outros materiais. O pe 
+ríodo disponível online é de 1969 até a presente data. 
+ 
+MathSci (American Mathematical Society) 
+Base referencial de dados que possui uma ampla cobertura 
+nas áreas de Matemática, Estatística, Ciência da Computação, 
+Física, Engenharia, Pesquisa Operacional e Econometria. In-
+dexa artigos de mais de 2.600 periódicos, além de livros, te-
+ses, trabalhos de congressos, relatórios de pesquisa e a Ma-
+thematical Reviews Database. O período disponível online é de 
+1940 até a presente data. 
+ 
+ProQuest / ABI Inform Global  
+Base referencial de dados nas áreas de Administração e Negó-
+cios, Economia e Contabilidade. Indexa mais de 2.600 periódi-
+cos a partir de 1851. Além dos resumos, estão disponíveis os 
+textos completos de mais de 1.500 publicações periódicas 
+publicadas a partir de 1905. 
+ 
+RePEc Research Papers in Economics  
+Base de dados descentralizada cobrindo a área de Economia. 
+É um esforço cooperativo de mais de 8 mil instituições em 44 
+países, incluindo o Brasil. Indexa documentos de trabalho, 
+artigos de periódicos e softwares. Está disponível online  e em 
+grande parte disponibiliza textos completos dos documentos 
+arrolados. 
+ 
+Social Sciences Full Text  
+Base referencial de dados que indexa periódicos nas áreas de 
+Direito, Economia, Administração, Psicologia, Geografia, Es-
+tudos Regionais Sociologia, Ciência Política e Serviço Social. O 
+período disponível online é de 1983 até o presente para inde-
+xação e de 1994 até o presente para resumos. Inclui textos 
+completos de publicações selecionadas a partir de 1995. 
+ 
+ 
+ 
+ 
+51 
+Exemplos de Bases Multidiciplinares: 
+ 
+Banco de Teses Capes 
+Banco de dados relativos a teses e dissertações defendidas a 
+partir de 1987. As informações são fornecidas diretamente à 
+CAPES pelos programas de pós-graduação, que se responsabi-
+lizam pela veracidade dos dados. 
+ 
+CrossRef 
+Banco de dados  que reúne os grandes editores de periódicos 
+científicos, através de uma codificação única visando a “inter-
+linkagem” entre as referências bibliográficas de periódicos ele-
+trônicos diferentes e/ou de editores diferentes. A intenção é  
+fornecer códigos numéricos permanentes para documentos 
+eletrônicos, de modo que eles não se percam, mesmo com a 
+mudança dos endereços na Internet.  
+ 
+DII Derwent Innovations Index 
+Banco de Dados de Patentes que reúne mais de 10 milhões de 
+invenções e 20 milhões de Patentes registradas desde 1963, 
+com base em 3 categorias: Química, Engenharia Elétrica e E-
+letrônica. 
+ 
+ 
+General Science Abstracts Full Text 
+Base referencial de dados cobrindo as áreas de Ciências Bioló-
+gicas e Ciências Exatas e da Terra. Indexa periódicos acadê-
+micos, populares e de divulgação científica. Inclui textos com-
+pletos de publicações selecionadas. O período disponível onli-
+ne é de 1984 até o presente para indexação e de 1993 até o 
+presente para resumos. Inclui textos completos de publica-
+ções selecionadas a partir de 1995. 
+ 
+USPTO (US Patent and Trademark Office) 
+Base de dados de acesso gratuito contendo o texto completo 
+de patentes e de pedido de patentes americanas a partir de 
+1790 até a presente data. 
+ 
+Web of Science  
+Base multidisciplinar que indexa somente os periódicos mais 
+citados em suas respectivas áreas. É também um índice de 
+citações, informando, para cada artigo, os documentos por ele 
+citados e os documentos que o citaram. Possui hoje mais de 
+9.000 periódicos indexados. É composta por:  
+Science Citation Index: 1945 até o presente; 
+Social Science Citation Index: 1956 até o presente; 
+Arts and Humanities Citation Index: 1975 até o presente. 
+ 
+ 
+ 
+52 
+ 
+Exemplos de Bases Complementares: 
+ 
+Agricola 
+Art Full Text 
+Education Full Text  
+Eric (CSA) 
+FSTA (Food Science and Technology Abstracts)  
+Humanities Full Text  
+Human Resources Abstracts  
+MEDLINE/PubMed  
+MLA International Bibliography 
+Philosopher’s Index  
+PsycINFO 
+Social Services Abstracts  
+Sociological Abstracts  
+ 
+ 
+PERIÓDICOS (Portal Capes) 
+ 
+O Portal de Periódicos disponibiliza, em 2005, 150 títulos de  
+periódicos classificados para uso da Engenharia de Produção 
+que você pode consultar no Apêndice - A desta publicação. 
+Para fazer uma busca mais abrangente,  isto é,  não somente 
+nos títulos  específicos da área use o recurso de pesquisar pe-
+lo tema usando termos para sua busca ou palavras-chaves. 
+ 
+Portal da Pesquisa   
+O Portal da Pesquisa é produzido pela DotLib e permite acesso 
+a milhares de bases de dados, livros e periódicos de diversas 
+áreas do conhecimento. Para acessá-lo, você precisa pertencer 
+a uma instituição autorizada. O acesso às bases de dados é 
+permitido através de dois tipos de autenticação: a autentica-
+ção por IPs e/ou a autenticação por usuário e senha. Os usu-
+ários autorizados têm direito à visualização, sem quaisquer 
+restrições, ao armazenamento digital (download), à impressão 
+e à cópia de itens de publicações disponíveis no Portal para 
+uso individual e em suas atividades de ensino e pesquisa e em 
+outros programas acadêmicos.  Os usuários que tiverem rece-
+bido uma senha podem acessar o Portal de qualquer compu-
+tador via Internet. Os demais usuários podem ter acesso atra-
+vés de computadores ligados à Internet nas instituições parti-
+ 
+53 
+cipantes, localizados geralmente em bibliotecas, laboratórios e 
+escritórios de trabalho ou através de acesso doméstico usando 
+a rede da instituição.  
+O acesso ao Portal da Pesquisa será possível pelo endereço: 
+http://www.portaldapesquisa.com.br  
+Caso o IP de sua  instituição esteja autorizado aparecerá no 
+alto no canto  esquerdo da página inicial do portal o nome de 
+sua instituição que deverá ser clicado para dar início ao pro-
+cesso de busca de informação no mesmo. Vejam algumas Ba-
+ses de Dados que poderão ser acessadas através deste Portal: 
+ 
+Agroveterinárias Biomédicas 
+Exatas  
+Humanas 
+CAB Abstracts 
+Biological Abstracts  Georef 
+Econlit 
+Food Sci. & Tech 
+Abstracts 
+Sports Discus  
+Math Sciences 
+MLA 
+Zoological Re-
+cords 
+Psycinfo 
+Iconda 
+Philosophers   
+Index 
+  
+Journals@ovid 
+Infotrac Custom 
+Journals 
+Sociological    
+Abstracts 
+  
+Infotrac Custom 
+Journals 
+  
+Infotrac Custom 
+Journals 
+ 
+ 
+Se você estiver com dificuldades no uso deste Portal acesse o 
+Manual do Usuário disponibilizado pelo Sistema de Bibliote-
+cas da USP no seguinte endereço: 
+http://www.usp.br/sibi/biblioteca/Manual_PortaldaPesquisa.pdf  
+ou 
+pela Biblioteca Universitária da UFSC no seguinte endereço: 
+http://www.bu.ufsc.br/ManualPortalPesquisa2004.pdf. 
+ 
+ 
+E-livro/ Ebrary 
+Através deste serviço você tem acesso a coleções exclusivas de 
+mais de 20.000 livros e outros importantes documentos de 
+mais de 150 editoras líderes nas áreas acadêmica, comercial e 
+profissional. 
+O acesso ao E-livro o é possibilitado no seguinte endereço:  
+http://www.e-libro.com/  
+ 
+As buscas são permitidas para IP’s autorizados , isto é, atra-
+vés de instituições que possuem assinaturas do serviço. Tais 
+buscas podem ser feitas  por autor, título, editora ou temática.  
+Para  leitura dos documentos  é necessária a instalação de um 
+ 
+ 
+54 
+programa específico: Leitor de e-livro.  Este software permite 
+aos usuários ver e buscar documentos e pode ser baixado gra-
+tuitamente no próprio portal ou pode ser encontrado já pré-
+instalado nos terminais de usuários das bibliotecas e institui-
+ções autorizadas a fazer uso do sistema. Este leitor é compatí-
+vel para instalação nas plataformas Windows e Macintosh que 
+usam Netscape ou Internet Explorer. 
+ 
+Na Biblioteca Universitária da UFSC você acessa todos esses 
+serviços de informação digital (Portal Capes, Portal da Pesqui-
+sa e E-Livro) na Biblioteca Virtual  que possui  link na página 
+inicial do portal em: 
+http://www.bu.ufsc.br  (Biblioteca Virtual está no canto direi-
+to da página) 
+Na Biblioteca Virtual, o Portal Capes, o  Portal da pesquisa e o 
+E-Livro você irá encontrar no canto esquerdo da página. 
+ 
+ 
+Internet com Acesso Público 
+A Internet é uma rede de computadores conectada a um con-
+junto de milhares de redes menores, cujo protocolo padrão de 
+comunicação denominado TCP/IP (Transmission Control Proto-
+col/Internet Protocol) torna possível o processo de comunica-
+ção (OLIVEIRA, 1997). 
+A Internet é um enorme banco de dados, é um canal de co-
+municação onde são oferecidos serviços de informação.  
+Como Buscar Informações de Acesso Público na Internet 
+Para buscar informações na Internet você deve usar as ferra-
+mentas de busca. As ferramentas de busca são sistemas que 
+fazem a indexação dos documentos. A forma como é feita essa 
+indexação vai influir diretamente na quantidade e na qualidade 
+dos resultados que serão obtidos na pesquisa. As ferramentas 
+de busca mais sofisticadas utilizam programas de indexação de-
+nominados “robôs” ou “aranhas”, que periodicamente vascu-
+lham a rede em busca de novos documentos a serem indexados 
+no seu banco de dados, atualizam endereços que tenham mu-
+dado e deletam aqueles que já não possuem nenhum documen-
+to (BRAD, 1999). 
+Atualmente estão à disposição para efetuar suas buscas na 
+Internet diversas ferramentas de busca (nacionais e interna-
+ 
+55 
+cionais). Os quadros abaixo mostram o endereço das princi-
+pais ferramentas: 
+Ferramentas Nacionais 
+ http://www.achei.com.br/ 
+ 
+http://www.brbusca.com/index.html 
+ 
+http://radar.uol.com.br/ 
+ http://www.todobr.com.br/ 
+Ferramentas Internacionais 
+ 
+http://www.altavista.com/ 
+ 
+http://www.excite.com/ 
+ 
+http://www.google.com/ 
+ 
+http://search.msn.com/ 
+ http://www.webcrawler.com/ 
+http://www.yahoo.com/ 
+Metaferramentas 
+Ferramentas que possibilitam busca em várias ferramentas simultanea-
+mente. 
+ 
+http://www.jarbas.com.brl/ 
+Busca simultaneamente no Google, Yahoo, Altavista e 
+Jayde 
+ 
+ 
+56 
+ 
+http://www.dogpile.com/ 
+Busca simultaneamente no Google, Yahoo e Ask Jeeves 
+ 
+http://www.metacrawler.com/ 
+Busca simultaneamente no Google, Yahoo, Ask Jeeves, 
+About, Overture, Findwhat 
+ 
+http://www.search.com/ 
+Busca simultaneamente no Google, AltaVista, 
+Ask Jeeves, Business.com, Kanoodlle, 
+LookSmart, MSN, Open Directory Sites 
+ 
+http://www.tay.com.br/ 
+Busca simultaneamente em diversas ferramentas nacio-
+nais ou nas ferramentas nacionais escolhidas pelo usuário 
+Ferramentas Especializadas 
+ 
+http://scholar.google.com/ 
+Busca dirigida a um banco de dados de trabalhos acadê-
+micos 
+ 
+http://citeseer.ist.psu.edu/ 
+Busca literatura científica 
+ 
+http://www.allonesearch.com/ 
+Busca pessoas na rede 
+ 
+Como Buscar as Informações? 
+A busca de informações na Internet pode ser feita de duas 
+maneiras: 
+ por assuntos/categorias: a busca é feita por tópicos que es-
+tão indexados por categorias e subcategorias de assuntos; 
+ por assuntos específicos: a busca é feita utilizando as ferra-
+mentas de busca. Nesta forma de busca você deve informar a 
+palavra-chave ou a frase que caracteriza o que quer pesqui-
+sar. Essa forma de pesquisa pode ser feita de dois modos: 
+ 
+57 
+ pesquisa simples: pode ser feita na própria página inicial 
+das ferramentas e oferece a opção de uso de comandos 
+mais gerais; 
+ pesquisa avançada: ou mais refinada, só pode ser feita na 
+página das ferramentas de busca, abrindo uma janela 
+especial, na qual é possível usar comandos mais específi-
+cos para aproximar ao máximo o resultado da pesquisa 
+daquilo que se quer encontrar. 
+Como Fazer Uso de Comandos e Operadores Booleanos  
+na Recuperação das Informações na Internet? 
+Na busca de informações você pode simplesmente digitar uma 
+palavra (por exemplo, qualidade) na janela indicada e clicar 
+para buscar. Possivelmente uma lista será mostrada sobre o 
+assunto com centenas de documentos. Contudo, nem sempre 
+esse tipo de busca pode ser considerada satisfatória, isto por-
+que você não terá provavelmente tempo para analisar o grande 
+volume de documentos resultantes de uma pesquisa tão am-
+pla e vaga. 
+As ferramentas de busca oferecem comandos e recursos para 
+você resolver este problema, isto é, possibilitar que suas bus-
+cas tenham resultados mais depurados e precisos. No sistema 
+de ajuda de cada ferramenta você identificará quais são os 
+comandos que poderão ser usados. 
+Geralmente os comandos utilizados na busca de informações são: 
+ uso de sinais: o sinal de inclusão + (mais), o sinal de exclu-
+são – (menos), aspas " " e o asterisco *; 
+ uso de operadores booleanos: AND (e), OR (ou) e AND NOT 
+(não) e também o uso dos parênteses ( ). 
+O emprego dos comandos em buscas simples possibilita: 
+O uso de aspas " " 
+As aspas são utilizadas para que a ferramenta de busca con-
+sidere as palavras como sendo uma frase. Por exemplo, ao co-
+locar duas palavras entre as aspas, “engenharia de produção”, 
+a busca ficará limitada a documentos que contenham exata-
+mente essa frase. 
+ 
+ 
+58 
+O uso do sinal de mais + 
+O sinal de inclusão + deve ser utilizado antes de uma palavra 
+ou frase para informar ao programa de busca que ele deve se-
+lecionar os documentos que tenham obrigatoriamente todas 
+as palavras precedidas do sinal +, em qualquer ordem que se-
+ja. Por exemplo: 
++engenharia +"inteligência artificial" 
+o uso do sinal de menos – 
+O sinal de exclusão deve ser utilizado antes de uma palavra 
+ou frase para informar ao programa de busca que ele não deve 
+incluir os documentos que contenha aquela palavra(s) ou fra-
+se(s). Por exemplo: 
++engenharia –"engenharia de produção" 
+o uso do asterisco * 
+O asterisco é utilizado para solicitar ao programa de busca 
+que busque todos os documentos que contenham a parte ini-
+cial da palavra (até o asterisco) com qualquer terminação. Por 
+exemplo: 
+produ* 
+para recuperar produção, produtivo, produto, produtos, pro-
+dutividade 
+O uso de sinais pode ser combinado, e estes devem ser utili-
+zados de forma lógica; a primeira palavra ou frase deve ser 
+sempre a de inclusão. Veja este exemplo: 
++"inteligência artificial" –"redes neurais artificiais" 
+No caso acima, a ferramenta trará como resultado da pesquisa 
+uma lista de documentos que tenha a expressão “inteligência arti-
+ficial”, mas não contenha a expressão “redes neurais artificiais”. 
+A relação lógica entre os termos a serem pesquisados é estabe-
+lecida pelos operadores lógicos também conhecidos como ope-
+radores booleanos. Tais operadores são derivados da teoria de 
+conjuntos e são de uso universal para aplicação na recupera-
+ção da informação. Os operadores booleanos são usados nas 
+buscas para possibilitar a ampliação ou a restrição (refinamen-
+ 
+59 
+to) dos resultados. Os operadores válidos numa expressão boo-
+leana de pesquisa são os seguintes: 
+Operador Significado Resultado obtido 
+OR 
+União 
+Busca todos os registros onde exista qualquer um dos 
+termos indicados 
+AND 
+Intersecção Busca todos os registros onde ocorram simultaneamen-
+te os termos indicados 
+AND NOT 
+Exclusão 
+Busca todos os registros onde ocorra o primeiro termo 
+exceto o segundo 
+ 
+O uso de operadores pode ser observado nos exemplos abaixo: 
+ AND: o uso do operador AND traz como resultado da pesqui-
+sa páginas que possuam obrigatoriamente todas as palavras 
+ligadas por esse operador. Por exemplo, na solicitação: 
+“engenharia genética” AND ética. 
+O resultado da pesquisa será uma lista com todos os docu-
+mentos com a expressão “engenharia genética” que também 
+tenham a palavra ética. 
+ NOT: o uso dos operadores AND NOT traz como resultado 
+da pesquisa páginas que possuam a palavra que precede o 
+operador AND e excluam as palavras que sucedem o opera-
+dor NOT. Por exemplo, na seguinte solicitação: 
+“engenharia genética” AND NOT ética. 
+O resultado da pesquisa incluirá todos os documentos que 
+possuam a expressão “engenharia genética”, mas que não 
+contenham a palavra ética. 
+ OR: o uso do operador OR traz como resultado da pesquisa 
+documentos que possuam tanto uma palavra como a(s) ou-
+tra(s) ligada(s) por esse conectivo. Por exemplo, na solicitação: 
+“engenharia genética” OR ética. 
+O resultado da pesquisa incluirá todos os documentos que 
+possuam a expressão engenharia genética e a palavra ética 
+não necessariamente no mesmo documento. 
+ PARÊNTESES ( ): os parênteses são utilizados para agrupar 
+várias palavras ligadas pelos conectivos. Veja o exemplo: 
+qualidade AND (empresas OR organizações) 
+ 
+ 
+60 
+Como Avaliar a Informação Disponibilizada na Internet? 
+A Internet, como vimos, é uma fonte inesgotável de recursos. 
+Você deve utilizá-la para busca de informações, mas deve ser 
+igualmente seletivo no uso dessas informações. Alguns critérios 
+de seleção devem ser adotados como, por exemplo, verificar as 
+credenciais do autor, como está escrito o documento (lingua-
+gem, correção ortográfica e gramatical) e a atualidade do site. 
+Outro cuidado que você deve tomar é com os direitos autorais. 
+Referenciar os documentos usados e indicar como fontes de 
+consulta é ético e de bom tom. A ABNT (2002) publicou nor-
+mas para referenciar documentos digitais na NBR6023. 
+Como Localizar os Documentos Levantados nas  
+Bases de Dados da Internet, CD-ROM e Fontes Impressas? 
+Realizada a identificação (o levantamento bibliográfico) é ne-
+cessário obter os materiais considerados úteis à realização da 
+pesquisa. É preciso, então, localizá-los. Deve-se começar pela 
+biblioteca que está mais próxima e, se a biblioteca não possuir, 
+pode-se consultar (dependendo do que se procura): 
+ para localizar periódicos: a base de dados do Catálogo Cole-
+tivo Nacional de Periódicos do IBICT consulte: 
+http://www.ct.ibict.br/ccn/owa/ccn_consulta 
+ para localizar periódicos on-line: Portal  Livre do CNEN que 
+cataloga periódicos de livre acesso existentes na Internet 
+consulte: 
+http://extranet.cnen.gov.br/cin/livre/ 
+ 
+ 
+ para localizar livros e demais recursos informacionais 
+ Biblioteca da UFSC: http://www.bu.ufsc.br 
+ Biblioteca da UFMG: http://www.bu.ufmg.br 
+ Biblioteca da UFRJ:  
+ 
+http://www.minerva.ufrj.br  
+ Bibliotecas da  USP – UNICAMP –UNESP: 
+http://bibliotecas-cruesp.usp.br/bibliotecas/CRUESP.htm 
+ Biblioteca Nacional: http://www.bn.br/ 
+ 
+ para localizar teses e dissertações  nacionais:  
+ Biblioteca Digital de Teses e Dissertações (BDTD) 
+http://bdtd.ibict.br/bdtd/ 
+ Banco de Teses da Capes  
+http://www.capes.gov.br/capes/portal/conteudo/10/Teses_Dissertacoes.htm 
+ 
+61 
+ Universia Brasil (Busca teses nas universidades Públicas 
+Paulistas e na PUC – PR) 
+www.universiabrasil.net/busca_teses.jsp 
+ 
+ Para localizar teses e dissertações de engenharia de produção 
+(texto integral) 
+EFEI: http://www.ppg.efei.br/cpgp/dissertacoes.htm 
+PUC/RIO: http://www.ind.puc-rio.br/public_disserta.htm# 
+UFRJ:  http://www.gpi.ufrj.br/teses.htm 
+UFSC: http://teses.eps.ufsc.br/ 
+USP: http://www.teses.usp.br/areas.php?codArea=18140/ 
+ 
+ para localizar teses e dissertações defendidas em institui-
+ções estrangeiras: 
+ 
+Biblioteca Miguel de Cervantes (teses em língua espanhola) 
+h 
+ttp://www.cervantesvirtual.com/tesis/tesis_catalogo.shtml 
+Caltech Library System (EUA) 
+h ttp://library.caltech.edu/etd/ 
+Cybertesis (Universidad de Chile)  
+h ttp://www.cybertesis.cl/ 
+Depósito de Dissertações e Teses Digitais (Portugal e outros países) 
+http://dited.bn.pt/jsp/user/orgs/start.jsp 
+ 
+Digital Library of Mit Thesis 
+h ttp://theses.mit.edu/index.html 
+Networked Digital Library of Theses and Dissertations (NDLDT) 
+h ttp://www.ndltd.org/ 
+New Jersey Institute of Technology's (EUA) 
+h ttp://www.library.njit.edu/etd/index.cfm  
+Tesis Doctorals en Xarxa  (Catalunha-Espanha) 
+http://www.tdcat.cbuc.es/ 
+  
+Theses Canada Portal (Library and Archives Canada)  (Canadá) 
+http://www.collectionscanada.ca/thesescanada/index-e.html 
+ 
+UMI Digital Dissertations (EUA e Europa) 
+h ttp://www.umi.com/umi/dissertations/ 
+Universidad Complutense de Madrid (Espanha) 
+h ttp://www.ucm.es/BUCM/2006.htm 
+Universidad de las Américas (México) 
+h ttp://www.udlap.mx/~tesis/ 
+University of Kentucky (EUA) 
+http://www.uky.edu/ETD/ 
+ 
+ 
+62 
+Université de Genève – Cybertheses (Suíça) 
+h ttp://www.unige.ch/cyberdocuments/theses.php 
+Universidad Veracruzana – Tesis de Posgrado  (México) 
+h ttp://www.uv.mx/usbi_xal/bibdig/tespos/tespos.html 
+University of Helsinki – E-Thesis  (Finlândia) 
+h ttp://ethesis.helsinki.fi/english.html 
+Universidad Nacional Mayor de San Marcos - Cybertesis (Perú) 
+h ttp://cybertesis.unmsm.edu.pe/sdx/sisbib/ 
+University of North Texas (EUA) 
+h ttp://www.library.unt.edu/theses/ 
+University of Tennessee (EUA) 
+http://diglib.lib.utk.edu/cgi/b/bib/bib-idx?c=etd-bib;cc=etd-bib;page=index 
+ 
+University of Waterloo (Canadá) 
+http://etheses.uwaterloo.ca/index.cfm 
+ 
+Acesso a artigos e outros documentos 
+Para recuperar os documentos de outras instituições procure 
+a Biblioteca que está mais próxima e pergunte sobre os servi-
+ços de: 
+ Empréstimo entre Bibliotecas: convênio ou acordo formal ou 
+informal realizado entre bibliotecas que possibilita que uma biblio-
+teca possa solicitar emprestado o material necessário para sua 
+pesquisa em outra biblioteca.  Portanto, se precisar de um livro e-
+xistente em outra biblioteca, procure a bibliotecária de sua biblio-
+teca e pergunte a respeito dessa possibilidade de empréstimo; 
+ Comutação Bibliográfica: serviço que permite a busca de arti-
+gos, partes de livros e teses em bibliotecas nacionais e estrangei-
+ras. A Biblioteca Universitária da UFSC (comut@bu.ufsc.br) parti-
+cipa de alguns programas que facilitam a localização e recupera-
+ção de documentos, como: 
+ COMUT: Programa de Comutação Bibliográfica do IBICT que 
+possibilita a busca de artigos de periódicos nas bibliotecas brasi-
+leiras. O programa cobra uma taxa para a prestação do servi-
+ço; 
+ LIGDOC: Interligação de Bibliotecas para Troca de Documen-
+tos. Serviço prestado pelo Consórcio ISTEC (The Ibero-
+American Science and Technology Education Consortium). 
+Programa cooperativo entre bibliotecas que possibilita que a 
+Biblioteca Universitária da UFSC tenha acesso eletrônico aos 
+documentos da área de engenharia existentes nas Bibliotecas 
+da Universidade do Novo México, em Albuquerque – EUA; Bi-
+bliotecas da Escola Politécnica da USP – SP; Biblioteca Central 
+da PUCRS – RS; BAE – Biblioteca de Arquitetura e Engenharia 
+da UNICAMP e Biblioteca da Escola de Engenharia de São 
+ 
+63 
+Carlos – USP. Podem ser solicitados artigos de periódicos, tra-
+balhos de congressos, capítulos de livros que integram a cole-
+ção da CSEL (Centennial Science Engineering Library), desde 
+que não estejam disponíveis nas bibliotecas brasileiras. 
+ BIREME: Centro Latino-Americano e do Caribe de Informação 
+em Ciências da Saúde – Programa que permite a busca de do-
+cumentos da área da saúde em todas as bibliotecas que fazem 
+parte do Sistema; 
+ BL: British Library: empresta livros existentes em seu acervo 
+cobrando uma taxa. 
+Existem também Sites e Portais Especializados e, ainda, Re-
+positórios de Arquivos Abertos que dão acesso a materiais im-
+portantes para subsidiar pesquisas desenvolvidas na área de 
+Engenharia de Produção, como por exemplo: 
+Assunto: Ciência Cognitiva                                           
+http://cogprints.org/ 
+Assunto: Finanças             
+http://fisher.osu.edu/fin/journal/jofsites.htm http://www.finance-
+research.net/ 
+Assunto: Gestão de Conhecimento e Aprendizagem Organiza-
+cional                               
+http://www.kmol.online.pt/ajuda/sobre.html   
+Assunto: Inteligência Artificial                     
+http://arxiv.org/list/cs.AI/recent  
+Caso você deseje ou necessite adquirir os livros seleciona-
+dos, muitas livrarias estão prestando serviços pela Internet. 
+Você pode comprar livros nas livrarias abaixo relacionadas: 
+ Livrarias  existentes em território nacional e no exterior: 
+ 
+BRASIL 
+EXTERIOR 
+FNAC 
+http://www.fnac.com.br 
+Amazon 
+http://www.amazon.com 
+Livraria Cultura 
+http://www.livrariacultura.com.br 
+Barnes and Noble 
+http://www.barnesandnoble.com/ 
+Livraria Saraiva 
+http://www.saraiva.com.br 
+Engineering Bookstore 
+http://www.engineeringbookstore.com/ 
+Livraria Siciliano 
+http://www.siciliano.com.br 
+Power Engineering Books 
+http://www.powerengbooks.com/ 
+Sodiler 
+http://www.sodiler.com.br 
+Webboom 
+www.webboom.pt 
+ 
+ 
+ 
+64 
+ 
+ 
+ Para comparar preços em livrarias use: 
+ 
+COMPARAR PREÇOS DE LIVROS 
+Add ALL (livrarias no exterior) 
+http://www.addall.com/ 
+Bondfaro (livrarias nacionais) 
+http://www.bondfaro.com 
+Compricer (livrarias no exterior) 
+http://books.compricer.com/ 
+Buscapé (livrarias  nacionais) 
+http://www.buscape.com.br 
+Book Finder (livrarias no exterior) 
+http://www.bookfinder.com/ 
+Radar UOL (liv.nacionais e exterior) 
+http://precos.busca.uol.com.br/ 
+ 
+ 
+ 
+65 
+Leitura, Fichamento, Resumo, Citações 
+e Referências 
+Aplicar princípios na análise e leitura de textos; 
+identificar pontos importantes de um texto; 
+identificar os passos para a elaboração de fichamentos de textos; 
+elaborar sínteses de textos; 
+formular citações de documentos de acordo com as recomendações da ABNT; 
+formular referências de acordo com as recomendações da ABNT. 
+INTRODUÇÃO 
+Para a realização do projeto de pesquisa e, principalmente, 
+para a elaboração da revisão de literatura, os processos de 
+leitura e fichamentos de textos são fundamentais. Ter condi-
+ções de elaborar resumos é importante na medida em que fa-
+cilita o processo de síntese e análise dos documentos lidos. 
+Citações e referências elaboradas de acordo com as normas da 
+ABNT facilitam o processo de identificação dos documentos 
+lidos e permitem que você dê crédito, por uma questão de ho-
+nestidade intelectual, aos autores das idéias usadas em sua 
+pesquisa. 
+LEITURA 
+Saber ler e interpretar um texto é fundamental. Para facilitar o 
+processo de leitura Severino (2000) recomenda que esta seja 
+feita com base nas seguintes dimensões de análise: 
+ 
+ 
+66 
+ análise textual: preparação do texto para a leitura. Requer o 
+levantamento esquemático da estrutura redacional do texto. 
+Objetiva mostrar como o texto foi organizado pelo autor 
+permitindo uma visualização global de sua abordagem. De-
+vem-se buscar: esclarecimentos para o melhor entendimen-
+to do vocabulário, conceitos empregados no texto e informa-
+ções sobre o autor; 
+ análise temática: compreensão da mensagem do autor. Re-
+quer a procura de respostas para as seguintes questões: de 
+que trata o texto? Qual o objetivo do autor? Como o tema es-
+tá problematizado? Qual a dificuldade a ser resolvida? Que 
+posições o autor assume? Que idéias são defendidas  ? O 
+que quer demonstrar? Qual foi o seu raciocínio, a sua argu-
+mentação? Qual a solução ou a conclusão apresentada pelo 
+autor?; 
+ análise interpretativa: interpretação da mensagem do autor. 
+Requer análise dos posicionamentos do autor situando-o 
+em um contexto mais amplo da cultura filosófica em geral. 
+Deve-se fazer avaliação crítica das idéias do autor obser-
+vando a coerência e validade de sua argumentação, a origi-
+nalidade de sua abordagem, a profundidade no tratamento 
+do tema, o alcance de suas conclusões. E, ainda, fazer uma 
+apreciação pessoal das idéias defendidas. 
+COMO FAZER OS FICHAMENTOS DOS TEXTOS 
+1º Passo: você irá definir o tema e, depois, levantar os aspectos 
+que pretende abordar referentes ao tema (plano de trabalho). 
+Exemplo 
+ROCHA, Simone Karla da. Qualidade de vida no trabalho: um es-
+tudo de caso no setor têxtil. 1998. Dissertação (Mestrado em Enge-
+nharia de Produção) – Programa de Pós-graduação em Engenharia 
+de Produção, UFSC, Florianópolis. 
+Nesta pesquisa a autora escolheu para realização de sua revisão de 
+literatura: 
+TEMA: Pressupostos básicos que permeiam a qualidade de vida no 
+trabalho. 
+ 
+67 
+ESTRUTURA (sumário mostrando os tópicos abordados) 
+EVOLUÇÃO DAS TEORIAS ADMINISTRATIVAS 
+O ENFOQUE DA QUALIDADE DE VIDA NO TRABALHO 
+A origem e a evolução dos estudos de qualidade de vida no trabalho 
+Os conceitos de qualidade de vida no trabalho 
+Os modelos para avaliação da qualidade de vida no trabalho: 
+Modelos de Hackman e Oldham 
+Modelo de Westley 
+Modelo de Werther e Davis 
+Modelo de Walton 
+ 
+2º Passo: você procederá à leitura dos textos procurando le-
+vantar informações importantes para todos os aspectos esco-
+lhidos na abordagem já definida anteriormente. O fichamento 
+de citações é muito útil à elaboração da revisão de literatura. 
+Veja como proceder para recolher as citações que provavel-
+mente serão usadas em seu texto posteriormente: 
+PRESSUPOSTOS BÁSICOS QUE PERMEIAM A QUALIDADE DE VIDA NO 
+TRABALHO  
+ENFOQUE DA QUALIDADE DE VIDA NO TRABALHO. 
+Os modelos para avaliação da qualidade de vida no 
+trabalho: 
+Modelo de Westley 
+ 
+Referência do texto que está sendo lido. 
+Transcrição da citação “entre aspas” que provavelmente será usada para se 
+escrever o tópico indicado acima: Modelos de Westley + indicação da página 
+onde está a citação no texto lido. 
+ 
+ 
+ 
+Localização do documento lido/consultado: Ex. Biblioteca, Acervo Pessoal 
+ 
+Desta forma, conforme as informações que você for encon-
+trando serão abertas novas fichas. Quanto maior for o número 
+de fichas maior o número de informações disponíveis para se-
+rem usadas como suporte para análise e discussão dos resul-
+tados obtidos. A composição de um novo texto síntese do que 
+ 
+ 
+68 
+já foi abordado na literatura sobre o tema será também facili-
+tada. 
+3º Passo: consiste em agrupar os fichamentos conforme a par-
+te do texto indicada no cabeçalho. Ler e analisar o conjunto 
+das informações recolhidas, juntando os autores por similari-
+dade ou diferenças na abordagem. 
+4º Passo: consiste na redação do texto que deve obedecer aos 
+seguintes critérios, segundo Azevedo (1998): 
+ clareza: o texto deve ser escrito para ser compreendido; 
+ concisão: o texto deve dizer o máximo no menor número 
+possível de palavras; 
+ correção: o texto deve ser escrito corretamente conforme as 
+regras gramaticais; 
+ encadeamento: as frases, os parágrafos, os capítulos devem 
+estar encadeados de forma lógica e harmônica; 
+ consistência: o texto deve usar os verbos nos mesmos tem-
+pos, preferencialmente na voz ativa; 
+ contundência: o texto não deve fazer rodeios, e sim ir direto 
+ao ponto desejado, apresentando as colocações de forma ob-
+jetiva e firme; 
+ precisão: o texto deve evitar o uso de termos ambíguos ou 
+apresentar a definição adotada; 
+ originalidade: o texto deve evitar o uso de frases feitas ou 
+lugares-comuns. Dever se autônomo e apresentar idéias 
+novas; 
+ correção política: o texto deve evitar o uso de expressões de 
+conotação etnocentrista ou preconceituosa; 
+ fidelidade: o texto deve respeitar o objeto de estudo, as fon-
+tes empregadas e o leitor. Devem estar indicadas as fontes 
+usadas para escrevê-lo. 
+RESUMOS 
+Você deve elaborar os resumos de acordo com a NBR6028  da 
+Associação Brasileira de Normas Técnicas (2003), que define 
+as regras para sua redação e apresentação. 
+ 
+69 
+Os resumos devem vir sempre acompanhados da referência da 
+publicação. 
+Resumo é a apresentação condensada dos pontos relevantes 
+de um texto. No resumo você deve ressaltar de forma clara e 
+sintética a natureza e o objetivo do trabalho, o método que foi 
+empregado, os resultados e as conclusões mais importantes, 
+seu valor e originalidade. O conteúdo de um resumo deve con-
+templar o assunto ou os assuntos tratados de forma sucinta, 
+o objetivo do trabalho, o método ou os métodos empregados, 
+como o tema foi abordado e suas conclusões. 
+Requisitos de um Resumo 
+ Concisão: a redação é concisa quando as idéias são bem 
+expressas com um mínimo de palavras. 
+ Precisão: resultado das seleções das palavras adequadas 
+para expressão de cada conceito. 
+ Clareza: característica relacionada à compreensão. Significa 
+um estilo fácil e transparente. 
+A leitura do resumo deve permitir: 
+ conhecer o documento; 
+ determinar se é preciso ler o documento na íntegra. 
+Tipos de resumos 
+Informativo 
+Contém as informações essenciais apresentadas pelo texto. 
+Exemplo 
+SILVA, Edna Lúcia da. A construção dos fatos científicos: das 
+práticas concretas às redes científicas. 1998. Tese (Doutorado em 
+Ciência da Informação)– ECO-UFRJ/CNPq-IBICT, Rio de Janeiro. 
+Pesquisa que aborda a questão das relações entre Ciência e So-
+ciedade e seus desdobramentos no campo da comunicação científi-
+ca, utilizando como fio condutor de análise o cotidiano, o dia-a-dia da 
+atividade científica no Laboratório de Pesquisa do Grupo de Pesqui-
+sa em Química Bioinorgânica da Universidade Federal de Santa Ca-
+tarina. As ações dos cientistas, neste espaço estratégico de produ-
+ção do conhecimento, foram observadas porque se considera que o 
+ 
+ 
+70 
+conhecimento, como produto, é afetado pelas condições sociais de 
+um contexto específico. Usando como inspiração os Estudos de La-
+boratório da Nova Sociologia da Ciência, adotando, portanto, uma 
+perspectiva antropológica, o foco do estudo recaiu em duas ques-
+tões: 1) Como são os fatos científicos construídos no laboratório e 
+como a comunicação científica atua nesta construção?; 2) Quais as 
+redes de relações e comunicações que se estabelecem para viabili-
+zar a construção de fatos científicos? Os resultados mostram como é 
+feita a Ciência Bioinorgânica no contexto da UFSC e nas contingên-
+cias verificadas com base na observação in loco do trabalho dos 
+pesquisadores no laboratório de pesquisas, nas suas falas sobre o 
+que fazem e nas entrevistas formais ou informais realizadas durante 
+os dez meses de pesquisa de campo e na análise de documentos 
+produzidos pelo Grupo. Enfoca a história do Grupo na UFSC, o labo-
+ratório como o espaço do fazer científico, o processo da construção 
+do conhecimento, a produção científica e as redes científicas. Apre-
+senta um parecer analítico sobre o que foi dito como observado, 
+procurando atrelar concepções diferentes sobre a dinâmica do fazer 
+científico para compor uma configuração própria e particular sobre a 
+realidade da construção do conhecimento no Grupo de Pesquisa e 
+no Laboratório de Química Bioinorgânica da UFSC. 
+ 
+Indicativo ou Descritivo 
+Não dispensa a leitura do texto completo. Apenas descreve a 
+natureza, a forma e o objetivo do documento. 
+Exemplo 
+SILVA, Edna Lúcia da. A construção dos fatos científicos: das prá-
+ticas concretas às redes científicas. 1998. Tese (Doutorado em Ciên-
+cia da Informação)– ECO-UFRJ/CNPq-IBICT, Rio de Janeiro. 
+Pesquisa que aborda a questão das relações entre Ciência e So-
+ciedade e seus desdobramentos no campo da comunicação científi-
+ca utilizando como fio condutor de análise o cotidiano, o dia-a-dia da 
+atividade científica no Laboratório de Pesquisa do Grupo de Pesqui-
+sa em Química Bioinorgânica da Universidade Federal de Santa Ca-
+tarina. 
+ 
+Crítico 
+Informa sobre o conteúdo do trabalho e formula julgamento 
+sobre ele. 
+ 
+71 
+Não existe padronização. É subjetivo, pois depende de inter-
+pretação. O seu resultado é produto do repertório particular 
+de conhecimentos de quem o está elaborando. 
+Recomendações importantes para a redação do resumo informativo 
+ A estrutura deve ser lógica, isto é, o texto deve ter começo, 
+meio e fim. 
+ A primeira frase deve ser significativa, expondo o tema prin-
+cipal do documento, isto é, identificando o objetivo do autor 
+quando escreveu o texto. 
+ As frases subseqüentes devem seguir a lógica de abordagem 
+do autor, isto é, a seqüência dada às idéias pelo autor, in-
+cluindo todas as divisões importantes dando igual propor-
+ção a cada uma delas e sempre observando o tema principal 
+do documento, isto é, objetivo do autor. 
+ Dar preferência ao uso da terceira pessoa do singular e o 
+verbo na voz ativa (descreve, aborda, estuda, etc.). 
+ Segundo a NBR6028 deve-se evitar no resumo: 
+ o uso de parágrafos; 
+ frases longas; 
+ citações e descrições ou explicações detalhadas; 
+ expressões do tipo: o “autor trata”, no “texto do autor” o 
+“artigo trata” e similares; 
+ figuras, tabelas, gráficos, fórmulas, equações e diagramas. 
+A extensão recomendada, segundo a ABNT, para os resumos 
+informativos é a seguinte: 
+ monografias e artigos = até 250 palavras; 
+ notas e comunicações breves = até 100 palavras; 
+ relatórios e teses = até 500 palavras. 
+CITAÇÃO 
+Segundo a Associação Brasileira de Normas Técnicas (2002, 
+p.1), citação é a “menção de uma informação extraída de outra 
+fonte.” Pode ser uma citação direta, citação indireta ou citação 
+de citação, de fonte escrita ou oral. 
+A NBR10520 (ABNT, 2002) define os parâmetros para a apre-
+sentação de citações em documentos. 
+ 
+ 
+72 
+As citações em trabalho escrito são feitas para apoiar uma hi-
+pótese, sustentar uma idéia ou ilustrar um raciocínio por meio 
+de menções de trechos citados na bibliografia consultada. 
+Tipos de Citação 
+Citação direta 
+É quando transcrevemos o texto utilizando as próprias pala-
+vras do autor. A transcrição literal virá entre “aspas”. 
+Exemplo 
+Segundo Vieira (1998, p.5) o valor da informação está “direta-
+mente ligado à maneira como ela ajuda os tomadores de decisões a 
+atingirem as metas da organização.” 
+ 
+Citação indireta 
+É a reprodução de idéias do autor. É uma citação livre, usan-
+do as suas palavras para dizer o mesmo que o autor disse no 
+texto. Contudo, a idéia expressa continua sendo de autoria do 
+autor que você consultou, por isso é necessário citar a fonte: 
+dar crédito ao autor da idéia. 
+Exemplo 
+O valor da informação está relacionado com o poder de ajuda aos 
+tomadores de decisões a atingirem os objetivos da empresa (VIEI-
+RA, 1998). 
+ 
+Citação de citação 
+É a menção de um documento ao qual você não teve acesso, 
+mas que tomou conhecimento por citação em um outro traba-
+lho. Usamos a expressão latina apud (“citado por”) para indi-
+car a obra de onde foi retirada a citação. Sobrenome(es) do 
+Autor Original (apud SOBRENOME(ES)dos autor(es) da obra 
+ 
+73 
+que retiramos a citação, ano de publicação da qual retiramos 
+a citação). É uma citação indireta. 
+Exemplo 
+Porter (apud CARVALHO; SOUZA, 1999, p.74) considera que “a 
+vantagem competitiva surge fundamentalmente do valor que uma 
+empresa consegue criar para seus compradores e que ultrapassa o 
+custo de fabricação pelas empresas.” 
+ 
+Apresentação das citações no texto 
+Até três linhas: aparece fazendo parte normalmente do texto. 
+Exemplo 
+Porter (apud CARVALHO; SOUZA, 1999, p.74) considera que “a 
+vantagem competitiva surge fundamentalmente do valor que uma 
+empresa consegue criar para seus compradores e que ultrapassa o 
+custo de fabricação pelas empresas.” 
+ 
+Mais de três linhas: recuo de 4 cm para todas as linhas, a par-
+tir da margem esquerda, com letra menor (fonte 10) que a do 
+texto utilizado e sem aspas. 
+Exemplo 
+Drucker (1997, p.xvi) chama a nova sociedade de sociedade ca-
+pitalista. Nesta nova sociedade: 
+O recurso econômico básico – ‘os meios de produção’, 
+para usar uma expressão dos economistas – não é mais 
+o capital, nem os recursos naturais (a ‘terra dos econo-
+mistas’), nem a ‘mão-de-obra’. Ele será o conhecimento. 
+As atividades centrais de criação de riqueza não serão 
+nem a alocação de capital para usos produtivos, nem a 
+‘mão-de-obra’ – os dois pólos da teoria econômica dos 
+séculos dezenove e vinte, quer ela seja clássica, marxis-
+ 
+ 
+74 
+ta, keynesiana ou neoclássica. Hoje o valor é criado pela 
+‘produtividade’ e pela ‘inovação’, que são aplicações do 
+conhecimento ao trabalho. Os principais grupos sociais 
+da sociedade do conhecimento serão os ‘trabalhadores 
+do conhecimento’ – executivos que sabem como alocar 
+conhecimento para usos produtivos... . 
+Sistemas de Chamada das Citações 
+Sistema numérico – quando é utilizado o número em vez da 
+data. Essa numeração deve ser única e consecutiva para todo 
+o documento ou por capítulos. 
+Exemplo 
+Segundo Stewart, “o capital humano é a capacidade, conheci-
+mento, habilidade e experiências individuais... .”5 
+ 
+No final do texto, capítulo ou parte, as referências deverão a-
+parecer em ordem numérica como consta no texto onde a refe-
+rência número 5 será a da obra de Stewart. 
+Exemplo 
+5 STEWART, Thomas. Capital intelectual: a nova vantagem competitiva das 
+empresas. Rio de Janeiro: Campus, 1997. p.7 
+ 
+Sistema autor-data – Quando é utilizado o sobrenome do autor 
+acompanhado da data do documento. 
+Exemplo 
+Conforme Stewart (1997, p.7) “o capital humano é a capacidade, 
+conhecimento, habilidade [...] pelo qual os clientes procuram a em-
+presa e não o concorrente”. 
+ 
+ 
+ 
+75 
+No sistema autor-data devem ser observadas, segundo a ABNT: 
+ quando houver coincidência de autores com o mesmo so-
+brenome e data de edição, acrescentam-se as iniciais de 
+seus prenomes; 
+Exemplo 
+Segundo Cintra, O. (1998)... 
+Conforme Cintra, A. (1998)... 
+ 
+ quando existirem  citações de diversos documentos do 
+mesmo autor, publicados no mesmo ano, distinguem-se as 
+obras pelo acréscimo de letras minúsculas após a data sem 
+uso do espacejamento; 
+Exemplo 
+O domínio da estrutura textual implica o conhecimento das par-
+tes... (CINTRA, 1987a). 
+Na concepção teórica de estratégias de leitura apresentada em 
+análise documentária Cintra (1987b) concorda com a visão... . 
+ 
+ quando o sobrenome do autor for indicado entre parênteses  
+ele aparecerá todo em letras em maiúsculas, desta forma: 
+(CINTRA, 1987a) e quando  o sobrenome fizer parte do texto  
+aparecerá escrito normalmente, somente com a primeira le-
+tra em maiúscula, desta forma: Cintra (1987b) concorda 
+com a visão... . 
+ quando forem feitas citações de documentos no texto as re-
+ferências dos mesmos deverão aparecer por extenso em or-
+dem alfabética no final do documento, considerando para 
+ordenação primeiramente o sobrenome do autor e após 
+também na ordem alfabética o título que aparece a seguir. 
+ 
+ 
+76 
+Exemplo 
+CINTRA, Ana Madalena. Elementos de lingüística para estudos de 
+indexação automatizada. Ciência da Informação, Brasília, v.15, n.2, 
+p.5-22, jan./jun.1987a. 
+CINTRA, Ana Madalena. Estratégias de leitura em documentação. 
+In: SMITT, Johanna. Análise documentária: análise da síntese. 
+Brasília: IBICT, 1987b.  p.29-38. 
+ 
+REFERÊNCIAS 
+Referência é o conjunto de elementos que permitem a identifi-
+cação, no todo ou em parte, de documentos impressos ou re-
+gistrados em diversos tipos de materiais. 
+A Associação Brasileira de Normas Técnicas (2002, p.1) na 
+NBR6023 “fixa a ordem dos elementos das referências e esta-
+belece convenções para transcrição e apresentação de infor-
+mação originada do documento e/ou outras fontes de infor-
+mação.” 
+Nos trabalhos acadêmicos a referência pode aparecer: 
+ em nota de rodapé ou no final texto; 
+ encabeçando resumos ou recensões (conforme vocês já ob-
+servaram neste capítulo quando se tratou de resumos). 
+Para uma melhor recuperação de um documento, as referên-
+cias devem ter alguns elementos indispensáveis, como: 
+1. autor (quem?); 
+2. título (o que?); 
+3. edição; 
+4. local de publicação (onde?); 
+5. editora; 
+6. data de publicação da obra (quando?). 
+Você deve apresentar elementos de forma padronizada e na 
+seqüência apresentada acima. 
+Uma das finalidades das referências é informar a origem das 
+idéias apresentadas no decorrer do trabalho. 
+ 
+77 
+Nesse sentido, você deve apresentá-las com os elementos es-
+senciais, para facilitar a localização dos documentos. 
+Veja alguns modelos de referencias: 
+Veja alguns modelos de referências: 
+Livro no Todo 
+COPELAND, Tom; KOLLER, Tim; MURRIN, Jack. Avaliação de 
+empresas: valuation. São Paulo: Makron Books, 2000. 
+ 
+Capítulo de Livro sem Autoria Especial 
+Onde o autor do livro é o mesmo autor do capítulo. 
+DRAGOO, Boo. Uma nova visão dos negócios. In: ___. Guia da Er-
+nest & Young para gerenciar o lucro em tempo real. Rio de Ja-
+neiro: Record, 1999. cap.10, p.93–100. 
+ 
+Parte de Coletânea  
+(Capítulo de Livro com Autoria Específica) 
+Onde o autor do capítulo não é o mesmo autor do livro. 
+ROY, Bernard. The outranking approach and the foundations of elec-
+tre methods. In: BANA E COSTA, C. A. Reading in multiple  
+decision aid. Berlim: Springer-Verlag, 1990. p. 39-52. 
+ 
+Trabalho Apresentado em Congresso 
+PATON, Claudecir et al. O uso do balanced scorecard como um siste-
+ma de gestão estratégica. In: CONGRESSO BRASILEIRO DE CUS-
+TOS, 6., 1999, São Paulo. Anais... São Paulo: FIPECAFI, 1999. 1CD. 
+ 
+ 
+ 
+78 
+Na referência até três autores listam-se os três autores sepa-
+rados por ponto e vírgula. Quando forem mais de três autores, 
+indica-se o primeiro seguido da expressão “et al”. Quando ne-
+cessário colocam-se todos os autores. 
+Exemplo 
+SILVA, João; SOARES, Carlos; PIMENTA, Paulo. 
+SILVA, João et al. 
+ 
+Nos sobrenomes que acompanham “Filho”, “Neto” ou “Sobri-
+nho”, esses designativos são grafados junto aos sobrenomes. 
+Exemplo 
+COSTA NETO, Francisco. 
+LIMA SOBRINHO, Sílvio. 
+REIS FILHO, Juca. 
+ 
+Artigo de Periódico 
+SIMONS, Robert. Qual é o nível de risco de sua empresa? HSM 
+Management, São Paulo, v.3, n.16, p.122-130, set./out. 1999. 
+ 
+Artigo de Jornal 
+FRANCO, Gustavo H. B. O que aconteceu com as reformas em 1999. 
+Jornal do Brasil, Rio de Janeiro, 26 dez. 1999. Economia, p.4. 
+ 
+ 
+79 
+Tese/Dissertação 
+HOLZ, Elio. Estratégias de equilíbrio entre a busca de benefícios 
+privados e os custos sociais gerados pelas unidades agrícolas 
+familiares: um método multicritério de avaliação e planejamento de 
+microbacias hidrográficas. 1999. Tese (Doutorado em Engenharia de 
+Produção)- Programa de Pós-Graduação em Engenharia de Produ-
+ção, UFSC, Florianópolis. 
+ 
+No caso de ser uma dissertação, muda-se a nota Tese (Douto-
+rado em Engenharia de Produção) para Dissertação (Mestrado 
+em Engenharia de Produção). 
+DOCUMENTOS ELETRÔNICOS/DIGITAIS 
+A ABNT (2002) fixou recomendações para a referenciação de 
+documentos eletrônicos/digitais. Os exemplos que constam da 
+NBR6023 são: 
+Monografia em meio eletrônico 
+Enciclopédia 
+KOOGAN, A.; HOUAISS, A. (Ed.). Enciclopédia e dicionário digi-
+tal 98. São Paulo: Delta: Estadão, 1998. 5 CD-ROM. 
+ 
+Parte de Monografia 
+SÃO PAULO (Estado). Secretaria do Meio Ambiente. Tratados e or-
+ganizações ambientais e matéria de meio ambiente. In: ___. Enten-
+dendo o meio ambiente. São Paulo, 1999. v.1. Disponível em: 
+<http://bdt.org.Br/sma/entendendo/atual.htm>. Acesso em: 8 mar. 1999. 
+ 
+ 
+ 
+80 
+Publicações em meio eletrônico 
+Artigo de Revista 
+RIBEIRO, P. S. G. Adoção à brasileira: uma análise sociojurídica. Da-
+tavenia, São Paulo, ano 3, n. 18, ago. 1998. Disponível em: <http:// 
+www.datavenia.informação.Br/frameartig.html>. Acesso em: 10 set. 1998. 
+ 
+Artigo de Jornal Científico 
+KELLY, R. Eletronic publishing at APS: its not just on-line journalism. 
+APS News Online, Los Angeles, nov. 1996. Disponível em: <http:// 
+www.aps.org/apsnews/1196/11965.html>. Acesso em: 25 nov. 1998. 
+ 
+Trabalho de Congresso 
+SILVA, R. N.; OLIVEIRA, R. Os limites pedagógicos do paradigma 
+da qualidade total na educação. In: CONGRESSO DE INICIAÇÃO 
+CIENTÍFICA DA UFPe, 4., 1996, Recife. Anais eletrônicos... Reci-
+fe: UFPe, 1966. Disponível em: <http://www.propesq.ufpe.br/anais/ 
+anais/educ/ce04.htm>.  Acesso em: 21 jan. 1997. 
+ 
+Programa (Software) 
+MICROSOFT Project for Windows 95, version 4.1: project planning 
+software, [S.I.]: Microsoft Corporation, 1995. Conjunto de programas. 
+1CD-ROM. 
+ 
+Software Educativo CD-ROM 
+PAU no Gato! Por que? Rio de Janeiro: Sony Music Book Case Mul-
+timídia Educacional, [1990]. 1 CD-ROM. Windows 3.1. 
+ 
+81 
+Documento Jurídico em meio eletrônico 
+Súmula em Home page 
+BRASIL. Supremo Tribunal Federal. Súmula n° 14. Não é admissível, 
+por ato administrativo, restringir, em razão da idade, inscrição em 
+concurso para cargo político. Disponível em: <http://www.truenetm. 
+com.br/jusrisnet/sumusSTF.html>.  Acesso em: 29 nov. 1998. 
+ 
+Legislação 
+BRASIL. Lei n° 9.887, de 7 de dezembro de 1999. Altera a legislação 
+tributária federal. Diário Oficial [da] República Federativa do Brasil, 
+Brasília, DF, 8 dez. 1999. Disponível em: <http://www.in.gov.br/ 
+mp_leistexto.asp?Id=LEI%209887>.  Acesso em: 22 dez. 1999. 
+ 
+Súmula em Revista Eletrônica 
+BRASIL. Supremo Tribunal Federal. Súmula n° 14. Não é admissível, 
+por ato administrativo, restringir, em razão da idade, inscrição em 
+concurso para cargo público. Julgamento: 1963/12/16. SUDIN vol. 
+0000-01 PG 00037. Revista Experimental de Direito e Temática. 
+Disponível em: <http://www.prodau-sc.com.br/ciberjur/stf.html>. Aces-
+so em: 29 nov. 1998. 
+ 
+ 
+ 
+Problema e  
+Hipóteses de Pesquisa 
+Mostrar a importância do problema e das hipóteses no processo de pesquisa; 
+identificar parâmetros à formulação do problema de pesquisa; 
+identificar parâmetros à formulação de hipóteses. 
+INTRODUÇÃO 
+A pesquisa é fundamentada e metodologicamente construída 
+objetivando a resolução ou o esclarecimento de um problema. 
+O problema é o ponto de partida da pesquisa. Da sua formu-
+lação dependerá o desenvolvimento da sua pesquisa. 
+Gewandsznajder (1989, p.4), para ilustrar o processo de pes-
+quisa, faz uma descrição das atividades de um médico escla-
+recedoras à compreensão do que consiste um problema e o 
+que são as hipóteses de pesquisa. Observe a descrição: 
+Cláudia, uma menina de oito anos, foi levada ao médico com dor de 
+garganta, febre e dificuldades de engolir. O médico constata, imedi-
+atamente que há uma doença, mas ainda não sabe sua causa: ele 
+percebe que há um problema a ser resolvido. Provavelmente, devido 
+a seus estudos e sua prática, ele imagina rapidamente uma expli-
+cação para a doença. Neste caso, a criança talvez esteja com uma 
+infecção na garganta. Desse modo, ele formula uma hipótese para 
+resolver o problema. Passa então a procurar outros sinais de infec-
+ção: observa a garganta da criança, mede sua temperatura, talvez 
+mande examinar em laboratório o material recolhido da garganta 
+da menina, etc. Se a criança estiver com uma infecção, sua gargan-
+ta estará inflamada, o termômetro deverá indicar febre e o exame 
+de laboratório acusará a presença de germes causadores da doen-
+ça. O médico estará então realizando observações e experiências pa-
+ 
+ 
+ 
+84 
+ra testar sua hipótese. Finalmente, ele analisa os resultados dos tes-
+tes para chegar a uma conclusão. Os exames poderão indicar ou 
+não a presença de uma infecção. Caso a hipótese de infecção se 
+confirme, ela será aceita, pelo menos provisoriamente, e o médico 
+receitará os medicamentos adequados para combater a doença. Se 
+os testes não indicarem infecção, outras hipóteses terão que ser 
+testadas ou talvez alguns testes tenham que ser refeitos. Desse 
+modo, a hipótese poderá ser confirmada ou refutada pela experiên-
+cia. 
+A percepção de um problema, então, é que leva ao raciocínio 
+que gera a pesquisa, e nesse processo você formula hipóteses, 
+soluções possíveis para o problema identificado. 
+O QUE É UM PROBLEMA DE PESQUISA? 
+Na acepção científica, “problema é qualquer questão não sol-
+vida e que é objeto de discussão, em qualquer domínio do co-
+nhecimento” (GIL, 1999, p.49). 
+Problema, para Kerlinger (1980, p.35), “é uma questão que 
+mostra uma situação necessitada de discussão, investigação, 
+decisão ou solução”. 
+Simplificando, problema é uma questão que a pesquisa pre-
+tende responder. Todo o processo de pesquisa irá girar em 
+torno de sua solução. 
+Como exemplos de problemas de pesquisa, Gil (1999) arrola 
+questões para as quais ainda não se têm respostas. 
+ Qual a composição da atmosfera de Vênus? 
+ Qual a causa da enxaqueca? 
+ Qual a origem do homem americano? 
+ Será que a propaganda de cigarro pela TV induz ao hábito 
+de fumar? 
+ Qual a relação entre subdesenvolvimento e dependência 
+econômica? 
+ Que fatores determinam a deterioração de uma área urbana? 
+A formulação de um problema tem relação com as indagações: 
+ como são as coisas?; 
+ quais as suas causas?; e 
+ quais as suas conseqüências? 
+ 
+85 
+A ESCOLHA DO PROBLEMA DE PESQUISA 
+Muitos fatores determinam a escolha de um problema de pes-
+quisa. Para Rudio (2000), o pesquisador, neste momento, deve 
+fazer as seguintes perguntas: 
+ o problema é original? 
+ o problema é relevante? 
+ ainda que seja “interessante”, é adequado para mim? 
+ tenho possibilidades reais para executar tal pesquisa? 
+ existem recursos financeiros que viabilizarão a execução do 
+projeto? 
+ terei tempo suficiente para investigar tal questão? 
+O problema sinaliza o foco que você dará à pesquisa. Geral-
+mente você considera na escolha deste foco: 
+ a relevância do problema: o problema será relevante em 
+termos científicos quando propiciar conhecimentos novos à 
+área de estudo e, em termos práticos, a relevância refere-se 
+aos benefícios que sua solução trará para a humanidade, 
+país, área de conhecimento, etc.; 
+ a oportunidade de pesquisa: você escolhe determinado pro-
+blema considerando a possibilidade de obter prestígio ou fi-
+nanciamento. 
+FORMULAÇÃO DO PROBLEMA DE PESQUISA 
+Na literatura da área de metodologia científica podem-se en-
+contrar muitas recomendações a respeito da formulação do 
+problema de pesquisa. Gil (1999) considera que as recomen-
+dações não devem ser rígidas e devem ser observadas como 
+parâmetros para facilitar a formulação de problemas. Veja  
+algumas dessas recomendações: 
+ o problema deve ser formulado como pergunta, para facili-
+tar a identificação do que se deseja pesquisar; 
+ o problema tem que ter dimensão viável: deve ser restrito 
+para permitir a sua viabilidade. O problema formulado de 
+forma ampla poderá tornar inviável a realização da pesquisa; 
+ o problema deve ter clareza: os termos adotados devem ser 
+definidos para esclarecer os significados com que estão 
+sendo usados na pesquisa; 
+ 
+ 
+86 
+ o problema deve ser preciso: além de definir os termos é ne-
+cessário que sua aplicação esteja delimitada. 
+Para melhor entendimento de como deve ser formulado um pro-
+blema de pesquisa, observe os exemplos abaixo (MARTINS, 
+1994): 
+Assunto: 
+Recursos Humanos 
+Tema: 
+Perfil ocupacional 
+Problema: Qual é o perfil ocupacional dos trabalhadores em 
+transporte urbano? 
+ 
+Assunto: 
+Finanças 
+Tema: 
+Comportamento dos investidores 
+Problema: Quais os comportamentos dos investidores no 
+mercado de ações de São Paulo? 
+ 
+Assunto: 
+Organizações 
+Tema: 
+Cultura organizacional 
+Problema: Qual é a relação entre cultura organizacional e o 
+desempenho funcional dos administradores? 
+ 
+Assunto: 
+Recursos Humanos 
+Tema: 
+Incentivos e desempenhos 
+Problema: Qual é a relação entre incentivos salariais e de-
+sempenho dos trabalhadores? 
+O QUE SÃO HIPÓTESES 
+Hipóteses são suposições colocadas como respostas plausíveis 
+e provisórias para o problema de pesquisa. As hipóteses são 
+provisórias porque poderão ser confirmadas ou refutadas com 
+o desenvolvimento da pesquisa. Um mesmo problema pode ter 
+muitas hipóteses, que são soluções possíveis para a sua reso-
+lução. A(s) hipótese(s) irá(ão) orientar o planejamento dos pro-
+cedimentos metodológicos necessários à execução da sua pes-
+quisa. O processo de pesquisa estará voltado para a procura 
+de evidências que comprovem, sustentem ou refutem a afir-
+mativa feita na hipótese. A hipótese define até aonde você quer 
+chegar e, por isso, será a diretriz de todo o processo de inves-
+tigação. A hipótese é sempre uma afirmação, uma resposta 
+possível ao problema proposto. 
+As hipóteses podem estar explícitas ou implícitas na pesquisa. 
+Quando analisados os instrumentos adotados para a coleta de 
+ 
+87 
+dados, é possível reconhecer as hipóteses subjacentes (implíci-
+tas) que conduziram a pesquisa (GIL, 1991). 
+Para Luna (1997), a formulação de hipóteses é quase inevitável, 
+para quem é estudioso da área que pesquisa. Geralmente, com 
+base em análises do conhecimento disponível, o pesquisador 
+acaba “apostando” naquilo que pode surgir como resultado de 
+sua pesquisa. Uma vez formulado o problema, é proposta uma 
+resposta suposta, provável e provisória (hipótese), que seria o 
+que ele acha plausível como solução do problema. 
+CARACTERÍSTICAS DAS HIPÓTESES 
+Muitos autores já determinaram as características ou critérios 
+necessários para a validade das hipóteses. Lakatos e Marconi 
+(1991) listaram onze (11) características já indicadas na litera-
+tura. São elas: 
+ consistência lógica: o enunciado das hipóteses não pode ter 
+contradições e deve ter compatibilidade com o corpo de co-
+nhecimentos científicos; 
+ verificabilidade: devem ser passíveis de verificação; 
+ simplicidade: devem ser parcimoniosas evitando enunciados 
+complexos; 
+ relevância: devem ter poder preditivo e/ou explicativo; 
+ apoio teórico: devem ser baseadas em teoria para ter maior 
+probabilidade de apresentar genuína contribuição ao co-
+nhecimento científico; 
+ especificidade: devem indicar as operações e previsões a 
+que elas devem ser expostas; 
+ plausibilidade e clareza: devem propor algo admissível e que 
+o enunciado possibilite o seu entendimento; 
+ profundidade, fertilidade e originalidade: devem especificar os 
+mecanismos aos quais obedecem para alcançar níveis mais 
+profundos da realidade, favorecer o maior número de dedu-
+ções e expressar uma solução nova para o problema. 
+ 
+ 
+88 
+CLASSIFICAÇÃO DAS HIPÓTESES 
+O problema, sendo uma dificuldade sentida, compreendida e 
+definida, necessita de uma resposta “provável, suposta e pro-
+visória”, que é a hipótese. Para Lakatos e Marconi (1991, 
+p.104) a principal resposta é denominada de hipótese básica e 
+esta pode ser complementada por outras denominadas de hi-
+póteses secundárias. 
+Hipótese Básica 
+É a afirmação escolhida por você como a principal resposta ao 
+problema proposto. 
+A hipótese básica pode adquirir diferentes formas, tais como: 
+ “afirma, em dada situação, a presença ou ausência de cer-
+tos fenômenos; 
+ se refere à natureza ou características de dados fenômenos, 
+em uma situação específica; 
+ aponta a existência ou não de determinadas relações entre 
+fenômenos; 
+ prevê variação concomitante, direta ou inversa, entre fenô-
+menos, etc”. 
+Hipóteses Secundárias 
+São afirmações complementares e significam outras possibili-
+dades de resposta para o problema. Podem: 
+ “abarcar em detalhes o que a hipótese básica afirma em geral; 
+ englobar aspectos não-especificados na hipótese básica; 
+ indicar relações deduzidas da primeira; 
+ decompor em pormenores a afirmação geral; 
+ apontar outras relações possíveis de serem encontradas, etc”. 
+COMO FORMULAR HIPÓTESES 
+O processo de formulação de hipóteses é de natureza criativa 
+e requer experiência na área. 
+ 
+89 
+Gil (1991) analisou a literatura referente à descoberta científi-
+ca e concluiu que na formulação de hipóteses podem-se usar 
+as seguintes fontes: 
+ observação; 
+ resultados de outras pesquisas; 
+ teorias; 
+ intuição. 
+CONSIDERAÇÕES FINAIS 
+Para encerrar a abordagem sobre Problema e Hipóteses de 
+Pesquisa, apresenta-se um delineamento de uma pesquisa 
+mostrando: 
+ a definição do problema de pesquisa; e 
+ as hipóteses que nortearão o seu desenvolvimento. 
+Então, observe: 
+Assunto: 
+Finanças 
+Tema: 
+O investidor diante do risco e o retorno dos inves-
+timentos 
+Problema: Como descobrir carteiras (conjunto de aplicações) 
+que apresentem os maiores retornos esperados pa-
+ra os níveis de risco aceitáveis para o investidor? 
+Hipóteses 
+Hipótese Básica 
+ Com a teoria de carteiras (de Markowitz), é possível combi-
+nar aplicações em ativos para obter carteiras de maiores re-
+tornos para vários níveis de risco. 
+Hipóteses Secundárias 
+ O modelo de precificação de ativos (CAPM) permite a obten-
+ção de uma relação linear válida de equilíbrio, entre retorno 
+esperado e risco para todos os ativos. 
+ Com a curva de utilidade do investidor e a relação risco-
+retorno do modelo CAPM, é possível determinar a carteira 
+ótima desse investidor. 
+ 
+O Projeto de Pesquisa 
+(dissertação ou tese) 
+Identificar os elementos de um projeto de pesquisa; 
+esclarecer como elaborar um projeto de pesquisa. 
+INTRODUÇÃO 
+Agora que você já conhece as etapas de uma pesquisa, é ne-
+cessário aprender a elaborar um Projeto de Pesquisa. 
+O Projeto de Pesquisa é um documento que tem por finalidade 
+antever e metodizar as etapas operacionais de um trabalho de 
+pesquisa. Nele, você irá traçar os caminhos que deverão ser 
+trilhados para alcançar seus objetivos. O documento permitirá 
+a avaliação da pesquisa pela comunidade científica e será   
+apresentado para se obter aprovação e/ou financiamento para 
+sua execução (GIL, 1991). 
+Um projeto deve trazer elementos que contemplem respostas 
+às seguintes questões: 
+ o que será pesquisado? O que se vai fazer?; 
+ por que se deseja fazer a pesquisa?; 
+ para que se deseja fazer a pesquisa?; 
+ como será realizada a pesquisa?; 
+ quais recursos serão necessários para sua execução?; 
+ quanto vai custar, quanto tempo vai se levar para executá-
+la e quem serão os responsáveis pela sua execução? 
+ 
+ 
+ 
+92 
+O PROJETO DE PESQUISA 
+O esquema para elaboração de um projeto de pesquisa não é 
+único e não existem regras fixas para sua elaboração. No pro-
+jeto de pesquisa você mostrará o que pretende fazer; que dife-
+rença a pesquisa trará para a área a qual pertence, para a u-
+niversidade, para o país e para o mundo; como está planejada 
+a execução; quanto tempo levará para a sua execução e quais 
+as pessoas e os investimentos necessários à viabilização da 
+pesquisa proposta (BARROS; LEHFELD, 1999). 
+Um esquema clássico de apresentação de projeto de pesquisa 
+deverá conter: 
+1 TÍTULO DA PESQUISA 
+2 INTRODUÇÃO (O que se vai fazer? e “por quê”?) 
+Neste capítulo serão apresentados o tema de pesquisa, o pro-
+blema a ser pesquisado e a justificativa. 
+Contextualize, abordando o tema de forma a identificar os mo-
+tivos ou o contexto no qual o problema ou a(s) questão(ões) de 
+pesquisa foram identificados. 
+Permita que se tenha uma visualização situacional do proble-
+ma. Restrinja sua abordagem apresentando a(s) questão(ões) 
+que fizeram você propor esta pesquisa. 
+Indique as hipóteses ou os pressupostos que estão guiando a 
+execução da pesquisa. Hipóteses ou pressupostos são respos-
+tas provisórias para as questões colocadas acima. 
+Arrole os argumentos que indiquem que sua pesquisa é signi-
+ficativa, importante e/ou relevante. 
+Indique os resultados esperados com a elaboração da pesqui-
+sa. 
+3 OBJETIVOS (para quê?) 
+Neste item deverá ser indicado claramente o que você deseja 
+fazer, o que pretende alcançar. Os objetivos podem ser: 
+ 
+93 
+3.1 OBJETIVO GERAL 
+Indique de forma genérica qual o objetivo a ser alcançado. 
+3.2 OBJETIVOS ESPECÍFICOS 
+Detalhe o objetivo geral mostrando o que pretende alcançar 
+com a pesquisa. Torne operacional o objetivo geral indicando 
+exatamente o que será realizado em sua pesquisa. 
+4 REVISÃO DE LITERATURA (O que já foi escrito sobre o tema?) 
+Neste capítulo você realizará uma análise comentada do que já 
+foi escrito sobre o tema de sua pesquisa procurando mostrar 
+os pontos de vista convergentes e divergentes dos autores. 
+Procure mostrar os enfoques recebidos pelo tema na literatura 
+publicada (em livros e periódicos) e disponibilizada na Internet 
+(veja o capítulo 5 que abordou como fazer uma Revisão de Li-
+teratura). 
+5 METODOLOGIA (como? onde? com que?) 
+Neste capítulo você mostrará como será executada a pesquisa 
+e o desenho metodológico que se pretende adotar: será do tipo 
+quantitativa, qualitativa, descritiva, explicativa ou explorató-
+ria. Será um levantamento, um estudo de caso, uma pesquisa 
+experimental, etc. 
+Defina em que população (universo) será aplicada a pesquisa. 
+Explique como será selecionada a amostra e o quanto esta cor-
+responde percentualmente em relação à população estudada. 
+Indique como pretende coletar os dados e que instrumentos 
+de pesquisa pretende usar: observação, questionário, formulá-
+rio, entrevistas. Elabore o instrumento de pesquisa e anexe ao 
+projeto. 
+Indique como irá tabular os dados e como tais dados serão 
+analisados. 
+Indique os passos de desenvolvimento do modelo ou produto se 
+a dissertação ou tese estiver direcionada para tal finalidade. 
+A denominação Metodologia poderia ser substituída por Proce-
+dimentos Metodológicos ou Materiais e Métodos 
+ 
+ 
+94 
+6 CRONOGRAMA (quando? em quanto tempo?) 
+Neste capítulo você identificará cada etapa da pesquisa: Ela-
+boração do projeto, Coleta de Dados, Tabulação e Análise de 
+dados, Elaboração do Relatório Final. 
+Apresente um cronograma estimando o tempo necessário para 
+executar cada uma das etapas. 
+7 ORÇAMENTO (quanto vai custar?) 
+Neste capítulo você elaborará um orçamento com a estimativa 
+dos investimentos necessários, isto é, que tornem viável a rea-
+lização da pesquisa. 
+Faça um quadro mostrando as Rubricas: Material de Consu-
+mo (papel A4, disquetes, cartuchos para impressora, etc.); Ou-
+tros Serviços e Encargos (fotocópias, transporte, alimentação, 
+etc.); Material Permanente (equipamentos, móveis, etc.). 
+Arrole quantidades e valores em reais (R$). Apresente um so-
+matório com o valor global. 
+8 EXECUTOR(es) (quem vai fazer?) 
+Neste capítulo você indicará os participantes do projeto. Indi-
+que o nome e a função de cada um no projeto, por exemplo: 
+Coordenador, Pesquisador, Auxiliar de Pesquisa. No caso de 
+teses e dissertações indique o nome do Orientador, Co-
+orientador, Linha de Pesquisa e nome do mestrando ou douto-
+rando. 
+REFERÊNCIAS  
+(que materiais foram citados?) 
+ 
+Neste capítulo você irá arrolar as referências, de acordo com a 
+NBR 6023 da Associação Brasileira de Normas Técnicas (2002). 
+Faça a referência dos documentos de onde você extraiu as ci-
+tações feitas na revisão de literatura (capítulo 4 do projeto). 
+ 
+APÊNDICE(s) 
+Local destinado para disponibilizar cópias documentos  de sua 
+autoria elaborados para complementar sua exposição ou ar-
+ 
+95 
+gumentação na sua dissertação. (por exemplo: cópia do ques-
+tionário, do formulário, do roteiro de entrevista). 
+ANEXO(s) 
+Local destinado para disponibilizar documentos não elabora-
+dos por você mas que serviram de fundamentação, comprova-
+ção e ilustração  na sua dissertação (por exemplo: organogra-
+ma da empresa). 
+ 
+Elaboração e Apresentação  
+do Relatório de Pesquisa  
+(dissertação/tese) 
+Elaborar e apresentar um relatório de pesquisa. 
+ 
+ 
+Um trabalho científico é um texto escrito para apresentar os 
+resultados de uma pesquisa. Os cursos de pós–graduação têm 
+por objetivo aprimorar a formação científica e cultural do es-
+tudante visando a produção de conhecimentos. Nos cursos de 
+pós–graduação stricto sensu, mestrado e doutorado, os relató-
+rios de pesquisa são chamados de dissertação e tese, respecti-
+vamente. 
+Dissertação de mestrado é o relatório final da pesquisa reali-
+zada no curso de pós–graduação para a obtenção do título de 
+mestre. Tese de doutorado é o relatório final de pesquisa reali-
+zada no curso de pós–graduação para a obtenção do título de 
+doutor. 
+A dissertação de mestrado e a tese de doutorado são trabalhos 
+científicos. As diferenças entre elas não se resumem à exten-
+são do trabalho, mas se referem ao nível da abordagem. Da 
+tese de doutorado os cursos exigem da pesquisa realizada 
+uma contribuição original, e da dissertação de mestrado as 
+exigências nesse aspecto são menores. A dissertação de mes-
+trado representa o primeiro passo de inserção do pesquisador 
+no mundo da ciência. 
+ 
+ 
+ 
+98 
+Para Salvador (1978), a contribuição que se espera da disser-
+tação é a sistematização dos conhecimentos; a contribuição 
+que se deseja da tese é uma nova descoberta ou uma nova 
+consideração de um tema velho: uma real contribuição para o 
+progresso da ciência. 
+Quanto à estrutura física do trabalho científico você adotará o 
+modelo abaixo que está baseado na NBR14724 – Informação e 
+Documentação – Trabalhos Acadêmicos – Apresentações (ABNT, 
+2002).   O relatório de pesquisa (dissertação ou tese) deve con-
+ter: 
+Elementos Pré-Textuais 
+ Capa ..................................................................(obrigatório) 
+ Folha de rosto ....................................................(obrigatório) 
+ Errata ....................................................................(opcional) 
+ Folha de aprovação .............................................(obrigatório) 
+ Dedicatória ............................................................(opcional) 
+ Agradecimentos......................................................(opcional) 
+ Epígrafe .................................................................(opcional) 
+ Resumo na língua vernácula e estrangeira ..........(obrigatório) 
+ Listas de ilustrações, tabelas,abreviaturas  
+e siglas, símbolos ...................................................(opcional) 
+ Sumário..............................................................(obrigatório) 
+Elementos Textuais 
+ Introdução 
+ Revisão de Literatura 
+ Metodologia 
+ Resultados (Análise e Discussão) 
+ Conclusão 
+Elementos Complementares e Pós-Textuais 
+ Referências .........................................................(obrigatório) 
+ Glossário................................................................(opcional) 
+ Apêndice ................................................................(opcional) 
+ Anexo.....................................................................(opcional) 
+ELEMENTOS TEXTUAIS 
+Quanto à organização dos elementos textuais (texto propria-
+mente dito) do relatório da pesquisa, não existe uma única 
+ 
+99 
+maneira de realizá-la, seja o texto uma tese ou uma disserta-
+ção. Há nomenclaturas que diferem de autor para autor, de 
+instituição para instituição. Porém há pontos em comum, que 
+indicam que tais relatórios de pesquisa devem possuir os itens 
+a seguir. 
+Introdução 
+Mostra claramente o propósito e o alcance do relatório. Indica 
+as razões da escolha do tema. Apresenta o problema e as hi-
+póteses que conduziram a sua realização. Lista os objetivos da 
+pesquisa. 
+Revisão da Literatura/Fundamentação Teórica 
+Mostra, por meio da compilação crítica e retrospectiva de vá-
+rias publicações, o estágio de desenvolvimento do tema da 
+pesquisa (AZEVEDO, 1998) e/ou estabelece um referencial 
+teórico para dar suporte ao desenvolvimento o trabalho. 
+Metodologia (Procedimentos Metodológicos ou Materiais e Métodos) 
+Deve: 
+ fornecer o detalhamento da pesquisa. Caso o leitor queira 
+reproduzir a pesquisa, ele terá como seguir os passos ado-
+tados; 
+ esclarecer os caminhos que foram percorridos para chegar 
+aos objetivos propostos; 
+ apresentar todas as especificações técnicas materiais e dos 
+equipamentos empregados; 
+ indicar como foi selecionada a amostra e qual o seu percen-
+tual em relação à população estudada; 
+ apontar os instrumentos de pesquisa utilizados (observa-
+ção, questionário, entrevista, etc.); 
+ mostrar como os dados foram tratados e como foram anali-
+sados. 
+ 
+ 
+100 
+Resultados (análise e discussão) 
+Descrevem analiticamente os dados levantados, através de 
+uma exposição sobre o que foi observado e desenvolvido na 
+pesquisa. A descrição pode ter o apoio de recursos estatísti-
+cos, tabelas e gráficos, elaborados no decorrer da tabulação 
+dos dados. Na análise e discussão, os resultados estabelecem 
+as relações entre os dados obtidos, o problema da pesquisa e o 
+embasamento teórico dado na revisão da literatura. Os resul-
+tados podem estar divididos por tópicos com títulos logica-
+mente formulados. 
+Conclusão 
+Apresenta a síntese interpretativa dos principais argumentos 
+usados, onde será mostrado se os objetivos foram atingidos e 
+se a(s) hipótese(s) foi (foram) confirmada(s) ou rejeitada(s). 
+Devem constar da conclusão a recapitulação sintetizada dos 
+capítulos e a autocrítica referente ao desenvolvimento da pes-
+quisa, onde você fará um balanço dos resultados obtidos. 
+Andrade (1995) ressalta que a conclusão deve ser “breve, exa-
+ta e convincente.” 
+ELEMENTOS PÓS-TEXTUAIS 
+Referências 
+Apresentar a bibliografia citada é obrigatório, pois todo o tra-
+balho científico é fundamentado em pesquisa bibliográfica (re-
+visão de literatura, fundamentação teórica). Todas as publica-
+ções utilizadas no decorrer do texto deverão estar listadas de 
+acordo com as normas para a elaboração de referências -    
+NBR6023 da ABNT (2002). 
+Se necessário, outras referências poderão ser apresentadas  e 
+organizadas por grau de autoridade (obras citadas, consulta-
+das e indicadas). 
+ 
+101 
+Glossário 
+Nem sempre usual nas dissertações e teses, consiste em uma 
+lista de palavras ou expressões técnicas que precisam ser de-
+finidas para o entendimento do texto. 
+Apêndices 
+Aparece no final do trabalho (opcional). Apêndice, segundo a 
+NBR14724 da ABNT (2002) consiste em um texto ou docu-
+mento elaborado pelo próprio autor, a fim de complementar 
+sua argumentação, sem prejuízo da unidade nuclear do traba-
+lho.  Os apêndices são identificados por letras maiúsculas 
+consecutivas (A, B, ...), travessão (-) e pelos respectivos títulos. 
+Exemplo 
+APÊNDICE A –  
+APÊNDICE B –  
+ 
+Anexos 
+Aparece no final do trabalho (opcional). Anexo, segundo a N-
+BR14724 da ABNT (2002), consiste em um texto ou documento, 
+não elaborado pelo autor, que serve de fundamentação, com-
+provação e ilustração. Os anexos são identificados por letras 
+maiúsculas consecutivas (A, B, ...) seguido de travessão (-) e 
+pelos respectivos títulos. 
+Exemplo 
+ANEXO A –  
+ANEXO B –  
+ 
+ 
+Como Apresentar Graficamente seu 
+Relatório de Pesquisa  
+(dissertação ou tese) 
+Definir parâmetros para apresentação gráfica das dissertações e teses de acordo 
+com as normas da ABNT. 
+INTRODUÇÃO 
+A Associação Brasileira de Normas Técnicas (ABNT) recomen-
+da a utilização das seguintes normas na apresentação de tra-
+balhos escritos: 
+ Sumário 
+NBR6027 (2003) 
+ Numeração progressiva das  
+seções de um documento 
+NBR6024 (2003) 
+ Resumos  
+NBR6028 (2003) 
+ Citações em documento 
+NBR10520 (2002) 
+ Referências  
+NBR6023 (2002) 
+ Trabalhos acadêmicos 
+NBR14724 (2002) 
+ Títulos de lombada 
+NBR12225 (2004) 
+ 
+ 
+ 
+104 
+COMO NORMALIZAR A APRESENTAÇÃO  
+GRÁFICA DE TESES E DISSERTAÇÕES 
+No caso do Programa de Pós-Graduação em Engenharia de 
+Produção da UFSC, será mostrado, passo a passo, como será 
+o emprego das normas para a apresentação gráfica das disser-
+tações e teses com referência aos elementos pré-textuais, tex-
+tuais, complementares e pós-textuais. Os itens devem estar 
+apresentados na seqüência apresentada a seguir. 
+Capa 
+Devem constar os elementos essenciais necessários à identifi-
+cação do documento. A capa deve ser preta e dura em vulca-
+pel com letras douradas. 
+Dorso ou Lombada 
+Deve constar na parte superior a sigla da Universidade Federal de 
+Santa Catarina (UFSC), do Centro Tecnológico (CTC) e do Pro-
+grama de Pós-Graduação em Engenharia de Produção (PPGEP); a 
+palavra “dissertação” ou “tese”. No meio, de cima para baixo, o 
+nome do autor, e na parte inferior o ano da defesa. 
+Universidade Federal de Santa Catarina
+Programa de Pós-Graduação em
+ Engenharia de Produção
+MODELOS DE AMBIENTES 
+INTELIGENTES PARA A 
+APRENDIZAGEM NO                 
+ENSINO A DISTÂNCIA
+ 
+ 
+Dissertação de Mestrado
+ 
+João da Silva Costa
+ 
+ 
+Florianópolis
+ 1999
+UFSC
+CTC
+PPGEP
+Dissertação
+1999
+João da Silva Costa
+ 
+Observação: todos 
+os nomes de pes-
+soas citadas nos 
+exemplos são fictí-
+cios. 
+ 
+105 
+Elementos pré-textuais 
+MODELOS DE AMBIENTES 
+INTELIGENTES PARA A 
+APRENDIZAGEM NO         
+          
+ENSINO A DISTÂNCIA
+ 
+ 
+João da Silva Costa
+ 
+ 
+ 
+Dissertação apresentada ao
+Programa de Pós-Graduação em
+Engenharia de Produção da
+Universidade Federal de Santa Catarina
+como requisito parcial para obtenção
+do grau de Mestre em 
+Engenharia de Produção
+Orientador: Prof. José de Souza, Dr.
+ 
+Florianópolis
+ 
+1999
+ 
+ 
+Folha de rosto 
+Folha obrigatória onde 
+aparecem todos os e-
+lementos para identifi-
+cação da dissertação 
+ou tese. 
+Ficha Catalográfica
+ 
+ 
+Verso da  
+folha de rosto 
+Deve conter a ficha 
+catalográfica de acor-
+do com o Código de 
+Catalogação Anglo-
+americano – CCAA. 
+Consulte um bibliote-
+cário para a sua ela-
+boração. 
+ 
+ 
+106 
+BANCA EXAMINADORA
+Prof. Fulano de Tal, Ph.D.                
+Universidade Federal de Santa Catarina
+Orientador
+ 
+Prof. Peter Bell, Ph.D.
+University of Berkley
+ 
+Prof. Roberto Silva, Dr.
+Universidade Federal de Santa Catarina  
+Profa. Maria Cabral, Ph.D.
+Universidade de Minho
+João da Silva Costa
+Esta dissertação foi julgada e aprovada para a 
+obtenção do grau de 
+ no 
+  da
+Universidade Federal de Santa Catarina
+Florianópolis, 12 de abril de 1999.
+Prof. Fulano de Tal, Ph.D.
+Coordenador do Programa
+MODELOS DE AMBIENTES
+INTELIGENTES PARA A APRENDIZAGEM
+NO ENSINO A DISTÂNCIA
+Mestre em Engenharia de 
+Produção
+Programa de Pós-Graduação em 
+Engenharia de Produção
+ 
+Folha de aprovação 
+Folha obrigatória na 
+qual consta o nome e a 
+instituição dos mem-
+bros da banca (em du-
+as colunas, com espaço 
+para assinatura) a data 
+da defesa e o título ob-
+tido. 
+Essas páginas são 
+contadas contudo a 
+numeração não apare-
+cerá grafada, somente 
+a partir da introdução. 
+A minha esposa, Joana 
+pelo apoio constante.
+A meus filhos João e Maria.
+ 
+Dedicatória 
+Folha opcional onde o 
+autor presta homena-
+gem ou dedica a dis-
+sertação a alguém. 
+ 
+107 
+Agradecimentos 
+À Universidade Federal de Santa Catarina. 
+À Coordenação de Aperfeiçoamento 
+de Pessoal de Nível  Superior – CAPES
+Ao orientador Prof.  Fulano de Tal, 
+pelo acompanhamento pontual e competente. 
+Aos professores do Curso de Pós-Graduação 
+...
+... 
+A todos os que direta ou indiretamente 
+contribuíram para a realização
+ desta pesquisa.  
+ 
+Agradecimentos 
+Folha opcional onde o 
+autor agradece o apoio 
+recebido na elabora-
+ção do trabalho. 
+“Uma descoberta, seja feita 
+por um menino na escola ou por um 
+cientista trabalhando na fronteira do 
+conhecimento, é em sua  essência uma 
+questão de reorganizar ou transformar 
+evidências, de tal forma que se possa ir 
+além delas assim reorganizadas, 
+rumo a novas percepções”.
+Jerone Bruner
+ 
+Epígrafe 
+Folha opcional onde o 
+autor apresenta uma 
+citação, seguida de 
+autoria, relacionada 
+com a matéria tratada 
+no corpo do trabalho. 
+ 
+ 
+108 
+Resumo
+COSTA, João da Silva.  
+1999.  120f. Dissertação (Mestrado em 
+Engenharia de Produção) - Programa de Pós-
+Graduação em Engenharia de Produção, UFSC, 
+Modelos de ambientes 
+inteligentes para a aprendizagem no   ensino a 
+distância.  
+Florianópolis.
+   Xxxxxxxxx xxxxxxxx xx xxxxx xxxx xxxx 
+Resumo informativo em português xxxx 
+xxxxxxx.  Xxxx xxx xxxxxxxxxxx xxxxxx xx
+xx xxxxxxxxxxxx. Xxxxxxxxxxxx xx xxxxx
+x xxxxxxxxx. Xxxxxx xxxxxxxxxxx xxxx x 
+xxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxx.
+ ...até 500 palavras.
+Aprendizagem. Ensino a 
+distância. Inteligência.
+Palavras-chave: 
+ 
+Resumo (obrigatório) 
+Texto informativo que 
+sintetiza o conteúdo 
+da tese ou dissertação 
+ressaltando o objetivo, 
+o método, os resulta-
+dos e as conclusões do 
+trabalho (veja o capí-
+tulo 7). As palavras-
+chave são separadas  
+por  ponto. 
+ 
+Abstract
+COSTA, João da Silva.  
+1999.  120f. Dissertação (Mestrado em 
+Engenharia de Produção) - Programa de Pós-
+Graduação em Engenharia de Produção, UFSC, 
+.
+Modelos de ambientes 
+inteligentes para a aprendizagem no   ensino a 
+distância.  
+Florianópolis
+     Xxxxxxxxx xxxxxxxx xx xxxxx xxxx xxx
+Resumo informativo em inglês xxxx xx xxxx
+xxxxxxxxxxx.  Xxxx xxx xxxxxxxxxxx xxxx
+xx xxxxxxxxxxxx. Xxxxxxxxxxxx xx xxxxx
+x xxxxxxxxx. Xxxxxx xxxxxxxxxxx xxxx x 
+xxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxx.
+ ...até 500 palavras.
+Learning. Education in the 
+distance. Intelligence.
+Key words: 
+ 
+Abstract (obrigatório) 
+Tradução do resumo 
+para o inglês que, nas 
+teses e dissertações, 
+aparece logo após o 
+resumo em português 
+As key words são se-
+paradas por  ponto. 
+ 
+ 
+109 
+ 
+Lista de quadros
+Quadro 1: O mundo em dados..............29
+Quadro 2: O Brasil em dados................37
+Quadro 3: ..............................................39
+Quadro 4: ..............................................53
+Quadro 5: A comunicação global...........65
+Lista de mapas
+Mapa 1: mapa cognitivo........................32
+Mapa 2: mapa semantico......................41
+ 
+Lista de ilustrações 
+(Recomenda-se apre-
+sentação de listas 
+próprias para cada 
+tipo de ilustração: 
+fotografias, quadros, 
+gráficos, organogra-
+mas, fluxogramas, 
+esquemas, etc.). Veja 
+o exemplo das listas 
+de mapas e quadros 
+apresentadas ao lado. 
+ 
+Lista de tabelas
+Tabela 1: Computadores no Mundo . . . 28
+Tabela 2: Computadores no Brasil . . . . 32
+Tabela 3: . . . . . . . . . . . . . . . . . . . . . . . . 39
+Tabela 4: . . . . . . . . . . . . . . . . . . . . . . . . 46
+Tabela 5: . . . . . . . . . . . . . . . . . . . . . . . . 55
+Tabela 6: . . . . . . . . . . . . . . . . . . . . . . . . 74
+Tabela 7: . . . . . . . . . . . . . . . . . . . . . . . . 90
+Tabela 8: . . . . . . . . . . . . . . . . . . . . . . . . 97
+Tabela 9: . . . . . . . . . . . . . . . . . . . . . . . 120
+ 
+Lista de tabelas 
+Informações tratadas 
+estatisticamente. Re-
+cebem numeração 
+consecutiva no texto 
+e são elaboradas de 
+acordo com a norma 
+de apresentação ta-
+bular do IBGE. 
+ 
+ 
+110 
+Lista de abreviaturas,
+siglas e símbolos
+Abreviaturas
+Siglas
+Símbolos
+© Copyright
+eng.   = engenheiro
+ex.     = exemplo
+ABNT Associação Brasileira de 
+           Normas Técnicas
+EAD    Ensino a Distância
+ 
+Lista de abreviaturas 
+e siglas 
+Elemento opcional 
+com a relação alfabé-
+tica das abreviaturas, 
+siglas usados no tex-
+to, seguido das ex-
+pressões correspon-
+dentes grafadas por 
+extenso. Lista própria 
+para cada tipo de re-
+dução. 
+Lista de símbolos 
+Elemento opcional, 
+que deve ser elabora-
+do de acordo com a 
+ordem apresentada 
+no texto, com o devi-
+do significado. 
+Sumário
+1 INTRODUÇÃO....................................13
+2 REVISÃO DE LITERATURA..............18
+3 METODOLOGIA.................................22
+...
+...
+REFERÊNCIAS...................................115
+APÊNDICE..........................................120
+APÊNDICE A - Questionário.............121
+APÊNDICE B - Instituições...............123
+ 
+Sumário 
+Elemento obrigatório 
+que enumera as prin-
+cipais divisões, se-
+ções e outras partes 
+do trabalho, na mes-
+ma ordem e grafia em 
+que a matéria nele se 
+sucede. 
+ 
+111 
+13
+1 INTRODUÇÃO (fonte 14)
+A história da ciência no Brasil...  
+fonte 12 e espaçamento 1,5
+ 
+Elementos textuais 
+(Corpo do trabalho). 
+Página em que come-
+ça a aparecer a nu-
+meração das páginas. 
+ 
+O texto, propriamente dito, começa com uma introdução e 
+nesta página começa a ser grafada a numeração em algaris-
+mos arábicos, lembrando que as páginas anteriores são con-
+tadas. A estrutura do texto de relatório de pesquisa (disserta-
+ção ou tese) será composta por: 
+ Introdução; 
+ Revisão de literatura; 
+ Metodologia; 
+ Resultados (Análise e discussão); 
+ Conclusão. 
+O corpo do trabalho é numerado progressivamente por seções, 
+que são partes em que se divide o texto de um documento e que 
+contém as matérias consideradas afins na exposição ordenada 
+do assunto. As seções são numeradas com algarismos arábicos. 
+O indicativo numérico em algarismos arábicos (1, 2, 3, 4, etc.) 
+de uma seção precede o título. 
+ 
+ 
+112 
+ 
+Exemplo 
+1 INTRODUÇÃO  
+(seção primária) 
+2 REVISÃO DE LITERATURA  
+(seção primária) 
+3 METODOLOGIA 
+(seção primária) 
+4 RESULTADOS  
+(seção primária) 
+4.1 A metáfora do hipertexto  
+(seção secundária) 
+4.1.1 O hipertexto  
+(seção terciária) 
+4.1.2 A comunicação e o hipertexto  
+(seção terciária) 
+ 
+ 
+As seções correspondem aos capítulos onde são feitas a apresenta-
+ção, a delimitação, a justificativa, a argumentação, apresentados 
+os resultados, a discussão e a conclusão da dissertação ou tese. 
+Os títulos das seções devem estar claramente identificados e 
+hierarquizados através CAIXA ALTA em negrito ou sublinhado, 
+CAIXA ALTA e baixa em negrito ou sublinhado e CAIXA ALTA 
+e baixa sem negrito. 
+ 
+Exemplo 
+3 PROCESSO DECISÓRIO 
+3.1 O Processo Decisório 
+3.1.1 Um esquema geral do processo decisório 
+3.1.2 A tomada de decisão 
+ 
+As seções primárias (capítulos) do texto devem começar em 
+lauda própria (nova) e em páginas ímpares, isto se o material 
+for impresso nos dois lados da folha. 
+Nas dissertações da Pós-graduação em Engenharia de Produ-
+ção da UFSC usa-se o espaçamento 1,5 cm nas entrelinhas no 
+texto e 2 entre as seções e subseções.  A ABNT (2002) reco-
+menda que o espaçamento entrelinhas seja duplo e entre as 
+seções sejam usados dois espaços duplos.  Nas citações de 
+mais três linhas, notas e referências, legendas e ficha catalo-
+gráfica recomenda o uso do espaço simples. 
+ 
+113 
+Exemplo 
+2 O PROCESSO DE PESQUISA 
+O pesquisador no processo de pesquisa é movido por dois objeti-
+vos básicos: a busca do conhecimento e o reconhecimento dos pa-
+res. 
+ 
+2.1 Busca do conhecimento 
+Parece sensato considerar que o objetivo mais perseguido pelo 
+ser humano seja o de “capturar a realidade”. 
+O espírito científico é movido pelo desejo de apreender o sentido 
+do universo e desvendar os segredos da natureza. 
+ 
+2.2 Reconhecimento dos pares 
+O pesquisador... 
+ 
+O início de parágrafos e alíneas será feito dando seis toques 
+(0,6 cm) a partir da margem esquerda. 
+ 
+As transcrições (citações diretas) de mais de três linhas apa-
+recem recuadas em 4 cm, a partir da margem esquerda. 
+Exemplo 
+Drucker (1997, p.16) chama a nova sociedade de sociedade 
+capitalista. Nesta nova sociedade: 
+O recurso econômico básico – ‘os meios de produção’, 
+para usar uma expressão dos economistas – não é mais o 
+capital, nem os recursos naturais (a ‘terra’ dos economis-
+tas), nem a ‘mão-de-obra’. Ele será o conhecimento. As 
+atividades centrais de criação de riqueza não serão nem a 
+alocação de capital para usos produtivos, nem a ‘mão-de-
+obra’ – os dois pólos da teoria econômica dos séculos de-
+ 
+ 
+114 
+zenove e vinte, quer ela seja clássica, marxista, keynesia-
+na ou neoclássica. Hoje o valor é criado pela ‘produtivida-
+de’ e pela ‘inovação’, que são aplicações do conhecimen-
+to ao trabalho. Os principais grupos sociais da sociedade 
+do conhecimento serão os ‘trabalhadores do conhecimen-
+to’ – executivos que sabem como alocar conhecimento 
+para usos produtivos... 
+ 
+As ilustrações e as tabelas devem aparecer no texto, segundo a 
+NBR14724 da ABNT (2002), de forma padronizada. 
+ Ilustrações são quadros, gráficos, diagramas, desenhos, fo-
+tografias, mapas, etc. que complementam visualmente o 
+texto. 
+ Tabelas apresentam informações tratadas estatisticamente 
+e devem ser elaboradas de acordo com a norma de apresen-
+tação tabular do Instituto Brasileiro de Geografia e Estatís-
+tica – IBGE (1993). 
+ 
+As ilustrações aparecem acompanhadas da palavra designati-
+va conforme sua classificação, seguida de seu número de or-
+dem de ocorrência no texto em algarismos arábicos e a fonte 
+(indicação do autor da figura ou da publicação de onde ela foi 
+retirada) também na parte inferior caso não tenha sido elabo-
+rada pelo autor da dissertação ou tese. 
+A fonte, ou seja, a indicação da autoria da ilustração ou tabela 
+se esta não for a mesma da dissertação ou tese, deve aparecer 
+na parte inferior do quadro ou tabela.  
+As tabelas têm numeração independente e consecutiva; o títu-
+lo é colocado na parte superior precedido da palavra “tabela” e 
+de seu número de ordem, as demais ilustrações aparecem na 
+parte inferior. 
+ 
+ 
+115 
+Exemplo 
+Passado 
+ Hoje 
+Elevados volumes e lotes de produção 
+com longos ciclos de vida; 
+Baixos volumes, lotes reduzidos e ci-
+clos de vida curtos; 
+Maximizar lucros sobre os ativos fixos; 
+Minimizar perdas, maximizar o valor 
+agregado; 
+Pequeno número de produtos com 
+reduzida diversificação em um mercado 
+doméstico; 
+Elevado número de variados produtos 
+em um mercado internacional; 
+Elevada participação do Custo Direto 
+com mão-de-obra, elevado custo de 
+processamento de informação; 
+Relativamente elevado custo tecnológi-
+co, relativamente baixo custo de pro-
+cessamento de informação; 
+Pequena relação Custos Indiretos/ 
+Custos Fixos em comparação com 
+custos de mão-de-obra direta/Ativos 
+Fixos; 
+Elevada relação Custo Indiretos/Custos 
+Fixos em comparação com custos de 
+mão-de-obra direta/Ativos Fixos; 
+Elevado número de ilhas de conheci-
+mentos com pouca interação e troca de 
+informação, trabalhando isoladamente. 
+Elevado número de centros de conhe-
+cimento integrados e em contínua troca 
+de informações e participações conjun-
+tas. 
+Quadro 1: Diferenças no ambiente organizacional 
+Fonte: Adaptado de Sullivan (1991) 
+______________________________________________________ 
+Exemplo 
+ 
+Diagrama1: Fatores sistêmicos para a qualidade e produtividade dos sistemas 
+produtivos.  
+ 
+Fonte:QUELHAS, Osvaldo Luis Gonçalves. Articulação dos programas de qualida-
+de e de saúde do trabalhador. Disponível em: <http://www.geocities.com/ Ca-
+peCanaveral/4045/saude.html>. Acesso em: 29 dez. 1999. 
+_____________________________________________________________ 
+ 
+ 
+116 
+Exemplo 
+Tabela 2: Reserva Extrativista “Chico Mendes”  
+Força de Trabalho Familiar 
+Faixa Etária 
+Homens 
+Mulheres 
+Total 
+% 
+0 até 9 
+2 
+0 
+2 
+0,7 
+10 até 19 
+86 
+39 
+125 
+45,6 
+20 até 29 
+30 
+16 
+46 
+16,8 
+30 até 39 
+24 
+18 
+42 
+15,3 
+40 até 49 
+31 
+7 
+38 
+13,9 
+50 até 59 
+13 
+2 
+15 
+5,5 
+60 até 69 
+6 
+0 
+6 
+2,2 
+TOTAL 
+192 
+82 
+274 
+100 
+ 
+ 
+ 
+ 
+As equações e as fórmulas (expressões matemáticas ou quími-
+cas) aparecem destacadas e na seqüência normal do texto. 
+Exemplo 
+Para uma amostra de N companhias, o resíduo médio RM por pe-
+ríodo pode ser definido pela expressão: 
+RMT = 1/N . EjT 
+ 
+ 
+Elementos pós-textuais 
+Referências 
+Lista de elementos descritivos de um documento, que permite 
+a sua identificação. Aparecem em ordem alfabética de sobre-
+nome de autor, quando o sistema de citação adotado for au-
+tor-data e em ordem numérica quando as citações forem feitas 
+pelo sistema numérico. Listam-se as obras citadas para fun-
+damentação teórica do trabalho ou que forneceram algum 
+subsídio a sua elaboração. Se necessário pode-se subdividir 
+esta lista em: obras citadas, consultadas e indicadas. 
+ 
+117 
+Exemplo                                                                                                                         
+                                                                                                                                                                                 
+                                                                                                                                                                                 
+                                                                                                                                                                                 
+                                                                                                                                                                                 
+                                                                                                                                                                                 
+                                                                                                                                                                                 
+                                                                                                                                                                                 
+                                                                                                                                                                                 
+REFERÊNCIAS 
+ARAÚJO, V. M. R. H. de. Estudo dos canais informais de comunicação técnica: 
+seu papel na transferência de tecnologia e na inovação tecnológica. Ciência da 
+Informação, Rio de Janeiro, v. 8, n. 2, p. 79-100, 1979. 
+BOURDIEU, P. O campo científico. In: ORTIZ, R. (Org.). Pierre Bourdieu: socio-
+logia. São Paulo: Ática, 1983a . p. 123-155. 
+BOURDIEU, P. Esboço de uma teoria prática. In: ORTIZ, R. (Org.). Pierre Bour-
+dieu: sociologia. São Paulo: Ática, 1983b. p. 46-81. 
+CALLON, M.; LAREDO, P.; RABEHARISOA, V. Gestion des programmes publics 
+et réseaux technico-économiques. In: VINCK, D. (Coord.). Gestion de la recher-
+che. Bruxelles: De Boech, 1991. p. 279-307. 
+Glossário 
+Elemento opcional que apresenta em ordem alfabética as pa-
+lavras ou expressões técnicas de uso restrito ou de sentido 
+obscuro, acompanhadas das definições. 
+Exemplo 
+GLOSSÁRIO 
+Análogo – semelhante, comparável. 
+Autonomia – independência, faculdade de se governar por si mesmo. 
+... 
+Evocação - ato de trazer alguma coisa à lembrança ou à imaginação. 
+... 
+Inadvertência – imprevidência, descuido. 
+... 
+Versar – praticar, exercitar. 
+Apêndice 
+Elemento opcional que consiste em um texto ou documento 
+elaborado pelo autor, para complementar a sua argumentação. 
+Exemplo 
+APÊNDICES 
+APÊNDICE A - Questionário 
+ 
+ 
+118 
+APÊNDICE B – Lista de Instituições 
+ 
+Anexos 
+Elemento opcional que consiste em um texto ou documento 
+não elaborado pelo autor da dissertação. Serve de fundamen-
+tação, comprovação e ilustração. 
+Exemplo 
+ANEXOS 
+ANEXO A – Lei 9.394/1996 – Lei de Diretrizes e Bases da Educa-
+ção 
+ANEXO B – Exemplos de Sistemas Tutoriais Inteligentes: Scho-
+lar, Sophie, West, Guidon, Hydrive 
+ 
+Normas gerais de apresentação 
+Para apresentação de trabalhos acadêmicos e relatórios de 
+pesquisa (tese ou dissertação) deve-se usar folha branca em 
+papel no formato A4 (21x29,7 cm).  A tinta usada na digitação 
+dever ser  de cor preta no corpo do texto e nas ilustrações po-
+dem ser usadas tintas coloridas.  
+Na escrita deve-se fazer uso da ortografia oficial. 
+O tipo da letra deve ser de tamanho médio e redondo (Arial), 
+evitando tipo inclinado e de fantasia. Para o texto usar fonte 
+de tamanho 12 e para os títulos fonte de tamanho 14. Para 
+citações de mais de três linhas, notas de rodapé, paginação, 
+legendas usar fonte de tamanho 10. 
+A folha deve apresentar margem superior e à esquerda, de 
+3 cm, e inferior e à direita, de 2 cm. 
+A numeração das páginas deve aparecer no canto superior direi-
+to da lauda, duas linhas acima da primeira linha do texto, u-
+sando-se fonte tamanho 10. 
+ 
+ 
+119 
+3 cm
+3 cm
+2 cm
+2 cm
+13
+ 
+ 
+ 
+ 
+Como Elaborar Artigos para Publica-
+ção? 
+Apresentar a norma NBR 6022 da ABNT usada na elaboração de artigos; 
+identificar os diversos tipos de artigos;  
+apresentar recomendações para a redação de artigos. 
+INTRODUÇÃO 
+No decorrer do próprio curso muitas disciplinas exigem como 
+produto final a elaboração de um artigo para obtenção da sua 
+aprovação na disciplina.  Se este artigo receber recomendação 
+do professor ou mesmo do orientador poderá ser encaminhado 
+para avaliação em publicações periódicas (revistas) específicas 
+da área ou áreas afins.  
+Durante o processo de elaboração da  sua dissertação ou tese 
+muitos artigos são gerados quando está se escrevendo os capí-
+tulos ou a própria revisão de literatura. Tais artigos também 
+podem ser encaminhados para avaliação em publicações    
+periódicas, quando autorizados pelo orientador, antes da defe-
+sa e obtenção dos resultados finais da pesquisa. 
+Publicações periódicas, segundo o Macrotesauros em Ciência 
+da Informação (1982, p.47), são “publicações que aparecem 
+em intervalos regulares, com conteúdos e autores variados 
+que registram conhecimentos atualizados e garantem aos au-
+tores prioridade intelectual nos resultados de pesquisa.” 
+ 
+ 
+ 
+122 
+No sistema de comunicação na ciência, o periódico é conside-
+rado a fonte primária mais importante para a comunidade   
+científica. Por intermédio do periódico científico, a pesquisa é 
+formalizada, o conhecimento torna-se público e se promove a 
+comunicação entre os cientistas. Comparado ao livro é um ca-
+nal ágil, rápido na disseminação de novos conhecimentos. 
+Para Herschman (1970), a importância do periódico no sistema 
+de comunicação na ciência deve-se a três funções básicas: a) 
+função memória; b) função de disseminação; c) função social. A 
+função memória lhe é conferida quando representa o instrumen-
+to de registro oficial e público da ciência; a função de dissemina-
+ção quando se constitui em instrumento de difusão de informa-
+ções; e a função social quando confere prestígio e recompensa 
+aos autores, membros de comitês editoriais  e editores. 
+Para escrever artigos e submetê-los à apreciação de comitês 
+editorais de periódicos (revistas), você precisa conhecer as 
+normas de editoração de cada periódico/revista. 
+A Associação Brasileira de Normas Técnicas (2003, p.1) por 
+meio da NBR 6022  – Informação e documentação- artigo em 
+publicação periódica impressa – "estabelece um sistema para 
+a apresentação dos elementos que constituem o artigo em pu-
+blicação periódica científica impressa."  
+Para facilitar sua vida acadêmica nesta hora, seguir as reco-
+mendações da ABNT é um bom começo, isto porque as nor-
+mas editoriais dos periódicos/revistas seguem em linhas ge-
+rais essas orientações. 
+O QUE É UM ARTIGO CIENTÍFICO? 
+Artigo científico, segundo a Associação Brasileira de Normas 
+Técnicas (2003, p.2), é parte  de "uma publicação com autoria 
+declarada, que apresenta e discute idéias, métodos, processos, 
+técnicas e resultados nas diversas áreas do conhecimento." 
+TIPOS DE ARTIGOS 
+A ABNT reconhece dois tipos de artigos: 
+ 
+123 
+ artigo original: quando apresenta temas ou abordagens pró-
+prias. Geralmente relata resultados de pesquisa e é chama-
+do em alguns periódicos de artigos científicos. 
+ artigo de revisão: quando resume, analisa e discute infor-
+mações já publicadas. Geralmente é resultado de pesquisa 
+bibliográfica. 
+QUAL A ESTRUTURA  
+RECOMENDADA PARA OS ARTIGOS? 
+Elementos pré-textuais 
+Título: o artigo dever ter um título que expresse seu conteúdo. 
+O título e o subtítulo (se houver) devem figurar na página de 
+abertura do artigo, diferenciados tipograficamente ou separa-
+dos por (:) dois pontos e na língua do texto. 
+Autoria: o artigo deve indicar o(s) nome(s) do(s) autor(es) acompa-
+nhado de suas qualificações na área de conhecimento do artigo. 
+Tanto o breve currículo, com os endereços postal e eletrônico, de-
+vem aparecer em rodapé indicado por asterisco na página de aber-
+tura ou, opcionalmente,  no final dos elementos pós-textuais, onde 
+também devem ser colocados os agradecimentos do(s) autor(es) e a 
+data de entrega dos originais à redação do periódico. 
+ 
+Resumo na língua do texto: parágrafo que sintetiza os objetivos 
+do autor ao escrever o texto, a metodologia e as conclusões 
+alcançadas. Não devendo ultrapassar 250 palavras.  Para ela-
+borar o resumo, veja a NBR 6028 da ABNT. 
+ 
+Palavras-chave na língua do texto: termos escolhidos para in-
+dicar o conteúdo do artigo. Pode ser usado vocabulário livre 
+ou controlado, antecedida da expressão Palavra-chave e sepa-
+radas entre si por ponto (.)  e finalizadas por  ponto (.). 
+Elementos textuais 
+Texto: composto basicamente de três partes: Introdução, Desen-
+volvimento e Conclusão. Se for divido em Seções, deverá seguir o 
+Sistema de Numeração Progressiva conforme a NBR 6024 da 
+ABNT. 
+ 
+ 
+124 
+A Introdução expõe o objetivo do autor, a finalidade do artigo e 
+a metodologia usada na sua elaboração. 
+O Desenvolvimento mostra os tópicos abordados para atingir o 
+objetivo proposto. Nos artigos originais, quando relatam resul-
+tados de pesquisa, o desenvolvimento mostra a análise e a 
+discussão dos resultados. 
+A Conclusão sintetiza os resultados obtidos e destaca a refle-
+xão conclusiva do autor, reportando-se aos objetivos e hipóte-
+ses. 
+ 
+São considerados elementos de apoio ao texto notas, citações, 
+quadros, fórmulas e ilustrações. As citações devem ser apre-
+sentadas de acordo com a NBR10520 da ABNT. 
+ 
+Elementos pós-textuais 
+Título, e subtítulo (se houver) em língua estrangeira: diferencia-
+dos tipograficamente ou separados por dois pontos (:) prece-
+dem o resumo em língua estrangeira. 
+ 
+Resumo em língua estrangeira: versão do resumo na língua do 
+texto, para idioma de divulgação internacional (em inglês Abs-
+tract).  
+ 
+Palavras-chave em língua estrangeira: versão das palavras  na 
+língua do texto para a mesma língua do resumo em língua es-
+trangeira (em inglês Key words). 
+ 
+Nota(s) Explicativa(s) : a numeração da notas explicativas é 
+feita em algarismos arábicos, devendo ser única e consecutiva 
+para cada artigo. 
+ 
+Referências: lista de documentos citados nos artigos de acordo 
+com a NBR 6023 da ABNT. 
+ 
+Apêndice: documento elaborado pelo autor  que complementa 
+o artigo. 
+ 
+Anexo: documento não elaborado pelo autor que serve de ilus-
+tração, comprovação ou fundamentação. 
+ 
+ 
+125 
+Nota Editorial: currículo do autor, endereço para contato, agra-
+decimentos e data de entrega dos originais. 
+Observações 
+É necessário que o artigo agregue valor à área de estudo, a-
+presente uma aplicação ou idéias novas. As frases devem ser 
+curtas e fáceis de serem compreendidas. Veja as recomenda-
+ções dadas no capítulo 7 no item como fazer fichamentos dos 
+textos, 3° passo. 
+ 
+ 
+Referências 
+ANDRADE, Maria Margarida de. Como 
+preparar trabalhos para cursos de pós-
+graduação: noções práticas. São Paulo: 
+Atlas, 1995. 
+ASSOCIAÇÃO BRASILEIRA DE NORMAS 
+TÉCNICAS. NBR10520: informação e docu-
+mentação - apresentação de citações em 
+documentos. Rio de Janeiro, 2002. 
+ASSOCIAÇÃO BRASILEIRA DE NORMAS 
+TÉCNICAS. NBR12225: informação e do-
+cumentação – lombada- apresentação. Rio 
+de Janeiro, 2004. 
+ASSOCIAÇÃO BRASILEIRA DE NORMAS 
+TÉCNICAS. NBR14724: informação e docu-
+mentação – trabalhos acadêmicos - apresen-
+tação. Rio de Janeiro, 2002. 
+ASSOCIAÇÃO BRASILEIRA DE NORMAS 
+TÉCNICAS. NBR6022: apresentação de 
+artigos em publicações periódicas. Rio de 
+Janeiro, 2003. 
+ASSOCIAÇÃO BRASILEIRA DE NORMAS 
+TÉCNICAS. NBR6023: informação e docu-
+mentação - referências - elaboração. Rio de 
+Janeiro, 2002. 
+ASSOCIAÇÃO BRASILEIRA DE NORMAS 
+TÉCNICAS. NBR6024: numeração progres-
+siva das seções de um documento. Rio de 
+Janeiro, 2003. 
+ASSOCIAÇÃO BRASILEIRA DE NORMAS 
+TÉCNICAS. NBR6027: sumário. Rio de 
+Janeiro, 2003. 
+ASSOCIAÇÃO BRASILEIRA DE NORMAS 
+TÉCNICAS. NBR6028: informação e docu-
+mentação: resumos- apresentação. Rio de 
+Janeiro, 2003. 
+ASSOCIAÇÃO BRASILEIRA DE NORMAS 
+TÉCNICAS. NBR6029: informação e docu-
+mentação: apresentação de livros. Rio de 
+Janeiro, 2002. 
+AZEVEDO, Israel Belo de. O prazer da 
+produção científica: diretrizes para a ela-
+boração de trabalhos acadêmicos. Piracica-
+ba: Ed. da UNIMEP, 1998. 
+BARBETTA, Pedro Alberto. Estatística 
+aplicada às ciências sociais. Florianópolis: 
+Ed. da UFSC, 1999. 
+BARROS, Aidil de Jesus Paes de; LEH-
+FELD, Neide Aparecida de Souza. Projeto 
+de pesquisa: propostas metodológicas. 
+Petrópolis: Vozes, 1999. 
+BRAD, Hill. Pesquisa na Internet. Rio de 
+Janeiro: Campus, 1999. 
+CRANE, Dianne. Invisible collegues: diffu-
+sion of knowledge in scientific communities. 
+Chicago: The University of Chicago Press, 
+1972. 
+DEMO, Pedro. Avaliação qualitativa. São 
+Paulo: Cortez, 1991. 
+DEMO, Pedro. Pesquisa e construção de 
+conhecimento. Rio de Janeiro: Tempo 
+Brasileiro, 1996. 
+FEYERABEND, Paul. Contra o método. 
+Rio de Janeiro: Francisco Alves, 1989. 
+ 
+ 
+ 
+128 
+GARVEY, William D. Communication: the 
+essence of science. Oxford: Pegamon, 
+1979. 
+GEWANDSZNAJDER, Fernando. O que é o 
+método científico. São Paulo: Pioneira, 
+1989. 
+GIL, Antonio Carlos. Como elaborar proje-
+tos de pesquisa. São Paulo: Atlas, 1991. 
+GIL, Antonio Carlos. Métodos e técnicas 
+de pesquisa social. São Paulo: Atlas, 
+1999. 
+GOLDENBERG, Mirian. A arte de pesqui-
+sar. Rio de Janeiro: Record, 1999. 
+HERSCHMAN, Arthur. The primary journal: 
+past, present and future. Journal of 
+Chemical Documentation, v.10, n.1, p.37-
+42, 1970. 
+INSTITUTO BRASILEIRO DE GEOGRAFIA 
+E ESTATÍSITCA. Norma de apresentação 
+tabular.  Rio de Janeiro, 1993. 
+KADUSHIN, Charles. Networks and circles 
+in the prodution of culture.  In: PETERSON, 
+Robert  A. (Ed.). The production of cul-
+ture. Beverly Hills: Sage, 1976. p.107-123. 
+KERLINGER, Fred N. Metodologia da 
+pesquisa em ciências sociais: um trata-
+mento conceitual. São Paulo: EPU, 1980. 
+LAKATOS, Eva Maria; MARCONI, Marina 
+de Andrade. Fundamentos de metodolo-
+gia científica. São Paulo: Atlas, 1993. 
+LAKATOS, Eva Maria; MARCONI, Marina 
+de Andrade. Metodologia do trabalho ci-
+entífico. São Paulo: Atlas, 1991. 
+LATOUR, Bruno. Jamais fomos moder-
+nos. Rio de Janeiro: Ed. 34, 1994. 
+LE COADIC, Yves-François. A ciência da 
+informação. Brasília: Briquet de Lemos, 
+1996. 
+LEVY, Pierre. A inteligência coletiva: por 
+uma antropologia do ciberespaço. São Pau-
+lo: Loyola, 1998. 
+LUNA, Sergio Vasconcelos de. Planeja-
+mento de pesquisa: uma introdução. São 
+Paulo: EDUC, 1997. 
+MACROTESAUROS em ciência da informa-
+ção. Rio de Janeiro: IBICT, 1982. 
+MARTINS, Gilberto de Andrade. Manual 
+para elaboração de monografias e disser-
+tações. São Paulo: Atlas, 1994. 
+MINAYO, Maria Cecília de Souza. O desa-
+fio do conhecimento. São Paulo: Huci-
+tec,1993. 
+OLIVEIRA, Silvio Luiz. Tratado de metodo-
+logia científica. São Paulo: Pioneira, 1997. 
+PESSOA, Walter. A coleta de dados na 
+pesquisa 
+empírica. 
+Disponível 
+em: 
+<http:www.cgnet.com. 
+br/~walter/artigo.html>. Acesso em: 20 jul. 
+1999. 
+POPPER, Karl. A lógica da pesquisa cien-
+tífica. São Paulo: Cultrix, 1993. 
+PRICE, Derick J. de S. O desenvolvimento 
+da ciência. Rio de Janeiro: Livros Técnicos 
+e Científicos, 1979. 
+RUDIO, Franz Victor. Introdução ao proje-
+to de pesquisa científica. Petrópolis: Vo-
+zes, 2000. 
+SALVADOR, Angelo Domingos. Métodos e 
+técnicas de pesquisa bibliográfica. Porto 
+Alegre: Sulina, 1978. 
+SEVERINO, Antônio Joaquim. Metodologia 
+do trabalho científico. São Paulo: Cortez, 
+2000. 
+TRIVIÑOS, Augusto N. S. Introdução à 
+pesquisa em ciências sociais: a pesquisa 
+qualitativa em educação. São Paulo: Atlas, 
+1992. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Apêndice A - Relação de Títulos de Periódicos 
+da Engenharia de Produção disponíveis no Portal  
+Capes 
+4OR: Quarterly Journal of the Belgian, French and Italian    Operations 
+Research Societies  
+Observação: periódico com texto completo disponível a partir de 2003- 
+ 
+AACE International Transactions (American Association of Cost En-
+gineers)  
+Observação: periódico com texto completo disponível a partir de 1998- 
+ 
+AI EDAM Artificial Intelligence for Engineering, Design, Analysis and 
+Manufacture  
+Observação: periódico com texto completo disponível a partir de 1998- 
+ 
+AIHA Journal (American Industrial Hygiene Association)  
+Observação: periódico com texto completo disponível:2002-2003. 
+ 
+AIHAJ (American Industrial Hygiene Association)  
+Observação: periódico com texto completo disponível: 2000-2001. 
+ 
+Accident Analysis and Prevention  
+Observação: periódico com texto completo disponível a partir de 1995- 
+ 
+Accreditation and Quality Assurance: Journal for Quality, Comparabil-
+ity and Reliability in Chemical Measurement  
+Observação: periódico com texto completo disponível a partir de 1996- 
+ 
+American Industrial Hygiene Association Journal  
+Observação: periódico com texto completo disponível: 1997-2000. 
+ 
+ 
+ 
+130 
+ 
+Annals of Occupational Hygiene  
+Observação: periódico com texto completo disponível a partir de 1999- 
+ 
+Annals of Operations Research  
+Observação: periódico com texto completo disponível a partir de 1999- 
+ 
+Annals of the ICRP  
+Observação: periódico com texto completo disponível a partir de 1995- 
+ 
+Applied Ergonomics: Human Factors in Technology and Society  
+Observação: periódico com texto completo disponível a partir de 1995- 
+ 
+Asia Pacific Journal of Operational Research  
+Observação: periódico com texto completo disponível a partir de 1996- 
+ 
+Assembly  
+Observação: periódico com texto completo disponível a partir de 1990- 
+ 
+Assembly Automation  
+Observação: periódico com texto completo disponível a partir de 1992- 
+ 
+Automotive Design and Production  
+Observação: periódico com texto completo disponível a partir de 1987- 
+ 
+Canadian Packaging  
+Observação: periódico com texto completo disponível a partir de 1990- 
+ 
+Chemical Health and Safety  
+Observação: periódico com texto completo disponível a partir de 1999- 
+ 
+Cognition, Technology and Work  
+Observação: periódico com texto completo disponível a partir de 1999- 
+ 
+Components, Packaging and Manufacturing Technology. Part C: 
+Manufacturing, IEEE Transactions on  
+Observação: periódico com texto completo disponível: 1996-1998. 
+ 
+Computational Optimization and Applications  
+Observação: periódico com texto completo disponível a partir de 1999- 
+ 
+Computer Integrated Manufacturing Systems  
+Observação: periódico com texto completo disponível a partir de 1995- 
+ 
+Computers and Industrial Engineering  
+Observação: periódico com texto completo disponível a partir de 1995- 
+ 
+ 
+131 
+Computers and Operations Research  
+Observação: periódico com texto completo disponível a partir de 1995- 
+ 
+Computers in Industry  
+Observação: periódico com texto completo disponível a partir de 1995- 
+ 
+Concurrent Engineering: Research and Applications  
+Observação: periódico com texto completo disponível a partir de 2002- 
+ 
+Converting Magazine  
+Observação: periódico com texto completo disponível a partir de 2001- 
+ 
+Cost Engineering  
+Observação: periódico com texto completo disponível a partir de 1987- 
+ 
+Creativity and Innovation Management  
+Observação: periódico com texto completo disponível a partir de 1997- 
+ 
+Design Studies  
+Observação: periódico com texto completo disponível a partir de 1995- 
+ 
+Displays  
+Observação: periódico com texto completo disponível a partir de 1995- 
+ 
+Dynamics and Control  
+Observação: periódico com texto completo disponível: 1997-2001. 
+ 
+EMC Toxicologie Pathologie  
+Observação: periódico com texto completo disponível a partir de 2004- 
+ 
+Electronics Packaging Manufacturing, IEEE Transactions on  
+Observação: periódico com texto completo disponível a partir de 1999- 
+ 
+Engineering Economist  
+Observação: periódico com texto completo disponível a partir de 1995- 
+  
+Engineering Management Journal  
+Observação: periódico com texto completo disponível a partir de 1991- 
+ 
+Engineering Management Journal (EMJ)  
+Observação: periódico com texto completo disponível a partir de 1997- 
+ 
+Engineering Management Review, IEEE  
+Observação: periódico com texto completo disponível a partir de 2002- 
+ 
+Engineering Management, IEEE Transactions on  
+Observação: periódico com texto completo disponível a partir de 1998- 
+ 
+ 
+132 
+ 
+European Journal of Operational Research  
+Observação: periódico com texto completo disponível a partir de 1995- 
+ 
+European Journal of Purchasing and Supply Management  
+Observação: periódico com texto completo disponível: 1996-2002. 
+ 
+Fire Safety Journal  
+Observação: periódico com texto completo disponível a partir de 1995- 
+ 
+Fire Technology  
+Observação: periódico com texto completo disponível a partir de 1997- 
+ 
+Fuzzy Optimization and Decision Making: A Journal of Modeling and 
+Computation Under Uncertainty  
+Observação: periódico com texto completo disponível a partir de 2002- 
+ 
+Gestão e Produção  
+Observação: periódico com texto completo disponível a partir de 2002- 
+ 
+Human Factors  
+Observação: periódico com texto completo disponível a partir de 1998- 
+ 
+IIE Solutions  
+Observação: periódico com texto completo disponível: 1995-2002. 
+ 
+IIE Transactions (Institute of Industrial Engineers)  
+Observação: periódico com texto completo disponível: 1997-2002.  
+ 
+IMA Journal of Management Mathematics 
+Observação: periódico com texto completo disponível a partir de 2001- 
+ 
+IMR Industrial Management Review  
+Observação: periódico com texto completo disponível: 1963-1970. 
+ 
+INFOR  
+Observação: periódico com texto completo disponível a partir de 1992- 
+ 
+IOMA's Safety Director's Report (Institute of Management and  Ad-
+ministration)  
+Observação: periódico com texto completo disponível a partir de 2003- 
+ 
+Industrial Engineer  
+Observação: periódico com texto completo disponível a partir de 2003- 
+ 
+Industrial Engineering  
+Observação: periódico com texto completo disponível: 1987-1995. 
+ 
+ 
+133 
+ 
+Industrial Maintenance and Plant Operation  
+Observação: periódico com texto completo disponível a partir de 2002- 
+ 
+Industrial Management  
+Observação: periódico com texto completo disponível a partir de 1999- 
+ 
+Industrial Management Review  
+Observação: periódico com texto completo disponível: 1996-1963. 
+ 
+Industrial Management and Data Systems  
+Observação: periódico com texto completo disponível a partir de 1999- 
+ 
+Industrial Marketing Management  
+Observação: periódico com texto completo disponível a partir de 1995- 
+ 
+Industrial Robot  
+Observação: periódico com texto completo disponível a partir de 1992- 
+ 
+Industrial and Commercial Training  
+Observação: periódico com texto completo disponível a partir de 1992- 
+ 
+Industry Applications Magazine, IEEE  
+Observação: periódico com texto completo disponível a partir de 1995- 
+ 
+Industry Applications, IEEE Transactions on  
+Observação: periódico com texto completo disponível a partir de 1998- 
+ 
+Industry Week  
+Observação: periódico com texto completo disponível a partir de 1997- 
+ 
+Integrated Manufacturing Systems  
+Observação: periódico com texto completo disponível a partir de 1992- 
+ 
+Interfaces  
+Observação: periódico com texto completo disponível a partir de 2001- 
+ 
+International Archives of Occupational and Environmental Health  
+Observação: periódico com texto completo disponível a partir de 1996- 
+ 
+International Journal of Advanced Manufacturing Technology  
+Observação: periódico com texto completo disponível a partir de 1999- 
+ 
+International Journal of Agile Management Systems  
+Observação: periódico com texto completo disponível: 1999-2000. 
+  
+International Journal of Applied Quality Management  
+Observação: periódico com texto completo disponível a partir de 1999- 
+ 
+ 
+ 
+134 
+International Journal of Flexible Manufacturing Systems  
+Observação: periódico com texto completo disponível a partir de 1999- 
+ 
+International Journal of Industrial Ergonomics  
+Observação: periódico com texto completo disponível a partir de 1995- 
+ 
+Journal of Manufacturing Technology Management  
+Observação: periódico com texto completo disponível a partir de 2004- 
+ 
+Journal of Occupational Health  
+Observação: periódico com texto completo disponível a partir de 1996- 
+ 
+Journal of Occupational Health Psychology  
+Observação: periódico com texto completo disponível a partir de 1996- 
+ 
+Journal of Occupational and Organizational Psychology  
+Observação: periódico com texto completo disponível a partir de 1995- 
+ 
+Journal of Operations Management  
+Observação: periódico com texto completo disponível a partir de 1995- 
+ 
+Journal of Process Control  
+Observação: periódico com texto completo disponível a partir de 1995- 
+ 
+Journal of Product Innovation Management  
+Observação: periódico com texto completo disponível a partir de 1984- 
+ 
+Journal of Productivity Analysis  
+Observação: periódico com texto completo disponível a partir de 1999- 
+ 
+Journal of Purchasing and Supply Management  
+Observação: periódico com texto completo disponível a partir de 2003- 
+ 
+Journal of Quality Management  
+Observação: periódico com texto completo disponível: 1996-2001. 
+ 
+Journal of Quality Technology  
+Observação: periódico com texto completo disponível a partir de 1997- 
+ 
+Journal of Quality in Maintenance Engineering  
+Observação: periódico com texto completo disponível a partir de 1995- 
+ 
+Journal of Safety Research  
+Observação: periódico com texto completo disponível a partir de 1995- 
+ 
+Journal of Scheduling  
+Observação: periódico com texto completo disponível a partir de 2003- 
+ 
+ 
+135 
+ 
+Journal of Strategic Information Systems  
+Observação: periódico com texto completo disponível a partir de 1995- 
+ 
+Journal of Sustainable Product Design  
+Observação: periódico com texto completo disponível: 2001-2002. 
+ 
+Journal of the Operational Research Society  
+Observação: periódico com texto completo disponível a partir de 1999- 
+ 
+Location Science  
+Observação: periódico com texto completo disponível: 1995-1998. 
+ 
+Logistics and Transportation Review  
+Observação: periódico com texto completo disponível: 1987-1996. 
+ 
+MSI: Information Technology for Manufacturing Management  
+Observação: periódico com texto completo disponível a partir de 2001- 
+ 
+Manufacturing Automation  
+Observação: periódico com texto completo  disponível a partir de 1996- 
+ 
+Manufacturing Engineer  
+Observação: periódico com texto completo disponível a partir de 1994- 
+ 
+Manufacturing Engineering  
+Observação: periódico com texto completo disponível a partir de 1998- 
+ 
+Manufacturing Systems  
+Observação: periódico com texto completo disponível: 1987-2000. 
+ 
+Manufacturing Technology, IEEE Transactions on  
+Observação: periódico com texto completo disponível: 1972-1977. 
+ 
+Material Handling Engineering  
+Observação: periódico com texto completo disponível  partir de 2000- 
+ 
+Mathematical Methods of Operations Research  
+Observação: periódico com texto completo disponível a partir de 1997- 
+ 
+Mathematics of Operations Research  
+Observação: periódico com texto completo disponível a partir de 2002- 
+ 
+Mix  
+Observação: periódico com texto completo disponível a partir de 2002- 
+ 
+Modern Machine Shop  
+Observação: periódico com texto completo disponível a partir de 1997- 
+ 
+ 
+ 
+136 
+Modern Materials Handling  
+Observação: periódico com texto completo disponível a  partir de 1998. 
+ 
+Modern Materials Handling: Warehousing Management Edition  
+Observação: periódico com texto completo disponível a partir de 2003- 
+ 
+Mécanique et Industries  
+Observação: periódico com texto completo disponível a partir de 2000- 
+ 
+OR Spectrum: Quantitative Approaches in Management  
+Observação: periódico com texto completo disponível a partir de 1997- 
+ 
+Occupational Hazards  
+Observação: periódico com texto completo disponível a partir de 1997- 
+ 
+Occupational Health  
+Observação: periódico com texto completo disponível a partir de 2002- 
+ 
+Occupational Health and Safety  
+Observação: periódico com texto completo disponível a partir de1992- 
+ 
+Occupational Health and Safety  
+Observação: periódico com texto completo disponível a partir de1992- 
+ 
+Omega: The International Journal of Management Science  
+Observação: periódico com texto completo disponível a partir de 1995- 
+ 
+Operations Research 
+Observação: periódico com texto completo disponível a partir de1987- 
+ 
+Operations Research Letters  
+Observação: periódico com texto completo disponível a partir de1995- 
+ 
+Organization Science  
+Observação: periódico com texto completo disponível a partir de 2002- 
+ 
+PM Network  
+Observação: periódico com texto completo disponível a partir de 2003- 
+ 
+Package Printing  
+Observação: periódico com texto completo disponível a partir de 2003- 
+ 
+Packaging Digest  
+Observação: periódico com texto completo disponível a partir de 2001- 
+ 
+Penton's Controls and Systems  
+Observação: periódico com texto completo disponível: 1987-1992.. 
+ 
+ 
+137 
+ 
+Pesquisa Operacional  
+Observação: periódico com texto completo disponível a partir de 2000- 
+ 
+Occupational Health and Safety  
+Observação: periódico com texto completo disponível a partir de1992- 
+ 
+Plant Engineering  
+Observação: periódico com texto completo disponível a partir de1996- 
+ 
+Probability in the Engineering and Informational Sciences  
+Observação: periódico com texto completo disponível a partir de1999- 
+ 
+Product Engineering and Production, IEEE Transactions on  
+Observação: periódico com texto completo disponível: 1963-1965. 
+ 
+Product Engineering and Production, IRE Transactions on  
+Observação: periódico com texto completo disponível: 1961-1961. 
+ 
+Product Management and Development: Brazilian Journal of Man-
+agement of Product Development  
+Observação: periódico com texto completo disponível a partir de 2002- 
+ 
+Production Techniques, IRE Transactions on  
+Observação: periódico com texto completo disponível: 1956-1959. 
+ 
+Production and Inventory Management Journal  
+Observação: periódico com texto completo disponível a partir de1987- 
+ 
+Production and Operations Management  
+Observação: periódico com texto completo disponível a partir de1999- 
+ 
+Produção Online: Revista Eletrônica de Engenharia de Produção  
+Observação: periódico com texto completo disponível a partir de2001- 
+ 
+Professional Safety  
+Observação: periódico com texto completo disponível a partir de1997- 
+ 
+Pump Industry Analyst  
+Observação: periódico com texto completo disponível a partir de1995- 
+ 
+Quality Progress  
+Observação: periódico com texto completo disponível a partir de1997- 
+ 
+R & D Management  
+Observação: periódico com texto completo disponível a partir de1997- 
+  
+Relatórios de Pesquisa em Engenharia de Produção da UFF  
+Observação: periódico com texto completo disponível a partir de 2002- 
+ 
+ 
+138 
+Reliability Engineering and System Safety  
+Observação: periódico com texto completo disponível a partir de1995- 
+ 
+Research Technology Management  
+Observação: periódico com texto completo disponível a partir de1988- 
+ 
+Research in Engineering Design  
+Observação: periódico com texto completo disponível a partir de1998- 
+ 
+Reuse Recicle Newsletter  
+Observação: periódico com texto completo disponível a partir de2002- 
+ 
+Revista Pesquisa e Desenvolvimento: Engenharia de Produção  
+Observação: periódico com texto completo disponível a partir de 2003- 
+ 
+Robotics and Computer-Integrated Manufacturing: An International 
+Journal of Manufacturing and Product and Process Development  
+Observação: periódico com texto completo disponível a partir de 1995- 
+ 
+Safety Management  
+Observação: periódico com texto completo disponível: 2003-2003. 
+ 
+Safety Science  
+Observação: periódico com texto completo disponível a partir de 1995- 
+ 
+Safety and Health Practitioner  
+Observação: periódico com texto completo disponível: 1997-2001. 
+ 
+Semiconductor Manufacturing, IEEE Transactions on  
+Observação: periódico com texto completo disponível a partir de 1988- 
+ 
+Site Selection  
+Observação: periódico com texto completo disponível a partir de 1995- 
+ 
+Supervision  
+Observação: periódico com texto completo disponível a partir de 1995- 
+ 
+TQM Magazine  
+Observação: periódico com texto completo disponível a partir de 1993- 
+ 
+Technovation: An International Journal of Technical Innovation and 
+Entrepreneurship  
+Observação: periódico com texto completo disponível a partir de 1995- 
+ 
+Theory and Decision  
+Observação: periódico com texto completo disponível a partir de 1993- 
+ 
+Tooling and Production  
+Observação: periódico com texto completo disponível a partir de 1993- 
+ 
+139 
+ 

@@ -1,0 +1,1754 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Metodologia e Organização do projeto de 
+pesquisa 
+ 
+(GUIA PRÁTICO) 
+ por 
+ 
+Cassandra Ribeiro de O. e Silva, Dr. 
+Centro Federal de Educação Tecnológica do Ceará 
+Av. 13 de Maio, 2081 Benfica – 60040-531 Fortaleza – 
+CE 
+Cassandra@cefetce.br 
+ 
+ 
+ 
+Difusão restrita ! 
+Direitos de reprodução somente com a autorização prévia da autora. 
+Citações de trechos devem ser acompanhadas da referência ao documento 
+ 
+Maio 2004 
+2
+ 
+Sumário 
+INTRODUÇÃO: CIÊNCIA E TECNOLOGIA. ....................................................................4 
+O QUE É UM PROJETO? .....................................................................................................6 
+Projeto de pesquisa...........................................................................................................6 
+Modelo de Plano de Ação – Ferramenta 5w2h (what, why, where, who, when, how 
+many e how much ) aplicada a pesquisa...........................................................................7 
+ESTRUTURAÇÃO DO PROJETO .......................................................................................9 
+Definindo o tema e título (o quê?)...................................................................................9 
+Objetivos (Para quê?).......................................................................................................9 
+Lista de alguns verbos operacionais.............................................................................10 
+Justificativa (Por Quê?) .................................................................................................11 
+Formulação do problema...............................................................................................11 
+Hipóteses..........................................................................................................................13 
+Características das Hipóteses .......................................................................................13 
+Método Científico (Como?)............................................................................................14 
+Classificação das pesquisas ..........................................................................................14 
+Cronograma (quando?)..................................................................................................16 
+Estabeleça um cronograma e procure não sair dele! ............................................................17 
+Orçamento (com quanto?).............................................................................................17 
+No caso de um projeto de desenvolvimento de software.... .................................................17 
+O plano da pesquisa..............................................................................................................18 
+ELABORANDO O PROJETO – CONSELHOS ÚTEIS.....................................................19 
+Preparação ......................................................................................................................19 
+A redação.........................................................................................................................19 
+O estresse.........................................................................................................................19 
+Os bloqueios ....................................................................................................................19 
+ORGANIZAÇÃO DO TRABALHO E FORMATAÇÃO...................................................20 
+O template (arquivo em anexo) ............................................................................................20 
+COMO ELABORAR O RESUMO......................................................................................21 
+RESUMO é: ....................................................................................................................21 
+Para que serve o RESUMO? .........................................................................................21 
+O que deve conter o RESUMO ?...................................................................................22 
+O que deve informar o RESUMO ?..............................................................................22 
+Enfim, para que serve um  RESUMO? ........................................................................22 
+REDAÇÃO DE RESUMO: CARACTERÍSTICAS FORMAIS .........................................23 
+Exemplos de resumos .....................................................................................................24 
+ESQUEMAS PARA ORGANIZAÇÃO PESSOAL DO TRABALHO...............................25 
+Organizando a leitura:...................................................................................................25 
+Estudando o texto ...........................................................................................................26 
+Construindo um estilo de redação: ...............................................................................27 
+Redigindo: .......................................................................................................................27 
+VERBOS A SEREM UTILIZADOS PARA FAZER MENÇÕES A AUTORES...............28 
+Verbos para APRESENTAR: .......................................................................................28 
+Verbos para REFORÇAR:............................................................................................28 
+ 
+Maio 2004 
+3
+ORIENTAÇÃO PARA ELABORAÇÃO DE ARTIGOS....................................................29 
+SUGESTÕES PARA APRESENTAÇÕES PÚBLICAS .....................................................32 
+Preparação do material (transparências, slides, cartazes) .........................................32 
+Apresentação...................................................................................................................33 
+REFERÊNCIAS E BIBLIOGRAFIA...................................................................................33 
+ 
+ 
+Maio 2004 
+4
+ 
+ 
+INTRODUÇÃO: CIÊNCIA E TECNOLOGIA.  
+ 
+O que é Ciência? O que é Tecnologia? Qual sua fronteira? Bunge (1980 apud  Silva, 1996) 
+delimita a fronteira entre ciência e tecnologia  colocando a tecnologia como ciência 
+eminentemente aplicada, ou seja, para um usufruto. Seja para aplicar conhecimentos em 
+pesquisas básicas, buscar conhecimentos mais específicos, ou produzir artefatos úteis e 
+mesmo obter lucros. 
+A ciência, pura ou básica, como ele denomina, seja teórica ou experimental (a ciência 
+aplicada também pode ser teórica ou experimental), se propõe unicamente a enriquecer o 
+conhecimento humano, geralmente de interesse do pesquisador (por motivos 
+cognoscitivos). Para a ciência aplicada  (tecnologia) , a ciência pura ou básica é um meio e 
+não um fim . Define ainda ciência aplicada como “o conjunto das aplicações da ciência 
+básica” (Bunge, 1980, p.28) estabelecendo a sua indissociabilidade. 
+Já Galli (1993) coloca a tecnologia no universo da história  e da cultura (filosofia Æ ciência 
+Æ tecnologia Æ sociedade) como aplicação da ciência para usufruto da sociedade (Bunge 
+também ressalta que o pesquisador da ciência aplicada estuda somente os problemas de 
+interesse social). A tecnologia faz uma ponte entre os descobrimentos científicos e suas leis 
+para usufruto da sociedade na produção de artefatos e artifícios. A circunstancialidade, que 
+é sua marca que a separa da ciência, requer tempo e espaço para sua execução 
+(cronogramas definidos e ambiente físico determinado para sua implantação, execução, 
+prestação ou exploração). Não há, pois, como inferir que a ciência básica ou pura não tenha 
+o seu “locus”, apesar de a exigência de sua temporalidade não ter o rigor da ciência 
+aplicada, geralmente encomendada ou para um propósito de menor espaço de tempo. 
+Tecnologia também é conhecida como ciência do trabalho produtivo. Mantém relação 
+profunda  com o trabalho. Diria que é sua conceituação econômica, que, como argumenta 
+Bunge, a economia necessita da tecnologia, assim como da ciência básica e da técnica, 
+todas interagindo fortemente. 
+Integra ainda na definição de tecnologia as capacidades de perceber, compreender, criar, 
+adaptar, organizar e produzir insumos, produtos e serviços. Inovação e adaptação 
+constituem a sua dinâmica. Já o caráter intelectual da ciência constitui-se da abstração 
+teórica, do raciocínio lógico-matemático sobre um objeto ou fenômeno. Sobre esse último 
+argumento, Japiassu (1992, p. 15) concebe ciência como “o conjunto das aquisições 
+intelectuais de um lado e das matemáticas, do outro, das disciplinas de investigação do 
+dado natural e empírico, fazendo ou não uso das matemáticas, mas tendendo mais ou menos 
+à matematização”. 
+A ciência, no sentido filosófico-epistemológico, foi separada da filosofia a partir das 
+abordagens de realidades mais próximas, em saberes autônomos, porém interdisciplinares. 
+Diferente da filosofia, a ciência tem, como atribuição, desvendar, explicar o real nas suas 
+particularidades, já que não pode explicar todo o real (nenhuma ciência pode, nem a 
+filosofia). Por real, se compreendem os diversos conhecimentos que a humanidade 
+descobre, cria e consome. Do conhecimento “cotidiano” ao conhecimento científico e 
+tecnológico. Por conhecimento “cotidiano”, Galli o define como sendo o conhecimento que 
+ 
+Maio 2004 
+5
+o homem despreende no dia-a-dia (senso-comum), um conjunto de qualidades de que 
+necessita para exercer suas atividades e resolver problemas que enfrenta para viver: 
+habilidades, destreza, criatividade, iniciativa. E vai além, dizendo que, do indivíduo mais 
+isolado ao indivíduo urbano, cada um é técnico ou artesão do seu próprio destino, em 
+consonância com o contexto histórico, cultural, econômico e social em que está inserido. 
+O conhecimento “cotidiano”, muitas vezes, assume contornos mais elaborados quando 
+exige planejamento prévio para uma ação, mas que não constitui ainda uma cientificidade 
+na elaboração. O conhecimento científico e tecnológico, por sua vez, tem em comum a 
+premissa de formulação/elaboração pelo método científico para problemas diferentes, seja 
+de natureza puramente científica ou tecnológica. 
+Referindo-se à ciência básica ou aplicada, Bunge (1980 p. 31) diz que “tanto uma como a 
+outra partem de problemas, só que os problemas científicos são puramente cognoscitivos, 
+enquanto que os técnicos são práticos. Ambas buscam dados, formulam hipóteses e teorias, 
+e procuram provar essas idéias por meio de observações, medições, experiências ou 
+ensaios” e completa mais adiante, “a pesquisa científica se limita a conhecer; a técnica 
+emprega parte do conhecimento científico, somado a novo conhecimento para projetar 
+artefatos e planejar linhas de ação que tenham algum valor prático para algum grupo 
+social”. 
+No entanto, Bunge não deixa bem claro o que é técnica, dando a confundir com a própria 
+tecnologia da ciência. Recorrendo a Etges (1995 p. 71), para esclarecer o termo, vamos 
+encontrar a seguinte definição: “A técnica não é uma ciência aplicada, mas um processo de 
+cientificação, de generalização, de controle de informação e extensão a setores antes 
+refratários. Ela assume resultados relevantes e os métodos das ciências e os integra em 
+sistemas abrangentes. Ela não tem pretensão à verdade ou à produção do saber, mas a 
+regras tecnológicas que prescrevem ações tanto quanto possível fundamentada em leis 
+científicas. Visa a fins práticos e seus produtos são resultados de projetos e condições 
+claramente determinadas”. 
+Considerando que o conhecimento tecnológico possui sua natureza própria, específica, de 
+ciência aplicada e técnica, por incluir a tecnologia (e a técnica) como pressuposto 
+fundamental, ele se constrói a partir do conhecimento científico. Este, tanto quanto o 
+conhecimento tecnológico, não se formula sem as operações da inteligência, concebidas 
+como operações do pensamento: concepção, juízo e raciocínio.  
+Na classificação de Pe. Francisco Lopes (1968, p. 30-32), as operações da inteligência são 
+três. A primeira, a apreensão, “ato em que a inteligência conhece alguma coisa sem dela 
+afirmar ou negar alguma coisa. Seu termo ou idéia ou noção ou verbo mental. A expressão 
+oral desse termo é a palavra. A segunda  operação  é o juízo,  ato em que  a  inteligência  
+afirma  ou  nega alguma coisa de um ser (...). A expressão oral do juízo é a oração ou 
+proposição (...). A terceira operação da inteligência é o raciocínio, ato em que se passa do 
+mais conhecido para o menos conhecido. A expressão oral do raciocínio é o argumento. O 
+raciocínio é indutivo, se parte do mais particular para o  mais  geral;  dedutivo se parte do 
+geral para o geral ou para o particular”. 
+Esta longa citação é para destacar que a última operação definida por Pe. Lopes, o 
+raciocínio, constitui a operação intelectual mais valorizada no mundo moderno” (valor da 
+verdade), implica todas as outras operações e traduz-se na arte do raciocínio correto. 
+Recebe na filosofia o nome de lógica e é concebido como ciência, a ciência da 
+ 
+Maio 2004 
+6
+racionalidade, do raciocínio como sistema de conhecimentos certos, válidos, fundados em 
+princípios universais, a lógica científica. 
+A importância da lógica científica para a sociedade se traduz em poder, descobertas, 
+invenções, novos conhecimentos. “A lógica estuda a razão como instrumento do 
+conhecimento” (Maritain, J. 1981 p.102). 
+Para a psicologia, entretanto, o conhecimento se traduz em ação do pensamento pela 
+inteligência. Enquanto a lógica formal considera as formas adotadas pelas idéias, juízos ou 
+raciocínio que o pensamento produz, a psicologia estuda o processo de pensar tal como 
+realmente ocorre. 
+A ciência da lógica científica, do raciocínio, no campo da filosofia-epistemologia e as 
+ciências cognitivas, no campo da psicologia e a construção histórica, no campo da 
+sociologia, se complementam e se interpenetram para a compreensão ampla do fenômeno  
+conhecimento-científico ou tecnológico. 
+Segundo Merkle (1995 p. 46), numa interessante abordagem de ciências cognitivas, diz que 
+“as ciências cognitivas devem ser compreendidas como o estudo da inteligência humana, 
+indo de sua estrutura formal e de seu substrato biológico, passando por sua modelagem, até 
+suas expressões psicológicas, lingüísticas e antropológicas” e vai mais além, “as disciplinas 
+envolvidas são a psicologia cognitiva, a epistemologia, a filosofia, a semiótica e a 
+lingüística, a biologia e a neurofisiologia, e a inteligência e a vida artificiais”. Física e 
+matemática também são incluídas. 
+ 
+O QUE É UM PROJETO? 
+ 
+Projeto, do latin pro-jicere: literalmente é colocar adiante. 
+ 
+A elaboração de qualquer projeto depende de dois fatores fundamentais: 
+- 
+A capacidade de construir uma imagem mental de uma situação futura; 
+- 
+A capacidade de conceber um plano de ação a ser executado em um tempo 
+determinado que vai permitir sua realização. 
+ 
+Projeto de pesquisa 
+ 
+O projeto é uma das etapas componentes do processo de elaboração, execução e 
+apresentação da pesquisa. Esta necessita ser planejada com extremo rigor, caso contrário o 
+investigador, em determinada altura, encontrar-se-á perdido num emaranhado de dados 
+colhidos, sem saber como dispor dos mesmos ou até desconhecendo seu significado e 
+importância. 
+ 
+Em uma pesquisa, nada se faz ao acaso. Desde a escolha do tema, fixação dos objetivos, 
+determinação da metodologia, coleta dos dados, sua análise e interpretação para a 
+elaboração do relatório final (monografia, dissertação e tese), tudo é previsto no projeto de 
+pesquisa.  
+ 
+ 
+Um projeto de pesquisa deve, portanto, responder às clássicas questões:  
+ 
+Maio 2004 
+7
+ 
+ 
+No projeto define-se:
+♦o que fazer;
+♦porque fazer;
+♦para quem fazer;
+♦onde fazer;
+♦como, com que, quanto e quando fazer;
+♦com quanto fazer e como pagar;
+♦quem vai fazer.
+PROJETO DE PESQUISA
+PROJETO DE PESQUISA
+Ou seja, traçar um caminho eficaz que o conduza a 
+atingir os objetivos a que se propõe.
+2. Orientar na elaboração do projeto ...
+ 
+ 
+ 
+Modelo de Plano de Ação – Ferramenta 5w2h (what, why, where, 
+who, when, how many e how much ) aplicada a pesquisa 
+ 
+  Tipo 
+Método 
+5W2H 
+Descrição 
+Assunto 
+O quê? 
+1 TITULO 
+Objetivo 
+Para quê? 
+2.1 OBJETIVO GERAL 
+ 
+2.2 OBJETIVOS ESPECÍFICOS 
+LISTAR OS OBJETIVOS OPERACIONAIS 
+Justificativa 
+Por quê? 
+3 JUSTIFICATIVA 
+ 
+Formulação 
+do 
+Problema 
+ 
+4 FORMULAÇÃO DO PROBLEMA 
+ 
+Hipóteses 
+ 
+5 HIPÓTESES 
+ 
+Método 
+Como? 
+6  METODOLOGIA 
+ 
+6.1 MÉTODOS DE ABORDAGEM 
+ 
+6.2 MÉTODOS DE PROCEDIMENTOS 
+ 
+6.3 TÉCNICAS 
+Local 
+Onde? 
+7 DELIMITAÇÃO DA PESQUISA 
+Fortaleza-CEFET-Laboratorio-curso, enfim...onde a pesquisa vai 
+ 
+Maio 2004 
+8
+ser feita ou aplicada 
+Seqüência 
+Quando? 
+8 CRONOGRAMA –  
+Custo 
+Quanto? 
+9 ORÇAMENTO 
+Valor Orçamento Total  
+ 
+Com a ferramenta acima, você está pronto para sintetizar sua idéia para a 
+monografia/dissertação/tese 
+ 
+Tema de pesquisa
+Subtema (palavra chave)
+Proposta
+Método para validar cientificamente
+ 
+ 
+ 
+O preenchimento do diagrama exige também uma reflexão individual, faça as seguintes 
+perguntas: 
+Tema de Pesquisa: Qual o tema da pesquisa? Em que área o tema se encontra? Sou 
+pesquisador de que área? Como quero ser conhecido (pesquisador de que assunto)? 
+ 
+Palavra-chave: palavras que direcionam a pesquisa e que podem ser cruzadas no âmbito 
+do trabalho. 
+ 
+Proposta: O que se propõe no trabalho? Qual o objetivo macro?  
+ 
+Método para validar: ferramentas ou técnicas a utilizar para atingir os objetivos traçados e 
+validar cientificamente. Para este último observar tipo de pesquisa, método e teoria em que 
+se apóia. 
+ 
+Maio 2004 
+9
+ 
+ 
+ESTRUTURAÇÃO DO PROJETO 
+ 
+Definindo o tema e título (o quê?) 
+ 
+O tema é o assunto que se deseja provar ou desenvolver. Pode surgir de uma dificuldade 
+prática enfrentada pelo coordenador, da sua curiosidade científica, de desafios encontrados 
+na leitura de outros trabalhos ou da própria teoria.  Pode ter surgido pela entidade 
+responsável, portanto, “encomendado”, o que, no entanto não lhe tira o caráter científico.  
+Independente de sua origem, o tema é, nessa fase, necessariamente ampla, precisando bem 
+o assunto geral sobre o qual se deseja realizar a pesquisa. 
+ 
+Do tema é feita a delimitação que deve ser dotada de um sujeito e um objeto. Já o título, 
+acompanhado ou não por subtítulo, difere do tema. Enquanto este último sofre um processo 
+de delimitação e especificação, para torná-lo viável à realização da pesquisa, o título 
+sintetiza o conteúdo da mesma. 
+ 
+ 
+Objetivos (Para quê?) 
+ 
+Atenção! Os objetivos devem ser sempre expressos em verbos de ação 
+ 
+Geral 
+Está ligado a uma visão global e abrangente do tema. Relaciona-se com o conteúdo 
+intrínseco, quer dos fenômenos e eventos, quer das idéias estudadas. Vincula-se 
+diretamente à própria significação da tese proposta pelo projeto. Deve iniciar com um verbo 
+de ação. 
+ 
+Específicos 
+Apresentam caráter mais concreto. Têm função intermediária e instrumental, permitindo de 
+um lado, atingir o objetivo geral e, de outro, aplicar este a situações particulares. 
+ 
+Exemplo de objetivo geral: 
+ 
+Desenvolver um modelo científico de estúdio de produção em rádio, para ser utilizado 
+como referencial básico para novas implantações e a readequação dos existentes em cursos 
+de comunicação social, em instituições de ensino superior, visando a melhoria e otimização 
+da organização do trabalho e usabilidade do sistema à aprendizagem. 
+ 
+ 
+ 
+ 
+ 
+ 
+Maio 2004 
+10
+Exemplos de objetivos específicos: 
+ 
+a) formular, a partir de um estudo analítico, um referencial teórico-prático sobre as 
+características estruturais, funcionais, morfológicas, diacrônicas e sincrônicas dos estúdios, 
+principal e de gravações, utilizados por emissoras de radiodifusão profissionais; 
+ 
+b) desenvolver uma metodologia aplicada à implantação de estúdios de produção em rádio 
+em cursos de comunicação social; 
+ 
+Exemplos aplicáveis a objetivos: 
+ 
+a) quando a pesquisa tem o objetivo de conhecer: 
+Apontar, citar, classificar, conhecer, definir, descrever, identificar, reconhecer, relatar; 
+b) quando a pesquisa tem o objetivo de compreender: 
+Compreender, concluir, deduzir, demonstrar, determinar, diferenciar, discutir, interpretar, 
+localizar, reafirmar; 
+c) quando a pesquisa tem o objetivo de aplicar: 
+Desenvolver, empregar, estruturar, operar, organizar, praticar, selecionar, traçar, otimizar, 
+melhorar; 
+quando a pesquisa tem o objetivo de analisar: 
+Comparar, criticar, debater, diferenciar, discriminar, examinar, investigar, provar, ensaiar, 
+medir, testar, monitorar, experimentar; 
+e) quando a pesquisa tem o objetivo de sintetizar: 
+Compor, construir, documentar, especificar, esquematizar, formular, produzir, propor, 
+reunir, sintetizar; 
+f) quando a pesquisa tem o objetivo de avaliar: 
+Argumentar, avaliar, contrastar, decidir, escolher, estimar, julgar, medir, selecionar. 
+ 
+ 
+Lista de alguns verbos operacionais 
+ 
+Nível de conhecimento/saber 
+Nível de saber-fazer 
+Apreciar 
+analisar 
+escolher 
+citar 
+classificar 
+comparar 
+controlar 
+descobrir 
+descrever 
+definir 
+demonstrar 
+nomear 
+designar 
+diferenciar 
+distinguir 
+estimar 
+avaliar 
+calcular 
+construir 
+consertar 
+desenvolver(método) 
+diagnosticar (manutenção) 
+executar 
+gerenciar (informática) 
+instalar 
+integrar 
+dominar 
+localizar 
+montar (uma operação) 
+modelar 
+organizar (um posto) 
+praticar 
+preparar 
+realizar 
+ 
+Maio 2004 
+11
+explicar 
+identificar 
+julgar 
+listar 
+medir 
+opor 
+provar 
+reconhecer 
+redigir 
+reagrupar 
+repertoriar 
+resolver 
+selecionar 
+estruturar 
+traduzir 
+transpor 
+verificar 
+reparartratar 
+transformar 
+utilizar 
+...e todos os verbos técnicos 
+ 
+ 
+Justificativa (Por Quê?) 
+ 
+É o único item do projeto que apresenta respostas à questão por quê? De suma importância, 
+geralmente é o elemento que contribui mais diretamente na aceitação da pesquisa pela(s) 
+pessoa(s) ou entidades que vai financiá-la.  
+A justificativa consiste em uma exposição sucinta, porém completa, das razões de ordem 
+teórica e dos motivos de ordem prática que tornam importante a realização da pesquisa. 
+Deve enfatizar:  
+ 
+1- o estágio em que  se encontra a teoria respeitante ao tema; 
+ 
+2- as contribuições teóricas que a pesquisa pode trazer: confirmação geral, 
+confirmação na sociedade particular em que se insere a pesquisa, especificação para casos 
+particulares, clarificação da teoria, resolução de pontos obscuros; 
+ 
+3- a importância do tema do ponto de vista geral; 
+ 
+4- a importância do tema para casos particulares em questão; 
+ 
+5-  possibilidade de sugerir modificações no âmbito da realidade abarcada pelo tema 
+proposto; 
+ 
+6- descoberta de soluções para casos gerais e/ou particulares. 
+ 
+ 
+A justificativa difere da revisão da bibliografia e, por este motivo, não apresenta 
+citações de outros autores. 
+ 
+ 
+Formulação do problema 
+ 
+A formulação do problema prende-se ao tema proposto: ela esclarece a dificuldade 
+específica com a qual se defronta e que se pretende resolver por intermédio da pesquisa. 
+Para ser cientificamente válido, um problema deve passar pelo crivo das seguintes 
+questões: 
+ 
+ 
+ 
+ 
+Maio 2004 
+12
+O problema: 
+- pode ser enunciado em forma 
+de pergunta? 
+- corresponde a interesses 
+pessoais (capacidade), sociais e 
+científicos, isto é, de conteúdo 
+e metodológicos? Esses 
+interesses estão harmonizados? 
+- constitui-se o problema em 
+questão científica, ou seja, 
+relacionam-se entre si pelo 
+menos duas variáveis? 
+- pode ser objeto de 
+investigação sistemática, 
+controlada e crítica? 
+-pode ser empiricamente 
+verificado em suas 
+conseqüências? 
+ 
+♦Formulação do problema:esclarecer a questão de 
+pesquisa, definir o problema - o que? como?
+viabilidade
+relevância
+observar       novidade
+exequibilidade
+oportunidade
+deve ser interrogativa, clara, precisa e objetiva;
+possuir solução viável;
+expressar uma relação entre duas ou mais variáveis;
+ser fruto de revisão de literatura e reflexão pessoal.
+2.
+2. DELINEAMENTO
+DELINEAMENTODA
+DAPESQUISA
+PESQUISA
+ 
+O problema, assim, consiste em um enunciado explicitado de forma clara, compreensível e 
+operacional, cujo melhor modo de solução ou é uma pesquisa ou pode ser resolvido por 
+meio de processos científicos. Concluem-se disso que perguntas retóricas, especulativas e 
+afirmativas (valorativas) não são perguntas científicas. 
+ 
+Maio 2004 
+13
+ 
+Hipóteses 
+ 
+Enunciado das hipóteses
+♦é uma suposição que se faz na tentativa de explicar o 
+problema;
+♦como resposta e explicação provisória, relaciona duas 
+ou mais variáveis do problema levantado; 
+♦deve ser testável e responder ao problema;
+♦serve de guia na pesquisa para verificar sua validade.
+Surgem de:
+observação
+resultados de outras pesquisas
+teorias
+intuição
+2.
+2. DELINEAMENTO
+DELINEAMENTO DA
+DA PESQUISA
+PESQUISA
+ 
+ 
+Características das 
+Hipóteses 
+ 
+ 
+ Consistência lógica 
+ Verificabilidade 
+ Simplicidade 
+ Relevância 
+ Apoio teórico 
+ Especificidade 
+ Plausibilidade 
+ Clareza 
+ Profundidade 
+ Fertilidade 
+ Originalidade 
+ 
+Uma hipótese aplicável deve:
+♦ser conceitualmente clara;
+♦ser específica (identificar o que deve ser observado);
+♦ter referências empíricas (verificável);
+♦ser parcimoniosa (simples);
+♦estar relacionada com as técnicas disponíveis;
+♦estar relacionada com uma teoria.
+2.
+2. DELINEAMENTO
+DELINEAMENTO DA
+DA PESQUISA
+PESQUISA
+ 
+As 
+hipóteses 
+constituem 
+“respostas” 
+supostas 
+e 
+provisórias ao problema. 
+ 
+A 
+principal 
+resposta 
+é 
+denominada hipótese básica, 
+podendo ser complementada 
+por outras,  que recebem a 
+denominação 
+de 
+secundárias. 
+ 
+Maio 2004 
+14
+ 
+ 
+Método Científico (Como?) 
+ 
+ 
+METODOLOGIA DA PESQUISA CIENTÍFICA
+METODOLOGIA DA PESQUISA CIENTÍFICA
+¥ modo científico para obter conhecimento da 
+realidade empírica (?) tudo que existe e pode 
+ser conhecido   pela experiência);
+¥ processo formal e sistemático de 
+desenvolvimento do método científico.
+1. O que é método e pesquisa?
+Pesquisa 
+¥ Forma de pensar para se chegar à natureza de um 
+determinado problema, quer seja para estudá-lo ou 
+explicá-lo.
+Método 
+1 
+ 
+ 
+Classificação das pesquisas 
+ 
+- 
+Quanto à natureza: 
+ 
+Pesquisa Básica: objetiva gerar conhecimentos novos úteis para o avanço da ciência sem 
+aplicação prática prevista. Envolve verdades e interesses universais. 
+Pesquisa Aplicada: objetiva gerar conhecimentos para aplicação prática dirigida à 
+solução de problemas específicos. Envolve verdades e interesses locais. 
+ 
+- 
+Quanto a forma de abordagem (segundo Gil, 1991): 
+ 
+Pesquisa Quantitativa: considera que tudo pode ser quantificável, o que significa traduzir 
+em números opiniões e informações para classificá-los e analisá-los. Requer o uso de 
+recursos e de técnicas estatísticas (percentagem, média, moda, mediana, desvio padrão, 
+coeficiente de correlação, análise de regressão, etc...). 
+Pesquisa Qualitativa: considera que há uma relação dinâmica entre o mundo real e o 
+sujeito, isto é, um vínculo indissociável entre o mundo objetivo e a subjetividade do sujeito 
+que não pode ser traduzido em números. A interpretação dos fenômenos e a atribuição de 
+significados são básicos no processo de pesquisa qualitativa. Não requer os uso de métodos 
+e técnicas estatísticas. O ambiente natural é a fonte direta para coleta de dados e o 
+pesquisador é o instrumento chave. É descritiva. Os pesquisadores tendem a analisar seus 
+dados indutivamente. O processo e seu significado são os focos principais de abordagem. 
+ 
+ 
+A investigação científica depende de 
+um “conjunto de procedimentos 
+intelectuais e técnicos” (Gil, 1999, 
+p.26) para que seus objetivos sejam 
+atingidos: os métodos científicos. 
+ 
+ 
+ 
+ 
+Método científico é o conjunto de 
+processos ou operações mentais que 
+se deve empregar na investigação. É 
+a linha de raciocínio adotada no 
+processo de pesquisa.  
+ 
+“O jantar”
+ 
+Maio 2004 
+15
+- 
+Quanto aos objetivos 
+ 
+Pesquisa Exploratória: visa proporcionar maior familiaridade com o problema com vistas 
+a torná-lo explícito ou a construir hipóteses. Envolvem levantamento bibliográfico; 
+entrevistas com pessoas que tiveram experiências práticas com o problema pesquisado; 
+análise de exemplos que estimulem a compreensão. Assume, em geral, as formas de 
+Pesquisas Bibliográficas e Estudos de caso. 
+ 
+Pesquisa Descritiva: visa descrever as características de determinada população ou 
+fenômeno ou o estabelecimento de relações entre variáveis. Envolvem o uso de técnicas 
+padronizadas de coleta de dados: questionário e observação sistemática. Assume, em geral, 
+a forma de Levantamento. 
+Pesquisa Explicativa: visa identificar os fatores que determinam ou contribuem para a 
+ocorrência dos fenômenos. aprofunda o conhecimento da realidade porque explica a razão, 
+o “porquê” das coisas. Quando realizada nas ciências naturais requer o uso do método 
+experimental e nas ciências sociais requer o uso do método observacional. Assume, em 
+geral, a formas de Pesquisa Experimental e Pesquisa Ex-post-facto. 
+ 
+- 
+Quanto aos procedimentos técnicos 
+ 
+Pesquisa Bibliográfica: quando elaborada a partir de material já publicado, constituído 
+principalmente de livros, artigos de periódicos e atualmente com material disponibilizado 
+na Internet. 
+Pesquisa Documental: quando elaborada a partir de materiais que não receberam 
+tratamento analítico. 
+Pesquisa Experimental: quando se determina um objeto de estudo, seleciona-se as 
+variáveis que seriam capazes de influenciá- lo, define-se as formas de controle e de 
+observação dos efeitos que a variável produz no objeto. 
+Levantamento: quando a pesquisa envolve a interrogação direta das pessoas cujo 
+comportamento se deseja conhecer. 
+Estudo de caso: quando envolve o estudo profundo e exaustivo de um ou poucos objetos 
+de maneira que se permita o seu amplo e detalhado conhecimento. 
+Pesquisa Ex-Post-Facto: quando o “experimento” se realiza depois dos fatos. 
+Pesquisa ação: quando concebida e realizada em estreita associação com uma ação ou 
+com a resolução de um problema coletivo. Os pesquisadores e participantes representativos 
+da situação ou do problema estão envolvidos de modo cooperativo ou participativo. 
+Pesquisa Participante: quando se desenvolve a partir da interação entre pesquisadores e 
+membros das situações investigadas. 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+Toda pesquisa requer um embasamento teórico. Nele é preciso observar a teoria de base que 
+dará sustentação ao trabalho, a revisão bibliográfica e a definição dos termos. 
+ 
+Maio 2004 
+16
+Embasamento Teórico (como?) 
+Respondendo ainda à questão como? Aparecem aqui os elementos de fundamentação 
+teórica da pesquisa e, também, a definição dos conceitos empregados. 
+ 
+1-Teoria de Base 
+ 
+A finalidade da pesquisa científica não é apenas um relatório ou descrição de fatos 
+levantados empiricamente, mas o desenvolvimento de um caráter interpretativo, no que se 
+refere aos dados obtidos. Para tal, é imprescindível correlacionar a pesquisa com o universo 
+teórico, optando-se por um modelo que serve de embasamento à interpretação do 
+significado dos dados e fatos colhidos ou levantados. 
+ 
+ 
+Todo projeto de pesquisa deve conter as premissas ou pressupostos teóricos sobre os quais 
+o pesquisador (o coordenador e os principais elementos de sua equipe) fundamentará sua 
+interpretação. 
+ 
+2-Revisão Bibliográfica 
+Pesquisa alguma parte hoje da estaca zero. Mesmo que exploratória, isto é, de avaliação de 
+uma situação concreta desconhecida, em um dado local, alguém ou um grupo, em algum 
+lugar, já deve ter feito pesquisas iguais ou semelhantes ou mesmo complementares de 
+certos aspectos da pesquisa pretendida. Uma procura de tais fontes, documentais ou 
+bibliográficas, torna-se imprescindível para a não-duplicação de esforços, a não 
+“descoberta” de idéias já expressas, a não-inclusão de “lugares-comuns” no trabalho. 
+ 
+A citação das principais conclusões a que outros autores chegaram permite salientar a 
+contribuição da pesquisa realizada, demonstrar contradições ou reafirmar comportamentos 
+e atitudes. Tanto a confirmação, em dada comunidade, de resultados obtidos em outra 
+sociedade quanto a enumeração das discrepâncias são de grande importância. 
+ 
+3- Definição dos Termos 
+A ciência lida com conceitos, isto é, termos simbólicos que sintetizam as coisas e os 
+fenômenos perceptíveis na natureza, no mundo psíquico do homem ou na sociedade, de 
+forma direta ou indireta. Para que se possa esclarecer o fato ou fenômenos que se está 
+investigando a ter possibilidade de comunicá-lo, de forma não ambígua, é necessário defini-
+lo com precisão. 
+Os termos precisam ser especificados para a compreensão de todos. 
+ 
+ 
+ 
+Cronograma (quando?) 
+A elaboração do cronograma responde à pergunta quando? A pesquisa deve ser divida em 
+partes, fazendo-se a previsão do tempo necessário para passar de uma fase a outra. Não 
+esquecer que, se determinadas partes podem ser executadas simultaneamente, pelos vários 
+ 
+Maio 2004 
+17
+membros da equipe, existem outras que dependem das anteriores, como é o caso da análise 
+e interpretação, cuja realização depende da codificação e tabulação, só possíveis depois de 
+colhidos os dados. 
+ 
+Estabeleça um cronograma e procure não sair dele! 
+ 
+Sugestão para seis meses: 
+ 
+Etapa/Mês 
+01 
+02 
+03 
+04 
+05 
+06 
+Escolha do Tema de Pesquisa 
+X 
+ 
+ 
+ 
+ 
+ 
+Seminários do projeto (justificativa, 
+objetivos, problemática, metodologia, 
+estrutura do trabalho). 
+ 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+Definição dos capítulos (sumário 
+preliminar) 
+X 
+ 
+ 
+ 
+ 
+ 
+Revisão da Literatura (enquadramento 
+teórico) 
+ 
+X 
+X 
+ 
+ 
+ 
+Seminário-desenvolvimento da proposta 
+ 
+ 
+X 
+X 
+ 
+ 
+Redação preliminar 
+ 
+X 
+X 
+X 
+ 
+ 
+Ajustes metodológicos, conceituais, 
+formatação. 
+ 
+ 
+ 
+X 
+ 
+ 
+Preparação para defesa – Pré-defesas 
+ 
+ 
+ 
+X 
+X 
+ 
+Apresentação do trabalho final - defesa 
+ 
+ 
+ 
+ 
+ 
+X 
+ 
+Orçamento (com quanto?) 
+ 
+ 
+Respondendo à questão com quanto?, o orçamento distribui os gastos por vários 
+itens, que devem necessariamente ser separados. Inclui: 
+ 
+a) pessoal – do coordenador aos pesquisadores de campo, todos os elementos deve 
+ter computados os seus ganhos, quer globais, mensais, semanais ou por hora/atividade, 
+incluindo os programadores de computador; 
+ 
+b) material, subdivididos em: 
+ 
+b.1) elementos consumidos no processo de realização da pesquisa, como papel, 
+canetas, lápis, cartões ou plaquetas de identificação dos pesquisadores de campo, 
+hora/computador, datilografia, xerox, encadernação etc.; 
+ 
+ 
+b.2) elementos permanentes, cuja posse pode retornar à entidade financiadora, ou 
+serem alugados,  computadores, calculadoras, etc.. 
+ 
+ 
+No caso de um projeto de desenvolvimento de software.... 
+ 
+¾ Planificação de um projeto – ver plano de ação  5W2H 
+¾ Ciclo de desenvolvimento – utilize um método!  
+ 
+Maio 2004 
+18
+¾ Avaliação – utilize um método! 
+¾ Perigo! O que faz um projeto fracassar... 
+ 
+Entre outras razões, um projeto fracassa ou termina de má qualidade devido:  
+9 as improvisações, os “achismos”, a má gestão, a falta de um método,  
+9 Falhas na realização: desenvolvimento não otimizado, testes parciais, falta de 
+documentação (ou incompleta), programadores inexperimentados... 
+9Falhas nas especificações: regras de gestão vagas, incompletas, instáveis… 
+9 Falta de comunicação com o cliente/usuário  durante o desenvolvimento do projeto.    
+ 
+                                   Para um projeto de software, lembre-se: 
+ 
+9Elaborar o Projeto (Diagnóstico, objetivos,  concepção funcional, concepção detalhada, 
+produção, realização...)  
+9Elaborar o plano de gestão do projeto (caderno de encargos) 
+9Fazer uma boa concepção da interface com o usuário 
+9Utilizar métodos (Axial, Merise, IDA, JSD, SADT...) 
+9Escolher um modelo de desenvolvimento (cascata, V, W...espiral...) 
+9Observar Regras e Normas técnicas (ISO, AFNOR...outras) 
+ 
+ 
+ 
+O plano da pesquisa  
+ 
+Escolher um bom tema: nunca iniciar uma pesquisa sem um bom tema e sem ter as 
+questões de pesquisa bem precisas. 
+ 
+O plano de pesquisa serve para guiar a pesquisa, dá um sentimento de segurança e 
+permite um trabalho modularizado, customizado.  
+ 
+O plano é diferente do desenvolvimento da pesquisa (o grosso do trabalho) e da redação 
+dos resultados (documento final para defesa e publicação). 
+ 
+A monografia/dissertação/tese apresenta o resultado para uma audiência determinada 
+Para começar, faça um brainstorming: escreva rapidamente em um papel as palavras-
+chave e sobre cada uma, desenhe, faça esquemas. Tenha um papel e caneta sempre! 
+ 
+Lembrar que o orientador (a) não é a única pessoa que pode ajuda-lo, procurar sempre 
+quem pode ajuda-lo com questões precisas! Preferencialmente em papel 
+ 
+ 
+ 
+ 
+ 
+Maio 2004 
+19
+ELABORANDO O PROJETO – CONSELHOS ÚTEIS 
+ 
+Preparação 
+ 
+Começar por 2 – 3 artigos/obras que contenham um sobrevôo da disciplina ou tema. 
+ 
+Não leia bastante sobre o tema, deve-se parar quando a mesma informação surge, se 
+possuir pouco tempo, fixe-se somente em uma abordagem. 
+ 
+Seja minimalista!  
+Antes de se concentrar numa tarefa específica, identifique os pontos mais importantes. 
+Elimine de sua cabeça as idéias improdutivas (fora do contexto específico do trabalho) 
+se forem pertinente, guarde-as para trabalhos futuros.  
+ 
+A redação 
+Definido o tema, objetivos, problemática e hipóteses, recomenda-se fazer um sumário 
+preliminar que servirá para delimitação das partes do trabalho e que será modificado ao 
+longo de sua realização. 
+ 
+Lembre-se, o projeto transformar-se-á no capítulo de introdução da dissertação/tese. 
+ 
+Nessa etapa não esqueça de documentar tudo, mesmo que seja em guardanapo de bar! 
+ 
+O estresse 
+Pequenos conselhos para desestressar: 
+ 
+Durante o trabalho faça pequenas pausas de 5 min mesmo que para andar no 
+apartamento, olhar pela janela, tomar um cafezinho... 
+ 
+Faça um alongamento e respire profundamente de tempos em tempos. 
+ 
+Inútil dizer não estresse, só se faz isso ou resolvendo o problema ou buscando outra 
+atividade. 
+ 
+Os bloqueios 
+É normal ocorrerem bloqueios durante a redação. Eles se apresentam como 
+incapacidade total de começar a escrever ou sair de um ponto em que se está 
+trabalhando. Quando isso ocorrer, o importante é escrever qualquer coisa, mesmo se for 
+pouco ou não muito bom. 
+ 
+ Discuta com os outros sobre seu bloqueio, sobre sua pesquisa, sobre seu projeto de 
+pesquisa. Falar é mais simples que escrever e isso gera idéias. 
+ 
+Se trabalhar pouco todos os dias, ao menos trabalhe regularmente. 
+ 
+ 
+Maio 2004 
+20
+Quer tornar divertido? Pegue um dado, jogue e escreva a metade do número que der ☺ 
+mas produza! 
+ 
+ORGANIZAÇÃO DO TRABALHO E FORMATAÇÃO  
+ 
+Lembre-se sempre que para seu trabalho existem três tipos de leitores: o leitor rápido, o 
+leitor que acredita no que escreveu e o leitor que quer “ saber”, aprender.  
+ 
+Em termos de estrutura e organização do trabalho, siga as normas da redação científica. 
+É melhor não inovar na apresentação do trabalho. 
+ 
+Não perca tempo com formatagens eternas utilize folhas de estilos (templates) que já 
+instituiem as partes do trabalho, estilos, fontes, parágrafos, etc. Evite muitos níveis de 
+seções (ex. 10. 2.4.3) isto torna difícil a orientação em relação ao conjunto.  
+ 
+Se o texto de uma seção for muito longo, pode-se introduzir títulos sem números ou  
+numerações com a) 1). Uma seção numerada para cada tema importante, mas muitas 
+sub-seções cortam o texto!  
+ 
+Não esqueça que os títulos indicam o conteúdo de uma seção e devem ser curtos e 
+objetivos. 
+ 
+Faça parágrafos curtos e evite frases longas. 
+A introdução, assim como a conclusão é a parte mais importante do seu trabalho no 
+plano retórico. As pessoas lêem primeiro e decidem se querem ver o resto. O leitor deve 
+ver o que contém o seu trabalho em termos da questão, da linguagem utilizada 
+(conceitos, definições), a estratégia (metodologia e sua estruturação). 
+ 
+Regra geral, a introdução deve conter: a problemática da pesquisa e as questões de 
+pesquisa decorrentes, uma discussão sobre a pertinência e sobre a importância do 
+trabalho dentro de um contexto histórico, social, cultural, tecnológico local e além. 
+ 
+ Não esquecer as definições mais importantes, [notadamente as que se encontram 
+expressas no título do trabalho e na  introdução do objeto do trabalho. 
+ 
+Descrever as partes...(ajuda do template) 
+¾ A fundamentação... 
+¾ O desenvolvimento/aplicação 
+¾ ...a metodologia e organização do trabalho 
+¾ Nas conclusões, ressalte os resultados principais da pesquisa 
+¾ Apresentação à banca examinadora (outras recomendações) 
+ 
+ 
+O template (arquivo em anexo) 
+ 
+ 
+Maio 2004 
+21
+Atenção! O template que coloco à disposição de vocês foi uma construção entre pares e 
+não está autorizada sua divulgação pelos outros colegas de autoria. Portanto, solicito uso 
+exclusivamente individual.  
+ 
+ 
+COMO ELABORAR O RESUMO 
+ 
+(Palestra da Profa. Dra. Léa Masina - Instituto de Letras) 
+ 
+RESUMO é: 
+ 
+9 um texto 
+ 
+9  um tipo de redação informativo-referencial que se ocupa de reduzir um texto a 
+suas idéias principais. Em princípio, o resumo é uma paráfrase e pode-se dizer que 
+dele não devem fazer parte comentários e que engloba duas fases: a compreensão 
+do texto e a elaboração de um novo. A compreensão implica análise do texto e 
+checagem das informações colhidas com aquilo que já se conhece. (Medeiros, 
+2000) 
+ 
+9 a “apresentação concisa das idéias de um texto” (Norma NBR 6028, da Associação 
+Brasileira de Normas Técnicas)  
+ 
+9 uma apresentação sintética e seletiva das idéias de um texto, ressaltando a 
+progressão e a articulação delas. Nele devem aparecer as principais idéias do autor 
+do texto. 
+ 
+Sendo o RESUMO um texto,  ele deve ser : UNO, COERENTE, COESO 
+ 
+UNIDADE: Interligação entre suas partes, que deverão convergir para um direcionamento 
+único 
+COERÊNCIA: As idéias apresentadas devem ser coerentes e não contraditórias 
+COESÃO:  Os elementos da frase devem estabelecer os nexos entre as partes do texto 
+O RESUMO deve considerar o contexto, transmitindo uma informação de forma clara e 
+eficaz. Seu autor objetiva alcançar o entendimento e a compreensão do leitor. 
+O RESUMO se relaciona com outros textos (hipertextos): existe um texto anterior que dá 
+origem ao RESUMO. Esse texto será apresentado como uma paráfrase , propondo uma 
+problematização. 
+ 
+Para que serve o RESUMO? 
+ 
+O RESUMO  deve responder a duas perguntas: 
+ 
+O que o autor pretende demonstrar? 
+De que trata o texto ? 
+ 
+Maio 2004 
+22
+ 
+ 
+Portanto, devem constar do RESUMO :   
+ 
+•  O assunto do texto 
+•  O objetivo do texto 
+•  A articulação das idéias 
+•  As conclusões do autor do texto objeto do resumo. 
+ 
+O que deve conter o RESUMO ? 
+ 
+O RESUMO  deve responder a duas perguntas: 
+ 
+O que o autor pretende demonstrar? 
+De que trata o texto ? 
+ 
+Portanto, devem constar do RESUMO :   
+ 
+•  O assunto do texto 
+•  O objetivo do texto 
+•  A articulação das idéias 
+•  As conclusões do autor do texto objeto do resumo 
+•  
+O que deve informar o RESUMO ? 
+ 
+Tratando-se do resumo de uma pesquisa iniciada, em andamento ou concluída, ele deve 
+informar:  
+•  A natureza da pesquisa realizada 
+•  Os resultados parciais ou finais 
+•  As conclusões ou novos direcionamentos. 
+ 
+ 
+Enfim, para que serve um  RESUMO?  
+ 
+O RESUMO tem por OBJETIVO :  
+ 
+•  partilhar um saber – uma referência 
+•  fornecer informação 
+•  apresentar provas ou evidências 
+•  explicitar seus objetivos  
+•  explicitar sua metodologia 
+•  apontar para uma conclusão 
+ 
+ 
+Como partilhar o saber? 
+ 
+Maio 2004 
+23
+Partindo de uma informação do conhecimento da comunidade. Isso ocorre na introdução, 
+quando o autor negocia com o leitor, estabelecendo o nível do entendimento para, então, 
+expor informações novas. Essas devem deixar claro sua referência, isto é, o tema a ser 
+resumido. Devem situar o leitor com relação à área de estudo. 
+ 
+Como fornecer informação? 
+Apresentando uma visão própria , ou um enfoque,  a respeito da matéria tratada. A 
+informação constitui o centro do  RESUMO, podendo consistir também numa 
+problematização.  O RESUMO deve informar o estágio em que se encontra a pesquisa. Se 
+for o estágio final, deverá expor uma síntese dos resultados alcançados. Se for em fase 
+inicial ou em andamento, deverá apontar as questões que pretende abarcar, relatando os 
+resultados parciais da pesquisa. 
+Como apresentar provas ou evidências? 
+Fundamentando as afirmações expostas através de argumentação ou  provas. 
+ 
+Como explicitar seus objetivos? 
+Deixando clara intenção a ser cumprida. Esta enunciação requer paráfrase discursiva, 
+remetendo ao texto da pesquisa. É preciso lembrar que os objetivos do bolsista nem sempre 
+são os mesmos objetivos de seu orientador.  
+ 
+Como explicitar sua metodologia? 
+Referindo os passos da pesquisa e descrevendo o método empregado. 
+ 
+Como apontar para uma conclusão? 
+Esclarecendo quais os objetivos alcançados ou em vias de ser alcançados. É preciso 
+considerar as diferenças existentes entre as pesquisas concluídas e que se reformulam, as 
+pesquisas em andamento e em fase inicial. As perspectivas de resultados devem ser 
+incluídas.  
+ 
+REDAÇÃO DE RESUMO: CARACTERÍSTICAS 
+FORMAIS 
+ 
+Sendo um TEXTO CONCISO, o resumo deve ser redigido:  
+• em linguagem objetiva, suprimindo palavras desnecessárias (adjetivos e 
+advérbios) . 
+• evitando a repetição de frases inteiras do texto original (a serem 
+sintetizadas e não transcritas). 
+• respeitando a ordem em que as idéias ou fatos são apresentados.  
+ 
+Assim, são suas características formais : 
+• Extensão : de 8 a 15 linhas 
+• Um só parágrafo 
+• 3ª pessoa sing., 3ª pessoa plural, 1ª pessoa sing. 
+• Frases pouco extensas 
+• Terminologia específica 
+ 
+Maio 2004 
+24
+• Ordem direta das frases 
+• Linguagem denotativa 
+ 
+Exigências: titulo do trabalho., autor (es), professor orientador, texto, fonte financiadora 
+(se houver), unidade e universidade entre parênteses.  
+ 
+Exemplos de resumos 
+ 
+GEO-PROCESSAMENTO – GEOGRAFIA HUMANA 
+ 
+ A PERCEPÇÃO DO EMPRESARIADO INDUSTRIAL SOBRE O AMBIENTE 
+URBANO: UM INSTRUMENTO DE TRABALHO. André Venzon . (Faculdade de 
+Arquitetura, UFRGS).  
+O tema da “análise empresarial” será desenvolvido com os empresários em uma parcela 
+humana do bairro  dos Navegantes, com o objetivo de investigar e elaborar instrumentos 
+capazes de revelar os valores ambientais na percepção dos empresários, em particular do 
+setor industrial. Estes valores estão endereçados no sentido do que é oferecido pela 
+estrutura urbana do bairro. Procurarei pesquisar instrumentos que são empregados na 
+área de percepção ambiental, como : questionários abertos ou fechados, testes 
+associativos, cenários estruturados, que me auxiliem na busca dos indicativos de uma 
+estrutura capaz de superar as expectativas ou suportar as exigências que fazem os diversos 
+ramos empresariais instalados naquele ambiente. Uma vez conhecidos os intrumentos de 
+trabalho, selecionarei um ou mais que serão testados no sentido de obter a concepção do 
+objetivo dessa pesquisa. Isto é, elaborar instrumentos que indiquem a validade do bairro 
+quanto à implantação de diferentes investimentos empresariais. Posteriormente, as 
+informações fornecidas através da análise empresarial do bairro Navegantes servirão de 
+“subsídios” para projetos urbanísticos que contextualizarão a percepção dos empresários 
+sobre as potencialidades econômicas daquele ambiente.   (PROPESP). 
+ 
+ENGENHARIA CIVIL 
+ 
+ANÁLISE DA QUANTIDADE MÍNIMA DE CAL NECESSÁRIA AO 
+DESENVOLVIMENTO DE REAÇÕES POZOLÂNICAS EM MISTURAS SOLO-
+CINZA-CAL. Fábio C. Ferreira., João Antonio H. Carraro, Nilo Cesar Consoli  
+(Departamento de Engenharia Civil, Escola de Engenharia ,UFRGS) 
+Este trabalho tem como objetivo geral estudar a viabilidade do uso de resíduos industriais, 
+geradores de problemas ambientais, na estabilização química de solos. Os materiais 
+utilizados nesta pesquisa serão: o solo residual de Arenito Botucatu, a cinza volante 
+resultante da queima de carvão na termelétrica Presidente Médici (Candiota- RS) e o 
+rejeito de hidróxido de cálcio (cal residual) proveniente da empresa White Martins Gases 
+Industriais S.A (Sapucaia do Sul -–RS). Neste estudo será determinado o Lime Fixastion 
+Point (método baseado no ensaio de Limite de Plasticidade) que visa a determinação de 
+um  teor mínimo de cal que assegure o desenvolvimento de reações pozolânicas em uma 
+mistura. Esta determinação será feita para o solo natural e para uma mistura solo-cinza. 
+Desta forma, pretende-se analisar a influência exercida pela adição de cinza volante na 
+quantidade mínima de cal demandada. O valor obtido através deste método será verificado 
+ 
+Maio 2004 
+25
+experimentalmente  mediante a comparação  com resultados de ensaio de resistência à 
+compressão simples realizados com os mesmos materiais. 
+ 
+HISTÓRIA E LITERATURA 
+ 
+A CONCEPÇÃO DE HISTÓRIA EM “O TEMPO E O VENTO”. Ronaldo Machado, 
+Astor  Diehl (Departamento de História, Instituto de Filosofia e Ciências Humanas, 
+UFRGS) 
+A distinção entre os textos ficcional e historiográfico são tênues e o que se tem estudado 
+nessa relação , até o presente momento, é o conteúdo narrativo da historiografia, e não o 
+núcleo cognitivo e didático da obra  ficcional.  A pesquisa pretende verificar qual a 
+concepção de história presente na trilogia de “O tempo e op Vento”, tendo por 
+pressuposto o entendimento de que a Literatura produz, tal qual a História, formas 
+peculiares de saber histórico. A obra de Erico Verissimo  recebeu importantes e profundas 
+análises críticas, contudo poucas abordaram-na sob a perspectiva que adotamos. O estudo 
+envolveu seu objeto a partir da problemática da fundamentação da Ciência histórica, 
+especificamente sob o viés da Didática da História, ou seja, a preocupação em entender 
+como se processam orientações históricas por meios extra-acadêmicos. O texto da trilogia 
+é abordado visando destacar a construção  do relato histórico, sob três elementos 
+identificadores: o espaço, o tempo e o indivíduo. A opção de análise desses elementos se dá 
+com base na hipótese de trabalho: a idéia de história na trilogia é estrutural; uma história 
+das permanências ante a das modificações. O caráter circular do texto remete a uma idéia 
+de história centrada nos elementos estáveis das gerações Terra-Cambará. 
+ 
+ 
+ 
+ESQUEMAS PARA ORGANIZAÇÃO PESSOAL DO 
+TRABALHO 
+ 
+Organizando a leitura: 
+1- Antes de ler, pergunte-se mentalmente o que sabe sobre o assunto. 
+2- Faça uma primeira leitura rápida da obra, procurando captar o plano do livro. 
+3- Após a primeira leitura, informe-se sobre o autor. 
+4- Releia reflexivamente sobre o primeiro capítulo. 
+5- Durante a Segunda leitura resolva as dúvidas que surgigem e prepare fichas com 
+transcrições dos trechos mais importantes. Anote também seu esquema do capítulo e 
+suas observações pessoais sobre o que lê. 
+6- Faça um resumo do que leu. 
+7- Proceda da mesma forma sobre os outros capítulos. 
+8- Relacione os capítulos entre si. 
+9- Ao terminar de reler a obra, reveja suas fichas de anotações. 
+10- Discorra oralmente sobre a obra, usando suas próprias palavras (se preferir faça uma 
+gravação). 
+ 
+ 
+Maio 2004 
+26
+Estudando o texto  
+ 
+PARA ENCONTRAR A IDÉIA PRINCIPAL NA UNIDADE DE LEITURA: 
+1- Delimite as unidades de leitura do texto, segundo o sentido completo dos pensamentos 
+expressos pelo  autor. 
+2- Analise a unidade de leitura, encontre a idéia principal e formule-a em uma frase-
+resumo. 
+ 
+PARA SUBLINHAR O TEXTO: 
+1- Não sublinhe na primeira leitura. Antes de começar a sublinhar é preciso Ter um 
+contato inicial com o texto e submetê-lo a um questionamento. 
+2- Sublinhe durante a leitura reflexiva, mas apenas o que é realmente importante para o 
+estudo do texto. 
+ 
+PARA ESQUEMATIZAR O TEXTO: 
+1- Faça uma distribuição gráfica do assunto, mediante divisões e subdivisões que 
+representem a sua subordinação hierárquica. 
+2- Construa o esquema [por meio de chaves de separação ou por listagem com 
+diferenciação de espaço e/ou classificação numérica para as divisões e subdivisões dos 
+elementos. 
+3- Mantenha no esquema fidelidade ao texto original. 
+4- Ordene a estrutura do esquema de forma lógica e facilmente compreensível. 
+ 
+ 
+PARA RESUMIR O TEXTO: 
+1- Não comece a resumir antes de levantar o esquema do texto ou de preparar as anotações 
+de leitura. 
+2- Redija o resumo em frases breves, diretas e objetivas. 
+3- Acrescente ao resumo as necessárias referências bibliográficas. 
+4- Acrescente, sempre que considerar necessário, suas observações pessoais ao resumo. 
+ 
+PARA A ANÁLISE TEXTUAL 
+1- Estabeleça a unidade de leitura. 
+2- Leia rapidamente o texto completo da unidade de leitura, assinalando na margem as 
+palavras desconhecidas e pontos que requerem melhor esclarecimento. 
+3- Esclareça o sentido das palavras desconhecidas e as eventuais dúvidas que tenham 
+surgido no texto. 
+4- Informe-se melhor sobre o autor do texto. 
+5- Faça um esquema do texto estudado. 
+ 
+PARA ANÁLISE TEMÁTICA 
+1- Releia de modo reflexivo o texto da unidade de leitura, com o propósito de apreender o 
+conteúdo. 
+2- Procure no texto completo as respostas para perguntas do tipo: 
+a) De que trata o texto? 
+b) O que mantém sua unidade global? 
+ 
+Maio 2004 
+27
+3- Procure encontrar o processo de raciocínio do autor, mediante um esquema do 
+plano do texto (que pode ser muito diferente do obtido na análise textual). 
+4- Examine cada elemento do texto e compare-o com os ossos de um vertebrado: se faz 
+parte do “esqueleto” do texto, é um elemento essencial, caso contrário é um elemento 
+secundário ou complementar. 
+5- Só dê por terminada a análise temática quando estabelecer com segurança o esquema 
+definitivo do pensamento do autor. 
+ 
+PARA ANÁLISE INTERPRETATIVA 
+1- Não se deixe tomar pela subjetividade. 
+2- Relacione as idéias do autor com o contexto filosófico e científico de sua época e de 
+nossos dias. 
+3- Faça a leitura das “entrelinhas” a fim de inferir o que não está explícito no texto. 
+4- Adote uma posição crítica, a mais objetiva possível, com relação ao texto. Esta posição 
+tem de estar fundamentada em argumentos válidos, lógicos e convincentes. 
+5- Faça um resumo do que estudou. 
+6- Discuta o resultado obtido no estudo. 
+ 
+Construindo um estilo de redação: 
+1- Exponha as idéias com clareza e objetividade. 
+2- Utilize linguagem direta. 
+3- Redija com simplicidade, sem resvalar para o supérfluo e sem descambar para o 
+excessivamente coloquial. Enfoque a matéria e particularize os pontos necessários para 
+a comunicação necessários para a comunicação sem recorrer a um estilo prolixo, 
+retórico ou confuso. 
+4- Use vocabulário técnico somente para o estritamente necessário. Seja rigoroso e preciso 
+no seu uso, a fim de evitar que seu texto seja hermético. 
+5- Evite escrever períodos muito longos. Prefira  frases curtas. 
+6- Use a terceira pessoa do singular. Evite referências pessoais como “minha tese”, “neste 
+meu estudo”. É mais correto e elegante utilizar expressões como “a presente tese”, “no 
+presente estudo”. É também desaconselhável usar a primeira pessoa do plural par 
+indicar impessoalidade. Por exemplo: “nossa tese”, “neste nosso estudo”. 
+ 
+ 
+Redigindo: 
+1- Ao redigir, observe as regras gramaticais (ortografia, concordância e pontuação podem 
+facilmente modificar o sentido de sua mensagem. 
+2- Procure escrever como se tivesse dirigindo-se diretamente a alguém definido. Isso ajuda 
+a desenvolver a linha de raciocínio e de argumentação para alcançar um objetivo 
+estabelecido. 
+3- Esteja atento ao significado semântico dos termos utilizados no trabalho. 
+4- Evite usar modismos, gírias e banalidades vocabulares. 
+5- Exponha as idéias com clareza, precisão e objetividade. 
+6- Use vocabulário técnico somente para o estritamente necessário. 
+7- Prefira sempre o emprego de frases curtas, simples e que contenham uma única idéia. 
+ 
+Maio 2004 
+28
+8- Corrija e/ou reescreva o texto quantas vezes forem necessárias para obter maior 
+objetividade, precisão e clareza em sua mensagem. 
+ 
+ 
+(FONTE: GALLIANO, Guilherme A. O método científico: teoria e prática. São Paulo:   
+                     Harbra, 1979. 200p) 
+ 
+ 
+VERBOS A SEREM UTILIZADOS PARA FAZER 
+MENÇÕES A AUTORES 
+ 
+Verbos para APRESENTAR: 
+Nome do autor 
+Verbos 
+SILVA (2004) 
+Afirma que (afirmar) 
+ 
+Comenta que (comentar) 
+ 
+Aponta que (apontar) 
+ 
+Identifica que (identificar) 
+ 
+Mantém que (manter) 
+ 
+Sustenta que (sustentar) 
+ 
+Nota que (notar) 
+ 
+Cita que (citar) 
+ 
+Argumenta que (argumentar) 
+ 
+Considera que (considerar) 
+ 
+Identifica que (identificar) 
+ 
+Enumera que (enumerar) 
+ 
+Relata que (relatar) 
+ 
+Menciona que (mencionar) 
+ 
+outros 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Verbos para REFORÇAR: 
+Nome do autor 
+Verbos 
+SILVA (2004) 
+Enfatiza que (enfatizar) 
+ 
+Destaca que (destacar) 
+ 
+Reforça que (reforçar) 
+ 
+Assinala que (assinalar) 
+ 
+Salienta que (salientar) 
+ 
+Ressalta que (ressaltar) 
+ 
+Aposta que (apostar) 
+ 
+Maio 2004 
+29
+ 
+Acredita que (acreditar) 
+ 
+Afirma que (afirmar) 
+ 
+Sustenta que (sustentar) 
+ 
+Assevera que (asseverar) 
+ 
+Considera que (considerar) 
+ 
+Defende que (defender) 
+ 
+Entende que (entender) 
+ 
+outros 
+ 
+ 
+ORIENTAÇÃO PARA ELABORAÇÃO DE ARTIGOS 
+1. AVALIAÇÃO DE PROPOSTAS DE ARTIGOS PARA PUBLICAÇÃO 
+ 
+Quando as propostas de artigos (papers) científicos-técnicos sac analisadas (enviados para 
+parecer), os avaliadores (especialistas) têm na mente algumas questões enquanto revisam o 
+texto apresentado. Para autores em potencial, como par exemplo aluno de curso de 
+mestrado e doutorado pode ser vantajoso conhecer algumas destas questões. O que 
+permitira antecipar-se junto aos avaliadores permitindo que o trabalho de avaliação seja 
+mais ágil e menor o tempo - de resposta ao pedido de avaliação. A seguir estão 
+apresentadas algumas questões compiladas das orientações do Journal of Construction 
+Management and Economics - periódico publicado mensalmente par editora do Reino 
+Unido (UK): 
+ 
+1. O titulo reflete corretamente o conteúdo e o propósito do artigo? (Em particular, 
+o título indica se o artigo trata de uma revisão bibliográfica, um estudo de caso 
+ou uma nova contribuição ao conhecimento na área do gerenciamento de 
+construções?) 
+2. O resumo (abstract) esta suficientemente conciso (breve)?  
+3. A lista de palavras-chave (keywords) fornece índices (index) adequado para 
+facilitar a busca do artigo? 
+4. Na introdução, estão os propósitos do artigo claramente estabelecidos? 
+5. Os propósitos declarados no artigo são concluídos com sucesso? 
+6. As figuras e as tabelas ajudam a esclarecer o conteudo do artigo? 
+7. A sintaxe do texto em português esta satisfatória? (o mesmo para a sintaxe do 
+inglês usada no abstract?). 
+8. O texto é conciso? (caso o avaliador julgue que o texto esteja excessivo, ele 
+indicara as partes para serem cortadas). 
+9. O texto é desenvolvido com argumentos razoavelmente lógicos? 
+10. As conclusões acompanham sensivelmente o que foi relatado no trabalho? 
+11. As referencias bibliográficas indicadas são representativas? (Nas referencias 
+estão listados os pesquisadores considerados como autoridades no assunto 
+trabalhado).  
+12. O artigo em geral tem qualidade adequada para ser publicado nesta revista? 
+ 
+ 
+Maio 2004 
+30
+E importante ter em mente que o artigo deve contribuir para o melhor entendimento das 
+disciplinas acadêmicas da área do gerenciamento da construção civil. Textos descritivos 
+devem ser evitados. Um dos melhores teste para classificar uma proposta de artigo e 
+perguntar se é uma hipótese ou um método. Se o artigo não se encaixar em nenhuma das 
+duas situações, então e muito difícil que seja indicado para publicação. 
+Nas publicações internacionais, as propostas de artigos são encaminhadas a pelo menos 4 
+avaliadores para parecer. Portanto, dificilmente um avaliador decidirá isoladamente o 
+destino de um artigo. Apenas o editor da revista pode decidir sozinho. Em geral, o editor é 
+guiado pelos pareceres dos especialistas. Isso significa que os argumentos e razoes 
+apontada nos pareceres são indicações importantes para a recomendação de um artigo. 
+Em geral os artigos deveriam ser menores. Os editores preferem encaminhar as propostas 
+de artigos para avaliadores que pensem de forma concisa. Em alguns casos, o parecer pode 
+indicar pela devolução da proposta para o autor com uma notificação solicitando a 
+diminuição do texto e a apresentação sob a forma de nota (notes). Vista que a nota é menor 
+que um artigo (2000 palavras), isto possibilitará que um major número de artigos seja 
+publicado numa mesma edição da revista. 
+2. CARACTERISTICAS NECESSARIAS DE UM ARTIGO (PAPER) 
+ 
+Dimensões: Os artigos (papers) devem ter entre 2000 a 5000 palavras, escritos na língua 
+indicada pelo editor (em geral e o inglês), escrito em espaço duplo em papel tamanho A-4, 
+com 4 centímetros de margem esquerda. As paginas devem ser numeradas (números, 
+consecutivos). O texto deve ser arranjado em títulos e subtítulos. Não serão aceitos anexos, 
+extensos e outros materiais de explanação, além do texto do artigo propriamente dito. 
+ 
+Título: na primeira folha deve-se colocar o titulo do trabalho, o nome do autor e dos co-
+autores, a instituição as quais são filiados, os endereços para correspondência e envio das 
+provas para alterações. O título deve ficar em até 75 caracteres (incluindo os espaços). 
+ 
+Resumo e palavras-chave: também na primeira folha, logo abaixo dos autores, vai o 
+abstract (resumo), com no máximo 200 palavras. O resumo deve conter claramente a 
+indicação do conteúdo trabalhado no artigo e suas conclusões. As palavras-chave 
+(Keywords) em número de 5 devem ser escolhidas com bastante critério de forma a ajudar 
+nas buscas futuras por interessados no assunto. 
+ 
+Ilustrações Fotografias, desenhos, gráficos, diagramas, etc. devem ser numerados (Fig. 1; 
+Fig. 2; Tabela 1;: Fotografia 1;: Gráfico 1; etc.) na ordem com que aparecem no texto. Logo 
+abaixo das ilustrações devem ser colocadas as indicações da figura. As ilustrações devem 
+ser de fácil reprodução, desenhados em tinta preta sobre papel branco. No caso de se 
+utilizar algum software especifico será necessário verificar se o editor possui o 
+referido.software de modo a reproduzir a figura. As fotografias devem ser em preto e 
+branco, com as indicações do autor (fotógrafo) e, como qualquer figura, deve ter na parte 
+inferior a indicação do que se trata. A unidade utilizada deve ser indicada. 
+Preferencialmente usar o sistema métrico e em caso de se utilizar outra unidade de medida, 
+colocar entre parênteses o equivalente em metros, centímetros ou milímetros. A escala 
+usada também deve vir indicada (2:1; 1:100; 1:5000; etc.). 
+ 
+ 
+Maio 2004 
+31
+Referências: no texto a indicação de referências devem utilizado o Sistema Harvard: para 
+um autor: Smith(1995), para dois autores: (Vargas and Coelho,1996); para mais de 2 
+autores. Mendes Jr et al (1996). No caso de se ter um autor com mais de uma indicação no 
+mesmo ano: Smith (1995ª), Smith (1995b). As referências completas devem ser colocadas 
+ao final do artigo de acordo com as regras usuais (ABNT - NBR 6023) em ordem alfabética 
+pelo sobrenome do autor principal. 
+ 
+Notas de rodapé (endnotes): um número reduzido de notas é permitido, colocadas ao pé da 
+pagina em que são mencionadas com o objetivo de esclarecer sem sobrecarregar o texto. 
+Devem ser identificadas de acordo com a indicação no corpo do texto (usar números 1,2 3 . 
+. etc) preferencialmente em sobrescrito. A notas de rodapé são utilizadas também para 
+citação de autoridade e para as referências cruzadas (indicação de outras partes da obra 
+onde o assunto foi tratado) Deve ser escrita em espaço simples em caractere menor que o 
+utilizado no texto De qualquer forma é incomum a utilização de notas de rodapé em artigos 
+(papers). 
+3 - SUGESTÕES PARA OS RESUMOS (ABSTRACTS)  
+ 
+Em geral o resumo é o ultimo item a ser escrito. É, no entanto, a parte mais importante de 
+um paper. A maior parte dos leitores (95%) de revistas técnicas (journals) lêem apenas o 
+resumo Internet. Estão disponíveis apenas os abstracts dos artigos publicados. As 
+necessidades dos abstracts serem concisos freqüentemente levam o iniciante a ter 
+dificuldade na elaboração do resumo. Uma boa pratica é formular resumos de artigos 
+escritos por outros autores até ganhar a confiança necessária. No caso de autores brasileiros 
+a dificuldade se agrava face a necessidade de elaborar a versão em inglês. O ideal contatar 
+(manter amizade) com algum colega norte-americano ou inglês possuidor de bom domínio 
+de português e pedir para ele fazer a tradução (translate). Outra saída é contar com a 
+tradução feita par um professor de línguas com domínio da área técnica ou ainda com o seu 
+orientador (caso ele domine o inglês). A linguagem utilizada no abstract deve ser 
+informativa. É um erro pensar que o resumo deva ser simplesmente igual.a introdução (ou 
+um mero resumo dela). No abstract diga ao leitor o que está sendo pesquisado como foi o 
+experimento e o que foi descoberto (resultados encontrados). No resumo não precisa dizer 
+como o artigo foi escrito ou organizado (isso fica para a introdução) o principal achado no 
+trabalho de pesquisa deve ser claramente indicado no abstract. A seguir estão listados 
+algumas sugestões para ajudar na elaboração do resumo de um artigo: 
+ 
+1. Evite começar o abstract com as seguintes frases: "Este artigo..."; "This report..."; 
+"Este trabalho...". É melhor ir direto ao assunto trabalhado. Evite sempre a grande 
+tentação de explicar as partes do trabalho. 
+2. Evite sentenças que terminem com as seguintes palavras: “... é descrito”, “... é 
+relatado"; "são analisadas". Isto é muito vago para ser tratado como algo 
+informativo. Lembre-se: o abstract deve ser informativo. 
+3. Evite, também, iniciar frases com as seguintes palavras: “É sugerido...”; "Foi 
+sugerido..."; "Acredita-se que..."; Foi deduzido que..."; “Em qualquer caso estas 
+palavras podem ser suprimidas sem causar grandes danos a essência do texto. 
+ 
+Maio 2004 
+32
+4. Evite mais do qualquer coisa escrever na primeira pessoa (eu e/ou nós). No 
+abstract. deve vir na terceira, evitando-se também o usa de; "o autor...". Lembrete: 
+o abstract deve, tratar do assunto trabalhado e nunca sabre o ato de escrever.  
+. 
+A seguir um exemplo (pior impossível) do usa errado das recomendações anteriores:  
+ 
+This paper discusses research which was underlaken in the autor´s country. A 
+theorical framework is develop from a litterature search and this used as the basis of 
+na analytical model. Data where colected within this framework and analised 
+according to the precepts laid down by early researchers in the field. The data is used 
+to demostrate that certain conclusions can be drawn and these are discussed in the 
+light of previous work. Conclusion are drawn and is shown that these may useful for 
+practioners. 
+ 
+4-REFERÊNCIAS 
+.  
+CONSTRUCTION T\1ANAGEMENT AND ECONOMICS. Homepage Internet: 
+http://www.rdg.ac.uk (UK. 1997).  
+UNIVERSIDADE FEDERAL DO PARANÁ - biblioteca CENTRAL. Normas para 
+a Apresentação de trabalhos .2.ed. Curitiba, Ed. UFPR, Governo do Estado do 
+Paraná, 1992, 8 de abril. 
+ 
+ 
+ 
+  
+SUGESTÕES PARA APRESENTAÇÕES PÚBLICAS 
+ 
+Preparação do material (transparências, slides, cartazes) 
+1- Ser generalista – não estatístico 
+2- Usar gráficos, esquemas, figuras, preferencialmente aos textos. 
+3- Tentar manter a uniformidade do material. 
+4- Não colocar muitos dados em uma mesma transparência, não usar texto normal. 
+5- Explorar a possibilidade das cores. É aconselhável fundo claro e letras escuras. 
+6- Observe a regra do sete: 
+- 
+Utilize no máximo sete palavras por linha e sete linhas por slide. 
+- 
+Evite embaralhar texto e imagens. 
+- 
+Seja breve. 
+- 
+Dê espaço entre as linhas para maior legibilidade 
+- 
+Balance textos e imagens. 
+- 
+Seja consistente. 
+- 
+Cheque a ortografia 
+- 
+Dê vida ao material. 
+ 
+Maio 2004 
+33
+ 
+Apresentação 
+1- Verificar antecipadamente a ordem dos slides ou transparências, o estado do 
+retroprojetor e do microfone. 
+2- Ser polido. 
+3- Não complicar, não ficar atendo-se aos detalhes. 
+4- Concentrar-se no que fala e não nos detalhes. 
+5- Falar devagar, cuidado com os vícios de linguagem. 
+6- Checar o nível de compreensão da platéia. 
+7- Não ler simplesmente o que está escrito e, sim, falar sobre o material. 
+8- Dar um tempo para as pessoas lerem antes de começar a falar. 
+9- Falar primeiro sobre a mensagem e, após, sobre o conteúdo. 
+10- Nunca exceder o tempo. 
+11- Título curto e interessante. 
+12- Apelar para a visão e a audição. Abusar dos recursos disponíveis. 
+13- Terminar com clímax para ser lembrado (Gran finale). 
+14- Permanecer tranquilo, não Ter medo de usar a criatividade, não imitar, não forçar. Ser 
+natural. 
+15- Ao responder as questões, repeti-las e agradecer. 
+16- Ensaiar a apresentação. 
+ 
+ 
+REFERÊNCIAS E BIBLIOGRAFIA 
+ 
+ 
+BAPTISTA, Myrian Veras. Planejamento, introdução à metodologia do planejamento 
+social. . 4ª  ed . São Paulo: Morais, 1991. 103p. 
+BEAUD, Michel. Arte da tese. Rio de Janeiro: Bertrand Brasil, 1996. 184p. 
+BUNGE, Mário. Ciência e desenvolvimento. São Paulo: Itatiaia, 1980 - p. 136 (Coleção o 
+homem e a ciência, v. 11). 
+CERVO, A. L., BERVIAN, P. A. Metodologia Científica. 3 ed. São Paulo: McGraw-Hill, 
+1983. 249p. 
+ECO, Humberto. Como se faz uma tese. 14ª  ed. São Paulo:  Perspectiva, 1998.. 170p. 
+ETGES, 
+Norberto 
+J. 
+In: 
+Ciência, 
+Interdisciplinaridade 
+e 
+Educação. 
+Interdisciplinaridade: para além da Filosofia do Sujeito. Petrópolis: Vozes, 1995 p. 
+51-83. 
+GALLI, Edgard A. Conocimiento Tecnológico, Educacion y Tecnologia. R. Lat. de 
+Innovaciones Educativas. Buenos Aires, v. 5, n. 12, p. 13-46, 1993. 
+GALLIANO, Guilherme A. O Método Científico: teoria e prática. São Paulo: Harbra, 
+1979.  200p. 
+GIL, Antônio Carlos. Como elaborar projetos de pesquisa. 3º  ed. São Paulo: Atlas, 1996. 
+159p.   
+JAPIASSU, Hilton. Introdução ao Pensamento epistemológico. 7a ed. Rio de Janeiro. 
+Livraria Fco. Alves, 1992 
+ 
+Maio 2004 
+34
+LACATOS, Eva  Maria. & MARCONE, Marina de Andrade. Metodologia Científica. 2º 
+ed. São Paulo: Atlas, 1991. 249p.  
+LOPES S. J., Pe. Francisco Leme. Introdução à Filosofia. 5a ed. Rio de Janeiro: AGIR, 
+1968 
+MARCANTONIO, A.T., SANTOS, M. M., LEHFELD, N. A. Elaboração e divulgação 
+do trabalho científico. São Paulo: Atlas, 1993.  92p. 
+MERKLE, M. Sc., Luiz Ernesto. In: O ensino, a tecnologia e os aspectos cognitivos do 
+agir. 2o Congresso Internacional de Educação Tecnológica. Florianópolis. Anais... 1995 
+p. 46. 
+MYNAIO, Maria Cecília de Souza. (Org.) Pesquisa social: teoria, método e criatividade. 
+Coleção tema sociais. 9º ed. Petrópolis: Vozes. 1998. 80p.  
+OLIVEIRA, Silvio Luiz. Tratado de metodologia científica: Projetos de pesquisas, TGI, 
+TCC, monografias, dissertações e teses. São Paulo: Pioneira, 1997. 320p, 
+RUDIO, Franz Victor. Introdução ao projeto de pesquisa científica. Petrópolis: Vozes, 
+1986. 17ª . 128p. 
+SEVERINO, Antônio Joaquim. Metodologia do trabalho científico. 20.ed. São Paulo: 
+Cortez, 1996. 272p. 
+SILVA, Cassandra R. O. Epistemologia do conhecimento tecnológico como base de 
+geração, aplicação e difusão de tecnologia. Fortaleza: Idéias. N. XXII –Ano 1996, P. 05-
+08.  
+TAFNER, Malcon A., TAFNER, José, FISCHER, Julianne. Metodologia do trabalho 
+acadêmico. Curitiba: Juruá, 1998. 172p. 
+VIEIRA, Sônia. Como escrever uma tese. São Paulo: Pioneira, 1991. 82p. 

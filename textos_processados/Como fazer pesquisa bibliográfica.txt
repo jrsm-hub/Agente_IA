@@ -1,0 +1,301 @@
+How To 
+ Volume 2 - Número 2 - Agosto 2009 | SBC HORIZONTES | 30 
+Como fazer pesquisa bibliográfica 
+ 
+Agma Juci Machado Traina, agma@icmc.usp.br, ICMC-USP São Carlos 
+Caetano Traina Jr., caetano@icmc.usp.br, ICMC-USP São Carlos 
+Por onde devo começar quando quero iniciar uma pesquisa bibliográfica? Este 
+artigo visa responder a essa questão, apresentando ao jovem pesquisador os passos 
+principais para realizar uma pesquisa bibliográfica que contemple seu objetivo, bem 
+como as ferramentas básicas amplamente disponíveis para ser bem sucedido. 
+Contexto 
+Realizar uma pesquisa bibliográfica faz parte do cotidiano de todos os estudantes e pesquisadores. É 
+uma das tarefas que mais impulsionam nosso aprendizado e amadurecimento na área de estudo. 
+Atualmente, as bibliotecas digitais têm facilitado e simplificado muito essa tarefa, pois trazem recursos 
+de busca e cruzamento de informações que facilita a vida de todos. Nesse artigo, o enfoque será em 
+como utilizar bem os recursos amplamente disponíveis, de modo que o usuário encontre o apoio 
+bibliográfico que necessita para realizar sua pesquisa, para compará-la com seus pares e buscar 
+motivação para continuá-la. 
+Antes de iniciar uma pesquisa bibliográfica, é preciso ter muito claro qual é o seu objetivo. Como 
+somos da área de computação, podemos fazer uma analogia da pesquisa bibliográfica com a pesquisa 
+em uma estrutura de dados, que é uma das primeiras formas de busca de informações que aprendemos 
+a fazer! Assim, uma pesquisa bibliográfica pode ser feita em abrangência, ou em profundidade. Mas o 
+mais importante é que se defina, desde o início, o que se pretende com ela. 
+As pesquisas são feitas segundo contextos específicos, ou seja: por assunto, autores, veículos, período 
+de tempo, e por combinações entre eles. Por isso, embora a pesquisa seja feita usando ferramentas da 
+Web, a busca por bibliografias em geral não usa ferramentas de busca genéricas, como Google ou 
+Yahoo!, mas ferramentas específicas para busca bibliográfica, como descrito a seguir. Para fazer uma 
+boa pesquisa, comece criando listas de palavras-chave, uma para cada contexto: assunto, autores, 
+veículos, nomes de técnicas, algoritmos e ferramentas, etc. 
+Tendo uma lista de palavras-chave, uma pesquisa por abrangência é feita procurando por todas elas de 
+uma vez, ou seja, executam-se diversas buscas, procurando por artigos que tenham essas palavras, 
+antes de analisar detalhadamente o conteúdo dos artigos. Quando estiver satisfeito, passe para o passo 
+de análise, avaliando cada artigo obtido e fazendo novas listas de palavras para procurar. Quando 
+acabar de analisar todos, se ainda precisar de mais material, repita o processo com as novas listas de 
+palavras. Fazer uma busca em profundidade significa primeiro escolher uma palavra-chave, daí buscar 
+o que puder com ela, estudar os artigos obtidos, e atualizar sua lista de palavras, recomeçando então o 
+processo com a nova lista. É uma boa idéia sempre contar em quantos artigos cada palavra é 
+mencionada: num artigo só, em poucos, ou em muitos. 
+Analisar um artigo é um processo pessoal de cada um, mas uma regra geral é a seguinte: primeiro 
+avalie o título. Se ele estiver dentro do que você está procurando, ou se estiver incerto, leia o resumo. 
+Com isso, você já pode ter uma idéia de se o artigo tem algo que lhe interessa. Se não tiver, descarte-o. 
+Até esse ponto não é preciso o texto completo, pois título, autores e resumo são, em geral, 
+disponibilizados pelas bibliotecas digitais. Se o artigo for interessante, ou você ainda estiver incerto 
+disso, obtenha agora o texto completo, e dê uma folheada rápida, vendo as seções, figuras e tabelas que 
+contém. E leia as conclusões. Agora você deve ter uma idéia boa sobre o artigo ser interessante ou não. 
+Daqueles que interessam leia a introdução, e se suas expectativas se confirmarem, salve o arquivo, faça 
+anotações de porque você se interessou e estude o artigo. Quando estiver acostumado com o processo, 
+Esta é uma publicação eletrônica da Sociedade Brasileira de Computação – SBC. Qualquer opinião pessoal não pode ser atribuída como da SBC.   
+A responsabilidade sobre o seu conteúdo e a sua autoria é inteiramente dos autores de cada artigo.  
+How To 
+ Volume 2 - Número 2 - Agosto 2009 | SBC HORIZONTES | 31 
+analisar um artigo não deve tomar mais do que três ou quatro minutos, quinze minutos se você chegar a 
+ler a introdução. Mas quando um artigo interessar, invista nele o tempo que precisar.  
+Passos e Objetivos 
+Em geral, a pesquisa bibliográfica tem como alvo apoiar a redação de um projeto, um artigo ou um 
+relatório, mas para ser bem sucedido é importante ter bem claro seu objetivo. Neste texto, 
+consideramos que a pesquisa pode ter até três objetivos, independente de seu alvo, que aqui já 
+apresentamos adaptados ao contexto da informática. A saber: 
+1. Identificar conceitos, técnicas e ferramentas que servem de base para o desenvolvimento de 
+nosso trabalho. Chamaremos este objetivo de identificar conceitos básicos; 
+2. Identificar técnicas, algoritmos, softwares e autores com trabalhos semelhantes ou 
+precursores ao nosso. Chamaremos este objetivo de identificar parceiros; 
+3. Identificar necessidades, situações e resultados do mundo real, possivelmente fora do mundo 
+da informática, que justifiquem nosso trabalho. Chamaremos este objetivo de identificar 
+motivação. 
+As ferramentas mais utilizadas para preparar uma pesquisa bibliográfica são as Bibliotecas Digitais 
+(DLs) das sociedades científicas, tais como: ACM (Association for Computing Machinery), IEEE 
+Computer  Society, e SIAM (Society for Industrial and Applied Mathematics), que oferecem recursos 
+para que sejam pesquisados artigos de veículos patrocinados por elas, e as bibliotecas das editoras de 
+revistas técnicas, como a Elsevier, Springer, etc. 
+O resultado da consulta pode ser um volume muito grande de artigos, e a questão torna-se então como 
+selecionar o que é mais relevante, considerando cada um desses três objetivos.  
+Para identificar conceitos básicos  
+Se a pesquisa está sendo realizada para atender ao objetivo 1: identificar conceitos básicos e 
+consolidados, é uma boa idéia colocar seu esforço de estudo nos trabalhos mais citados, desde que 
+sejam citações positivas, que indiquem a importância do trabalho. O alvo aqui é realizar busca por 
+abrangência por assuntos, usando termos já conhecidos do seu assunto de interesse. Procure por artigos 
+tipo surveys, livros, artigos de consolidação em periódicos e tutoriais em eventos. Compare as 
+referências feitas pelos artigos retornados, e identifique aquelas que mais se repetem. Aprenda também 
+os conceitos e técnicas que ocorrem com mais frequência. A partir daí, “feche” mais o assunto naquilo 
+que lhe interessa, numa busca em profundidade.  
+Dessa pesquisa deverão resultar os trabalhos que estabeleceram os fundamentos dos conceitos 
+estudados, bem como os trabalhos relevantes mais recentes que indicam a importância dos mesmos 
+para a área. Os artigos, principalmente os mais recentes, indicam outras referências importantes para o 
+seu trabalho, ampliando o seu leque de descobrimento. Quando você encontrar referências básicas 
+importantes para seu trabalho, procure por artigos mais recentes que o citam, tentando encontrar 
+trabalhos atuais que exploram aqueles conceitos básicos. 
+A DL da ACM, por exemplo, lista as referências citadas no artigo aberto e também quais são os artigos 
+publicados pela própria ACM ou pelas editoras associadas que citam aquele artigo. A riqueza de 
+informações que passará a se descortinar para você torna essa atividade um passo muito significativo 
+no amadurecimento e preparo de seu projeto de pesquisa. Como a curiosidade é uma das características 
+inatas dos pesquisadores, a realização de pesquisa bibliográfica é uma das tarefas mais motivadoras do 
+processo científico, pois apóia o aprendizado de novo conhecimento. 
+ 
+ 
+How To 
+ Volume 2 - Número 2 - Agosto 2009 | SBC HORIZONTES | 32 
+Para identificar parceiros 
+Quando o objetivo da pesquisa bibliográfica é encontrar artigos na mesma linha que você está 
+trabalhando, ou artigos que apoiem o seu trabalho, aconselhamos a executar simultaneamente duas 
+atividades, de maneira permanente: 
+- Acompanhe as principais conferências e periódicos da sua área, em buscas por abrangência. 
+Isso hoje é simples de ser feito graças à disponibilização das principais bibliotecas digitais pelo 
+portal de periódicos CAPES (http://www.periodicos.capes.gov.br). 
+- Identifique os grupos de pesquisa/pesquisadores que atuam na sua linha. Isso pode ser feito 
+acompanhando as páginas pessoais desses pesquisadores, ou utilizando portais de bibliotecas 
+digitais. Nosso favorito é o portal da DBLP Computer Science Bibliography , que hoje integra 
+mais de 1.2 milhão de artigos e tem abrangência mundial (http://www.informatik.uni-
+trier.de/~ley/db/index.html). A DBLP referencia as principais DLs institucionais, e tem várias 
+maneiras de navegação através de links que contextualizam sua consulta, incluindo links para 
+obter o artigo em questão. A DBLP referencia os principais eventos e periódicos em 
+computação, e tem sido atualizada constantemente graças ao esforço de pesquisadores da 
+Universidade de Trier – Alemanha, liderados pelo Prof. Michael Ley. 
+Para conhecer os pesquisadores brasileiros interessados em uma área particular, a dica é acompanhar os 
+eventos organizados e apoiados pela Sociedade Brasileira de Computação (SBC). A BDBComp - 
+Biblioteca Digital Brasileira de Computação (http://www.lbd.dcc.ufmg.br/bdbcomp), desenvolvida e 
+mantida com o esforço do Laboratório de Banco de Dados da Universidade Federal de Minas Gerais, 
+possui os arquivos de muitos artigos de eventos e periódicos brasileiros, e está sempre ampliando seu 
+acervo. Para artigos em periódicos latinoamericanos, incluindo o Brasil, uma boa pedida é o Scielo 
+(http://www.scielo.org/php/index.php). 
+Neste ponto vale uma ressalva. Sempre se procura conhecer as pesquisas feitas no exterior, mas é 
+comum que se negligencie as realizadas no Brasil, muitas vezes sequer se conhecendo o que é realizado 
+aqui. Esse é um erro que não deveria acontecer, pois além de termos excelentes pesquisadores e 
+instituições de pesquisa (reconhecidos lá fora!) a interação e colaboração mais facilmente disponíveis e 
+fáceis de se atingir são as que estão próximas. Assim, conheça os grupos de pesquisa e trabalhos 
+brasileiros já realizados na linha do seu. Mostre estar por dentro das pesquisas nacionais citando-as em 
+seu projeto de pesquisa e artigos e gere uma sinergia positiva entre os grupos envolvidos! 
+Acompanhar o estado-da-arte relativo às atividades que você está fazendo é tarefa primordial para que 
+não seja pego de surpresa ao tentar publicar resultados já alcançados por outros grupos. Não estar 
+atento a isso pode ser fatal. Por exemplo, durante o desenvolvimento de seu projeto de doutorado, no 
+qual você deverá apresentar resultados inovadores, não estar por dentro das pesquisas já feitas poderá 
+atrasar e prejudicar o andamento da sua pesquisa. 
+Para identificar motivação 
+A pesquisa por referências bibliográficas feita para identificar necessidades e motivação de novos 
+temas de pesquisa também pode ser vista como uma maneira de perceber quais são os tópicos em alta 
+(hot topics) que estão sendo considerados e desbravados pela comunidade da área. Por um lado, 
+ninguém quer colocar esforços em assuntos que se encontram relegados ao ostracismo pela 
+comunidade científica, e por outro lado é necessário cuidar para não se acabar tendo em mãos uma 
+solução da qual não se sabe que problema ela resolve. Assuntos que são considerados ultrapassados 
+não atrairão apoio para seu desenvolvimento. Ou seja, se você está preparando um projeto de pesquisa 
+para ser submetido para um programa de pós-graduação, tal projeto não alcançará êxito para 
+aprovação; se é artigo científico, sua chance de aceitação será muito baixa. Por outro lado, quando 
+estamos desenvolvendo algo, seja um programa, um algoritmo ou uma técnica, às vezes nos 
+empolgamos e queremos agregar mais funcionalidades, flexibilidade, ser mais abrangente, etc., e 
+How To 
+ Volume 2 - Número 2 - Agosto 2009 | SBC HORIZONTES | 33 
+depois percebemos que aquilo não é de fato necessário. Buscar por motivação ajuda, e muito, a 
+direcionarmos os esforços naquilo que de fato está sendo procurado pela comunidade. 
+Procure as conferências de primeira linha de sua área. Seu orientador ou líder de pesquisa saberá 
+indicar quais são. Este é o primeiro lugar onde os temas em alta são discutidos e apresentados. Os 
+palestrantes convidados (keynote speakers) costumam tratar desses temas em suas palestras. Mesmo 
+que você não participe do congresso, as palestras em geral são disponibilizadas na página do evento.  
+A ACM tem as newsletters, que são publicações que sumarizam os pontos altos dos principais eventos 
+da área, traz discussões e artigos sobre temas de interesse, além de divulgar o que está sendo 
+considerado conhecimento essencial, para todas as grandes áreas de interesse da comunidade de 
+informática, ou SIG (Special Interest Group - http://www.acm.org/sigs). O IEEE também tem os 
+Technical Commitees, alguns deles incluindo periódicos que incluem apanhados em profundidade de 
+temas “ quentes ” (http://www2.computer.org/portal/web/tandc/tclist). Outras leituras obrigatórias, para 
+quem quer ficar sempre antenado, são os textos dos magazines da ACM e do IEEE, que contêm artigos 
+curtos e de leitura muito agradável. Informações gerais promovidas pela ACM são encontradas nas 
+Communications e Crossroads, além dos magazines específicos disponíveis para as grandes áreas (Ver 
+ACM DL na Tabela 1). Com relação ao IEEE, referente à área de computação, o magazine Computer 
+merece ser acompanhado mensalmente. Mas não deixe de aproveitar também os outros magazines 
+relacionados às grandes áreas que estão disponíveis na DL do IEEE. 
+ 
+Tabela 1 - Resumo das Principais Bibliotecas Digitais. 
+Organização 
+Link DL 
+Resumo/Dicas 
+Portal de periódicos CAPES  
+http://www.capes.gov.br/ 
+http://www.periodicos.capes.gov.br 
+Atualmente contempla 12.661 veículos, e 
+126 bases de dados (todas as áreas da 
+ciência). 
+ACM (Association for 
+Computing Machinery)  
+http://www.acm.org 
+http://portal.acm.org/dl.cfm  
+Periódicos e eventos patrocinados pela ACM 
+e seus SIGs. Possui membership com preço 
+promocional/reduzido para estudantes e 
+membros de países em desenvolvimento 
+(inclui Brasil). 
+IEEE Computer Society 
+(Institute of Electrical and 
+Electronics Engineers) 
+http://www.computer.org/ 
+http://www2.computer.org/portal/web/csdl 
+Periódicos e eventos patrocinados e/ou 
+publicados pela IEEE Computer Society. 
+Nao inclui publicações das outras sociedades 
+do IEEE. 
+SIAM (Society for Industrial 
+and Applied Mathematics)  
+http://www.siam.org/  
+Conferências e periódicos a partir da 
+página inicial 
+Periódicos e eventos SIAM. Possui 
+membership com preço 
+promocional/reduzido para estudantes e 
+membros de países em desenvolvimento 
+(inclui Brasil). 
+SciELO (Scientific Electronic 
+Library Online) 
+http://www.scielo.org 
+http://www.scielo.org/php/index.php 
+Disponibiliza periódicos científicos da 
+América Latina e Caribe. O Journal da SBC 
+está atualmente nesta DL.  
+DBLP (Computer Science 
+Bibliography) 
+http://www.informatik.uni-trier.de/~ley/db 
+Organiza 1.2 milhão de artigos em 
+conferências e periódicos. Direciona para a 
+DL/evento/ periódico onde o artigo está 
+indexado. 
+BDBComp (Biblioteca 
+Digital Brasileira de 
+Computação) 
+http://www.lbd.dcc.ufmg.br/bdbcomp/  
+Periódicos e eventos brasileiros patrocinados 
+patrocinados pela Sociedade Brasileira de 
+Computação. 
+Google Acadêmico (Scholar) 
+http://scholar.google.com.br/schhp 
+Busca artigos, citações e produção e 
+pesquisadores nas diversas DLs. 
+ 
+How To 
+ Volume 2 - Número 2 - Agosto 2009 | SBC HORIZONTES | 34 
+Como Organizar sua Bibliografia 
+Existem várias ferramentas que permitem gerenciar sua coleção de referências bibliográficas. São os 
+Gerenciadores de Referências. Exemplos importantes são o JabRef, ferramenta em código aberto e  
+muito útil especialmente para quem trabalha com Latex (http://jabref.sourceforge.net), e o EndNote 
+(http://www.endnote.com). Essas ferramentas permitem obter os dados das referências diretamente nas 
+bibliotecas digitais (sem você precisar ficar copiando e colando), criam uma base de dados com essas 
+informações, permitem inserir as citações e referências diretamente nos textos sendo editados, e  antêm 
+e organizam a própria coleção de textos originais dos artigos. A longo prazo, sua base de dados 
+mantida por um gerenciador de referências é um recurso muito valioso para procurar pelas referências 
+para citar em seus textos. 
+Recursos Disponibilizados 
+As DL das grandes editoras, seja da ACM, IEEE, Springer, etc., disponibilizam gratuitamente as 
+referências de seus artigos e frequentemente também os abstracts ou até a primeira página de cada 
+artigo. Mas se você precisa do texto integral, elas cobram, e caro (embora assinaturas ou memberships 
+em algumas sociedades possam valer à pena). Uma iniciativa de extrema importância para a pesquisa 
+no Brasil é o “Portal de periódicos” da CAPES (Coordenação de Aperfeiçoamento de Pessoal de Nível 
+Superior) que disponibiliza para membros de 268 instituições de ensino superior e de pesquisa 
+brasileiros acesso a mais de treze mil revistas internacionais, nacionais e estrangeiras, e 126 bases de 
+dados com resumos de documentos em todas as áreas do conhecimento. Para recuperar artigos via o 
+portal de periódicos da CAPES (http://www.periodicos.capes.gov.br) basta acessá-lo a partir de 
+qualquer computador ligado à Internet localizado nas instituições cadastradas ou por ela autorizadas. 
+Desse modo, você poderá utilizar as publicações indexadas no Web of Science, DII Derwent 
+Innovations Index, Banco de Teses CAPES, General Science Abstracts Full Text, e Scopus, entre 
+outros. Além disso, diversos livros encontram-se disponibilizados. Esse esforço da CAPES para manter 
+os documentos abertos à comunidade brasileira tem contribuído muito para o crescimento de nossa 
+produção científica, e devemos usufruir desse benefício! 
+As principais Bibliotecas Digitais (DLs) para a computação em geral estão sumarizadas na tabela 1. 
+Também são importantes as DL das editoras de periódicos tais como Elsevier, Wiley, etc., que podem 
+ser acessados através do portal da Capes. Deixamos ao leitor, como exercício, explorá-las visando 
+conhecer as suas funcionalidades. 
+Mas, e se você precisa do original de um artigo que não está disponível nas DLs a que se tem acesso 
+permitido? Nesse caso, comece procurando as páginas pessoais dos autores. Aqui os buscadores 
+genéricos da Internet, como o Google podem ajudar. A DBLP também tem sugestões ótimas no 
+cabeçalho das páginas pessoais dos autores. É comum encontrar os artigos nas páginas de algum dos 
+autores, principalmente se são de publicações em veículos de editores menos “vistosos” do que os 
+disponibilizados pela Capes, por exemplo. Se não conseguir, aconselhamos a contactar diretamente o 
+autor e solicitar-lhe o envio. Nossa experiência é positiva em 100% dos casos. Não se esqueça de dizer 
+que é estudante/pesquisador na área, e que gostaria de conhecer melhor o trabalho realizado para poder 
+citá-lo apropriadamente em seus textos. Essa também é uma forma importante para futuramente 
+estabelecer contatos de parceria e desenvolvimento de pesquisa conjunta. 
+Concluindo 
+Acredite, houve uma época em que a pesquisa bibliográfica era feita em uma biblioteca, folheando as 
+revistas nas estantes. Por mais agradável que seja pegar uma revista na mão para ler, qualquer pesquisa 
+bibliográfica hoje pode ser feita em bibliotecas digitais, pela Internet, com muito mais facilidade e   
+rapidez. 
+How To 
+ Volume 2 - Número 2 - Agosto 2009 | SBC HORIZONTES | 35 
+Assim, conhecer essas bibliotecas, seus recursos de busca, e manter os resultados organizados em 
+gerenciadores de referências são fundamentais para o sucesso de qualquer atividade científica, pelo 
+menos em computação. 
+Como em qualquer atividade que envolve a Internet, o perigo é se afogar com tanta informação e se 
+perder no meio delas. Portanto, encarar a pesquisa bibliográfica com objetivo bem definido e com 
+método é fundamental. Mas os resultados que se pode alcançar, e os benefícios que se pode extrair 
+disso, fazem dessa uma das mais prazerosas e motivadoras atividades da pesquisa científica. 
+Sobre os Autores  
+ 
+ 
+Agma J. M. Traina é professora Titular (2008) no Departamento de Ciências de 
+Computação do Instituto de Ciências Matemáticas e de Computação (ICMC) da 
+Universidade de São Paulo - USP, em São Carlos. Atualmente é a 
+Coordenadora do Programa de Pós-Graduação em Ciências de Computação e 
+Matemática Computacional do ICMC - USP desde 2006. Membro da SBC, 
+ACM, IEEE e SIAM. 
+ 
+Caetano Traina Júnior é professor Titular (2005) no Departamento de Ciências 
+de Computação do Instituto de Ciências Matemáticas e de Computação (ICMC) 
+da Universidade de São Paulo - USP, em São Carlos. Atualmente é o Diretor do 
+Centro de Informática de São Carlos e membro da SBC, ACM, IEEE e SIAM. 
+ 
+ 
