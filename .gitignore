@@ -1,6 +1,6 @@
 # Ignorar arquivos de ambiente com senhas e chaves
 .env
-
+firebase-credentials.json
 # Ignorar pastas de cache e ambiente virtual do Python
 __pycache__/
 *.pyc
