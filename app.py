@@ -20,6 +20,21 @@ from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGener
 from fpdf import FPDF, HTMLMixin
 import markdown
 
+import streamlit.components.v1 as components
+
+def scroll_para_o_final():
+    """Injeta um pequeno script para rolar a página até o fim."""
+    js = f"""
+    <script>
+        window.parent.document.querySelectorAll('[data-testid="stSidebarNav"]')[0].focus();
+        window.parent.document.getElementsByClassName('main')[0].scrollTo({{
+            top: 99999,
+            behavior: 'smooth'
+        }});
+    </script>
+    """
+    components.html(js, height=0)
+    
 #CLASSE PARA O PDF INTERPRETAR HTML
 class PDF(FPDF, HTMLMixin):
     pass
@@ -122,17 +137,38 @@ def gerar_documento_estrategico(historico_texto):
         documento_final = chain.invoke({"historico": historico_texto}).content
         st.session_state.documento_gerado = documento_final
 
+
 def inicializar_agente_de_dialogo():
     rag_chain = RetrievalQA.from_chain_type(llm=llm, chain_type="stuff", retriever=vectordb.as_retriever())
     tools = [Tool(name="Consulta_Manuais_Pesquisa", func=rag_chain.invoke, description="Use para perguntas sobre metodologia, escrita, etc.")]
-    prompt = hub.pull("hwchase17/react-chat")
-    prompt.template = prompt.template.replace("You are a helpful assistant.", "Você é um assistente de pesquisa. **RESPONDA SEMPRE EM PORTUGUÊS DO BRASIL.**")
-    agent = create_react_agent(llm, tools, prompt)
+    
+    prompt_agente = hub.pull("hwchase17/react-chat")
+
+    nova_instrucao_dialogo = """Você é um assistente de pesquisa e a sua missão é continuar uma conversa com um aluno para ajudá-lo a desenvolver sua pesquisa.
+
+Regras Importantes:
+1.  **Contexto:** O histórico da conversa contém a entrevista inicial e um documento estratégico que você já forneceu. Use esse contexto para guiar suas respostas.
+2.  **Honestidade:** Se você não souber a resposta para uma pergunta ou não tiver certeza, é crucial que você responda honestamente que não sabe ou não tem certeza. **NÃO INVENTE INFORMAÇÕES.**
+3.  **Idioma:** Responda sempre em **PORTUGUÊS DO BRASIL**.
+"""
+    
+    # Substitui a instrução genérica pela nossa, mais detalhada
+    prompt_agente.template = prompt_agente.template.replace(
+        "You are a helpful assistant. Respond to the user's request as best you can.",
+        nova_instrucao_dialogo
+    ).replace("Begin!", "Comece!").replace("Thought:", "Pensamento:").replace("Action:", "Ação:").replace("Action Input:", "Entrada da Ação:").replace("Observation:", "Observação:")
+
+    agent = create_react_agent(llm, tools, prompt_agente)
     memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
+    # Popula a memória com o histórico completo
     for msg in st.session_state.historico_mensagens:
-        if msg["role"] == "user": memory.chat_memory.add_user_message(msg["content"])
-        else: memory.chat_memory.add_ai_message(msg["content"])
+        if msg["role"] == "user":
+            memory.chat_memory.add_user_message(msg["content"])
+        else:
+            memory.chat_memory.add_ai_message(msg["content"])
+            
     return AgentExecutor(agent=agent, tools=tools, memory=memory, verbose=True, handle_parsing_errors=True)
+
 
 class FerramentaRAGComLogging:
     def __init__(self, llm, retriever):
@@ -201,6 +237,19 @@ def criar_pdf_formatado(texto_markdown):
 
     return pdf.output(dest='S').encode('latin-1')
 
+#Salvar Feedback
+def salvar_feedback(conversa_id, utilidade, comentario):
+    """Salva o feedback do usuário no Firestore."""
+    try:
+        db.collection('feedbacks').add({
+            'conversa_id': conversa_id,
+            'utilidade': utilidade, # 'bom' ou 'ruim'
+            'comentario': comentario,
+            'timestamp': firestore.SERVER_TIMESTAMP
+        })
+        st.success("Obrigado pelo seu feedback! Isso ajuda a melhorar a pesquisa.")
+    except Exception as e:
+        st.error(f"Erro ao salvar feedback: {e}")
 
 #INTERFACE PRINCIPAL DO STREAMLIT
 st.set_page_config(page_title="Estrategista de Pesquisa", page_icon="🧭")
@@ -244,6 +293,17 @@ if "historico_mensagens" in st.session_state:
         with st.chat_message(msg["role"]):
             st.markdown(msg["content"])
 
+# --- NOVO BLOCO: BOTÃO DE DOWNLOAD SEMPRE VISÍVEL SE O DOCUMENTO EXISTIR ---
+# Este bloco é executado em TODAS as fases, após exibir as mensagens
+if st.session_state.documento_gerado:
+    pdf_bytes = criar_pdf_formatado(st.session_state.documento_gerado)
+    st.download_button(
+        label="Descarregar Estratégia em PDF",
+        data=pdf_bytes,
+        file_name="estrategia_de_pesquisa.pdf",
+        mime="application/pdf"
+    )
+
 #LÓGICA DAS FASES
 if st.session_state.fase == "INICIO":
     st.info("Bem-vindo! Selecione 'Nova Conversa' na barra lateral para começar a estruturar a sua ideia de pesquisa.")
@@ -277,31 +337,26 @@ elif st.session_state.fase == "GERACAO":
     if st.session_state.documento_gerado is None:
         historico_texto = "\n".join([f"{m['role']}: {m['content']}" for m in st.session_state.historico_mensagens])
         gerar_documento_estrategico(historico_texto)
-        st.session_state.historico_mensagens.append({"role": "assistant", "content": st.session_state.documento_gerado})
-        db.collection('conversas').document(st.session_state.conversa_id).collection('mensagens').add({'role': 'assistant', 'content': st.session_state.documento_gerado, 'timestamp': firestore.SERVER_TIMESTAMP})
         
-        # LÓGICA DE SCROLL 
-        # Define uma "bandeira" para indicar que o scroll deve acontecer na próxima recarga.
-        st.session_state.scroll_to_bottom = True
+        # Salva no histórico e no Firebase
+        st.session_state.historico_mensagens.append({"role": "assistant", "content": st.session_state.documento_gerado})
+        db.collection('conversas').document(st.session_state.conversa_id).collection('mensagens').add({
+            'role': 'assistant', 
+            'content': st.session_state.documento_gerado, 
+            'timestamp': firestore.SERVER_TIMESTAMP
+        })
+        
+        st.session_state.scroll_to_bottom = True # Ativa a bandeira de scroll
         st.rerun()
     else:
-        # NOVA LÓGICA DE SCROLL 
-        # Verifica se a "bandeira" de scroll está ativa.
-        if st.session_state.get("scroll_to_bottom"):
-            # Injeta o código JavaScript para rolar até o final da página.
-            js = "<script>window.scrollTo(0, document.body.scrollHeight);</script>"
-            st.html(js)
-            # Desativa a "bandeira" para que o scroll não aconteça repetidamente.
-            st.session_state.scroll_to_bottom = False
-
-        pdf_bytes = criar_pdf_formatado(st.session_state.documento_gerado)
-        st.download_button(
-            label="Descarregar Estratégia em PDF",
-            data=pdf_bytes,
-            file_name="estrategia_de_pesquisa.pdf",
-            mime="application/pdf"
-        )
+        # Exibe o documento e força o scroll
+        st.markdown(st.session_state.documento_gerado)
         
+        # O SEGREDO ESTÁ AQUI:
+        if st.session_state.get("scroll_to_bottom"):
+            scroll_para_o_final()
+            st.session_state.scroll_to_bottom = False # Desativa para não ficar "preso" no fundo
+
         if st.button("Excelente! Agora vamos discutir esta estratégia"):
             st.session_state.fase = "DIALOGO_ABERTO"
             st.session_state.agent_executor = inicializar_agente_de_dialogo()
@@ -310,16 +365,39 @@ elif st.session_state.fase == "GERACAO":
             db.collection('conversas').document(st.session_state.conversa_id).collection('mensagens').add({'role': 'assistant', 'content': msg_transicao, 'timestamp': firestore.SERVER_TIMESTAMP})
             st.rerun()
             
+      
+        
 elif st.session_state.fase == "DIALOGO_ABERTO":
+    # --- UI DE FEEDBACK (Fica fixa no topo ou logo abaixo do título desta fase) ---
+    with st.expander("⭐ Avaliar esta Estratégia de Pesquisa"):
+        col1, col2 = st.columns(2)
+        with col1:
+            if st.button("👍 Útil"):
+                st.session_state.temp_feedback = "bom"
+        with col2:
+            if st.button("👎 Precisa melhorar"):
+                st.session_state.temp_feedback = "ruim"
+
+        if "temp_feedback" in st.session_state:
+            comentario = st.text_area("O que podemos melhorar?", placeholder="Ex: Mais referências, tema mais específico...")
+            if st.button("Submeter Avaliação"):
+                salvar_feedback(st.session_state.conversa_id, st.session_state.temp_feedback, comentario)
+                del st.session_state.temp_feedback 
+    
+    st.divider() # Uma linha visual para separar o feedback do chat
+
+    # --- LÓGICA DO CHAT (O que você já tinha) ---
     if prompt_usuario := st.chat_input("Faça uma pergunta sobre a sua estratégia..."):
         st.session_state.historico_mensagens.append({"role": "user", "content": prompt_usuario})
-        db.collection('conversas').document(st.session_state.conversa_id).collection('mensagens').add({'role': 'user', 'content': prompt_usuario, 'timestamp': firestore.SERVER_TIMESTAMP})
+        db.collection('conversas').document(st.session_state.conversa_id).collection('mensagens').add({
+            'role': 'user', 'content': prompt_usuario, 'timestamp': firestore.SERVER_TIMESTAMP
+        })
         
         with st.chat_message("assistant"):
             with st.spinner("A pensar..."):
                 try:
                     if not st.session_state.get('agent_executor'):
-                         st.session_state.agent_executor = inicializar_agente_de_dialogo()
+                        st.session_state.agent_executor = inicializar_agente_de_dialogo()
                     
                     response = st.session_state.agent_executor.invoke({"input": prompt_usuario})
                     resposta = response["output"]
@@ -327,5 +405,9 @@ elif st.session_state.fase == "DIALOGO_ABERTO":
                 except Exception as e:
                     resposta = f"Desculpe, ocorreu um erro: {e}"
                     st.error(resposta)
+        
         st.session_state.historico_mensagens.append({"role": "assistant", "content": resposta})
-        db.collection('conversas').document(st.session_state.conversa_id).collection('mensagens').add({'role': 'assistant', 'content': resposta, 'timestamp': firestore.SERVER_TIMESTAMP})
+        db.collection('conversas').document(st.session_state.conversa_id).collection('mensagens').add({
+            'role': 'assistant', 'content': resposta, 'timestamp': firestore.SERVER_TIMESTAMP
+        })
+        st.rerun() # Adicionei o rerun para garantir que a UI atualize após a resposta
