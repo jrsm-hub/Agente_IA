@@ -5,7 +5,13 @@ try:
     from langchain_chroma import Chroma
 except ImportError:
     from langchain_community.vectorstores import Chroma
-from langchain.agents import Tool
+try:
+    from langchain_core.tools import Tool
+except ImportError:
+    try:
+        from langchain.tools import Tool
+    except ImportError:
+        from langchain.agents import Tool
 from config import GOOGLE_API_KEY, EMBEDDING_MODEL, BANCO_VETORIAL_DIR
 
 @st.cache_resource

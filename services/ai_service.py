@@ -1,10 +1,19 @@
 import os
 import re
 import streamlit as st
-from langchain import hub
+try:
+    import langchainhub as hub
+except ImportError:
+    from langchain import hub
+
 from langchain.agents import AgentExecutor, create_react_agent
 from langchain.memory import ConversationBufferMemory
-from langchain.prompts import PromptTemplate
+
+try:
+    from langchain_core.prompts import PromptTemplate
+except ImportError:
+    from langchain.prompts import PromptTemplate
+
 from langchain_google_genai import ChatGoogleGenerativeAI
 from config import GOOGLE_API_KEY, LLM_MODEL, LLM_TEMPERATURE
 from services.rag_service import criar_rag_tool
