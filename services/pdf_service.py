@@ -154,4 +154,13 @@ def criar_pdf_formatado(texto_markdown: str) -> bytes:
         else:
             pdf.renderizar_bloco_formatado(linha_strip, indent=0, prefixo="", altura_linha=5.5)
     
-    return pdf.output(dest='S').encode('latin-1')
+    try:
+        saida = pdf.output(dest='S')
+    except (TypeError, ValueError):
+        saida = pdf.output()
+
+    if isinstance(saida, str):
+        return saida.encode('latin-1', 'replace')
+    elif isinstance(saida, (bytes, bytearray)):
+        return bytes(saida)
+    return bytes(saida)
