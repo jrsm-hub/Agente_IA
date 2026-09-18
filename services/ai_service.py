@@ -1,19 +1,7 @@
 import os
 import re
 import streamlit as st
-try:
-    import langchainhub as hub
-except ImportError:
-    from langchain import hub
-
-from langchain.agents import AgentExecutor, create_react_agent
-from langchain.memory import ConversationBufferMemory
-
-try:
-    from langchain_core.prompts import PromptTemplate
-except ImportError:
-    from langchain.prompts import PromptTemplate
-
+from langchain_core.prompts import PromptTemplate
 from langchain_google_genai import ChatGoogleGenerativeAI
 from config import GOOGLE_API_KEY, LLM_MODEL, LLM_TEMPERATURE
 from services.rag_service import criar_rag_tool
@@ -182,42 +170,49 @@ DOCUMENTO ESTRATÉGICO:
         else:
             yield str(chunk)
 
-def inicializar_agente_de_dialogo(llm, vectordb, historico_mensagens: list) -> AgentExecutor:
-    """Inicializa o agente ReAct para diálogo livre com acesso às ferramentas de RAG."""
-    rag_tool = criar_rag_tool(vectordb, llm)
-    tools = [rag_tool]
-    
-    prompt_agente = hub.pull("hwchase17/react-chat")
+class DialogoAcademicoAgent:
+    """Agente conversacional com memória contextual e consulta integrada aos manuais RAG."""
+    def __init__(self, llm, vectordb, historico_mensagens: list):
+        self.llm = llm
+        self.vectordb = vectordb
+        self.historico_mensagens = historico_mensagens
 
-    nova_instrucao_dialogo = """Você é um assistente de pesquisa e a sua missão é continuar uma conversa com um aluno para ajudá-lo a desenvolver sua pesquisa.
-
-Regras Importantes:
-1. **Contexto:** O histórico da conversa contém a entrevista inicial e um documento estratégico que você já forneceu. Use esse contexto para guiar suas respostas.
-2. **Honestidade:** Se você não souber a resposta para uma pergunta ou não tiver certeza, é crucial que você responda honestamente que não sabe ou não tem certeza. **NÃO INVENTE INFORMAÇÕES.**
-3. **Idioma:** Responda sempre em **PORTUGUÊS DO BRASIL**.
-"""
-    
-    prompt_agente.template = prompt_agente.template.replace(
-        "You are a helpful assistant. Respond to the user's request as best you can.",
-        nova_instrucao_dialogo
-    ).replace("Begin!", "Comece!").replace("Thought:", "Pensamento:").replace("Action:", "Ação:").replace("Action Input:", "Entrada da Ação:").replace("Observation:", "Observação:")
-
-    agent = create_react_agent(llm, tools, prompt_agente)
-    memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
-    
-    for msg in historico_mensagens:
-        if msg.get("role") == "user":
-            memory.chat_memory.add_user_message(msg.get("content", ""))
-        else:
-            memory.chat_memory.add_ai_message(msg.get("content", ""))
+    def invoke(self, inputs: dict, config: dict = None) -> dict:
+        pergunta = inputs.get("input", "")
+        
+        # Consulta semântica aos manuais de pesquisa
+        try:
+            docs = self.vectordb.similarity_search(pergunta, k=3)
+            contexto = "\n\n".join([
+                f"[Manual: {os.path.basename(doc.metadata.get('source', 'Referência'))}]\n{doc.page_content}"
+                for doc in docs
+            ]) if docs else ""
+        except Exception as e:
+            print(f"Aviso na busca vetorial do diálogo: {e}")
+            contexto = ""
             
-    return AgentExecutor(
-        agent=agent,
-        tools=tools,
-        memory=memory,
-        verbose=True,
-        handle_parsing_errors=True
-    )
+        msgs_recentes = self.historico_mensagens[-8:] if len(self.historico_mensagens) > 8 else self.historico_mensagens
+        historico_str = "\n".join([f"{m.get('role', 'user')}: {m.get('content', '')}" for m in msgs_recentes])
+        
+        prompt = (
+            "Você é um orientador e estrategista acadêmico experiente em Ciência da Computação e Metodologia Científica.\n"
+            "Sua missão é continuar a conversa com o aluno, tirando dúvidas sobre o projeto de pesquisa, aprofundando o tema e orientando os próximos passos.\n\n"
+            f"HISTÓRICO RECENTE DA CONVERSA:\n{historico_str}\n\n"
+            f"TRECHOS DE MANUAIS METODOLÓGICOS RELEVANTES:\n{contexto}\n\n"
+            f"PERGUNTA DO ALUNO: {pergunta}\n\n"
+            "Responda de forma didática, encorajadora, estruturada e em português do Brasil, fundamentando suas recomendações com rigor acadêmico."
+        )
+        
+        try:
+            resposta = self.llm.invoke(prompt).content
+        except Exception as e:
+            resposta = f"Ocorreu um erro ao processar a resposta: {e}"
+            
+        return {"output": resposta}
+
+def inicializar_agente_de_dialogo(llm, vectordb, historico_mensagens: list):
+    """Inicializa o agente para diálogo livre pós-estratégia com RAG."""
+    return DialogoAcademicoAgent(llm, vectordb, historico_mensagens)
 
 def stream_resposta_rag_estrito(llm, vectordb, pergunta: str, historico_mensagens: list):
     """Executa a busca RAG no ChromaDB e gera resposta em streaming com rigor científico e citação de fontes."""
