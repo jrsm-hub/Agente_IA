@@ -1,3 +1,11 @@
+import sys
+import os
+
+# Garante que o diretório raiz do projeto esteja no path (essencial para Linux / Streamlit Cloud)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+if BASE_DIR not in sys.path:
+    sys.path.insert(0, BASE_DIR)
+
 import nest_asyncio
 import streamlit as st
 import streamlit.components.v1 as components
