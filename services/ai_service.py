@@ -98,14 +98,24 @@ def gerar_proxima_pergunta_dinamica(llm, historico_texto: str) -> str:
     chain = prompt | llm
     return chain.invoke({"historico": historico_texto}).content
 
-def stream_gerar_proxima_pergunta(llm, historico_texto: str):
-    """Gera a próxima pergunta afuniladora e 4 opções em formato de streaming."""
-    template = """Você é um orientador de pesquisa experiente e a sua missão é conduzir uma entrevista para ajudar um aluno a definir um projeto de pesquisa, guiando-o desde uma área ampla até um tópico específico.
+def stream_gerar_proxima_pergunta(llm, historico_texto: str, vectordb=None):
+    """Gera a próxima pergunta afuniladora e 4 opções em streaming, integrando diretrizes metodológicas via RAG."""
+    diretrizes_metodologicas = ""
+    if vectordb:
+        try:
+            docs = vectordb.similarity_search("etapas de delimitacao do problema de pesquisa e formulacao de objetivos e hipoteses", k=2)
+            if docs:
+                trechos = "\n".join([f"- {d.page_content[:250]}..." for d in docs])
+                diretrizes_metodologicas = f"\n**DIRETRIZES METODOLÓGICAS DE REFERÊNCIA (MANUAIS CIENTÍFICOS):**\n{trechos}\n"
+        except Exception as e:
+            print(f"Aviso ao consultar RAG na fase de ideação: {e}")
 
+    template = """Você é um orientador de pesquisa experiente e a sua missão é conduzir uma entrevista para ajudar um aluno a definir um projeto de pesquisa, guiando-o desde uma área ampla até um tópico específico e exequível.
+{diretrizes}
 **Regras:**
 1. **Analise o histórico completo da conversa** para entender o contexto atual e a última resposta do aluno.
-2. **Formule a próxima pergunta** de forma clara, em português do Brasil. A sua pergunta deve ter o objetivo de afunilar a ideia do aluno.
-3. **Ofereça exatamente 4 opções** concretas e detalhadas de aprofundamento. Estas opções devem ser lógicas com base no que já foi discutido.
+2. **Formule a próxima pergunta** de forma clara, em português do Brasil, aplicando rigor científico na delimitação do tema.
+3. **Ofereça exatamente 4 opções** concretas, inovadoras e detalhadas de aprofundamento ou abordagem.
 4. **Formate as opções** como uma lista numerada, de 1 a 4, com cada opção numa nova linha.
 5. **Responda apenas com a pergunta e as opções**, sem qualquer texto adicional antes ou depois.
 
@@ -115,7 +125,7 @@ def stream_gerar_proxima_pergunta(llm, historico_texto: str):
 **PRÓXIMA PERGUNTA:**"""
     prompt = PromptTemplate.from_template(template)
     chain = prompt | llm
-    for chunk in chain.stream({"historico": historico_texto}):
+    for chunk in chain.stream({"historico": historico_texto, "diretrizes": diretrizes_metodologicas}):
         if hasattr(chunk, 'content'):
             yield chunk.content
         else:

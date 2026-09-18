@@ -9,6 +9,7 @@ from services.firebase_service import (
     carregar_mensagens_conversa,
     obter_dados_conversa,
     adicionar_mensagem,
+    salvar_documento_estrategico_conversa,
     atualizar_titulo_conversa,
     renomear_conversa,
     salvar_feedback
@@ -129,14 +130,16 @@ with st.sidebar:
             if tipo_salvo == "rag_estrito":
                 st.session_state.fase = "RAG_ESTRITO"
             else:
-                # Detecta se já existe documento estratégico gerado
-                doc_msg = next(
-                    (msg['content'] for msg in st.session_state.historico_mensagens if "Estratégia de Pesquisa" in msg.get('content', '')),
-                    None
-                )
-                if doc_msg:
+                # Detecta se já existe documento estratégico gravado no Firestore ou no histórico
+                doc_salvo = conv_data.get('documento_gerado')
+                if not doc_salvo:
+                    doc_salvo = next(
+                        (msg['content'] for msg in st.session_state.historico_mensagens if "Estratégia de Pesquisa" in msg.get('content', '')),
+                        None
+                    )
+                if doc_salvo:
                     st.session_state.fase = "DIALOGO_ABERTO"
-                    st.session_state.documento_gerado = doc_msg
+                    st.session_state.documento_gerado = doc_salvo
                 else:
                     st.session_state.fase = "COLETA"
             st.rerun()
@@ -165,7 +168,7 @@ if st.session_state.fase in ["INICIO", "SELECAO_MODO"] and not st.session_state.
             """
             ### 🧭 1. Estratégia de Pesquisa (Ideação)
             Ideal para quem está no início do trabalho ou precisa:
-            - **Definir e delimitar** o tema de pesquisa.
+            - **Definir e delimitar** o tema de pesquisa com apoio metodológico.
             - **Construir perguntas** e caminhos metodológicos passo a passo.
             - **Receber sugestões dinâmicas** com opções de escolha rápida.
             - **Gerar Documento Estratégico** completo para download em PDF.
@@ -268,7 +271,17 @@ if st.session_state.tipo_conversa == "estrategia":
             with st.chat_message("user"):
                 st.markdown(entrada_final)
             st.session_state.historico_mensagens.append({"role": "user", "content": entrada_final})
-            adicionar_mensagem(db, st.session_state.conversa_id, "user", entrada_final)
+            
+            rodada_atual = (len(st.session_state.historico_mensagens) // 2)
+            adicionar_mensagem(
+                db,
+                st.session_state.conversa_id,
+                role="user",
+                content=entrada_final,
+                fase="COLETA",
+                rodada=rodada_atual,
+                opcao_selecionada=resposta_selecionada
+            )
             
             historico_texto = "\n".join([f"{m['role']}: {m['content']}" for m in st.session_state.historico_mensagens])
             
@@ -279,10 +292,20 @@ if st.session_state.tipo_conversa == "estrategia":
                     atualizar_titulo_conversa(db, st.session_state.conversa_id, novo_titulo, prefixo_icone="🧭")
 
             with st.chat_message("assistant"):
-                stream = stream_gerar_proxima_pergunta(llm, historico_texto)
+                stream = stream_gerar_proxima_pergunta(llm, historico_texto, vectordb=vectordb)
                 proxima_pergunta = st.write_stream(stream)
                 st.session_state.historico_mensagens.append({"role": "assistant", "content": proxima_pergunta})
-                adicionar_mensagem(db, st.session_state.conversa_id, "assistant", proxima_pergunta)
+                
+                _, opcoes_novas = separar_pergunta_e_opcoes(proxima_pergunta)
+                adicionar_mensagem(
+                    db,
+                    st.session_state.conversa_id,
+                    role="assistant",
+                    content=proxima_pergunta,
+                    fase="COLETA",
+                    rodada=rodada_atual + 1,
+                    opcoes_oferecidas=opcoes_novas
+                )
             
             st.rerun()
 
@@ -297,7 +320,8 @@ if st.session_state.tipo_conversa == "estrategia":
                 st.session_state.documento_gerado = doc_final
             
             st.session_state.historico_mensagens.append({"role": "assistant", "content": doc_final})
-            adicionar_mensagem(db, st.session_state.conversa_id, "assistant", doc_final)
+            adicionar_mensagem(db, st.session_state.conversa_id, role="assistant", content=doc_final, fase="GERACAO")
+            salvar_documento_estrategico_conversa(db, st.session_state.conversa_id, doc_final)
             
             msg_transicao = (
                 "✨ **A sua estratégia de pesquisa foi consolidada acima!**\n\n"
@@ -305,7 +329,7 @@ if st.session_state.tipo_conversa == "estrategia":
                 "O que gostaria de explorar primeiro?"
             )
             st.session_state.historico_mensagens.append({"role": "assistant", "content": msg_transicao})
-            adicionar_mensagem(db, st.session_state.conversa_id, "assistant", msg_transicao)
+            adicionar_mensagem(db, st.session_state.conversa_id, role="assistant", content=msg_transicao, fase="DIALOGO_ABERTO")
             
             st.session_state.fase = "DIALOGO_ABERTO"
             st.session_state.agent_executor = inicializar_agente_de_dialogo(
@@ -345,7 +369,7 @@ if st.session_state.tipo_conversa == "estrategia":
             with st.chat_message("user"):
                 st.markdown(prompt_usuario)
             st.session_state.historico_mensagens.append({"role": "user", "content": prompt_usuario})
-            adicionar_mensagem(db, st.session_state.conversa_id, "user", prompt_usuario)
+            adicionar_mensagem(db, st.session_state.conversa_id, role="user", content=prompt_usuario, fase="DIALOGO_ABERTO")
             
             with st.chat_message("assistant"):
                 st_callback = StreamlitCallbackHandler(st.container())
@@ -366,7 +390,7 @@ if st.session_state.tipo_conversa == "estrategia":
                     st.error(resposta)
             
             st.session_state.historico_mensagens.append({"role": "assistant", "content": resposta})
-            adicionar_mensagem(db, st.session_state.conversa_id, "assistant", resposta)
+            adicionar_mensagem(db, st.session_state.conversa_id, role="assistant", content=resposta, fase="DIALOGO_ABERTO")
 
 
 # ==============================================================================
@@ -410,7 +434,7 @@ elif st.session_state.tipo_conversa == "rag_estrito":
         with st.chat_message("user"):
             st.markdown(prompt_usuario)
         st.session_state.historico_mensagens.append({"role": "user", "content": prompt_usuario})
-        adicionar_mensagem(db, st.session_state.conversa_id, "user", prompt_usuario)
+        adicionar_mensagem(db, st.session_state.conversa_id, role="user", content=prompt_usuario, fase="RAG_ESTRITO")
         
         # Gera título inteligente com base na pergunta
         if len(st.session_state.historico_mensagens) == 2:
@@ -425,6 +449,6 @@ elif st.session_state.tipo_conversa == "rag_estrito":
             )
             resposta_completa = st.write_stream(stream)
             st.session_state.historico_mensagens.append({"role": "assistant", "content": resposta_completa})
-            adicionar_mensagem(db, st.session_state.conversa_id, "assistant", resposta_completa)
+            adicionar_mensagem(db, st.session_state.conversa_id, role="assistant", content=resposta_completa, fase="RAG_ESTRITO")
         
         st.rerun()
