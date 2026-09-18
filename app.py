@@ -229,27 +229,38 @@ if st.session_state.fase in ["INICIO", "SELECAO_MODO"] and not st.session_state.
 if st.session_state.tipo_conversa == "estrategia":
     st.title("🧭 Estrategista de Pesquisa Acadêmica")
 
+    total_msgs = len(st.session_state.get("historico_mensagens", []))
+
     # Exibição do histórico de mensagens
     for idx, msg in enumerate(st.session_state.get("historico_mensagens", [])):
         with st.chat_message(msg["role"]):
+            content = msg.get("content", "")
             if msg.get("role") == "assistant":
-                pergunta_limpa, opcoes = separar_pergunta_e_opcoes(msg.get("content", ""))
-                if opcoes and pergunta_limpa:
-                    st.markdown(pergunta_limpa)
+                # Oculta opções do balão apenas na última mensagem da coleta ativa (onde os botões estão logo abaixo)
+                eh_ultima_coleta = (idx == total_msgs - 1) and (st.session_state.fase == "COLETA")
+                if eh_ultima_coleta:
+                    pergunta_limpa, opcoes = separar_pergunta_e_opcoes(content)
+                    st.markdown(pergunta_limpa if (opcoes and pergunta_limpa) else content)
                 else:
-                    st.markdown(msg.get("content", ""))
+                    st.markdown(content)
             else:
-                st.markdown(msg.get("content", ""))
+                st.markdown(content)
 
-    # Botão de download permanente do PDF se o documento já foi gerado
+    # Destaque permanente do Documento Estratégico com Download em PDF
     if st.session_state.documento_gerado:
-        pdf_bytes = criar_pdf_formatado(st.session_state.documento_gerado)
-        st.download_button(
-            label="📥 Descarregar Estratégia em PDF",
-            data=pdf_bytes,
-            file_name="estrategia_de_pesquisa.pdf",
-            mime="application/pdf"
-        )
+        st.divider()
+        col_dl, col_info = st.columns([1, 2])
+        with col_dl:
+            pdf_bytes = criar_pdf_formatado(st.session_state.documento_gerado)
+            st.download_button(
+                label="📥 Descarregar Estratégia em PDF",
+                data=pdf_bytes,
+                file_name="estrategia_de_pesquisa.pdf",
+                mime="application/pdf",
+                use_container_width=True
+            )
+        with col_info:
+            st.caption("✨ *Estratégia completa consolidada e pronta para exportação.*")
 
     # --- FASE 1.1: COLETA DINÂMICA ---
     if st.session_state.fase == "COLETA":

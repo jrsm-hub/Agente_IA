@@ -128,41 +128,55 @@ def stream_gerar_proxima_pergunta(llm, historico_texto: str, vectordb=None):
         else:
             yield str(chunk)
 
+TEMPLATE_DOCUMENTO_ESTRATEGICO = """Você é um orientador e estrategista acadêmico sênior. 
+Com base em todo o HISTÓRICO da entrevista com o aluno, elabore um Documento Estratégico de Pesquisa detalhado, aprofundado e completo em Markdown (em português do Brasil).
+
+Não seja superficial. Desenvolva cada seção com rigor conceitual, exemplos práticos e clareza metodológica.
+
+HISTÓRICO DA ENTREVISTA:
+{historico}
+
+DOCUMENTO ESTRATÉGICO DE PESQUISA (ESTRUTURA OBRIGATÓRIA):
+
+# 🧭 Estratégia de Pesquisa Acadêmica
+
+## 1. Diagnóstico do Perfil e Delimitação Temática
+- **Grande Área:** [Área identificada]
+- **Subárea / Tópico Delimitado:** [Delimitação resultante do afunilamento]
+- **Problema de Pesquisa:** [Descrição aprofundada do problema e da dor prática/teórica que o trabalho busca resolver]
+- **Pergunta Norteadora:** [A pergunta de pesquisa central em formato formal de interrogação]
+
+## 2. Caminhos Metodológicos Propostos
+
+### 🔬 Caminho A: [Nome Detalhado da Abordagem Principal]
+- **Descrição da Proposta:** [Como funciona esta abordagem, arquitetura ou técnica pretendida]
+- **Objetivo Geral & Específicos:** [O que será construído/analisado passo a passo]
+- **Metodologia & Dados:** [Quais bases de dados, ferramentas, métricas ou procedimentos serão adotados]
+- **Por que este caminho é promissor:** [Contribuição científica e relevância]
+- **Riscos e Mitigações:** [Principais desafios técnicos/metodológicos e como contorná-los]
+
+### 💡 Caminho B: [Nome Detalhado da Abordagem Alternativa]
+- **Descrição da Proposta:** [Abordagem alternativa para o mesmo tema com foco ou escopo diferente]
+- **Objetivo Geral & Específicos:** [O que será construído/analisado passo a passo]
+- **Metodologia & Dados:** [Quais bases de dados, ferramentas, métricas ou procedimentos serão adotados]
+- **Por que este caminho é promissor:** [Diferencial em relação ao Caminho A]
+- **Riscos e Mitigações:** [Principais desafios técnicos/metodológicos e como contorná-los]
+
+## 3. Recomendações Metodológicas e Próximos Passos
+1. **Passo 1 (Revisão Bibliográfica):** [Direcionamento de busca de artigos e autores-chave]
+2. **Passo 2 (Preparação do Ambiente / Dados):** [Coleta, ferramentas e pipeline inicial]
+3. **Passo 3 (Alinhamento com Orientador):** [Pontos centrais a apresentar para o orientador humano]
+"""
+
 def gerar_documento_estrategico(llm, historico_texto: str) -> str:
     """Gera o documento de estratégia de pesquisa em Markdown a partir do histórico (síncrono)."""
-    template = """Você é um orientador de pesquisa. Com base na entrevista no HISTÓRICO, crie um documento de estratégia em Markdown e em português do Brasil.
-HISTÓRICO: {historico}
-DOCUMENTO ESTRATÉGICO:
-**ESTRUTURA OBRIGATÓRIA (use Markdown):**
-# Estratégia de Pesquisa para o seu Trabalho Académico
-## 1. Análise do seu Perfil de Pesquisa
-## 2. Caminhos de Pesquisa Sugeridos
-### Caminho A: [Título]
-- Descrição, Por que é promissor, Primeiros Passos, Riscos.
-### Caminho B: [Título]
-- Descrição, Por que é promissor, Primeiros Passos, Riscos.
-## 3. Conclusão e Recomendações
-"""
-    prompt = PromptTemplate.from_template(template)
+    prompt = PromptTemplate.from_template(TEMPLATE_DOCUMENTO_ESTRATEGICO)
     chain = prompt | llm
     return chain.invoke({"historico": historico_texto}).content
 
 def stream_gerar_documento_estrategico(llm, historico_texto: str):
     """Gera o documento de estratégia de pesquisa em formato de streaming."""
-    template = """Você é um orientador de pesquisa. Com base na entrevista no HISTÓRICO, crie um documento de estratégia em Markdown e em português do Brasil.
-HISTÓRICO: {historico}
-DOCUMENTO ESTRATÉGICO:
-**ESTRUTURA OBRIGATÓRIA (use Markdown):**
-# Estratégia de Pesquisa para o seu Trabalho Académico
-## 1. Análise do seu Perfil de Pesquisa
-## 2. Caminhos de Pesquisa Sugeridos
-### Caminho A: [Título]
-- Descrição, Por que é promissor, Primeiros Passos, Riscos.
-### Caminho B: [Título]
-- Descrição, Por que é promissor, Primeiros Passos, Riscos.
-## 3. Conclusão e Recomendações
-"""
-    prompt = PromptTemplate.from_template(template)
+    prompt = PromptTemplate.from_template(TEMPLATE_DOCUMENTO_ESTRATEGICO)
     chain = prompt | llm
     for chunk in chain.stream({"historico": historico_texto}):
         if hasattr(chunk, 'content'):
