@@ -34,7 +34,6 @@ from services.ai_service import (
     separar_pergunta_e_opcoes
 )
 from services.pdf_service import criar_pdf_formatado
-from langchain_community.callbacks.streamlit import StreamlitCallbackHandler
 
 # Configurações iniciais da aplicação
 nest_asyncio.apply()

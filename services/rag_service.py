@@ -3,14 +3,14 @@ import streamlit as st
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 try:
     from langchain_chroma import Chroma
-except ImportError:
+except (ImportError, ModuleNotFoundError):
     from langchain_community.vectorstores import Chroma
 try:
     from langchain_core.tools import Tool
-except ImportError:
+except (ImportError, ModuleNotFoundError):
     try:
         from langchain.tools import Tool
-    except ImportError:
+    except (ImportError, ModuleNotFoundError):
         from langchain.agents import Tool
 from config import GOOGLE_API_KEY, EMBEDDING_MODEL, BANCO_VETORIAL_DIR
 
