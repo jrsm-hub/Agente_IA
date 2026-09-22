@@ -30,6 +30,7 @@ from services.ai_service import (
     stream_gerar_proxima_pergunta,
     stream_gerar_documento_estrategico,
     stream_resposta_rag_estrito,
+    stream_dialogo_academico,
     inicializar_agente_de_dialogo,
     separar_pergunta_e_opcoes
 )
@@ -391,18 +392,17 @@ if st.session_state.tipo_conversa == "estrategia":
             
             with st.chat_message("assistant"):
                 try:
-                    if not st.session_state.get('agent_executor'):
-                        st.session_state.agent_executor = inicializar_agente_de_dialogo(
-                            llm, vectordb, st.session_state.historico_mensagens
-                        )
-                    with st.spinner("Consultando manuais e elaborando orientação..."):
-                        resposta = st.write_stream(st.session_state.agent_executor.stream({"input": prompt_usuario}))
+                    stream = stream_dialogo_academico(
+                        llm, vectordb, prompt_usuario, st.session_state.historico_mensagens
+                    )
+                    resposta = st.write_stream(stream)
                 except Exception as e:
                     resposta = f"Desculpe, ocorreu um erro: {e}"
                     st.error(resposta)
             
             st.session_state.historico_mensagens.append({"role": "assistant", "content": resposta})
             adicionar_mensagem(db, st.session_state.conversa_id, role="assistant", content=resposta, fase="DIALOGO_ABERTO")
+            st.rerun()
 
 
 # ==============================================================================

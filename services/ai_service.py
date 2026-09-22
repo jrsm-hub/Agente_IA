@@ -257,6 +257,36 @@ class DialogoAcademicoAgent:
             else:
                 yield str(chunk)
 
+def stream_dialogo_academico(llm, vectordb, pergunta: str, historico_mensagens: list):
+    """Executa a busca RAG no ChromaDB e gera resposta em streaming para o diálogo livre com o orientador."""
+    try:
+        docs = vectordb.similarity_search(pergunta, k=3)
+        contexto = "\n\n".join([
+            f"[Manual: {os.path.basename(doc.metadata.get('source', 'Referência'))}]\n{doc.page_content}"
+            for doc in docs
+        ]) if docs else ""
+    except Exception as e:
+        print(f"Aviso na busca vetorial do diálogo: {e}")
+        contexto = ""
+        
+    msgs_recentes = historico_mensagens[-8:] if len(historico_mensagens) > 8 else historico_mensagens
+    historico_str = "\n".join([f"{m.get('role', 'user')}: {m.get('content', '')}" for m in msgs_recentes])
+    
+    prompt = (
+        "Você é um orientador e estrategista acadêmico experiente em Ciência da Computação e Metodologia Científica.\n"
+        "Sua missão é continuar a conversa com o aluno, tirando dúvidas sobre o projeto de pesquisa, aprofundando o tema e orientando os próximos passos.\n\n"
+        f"HISTÓRICO RECENTE DA CONVERSA:\n{historico_str}\n\n"
+        f"TRECHOS DE MANUAIS METODOLÓGICOS RELEVANTES:\n{contexto}\n\n"
+        f"PERGUNTA DO ALUNO: {pergunta}\n\n"
+        "Responda de forma didática, encorajadora, estruturada e em português do Brasil, fundamentando suas recomendações com rigor acadêmico."
+    )
+    
+    for chunk in llm.stream(prompt):
+        if hasattr(chunk, 'content'):
+            yield chunk.content
+        else:
+            yield str(chunk)
+
 def inicializar_agente_de_dialogo(llm, vectordb, historico_mensagens: list):
     """Inicializa o agente para diálogo livre pós-estratégia com RAG."""
     return DialogoAcademicoAgent(llm, vectordb, historico_mensagens)
