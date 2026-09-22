@@ -224,6 +224,39 @@ class DialogoAcademicoAgent:
             
         return {"output": resposta}
 
+    def stream(self, inputs: dict):
+        """Gera resposta em formato streaming."""
+        pergunta = inputs.get("input", "")
+        
+        # Consulta semântica aos manuais de pesquisa
+        try:
+            docs = self.vectordb.similarity_search(pergunta, k=3)
+            contexto = "\n\n".join([
+                f"[Manual: {os.path.basename(doc.metadata.get('source', 'Referência'))}]\n{doc.page_content}"
+                for doc in docs
+            ]) if docs else ""
+        except Exception as e:
+            print(f"Aviso na busca vetorial do diálogo: {e}")
+            contexto = ""
+            
+        msgs_recentes = self.historico_mensagens[-8:] if len(self.historico_mensagens) > 8 else self.historico_mensagens
+        historico_str = "\n".join([f"{m.get('role', 'user')}: {m.get('content', '')}" for m in msgs_recentes])
+        
+        prompt = (
+            "Você é um orientador e estrategista acadêmico experiente em Ciência da Computação e Metodologia Científica.\n"
+            "Sua missão é continuar a conversa com o aluno, tirando dúvidas sobre o projeto de pesquisa, aprofundando o tema e orientando os próximos passos.\n\n"
+            f"HISTÓRICO RECENTE DA CONVERSA:\n{historico_str}\n\n"
+            f"TRECHOS DE MANUAIS METODOLÓGICOS RELEVANTES:\n{contexto}\n\n"
+            f"PERGUNTA DO ALUNO: {pergunta}\n\n"
+            "Responda de forma didática, encorajadora, estruturada e em português do Brasil, fundamentando suas recomendações com rigor acadêmico."
+        )
+        
+        for chunk in self.llm.stream(prompt):
+            if hasattr(chunk, 'content'):
+                yield chunk.content
+            else:
+                yield str(chunk)
+
 def inicializar_agente_de_dialogo(llm, vectordb, historico_mensagens: list):
     """Inicializa o agente para diálogo livre pós-estratégia com RAG."""
     return DialogoAcademicoAgent(llm, vectordb, historico_mensagens)

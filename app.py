@@ -390,19 +390,13 @@ if st.session_state.tipo_conversa == "estrategia":
             adicionar_mensagem(db, st.session_state.conversa_id, role="user", content=prompt_usuario, fase="DIALOGO_ABERTO")
             
             with st.chat_message("assistant"):
-                st_callback = StreamlitCallbackHandler(st.container())
                 try:
                     if not st.session_state.get('agent_executor'):
                         st.session_state.agent_executor = inicializar_agente_de_dialogo(
                             llm, vectordb, st.session_state.historico_mensagens
                         )
-                    
-                    response = st.session_state.agent_executor.invoke(
-                        {"input": prompt_usuario},
-                        {"callbacks": [st_callback]}
-                    )
-                    resposta = response["output"]
-                    st.markdown(resposta)
+                    with st.spinner("Consultando manuais e elaborando orientação..."):
+                        resposta = st.write_stream(st.session_state.agent_executor.stream({"input": prompt_usuario}))
                 except Exception as e:
                     resposta = f"Desculpe, ocorreu um erro: {e}"
                     st.error(resposta)
