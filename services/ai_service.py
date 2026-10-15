@@ -35,7 +35,7 @@ def extrair_texto_conteudo(conteudo) -> str:
     return str(conteudo)
 
 def separar_pergunta_e_opcoes(texto_mensagem) -> tuple[str, list[str]]:
-    """Separa o texto introdutório da pergunta das opções numeradas (1 a 4), evitando duplicação visual."""
+    """Separa o texto introdutório da pergunta das opções numeradas (1 a 4), preservando integralmente o texto."""
     texto_str = extrair_texto_conteudo(texto_mensagem)
     if not texto_str:
         return "", []
@@ -46,15 +46,27 @@ def separar_pergunta_e_opcoes(texto_mensagem) -> tuple[str, list[str]]:
     
     for linha in linhas:
         linha_strip = linha.strip()
-        match = re.match(r'^\*{0,2}([1-4])[\.\)\-\:]\s*(.+?)\*{0,2}$', linha_strip)
+        if not linha_strip:
+            if not opcoes:
+                linhas_pergunta.append(linha)
+            continue
+            
+        # Trata linhas com negrito externo total (ex: **1. Opção**)
+        linha_processar = linha_strip
+        if linha_processar.startswith("**") and linha_processar.endswith("**") and len(linha_processar) > 4:
+            linha_processar = linha_processar[2:-2].strip()
+            
+        match = re.match(r'^[1-4][\.\)\-\:]\s*(.+)$', linha_processar)
         if match:
-            opcao_texto = match.group(2).strip()
-            opcao_texto = re.sub(r'^\*\*(.*?)\*\*$', r'\1', opcao_texto).strip()
+            opcao_texto = match.group(1).strip()
             if opcao_texto:
                 opcoes.append(opcao_texto)
         else:
             if not opcoes:  # Todas as linhas antes de começar a listagem de opções
                 linhas_pergunta.append(linha)
+            elif linha_strip and not re.match(r'^(Observação|Nota|Escolha|Selecione|Ou digite)', linha_strip, re.I):
+                # Linha de continuação da opção anterior caso o modelo quebre a linha
+                opcoes[-1] = f"{opcoes[-1]} {linha_strip}"
                 
     pergunta_limpa = "\n".join(linhas_pergunta).strip()
     return pergunta_limpa, opcoes
