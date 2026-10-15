@@ -7,22 +7,34 @@ load_dotenv()
 # Função para localização robusta da chave em qualquer formato do Streamlit Secrets
 def obter_google_api_key() -> str:
     key = os.getenv("GOOGLE_API_KEY") or os.getenv("GEMINI_API_KEY")
-    if key and key.strip():
-        return key.strip()
+    if key:
+        if isinstance(key, (list, tuple)) and key:
+            key = key[0]
+        if str(key).strip():
+            return str(key).strip()
     try:
         import streamlit as st
         if hasattr(st, "secrets"):
             if "GOOGLE_API_KEY" in st.secrets:
-                return str(st.secrets["GOOGLE_API_KEY"]).strip()
+                val = st.secrets["GOOGLE_API_KEY"]
+                if isinstance(val, (list, tuple)) and val:
+                    val = val[0]
+                return str(val).strip()
             if "GEMINI_API_KEY" in st.secrets:
-                return str(st.secrets["GEMINI_API_KEY"]).strip()
+                val = st.secrets["GEMINI_API_KEY"]
+                if isinstance(val, (list, tuple)) and val:
+                    val = val[0]
+                return str(val).strip()
             # Varredura profunda em todas as seções (ex: caso colado ao final após [firebase_credentials])
             for sec_name in st.secrets:
                 sec_val = st.secrets[sec_name]
                 if isinstance(sec_val, dict) or hasattr(sec_val, "get"):
                     sub_key = sec_val.get("GOOGLE_API_KEY") or sec_val.get("GEMINI_API_KEY")
-                    if sub_key and str(sub_key).strip():
-                        return str(sub_key).strip()
+                    if sub_key:
+                        if isinstance(sub_key, (list, tuple)) and sub_key:
+                            sub_key = sub_key[0]
+                        if str(sub_key).strip():
+                            return str(sub_key).strip()
     except Exception:
         pass
     return None
@@ -37,11 +49,14 @@ if not LLM_MODEL:
     try:
         import streamlit as st
         if hasattr(st, "secrets") and "LLM_MODEL" in st.secrets:
-            LLM_MODEL = st.secrets["LLM_MODEL"]
+            val_model = st.secrets["LLM_MODEL"]
+            if isinstance(val_model, (list, tuple)) and val_model:
+                val_model = val_model[0]
+            LLM_MODEL = str(val_model).strip()
     except Exception:
         pass
 if not LLM_MODEL:
-    LLM_MODEL = "gemini-flash-lite-latest"
+    LLM_MODEL = "gemini-2.5-flash"
 
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "models/gemini-embedding-001")
 LLM_TEMPERATURE = float(os.getenv("LLM_TEMPERATURE", "0.8"))

@@ -34,7 +34,8 @@ from services.ai_service import (
     stream_resposta_rag_estrito,
     stream_dialogo_academico,
     inicializar_agente_de_dialogo,
-    separar_pergunta_e_opcoes
+    separar_pergunta_e_opcoes,
+    extrair_texto_conteudo
 )
 from services.pdf_service import criar_pdf_formatado
 
@@ -301,7 +302,7 @@ if st.session_state.tipo_conversa == "estrategia":
     for idx, msg in enumerate(st.session_state.get("historico_mensagens", [])):
         avatar_atual = AVATAR_ORIENTADOR if msg.get("role") == "assistant" else AVATAR_ALUNO
         with st.chat_message(msg["role"], avatar=avatar_atual):
-            content = msg.get("content", "")
+            content = extrair_texto_conteudo(msg.get("content", ""))
             if msg.get("role") == "assistant":
                 # Oculta opções do balão apenas na última mensagem da coleta ativa (onde os botões estão logo abaixo)
                 eh_ultima_coleta = (idx == total_msgs - 1) and (st.session_state.fase == "COLETA")
@@ -369,7 +370,7 @@ if st.session_state.tipo_conversa == "estrategia":
                 opcao_selecionada=resposta_selecionada
             )
             
-            historico_texto = "\n".join([f"{m['role']}: {m['content']}" for m in st.session_state.historico_mensagens])
+            historico_texto = "\n".join([f"{m['role']}: {extrair_texto_conteudo(m.get('content', ''))}" for m in st.session_state.historico_mensagens])
 
             with st.chat_message("assistant", avatar=AVATAR_ORIENTADOR):
                 with st.spinner("Formulando a próxima pergunta metodológica e opções..."):
@@ -402,7 +403,7 @@ if st.session_state.tipo_conversa == "estrategia":
     # --- FASE 1.2: GERAÇÃO DO DOCUMENTO ---
     elif st.session_state.fase == "GERACAO":
         if st.session_state.documento_gerado is None:
-            historico_texto = "\n".join([f"{m['role']}: {m['content']}" for m in st.session_state.historico_mensagens])
+            historico_texto = "\n".join([f"{m['role']}: {extrair_texto_conteudo(m.get('content', ''))}" for m in st.session_state.historico_mensagens])
             with st.chat_message("assistant"):
                 st.write("**Redigindo a estratégia de pesquisa em tempo real...**")
                 try:
@@ -543,7 +544,7 @@ elif st.session_state.tipo_conversa == "rag_estrito":
     for msg in st.session_state.get("historico_mensagens", []):
         avatar_atual = AVATAR_ORIENTADOR if msg.get("role") == "assistant" else AVATAR_ALUNO
         with st.chat_message(msg["role"], avatar=avatar_atual):
-            st.markdown(msg.get("content", ""))
+            st.markdown(extrair_texto_conteudo(msg.get("content", "")))
 
     # Avaliação do atendimento
     with st.expander("Avaliação da Consulta Metodológica"):

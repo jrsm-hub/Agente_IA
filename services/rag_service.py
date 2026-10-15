@@ -55,7 +55,9 @@ def criar_rag_tool(vectordb, llm):
             f"RESPOSTA:"
         )
         
-        resposta = llm.invoke(prompt).content
+        from services.ai_service import extrair_texto_conteudo
+        resposta_raw = llm.invoke(prompt)
+        resposta = extrair_texto_conteudo(resposta_raw)
         
         fontes = sorted(list(set(doc.metadata.get('source', 'Manual') for doc in docs if doc.metadata.get('source'))))
         if fontes:

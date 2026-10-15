@@ -6,12 +6,41 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from config import GOOGLE_API_KEY, LLM_MODEL, LLM_TEMPERATURE
 from services.rag_service import criar_rag_tool
 
-def separar_pergunta_e_opcoes(texto_mensagem: str) -> tuple[str, list[str]]:
+def extrair_texto_conteudo(conteudo) -> str:
+    """Garante a conversão segura de qualquer formato retornado pelo LLM (str, list, dict, AIMessageChunk) em texto string."""
+    if conteudo is None:
+        return ""
+    if isinstance(conteudo, str):
+        return conteudo
+    if isinstance(conteudo, list):
+        partes = []
+        for item in conteudo:
+            if isinstance(item, str):
+                partes.append(item)
+            elif isinstance(item, dict):
+                txt = item.get("text") or item.get("content") or item.get("thought") or ""
+                partes.append(str(txt))
+            elif hasattr(item, "text"):
+                partes.append(str(item.text))
+            elif hasattr(item, "content"):
+                partes.append(extrair_texto_conteudo(item.content))
+            else:
+                partes.append(str(item))
+        return "".join(partes)
+    if isinstance(conteudo, dict):
+        txt = conteudo.get("text") or conteudo.get("content") or ""
+        return str(txt) if txt else str(conteudo)
+    if hasattr(conteudo, "content"):
+        return extrair_texto_conteudo(conteudo.content)
+    return str(conteudo)
+
+def separar_pergunta_e_opcoes(texto_mensagem) -> tuple[str, list[str]]:
     """Separa o texto introdutório da pergunta das opções numeradas (1 a 4), evitando duplicação visual."""
-    if not texto_mensagem:
+    texto_str = extrair_texto_conteudo(texto_mensagem)
+    if not texto_str:
         return "", []
     
-    linhas = texto_mensagem.strip().split('\n')
+    linhas = texto_str.strip().split('\n')
     linhas_pergunta = []
     opcoes = []
     
@@ -30,7 +59,7 @@ def separar_pergunta_e_opcoes(texto_mensagem: str) -> tuple[str, list[str]]:
     pergunta_limpa = "\n".join(linhas_pergunta).strip()
     return pergunta_limpa, opcoes
 
-def extrair_opcoes_da_pergunta(texto_mensagem: str) -> list[str]:
+def extrair_opcoes_da_pergunta(texto_mensagem) -> list[str]:
     """Retorna apenas as opções numeradas extraídas da mensagem."""
     _, opcoes = separar_pergunta_e_opcoes(texto_mensagem)
     return opcoes
@@ -73,7 +102,8 @@ def gerar_titulo_conversa(llm, historico_texto: str) -> str:
     chain = prompt | llm
     try:
         resultado = chain.invoke({"historico": historico_texto})
-        return resultado.content.strip().replace('"', '').replace("'", "")
+        texto = extrair_texto_conteudo(resultado)
+        return texto.strip().replace('"', '').replace("'", "")
     except Exception as e:
         print(f"Erro ao gerar título: {e}")
         return ""
@@ -96,7 +126,8 @@ def gerar_proxima_pergunta_dinamica(llm, historico_texto: str) -> str:
 **PRÓXIMA PERGUNTA:**"""
     prompt = PromptTemplate.from_template(template)
     chain = prompt | llm
-    return chain.invoke({"historico": historico_texto}).content
+    resultado = chain.invoke({"historico": historico_texto})
+    return extrair_texto_conteudo(resultado)
 
 def stream_gerar_proxima_pergunta(llm, historico_texto: str, vectordb=None):
     """Gera a próxima pergunta afuniladora e 4 opções em streaming com alta responsividade."""
@@ -117,10 +148,9 @@ def stream_gerar_proxima_pergunta(llm, historico_texto: str, vectordb=None):
     prompt = PromptTemplate.from_template(template)
     chain = prompt | llm
     for chunk in chain.stream({"historico": historico_texto}):
-        if hasattr(chunk, 'content'):
-            yield chunk.content
-        else:
-            yield str(chunk)
+        txt = extrair_texto_conteudo(chunk)
+        if txt:
+            yield txt
 
 TEMPLATE_DOCUMENTO_ESTRATEGICO = """Você é um orientador e estrategista acadêmico sênior. 
 Com base em todo o HISTÓRICO da entrevista com o aluno, elabore um Documento Estratégico de Pesquisa detalhado, aprofundado e completo em Markdown (em português do Brasil).
@@ -166,17 +196,17 @@ def gerar_documento_estrategico(llm, historico_texto: str) -> str:
     """Gera o documento de estratégia de pesquisa em Markdown a partir do histórico (síncrono)."""
     prompt = PromptTemplate.from_template(TEMPLATE_DOCUMENTO_ESTRATEGICO)
     chain = prompt | llm
-    return chain.invoke({"historico": historico_texto}).content
+    resultado = chain.invoke({"historico": historico_texto})
+    return extrair_texto_conteudo(resultado)
 
 def stream_gerar_documento_estrategico(llm, historico_texto: str):
     """Gera o documento de estratégia de pesquisa em formato de streaming."""
     prompt = PromptTemplate.from_template(TEMPLATE_DOCUMENTO_ESTRATEGICO)
     chain = prompt | llm
     for chunk in chain.stream({"historico": historico_texto}):
-        if hasattr(chunk, 'content'):
-            yield chunk.content
-        else:
-            yield str(chunk)
+        txt = extrair_texto_conteudo(chunk)
+        if txt:
+            yield txt
 
 class DialogoAcademicoAgent:
     """Agente conversacional com memória contextual e consulta integrada aos manuais RAG."""
@@ -212,7 +242,8 @@ class DialogoAcademicoAgent:
         )
         
         try:
-            resposta = self.llm.invoke(prompt).content
+            resposta_raw = self.llm.invoke(prompt)
+            resposta = extrair_texto_conteudo(resposta_raw)
         except Exception as e:
             resposta = f"Ocorreu um erro ao processar a resposta: {e}"
             
@@ -246,10 +277,9 @@ class DialogoAcademicoAgent:
         )
         
         for chunk in self.llm.stream(prompt):
-            if hasattr(chunk, 'content'):
-                yield chunk.content
-            else:
-                yield str(chunk)
+            txt = extrair_texto_conteudo(chunk)
+            if txt:
+                yield txt
 
 def stream_dialogo_academico(llm, vectordb, pergunta: str, historico_mensagens: list):
     """Executa a busca RAG no ChromaDB e gera resposta em streaming para o diálogo livre com o orientador."""
@@ -276,10 +306,9 @@ def stream_dialogo_academico(llm, vectordb, pergunta: str, historico_mensagens: 
     )
     
     for chunk in llm.stream(prompt):
-        if hasattr(chunk, 'content'):
-            yield chunk.content
-        else:
-            yield str(chunk)
+        txt = extrair_texto_conteudo(chunk)
+        if txt:
+            yield txt
 
 def inicializar_agente_de_dialogo(llm, vectordb, historico_mensagens: list):
     """Inicializa o agente para diálogo livre pós-estratégia com RAG."""
@@ -353,10 +382,9 @@ PARECER METODOLÓGICO FUNDAMENTADO:"""
         "pergunta": pergunta,
         "bloco_documento": bloco_doc
     }):
-        if hasattr(chunk, 'content'):
-            yield chunk.content
-        else:
-            yield str(chunk)
+        txt = extrair_texto_conteudo(chunk)
+        if txt:
+            yield txt
             
     # Adiciona a citação formatada das fontes encontradas (única listagem oficial)
     fontes_unicas = sorted(list(set(

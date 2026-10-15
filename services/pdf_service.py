@@ -1,8 +1,11 @@
 import re
 from fpdf import FPDF
 
-def sanitizar_texto_para_pdf(texto: str) -> str:
+def sanitizar_texto_para_pdf(texto) -> str:
     """Substitui caracteres Unicode e emojis por equivalentes compatíveis com Latin-1."""
+    if not isinstance(texto, str):
+        from services.ai_service import extrair_texto_conteudo
+        texto = extrair_texto_conteudo(texto)
     substituicoes = {
         '“': '"', '”': '"', '„': '"', '‟': '"',
         '‘': "'", '’': "'", '‚': "'", '‛': "'",
