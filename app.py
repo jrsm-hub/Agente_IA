@@ -46,11 +46,13 @@ st.set_page_config(
     layout="wide"
 )
 
-# Inicialização de Recursos Globais
+from config import GOOGLE_API_KEY
+
+# Inicialização de Recursos Globais com invalidação automática de cache
 db = init_firebase()
-llm = carregar_llm()
-llm_estrito = carregar_llm_estrito()
-vectordb = carregar_vectordb()
+llm = carregar_llm(api_key=GOOGLE_API_KEY)
+llm_estrito = carregar_llm_estrito(api_key=GOOGLE_API_KEY)
+vectordb = carregar_vectordb(api_key=GOOGLE_API_KEY)
 
 # Identidade visual sóbria para o chat acadêmico
 AVATAR_ORIENTADOR = "🎓"
@@ -84,19 +86,25 @@ def exibir_erro_amigavel(e: Exception):
     """Exibe mensagem clara e orientações passo a passo em caso de falha de API ou permissão."""
     msg = str(e)
     nome = type(e).__name__
+    
+    chave_ativa = GOOGLE_API_KEY or ""
+    if chave_ativa and len(chave_ativa) >= 8:
+        chave_mascarada = f"`{chave_ativa[:4]}...{chave_ativa[-4:]}` (total {len(chave_ativa)} chars)"
+    else:
+        chave_mascarada = "`Não encontrada ou vazia`"
+
     if "PermissionDenied" in nome or "PermissionDenied" in msg or "403" in msg:
         st.error(
-            "**Erro de Permissão na API do Google (403 Permission Denied):**\n\n"
-            "A chave de API (`GOOGLE_API_KEY`) foi rejeitada pelos servidores do Google.\n\n"
-            "**Como resolver no Streamlit Cloud:**\n"
-            "1. Acesse o painel do seu app no [Streamlit Community Cloud](https://share.streamlit.io/).\n"
-            "2. No canto inferior direito, clique em **Manage app** (ou nos três pontinhos) > **Settings** > **Secrets**.\n"
-            "3. Se a chave foi exposta no GitHub anteriormente, o Google a revoga automaticamente por segurança.\n"
-            "4. Crie uma nova chave gratuita no [Google AI Studio](https://aistudio.google.com/) e atualize o segredo:\n"
-            "   ```toml\n"
-            "   GOOGLE_API_KEY = \"sua-nova-chave-aqui\"\n"
-            "   ```\n"
-            "5. Salve e reinicie o aplicativo (**Reboot App**)."
+            f"**Erro de Permissão na API do Google (403 Permission Denied):**\n\n"
+            f"A chave ativa carregada no momento é: **{chave_mascarada}**.\n\n"
+            "**Verificações no Streamlit Cloud:**\n"
+            "1. **A chave ativa acima é a sua chave nova?**\n"
+            "   - Se ela for a chave antiga (ou se estiver vazia), o Streamlit Cloud ainda não carregou a nova chave da nuvem.\n"
+            "   - No Streamlit Cloud, clique no canto inferior direito em **Manage app** (ou nos 3 pontinhos) > **Settings** > **Secrets**.\n"
+            "   - Certifique-se de que `GOOGLE_API_KEY = \"AIzaSy...\"` esteja digitada corretamente.\n"
+            "   - Clique em **Save** e em seguida selecione obrigatoriamente **Reboot App** no menu inferior direito para limpar a memória da nuvem.\n"
+            "2. **A chave nova foi gerada no Google AI Studio?**\n"
+            "   - Certifique-se de que a chave foi criada no [Google AI Studio](https://aistudio.google.com/) e que a conta não possui restrições de faturamento ou de idade."
         )
     else:
         st.error(f"Erro na comunicação com a API: {e}")

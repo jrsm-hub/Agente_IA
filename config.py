@@ -4,24 +4,31 @@ from dotenv import load_dotenv
 # Carrega variáveis de ambiente do arquivo .env
 load_dotenv()
 
-# Chaves de API: busca em os.getenv, st.secrets (Streamlit Cloud) e sincroniza com o ambiente
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY") or os.getenv("GEMINI_API_KEY")
-
-if not GOOGLE_API_KEY:
+# Função para localização robusta da chave em qualquer formato do Streamlit Secrets
+def obter_google_api_key() -> str:
+    key = os.getenv("GOOGLE_API_KEY") or os.getenv("GEMINI_API_KEY")
+    if key and key.strip():
+        return key.strip()
     try:
         import streamlit as st
         if hasattr(st, "secrets"):
             if "GOOGLE_API_KEY" in st.secrets:
-                GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]
-            elif "GEMINI_API_KEY" in st.secrets:
-                GOOGLE_API_KEY = st.secrets["GEMINI_API_KEY"]
-            elif "general" in st.secrets and "GOOGLE_API_KEY" in st.secrets["general"]:
-                GOOGLE_API_KEY = st.secrets["general"]["GOOGLE_API_KEY"]
+                return str(st.secrets["GOOGLE_API_KEY"]).strip()
+            if "GEMINI_API_KEY" in st.secrets:
+                return str(st.secrets["GEMINI_API_KEY"]).strip()
+            # Varredura profunda em todas as seções (ex: caso colado ao final após [firebase_credentials])
+            for sec_name in st.secrets:
+                sec_val = st.secrets[sec_name]
+                if isinstance(sec_val, dict) or hasattr(sec_val, "get"):
+                    sub_key = sec_val.get("GOOGLE_API_KEY") or sec_val.get("GEMINI_API_KEY")
+                    if sub_key and str(sub_key).strip():
+                        return str(sub_key).strip()
     except Exception:
         pass
+    return None
 
+GOOGLE_API_KEY = obter_google_api_key()
 if GOOGLE_API_KEY:
-    GOOGLE_API_KEY = str(GOOGLE_API_KEY).strip()
     os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 
 # Modelos com fallback e suporte a secrets

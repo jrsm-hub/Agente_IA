@@ -36,26 +36,28 @@ def extrair_opcoes_da_pergunta(texto_mensagem: str) -> list[str]:
     return opcoes
 
 @st.cache_resource
-def carregar_llm(temperature: float = LLM_TEMPERATURE):
+def carregar_llm(api_key: str = None, temperature: float = LLM_TEMPERATURE):
     """Inicializa o modelo ChatGoogleGenerativeAI padrão para diálogos acadêmicos."""
-    if not GOOGLE_API_KEY:
+    chave = (api_key or GOOGLE_API_KEY or "").strip()
+    if not chave:
         st.error("Chave de API do Google (GOOGLE_API_KEY) não encontrada!")
         st.stop()
     return ChatGoogleGenerativeAI(
         model=LLM_MODEL,
-        google_api_key=GOOGLE_API_KEY,
+        google_api_key=chave,
         temperature=temperature
     )
 
 @st.cache_resource
-def carregar_llm_estrito():
+def carregar_llm_estrito(api_key: str = None):
     """Inicializa o modelo ChatGoogleGenerativeAI com temperatura zero para máxima fidelidade científica."""
-    if not GOOGLE_API_KEY:
+    chave = (api_key or GOOGLE_API_KEY or "").strip()
+    if not chave:
         st.error("Chave de API do Google (GOOGLE_API_KEY) não encontrada!")
         st.stop()
     return ChatGoogleGenerativeAI(
         model=LLM_MODEL,
-        google_api_key=GOOGLE_API_KEY,
+        google_api_key=chave,
         temperature=0.0
     )
 

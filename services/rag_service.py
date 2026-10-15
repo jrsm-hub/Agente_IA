@@ -15,17 +15,18 @@ except (ImportError, ModuleNotFoundError):
 from config import GOOGLE_API_KEY, EMBEDDING_MODEL, BANCO_VETORIAL_DIR
 
 @st.cache_resource
-def carregar_embeddings():
+def carregar_embeddings(api_key: str = None):
     """Inicializa o modelo de embeddings."""
-    if not GOOGLE_API_KEY:
+    chave = (api_key or GOOGLE_API_KEY or "").strip()
+    if not chave:
         st.error("Chave de API do Google (GOOGLE_API_KEY) não encontrada!")
         st.stop()
-    return GoogleGenerativeAIEmbeddings(model=EMBEDDING_MODEL, google_api_key=GOOGLE_API_KEY)
+    return GoogleGenerativeAIEmbeddings(model=EMBEDDING_MODEL, google_api_key=chave)
 
 @st.cache_resource
-def carregar_vectordb():
+def carregar_vectordb(api_key: str = None):
     """Inicializa e carrega o banco vetorial Chroma."""
-    embeddings = carregar_embeddings()
+    embeddings = carregar_embeddings(api_key=api_key)
     if not os.path.exists(BANCO_VETORIAL_DIR):
         print(f"Aviso: Diretório do banco vetorial '{BANCO_VETORIAL_DIR}' não encontrado.")
     return Chroma(persist_directory=BANCO_VETORIAL_DIR, embedding_function=embeddings)
