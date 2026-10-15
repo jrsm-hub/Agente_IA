@@ -80,6 +80,27 @@ def extrair_texto_documento(arquivo) -> str:
         st.error(f"Erro ao processar o arquivo: {e}")
     return ""
 
+def exibir_erro_amigavel(e: Exception):
+    """Exibe mensagem clara e orientações passo a passo em caso de falha de API ou permissão."""
+    msg = str(e)
+    nome = type(e).__name__
+    if "PermissionDenied" in nome or "PermissionDenied" in msg or "403" in msg:
+        st.error(
+            "**Erro de Permissão na API do Google (403 Permission Denied):**\n\n"
+            "A chave de API (`GOOGLE_API_KEY`) foi rejeitada pelos servidores do Google.\n\n"
+            "**Como resolver no Streamlit Cloud:**\n"
+            "1. Acesse o painel do seu app no [Streamlit Community Cloud](https://share.streamlit.io/).\n"
+            "2. No canto inferior direito, clique em **Manage app** (ou nos três pontinhos) > **Settings** > **Secrets**.\n"
+            "3. Se a chave foi exposta no GitHub anteriormente, o Google a revoga automaticamente por segurança.\n"
+            "4. Crie uma nova chave gratuita no [Google AI Studio](https://aistudio.google.com/) e atualize o segredo:\n"
+            "   ```toml\n"
+            "   GOOGLE_API_KEY = \"sua-nova-chave-aqui\"\n"
+            "   ```\n"
+            "5. Salve e reinicie o aplicativo (**Reboot App**)."
+        )
+    else:
+        st.error(f"Erro na comunicação com a API: {e}")
+
 def inicializar_sessao():
     """Inicializa ou reseta o estado da sessão de atendimento do Streamlit."""
     st.session_state.fase = "SELECAO_MODO"
@@ -344,19 +365,23 @@ if st.session_state.tipo_conversa == "estrategia":
 
             with st.chat_message("assistant", avatar=AVATAR_ORIENTADOR):
                 with st.spinner("Formulando a próxima pergunta metodológica e opções..."):
-                    proxima_pergunta = gerar_proxima_pergunta_dinamica(llm, historico_texto)
-                    st.session_state.historico_mensagens.append({"role": "assistant", "content": proxima_pergunta})
-                    
-                    _, opcoes_novas = separar_pergunta_e_opcoes(proxima_pergunta)
-                    adicionar_mensagem(
-                        db,
-                        st.session_state.conversa_id,
-                        role="assistant",
-                        content=proxima_pergunta,
-                        fase="COLETA",
-                        rodada=rodada_atual + 1,
-                        opcoes_oferecidas=opcoes_novas
-                    )
+                    try:
+                        proxima_pergunta = gerar_proxima_pergunta_dinamica(llm, historico_texto)
+                        st.session_state.historico_mensagens.append({"role": "assistant", "content": proxima_pergunta})
+                        
+                        _, opcoes_novas = separar_pergunta_e_opcoes(proxima_pergunta)
+                        adicionar_mensagem(
+                            db,
+                            st.session_state.conversa_id,
+                            role="assistant",
+                            content=proxima_pergunta,
+                            fase="COLETA",
+                            rodada=rodada_atual + 1,
+                            opcoes_oferecidas=opcoes_novas
+                        )
+                    except Exception as e:
+                        exibir_erro_amigavel(e)
+                        st.stop()
 
             # Gera título formal no primeiro turno sem travar a resposta
             if len(st.session_state.historico_mensagens) == 3:
@@ -372,9 +397,13 @@ if st.session_state.tipo_conversa == "estrategia":
             historico_texto = "\n".join([f"{m['role']}: {m['content']}" for m in st.session_state.historico_mensagens])
             with st.chat_message("assistant"):
                 st.write("**Redigindo a estratégia de pesquisa em tempo real...**")
-                stream = stream_gerar_documento_estrategico(llm, historico_texto)
-                doc_final = st.write_stream(stream)
-                st.session_state.documento_gerado = doc_final
+                try:
+                    stream = stream_gerar_documento_estrategico(llm, historico_texto)
+                    doc_final = st.write_stream(stream)
+                    st.session_state.documento_gerado = doc_final
+                except Exception as e:
+                    exibir_erro_amigavel(e)
+                    st.stop()
             
             st.session_state.historico_mensagens.append({"role": "assistant", "content": doc_final})
             adicionar_mensagem(db, st.session_state.conversa_id, role="assistant", content=doc_final, fase="GERACAO")
@@ -435,8 +464,8 @@ if st.session_state.tipo_conversa == "estrategia":
                     )
                     resposta = st.write_stream(stream)
                 except Exception as e:
-                    resposta = f"Ocorreu um erro no processamento: {e}"
-                    st.error(resposta)
+                    exibir_erro_amigavel(e)
+                    st.stop()
             
             st.session_state.historico_mensagens.append({"role": "assistant", "content": resposta})
             adicionar_mensagem(db, st.session_state.conversa_id, role="assistant", content=resposta, fase="DIALOGO_ABERTO")
@@ -486,16 +515,20 @@ elif st.session_state.tipo_conversa == "rag_estrito":
             adicionar_mensagem(db, st.session_state.conversa_id, role="user", content=prompt_auditoria, fase="RAG_ESTRITO")
             
             with st.chat_message("assistant", avatar=AVATAR_ORIENTADOR):
-                stream = stream_resposta_rag_estrito(
-                    llm_estrito,
-                    vectordb,
-                    prompt_auditoria,
-                    st.session_state.historico_mensagens,
-                    documento_aluno=st.session_state.doc_anexado_texto
-                )
-                resposta_completa = st.write_stream(stream)
-                st.session_state.historico_mensagens.append({"role": "assistant", "content": resposta_completa})
-                adicionar_mensagem(db, st.session_state.conversa_id, role="assistant", content=resposta_completa, fase="RAG_ESTRITO")
+                try:
+                    stream = stream_resposta_rag_estrito(
+                        llm_estrito,
+                        vectordb,
+                        prompt_auditoria,
+                        st.session_state.historico_mensagens,
+                        documento_aluno=st.session_state.doc_anexado_texto
+                    )
+                    resposta_completa = st.write_stream(stream)
+                    st.session_state.historico_mensagens.append({"role": "assistant", "content": resposta_completa})
+                    adicionar_mensagem(db, st.session_state.conversa_id, role="assistant", content=resposta_completa, fase="RAG_ESTRITO")
+                except Exception as e:
+                    exibir_erro_amigavel(e)
+                    st.stop()
             st.rerun()
 
     # Exibição do histórico de mensagens
@@ -538,16 +571,20 @@ elif st.session_state.tipo_conversa == "rag_estrito":
 
         # Stream da resposta RAG com citação de fontes e documento
         with st.chat_message("assistant", avatar=AVATAR_ORIENTADOR):
-            stream = stream_resposta_rag_estrito(
-                llm_estrito,
-                vectordb,
-                prompt_usuario,
-                st.session_state.historico_mensagens,
-                documento_aluno=st.session_state.get("doc_anexado_texto")
-            )
-            resposta_completa = st.write_stream(stream)
-            st.session_state.historico_mensagens.append({"role": "assistant", "content": resposta_completa})
-            adicionar_mensagem(db, st.session_state.conversa_id, role="assistant", content=resposta_completa, fase="RAG_ESTRITO")
+            try:
+                stream = stream_resposta_rag_estrito(
+                    llm_estrito,
+                    vectordb,
+                    prompt_usuario,
+                    st.session_state.historico_mensagens,
+                    documento_aluno=st.session_state.get("doc_anexado_texto")
+                )
+                resposta_completa = st.write_stream(stream)
+                st.session_state.historico_mensagens.append({"role": "assistant", "content": resposta_completa})
+                adicionar_mensagem(db, st.session_state.conversa_id, role="assistant", content=resposta_completa, fase="RAG_ESTRITO")
+            except Exception as e:
+                exibir_erro_amigavel(e)
+                st.stop()
 
         # Gera título inteligente com base na pergunta após o stream
         if len(st.session_state.historico_mensagens) == 3:
