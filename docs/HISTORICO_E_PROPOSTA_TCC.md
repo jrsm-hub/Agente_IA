@@ -21,11 +21,13 @@
 
 ---
 
-## 📄 2. Texto da Proposta de TCC (Formatado em 2 Parágrafos / ~17 Linhas)
+## 📄 2. Texto da Proposta de TCC (Formatado em 3 Parágrafos Rigorosos)
 
-> O objetivo do trabalho é implementar um agente conversacional inteligente baseado em Modelos de Linguagem de Larga Escala (LLMs) e Geração Aumentada por Recuperação (RAG) para orientação acadêmica, atuando como uma camada de mediação pedagógica que conduz pesquisadores desde a ideação inicial até a estruturação metodológica de projetos de pesquisa. Diferentemente de assistentes conversacionais generalistas, sujeitos a alucinações conceituais e respostas dispersas, o sistema emprega uma dinâmica socrática de afunilamento progressivo ancorada estritamente em uma base vetorial de manuais canônicos de metodologia científica, garantindo rigor normativo, pertinência teórica e controle de coerência em tempo real.
+> Este trabalho propõe o desenvolvimento e a avaliação empírica de um agente inteligente para mediação pedagógica na orientação preliminar de pesquisas científicas em Ciência da Computação. Apoiando-se nos preceitos da *Design Science Research* (DSR), o artefato computacional implementa uma arquitetura híbrida: integra um orquestrador dialógico socrático voltado ao afunilamento progressivo de tópicos e à formulação de problemas investigativos, complementado por um módulo de Geração Aumentada por Recuperação (RAG) ancorado em manuais canônicos de metodologia científica para assegurar conformidade normativa, rigor conceitual e esclarecimento técnico procedimental.
 >
-> O foco central do estudo é analisar como a combinação entre recuperação de conhecimento especializado e engenharia de prompts direcionada pode guiar a formulação de problemas de pesquisa e hipóteses de forma consistente e pedagogicamente fundamentada. Para validar a eficácia da abordagem proposta, o agente é avaliado sistematicamente em comparação com o uso de LLMs convencionais sem recuperação contextualizada (baseline), mensurando a precisão conceitual das orientações e a maturidade metodológica dos planos de pesquisa gerados. Os resultados visam demonstrar se o orquestrador socrático com RAG supera abordagens estáticas e genéricas, otimizando o processo preliminar de orientação científica e reduzindo barreiras na etapa de delimitação de temas acadêmicos.
+> A investigação tem como objetivo caracterizar e mitigar as principais barreiras enfrentadas por estudantes de graduação na fase de ideação, frequentemente marcada por temas excessivamente amplos e pela confusão entre o desenvolvimento meramente operacional de software e a formulação de problemas científicos testáveis. O sistema guia o pesquisador através de turnos estruturados de tomada de decisão com opções metodológicas fundamentadas, culminando na síntese automatizada de um documento estratégico de pesquisa composto por delimitação contextual, pergunta norteadora, abordagens metodológicas comparativas e mitigação de riscos de execução.
+>
+> A validação do artefato será conduzida mediante estudo piloto com estudantes do Centro de Informática da Universidade Federal de Pernambuco (CIn/UFPE). O protocolo adota um delineamento experimental intra-sujeito, mensurando o ganho de maturidade metodológica através de uma rubrica analítica multicritério aplicada antes e após o uso da ferramenta, enquanto questionários fundamentados no modelo de aceitação tecnológica (*Technology Acceptance Model* - TAM) controlam variáveis intervenientes de formação prévia e avaliam a utilidade e facilidade percebidas. Com isso, busca-se demonstrar a viabilidade de agentes inteligentes como instrumentos viáveis de apoio à autonomia acadêmica discente.
 
 ---
 
@@ -47,8 +49,8 @@ O sistema é construído em Python, seguindo uma arquitetura limpa e modular des
 ┌───────────────────▼──────────────┐   ┌────────────▼────────────────────┐
 │      SERVICES / AI & RAG         │   │      PERSISTÊNCIA & DADOS       │
 │  - ai_service.py:                │   │  - firebase_service.py:         │
-│    • Gemini 2.5-flash (Streaming)│   │    • Firestore (users/conversas)│
-│    • Questionário Socrático + RAG│   │    • Telemetria & Feedbacks     │
+│    • Gemini Flash Lite Streaming │   │    • Firestore (users/conversas)│
+│    • Orquestrador Socrático      │   │    • Telemetria & Feedbacks     │
 │    • stream_dialogo_academico    │   │    • Metadados Analíticos       │
 │    • Consultor RAG Estrito (0.0) │   │  - pdf_service.py:              │
 │  - rag_service.py:               │   │    • FPDF2 com formatação Latin │
@@ -59,14 +61,16 @@ O sistema é construído em Python, seguindo uma arquitetura limpa e modular des
 
 ---
 
-## 🔬 4. Como o RAG Opera em Todas as Etapas do Sistema
+## 🔬 4. Como o RAG e o Diálogo Socrático Operam no Sistema (Arquitetura Híbrida)
 
-| Modo / Etapa | Como o RAG atua? | Função no Sistema |
+Para garantir máxima responsividade (~1.5s) e evitar injeção de ruído conceitual durante a ideação, o sistema distribui a cognição entre dois pilares complementares:
+
+| Módulo / Fase | Mecanismo de IA | Função e Justificativa Científica |
 | :--- | :--- | :--- |
-| **1. Questionário de Ideação** | Consulta o ChromaDB para recuperar diretrizes metodológicas canônicas (delimitação de problema e hipóteses de Lakatos, Gil, Severino). | Modela as 4 opções sugeridas pelo Gemini com fundamentação científica estrita. |
-| **2. Síntese da Estratégia** | Consolida o histórico das escolhas do pesquisador em Markdown aprofundado. | Produz o documento com Diagnóstico, Pergunta Norteadora, Caminhos A e B detalhados, Riscos e Próximos Passos. |
-| **3. Diálogo Livre Pós-Estratégia** | `stream_dialogo_academico` realiza busca semântica em tempo real conforme as dúvidas do aluno. | Tira dúvidas sobre execução, ferramentas, cronograma e métodos de pesquisa. |
-| **4. Consultor Metodológico Fiel** | Temperatura `0.0`, busca os 4 fragmentos mais similares no ChromaDB. | Respostas estritamente fundamentadas na literatura com citação explícita das obras consultadas. |
+| **1. Questionário de Ideação (Socrático)** | Engenharia de Prompts Direcionada (`gemini-flash-lite-latest`) | Guia o afunilamento em árvore de decisão temática e gera 4 opções metodológicas concretas. Não realiza busca vetorial em cada clique para evitar latência e garantir que os tópicos de domínio (IA, Redes, Dados) fluam sem contaminação por textos metodológicos genéricos. |
+| **2. Síntese do Documento Estratégico** | Cadeia de Sumarização Estruturada | Compila o histórico das escolhas em Diagnóstico, Pergunta Norteadora, Caminhos A e B comparativos, Riscos e Próximos Passos. |
+| **3. Diálogo Livre Pós-Estratégia** | RAG Dinâmico (`stream_dialogo_academico`) | Consulta os 5.839 chunks do ChromaDB para sanar dúvidas do estudante sobre como conduzir sua pesquisa, escolher amostras e validar hipóteses. |
+| **4. Consultoria Metodológica & Auditoria** | RAG Estrito (`stream_resposta_rag_estrito`) | Análise formal de rascunhos em PDF/TXT e consultas metodológicas estritas (temperatura 0.0), com verificação anti-alucinação e citação explícita das obras consultadas. |
 
 ---
 
@@ -143,21 +147,46 @@ Conectar as opções socráticas do agente com as 4 grandes linhas de pesquisa e
 
 ## 📊 9. Instrumentos de Avaliação Científica para a Monografia (Capítulo 5)
 
-Para responder à pergunta *"Como provar cientificamente que o agente é melhor do que uma IA comum?"*, foram desenhados dois instrumentos de avaliação:
+Para atender ao rigor exigido pelas bancas e pelos manuais canônicos de pesquisa em computação (Wazlawick, Gil, Marconi & Lakatos), o estudo adota um delineamento experimental **intra-sujeito** com medição de ganho ($\Delta = \text{Pós} - \text{Pré}$) e controle de variáveis intervenientes:
 
-### 📝 Instrumento A: Questionário de Percepção do Aluno (Modelo TAM - *Technology Acceptance Model*)
-Aplicado aos estudantes após o uso do sistema (Escala Likert de 1 a 5 estrelas):
-1. **Utilidade Percebida:** *"O agente me ajudou a sair de uma ideia genérica de dados e chegar a um problema específico?"*
-2. **Facilidade de Decisão (Método Socrático):** *"As 4 opções oferecidas tornaram o processo de escolha mais claro e estruturado?"*
-3. **Qualidade do Documento Final:** *"O plano de pesquisa em PDF gerado é claro e viável para ser apresentado a um orientador?"*
-4. **Fidelidade Metodológica:** *"As perguntas do agente pareceram fundamentadas nas regras de pesquisa da disciplina?"*
+### 🛡️ Controle de Variáveis Intervenientes (Ficha Preliminar de Perfil)
+Antes da interação, o participante preenche um cadastro rápido para controle estatístico:
+1. **Subárea de Atuação no CIn:** (ex: Inteligência Artificial, Engenharia de Software, Sistemas Embarcados, Redes/Segurança, Teoria).
+2. **Experiência Prévia com Pesquisa Científica:** (Nenhuma; Iniciação Científica - PIBIC/PIBITI; Artigo publicado; Trabalho de Conclusão anterior).
+3. **Ideia Inicial Pré-Teste (2 a 3 linhas):** Registro sumário do que o aluno imagina pesquisar, sem qualquer auxílio da ferramenta.
 
-### 🎓 Instrumento B: Rubrica de Avaliação Conceitual (Avaliação Cega por Professores)
-Ficha com 4 critérios (notas de 0 a 10) para avaliar planos gerados pelo Agente vs. IA Comum (Baseline):
-* **Critério 1: Formulação do Problema** (O problema em Dados é claro, relevante e possui variáveis mensuráveis?).
-* **Critério 2: Coerência da Hipótese** (A hipótese proposta tem relação lógica direta com o problema?).
-* **Critério 3: Viabilidade dos Dados** (O método de coleta e o dataset sugerido são realistas para o prazo de um TCC?).
-* **Critério 4: Rigor Metodológico** (Ausência de erros conceituais ou alucinações normativas).
+*Justificativa Metodológica:* O controle garante demonstrar que o ganho de maturidade nos planos de pesquisa decorre do uso do agente mediador e não de discrepâncias prévias na formação ou facilidade individual dos participantes.
+
+---
+
+### 📝 Instrumento A: Questionário de Aceitação Tecnológica (Modelo TAM - Davis, 1989)
+Aplicado logo após o aluno concluir a sessão e exportar o PDF (Escala Likert de 1 a 5: *1 = Discordo Totalmente*, *5 = Concordo Totalmente*):
+
+#### Dimensão 1: Utilidade Percebida (*Perceived Usefulness - PU*)
+* **PU1:** O uso do agente me ajudou a transformar uma ideia genérica em um problema de pesquisa bem delimitado e compreensível.
+* **PU2:** O documento estratégico gerado em PDF forneceu uma base consistente e estruturada para apresentar ao meu orientador acadêmico.
+* **PU3:** As opções metodológicas sugeridas permitiram enxergar caminhos viáveis que eu não havia considerado inicialmente.
+* **PU4:** A mediação do agente reduziu o tempo e a ansiedade que eu normalmente teria na fase inicial de definição de tema.
+
+#### Dimensão 2: Facilidade de Uso Percebida (*Perceived Ease of Use - PEOU*)
+* **PEOU1:** O formato socrático de perguntas graduais com 4 opções de resposta foi intuitivo e simples de navegar.
+* **PEOU2:** A interface do sistema não exigiu esforço mental excessivo ou conhecimento prévio sobre ferramentas de IA.
+* **PEOU3:** A transição entre as escolhas rápidas (botões) e a possibilidade de digitar respostas personalizadas foi fluida.
+* **PEOU4:** Ficou claro e compreensível de que maneira cada escolha feita ao longo do diálogo moldou o documento final.
+
+---
+
+### 🎓 Instrumento B: Rubrica Analítica Multicritério (Avaliação de Maturidade Metodológica)
+Instrumento cego aplicado por avaliadores para mensurar o salto de qualidade entre a ideia inicial do aluno (Pré-teste) e o Documento Estratégico gerado (Pós-teste). Cada critério utiliza escala Likert inequívoca de 1 a 5:
+
+| Critério Analítico | Nível 1 (Incipiente) | Nível 3 (Intermediário) | Nível 5 (Rigoroso / Exequível) |
+| :--- | :--- | :--- | :--- |
+| **C1: Delimitação do Problema** | Tema genérico sem contexto; ausência de fronteira clara de investigação. | Tema delimitado, mas a pergunta de pesquisa ainda é ampla ou confusa. | Problema de pesquisa claro, específico, contextualizado e formalizado como pergunta investigativa. |
+| **C2: Testabilidade da Hipótese** | Mera lista de requisitos de software ou ausência de hipótese científica. | Hipótese esboçada, mas com dificuldade de refutação ou mensuração direta. | Hipótese formal, falseável, diretamente conectada às variáveis do problema de pesquisa. |
+| **C3: Viabilidade e Procedimentos** | Não cita métodos, ferramentas ou fontes de dados para execução. | Cita ferramentas e datasets gerais, mas sem detalhar o pipeline ou protocolo. | Delineamento metodológico completo: procedimentos técnicos, fontes de dados, métricas e etapas de validação. |
+| **C4: Mapeamento de Riscos** | Não antecipa limitações técnicas ou riscos de inviabilidade. | Menciona riscos genéricos sem apontar planos de mitigação concretos. | Identificação lúcida dos principais gargalos de execução (ex: acesso a dados, latência, viés) e estratégias de contingência. |
+
+$$\Delta_{\text{Maturidade}} = \text{Escore Pós} - \text{Escore Pré}$$
 
 ---
 

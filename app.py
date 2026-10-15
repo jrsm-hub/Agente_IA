@@ -6,6 +6,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 if BASE_DIR not in sys.path:
     sys.path.insert(0, BASE_DIR)
 
+import fitz
 import nest_asyncio
 import streamlit as st
 import streamlit.components.v1 as components
@@ -27,6 +28,7 @@ from services.ai_service import (
     carregar_llm,
     carregar_llm_estrito,
     gerar_titulo_conversa,
+    gerar_proxima_pergunta_dinamica,
     stream_gerar_proxima_pergunta,
     stream_gerar_documento_estrategico,
     stream_resposta_rag_estrito,
@@ -39,8 +41,8 @@ from services.pdf_service import criar_pdf_formatado
 # Configurações iniciais da aplicação
 nest_asyncio.apply()
 st.set_page_config(
-    page_title="Orientador & Estrategista Acadêmico",
-    page_icon="🧭",
+    page_title="Orientador Acadêmico | Mediação Científica",
+    page_icon=None,
     layout="wide"
 )
 
@@ -50,14 +52,44 @@ llm = carregar_llm()
 llm_estrito = carregar_llm_estrito()
 vectordb = carregar_vectordb()
 
+# Identidade visual sóbria para o chat acadêmico
+AVATAR_ORIENTADOR = "🎓"
+AVATAR_ALUNO = "👤"
+
+def extrair_texto_documento(arquivo) -> str:
+    """Extrai texto de arquivo PDF ou TXT carregado via Streamlit com getvalue seguro."""
+    try:
+        nome = arquivo.name.lower()
+        bytes_data = arquivo.getvalue() if hasattr(arquivo, "getvalue") else arquivo.read()
+        if not bytes_data:
+            return ""
+        if nome.endswith(".pdf"):
+            doc = fitz.open(stream=bytes_data, filetype="pdf")
+            texto_paginas = []
+            for pagina in doc:
+                txt = pagina.get_text()
+                if txt.strip():
+                    texto_paginas.append(txt)
+            texto_completo = "\n".join(texto_paginas).strip()
+            if not texto_completo:
+                st.warning("O arquivo PDF foi carregado, mas não contém texto selecionável (pode ser uma imagem escaneada). Por favor, utilize um PDF com camada de texto ou arquivo .txt.")
+            return texto_completo
+        elif nome.endswith(".txt"):
+            return bytes_data.decode("utf-8", errors="replace").strip()
+    except Exception as e:
+        st.error(f"Erro ao processar o arquivo: {e}")
+    return ""
+
 def inicializar_sessao():
-    """Inicializa ou reseta o estado da sessão de chat do Streamlit."""
+    """Inicializa ou reseta o estado da sessão de atendimento do Streamlit."""
     st.session_state.fase = "SELECAO_MODO"
     st.session_state.tipo_conversa = None
     st.session_state.historico_mensagens = []
     st.session_state.agent_executor = None
     st.session_state.documento_gerado = None
     st.session_state.conversa_id = None
+    st.session_state.doc_anexado_texto = None
+    st.session_state.doc_anexado_nome = None
 
 # --- TELA DE LOGIN / IDENTIFICAÇÃO DO USUÁRIO ---
 if "user_id" not in st.session_state or not st.session_state.user_id:
@@ -67,30 +99,30 @@ if "user_id" not in st.session_state or not st.session_state.user_id:
     with col_center:
         st.markdown(
             """
-            <div style="text-align: center; padding: 20px; border-radius: 12px; background-color: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);">
-                <h1 style="margin-bottom: 0px;">🧭 Orientador Acadêmico</h1>
-                <p style="color: #888; font-size: 15px; margin-top: 5px;">Ambiente Inteligente de Pesquisa & Metodologia Científica</p>
+            <div style="text-align: center; padding: 24px; border-radius: 8px; background-color: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08);">
+                <h2 style="margin-bottom: 4px; font-weight: 600; letter-spacing: -0.5px;">Orientador Acadêmico</h2>
+                <p style="color: #94a3b8; font-size: 14px; margin-top: 0px;">Ambiente de Mediação Pedagógica & Estruturação Metodológica</p>
             </div>
             """,
             unsafe_allow_html=True
         )
         st.write("")
-        st.markdown("#### 🔑 Identificação do Pesquisador / Aluno")
-        st.info("Informe seu e-mail institucional ou matrícula para acessar o seu ambiente com histórico protegido.")
+        st.markdown("##### Identificação do Pesquisador")
+        st.caption("Informe seu e-mail institucional ou matrícula para acessar o seu ambiente com histórico protegido.")
         
         identificador = st.text_input(
-            "E-mail acadêmico ou Matrícula:",
+            "E-mail institucional ou Matrícula:",
             placeholder="ex: aluno@universidade.br ou 20261001",
             key="login_user_input"
         )
         
-        if st.button("Acessar Meu Ambiente 🚀", use_container_width=True):
+        if st.button("Acessar Sistema", use_container_width=True):
             if identificador and identificador.strip():
                 st.session_state.user_id = identificador.strip().lower()
                 inicializar_sessao()
                 st.rerun()
             else:
-                st.warning("Por favor, digite seu e-mail ou matrícula para continuar.")
+                st.warning("Informe sua identificação para continuar.")
                 
     st.stop()
 
@@ -98,34 +130,37 @@ if "user_id" not in st.session_state or not st.session_state.user_id:
 if "fase" not in st.session_state:
     inicializar_sessao()
 
-# --- BARRA LATERAL (GESTÃO DO USUÁRIO E CONVERSAS) ---
+# --- BARRA LATERAL (GESTÃO DO USUÁRIO E ATENDIMENTOS) ---
 with st.sidebar:
-    st.markdown(f"👤 **Pesquisador:** `{st.session_state.user_id}`")
+    st.markdown(f"**Pesquisador:** `{st.session_state.user_id}`")
     
     col_out, col_new = st.columns([1, 1])
     with col_out:
-        if st.button("🚪 Sair", use_container_width=True, help="Encerrar sessão ou trocar de usuário"):
+        if st.button("Sair", use_container_width=True, help="Encerrar sessão atual"):
             st.session_state.user_id = None
             inicializar_sessao()
             st.rerun()
     with col_new:
-        if st.button("➕ Nova", use_container_width=True, help="Criar nova conversa"):
+        if st.button("Nova Conversa", use_container_width=True, help="Iniciar nova sessão"):
             inicializar_sessao()
             st.rerun()
 
     st.divider()
-    st.subheader("Minhas Conversas")
+    st.subheader("Atendimentos Salvos")
 
     conversas = listar_conversas(db, user_id=st.session_state.user_id)
     if not conversas:
-        st.caption("Nenhuma conversa salva ainda. Inicie uma nova conversa!")
+        st.caption("Nenhum atendimento registrado. Inicie uma nova conversa.")
         
     for conversa in conversas:
         conv_data = conversa.to_dict()
         titulo = conv_data.get('title', 'Conversa')
+        # Remove emojis legados salvos no banco para manter a sobriedade
+        for em in ["🧭", "📚", "📍", "🚀", "💡", "⭐", "✨"]:
+            titulo = titulo.replace(em, "").strip()
         conv_id = conversa.id
         eh_ativa = (st.session_state.get("conversa_id") == conv_id)
-        label = f"📍 {titulo}" if eh_ativa else titulo
+        label = f"[Ativa] {titulo}" if eh_ativa else titulo
         
         if st.button(label, key=f"btn_{conv_id}", use_container_width=True):
             inicializar_sessao()
@@ -155,18 +190,18 @@ with st.sidebar:
     # Opção de renomear se houver conversa ativa
     if st.session_state.get("conversa_id"):
         st.divider()
-        with st.expander("⚙️ Renomear Conversa Atual"):
+        with st.expander("Renomear Atendimento Atual"):
             novo_nome = st.text_input("Novo título:", placeholder="Digite o novo título...", key="input_rename")
             if st.button("Salvar Título", use_container_width=True):
                 if novo_nome.strip():
-                    prefixo = "🧭" if st.session_state.get("tipo_conversa") == "estrategia" else "📚"
+                    prefixo = "[Estratégia]" if st.session_state.get("tipo_conversa") == "estrategia" else "[Metodologia]"
                     renomear_conversa(db, st.session_state.conversa_id, f"{prefixo} {novo_nome.strip()}")
                     st.rerun()
 
 # --- TELA DE SELEÇÃO DE MODO (QUANDO NÃO HÁ CONVERSA SELECIONADA) ---
 if st.session_state.fase in ["INICIO", "SELECAO_MODO"] and not st.session_state.get("conversa_id"):
-    st.markdown("## 🧭 Bem-vindo ao seu Orientador Virtual!")
-    st.markdown("Escolha como você gostaria de trabalhar hoje:")
+    st.markdown("## Orientador Acadêmico")
+    st.markdown("Selecione o módulo de trabalho:")
     st.write("")
     
     col_modo1, col_modo2 = st.columns(2)
@@ -174,19 +209,20 @@ if st.session_state.fase in ["INICIO", "SELECAO_MODO"] and not st.session_state.
     with col_modo1:
         st.markdown(
             """
-            ### 🧭 1. Estratégia de Pesquisa (Ideação)
-            Ideal para quem está no início do trabalho ou precisa:
-            - **Definir e delimitar** o tema de pesquisa com apoio metodológico.
-            - **Construir perguntas** e caminhos metodológicos passo a passo.
-            - **Receber sugestões dinâmicas** com opções de escolha rápida.
-            - **Gerar Documento Estratégico** completo para download em PDF.
+            ### 1. Estratégia de Pesquisa (Ideação e Afunilamento)
+            Condução dialógica e estruturação de projetos:
+            - **Definição e delimitação** do tema de pesquisa com fundamentação metodológica.
+            - **Formulação socrática** de perguntas, objetivos e hipóteses passo a passo.
+            - **Aprofundamento guiado** com alternativas e direções metodológicas.
+            - **Consolidação em Documento Estratégico** formal para exportação em PDF.
             """
         )
-        if st.button("Iniciar Estratégia de Pesquisa 🧭", key="btn_modo_estrategia", use_container_width=True):
+        if st.button("Iniciar Formulação Estratégica", key="btn_modo_estrategia", use_container_width=True):
             inicializar_sessao()
             mensagem_inicial = (
-                "Olá! Sou o seu estrategista de pesquisa. Vamos construir juntos a base para o seu trabalho acadêmico. "
-                "Para começar, qual é a sua grande área de interesse?"
+                "Seja bem-vindo. Sou o seu orientador para estruturação metodológica. "
+                "Conduziremos um diálogo estruturado para delimitar seu tema e formalizar uma proposta de pesquisa exequível. "
+                "Para iniciarmos, qual é a sua área geral de interesse ou problema preliminar?"
             )
             conversa_id = criar_conversa(db, st.session_state.user_id, mensagem_inicial, tipo="estrategia")
             st.session_state.conversa_id = conversa_id
@@ -198,20 +234,21 @@ if st.session_state.fase in ["INICIO", "SELECAO_MODO"] and not st.session_state.
     with col_modo2:
         st.markdown(
             """
-            ### 📚 2. Consultor Metodológico (RAG Fiel)
-            Ideal para tirar dúvidas acadêmicas com máximo rigor científico:
-            - **Respostas estritamente ancoradas** nos manuais e livros da base.
-            - **Zero Alucinações:** Respostas precisas sobre métodos, normas e etapas.
-            - **Citação explícita** dos manuais e obras de referência consultadas.
-            - **Chat livre e direto** sem etapas de perguntas pré-definidas.
+            ### 2. Consultoria Metodológica & Auditoria Textual (RAG)
+            Consulta rigorosa à literatura científica e avaliação de rascunhos:
+            - **Respostas ancoradas estritamente** em manuais canônicos de pesquisa científica.
+            - **Mitigação de alucinações:** Esclarecimento de normas, métodos, amostragem e procedimentos.
+            - **Leitor de Documentos:** Submissão de rascunhos (PDF/TXT) para parecer metodológico fundamentado.
+            - **Citação formal** das obras e autores consultados na base.
             """
         )
-        if st.button("Iniciar Consultoria Metodológica 📚", key="btn_modo_rag", use_container_width=True):
+        if st.button("Acessar Consultoria Metodológica", key="btn_modo_rag", use_container_width=True):
             inicializar_sessao()
             mensagem_inicial = (
-                "Olá! Sou o seu Consultor Metodológico. Estou pronto para esclarecer dúvidas sobre metodologia científica, "
-                "estrutura de projetos, tipos de pesquisa, amostragem e normas acadêmicas com base estrita na literatura.\n\n"
-                "Qual é a sua dúvida metodológica hoje?"
+                "Ambiente de Consultoria Metodológica ativo. Estou fundamentado estritamente na literatura canônica "
+                "de metodologia científica para esclarecer dúvidas sobre delineamento de pesquisa, normas acadêmicas e procedimentos técnicos. "
+                "Você também pode submeter um documento (PDF ou TXT) para auditoria metodológica.\n\n"
+                "Qual é a sua consulta ou necessidade metodológica?"
             )
             conversa_id = criar_conversa(db, st.session_state.user_id, mensagem_inicial, tipo="rag_estrito")
             st.session_state.conversa_id = conversa_id
@@ -227,13 +264,14 @@ if st.session_state.fase in ["INICIO", "SELECAO_MODO"] and not st.session_state.
 # MODO 1: ESTRATEGISTA DE PESQUISA (COLETA, GERAÇÃO E DIÁLOGO)
 # ==============================================================================
 if st.session_state.tipo_conversa == "estrategia":
-    st.title("🧭 Estrategista de Pesquisa Acadêmica")
+    st.title("Estratégia de Pesquisa Acadêmica")
 
     total_msgs = len(st.session_state.get("historico_mensagens", []))
 
     # Exibição do histórico de mensagens
     for idx, msg in enumerate(st.session_state.get("historico_mensagens", [])):
-        with st.chat_message(msg["role"]):
+        avatar_atual = AVATAR_ORIENTADOR if msg.get("role") == "assistant" else AVATAR_ALUNO
+        with st.chat_message(msg["role"], avatar=avatar_atual):
             content = msg.get("content", "")
             if msg.get("role") == "assistant":
                 # Oculta opções do balão apenas na última mensagem da coleta ativa (onde os botões estão logo abaixo)
@@ -253,19 +291,19 @@ if st.session_state.tipo_conversa == "estrategia":
         with col_dl:
             pdf_bytes = criar_pdf_formatado(st.session_state.documento_gerado)
             st.download_button(
-                label="📥 Descarregar Estratégia em PDF",
+                label="Baixar Estratégia em PDF",
                 data=pdf_bytes,
                 file_name="estrategia_de_pesquisa.pdf",
                 mime="application/pdf",
                 use_container_width=True
             )
         with col_info:
-            st.caption("✨ *Estratégia completa consolidada e pronta para exportação.*")
+            st.caption("*Documento estratégico compilado e pronto para exportação.*")
 
     # --- FASE 1.1: COLETA DINÂMICA ---
     if st.session_state.fase == "COLETA":
         if len(st.session_state.historico_mensagens) > 1:
-            if st.button("🚀 Já temos informação suficiente. Gerar Documento Estratégico!", use_container_width=True):
+            if st.button("Concluir Coleta e Gerar Documento Estratégico", use_container_width=True):
                 st.session_state.fase = "GERACAO"
                 st.rerun()
 
@@ -275,7 +313,7 @@ if st.session_state.tipo_conversa == "estrategia":
             if ultima_msg.get("role") == "assistant":
                 _, opcoes = separar_pergunta_e_opcoes(ultima_msg.get("content", ""))
                 if opcoes:
-                    st.markdown("##### 💡 Escolha uma direção abaixo:")
+                    st.markdown("##### Direções metodológicas recomendadas:")
                     col1, col2 = st.columns(2)
                     for i, opt in enumerate(opcoes):
                         col = col1 if i % 2 == 0 else col2
@@ -287,7 +325,7 @@ if st.session_state.tipo_conversa == "estrategia":
         entrada_final = resposta_selecionada or prompt_usuario
 
         if entrada_final:
-            with st.chat_message("user"):
+            with st.chat_message("user", avatar=AVATAR_ALUNO):
                 st.markdown(entrada_final)
             st.session_state.historico_mensagens.append({"role": "user", "content": entrada_final})
             
@@ -303,28 +341,28 @@ if st.session_state.tipo_conversa == "estrategia":
             )
             
             historico_texto = "\n".join([f"{m['role']}: {m['content']}" for m in st.session_state.historico_mensagens])
-            
-            # Gera título na primeira resposta do usuário
-            if len(st.session_state.historico_mensagens) == 2:
+
+            with st.chat_message("assistant", avatar=AVATAR_ORIENTADOR):
+                with st.spinner("Formulando a próxima pergunta metodológica e opções..."):
+                    proxima_pergunta = gerar_proxima_pergunta_dinamica(llm, historico_texto)
+                    st.session_state.historico_mensagens.append({"role": "assistant", "content": proxima_pergunta})
+                    
+                    _, opcoes_novas = separar_pergunta_e_opcoes(proxima_pergunta)
+                    adicionar_mensagem(
+                        db,
+                        st.session_state.conversa_id,
+                        role="assistant",
+                        content=proxima_pergunta,
+                        fase="COLETA",
+                        rodada=rodada_atual + 1,
+                        opcoes_oferecidas=opcoes_novas
+                    )
+
+            # Gera título formal no primeiro turno sem travar a resposta
+            if len(st.session_state.historico_mensagens) == 3:
                 novo_titulo = gerar_titulo_conversa(llm, historico_texto)
                 if novo_titulo:
-                    atualizar_titulo_conversa(db, st.session_state.conversa_id, novo_titulo, prefixo_icone="🧭")
-
-            with st.chat_message("assistant"):
-                stream = stream_gerar_proxima_pergunta(llm, historico_texto, vectordb=vectordb)
-                proxima_pergunta = st.write_stream(stream)
-                st.session_state.historico_mensagens.append({"role": "assistant", "content": proxima_pergunta})
-                
-                _, opcoes_novas = separar_pergunta_e_opcoes(proxima_pergunta)
-                adicionar_mensagem(
-                    db,
-                    st.session_state.conversa_id,
-                    role="assistant",
-                    content=proxima_pergunta,
-                    fase="COLETA",
-                    rodada=rodada_atual + 1,
-                    opcoes_oferecidas=opcoes_novas
-                )
+                    atualizar_titulo_conversa(db, st.session_state.conversa_id, novo_titulo, prefixo_icone="[Estratégia]")
             
             st.rerun()
 
@@ -333,7 +371,7 @@ if st.session_state.tipo_conversa == "estrategia":
         if st.session_state.documento_gerado is None:
             historico_texto = "\n".join([f"{m['role']}: {m['content']}" for m in st.session_state.historico_mensagens])
             with st.chat_message("assistant"):
-                st.write("✍️ **A redigir a estratégia de pesquisa em tempo real...**")
+                st.write("**Redigindo a estratégia de pesquisa em tempo real...**")
                 stream = stream_gerar_documento_estrategico(llm, historico_texto)
                 doc_final = st.write_stream(stream)
                 st.session_state.documento_gerado = doc_final
@@ -343,9 +381,9 @@ if st.session_state.tipo_conversa == "estrategia":
             salvar_documento_estrategico_conversa(db, st.session_state.conversa_id, doc_final)
             
             msg_transicao = (
-                "✨ **A sua estratégia de pesquisa foi consolidada acima!**\n\n"
-                "Agora estou pronto para aprofundar qualquer ponto, tirar dúvidas sobre metodologia ou sugerir referências. "
-                "O que gostaria de explorar primeiro?"
+                "**Estratégia de pesquisa consolidada com sucesso.**\n\n"
+                "O canal de diálogo permanece ativo para aprofundar pontos específicos, esclarecer procedimentos técnicos "
+                "ou sanar dúvidas sobre execução e metodologia. O que gostaria de analisar a seguir?"
             )
             st.session_state.historico_mensagens.append({"role": "assistant", "content": msg_transicao})
             adicionar_mensagem(db, st.session_state.conversa_id, role="assistant", content=msg_transicao, fase="DIALOGO_ABERTO")
@@ -361,17 +399,17 @@ if st.session_state.tipo_conversa == "estrategia":
 
     # --- FASE 1.3: DIÁLOGO ABERTO PÓS-ESTRATÉGIA ---
     elif st.session_state.fase == "DIALOGO_ABERTO":
-        with st.expander("⭐ Avaliar esta Estratégia de Pesquisa"):
+        with st.expander("Avaliação da Estratégia"):
             col1, col2 = st.columns(2)
             with col1:
-                if st.button("👍 Útil", use_container_width=True, key="fb_bom_est"):
+                if st.button("Satisfatório", use_container_width=True, key="fb_bom_est"):
                     st.session_state.temp_feedback = "bom"
             with col2:
-                if st.button("👎 Precisa melhorar", use_container_width=True, key="fb_ruim_est"):
+                if st.button("Necessita Ajustes", use_container_width=True, key="fb_ruim_est"):
                     st.session_state.temp_feedback = "ruim"
 
             if "temp_feedback" in st.session_state:
-                comentario = st.text_area("O que podemos melhorar?", placeholder="Ex: Mais referências, tema mais específico...")
+                comentario = st.text_area("Observações metodológicas ou sugestões de melhoria:", placeholder="Ex: Detalhar mais as referências, especificar o recorte...")
                 if st.button("Submeter Avaliação", key="btn_sub_fb_est"):
                     sucesso, msg_fb = salvar_feedback(
                         db, st.session_state.conversa_id, st.session_state.user_id, st.session_state.temp_feedback, comentario
@@ -384,20 +422,20 @@ if st.session_state.tipo_conversa == "estrategia":
 
         st.divider()
 
-        if prompt_usuario := st.chat_input("Faça uma pergunta sobre a sua estratégia..."):
-            with st.chat_message("user"):
+        if prompt_usuario := st.chat_input("Faça uma pergunta sobre a sua estratégia de pesquisa..."):
+            with st.chat_message("user", avatar=AVATAR_ALUNO):
                 st.markdown(prompt_usuario)
             st.session_state.historico_mensagens.append({"role": "user", "content": prompt_usuario})
             adicionar_mensagem(db, st.session_state.conversa_id, role="user", content=prompt_usuario, fase="DIALOGO_ABERTO")
             
-            with st.chat_message("assistant"):
+            with st.chat_message("assistant", avatar=AVATAR_ORIENTADOR):
                 try:
                     stream = stream_dialogo_academico(
                         llm, vectordb, prompt_usuario, st.session_state.historico_mensagens
                     )
                     resposta = st.write_stream(stream)
                 except Exception as e:
-                    resposta = f"Desculpe, ocorreu um erro: {e}"
+                    resposta = f"Ocorreu um erro no processamento: {e}"
                     st.error(resposta)
             
             st.session_state.historico_mensagens.append({"role": "assistant", "content": resposta})
@@ -406,29 +444,78 @@ if st.session_state.tipo_conversa == "estrategia":
 
 
 # ==============================================================================
-# MODO 2: CONSULTOR METODOLÓGICO (RAG ESTRITO & CITAÇÃO DE FONTES)
+# MODO 2: CONSULTOR METODOLÓGICO & AUDITORIA TEXTUAL (RAG ESTRITO & DOCUMENTOS)
 # ==============================================================================
 elif st.session_state.tipo_conversa == "rag_estrito":
-    st.title("📚 Consultor Metodológico (RAG Fiel)")
-    st.caption("🔬 Respostas fundamentadas com rigor científico e citação de fontes dos manuais acadêmicos.")
+    st.title("Consultor Metodológico & Auditoria Textual")
+    st.caption("Respostas fundamentadas com rigor conceitual na literatura canônica de metodologia científica.")
+
+    # Componente de Leitura de Documentos (PDF ou TXT)
+    with st.expander("Submeter Documento para Auditoria Metodológica (PDF ou TXT)", expanded=True):
+        col_up1, col_up2 = st.columns([3, 1])
+        with col_up1:
+            arquivo_submetido = st.file_uploader(
+                "Carregue seu anteprojeto, rascunho de metodologia ou introdução para análise:",
+                type=["pdf", "txt"],
+                key="uploader_doc_rag"
+            )
+            if arquivo_submetido is not None:
+                if st.session_state.get("doc_anexado_nome") != arquivo_submetido.name:
+                    texto_extraido = extrair_texto_documento(arquivo_submetido)
+                    if texto_extraido:
+                        st.session_state.doc_anexado_texto = texto_extraido
+                        st.session_state.doc_anexado_nome = arquivo_submetido.name
+                        st.rerun()
+
+        with col_up2:
+            if st.session_state.get("doc_anexado_nome"):
+                st.write(f"**Arquivo ativo:** `{st.session_state.doc_anexado_nome}`")
+                st.caption(f"{len(st.session_state.doc_anexado_texto)} caracteres extraídos.")
+                if st.button("Remover Documento", use_container_width=True, key="btn_clear_doc"):
+                    st.session_state.doc_anexado_texto = None
+                    st.session_state.doc_anexado_nome = None
+                    st.rerun()
+            else:
+                st.caption("Nenhum arquivo anexado no momento.")
+
+    if st.session_state.get("doc_anexado_nome"):
+        st.info(f"Documento ativo: **{st.session_state.doc_anexado_nome}** ({len(st.session_state.doc_anexado_texto)} caracteres extraídos com sucesso).")
+        if st.button("Emitir Parecer Metodológico Completo do Documento", key="btn_auditar_doc_auto", use_container_width=True):
+            prompt_auditoria = "Por favor, realize uma auditoria metodológica rigorosa e fundamentada deste documento à luz dos manuais de pesquisa científica."
+            st.session_state.historico_mensagens.append({"role": "user", "content": prompt_auditoria})
+            adicionar_mensagem(db, st.session_state.conversa_id, role="user", content=prompt_auditoria, fase="RAG_ESTRITO")
+            
+            with st.chat_message("assistant", avatar=AVATAR_ORIENTADOR):
+                stream = stream_resposta_rag_estrito(
+                    llm_estrito,
+                    vectordb,
+                    prompt_auditoria,
+                    st.session_state.historico_mensagens,
+                    documento_aluno=st.session_state.doc_anexado_texto
+                )
+                resposta_completa = st.write_stream(stream)
+                st.session_state.historico_mensagens.append({"role": "assistant", "content": resposta_completa})
+                adicionar_mensagem(db, st.session_state.conversa_id, role="assistant", content=resposta_completa, fase="RAG_ESTRITO")
+            st.rerun()
 
     # Exibição do histórico de mensagens
     for msg in st.session_state.get("historico_mensagens", []):
-        with st.chat_message(msg["role"]):
+        avatar_atual = AVATAR_ORIENTADOR if msg.get("role") == "assistant" else AVATAR_ALUNO
+        with st.chat_message(msg["role"], avatar=avatar_atual):
             st.markdown(msg.get("content", ""))
 
     # Avaliação do atendimento
-    with st.expander("⭐ Avaliar esta Consulta Metodológica"):
+    with st.expander("Avaliação da Consulta Metodológica"):
         col1, col2 = st.columns(2)
         with col1:
-            if st.button("👍 Resposta Clara e Precisa", use_container_width=True, key="fb_bom_rag"):
+            if st.button("Clara e Fundamentada", use_container_width=True, key="fb_bom_rag"):
                 st.session_state.temp_feedback_rag = "bom"
         with col2:
-            if st.button("👎 Pouco Precisa / Incompleta", use_container_width=True, key="fb_ruim_rag"):
+            if st.button("Pouco Precisa ou Incompleta", use_container_width=True, key="fb_ruim_rag"):
                 st.session_state.temp_feedback_rag = "ruim"
 
         if "temp_feedback_rag" in st.session_state:
-            comentario_rag = st.text_area("O que podemos melhorar?", placeholder="Ex: Citar mais autores, aprofundar exemplos...")
+            comentario_rag = st.text_area("Observações metodológicas ou sugestões:", placeholder="Ex: Citar mais autores, aprofundar exemplos...")
             if st.button("Submeter Avaliação", key="btn_sub_fb_rag"):
                 sucesso, msg_fb = salvar_feedback(
                     db, st.session_state.conversa_id, st.session_state.user_id, st.session_state.temp_feedback_rag, comentario_rag
@@ -442,25 +529,30 @@ elif st.session_state.tipo_conversa == "rag_estrito":
     st.divider()
 
     # Chat direto com RAG Estrito em Streaming
-    if prompt_usuario := st.chat_input("Faça sua pergunta sobre metodologia científica ou normas..."):
-        with st.chat_message("user"):
+    placeholder_input = "Faça sua consulta metodológica ou solicite parecer sobre o documento..." if st.session_state.get("doc_anexado_nome") else "Faça sua pergunta sobre metodologia científica ou normas..."
+    if prompt_usuario := st.chat_input(placeholder_input):
+        with st.chat_message("user", avatar=AVATAR_ALUNO):
             st.markdown(prompt_usuario)
         st.session_state.historico_mensagens.append({"role": "user", "content": prompt_usuario})
         adicionar_mensagem(db, st.session_state.conversa_id, role="user", content=prompt_usuario, fase="RAG_ESTRITO")
-        
-        # Gera título inteligente com base na pergunta
-        if len(st.session_state.historico_mensagens) == 2:
-            novo_titulo = gerar_titulo_conversa(llm, f"Pergunta do aluno: {prompt_usuario}")
-            if novo_titulo:
-                atualizar_titulo_conversa(db, st.session_state.conversa_id, novo_titulo, prefixo_icone="📚")
 
-        # Stream da resposta RAG com citação de fontes
-        with st.chat_message("assistant"):
+        # Stream da resposta RAG com citação de fontes e documento
+        with st.chat_message("assistant", avatar=AVATAR_ORIENTADOR):
             stream = stream_resposta_rag_estrito(
-                llm_estrito, vectordb, prompt_usuario, st.session_state.historico_mensagens
+                llm_estrito,
+                vectordb,
+                prompt_usuario,
+                st.session_state.historico_mensagens,
+                documento_aluno=st.session_state.get("doc_anexado_texto")
             )
             resposta_completa = st.write_stream(stream)
             st.session_state.historico_mensagens.append({"role": "assistant", "content": resposta_completa})
             adicionar_mensagem(db, st.session_state.conversa_id, role="assistant", content=resposta_completa, fase="RAG_ESTRITO")
+
+        # Gera título inteligente com base na pergunta após o stream
+        if len(st.session_state.historico_mensagens) == 3:
+            novo_titulo = gerar_titulo_conversa(llm, f"Consulta: {prompt_usuario}")
+            if novo_titulo:
+                atualizar_titulo_conversa(db, st.session_state.conversa_id, novo_titulo, prefixo_icone="[Metodologia]")
         
         st.rerun()

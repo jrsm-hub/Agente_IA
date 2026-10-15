@@ -26,8 +26,8 @@ def criar_conversa(db, user_id: str, mensagem_inicial: str, tipo: str = "estrate
     nova_conversa_ref = db.collection('conversas').document()
     conversa_id = nova_conversa_ref.id
     
-    icone = "🧭" if tipo == "estrategia" else "📚"
-    titulo_padrao = f"{icone} Conversa {conversa_id[:4]}..."
+    prefixo = "[Estratégia]" if tipo == "estrategia" else "[Metodologia]"
+    titulo_padrao = f"{prefixo} Atendimento {conversa_id[:4]}"
     
     nova_conversa_ref.set({
         'user_id': user_id,
