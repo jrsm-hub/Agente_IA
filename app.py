@@ -6,7 +6,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 if BASE_DIR not in sys.path:
     sys.path.insert(0, BASE_DIR)
 
-import fitz
+import pymupdf as fitz
 import nest_asyncio
 import streamlit as st
 import streamlit.components.v1 as components
@@ -52,47 +52,39 @@ st.set_page_config(
 st.markdown("""
 <style>
 /* Permite quebra de linha e visualização integral do texto nos botões de opções */
-div[data-testid="stButton"] > button {
+div[data-testid="stButton"] button,
+button[data-testid^="baseButton-"],
+button[data-testid^="stBaseButton-"],
+button[kind="secondary"],
+.stButton > button {
     height: auto !important;
-    min-height: 56px !important;
-    padding: 12px 16px !important;
+    min-height: 52px !important;
+    max-height: none !important;
+    padding: 12px 18px !important;
     white-space: normal !important;
+    word-break: normal !important;
     word-wrap: break-word !important;
     overflow-wrap: break-word !important;
     text-align: left !important;
-    display: flex !important;
-    justify-content: flex-start !important;
-    align-items: center !important;
+    display: block !important;
     border-radius: 8px !important;
-    line-height: 1.45 !important;
+    line-height: 1.5 !important;
+    overflow: visible !important;
 }
 
-div[data-testid="stButton"] > button div {
+div[data-testid="stButton"] button *,
+button[data-testid^="baseButton-"] *,
+button[data-testid^="stBaseButton-"] *,
+button[kind="secondary"] *,
+.stButton > button * {
     white-space: normal !important;
-    word-break: break-word !important;
-    overflow-wrap: break-word !important;
-    text-align: left !important;
-    width: 100% !important;
-}
-
-div[data-testid="stButton"] > button div[data-testid="stMarkdownContainer"] {
-    white-space: normal !important;
-    word-break: break-word !important;
-    overflow-wrap: break-word !important;
-    text-align: left !important;
-    width: 100% !important;
-}
-
-div[data-testid="stButton"] > button div[data-testid="stMarkdownContainer"] p,
-div[data-testid="stButton"] > button p {
-    white-space: normal !important;
-    word-break: break-word !important;
+    word-break: normal !important;
+    word-wrap: break-word !important;
     overflow-wrap: break-word !important;
     text-overflow: unset !important;
+    overflow: visible !important;
     text-align: left !important;
-    font-size: 0.95rem !important;
-    line-height: 1.45 !important;
-    margin: 0 !important;
+    line-height: 1.5 !important;
 }
 </style>
 """, unsafe_allow_html=True)
@@ -418,12 +410,10 @@ if st.session_state.tipo_conversa == "estrategia":
                 _, opcoes = separar_pergunta_e_opcoes(ultima_msg.get("content", ""))
                 if opcoes:
                     st.markdown("##### Direções metodológicas recomendadas (clique para responder):")
-                    col1, col2 = st.columns(2)
                     for i, opt in enumerate(opcoes):
-                        col = col1 if i % 2 == 0 else col2
                         msg_count = len(st.session_state.historico_mensagens)
                         rotulo = f"**{i+1}.** {opt}"
-                        if col.button(rotulo, key=f"quick_opt_{i}_{msg_count}", use_container_width=True, help=f"Opção {i+1}: {opt}"):
+                        if st.button(rotulo, key=f"quick_opt_{i}_{msg_count}", use_container_width=True):
                             resposta_selecionada = f"{i+1}. {opt}"
 
         prompt_usuario = st.chat_input("Ou digite uma resposta personalizada...")

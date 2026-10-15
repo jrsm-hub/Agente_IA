@@ -1,5 +1,5 @@
 import os
-import fitz  # PyMuPDF
+import pymupdf as fitz  # PyMuPDF
 import unicodedata
 from config import FONTES_DIR, TEXTOS_PROCESSADOS_DIR
 
