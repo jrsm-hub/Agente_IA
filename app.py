@@ -28,6 +28,7 @@ from services.ai_service import (
     carregar_llm,
     carregar_llm_estrito,
     gerar_titulo_conversa,
+    extrair_tema_documento_estrategico,
     gerar_proxima_pergunta_dinamica,
     stream_gerar_proxima_pergunta,
     stream_gerar_documento_estrategico,
@@ -234,6 +235,14 @@ with st.sidebar:
     for conversa in conversas:
         conv_data = conversa.to_dict()
         titulo = conv_data.get('title', 'Conversa')
+        
+        # Recuperação retroativa: se a conversa já possui documento estratégico mas o título ainda é genérico
+        if ("Atendimento " in titulo or titulo == "Conversa") and conv_data.get('documento_gerado'):
+            tema_recup = extrair_tema_documento_estrategico(conv_data.get('documento_gerado'))
+            if tema_recup:
+                titulo = f"[Estratégia] {tema_recup}"
+                atualizar_titulo_conversa(db, conversa.id, tema_recup, prefixo_icone="[Estratégia]")
+
         # Remove emojis legados salvos no banco para manter a sobriedade
         for em in ["🧭", "📚", "📍", "🚀", "💡", "⭐", "✨"]:
             titulo = titulo.replace(em, "").strip()
@@ -262,16 +271,32 @@ with st.sidebar:
                 if doc_salvo:
                     st.session_state.fase = "DIALOGO_ABERTO"
                     st.session_state.documento_gerado = doc_salvo
+                    if "Atendimento" in titulo or titulo == "Conversa":
+                        tema_recup = extrair_tema_documento_estrategico(doc_salvo)
+                        if tema_recup:
+                            atualizar_titulo_conversa(db, conv_id, tema_recup, prefixo_icone="[Estratégia]")
                 else:
                     st.session_state.fase = "COLETA"
             st.rerun()
 
-    # Opção de renomear se houver conversa ativa
+    # Opção de renomear ou detectar tema se houver conversa ativa
     if st.session_state.get("conversa_id"):
         st.divider()
-        with st.expander("Renomear Atendimento Atual"):
-            novo_nome = st.text_input("Novo título:", placeholder="Digite o novo título...", key="input_rename")
-            if st.button("Salvar Título", use_container_width=True):
+        with st.expander("Gerenciar Título do Atendimento"):
+            if st.button("Identificar e Salvar Tema de Pesquisa", use_container_width=True, key="btn_auto_detect_tema"):
+                historico_texto_atual = "\n".join([f"{m['role']}: {extrair_texto_conteudo(m.get('content', ''))}" for m in st.session_state.historico_mensagens])
+                doc = st.session_state.get("documento_gerado")
+                tema_auto = extrair_tema_documento_estrategico(doc) if doc else None
+                if not tema_auto:
+                    tema_auto = gerar_titulo_conversa(llm, historico_texto_atual)
+                if tema_auto:
+                    prefixo = "[Estratégia]" if st.session_state.get("tipo_conversa") == "estrategia" else "[Metodologia]"
+                    atualizar_titulo_conversa(db, st.session_state.conversa_id, tema_auto, prefixo_icone=prefixo)
+                    st.success(f"Título salvo: {tema_auto}")
+                    st.rerun()
+
+            novo_nome = st.text_input("Ou renomear manualmente:", placeholder="Digite o novo título...", key="input_rename")
+            if st.button("Salvar Título Manual", use_container_width=True, key="btn_salvar_manual"):
                 if novo_nome.strip():
                     prefixo = "[Estratégia]" if st.session_state.get("tipo_conversa") == "estrategia" else "[Metodologia]"
                     renomear_conversa(db, st.session_state.conversa_id, f"{prefixo} {novo_nome.strip()}")
@@ -442,10 +467,12 @@ if st.session_state.tipo_conversa == "estrategia":
                         exibir_erro_amigavel(e)
                         st.stop()
 
-            # Gera título formal no primeiro turno sem travar a resposta
-            if len(st.session_state.historico_mensagens) == 3:
+            # Atualiza o título na barra lateral com o tema de pesquisa delimitado
+            conv_data_atual = obter_dados_conversa(db, st.session_state.conversa_id)
+            titulo_atual = conv_data_atual.get("title", "")
+            if "Atendimento" in titulo_atual or len(st.session_state.historico_mensagens) <= 5:
                 novo_titulo = gerar_titulo_conversa(llm, historico_texto)
-                if novo_titulo:
+                if novo_titulo and "Atendimento" not in novo_titulo:
                     atualizar_titulo_conversa(db, st.session_state.conversa_id, novo_titulo, prefixo_icone="[Estratégia]")
             
             st.rerun()
@@ -467,6 +494,13 @@ if st.session_state.tipo_conversa == "estrategia":
             st.session_state.historico_mensagens.append({"role": "assistant", "content": doc_final})
             adicionar_mensagem(db, st.session_state.conversa_id, role="assistant", content=doc_final, fase="GERACAO")
             salvar_documento_estrategico_conversa(db, st.session_state.conversa_id, doc_final)
+            
+            # Atualiza o título da barra lateral com o tema de pesquisa consolidado no Documento Estratégico
+            tema_final = extrair_tema_documento_estrategico(doc_final)
+            if not tema_final:
+                tema_final = gerar_titulo_conversa(llm, doc_final[:1500])
+            if tema_final:
+                atualizar_titulo_conversa(db, st.session_state.conversa_id, tema_final, prefixo_icone="[Estratégia]")
             
             msg_transicao = (
                 "**Estratégia de pesquisa consolidada com sucesso.**\n\n"
@@ -645,10 +679,12 @@ elif st.session_state.tipo_conversa == "rag_estrito":
                 exibir_erro_amigavel(e)
                 st.stop()
 
-        # Gera título inteligente com base na pergunta após o stream
-        if len(st.session_state.historico_mensagens) == 3:
+        # Atualiza título inteligente com base na consulta se ainda for genérico
+        conv_data_atual = obter_dados_conversa(db, st.session_state.conversa_id)
+        titulo_atual = conv_data_atual.get("title", "")
+        if "Atendimento" in titulo_atual or len(st.session_state.historico_mensagens) <= 3:
             novo_titulo = gerar_titulo_conversa(llm, f"Consulta: {prompt_usuario}")
-            if novo_titulo:
+            if novo_titulo and "Atendimento" not in novo_titulo:
                 atualizar_titulo_conversa(db, st.session_state.conversa_id, novo_titulo, prefixo_icone="[Metodologia]")
         
         st.rerun()
