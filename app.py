@@ -25,6 +25,7 @@ from services.firebase_service import (
 )
 from services.rag_service import carregar_vectordb
 from services.ai_service import (
+    assegurar_modelo_valido,
     carregar_llm,
     carregar_llm_estrito,
     gerar_titulo_conversa,
@@ -89,12 +90,14 @@ button[kind="secondary"] *,
 </style>
 """, unsafe_allow_html=True)
 
-from config import GOOGLE_API_KEY
+from config import GOOGLE_API_KEY, LLM_MODEL
 
 # Inicialização de Recursos Globais com invalidação automática de cache
 db = init_firebase()
-llm = carregar_llm(api_key=GOOGLE_API_KEY)
-llm_estrito = carregar_llm_estrito(api_key=GOOGLE_API_KEY)
+llm = carregar_llm(api_key=GOOGLE_API_KEY, model_name=LLM_MODEL)
+llm_estrito = carregar_llm_estrito(api_key=GOOGLE_API_KEY, model_name=LLM_MODEL)
+llm = assegurar_modelo_valido(llm)
+llm_estrito = assegurar_modelo_valido(llm_estrito)
 vectordb = carregar_vectordb(api_key=GOOGLE_API_KEY)
 
 # Identidade visual sóbria para o chat acadêmico

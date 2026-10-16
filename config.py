@@ -56,15 +56,17 @@ if not LLM_MODEL:
     except Exception:
         pass
 DEPRECATED_MODELS_MAP = {
-    "gemini-2.5-flash": "gemini-3.8-flash",
-    "gemini-1.5-flash": "gemini-3.8-flash",
-    "gemini-1.5-pro": "gemini-3.8-flash",
-    "models/gemini-2.5-flash": "gemini-3.8-flash",
-    "models/gemini-1.5-flash": "gemini-3.8-flash",
+    "gemini-2.5-flash": "gemini-3.5-flash-lite",
+    "gemini-2.5-flash-lite": "gemini-3.5-flash-lite",
+    "gemini-1.5-flash": "gemini-3.5-flash-lite",
+    "gemini-1.5-pro": "gemini-3.5-flash-lite",
+    "models/gemini-2.5-flash": "gemini-3.5-flash-lite",
+    "models/gemini-2.5-flash-lite": "gemini-3.5-flash-lite",
+    "models/gemini-1.5-flash": "gemini-3.5-flash-lite",
 }
 
 if not LLM_MODEL or LLM_MODEL in DEPRECATED_MODELS_MAP:
-    LLM_MODEL = DEPRECATED_MODELS_MAP.get(LLM_MODEL, "gemini-3.8-flash")
+    LLM_MODEL = DEPRECATED_MODELS_MAP.get(LLM_MODEL, "gemini-3.5-flash-lite")
 
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "models/gemini-embedding-001")
 LLM_TEMPERATURE = float(os.getenv("LLM_TEMPERATURE", "0.8"))

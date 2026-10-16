@@ -76,28 +76,42 @@ def extrair_opcoes_da_pergunta(texto_mensagem) -> list[str]:
     _, opcoes = separar_pergunta_e_opcoes(texto_mensagem)
     return opcoes
 
+def assegurar_modelo_valido(llm):
+    """Garante que qualquer instância de ChatGoogleGenerativeAI use gemini-3.5-flash-lite caso esteja com modelo descontinuado ou sem cota."""
+    if hasattr(llm, "model") and llm.model:
+        nome = str(llm.model)
+        if "2.5" in nome or "1.5" in nome or "3.8" in nome or nome in ["gemini-2.5-flash", "models/gemini-2.5-flash", "gemini-1.5-flash", "models/gemini-1.5-flash", "gemini-3.8-flash"]:
+            llm.model = "gemini-3.5-flash-lite"
+    return llm
+
 @st.cache_resource
-def carregar_llm(api_key: str = None, temperature: float = LLM_TEMPERATURE):
+def carregar_llm(api_key: str = None, temperature: float = LLM_TEMPERATURE, model_name: str = None):
     """Inicializa o modelo ChatGoogleGenerativeAI padrão para diálogos acadêmicos."""
     chave = (api_key or GOOGLE_API_KEY or "").strip()
     if not chave:
         st.error("Chave de API do Google (GOOGLE_API_KEY) não encontrada!")
         st.stop()
+    modelo = model_name or LLM_MODEL or "gemini-3.5-flash-lite"
+    if "2.5" in str(modelo) or "1.5" in str(modelo) or "3.8" in str(modelo):
+        modelo = "gemini-3.5-flash-lite"
     return ChatGoogleGenerativeAI(
-        model=LLM_MODEL,
+        model=modelo,
         google_api_key=chave,
         temperature=temperature
     )
 
 @st.cache_resource
-def carregar_llm_estrito(api_key: str = None):
+def carregar_llm_estrito(api_key: str = None, model_name: str = None):
     """Inicializa o modelo ChatGoogleGenerativeAI com temperatura zero para máxima fidelidade científica."""
     chave = (api_key or GOOGLE_API_KEY or "").strip()
     if not chave:
         st.error("Chave de API do Google (GOOGLE_API_KEY) não encontrada!")
         st.stop()
+    modelo = model_name or LLM_MODEL or "gemini-3.5-flash-lite"
+    if "2.5" in str(modelo) or "1.5" in str(modelo) or "3.8" in str(modelo):
+        modelo = "gemini-3.5-flash-lite"
     return ChatGoogleGenerativeAI(
-        model=LLM_MODEL,
+        model=modelo,
         google_api_key=chave,
         temperature=0.0
     )
@@ -154,6 +168,7 @@ def gerar_titulo_conversa(llm, historico_texto: str) -> str:
 
 def gerar_proxima_pergunta_dinamica(llm, historico_texto: str) -> str:
     """Gera a próxima pergunta afuniladora e 4 opções para a fase de coleta (síncrono)."""
+    llm = assegurar_modelo_valido(llm)
     template = """Você é um orientador de pesquisa experiente e a sua missão é conduzir uma entrevista para ajudar um aluno a definir um projeto de pesquisa, guiando-o desde uma área ampla até um tópico específico.
 
 **Regras:**
@@ -170,11 +185,19 @@ def gerar_proxima_pergunta_dinamica(llm, historico_texto: str) -> str:
 **PRÓXIMA PERGUNTA:**"""
     prompt = PromptTemplate.from_template(template)
     chain = prompt | llm
-    resultado = chain.invoke({"historico": historico_texto})
-    return extrair_texto_conteudo(resultado)
+    try:
+        resultado = chain.invoke({"historico": historico_texto})
+        return extrair_texto_conteudo(resultado)
+    except Exception as e:
+        if "404" in str(e) or "NOT_FOUND" in str(e) or "2.5" in str(e) or "429" in str(e) or "503" in str(e):
+            llm.model = "gemini-3.5-flash-lite"
+            resultado = (prompt | llm).invoke({"historico": historico_texto})
+            return extrair_texto_conteudo(resultado)
+        raise e
 
 def stream_gerar_proxima_pergunta(llm, historico_texto: str, vectordb=None):
     """Gera a próxima pergunta afuniladora e 4 opções em streaming com alta responsividade."""
+    llm = assegurar_modelo_valido(llm)
     template = """Você é um orientador de pesquisa experiente e a sua missão é conduzir uma entrevista socrática para ajudar um aluno a delimitar seu projeto de pesquisa acadêmica, guiando-o desde uma área ampla até um tópico específico, rigoroso e exequível.
 
 **Regras:**
@@ -191,10 +214,22 @@ def stream_gerar_proxima_pergunta(llm, historico_texto: str, vectordb=None):
 **PRÓXIMA PERGUNTA:**"""
     prompt = PromptTemplate.from_template(template)
     chain = prompt | llm
-    for chunk in chain.stream({"historico": historico_texto}):
-        txt = extrair_texto_conteudo(chunk)
-        if txt:
-            yield txt
+    try:
+        for chunk in chain.stream({"historico": historico_texto}):
+            txt = extrair_texto_conteudo(chunk)
+            if txt:
+                yield txt
+    except Exception as e:
+        err_str = str(e)
+        if "404" in err_str or "NOT_FOUND" in err_str or "2.5" in err_str or "available" in err_str or "429" in err_str or "503" in err_str:
+            llm.model = "gemini-3.5-flash-lite"
+            chain_retry = prompt | llm
+            for chunk in chain_retry.stream({"historico": historico_texto}):
+                txt = extrair_texto_conteudo(chunk)
+                if txt:
+                    yield txt
+        else:
+            raise e
 
 TEMPLATE_DOCUMENTO_ESTRATEGICO = """Você é um orientador e estrategista acadêmico sênior. 
 Com base em todo o HISTÓRICO da entrevista com o aluno, elabore um Documento Estratégico de Pesquisa detalhado, aprofundado e completo em Markdown (em português do Brasil).
@@ -238,24 +273,43 @@ DOCUMENTO ESTRATÉGICO DE PESQUISA (ESTRUTURA OBRIGATÓRIA):
 
 def gerar_documento_estrategico(llm, historico_texto: str) -> str:
     """Gera o documento de estratégia de pesquisa em Markdown a partir do histórico (síncrono)."""
+    llm = assegurar_modelo_valido(llm)
     prompt = PromptTemplate.from_template(TEMPLATE_DOCUMENTO_ESTRATEGICO)
     chain = prompt | llm
-    resultado = chain.invoke({"historico": historico_texto})
-    return extrair_texto_conteudo(resultado)
+    try:
+        resultado = chain.invoke({"historico": historico_texto})
+        return extrair_texto_conteudo(resultado)
+    except Exception as e:
+        if "404" in str(e) or "NOT_FOUND" in str(e) or "2.5" in str(e) or "429" in str(e) or "503" in str(e):
+            llm.model = "gemini-3.5-flash-lite"
+            resultado = (prompt | llm).invoke({"historico": historico_texto})
+            return extrair_texto_conteudo(resultado)
+        raise e
 
 def stream_gerar_documento_estrategico(llm, historico_texto: str):
     """Gera o documento de estratégia de pesquisa em formato de streaming."""
+    llm = assegurar_modelo_valido(llm)
     prompt = PromptTemplate.from_template(TEMPLATE_DOCUMENTO_ESTRATEGICO)
     chain = prompt | llm
-    for chunk in chain.stream({"historico": historico_texto}):
-        txt = extrair_texto_conteudo(chunk)
-        if txt:
-            yield txt
+    try:
+        for chunk in chain.stream({"historico": historico_texto}):
+            txt = extrair_texto_conteudo(chunk)
+            if txt:
+                yield txt
+    except Exception as e:
+        if "404" in str(e) or "NOT_FOUND" in str(e) or "2.5" in str(e) or "429" in str(e) or "503" in str(e):
+            llm.model = "gemini-3.5-flash-lite"
+            for chunk in (prompt | llm).stream({"historico": historico_texto}):
+                txt = extrair_texto_conteudo(chunk)
+                if txt:
+                    yield txt
+        else:
+            raise e
 
 class DialogoAcademicoAgent:
     """Agente conversacional com memória contextual e consulta integrada aos manuais RAG."""
     def __init__(self, llm, vectordb, historico_mensagens: list):
-        self.llm = llm
+        self.llm = assegurar_modelo_valido(llm)
         self.vectordb = vectordb
         self.historico_mensagens = historico_mensagens
 
@@ -327,6 +381,7 @@ class DialogoAcademicoAgent:
 
 def stream_dialogo_academico(llm, vectordb, pergunta: str, historico_mensagens: list):
     """Executa a busca RAG no ChromaDB e gera resposta em streaming para o diálogo livre com o orientador."""
+    llm = assegurar_modelo_valido(llm)
     try:
         docs = vectordb.similarity_search(pergunta, k=3)
         contexto = "\n\n".join([
@@ -349,10 +404,20 @@ def stream_dialogo_academico(llm, vectordb, pergunta: str, historico_mensagens: 
         "Responda de forma didática, encorajadora, estruturada e em português do Brasil, fundamentando suas recomendações com rigor acadêmico."
     )
     
-    for chunk in llm.stream(prompt):
-        txt = extrair_texto_conteudo(chunk)
-        if txt:
-            yield txt
+    try:
+        for chunk in llm.stream(prompt):
+            txt = extrair_texto_conteudo(chunk)
+            if txt:
+                yield txt
+    except Exception as e:
+        if "404" in str(e) or "NOT_FOUND" in str(e) or "2.5" in str(e) or "429" in str(e) or "503" in str(e):
+            llm.model = "gemini-3.5-flash-lite"
+            for chunk in llm.stream(prompt):
+                txt = extrair_texto_conteudo(chunk)
+                if txt:
+                    yield txt
+        else:
+            raise e
 
 def inicializar_agente_de_dialogo(llm, vectordb, historico_mensagens: list):
     """Inicializa o agente para diálogo livre pós-estratégia com RAG."""
@@ -360,6 +425,7 @@ def inicializar_agente_de_dialogo(llm, vectordb, historico_mensagens: list):
 
 def stream_resposta_rag_estrito(llm, vectordb, pergunta: str, historico_mensagens: list, documento_aluno: str = None):
     """Executa a busca RAG no ChromaDB e gera resposta em streaming com rigor científico e citação de fontes."""
+    llm = assegurar_modelo_valido(llm)
     # Se houver documento anexado pelo pesquisador, enriquece a busca com diretrizes metodológicas
     termo_busca = pergunta
     if documento_aluno and documento_aluno.strip():
@@ -420,15 +486,30 @@ PARECER METODOLÓGICO FUNDAMENTADO:"""
     prompt = PromptTemplate.from_template(template_estrito)
     chain = prompt | llm
 
-    for chunk in chain.stream({
-        "contexto": contexto,
-        "historico": historico_str,
-        "pergunta": pergunta,
-        "bloco_documento": bloco_doc
-    }):
-        txt = extrair_texto_conteudo(chunk)
-        if txt:
-            yield txt
+    try:
+        for chunk in chain.stream({
+            "contexto": contexto,
+            "historico": historico_str,
+            "pergunta": pergunta,
+            "bloco_documento": bloco_doc
+        }):
+            txt = extrair_texto_conteudo(chunk)
+            if txt:
+                yield txt
+    except Exception as e:
+        if "404" in str(e) or "NOT_FOUND" in str(e) or "2.5" in str(e) or "429" in str(e) or "503" in str(e):
+            llm.model = "gemini-3.5-flash-lite"
+            for chunk in (prompt | llm).stream({
+                "contexto": contexto,
+                "historico": historico_str,
+                "pergunta": pergunta,
+                "bloco_documento": bloco_doc
+            }):
+                txt = extrair_texto_conteudo(chunk)
+                if txt:
+                    yield txt
+        else:
+            raise e
             
     # Adiciona a citação formatada das fontes encontradas (única listagem oficial)
     fontes_unicas = sorted(list(set(

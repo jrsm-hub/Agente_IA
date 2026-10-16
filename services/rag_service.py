@@ -55,8 +55,16 @@ def criar_rag_tool(vectordb, llm):
             f"RESPOSTA:"
         )
         
-        from services.ai_service import extrair_texto_conteudo
-        resposta_raw = llm.invoke(prompt)
+        from services.ai_service import extrair_texto_conteudo, assegurar_modelo_valido
+        llm_valido = assegurar_modelo_valido(llm)
+        try:
+            resposta_raw = llm_valido.invoke(prompt)
+        except Exception as e:
+            if "404" in str(e) or "NOT_FOUND" in str(e) or "2.5" in str(e):
+                llm_valido.model = "gemini-3.5-flash-lite"
+                resposta_raw = llm_valido.invoke(prompt)
+            else:
+                raise e
         resposta = extrair_texto_conteudo(resposta_raw)
         
         fontes = sorted(list(set(doc.metadata.get('source', 'Manual') for doc in docs if doc.metadata.get('source'))))
