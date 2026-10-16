@@ -4,7 +4,6 @@ import streamlit as st
 from langchain_core.prompts import PromptTemplate
 from langchain_google_genai import ChatGoogleGenerativeAI
 from config import GOOGLE_API_KEY, LLM_MODEL, LLM_TEMPERATURE
-from services.rag_service import criar_rag_tool
 
 def extrair_texto_conteudo(conteudo) -> str:
     """Garante a conversão segura de qualquer formato retornado pelo LLM (str, list, dict, AIMessageChunk) em texto string."""
