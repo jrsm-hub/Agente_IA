@@ -75,6 +75,82 @@ def extrair_opcoes_da_pergunta(texto_mensagem) -> list[str]:
     _, opcoes = separar_pergunta_e_opcoes(texto_mensagem)
     return opcoes
 
+TITULOS_OFICIAIS_ABNT = {
+    'lakatos': 'LAKATOS, Eva Maria & MARCONI, Marina de Andrade — Fundamentos de Metodologia Científica (Atlas)',
+    'prodanov': 'PRODANOV, Cleber Cristiano & FREITAS, Ernani Cesar de — Metodologia do Trabalho Científico: Métodos e Técnicas da Pesquisa e do Trabalho Acadêmico (Feevale)',
+    'wazlawick_livro': 'WAZLAWICK, Raul Sidnei — Metodologia de Pesquisa para Ciência da Computação (Elsevier / Campus)',
+    'wazlawick_artigo': 'WAZLAWICK, Raul Sidnei — Uma Reflexão sobre a Pesquisa em Ciência da Computação (Revista Eletrônica de Sistemas de Informação / FSMA)',
+    'thesis_projects': 'BERNDTSSON, Mikael et al. — Thesis Projects: A Guide for Students in Computer Science and Information Systems (Springer)',
+    'writing_computer_science': 'DUGAN JR., Robert F. & POLANSKI, Virginia G. — Writing for Computer Science: A Taxonomy of Writing Tasks and General Advice (JCSC)',
+    'getting_phd': 'CHURCHILL, Harriet & SANDERS, Teela — Getting Your PhD: A Practical Insider\'s Guide (SAGE Publications)',
+    'traina': 'TRAINA, Agma J. M. & TRAINA JR., Caetano — Como Fazer Pesquisa Bibliográfica (SBC Horizontes / USP)',
+    'koller_manual': 'KOLLER, Silvia H., COUTO, Maria Clara P. de & HOHENDORFF, Jean von — Manual de Produção Científica (Artmed)',
+    'sampaio_ebook': 'SAMPAIO, Maria I. C., SABADINI, Aparecida A. Z. P. & KOLLER, Silvia H. — Produção Científica: Um Guia Prático (IP-USP / AGUIA)',
+    'silva_menezes': 'SILVA, Edna Lúcia da & MENEZES, Estera Muszkat — Metodologia da Pesquisa e Elaboração de Dissertação (UFSC / PPGEP)',
+    'siena': 'SIENA, Osmar — Metodologia da Pesquisa Científica: Elementos para Elaboração e Apresentação de Trabalhos Acadêmicos (UNIR / GEPES)',
+    'cassandra': 'SILVA, Cassandra Ribeiro de Oliveira e — Metodologia e Organização do Projeto de Pesquisa (CEFET-CE)',
+    'liberato': 'SOUZA, Dalva Inês de et al. — Manual de Orientações para Projetos de Pesquisa (Fundação Liberato)',
+    'alecrim': 'ALECRIM, Cecília G. M. et al. — Metodologia da Pesquisa e da Produção Científica (Brasília)',
+    'engenharia': 'SALIM, Maria Aparecida Sanches et al. — Metodologia de Pesquisa em Engenharia e Ciências Exatas',
+    'seminarios': 'SCORSOLINI-COMIN, Fabio — Seminários: Como Planejar e Apresentar (EERP-USP)',
+    'aplicom': 'EVANGELISTA, Raquel et al. — Agentes Inteligentes e Curadoria da Pesquisa Acadêmica (UERJ / Aplicom 2025)',
+    'prompts': 'Guia Prático — Prompts para Pesquisa Acadêmica com Inteligência Artificial',
+    'caderno_estudos': 'Caderno de Estudos — Metodologia do Trabalho Científico: Iniciação à Pesquisa'
+}
+
+def formatar_nome_fonte(fonte_str: str) -> str:
+    """Converte identificadores de arquivos brutos em referências canônicas e autores ABNT das 21 obras de pesquisa."""
+    if not fonte_str:
+        return "Manual de Metodologia Científica"
+    nome = os.path.basename(fonte_str).strip()
+    nome_norm = re.sub(r'^\++', '', nome)
+    nome_norm = re.sub(r'\.(txt|pdf)$', '', nome_norm, flags=re.I).lower().strip()
+    
+    if 'lakatos' in nome_norm or 'marconi' in nome_norm:
+        return TITULOS_OFICIAIS_ABNT['lakatos']
+    if 'prodanov' in nome_norm or 'cap 4' in nome_norm or 'ver apenas cap 4' in nome_norm:
+        return TITULOS_OFICIAIS_ABNT['prodanov']
+    if 'cienciadacomputacao' in nome_norm or 'tcc1' in nome_norm:
+        return TITULOS_OFICIAIS_ABNT['wazlawick_livro']
+    if 'reflex' in nome_norm and 'pesquisa' in nome_norm:
+        return TITULOS_OFICIAIS_ABNT['wazlawick_artigo']
+    if 'thesis projects' in nome_norm:
+        return TITULOS_OFICIAIS_ABNT['thesis_projects']
+    if 'writing for computer science' in nome_norm or 'taxonomy' in nome_norm:
+        return TITULOS_OFICIAIS_ABNT['writing_computer_science']
+    if 'getting your phd' in nome_norm:
+        return TITULOS_OFICIAIS_ABNT['getting_phd']
+    if 'pesquisa bibliogr' in nome_norm or 'traina' in nome_norm:
+        return TITULOS_OFICIAIS_ABNT['traina']
+    if 'ebook_producao' in nome_norm or 'ipusp' in nome_norm:
+        return TITULOS_OFICIAIS_ABNT['sampaio_ebook']
+    if 'manual de produ' in nome_norm or 'koller' in nome_norm:
+        return TITULOS_OFICIAIS_ABNT['koller_manual']
+    if 'teses_e_dissertacoes' in nome_norm or 'dissertacao' in nome_norm or 'disserta' in nome_norm:
+        return TITULOS_OFICIAIS_ABNT['silva_menezes']
+    if 'prolixo' in nome_norm or 'siena' in nome_norm or 'trabalhoacademicoatual' in nome_norm:
+        return TITULOS_OFICIAIS_ABNT['siena']
+    if 'bom resumo' in nome_norm or 'cassandra' in nome_norm:
+        return TITULOS_OFICIAIS_ABNT['cassandra']
+    if 'pergunta de pesquisa' in nome_norm or 'orientacoes_para_projetos' in nome_norm or 'liberato' in nome_norm:
+        return TITULOS_OFICIAIS_ABNT['liberato']
+    if 'mod_metodologia' in nome_norm or 'alecrim' in nome_norm:
+        return TITULOS_OFICIAIS_ABNT['alecrim']
+    if 'engenharia' in nome_norm or 'cinent' in nome_norm:
+        return TITULOS_OFICIAIS_ABNT['engenharia']
+    if 'seminarios' in nome_norm:
+        return TITULOS_OFICIAIS_ABNT['seminarios']
+    if 'aplicom' in nome_norm or 'curadoria' in nome_norm:
+        return TITULOS_OFICIAIS_ABNT['aplicom']
+    if 'prompts' in nome_norm:
+        return TITULOS_OFICIAIS_ABNT['prompts']
+    if 'metodologia do trabalho' in nome_norm:
+        return TITULOS_OFICIAIS_ABNT['caderno_estudos']
+        
+    limpo = re.sub(r'^\++', '', nome)
+    limpo = re.sub(r'\.(txt|pdf)$', '', limpo, flags=re.I).strip()
+    return limpo
+
 def assegurar_modelo_valido(llm):
     """Garante que qualquer instância de ChatGoogleGenerativeAI use gemini-3.5-flash-lite caso esteja com modelo descontinuado ou sem cota."""
     if hasattr(llm, "model") and llm.model:
@@ -319,7 +395,7 @@ class DialogoAcademicoAgent:
         try:
             docs = self.vectordb.similarity_search(pergunta, k=3)
             contexto = "\n\n".join([
-                f"[Manual: {os.path.basename(doc.metadata.get('source', 'Referência'))}]\n{doc.page_content}"
+                f"[Manual: {formatar_nome_fonte(doc.metadata.get('source', 'Referência'))}]\n{doc.page_content}"
                 for doc in docs
             ]) if docs else ""
         except Exception as e:
@@ -354,7 +430,7 @@ class DialogoAcademicoAgent:
         try:
             docs = self.vectordb.similarity_search(pergunta, k=3)
             contexto = "\n\n".join([
-                f"[Manual: {os.path.basename(doc.metadata.get('source', 'Referência'))}]\n{doc.page_content}"
+                f"[Manual: {formatar_nome_fonte(doc.metadata.get('source', 'Referência'))}]\n{doc.page_content}"
                 for doc in docs
             ]) if docs else ""
         except Exception as e:
@@ -384,7 +460,7 @@ def stream_dialogo_academico(llm, vectordb, pergunta: str, historico_mensagens: 
     try:
         docs = vectordb.similarity_search(pergunta, k=3)
         contexto = "\n\n".join([
-            f"[Manual: {os.path.basename(doc.metadata.get('source', 'Referência'))}]\n{doc.page_content}"
+            f"[Manual: {formatar_nome_fonte(doc.metadata.get('source', 'Referência'))}]\n{doc.page_content}"
             for doc in docs
         ]) if docs else ""
     except Exception as e:
@@ -431,12 +507,6 @@ def stream_resposta_rag_estrito(llm, vectordb, pergunta: str, historico_mensagen
         termo_busca = f"{pergunta} metodologia cientifica objetivos pesquisa procedimentos academicos"
 
     docs = vectordb.similarity_search(termo_busca, k=4)
-    
-    def formatar_nome_fonte(fonte_str: str) -> str:
-        b = os.path.basename(fonte_str or "Manual")
-        b = re.sub(r'^\++', '', b)
-        b = re.sub(r'\.(txt|pdf)$', '', b, flags=re.IGNORECASE)
-        return b.strip()
 
     if docs:
         contexto = "\n\n".join([

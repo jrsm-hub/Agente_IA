@@ -42,8 +42,11 @@ def criar_rag_tool(vectordb, llm):
         if not docs:
             return "Nenhuma informação relevante encontrada nos manuais disponíveis."
             
+        from services.ai_service import extrair_texto_conteudo, assegurar_modelo_valido, formatar_nome_fonte
+        llm_valido = assegurar_modelo_valido(llm)
+        
         contexto = "\n\n".join([
-            f"[Fonte: {doc.metadata.get('source', 'Manual')}]\n{doc.page_content}"
+            f"[Fonte: {formatar_nome_fonte(doc.metadata.get('source', 'Manual'))}]\n{doc.page_content}"
             for doc in docs
         ])
         
@@ -55,8 +58,6 @@ def criar_rag_tool(vectordb, llm):
             f"RESPOSTA:"
         )
         
-        from services.ai_service import extrair_texto_conteudo, assegurar_modelo_valido
-        llm_valido = assegurar_modelo_valido(llm)
         try:
             resposta_raw = llm_valido.invoke(prompt)
         except Exception as e:
@@ -67,10 +68,10 @@ def criar_rag_tool(vectordb, llm):
                 raise e
         resposta = extrair_texto_conteudo(resposta_raw)
         
-        fontes = sorted(list(set(doc.metadata.get('source', 'Manual') for doc in docs if doc.metadata.get('source'))))
+        fontes = sorted(list(set(formatar_nome_fonte(doc.metadata.get('source', 'Manual')) for doc in docs if doc.metadata.get('source'))))
         if fontes:
-            fontes_str = ", ".join([f"`{f}`" for f in fontes])
-            resposta += f"\n\n📚 **Manuais consultados:** {fontes_str}"
+            fontes_str = "\n".join([f"- *{f}*" for f in fontes])
+            resposta += f"\n\n📚 **Obras e Manuais Consultados:**\n{fontes_str}"
             
         return resposta
 
