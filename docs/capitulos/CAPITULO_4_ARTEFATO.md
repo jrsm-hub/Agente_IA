@@ -126,3 +126,41 @@ Adicionalmente, o sistema incorpora tratamento de erros de exaustão de cota por
 ## 4.8 Síntese do Capítulo
 
 Neste capítulo, foram apresentados a fundamentação arquitetural, o desenho dos módulos e os algoritmos de implementação que compõem o Orientador Acadêmico Inteligente. A união entre a mediação reflexiva socrática e a ancoragem estrita em 21 manuais canônicos de pesquisa científica viabiliza um artefato robusto, responsivo e adaptado às necessidades pedagógicas de discentes de Ciência da Computação. Os procedimentos empíricos e a avaliação dos dados resultantes do uso prático desta ferramenta são objeto de análise e discussão detalhada no capítulo seguinte.
+
+## Referências Bibliográficas Citadas neste Capítulo
+
+BASS, Len; CLEMENTS, Paul; KAZMAN, Rick. **Software Architecture in Practice**. 3. ed. Boston: Addison-Wesley, 2012.
+
+BERNDTSSON, Mikael et al. **Thesis Projects: A Guide for Students in Computer Science and Information Systems**. 2. ed. London: Springer, 2008.
+
+DUGAN JR., Robert F.; POLANSKI, Virginia G. Writing for Computer Science: A Taxonomy of Writing Tasks and General Advice. **Journal of Computing Sciences in Colleges**, v. 21, n. 2, p. 195-203, 2005.
+
+GIL, Antonio Carlos. **Como Elaborar Projetos de Pesquisa**. 6. ed. São Paulo: Atlas, 2017.
+
+HEVNER, Alan R. et al. Design Science in Information Systems Research. **MIS Quarterly**, v. 28, n. 1, p. 75-105, 2004.
+
+JI, Ziwei et al. Survey of Hallucination in Natural Language Generation. **ACM Computing Surveys**, v. 55, n. 12, p. 1-38, 2023.
+
+KOLLER, Silvia H.; COUTO, Maria Clara P. de; HOHENDORFF, Jean von (Org.). **Manual de Produção Científica**. Porto Alegre: Artmed, 2014.
+
+LAKATOS, Eva Maria; MARCONI, Marina de Andrade. **Fundamentos de Metodologia Científica**. 8. ed. São Paulo: Atlas, 2017.
+
+LEWIS, Patrick et al. Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. In: **Advances in Neural Information Processing Systems (NeurIPS 2020)**, v. 33, p. 9459-9474, 2020.
+
+PAUL, Richard; ELDER, Linda. **The Thinker's Guide to the Art of Socratic Questioning**. Dillon Beach: Foundation for Critical Thinking, 2006.
+
+PRESSMAN, Roger S.; MAXIM, Bruce R. **Engenharia de Software: Uma Abordagem Profissional**. 8. ed. Porto Alegre: AMGH, 2016.
+
+PRODANOV, Cleber Cristiano; FREITAS, Ernani Cesar de. **Metodologia do Trabalho Científico: Métodos e Técnicas da Pesquisa e do Trabalho Acadêmico**. 2. ed. Novo Hamburgo: Feevale, 2013.
+
+SILVA, Edna Lúcia da; MENEZES, Estera Muszkat. **Metodologia da Pesquisa e Elaboração de Dissertação**. 4. ed. Florianópolis: UFSC, 2005.
+
+SOMMERVILLE, Ian. **Engenharia de Software**. 10. ed. São Paulo: Pearson Education do Brasil, 2019.
+
+TRAINA, Agma J. M.; TRAINA JR., Caetano. Como Fazer Pesquisa Bibliográfica. **Revista SBC Horizontes**, Porto Alegre: Sociedade Brasileira de Computação, 2009.
+
+VAISHNAVI, Vijay K.; KUECHLER, William. **Design Science Research Methods and Patterns: Innovating Information and Communication Technology**. 2. ed. Boca Raton: CRC Press, 2015.
+
+WAZLAWICK, Raul Sidnei. **Metodologia de Pesquisa para Ciência da Computação**. 2. ed. Rio de Janeiro: Elsevier / Campus, 2014.
+
+ZHANG, Yue et al. Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models. **arXiv preprint arXiv:2309.01219**, 2023.
