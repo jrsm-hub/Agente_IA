@@ -244,14 +244,14 @@ def gerar_titulo_conversa(llm, historico_texto: str) -> str:
 def gerar_proxima_pergunta_dinamica(llm, historico_texto: str) -> str:
     """Gera a próxima pergunta afuniladora e 4 opções para a fase de coleta (síncrono)."""
     llm = assegurar_modelo_valido(llm)
-    template = """Você é um orientador de pesquisa experiente e a sua missão é conduzir uma entrevista para ajudar um aluno a definir um projeto de pesquisa, guiando-o desde uma área ampla até um tópico específico.
+    template = """Você é um orientador de pesquisa experiente e a sua missão é conduzir uma entrevista socrática para ajudar um aluno a definir seu projeto de pesquisa acadêmica, guiando-o desde uma área ampla até um tópico específico, rigoroso e exequível.
 
 **Regras:**
 1. **Analise o histórico completo da conversa** para entender o contexto atual e a última resposta do aluno.
-2. **Formule a próxima pergunta** de forma clara e rigorosa, em português do Brasil. A sua pergunta deve afunilar a ideia do aluno.
-3. **Ofereça exatamente 4 opções** concretas, fundamentadas e detalhadas de aprofundamento.
+2. **Formule a próxima pergunta** de forma clara, reflexiva e direta em português do Brasil, estimulando o afunilamento da ideia.
+3. **Ofereça exatamente 4 opções** concretas, fundamentadas e acessíveis de aprofundamento.
 4. **Formate as opções** como uma lista numerada, de 1 a 4, com cada opção numa nova linha.
-5. **Estilo sóbrio:** Não use emojis, ícones gráficos ou expressões informais.
+5. **Tom didático e acessível:** Mantenha um tom encorajador, claro e objetivo. Evite jargões herméticos ou linguagem excessivamente rebuscada, preservando a seriedade e o rigor acadêmico sem emojis ou gírias.
 6. **Responda apenas com a pergunta e as opções**, sem qualquer texto adicional antes ou depois.
 
 **HISTÓRICO DA CONVERSA:**
@@ -277,10 +277,10 @@ def stream_gerar_proxima_pergunta(llm, historico_texto: str, vectordb=None):
 
 **Regras:**
 1. **Analise o histórico completo da conversa** para entender o contexto atual e a última contribuição do aluno.
-2. **Formule a próxima pergunta** de forma clara, reflexiva e objetiva em português do Brasil, estimulando o afunilamento temático.
-3. **Ofereça exatamente 4 opções** metodologicamente consistentes, inovadoras e detalhadas de aprofundamento.
+2. **Formule a próxima pergunta** de forma clara, reflexiva e direta em português do Brasil, estimulando o afunilamento temático.
+3. **Ofereça exatamente 4 opções** metodologicamente consistentes, inovadoras e acessíveis de aprofundamento.
 4. **Formate as opções** rigorosamente como lista numerada de 1 a 4, cada qual em uma linha separada.
-5. **Soberba acadêmica:** Proibido utilizar emojis, ícones figurativos, gírias ou pontuações lúdicas. Mantenha tom formal e institucional de orientação universitária.
+5. **Tom didático e acessível:** Mantenha um tom encorajador, claro e objetivo. Evite jargões herméticos ou linguagem excessivamente rebuscada, preservando a seriedade e o rigor acadêmico sem emojis ou gírias.
 6. **Responda estritamente com a pergunta seguida das 4 opções**, sem saudações redundantes ou introduções.
 
 **HISTÓRICO DA CONVERSA:**
@@ -309,7 +309,7 @@ def stream_gerar_proxima_pergunta(llm, historico_texto: str, vectordb=None):
 TEMPLATE_DOCUMENTO_ESTRATEGICO = """Você é um orientador e estrategista acadêmico sênior. 
 Com base em todo o HISTÓRICO da entrevista com o aluno, elabore um Documento Estratégico de Pesquisa detalhado, aprofundado e completo em Markdown (em português do Brasil).
 
-Não seja superficial. Desenvolva cada seção com rigor conceitual, exemplos práticos e clareza metodológica.
+Não seja superficial. Desenvolva cada seção com clareza conceitual, exemplos práticos, linguagem didática e rigor metodológico.
 
 HISTÓRICO DA ENTREVISTA:
 {historico}
@@ -329,21 +329,27 @@ DOCUMENTO ESTRATÉGICO DE PESQUISA (ESTRUTURA OBRIGATÓRIA):
 ### Caminho A (Abordagem Principal): [Nome Detalhado da Abordagem Principal]
 - **Descrição da Proposta:** [Como funciona esta abordagem, arquitetura ou técnica pretendida]
 - **Objetivo Geral & Específicos:** [O que será construído/analisado passo a passo]
-- **Metodologia & Dados:** [Quais bases de dados, ferramentas, métricas ou procedimentos serão adotados]
+- **Metodologia & Dados:** [Quais bases de dados, ferramentas, métricas ou procedimentos serão adotados. Indicar fontes abertas ou alternativas viáveis caso haja restrição de acesso]
 - **Por que este caminho é promissor:** [Contribuição científica e relevância]
-- **Riscos e Mitigações:** [Principais desafios técnicos/metodológicos e como contorná-los]
+- **Riscos e Mitigações:** [Principais desafios técnicos/metodológicos e estratégias concretas de contingência]
 
 ### Caminho B (Abordagem Alternativa): [Nome Detalhado da Abordagem Alternativa]
 - **Descrição da Proposta:** [Abordagem alternativa para o mesmo tema com foco ou escopo diferente]
 - **Objetivo Geral & Específicos:** [O que será construído/analisado passo a passo]
-- **Metodologia & Dados:** [Quais bases de dados, ferramentas, métricas ou procedimentos serão adotados]
+- **Metodologia & Dados:** [Quais bases de dados, ferramentas, métricas ou procedimentos serão adotados. Indicar fontes abertas ou alternativas viáveis caso haja restrição de acesso]
 - **Por que este caminho é promissor:** [Diferencial em relação ao Caminho A]
-- **Riscos e Mitigações:** [Principais desafios técnicos/metodológicos e como contorná-los]
+- **Riscos e Mitigações:** [Principais desafios técnicos/metodológicos e estratégias concretas de contingência]
 
 ## 3. Recomendações Metodológicas e Próximos Passos
 1. **Passo 1 (Revisão Bibliográfica):** [Direcionamento de busca de artigos e autores-chave]
 2. **Passo 2 (Preparação do Ambiente / Dados):** [Coleta, ferramentas e pipeline inicial]
 3. **Passo 3 (Alinhamento com Orientador):** [Pontos centrais a apresentar para o orientador humano]
+
+## 4. Cronograma Estimado de Execução por Etapas
+- **Etapa 1 (Fundamentação Teórica e Estado da Arte):** [Mapeamento da literatura, leitura crítica e fichamento de trabalhos correlatos]
+- **Etapa 2 (Coleta de Dados e Ambiente Experimental):** [Obtenção e validação dos dados/datasets, configuração de ferramentas e pipeline]
+- **Etapa 3 (Execução Metodológica e Avaliação):** [Desenvolvimento/aplicação do método, condução dos testes e extração das métricas]
+- **Etapa 4 (Análise dos Resultados e Redação Final):** [Interpretação crítica dos achados, discussão e escrita do relatório de pesquisa]
 """
 
 def gerar_documento_estrategico(llm, historico_texto: str) -> str:
