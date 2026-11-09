@@ -1,191 +1,128 @@
-# CAPÍTULO 4: O ARTEFATO — ARQUITETURA E IMPLEMENTAÇÃO DO AGENTE INTELIGENTE
+# 4 O ARTEFATO: ARQUITETURA E IMPLEMENTAÇÃO DO AGENTE INTELIGENTE
 
-Este capítulo descreve a concepção, arquitetura de software e detalhes de implementação do artefato computacional desenvolvido nesta pesquisa, em consonância com a etapa de *Design and Development* da metodologia *Design Science Research* (DSR) (VAISHNAVI; KUECHLER, 2015). O sistema, denominado **Orientador Acadêmico Inteligente**, é um software de código aberto, concebido sob uma arquitetura modular desacoplada em Python, integrando modelos de linguagem de grande escala (LLMs), um orquestrador socrático estruturado e um subsistema de Geração Aumentada por Recuperação (RAG) ancorado na literatura canônica de metodologia científica.
+Neste capítulo, detalha-se a concepção arquitetural, as decisões de projeto e a implementação computacional do artefato desenvolvido nesta pesquisa. A estruturação deste trabalho apoia-se nos preceitos metodológicos da *Design Science Research* (DSR), especificamente na etapa de projeto e desenvolvimento do artefato (HEVNER et al., 2004; VAISHNAVI; KUECHLER, 2015). O artefato computacional produzido consiste em um sistema de mediação pedagógica inteligente voltado à ideação e delimitação metodológica de projetos científicos de graduação em Ciência da Computação, fundamentado na integração entre modelos de linguagem de grande escala (*Large Language Models* - LLMs), um orquestrador dialógico de viés socrático e um módulo de Geração Aumentada por Recuperação (*Retrieval-Augmented Generation* - RAG) ancorado na literatura canônica de metodologia científica.
 
----
+## 4.1 Visão Geral e Requisitos do Artefato
 
-## 4.1 Visão Geral e Requisitos do Sistema
+A transição entre o aprendizado técnico-operacional e a formulação de uma investigação científica rigorosa constitui um dos principais gargalos enfrentados por estudantes de graduação (WAZLAWICK, 2014). Frequentemente, discentes iniciantes confundem a mera construção de um produto de software com a investigação de um problema científico falseável e testável. Para mitigar esse obstáculo cognitivo, o artefato foi projetado para atuar como um mediador reflexivo, guiando o pesquisador através de turnos estruturados de tomada de decisão.
 
-O objetivo central do artefato é mitigar as barreiras cognitivas e metodológicas enfrentadas por estudantes de graduação na fase de ideação do Trabalho de Conclusão de Curso (TCC), guiando-os desde uma área genérica de interesse até a formalização de uma pergunta científica testável e de um plano de execução metodológica fundamentado.
+Seguindo as diretrizes clássicas de Engenharia de Software propostas por Sommerville (2019) e Pressman e Maxim (2016), o levantamento das necessidades do sistema foi sintetizado em requisitos funcionais e não funcionais.
 
-Para orientar o desenvolvimento do artefato, foram estabelecidos requisitos funcionais e não funcionais alinhados aos preceitos pedagógicos da mediação socrática e da reprodutibilidade científica.
+No tocante aos requisitos funcionais, o sistema deve:
+1. Conduzir entrevistas socráticas adaptativas em turnos graduais, identificando a área de interesse do estudante e afunilando o escopo a partir de perguntas reflexivas;
+2. Oferecer, a cada iteração dialógica, quatro alternativas metodológicas fundamentadas, permitindo concomitantemente a inserção de respostas dissertativas livres pelo usuário;
+3. Compilar dinamicamente o histórico de decisões do estudante em um Documento Estratégico formal, contendo contextualização temática, pergunta norteadora investigativa, duas abordagens metodológicas comparativas (Caminho A e Caminho B), análise de riscos com planos de contingência e um cronograma estimado de execução por etapas;
+4. Exportar o documento gerado em formato PDF com diagramação e normas de apresentação acadêmica;
+5. Disponibilizar um ambiente de diálogo aberto pós-estratégia, amparado por busca vetorial semântica em literatura metodológica, para sanar dúvidas sobre execução prática e delineamento experimental;
+6. Oferecer um modo especializado de consultoria metodológica estrita com temperatura zero, capaz de auditar rascunhos textuais e emitir pareceres conceituais com citação explícita dos manuais consultados;
+7. Persistir com segurança na nuvem as sessões, mensagens, documentos produzidos e avaliações de utilidade dos participantes.
 
-### 4.1.1 Requisitos Funcionais (RF)
-* **RF01 - Condução Dialógica Socrática:** O sistema deve conduzir uma entrevista em turnos estruturados, formulando perguntas reflexivas de afunilamento temático a partir das contribuições progressivas do usuário.
-* **RF02 - Sugestão Metodológica em Múltipla Escolha:** A cada rodada do questionário socrático, o agente deve fornecer exatamente 4 alternativas concretas e metodologicamente viáveis de aprofundamento, permitindo também a inserção de respostas dissertativas livres.
-* **RF03 - Síntese do Documento Estratégico:** Ao concluir a coleta de ideação, o sistema deve compilar todo o histórico dialógico em um Documento Estratégico formal em Markdown contendo: diagnóstico do tema, pergunta norteadora, duas abordagens metodológicas comparativas (Caminho A e Caminho B), riscos/mitigações, recomendações e cronograma estimado por etapas.
-* **RF04 - Exportação em Formato Tipográfico Acadêmico (PDF):** O artefato deve compilar o Documento Estratégico em um relatório PDF diagramado segundo padrões estéticos formais (margens de 20 mm, tipografia legível, cabeçalho e rodapé institucionais).
-* **RF05 - Diálogo Metodológico Aberto com RAG:** Após a emissão do documento, o sistema deve manter uma sessão conversacional aberta, consultando uma base vetorial de manuais de pesquisa para esclarecer dúvidas procedimentais (amostragem, métricas, delineamento experimental).
-* **RF06 - Modo Consultor Metodológico Estrito e Auditoria de Rascunhos:** O sistema deve disponibilizar um módulo independente com temperatura zero e verificação estrita anti-alucinação, permitindo a submissão de textos/rascunhos em PDF ou TXT para emissão de parecer fundamentado com citação formal das obras consultadas.
-* **RF07 - Persistência e Rastreabilidade Multi-usuário:** As sessões de atendimento, dados de interação, escolhas socráticas, rascunhos gerados e avaliações de feedback devem ser persistidos individualmente na nuvem, vinculados ao identificador institucional do discente.
-
-### 4.1.2 Requisitos Não Funcionais (RNF)
-* **RNF01 - Baixa Latência e Streaming Nativo:** As respostas socráticas e os fluxos RAG devem iniciar a exibição textual para o discente em menos de 2 segundos, utilizando *token streaming* em tempo real (`st.write_stream`).
-* **RNF02 - Mitigação de Ruído Conceitual:** O módulo socrático não deve realizar buscas vetoriais indiscriminadas durante a ideação inicial, prevenindo que terminologias metodológicas genéricas interfiram prematuramente no fluxo criativo de tópicos técnicos específicos (ex: redes, visão computacional, sistemas distribuídos).
-* **RNF03 - Rigor Normativo e Prevenção de Alucinações:** As respostas metodológicas no modo consultor devem basear-se estritamente nos fragmentos recuperados da base de conhecimento, recusando afirmações sem respaldo na literatura disponível.
-* **RNF04 - Portabilidade e Acesso em Nuvem:** A aplicação deve ser plenamente executável via navegador web através do Streamlit Community Cloud ou servidor local dedicado, sem exigir placas aceleradoras (GPU) nos dispositivos dos estudantes.
-
----
+Quanto aos requisitos não funcionais, estabeleceu-se que o artefato deve:
+1. Apresentar baixa latência de resposta, com início de exibição em *streaming* textual inferior a dois segundos para preservar o engajamento cognitivo do usuário;
+2. Garantir isolamento conceitual na fase de ideação, evitando que buscas vetoriais prematuras injetem ruído terminológico genérico em domínios específicos de Ciência da Computação;
+3. Assegurar conformidade conceitual e mitigação de alucinações (JI et al., 2023) nas respostas metodológicas formais, restringindo afirmações aos fragmentos recuperados da literatura;
+4. Ser disponibilizado sob arquitetura web aberta e responsiva, operando sem exigir poder de processamento local ou hardware especializado dos estudantes.
 
 ## 4.2 Arquitetura Geral da Solução
 
-O sistema adota uma arquitetura em camadas desacopladas (*Layered Architecture*), dividida em três pilares principais: **Camada de Apresentação e Interação**, **Camada de Cognição e Serviços de IA/RAG**, e **Camada de Persistência e Dados**.
+Para assegurar manutenibilidade, extensibilidade e desacoplamento de responsabilidades, o sistema foi estruturado segundo o padrão de Arquitetura em Camadas (*Layered Architecture*) (BASS; CLEMENTS; KAZMAN, 2012). A organização divide-se em três macrocamadas lógicas: Camada de Apresentação e Interação, Camada de Cognição e Serviços de Inteligência Artificial, e Camada de Persistência e Recuperação de Dados.
 
-```
-┌────────────────────────────────────────────────────────────────────────┐
-│               CAMADA DE APRESENTAÇÃO (app.py - Streamlit)              │
-│  - Autenticação Simples / Identificador (@cin.ufpe.br)                 │
-│  - Seletor de Modo: [Estratégia Socrática] vs. [Consultoria RAG]       │
-│  - Chat Conversacional com Streaming Nativo (st.write_stream)          │
-│  - Botões Rápidos de Decisão Metodológica (1 a 4)                      │
-│  - Gerador e Download de PDF Acadêmico (FPDF)                          │
-│  - Painel de Histórico e Atendimentos Salvos (Sidebar)                 │
-└───────────────────┬───────────────────────────────┬────────────────────┘
-                    │                               │
-┌───────────────────▼──────────────┐   ┌────────────▼────────────────────┐
-│   CAMADA DE COGNIÇÃO E SERVIÇOS  │   │   CAMADA DE PERSISTÊNCIA/DADOS  │
-│  - ai_service.py:                │   │  - firebase_service.py:         │
-│    • Orquestrador Socrático      │   │    • Google Firestore NoSQL     │
-│    • Síntese Estratégica         │   │    • Coleção 'conversas'        │
-│    • Diálogo Pós-Estratégia      │   │    • Subcoleção 'mensagens'     │
-│    • Consultor RAG Estrito (0.0) │   │    • Telemetria & Avaliações    │
-│    • LLM Fallback (gemini-flash) │   │  - banco_vetorial_chroma/:      │
-│  - rag_service.py:               │   │    • ChromaDB Local Persistente │
-│    • Similarity Search (k=3, k=4)│   │    • 5.839 Chunks Semânticos    │
-│  - pdf_service.py:               │   │    • gemini-embedding-001       │
-│    • Normalizador Tipográfico    │   │  - fontes/:                     │
-│    • Engine Anti-Quebra FPDF     │   │    • 21 Manuais de Metodologia  │
-└──────────────────────────────────┘   └─────────────────────────────────┘
-```
+O Quadro 4.1 sintetiza a organização dos módulos, suas responsabilidades sistêmicas e as tecnologias adotadas em cada estrato.
 
-A independência modular garante que a camada de inteligência (`ai_service.py`) opere de forma transparente em relação ao motor de interface (`app.py`), facilitando substituições de modelos de linguagem ou migrações de provedor sem impacto no fluxo de usuário.
+**Quadro 4.1 – Especificação dos Módulos e Tecnologias da Arquitetura em Camadas**
 
----
+| Camada Arquitetural | Módulo / Arquivo | Responsabilidade Principal | Tecnologias Utilizadas |
+| :--- | :--- | :--- | :--- |
+| **Apresentação e Interação** | `app.py` | Renderização da interface web, autenticação institucional por matrícula/e-mail, controle de turnos dialógicos, botões dinâmicos de resposta e visualização de histórico. | Python, Streamlit Framework, Streamlit State Management. |
+| **Cognição e Orquestração** | `services/ai_service.py` | Engenharia de prompts socráticos, orquestração de streaming, síntese do documento estratégico, diálogo aberto e consultoria anti-alucinação. | LangChain Core, Google Generative AI SDK, PromptTemplates. |
+| **Recuperação Vetorial (RAG)** | `services/rag_service.py` | Indexação densa, cálculo de similaridade de cosseno ($k$-NN) e recuperação de fragmentos conceituais dos manuais de metodologia. | ChromaDB, Gemini Embeddings (`gemini-embedding-001`). |
+| **Diagramação e Tipografia** | `services/pdf_service.py` | Normalização tipográfica Latin-1, conversão de Markdown e LaTeX, controle de margens e compilação do relatório final em PDF. | FPDF2, RegEx, PyMuPDF. |
+| **Persistência de Dados** | `services/firebase_service.py` | Armazenamento de metadados, controle multi-inquilino de sessões, persistência integral dos diálogos e coleta de telemetria empírica. | Google Cloud Firestore, Firebase Admin SDK. |
 
-## 4.3 Módulo Dialógico Socrático: Ideação e Afunilamento Temático
+Fonte: Elaborado pelo autor (2026).
 
-A ideação científica é frequentemente descrita pelos estudantes como a etapa de maior estresse cognitivo, caracterizada pelo bloqueio da "página em branco" e pela imprecisão do escopo investigativo. O Módulo Dialógico Socrático foi projetado para atuar como um mediador pedagógico ativo, decompondo a complexidade do afunilamento temático em decisões graduais de baixo atrito.
+A comunicação entre a camada de apresentação (`app.py`) e os serviços de inteligência é estritamente unidirecional. A interface solicita a geração de turnos dialógicos ou pareceres repassando apenas o histórico conversacional acumulado, enquanto a camada de cognição devolve geradores em fluxo contínuo (*generators* em Python). Esse desacoplamento permite que substituições no modelo de linguagem subjacente ocorram sem a necessidade de alterações no leiaute de usuário.
 
-### 4.3.1 Desacoplamento Cognitivo: RAG vs. Diálogo Socrático
-Uma decisão de projeto fundamental consistiu no **desacoplamento deliberado** entre o questionário socrático inicial e a busca vetorial RAG:
-1. **Redução de Latência:** Uma consulta vetorial seguida de re-ranqueamento a cada turno dialógico introduziria latência desnecessária (de 3 a 5 segundos). O uso de engenharia de prompts direcionada sobre o histórico acumulado mantém o tempo de resposta em ~1,2 segundo.
-2. **Prevenção de Ruído Temático:** Durante o afunilamento de tópicos altamente técnicos de Ciência da Computação (como arquitetura de microserviços, visão computacional ou computação quântica), a injeção indiscriminada de fragmentos de livros clássicos de metodologia (ex: técnicas de questionário de Lakatos ou Gil) atua como ruído cognitivo no contexto do LLM, desviando as alternativas de caminhos específicos da computação.
+## 4.3 Módulo Dialógico Socrático para Afunilamento Temático
 
-### 4.3.2 Engenharia de Prompts do Orquestrador Socrático
-O agente socrático opera com base em um *System Prompt* rigorosamente parametrizado (`stream_gerar_proxima_pergunta`), instruído a analisar o histórico da conversa e gerar exatamente uma pergunta norteadora e 4 opções concretas:
+O afunilamento temático baseia-se no método de questionamento socrático (PAUL; ELDER, 2006), no qual o orientador não fornece respostas prontas ou direcionamentos impositivos, mas formula indagações dialéticas que conduzem o interlocutor à reflexão crítica sobre as fronteiras, viabilidade e pressupostos de sua própria investigação.
 
-```text
-Você é um orientador de pesquisa experiente e a sua missão é conduzir uma entrevista socrática para ajudar um aluno a delimitar seu projeto de pesquisa acadêmica, guiando-o desde uma área ampla até um tópico específico, rigoroso e exequível.
+### 4.3.1 O Desacoplamento entre Diálogo Socrático e Recuperação Vetorial
 
-Regras:
-1. Analise o histórico completo da conversa para entender o contexto atual e a última contribuição do aluno.
-2. Formule a próxima pergunta de forma clara, reflexiva e direta em português do Brasil, estimulando o afunilamento temático.
-3. Ofereça exatamente 4 opções metodologicamente consistentes, inovadoras e acessíveis de aprofundamento.
-4. Formate as opções rigorosamente como lista numerada de 1 a 4, cada qual em uma linha separada.
-5. Tom didático e acessível: Mantenha um tom encorajador, claro e objetivo. Evite jargões herméticos ou linguagem excessivamente rebuscada, preservando a seriedade e o rigor acadêmico sem emojis ou gírias.
-6. Responda estritamente com a pergunta seguida das 4 opções, sem saudações redundantes ou introduções.
-```
+Uma premissa de engenharia relevante adotada nesta pesquisa reside no desacoplamento entre a busca vetorial (RAG) e os turnos iniciais da entrevista socrática. Em experimentos preliminares com arquiteturas integradas, observou-se que submeter as respostas do discente a uma busca por similaridade em manuais metodológicos a cada turno introduzia duas fragilidades críticas:
 
-### 4.3.3 Dinâmica de Interação e Suporte a Respostas Livres
-Na interface Streamlit, a função `separar_pergunta_e_opcoes()` decompõe a saída do modelo em duas componentes:
-- O texto explicativo/pergunta (exibido na bolha conversacional do orientador);
-- As 4 alternativas (renderizadas como botões interativos dinâmicos de largura total).
+Em primeiro lugar, a sobrecarga de processamento computacional aumentava o tempo de resposta em cerca de 3,5 a 4,8 segundos por turno, prejudicando a fluidez dialógica essencial à manutenção da concentração do aluno. Em segundo lugar, como os fragmentos dos livros de metodologia abordam primordialmente normas genéricas de pesquisa científica (amostragem, hipóteses formais, métodos bibliográficos), sua injeção no contexto de áreas específicas de Ciência da Computação — como compiladores, processamento de sinais ou visão computacional — gerava ruído conceitual, diluindo o vocabulário técnico de ponta necessário à proposição de tópicos contemporâneos de investigação.
 
-O estudante pode avançar na entrevista clicando diretamente em uma das opções sugeridas ou digitando uma resposta personalizada no campo de entrada (`st.chat_input`), garantindo flexibilidade caso queira direcionar a pesquisa para um contexto específico.
+Dessa forma, optou-se por restringir o motor do questionário socrático à engenharia de prompts sobre o conhecimento paramétrico do modelo `gemini-3.5-flash-lite`, preservando a agilidade do diálogo (latência média de 1,2 segundo) e resguardando a busca vetorial para as etapas subsequentes de fundamentação procedimental e auditoria formal.
 
----
+### 4.3.2 Parametrização e Engenharia de Prompts Socráticos
+
+O comportamento do orquestrador dialógico é regido por diretivas formais consolidadas no modelo de prompt executado pela função `stream_gerar_proxima_pergunta`. A instrução define que o agente atue na persona de um orientador experiente, exigindo sobriedade acadêmica, clareza didática e a apresentação estruturada de exatamente quatro rumos metodológicos possíveis.
+
+A calibragem do prompt foi refinada a partir dos feedbacks colhidos nas sessões com discentes do Centro de Informática. Suprimiram-se termos excessivamente rebuscados em favor de uma linguagem didática, direta e encorajadora, preservando o rigor investigativo sem impor barreiras de compreensão vocabular. Cada intervenção do sistema encerra-se com uma pergunta instigante seguida de quatro opções numeradas, as quais são interpretadas pela interface gráfica e exibidas como botões de seleção rápida. O aluno mantém autonomia irrestrita para optar por um dos caminhos oferecidos ou inserir uma consideração dissertativa própria através do campo de texto.
 
 ## 4.4 Módulo de Geração Aumentada por Recuperação (RAG)
 
-Enquanto a ideação inicial explora o conhecimento paramétrico do LLM sobre tópicos de computação, a formalização metodológica exige ancoragem estrita e auditável. O Módulo RAG complementa a arquitetura assegurando que conceitos científicos, escolhas de métodos de validação e normas técnicas estejam fundamentados na literatura consolidada.
+Embora o conhecimento paramétrico dos LLMs seja vasto, tais modelos são suscetíveis a alucinações conceituais, imprecisões citacionais e anacronismos bibliográficos quando requisitados a emitir pareceres científicos rigorosos (LEWIS et al., 2020; ZHANG et al., 2023). Para assegurar ancoragem teórica inequívoca, implementou-se um subsistema de RAG fundamentado na literatura de metodologia científica.
 
-### 4.4.1 Curadoria e Construção da Base Canônica
-A base de conhecimento foi estruturada a partir de **21 manuais e obras de referência de metodologia científica**, cobrindo tanto a literatura clássica quanto diretrizes especializadas em computação e engenharias:
-- **Computação:** Wazlawick (*Metodologia de Pesquisa para Ciência da Computação*), Berndtsson et al. (*Thesis Projects: A Guide for Students in Computer Science and Information Systems*), Dugan Jr. & Polanski (*Writing for Computer Science*).
-- **Metodologia Geral:** Lakatos & Marconi (*Fundamentos de Metodologia Científica*), Gil (*Como Elaborar Projetos de Pesquisa*), Prodanov & Freitas (*Metodologia do Trabalho Científico*), Silva & Menezes (*Metodologia da Pesquisa e Elaboração de Dissertação*).
-- **Comunicação Científica:** Sampaio, Sabadini & Koller (*Produção Científica: Um Guia Prático*), Traina & Traina Jr. (*Como Fazer Pesquisa Bibliográfica*).
+### 4.4.1 Curadoria da Base Canônica de Metodologia
 
-### 4.4.2 Pipeline de Fragmentação (*Chunking*) e Vetorização
-Os textos originais (em formatos PDF e TXT) foram processados por um pipeline dedicado em `pipeline/`:
-1. **Extração Textual:** Extração sem perdas de camadas textuais via PyMuPDF (`fitz`), com saneamento de cabeçalhos e rodapés repetitivos.
-2. **Chunking Semântico:** Divisão em blocos de 1.000 caracteres com sobreposição (*chunk overlap*) de 200 caracteres através do `RecursiveCharacterTextSplitter`. Essa parametrização assegura a integridade das sentenças metodológicas e a preservação do contexto conceitual entre fragmentos contíguos.
-3. **Vetorização e Indexação:** Cada fragmento foi convertido em representação vetorial densa de 3.072 dimensões utilizando o modelo `models/gemini-embedding-001` e armazenado no banco vetorial local persistente **ChromaDB**, totalizando **5.839 fragmentos indexados**.
+A base de conhecimento foi construída a partir da seleção criteriosa de 21 obras especializadas, abrangendo manuais clássicos de metodologia científica e diretrizes focadas especificamente na pesquisa em computação e ciências exatas. Destacam-se as seguintes referências canônicas:
 
-### 4.4.3 Mecanismos de RAG: Diálogo Dinâmico vs. Consultoria Estrita
-O artefato opera o RAG sob duas abordagens complementares:
+1. **Metodologia de Pesquisa em Computação:** obras de Raul Sidnei Wazlawick (*Metodologia de Pesquisa para Ciência da Computação* e reflexões conexas) e o manual internacional de Mikael Berndtsson e colaboradores (*Thesis Projects: A Guide for Students in Computer Science and Information Systems*);
+2. **Fundamentos Clássicos de Metodologia:** manuais de Eva Maria Lakatos e Marina de Andrade Marconi (*Fundamentos de Metodologia Científica*), Cleber Prodanov e Ernani Freitas (*Metodologia do Trabalho Científico*) e Antonio Carlos Gil (*Como Elaborar Projetos de Pesquisa*);
+3. **Escrita e Comunicação Científica:** diretrizes de Robert Dugan Jr. e Virginia Polanski (*Writing for Computer Science*), Silvia Koller e colaboradores (*Manual de Produção Científica*) e Caetano Traina Jr. (*Como Fazer Pesquisa Bibliográfica*).
 
-* **1. RAG Dinâmico em Diálogo Livre (`stream_dialogo_academico`):**  
-  Ativado após a síntese da estratégia. Executa busca por similaridade de cosseno ($k=3$) para enriquecer o contexto do orientador com fragmentos dos manuais, permitindo esclarecer dúvidas sobre tamanho amostral, métricas de avaliação ou estruturação de experimentos em tom didático.
-* **2. Consultoria Metodológica Estrita e Anti-Alucinação (`stream_resposta_rag_estrito`):**  
-  Opera em temperatura `0.0` com $k=4$ fragmentos e diretivas de fidelidade estrita. Se o tópico consultado não possuir correspondência nos manuais indexados, o modelo é instruído a declarar a ausência de evidência na base e recomendar a busca de literatura complementar, suprimindo alucinações. As obras consultadas são formatadas e listadas automaticamente segundo os padrões da ABNT.
+### 4.4.2 Processamento de Texto, Fragmentação e Vetorização
 
----
+O pipeline de dados, documentado nos módulos do diretório `pipeline/`, executa o tratamento dos arquivos canônicos através de três fases sequenciais:
 
-## 4.5 Síntese Automatizada e Compilação do Documento Estratégico
+Na primeira fase, os arquivos em formatos PDF e TXT são submetidos à extração textual por meio da biblioteca PyMuPDF, removendo elementos paratextuais repetitivos, como numerações de página descontextualizadas e cabeçalhos tipográficos.
 
-A culminação do processo socrático ocorre quando o discente aciona o botão *"Concluir Coleta e Gerar Documento Estratégico"*. O histórico completo de perguntas e escolhas é submetido à cadeia de síntese (`stream_gerar_documento_estrategico`), que produz um documento de planejamento formal.
+Na segunda fase, procede-se à fragmentação semântica (*chunking*) através do algoritmo `RecursiveCharacterTextSplitter`. Os textos foram segmentados em blocos de 1.000 caracteres com sobreposição (*chunk overlap*) de 200 caracteres. A sobreposição garante que princípios metodológicos contínuos não sofram truncamento nas fronteiras dos fragmentos, preservando a coerência das sentenças citacionais.
+
+Na terceira fase, cada fragmento textual foi convertido em um vetor denso de 3.072 dimensões utilizando o modelo `models/gemini-embedding-001`, sendo subsequentemente indexado no banco vetorial local persistente ChromaDB. O processo resultou em uma base de 5.839 fragmentos indexados, acompanhados de metadados padronizados contendo a autoria e a obra de origem segundo as normas da ABNT.
+
+### 4.4.3 Mecanismos Operacionais: Diálogo Livre vs. Consultoria Estrita
+
+O subsistema de RAG atua sob dois delineamentos operacionais com objetivos epistemológicos distintos:
+
+No **Diálogo Metodológico Pós-Estratégia** (`stream_dialogo_academico`), o RAG opera com busca por similaridade de cosseno ($k=3$), enriquecendo o contexto do modelo para esclarecer dúvidas procedimentais surgidas após a emissão do plano de pesquisa, como a escolha de métricas em aprendizado de máquina ou cuidados na coleta de amostras.
+
+No modo de **Consultoria Metodológica Estrita e Auditoria Textual** (`stream_resposta_rag_estrito`), o agente opera sob temperatura zero ($T=0,0$) e parâmetro de recuperação ampliado ($k=4$). O prompt impõe diretrizes estritas de fidelidade documental: o parecer deve apoiar-se exclusivamente nos trechos recuperados. Caso a base documental não contenha subsídios suficientes para responder à indagação do pesquisador, o modelo é instruído a declarar explicitamente a insuficiência de dados em vez de inferir suposições. Ao final da resposta, o sistema anexa automaticamente a relação formal das obras e autores consultados.
+
+## 4.5 Síntese Automatizada e Compilação Tipográfica em PDF
+
+Ao término dos turnos socráticos de ideação, o histórico consolidado é submetido à rotina de geração documental estruturada (`stream_gerar_documento_estrategico`), culminando na formalização do Documento Estratégico de Pesquisa.
 
 ### 4.5.1 Estrutura do Documento Estratégico
-O documento gerado possui estrutura obrigatória padronizada:
-1. **Diagnóstico do Perfil e Delimitação Temática:** Grande área, subárea delimitada, descrição do problema e formulação explícita da **Pergunta Norteadora**.
-2. **Caminhos Metodológicos Propostos:** Apresentação comparativa de duas abordagens:
-   - *Caminho A (Abordagem Principal):* Proposta principal com objetivos, métodos, fontes de dados e estratégias de mitigação.
-   - *Caminho B (Abordagem Alternativa):* Alternativa com foco técnico distinto para mitigar dependência de um único método.
-3. **Recomendações e Próximos Passos:** Diretrizes de busca bibliográfica e preparação de reuniões com o orientador humano.
-4. **Cronograma Estimado de Execução por Etapas:** Planejamento neutro estruturado em 4 etapas (Etapa 1: Fundamentação; Etapa 2: Coleta de Dados; Etapa 3: Execução Metodológica; Etapa 4: Análise e Redação Final).
 
-### 4.5.2 Motor de Diagramação e Exportação em PDF
-Para transformar o texto Markdown em um artefato tangível para apresentação ao professor orientador, foi desenvolvido um compilador tipográfico proprietário em `services/pdf_service.py` baseado na biblioteca `FPDF`:
-- **Tratamento de Símbolos e Latin-1:** Sanitização de caracteres Unicode complexos, emojis e fórmulas matemáticas simples em LaTeX.
-- **Engine Anti-Quebra e Margem de Segurança:** Implementação de um buffer de segurança de 3,5 mm antes da margem física direita do documento, combinada com algoritmos de reconciliação de palavras partidas (`corrigir_palavras_quebradas`), garantindo que palavras nunca sejam fragmentadas nas quebras de linha e prevenindo caracteres órfãos.
+Para assegurar completude científica, o documento sintetizado organiza-se em quatro seções formais:
+1. **Diagnóstico do Perfil e Delimitação Temática:** contextualiza a grande área e o nicho tecnológico selecionado, sintetizando a lacuna investigativa e formalizando a **Pergunta Norteadora** em formato interrogativo direto;
+2. **Caminhos Metodológicos Propostos:** apresenta de forma comparativa duas abordagens de execução:
+   - *Caminho A (Abordagem Principal):* detalha a técnica investigativa primária, especificando hipóteses, bases de dados pretendidas (incentivando repositórios abertos caso haja barreiras de acesso) e protocolos de teste;
+   - *Caminho B (Abordagem Alternativa):* introduz uma alternativa metodológica ou escopo concorrente, assegurando que o pesquisador disponha de contingência técnica caso enfrente inviabilidade operacional no plano principal;
+3. **Recomendações e Próximos Passos:** instrui o estudante sobre termos-chave para revisões bibliográficas e tópicos prioritários para alinhamento com seu professor orientador humano;
+4. **Cronograma Estimado de Execução por Etapas:** distribui as metas do trabalho em quatro fases universais e neutras (Etapa 1: Fundamentação Teórica; Etapa 2: Coleta de Dados e Ambiente; Etapa 3: Execução Metodológica e Avaliação; Etapa 4: Análise de Resultados e Redação Final).
 
----
+### 4.5.2 Motor de Diagramação Tipográfica em PDF
 
-## 4.6 Persistência e Rastreabilidade Científica no Firebase
+A materialização do Documento Estratégico em um relatório de padrão institucional é viabilizada pelo módulo `services/pdf_service.py`, desenvolvido sobre a biblioteca FPDF. O motor tipográfico implementa rotinas especializadas de conversão:
+1. **Sanitização de Caracteres e Expressões Matemáticas:** normalização de caracteres Unicode para o padrão de codificação Latin-1 e conversão automática de notações matemáticas simples em LaTeX para representação alfanumérica limpa;
+2. **Prevenção de Quebras Indevidas e Caracteres Órfãos:** implementação de uma margem de segurança de 3,5 mm antes do limite físico lateral da página, combinada com algoritmos heurísticos de reconciliação textual (`corrigir_palavras_quebradas`). Essa solução impede que o motor nativo da biblioteca divida termos no final das linhas, garantindo a integridade ortográfica dos vocábulos e eliminando a ocorrência de letras isoladas nas margens do relatório.
 
-Para atender ao delineamento experimental e viabilizar a auditoria de dados no estudo empírico, o sistema utiliza o **Google Cloud Firestore** como banco de dados NoSQL distribuído.
+## 4.6 Persistência de Dados e Rastreabilidade Científica
 
-### 4.6.1 Modelagem de Dados
-O esquema foi estruturado em duas coleções aninhadas:
+Para viabilizar a auditoria empírica do delineamento intra-sujeito da pesquisa, o artefato utiliza o banco de dados orientado a documentos Google Cloud Firestore. As informações são organizadas na coleção principal denominada `conversas`, vinculada a subcoleções de `mensagens`.
 
-```
-coleção: conversas
-└── documento: {conversa_id} (ID alfanumérico auto-gerado de 20 chars)
-    ├── user_id: "discente@cin.ufpe.br"
-    ├── tipo: "estrategia" | "rag_estrito"
-    ├── status: "em_andamento" | "concluido"
-    ├── title: "[Estratégia] Visão Computacional no Diagnóstico..."
-    ├── total_mensagens: 8
-    ├── documento_gerado: "# Estratégia de Pesquisa..." (Markdown)
-    ├── feedback: { "rating": 5, "comentario": "Excelente afunilamento!" }
-    ├── created_at: SERVER_TIMESTAMP
-    ├── updated_at: SERVER_TIMESTAMP
-    │
-    └── subcoleção: mensagens
-        └── documento: {mensagem_id}
-            ├── role: "assistant" | "user"
-            ├── fase: "COLETA" | "GERACAO" | "DIALOGO_ABERTO" | "RAG_ESTRITO"
-            ├── rodada: 1, 2, 3...
-            ├── content: "Texto completo da intervenção..."
-            ├── opcoes_oferecidas: ["Opção 1", "Opção 2", "Opção 3", "Opção 4"]
-            ├── opcao_selecionada: "Opção 2"
-            ├── fontes_consultadas: ["WAZLAWICK, Raul Sidnei...", "LAKATOS..."]
-            └── timestamp: SERVER_TIMESTAMP
-```
+A cada turno dialógico, o sistema persiste os metadados de identificação do discente, o identificador da sessão, o carimbo de data/hora do servidor, a fase do atendimento (`COLETA`, `GERACAO`, `DIALOGO_ABERTO` ou `RAG_ESTRITO`), a opção sugerida que foi selecionada pelo aluno e o teor integral do Documento Estratégico gerado. Essa persistência estruturada garante rastreabilidade temporal irrestrita, permitindo correlacionar as preferências dos participantes com os ganhos de maturidade avaliados na pesquisa empírica.
 
-Essa modelagem permite reconstituir com precisão micro-decisões do estudante ao longo de cada turno, facilitando análises posteriores de mineração de processos cognitivos e identificação de padrões temáticos mais procurados no CIn/UFPE.
+## 4.7 Resiliência Operacional e Considerações Técnicas
 
----
+A operação contínua do artefato em ambiente computacional compartilhado demandou a incorporação de rotinas de resiliência e controle de falhas. Em `config.py` e `services/ai_service.py`, implementou-se o mapeamento proativo de modelos da família Gemini, assegurando que requisições endereçadas a versões descontinuadas sejam convertidas automaticamente para instâncias ativas (`gemini-3.5-flash-lite`).
 
-## 4.7 Resiliência Operacional e Gestão de Cotas de Modelos
+Adicionalmente, o sistema incorpora tratamento de erros de exaustão de cota por limite de requisições por minuto (HTTP 429) e quedas temporárias de rede. Por meio de interceptadores com tentativas escalonadas, o artefato reexecuta chamadas interrompidas de forma transparente para o usuário final. No âmbito da segurança de credenciais, o software adota carregamento dinâmico e agnóstico, lendo variáveis locais de ambiente (`.env`) durante o desenvolvimento e segredos criptografados (`st.secrets`) quando implantado em nuvem.
 
-A fim de garantir disponibilidade contínua durante as sessões experimentais com os estudantes, foram implementados mecanismos de resiliência em `config.py` e `services/ai_service.py`:
-- **Mapeamento de Modelos Legados:** Redirecionamento automático de versões depreciadas da API do Google para a família estável `gemini-3.5-flash-lite`.
-- **Tratamento de Exaustão de Cotas (HTTP 429) e Falhas Temporárias:** Implementação de interceptadores (*try-catch* com *fallback*) que reexecutam requisições com degradação suave sem interromper a sessão do usuário.
-- **Isolamento de Credenciais:** Suporte duplo ao carregamento de segredos de autenticação (variáveis locais `.env` em desenvolvimento e `st.secrets` no Streamlit Cloud para produção).
+## 4.8 Síntese do Capítulo
 
----
-
-## 4.8 Considerações Finais do Capítulo
-
-A concepção do Orientador Acadêmico Inteligente materializa uma arquitetura híbrida focada em usabilidade, rigor conceitual e reprodutibilidade. Ao combinar a agilidade da entrevista socrática orientada a decisões com a solidez documental do subsistema RAG sobre 21 manuais de metodologia, o artefato estabelece a infraestrutura técnica necessária para a validação empírica detalhada no capítulo seguinte.
+Neste capítulo, foram apresentados a fundamentação arquitetural, o desenho dos módulos e os algoritmos de implementação que compõem o Orientador Acadêmico Inteligente. A união entre a mediação reflexiva socrática e a ancoragem estrita em 21 manuais canônicos de pesquisa científica viabiliza um artefato robusto, responsivo e adaptado às necessidades pedagógicas de discentes de Ciência da Computação. Os procedimentos empíricos e a avaliação dos dados resultantes do uso prático desta ferramenta são objeto de análise e discussão detalhada no capítulo seguinte.
