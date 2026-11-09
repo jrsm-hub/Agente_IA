@@ -55,13 +55,40 @@ def converter_latex_para_texto(texto: str) -> str:
     return texto
 
 def corrigir_palavras_quebradas(texto: str) -> str:
-    """Corrige palavras hifenizadas ou partidas acidentalmente entre quebras de linha."""
+    """Corrige palavras hifenizadas ou partidas acidentalmente entre quebras de linha ou espaços espúrios."""
     if not texto:
         return ""
-    # Corrige quebras com hífen (ex: pesqui-\nsa -> pesquisa)
+    # 0. Normaliza quebras de linha Windows/Mac/Linux
+    texto = texto.replace('\r\n', '\n').replace('\r', '\n')
+    
+    # 1. Corrige quebras com hífen (ex: pesqui-\nsa -> pesquisa)
     texto = re.sub(r'([a-zA-ZÀ-ÿ]+)\s*-\s*\n\s*([a-zA-ZÀ-ÿ]+)', r'\1\2', texto)
-    # Corrige sufixos partidos na linha seguinte (ex: laboratório\ns -> laboratórios, térmic\na. -> térmica.)
-    texto = re.sub(r'([a-zA-ZÀ-ÿ]{3,})\n([a-zà-ÿ]{1,2})\b', r'\1\2', texto)
+    
+    # 2. Corrige sufixos partidos na linha seguinte (ex: padrõe\ns -> padrões, técnic\no -> técnico, definiçã\no -> definição)
+    texto = re.sub(r'([a-zA-ZÀ-ÿ]{2,})\s*\n\s*([a-zà-ÿ]{1,3})\b', r'\1\2', texto)
+    
+    # 3. Corrige palavras partidas onde uma única letra ou terminação ficou separada por espaço
+    texto = re.sub(r'\b([a-zA-ZÀ-ÿ]{3,}çã)\s+o\b', r'\1o', texto)
+    texto = re.sub(r'\b([a-zA-ZÀ-ÿ]{3,}õe)\s+s\b', r'\1s', texto)
+    texto = re.sub(r'\b([a-zA-ZÀ-ÿ]{3,}tóri)\s+o\b', r'\1o', texto)
+    texto = re.sub(r'\b([a-zA-ZÀ-ÿ]{3,}tóri)\s+os\b', r'\1os', texto)
+    texto = re.sub(r'\b([a-zA-ZÀ-ÿ]{3,}tári)\s+o\b', r'\1o', texto)
+    texto = re.sub(r'\b([a-zA-ZÀ-ÿ]{3,}tári)\s+os\b', r'\1os', texto)
+    texto = re.sub(r'\b([a-zA-ZÀ-ÿ]{3,}mêni)\s+o\b', r'\1o', texto)
+    texto = re.sub(r'\b(técnic)\s+o\b', r'\1o', texto)
+    texto = re.sub(r'\b(técnic)\s+a\b', r'\1a', texto)
+    texto = re.sub(r'\b(técnic)\s+os\b', r'\1os', texto)
+    texto = re.sub(r'\b(técnic)\s+as\b', r'\1as', texto)
+    texto = re.sub(r'\b(específic)\s+o\b', r'\1o', texto)
+    texto = re.sub(r'\b(específic)\s+a\b', r'\1a', texto)
+    texto = re.sub(r'\b(automátic)\s+o\b', r'\1o', texto)
+    texto = re.sub(r'\b(automátic)\s+a\b', r'\1a', texto)
+    texto = re.sub(r'\b(múltipl)\s+o\b', r'\1o', texto)
+    texto = re.sub(r'\b(múltipl)\s+os\b', r'\1os', texto)
+    texto = re.sub(r'\b(projet)\s+o\b', r'\1o', texto)
+    texto = re.sub(r'\b(projet)\s+os\b', r'\1os', texto)
+    texto = re.sub(r'\b(entr)\s+e\b', r'\1e', texto)
+    
     return texto
 
 def sanitizar_texto_para_pdf(texto) -> str:
@@ -249,9 +276,12 @@ class AcademicPDF(FPDF):
 
     def renderizar_bloco_formatado(self, texto_bloco, indent=0, prefixo="", altura_linha=5.5):
         """Renderiza texto com quebra de linha rigorosamente contida nas margens e suporte a negrito."""
-        largura_maxima = 170 - indent  # 210mm - 40mm (margens) = 170mm
+        # Margem de segurança para evitar que o FPDF atinja a margem física direita e fragmente palavras internamente
+        largura_maxima = 170 - indent - 3.5
+        pos_x_limite = self.w - self.r_margin - 3.5
         
-        texto_sanitizado = sanitizar_texto_para_pdf(texto_bloco)
+        texto_limpo = corrigir_palavras_quebradas(texto_bloco)
+        texto_sanitizado = sanitizar_texto_para_pdf(texto_limpo)
         texto_sanitizado = converter_latex_para_texto(texto_sanitizado)
         texto_normalizado = normalizar_marcacoes_markdown(texto_sanitizado)
         
@@ -300,8 +330,12 @@ class AcademicPDF(FPDF):
             texto_token = palavra + espaco
             largura_token = self.get_string_width(texto_token)
             
-            # Se o token estourar a largura da página, pula para a próxima linha respeitando a indentação
-            if largura_acumulada + largura_token > largura_maxima and largura_acumulada > 0:
+            # Se o token estourar a largura útil ou se aproximar da margem direita do FPDF, pula para a próxima linha
+            deve_quebrar = (
+                (largura_acumulada + largura_token > largura_maxima) or 
+                (self.get_x() + largura_token > pos_x_limite and self.get_x() > pos_x_inicio)
+            )
+            if deve_quebrar and largura_acumulada > 0:
                 self.ln(altura_linha)
                 self.set_x(pos_x_inicio)
                 largura_acumulada = 0
