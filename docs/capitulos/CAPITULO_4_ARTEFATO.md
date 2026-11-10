@@ -1,6 +1,6 @@
 # 4 O ARTEFATO: ARQUITETURA E IMPLEMENTAÇÃO DO AGENTE INTELIGENTE
 
-Neste capítulo, detalha-se a concepção arquitetural, as decisões de projeto e a implementação computacional do artefato desenvolvido nesta pesquisa. A estruturação deste trabalho apoia-se nos preceitos metodológicos da *Design Science Research* (DSR), especificamente na etapa de projeto e desenvolvimento do artefato (HEVNER et al., 2004; VAISHNAVI; KUECHLER, 2015). O artefato computacional produzido consiste em um sistema de mediação pedagógica inteligente voltado à ideação e delimitação metodológica de projetos científicos de graduação em Ciência da Computação, fundamentado na integração entre modelos de linguagem de grande escala (*Large Language Models* - LLMs), um orquestrador dialógico de viés socrático e um módulo de Geração Aumentada por Recuperação (*Retrieval-Augmented Generation* - RAG) ancorado na literatura canônica de metodologia científica.
+Neste capítulo, detalha-se a concepção arquitetural, as decisões de projeto e a implementação computacional do artefato desenvolvido nesta pesquisa. A estruturação deste trabalho apoia-se nos preceitos metodológicos da *Design Science Research* (DSR), especificamente na etapa de projeto e desenvolvimento do artefato (HEVNER et al., 2004; VAISHNAVI; KUECHLER, 2015). O artefato computacional produzido consiste em um sistema de mediação pedagógica inteligente voltado à ideação e delimitação metodológica de projetos científicos de graduação em Ciência da Computação, fundamentado na integração entre modelos de linguagem de grande escala (*Large Language Models* - LLMs), um orquestrador dialógico de viés socrático e um módulo de Geração Aumentada por Recuperação (*Retrieval-Augmented Generation* - RAG) ancorado na literatura de referência em metodologia científica.
 
 ## 4.1 Visão Geral e Requisitos do Artefato
 
@@ -65,17 +65,17 @@ A calibragem do prompt foi refinada a partir dos feedbacks colhidos nas sessões
 
 Embora o conhecimento paramétrico dos LLMs seja vasto, tais modelos são suscetíveis a alucinações conceituais, imprecisões citacionais e anacronismos bibliográficos quando requisitados a emitir pareceres científicos rigorosos (LEWIS et al., 2020; ZHANG et al., 2023). Para assegurar ancoragem teórica inequívoca, implementou-se um subsistema de RAG fundamentado na literatura de metodologia científica.
 
-### 4.4.1 Curadoria da Base Canônica de Metodologia
+### 4.4.1 Curadoria da Base de Literatura Metodológica de Referência
 
-A base de conhecimento foi construída a partir da seleção criteriosa de 21 obras especializadas, abrangendo manuais clássicos de metodologia científica e diretrizes focadas especificamente na pesquisa em computação e ciências exatas. Destacam-se as seguintes referências canônicas:
+A base de conhecimento foi construída a partir da seleção criteriosa de 21 obras especializadas, abrangendo manuais consolidados de metodologia científica e diretrizes focadas especificamente na pesquisa em computação e ciências exatas. Destacam-se as seguintes obras de referência:
 
-1. **Metodologia de Pesquisa em Computação:** obras de Raul Sidnei Wazlawick (*Metodologia de Pesquisa para Ciência da Computação* e reflexões conexas) e o manual internacional de Mikael Berndtsson e colaboradores (*Thesis Projects: A Guide for Students in Computer Science and Information Systems*);
-2. **Fundamentos Clássicos de Metodologia:** manuais de Eva Maria Lakatos e Marina de Andrade Marconi (*Fundamentos de Metodologia Científica*), Cleber Prodanov e Ernani Freitas (*Metodologia do Trabalho Científico*) e Antonio Carlos Gil (*Como Elaborar Projetos de Pesquisa*);
-3. **Escrita e Comunicação Científica:** diretrizes de Robert Dugan Jr. e Virginia Polanski (*Writing for Computer Science*), Silvia Koller e colaboradores (*Manual de Produção Científica*) e Caetano Traina Jr. (*Como Fazer Pesquisa Bibliográfica*).
+1. **Metodologia de Pesquisa em Computação:** obras de Raul Sidnei Wazlawick (2014) (*Metodologia de Pesquisa para Ciência da Computação*) e o manual internacional de Mikael Berndtsson e colaboradores (2008) (*Thesis Projects: A Guide for Students in Computer Science and Information Systems*);
+2. **Fundamentos e Métodos de Pesquisa:** manuais consolidados de Eva Maria Lakatos e Marina de Andrade Marconi (2017) (*Fundamentos de Metodologia Científica*), Cleber Prodanov e Ernani Freitas (2013) (*Metodologia do Trabalho Científico*), Antonio Carlos Gil (2017) (*Como Elaborar Projetos de Pesquisa*) e Edna Lúcia da Silva e Estera Muszkat Menezes (2005) (*Metodologia da Pesquisa e Elaboração de Dissertação*);
+3. **Escrita e Comunicação Científica:** diretrizes especializadas de Robert Dugan Jr. e Virginia Polanski (2005) (*Writing for Computer Science*), Silvia Koller e colaboradores (2014) (*Manual de Produção Científica*) e Agma Traina e Caetano Traina Jr. (2009) (*Como Fazer Pesquisa Bibliográfica*).
 
 ### 4.4.2 Processamento de Texto, Fragmentação e Vetorização
 
-O pipeline de dados, documentado nos módulos do diretório `pipeline/`, executa o tratamento dos arquivos canônicos através de três fases sequenciais:
+O pipeline de dados, documentado nos módulos do diretório `pipeline/`, executa o tratamento das obras de referência através de três fases sequenciais:
 
 Na primeira fase, os arquivos em formatos PDF e TXT são submetidos à extração textual por meio da biblioteca PyMuPDF, removendo elementos paratextuais repetitivos, como numerações de página descontextualizadas e cabeçalhos tipográficos.
 
@@ -125,7 +125,7 @@ Adicionalmente, o sistema incorpora tratamento de erros de exaustão de cota por
 
 ## 4.8 Síntese do Capítulo
 
-Neste capítulo, foram apresentados a fundamentação arquitetural, o desenho dos módulos e os algoritmos de implementação que compõem o Orientador Acadêmico Inteligente. A união entre a mediação reflexiva socrática e a ancoragem estrita em 21 manuais canônicos de pesquisa científica viabiliza um artefato robusto, responsivo e adaptado às necessidades pedagógicas de discentes de Ciência da Computação. Os procedimentos empíricos e a avaliação dos dados resultantes do uso prático desta ferramenta são objeto de análise e discussão detalhada no capítulo seguinte.
+Neste capítulo, foram apresentados a fundamentação arquitetural, o desenho dos módulos e os algoritmos de implementação que compõem o Orientador Acadêmico Inteligente. A união entre a mediação reflexiva socrática e a ancoragem estrita em 21 manuais de referência em metodologia científica viabiliza um artefato robusto, responsivo e adaptado às necessidades pedagógicas de discentes de Ciência da Computação. Os procedimentos empíricos e a avaliação dos dados resultantes do uso prático desta ferramenta são objeto de análise e discussão detalhada no capítulo seguinte.
 
 ## Referências Bibliográficas Citadas neste Capítulo
 
