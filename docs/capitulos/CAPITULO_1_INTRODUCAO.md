@@ -1,12 +1,12 @@
 # 1 INTRODUÇÃO
 
-A formação universitária em Ciência da Computação demanda o desenvolvimento não apenas de proficiência técnica no projeto e na implementação de sistemas de software, mas também da capacidade de conduzir investigações científicas estruturadas e metodologicamente rigorosas (WAZLAWICK, 2014). No contexto dos cursos de graduação, essa exigência materializa-se primordialmente na elaboração do Trabalho de Conclusão de Curso (TCC), momento em que o discente deve demonstrar autonomia na identificação de lacunas de conhecimento, na formulação de hipóteses falseáveis e na seleção de procedimentos empíricos de validação (BERNDTSSON et al., 2008).
+A formação universitária nos cursos de Computação demanda o desenvolvimento não apenas de proficiência técnica no projeto e na implementação de sistemas de software, mas também da capacidade de conduzir investigações científicas estruturadas e metodologicamente rigorosas (WAZLAWICK, 2014). No contexto da graduação, essa exigência materializa-se primordialmente na elaboração do Trabalho de Conclusão de Curso (TCC), momento em que o discente deve demonstrar autonomia na identificação de lacunas de conhecimento, na formulação de hipóteses falseáveis e na seleção de procedimentos empíricos de validação (BERNDTSSON et al., 2008).
 
 Contudo, a fase inicial desse processo investigativo — correspondente à ideação temática e à definição do problema de pesquisa — representa historicamente uma das etapas de maior atrito cognitivo e emocional para os estudantes. Frequentemente imersos em disciplinas práticas de desenvolvimento tecnológico, os alunos enfrentam dificuldades para delimitar escopos e tendem a confundir o desenvolvimento meramente operacional de uma aplicação de software com a formulação de um problema científico genuíno. Paralelamente, o corpo docente enfrenta limitações severas de tempo para conduzir atendimentos preliminares individualizados de sondagem temática, dada a sobrecarga de orientações e compromissos departamentais.
 
 Diante desse cenário, os avanços recentes no processamento de linguagem natural, impulsionados pelos Modelos de Linguagem de Grande Escala (*Large Language Models* - LLMs) e pelas arquiteturas de agentes inteligentes (VASWANI et al., 2017; BROWN et al., 2020), abrem novas perspectivas para a mediação pedagógica automatizada. Todavia, a simples adoção de chatbots conversacionais genéricos revela-se insuficiente para a orientação científica preliminar, em virtude da propensão desses modelos a gerar informações imprecisas ou fabricadas — fenômeno conhecido como alucinação conceitual (JI et al., 2023) — e da ausência de uma pedagogia dialógica estruturada para o afunilamento de ideias.
 
-Este trabalho propõe, desenvolve e avalia um agente inteligente híbrido voltado à mediação pedagógica na orientação preliminar de pesquisas científicas em Ciência da Computação. Apoiando-se nos preceitos da *Design Science Research* (DSR) (HEVNER et al., 2004; VAISHNAVI; KUECHLER, 2015), o artefato computacional integra um orquestrador dialógico socrático voltado ao afunilamento progressivo de tópicos, complementado por um módulo de Geração Aumentada por Recuperação (*Retrieval-Augmented Generation* - RAG) (LEWIS et al., 2020) ancorado na literatura de referência em metodologia científica, culminando na síntese automatizada de um documento estratégico de planejamento investigativo.
+Este trabalho propõe, desenvolve e avalia um agente inteligente híbrido voltado à mediação pedagógica na orientação preliminar de pesquisas científicas em cursos de Computação. Apoiando-se nos preceitos da *Design Science Research* (DSR) (HEVNER et al., 2004; VAISHNAVI; KUECHLER, 2015), o artefato computacional integra um orquestrador dialógico socrático voltado ao afunilamento progressivo de tópicos, complementado por um módulo de Geração Aumentada por Recuperação (*Retrieval-Augmented Generation* - RAG) (LEWIS et al., 2020) ancorado na literatura de referência em metodologia científica, culminando na síntese automatizada de um documento estratégico de planejamento investigativo.
 
 ## 1.1 Contextualização e Motivação
 
@@ -28,7 +28,7 @@ Sob a perspectiva técnico-computacional, os LLMs de propósito geral não possu
 
 Diante dessa lacuna, formula-se a seguinte pergunta norteadora de pesquisa:
 
-> *Em que medida uma arquitetura computacional híbrida, que integra a orquestração dialógica socrática com a recuperação aumentada por geração (RAG) ancorada na literatura de metodologia científica, é capaz de mitigar a sobrecarga cognitiva na ideação temática e promover o ganho de maturidade metodológica em estudantes de graduação em Ciência da Computação?*
+> *Em que medida uma arquitetura computacional híbrida, que integra a orquestração dialógica socrática com a recuperação aumentada por geração (RAG) ancorada na literatura de metodologia científica, é capaz de mitigar a sobrecarga cognitiva na ideação temática e promover o ganho de maturidade metodológica em estudantes de cursos de graduação em Computação?*
 
 ## 1.3 Objetivos
 
@@ -36,7 +36,7 @@ Para responder à pergunta norteadora e orientar o ciclo de desenvolvimento do a
 
 ### 1.3.1 Objetivo Geral
 
-Projetar, implementar e avaliar um agente conversacional inteligente de arquitetura híbrida — integrando um orquestrador dialógico socrático e um módulo de Geração Aumentada por Recuperação (RAG) ancorado em literatura metodológica de referência — destinado à mediação pedagógica na ideação, delimitação de temas e estruturação metodológica preliminar de pesquisas acadêmicas em Ciência da Computação.
+Projetar, implementar e avaliar um agente conversacional inteligente de arquitetura híbrida — integrando um orquestrador dialógico socrático e um módulo de Geração Aumentada por Recuperação (RAG) ancorado em literatura metodológica de referência — destinado à mediação pedagógica na ideação, delimitação de temas e estruturação metodológica preliminar de pesquisas acadêmicas em cursos de Computação.
 
 ### 1.3.2 Objetivos Específicos
 
@@ -49,7 +49,7 @@ Projetar, implementar e avaliar um agente conversacional inteligente de arquitet
 
 A relevância desta pesquisa manifesta-se tanto no domínio da Engenharia de Software e Inteligência Artificial quanto no aprimoramento dos processos de ensino-aprendizagem de metodologia científica no ensino superior:
 
-Em primeiro lugar, o trabalho contribui para a literatura de sistemas baseados em conhecimento ao propor uma solução concreta para o desacoplamento cognitivo entre a ideação criativa e a ancoragem normativa factual. Demonstra-se como conciliar a agilidade de resposta de modelos de linguagem leves com a precisão determinística de bases vetoriais de literatura técnica, prevenindo alucinações sem incorrer em latências computacionais excessivas.
+Em primeiro lugar, o trabalho contribui para a literatura de sistemas baseados em conhecimento ao propor uma solução concreta para o desacoplamento cognitivo entre a ideação criativa e a ancoragem normativa factual. Demonstra-se como conciliar a fluidez conversacional de modelos de linguagem de grande escala com a precisão documental de bases vetoriais de literatura técnica, prevenindo alucinações sem incorrer em latências computacionais excessivas.
 
 Em segundo lugar, disponibiliza-se para a comunidade acadêmica do Centro de Informática da UFPE um artefato funcional, acessível via navegador web e integralmente implementado sob tecnologias de código aberto, que pode ser incorporado à dinâmica pedagógica das disciplinas de metodologia científica e aos laboratórios de pesquisa.
 

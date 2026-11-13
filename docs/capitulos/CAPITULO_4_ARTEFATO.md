@@ -1,6 +1,6 @@
 # 4 O ARTEFATO: ARQUITETURA E IMPLEMENTAÇÃO DO AGENTE INTELIGENTE
 
-Neste capítulo, detalha-se a concepção arquitetural, as decisões de projeto e a implementação computacional do artefato desenvolvido nesta pesquisa. A estruturação deste trabalho apoia-se nos preceitos metodológicos da *Design Science Research* (DSR), especificamente na etapa de projeto e desenvolvimento do artefato (HEVNER et al., 2004; VAISHNAVI; KUECHLER, 2015). O artefato computacional produzido consiste em um sistema de mediação pedagógica inteligente voltado à ideação e delimitação metodológica de projetos científicos de graduação em Ciência da Computação, fundamentado na integração entre modelos de linguagem de grande escala (*Large Language Models* - LLMs), um orquestrador dialógico de viés socrático e um módulo de Geração Aumentada por Recuperação (*Retrieval-Augmented Generation* - RAG) ancorado na literatura de referência em metodologia científica.
+Neste capítulo, detalha-se a concepção arquitetural, as decisões de projeto e a implementação computacional do artefato desenvolvido nesta pesquisa. A estruturação deste trabalho apoia-se nos preceitos metodológicos da *Design Science Research* (DSR), especificamente na etapa de projeto e desenvolvimento do artefato (HEVNER et al., 2004; VAISHNAVI; KUECHLER, 2015). O artefato computacional produzido consiste em um sistema de mediação pedagógica inteligente voltado à ideação e delimitação metodológica de projetos científicos de graduação em cursos de Computação, fundamentado na integração entre modelos de linguagem de grande escala (*Large Language Models* - LLMs), um orquestrador dialógico de viés socrático e um módulo de Geração Aumentada por Recuperação (*Retrieval-Augmented Generation* - RAG) ancorado na literatura de referência em metodologia científica.
 
 ## 4.1 Visão Geral e Requisitos do Artefato
 
@@ -19,7 +19,7 @@ No tocante aos requisitos funcionais, o sistema deve:
 
 Quanto aos requisitos não funcionais, estabeleceu-se que o artefato deve:
 1. Apresentar baixa latência de resposta, com início de exibição em *streaming* textual inferior a dois segundos para preservar o engajamento cognitivo do usuário;
-2. Garantir isolamento conceitual na fase de ideação, evitando que buscas vetoriais prematuras injetem ruído terminológico genérico em domínios específicos de Ciência da Computação;
+2. Garantir isolamento conceitual na fase de ideação, evitando que buscas vetoriais prematuras injetem ruído terminológico genérico em domínios específicos da área de Computação;
 3. Assegurar conformidade conceitual e mitigação de alucinações (JI et al., 2023) nas respostas metodológicas formais, restringindo afirmações aos fragmentos recuperados da literatura;
 4. Ser disponibilizado sob arquitetura web aberta e responsiva, operando sem exigir poder de processamento local ou hardware especializado dos estudantes.
 
@@ -51,7 +51,7 @@ O afunilamento temático baseia-se no método de questionamento socrático (PAUL
 
 Uma premissa de engenharia relevante adotada nesta pesquisa reside no desacoplamento entre a busca vetorial (RAG) e os turnos iniciais da entrevista socrática. Em experimentos preliminares com arquiteturas integradas, observou-se que submeter as respostas do discente a uma busca por similaridade em manuais metodológicos a cada turno introduzia duas fragilidades críticas:
 
-Em primeiro lugar, a sobrecarga de processamento computacional aumentava o tempo de resposta em cerca de 3,5 a 4,8 segundos por turno, prejudicando a fluidez dialógica essencial à manutenção da concentração do aluno. Em segundo lugar, como os fragmentos dos livros de metodologia abordam primordialmente normas genéricas de pesquisa científica (amostragem, hipóteses formais, métodos bibliográficos), sua injeção no contexto de áreas específicas de Ciência da Computação — como compiladores, processamento de sinais ou visão computacional — gerava ruído conceitual, diluindo o vocabulário técnico de ponta necessário à proposição de tópicos contemporâneos de investigação.
+Em primeiro lugar, a sobrecarga de processamento computacional aumentava o tempo de resposta em cerca de 3,5 a 4,8 segundos por turno, prejudicando a fluidez dialógica essencial à manutenção da concentração do aluno. Em segundo lugar, como os fragmentos dos livros de metodologia abordam primordialmente normas genéricas de pesquisa científica (amostragem, hipóteses formais, métodos bibliográficos), sua injeção no contexto de áreas específicas da Computação — como compiladores, processamento de sinais ou visão computacional — gerava ruído conceitual, diluindo o vocabulário técnico de ponta necessário à proposição de tópicos contemporâneos de investigação.
 
 Dessa forma, optou-se por restringir o motor do questionário socrático à engenharia de prompts sobre o conhecimento paramétrico do modelo `gemini-3.5-flash-lite`, preservando a agilidade do diálogo (latência média de 1,2 segundo) e resguardando a busca vetorial para as etapas subsequentes de fundamentação procedimental e auditoria formal.
 
@@ -125,7 +125,7 @@ Adicionalmente, o sistema incorpora tratamento de erros de exaustão de cota por
 
 ## 4.8 Síntese do Capítulo
 
-Neste capítulo, foram apresentados a fundamentação arquitetural, o desenho dos módulos e os algoritmos de implementação que compõem o Orientador Acadêmico Inteligente. A união entre a mediação reflexiva socrática e a ancoragem estrita em 21 manuais de referência em metodologia científica viabiliza um artefato robusto, responsivo e adaptado às necessidades pedagógicas de discentes de Ciência da Computação. Os procedimentos empíricos e a avaliação dos dados resultantes do uso prático desta ferramenta são objeto de análise e discussão detalhada no capítulo seguinte.
+Neste capítulo, foram apresentados a fundamentação arquitetural, o desenho dos módulos e os algoritmos de implementação que compõem o Orientador Acadêmico Inteligente. A união entre a mediação reflexiva socrática e a ancoragem estrita em 21 manuais de referência em metodologia científica viabiliza um artefato robusto, responsivo e adaptado às necessidades pedagógicas de discentes de cursos de Computação. Os procedimentos empíricos e a avaliação dos dados resultantes do uso prático desta ferramenta são objeto de análise e discussão detalhada no capítulo seguinte.
 
 ## Referências Bibliográficas Citadas neste Capítulo
 
