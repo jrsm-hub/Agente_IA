@@ -71,7 +71,7 @@ A base de conhecimento foi construída a partir da seleção criteriosa de 21 ob
 
 1. **Metodologia de Pesquisa em Computação:** obras de Raul Sidnei Wazlawick (2014) (*Metodologia de Pesquisa para Ciência da Computação*) e o manual internacional de Mikael Berndtsson e colaboradores (2008) (*Thesis Projects: A Guide for Students in Computer Science and Information Systems*);
 2. **Fundamentos e Métodos de Pesquisa:** manuais consolidados de Eva Maria Lakatos e Marina de Andrade Marconi (2017) (*Fundamentos de Metodologia Científica*), Cleber Prodanov e Ernani Freitas (2013) (*Metodologia do Trabalho Científico*), Antonio Carlos Gil (2017) (*Como Elaborar Projetos de Pesquisa*) e Edna Lúcia da Silva e Estera Muszkat Menezes (2005) (*Metodologia da Pesquisa e Elaboração de Dissertação*);
-3. **Escrita e Comunicação Científica:** diretrizes especializadas de Robert Dugan Jr. e Virginia Polanski (2005) (*Writing for Computer Science*), Silvia Koller e colaboradores (2014) (*Manual de Produção Científica*) e Agma Traina e Caetano Traina Jr. (2009) (*Como Fazer Pesquisa Bibliográfica*).
+3. **Escrita e Comunicação Científica:** diretrizes especializadas de Robert Dugan Jr. e Virginia Polanski (2006) (*Writing for Computer Science*), Silvia Koller e colaboradores (2014) (*Manual de Produção Científica*) e Agma Traina e Caetano Traina Jr. (2009) (*Como Fazer Pesquisa Bibliográfica*).
 
 ### 4.4.2 Processamento de Texto, Fragmentação e Vetorização
 
@@ -133,7 +133,7 @@ BASS, Len; CLEMENTS, Paul; KAZMAN, Rick. **Software Architecture in Practice**. 
 
 BERNDTSSON, Mikael et al. **Thesis Projects: A Guide for Students in Computer Science and Information Systems**. 2. ed. London: Springer, 2008.
 
-DUGAN JR., Robert F.; POLANSKI, Virginia G. Writing for Computer Science: A Taxonomy of Writing Tasks and General Advice. **Journal of Computing Sciences in Colleges**, v. 21, n. 2, p. 195-203, 2005.
+DUGAN JR., Robert F.; POLANSKI, Virginia G. Writing for Computer Science: A Taxonomy of Writing Tasks and General Advice. **Journal of Computing Sciences in Colleges**, v. 21, n. 6, p. 191-203, 2006.
 
 GIL, Antonio Carlos. **Como Elaborar Projetos de Pesquisa**. 6. ed. São Paulo: Atlas, 2017.
 

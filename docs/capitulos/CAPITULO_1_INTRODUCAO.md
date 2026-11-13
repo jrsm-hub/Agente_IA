@@ -10,7 +10,7 @@ Este trabalho propõe, desenvolve e avalia um agente inteligente híbrido voltad
 
 ## 1.1 Contextualização e Motivação
 
-O Centro de Informática da Universidade Federal de Pernambuco (CIn/UFPE) destaca-se nacional e internacionalmente pela formação técnica de excelência e pela expressiva produção científica em áreas como Inteligência Artificial, Engenharia de Software, Ciência de Dados e Sistemas de Computação. No entanto, o percurso acadêmico dos discentes que ingressam nas etapas finais de graduação reflete uma assimetria recorrente: enquanto as habilidades de codificação e resolução de problemas técnicos são amplamente consolidadas ao longo do curso, as competências voltadas à escrita e ao método científico costumam ser desenvolvidas de forma tardia (DUGAN JR.; POLANSKI, 2005).
+O Centro de Informática da Universidade Federal de Pernambuco (CIn/UFPE) é reconhecido pela formação técnica sólida e pela produção científica em áreas como Inteligência Artificial, Engenharia de Software, Ciência de Dados e Sistemas de Computação. No entanto, o percurso acadêmico dos discentes que ingressam nas etapas finais de graduação reflete uma assimetria recorrente: enquanto as habilidades de codificação e resolução de problemas técnicos são amplamente consolidadas ao longo do curso, as competências voltadas à escrita e ao método científico costumam ser desenvolvidas de forma tardia (DUGAN JR.; POLANSKI, 2006).
 
 A fase de ideação é marcada, em sua origem, pelo fenômeno da "página em branco". Ao serem solicitados a definir um tema para seu TCC, muitos estudantes manifestam apenas interesses difusos por grandes áreas em evidência no mercado, como "aplicar inteligência artificial" ou "otimizar bancos de dados", sem discernimento sobre quais problemas de pesquisa permanecem em aberto na literatura. Essa amplitude excessiva gera ansiedade, protelação e retrabalho, resultando frequentemente em propostas desprovidas de recorte metodológico claro ou fundamentação empírica viável.
 
@@ -43,7 +43,7 @@ Projetar, implementar e avaliar um agente conversacional inteligente de arquitet
 1. **Conceber e calibrar o orquestrador dialógico socrático:** projetar fluxos conversacionais estruturados em turnos de decisão progressiva, oferecendo conjuntos balanceados de quatro alternativas metodológicas por rodada para mitigar o atrito cognitivo da ideação inicial;
 2. **Construir e indexar a base vetorial de metodologia científica:** selecionar e processar um acervo de 21 obras de referência em metodologia científica e pesquisa em computação, estabelecendo um pipeline de extração, fragmentação semântica e vetorização densa em banco vetorial dedicado;
 3. **Desenvolver o artefato computacional integrado:** implementar a arquitetura de software em Python com interface interativa web, contemplando síntese automatizada de Documento Estratégico em Markdown, motor de compilação tipográfica em PDF e persistência na nuvem de dados e telemetria;
-4. **Avaliar empiricamente a eficácia e a aceitação do artefato:** conduzir um estudo experimental intra-sujeito com estudantes de graduação do Centro de Informática da UFPE, mensurando o ganho de maturidade conceitual entre o pré-teste e o pós-teste através de rubrica analítica multicritério e avaliando a utilidade e facilidade de uso percebidas por meio do Modelo de Aceitação Tecnológica (TAM).
+4. **Avaliar empiricamente a eficácia e a aceitação do artefato:** conduzir um estudo experimental intra-sujeito com estudantes de graduação do Centro de Informática da UFPE, mensurando o ganho de maturidade conceitual entre o pré-teste e o pós-teste por meio de ficha estruturada de critérios avaliativos e avaliando a utilidade e facilidade de uso percebidas por meio do Modelo de Aceitação Tecnológica (TAM).
 
 ## 1.4 Relevância e Contribuições do Trabalho
 
@@ -60,7 +60,7 @@ Em terceiro lugar, a pesquisa fornece evidências empíricas originais sobre a p
 O presente trabalho está estruturado em seis capítulos, dispostos conforme o fluxo do ciclo de vida da pesquisa:
 
 * O **Capítulo 2 (Fundamentação Teórica e Trabalhos Relacionados)** aborda os fundamentos conceituais de Modelos de Linguagem de Grande Escala, alucinações, arquiteturas RAG, método de questionamento socrático e o Modelo de Aceitação Tecnológica (TAM), além de analisar criticamente o estado da arte e trabalhos correlatos de chatbots acadêmicos;
-* O **Capítulo 3 (Metodologia da Pesquisa)** detalha o enquadramento metodológico sob a perspectiva da *Design Science Research* (DSR), o delineamento experimental intra-sujeito adotado, as variáveis controladas e os instrumentos de coleta de dados (rubrica analítica multicritério e questionário TAM);
+* O **Capítulo 3 (Metodologia da Pesquisa)** detalha o enquadramento metodológico sob a perspectiva da *Design Science Research* (DSR), o delineamento experimental intra-sujeito adotado, as variáveis controladas e os instrumentos de coleta de dados (critérios estruturados de avaliação e questionário TAM);
 * O **Capítulo 4 (O Artefato: Arquitetura e Implementação)** descreve a concepção de engenharia do sistema, a especificação dos requisitos funcionais e não funcionais, a arquitetura em camadas, a engenharia de prompts, a estruturação da base ChromaDB, o motor de geração de relatórios em PDF e a persistência no Google Cloud Firestore;
 * O **Capítulo 5 (Avaliação Empírica e Análise de Resultados)** apresenta e discute os dados quantitativos e qualitativos colhidos nas sessões experimentais com estudantes do CIn/UFPE, detalhando as métricas de aceitação tecnológica, a mensuração do ganho de maturidade metodológica e a análise de feedbacks;
 * O **Capítulo 6 (Conclusão e Trabalhos Futuros)** sintetiza as principais conclusões e contribuições alcançadas pelo trabalho, examina as limitações do estudo e aponta direcionamentos para desdobramentos e pesquisas futuras.
@@ -71,7 +71,7 @@ BERNDTSSON, Mikael et al. **Thesis Projects: A Guide for Students in Computer Sc
 
 BROWN, Tom B. et al. Language Models are Few-Shot Learners. In: **Advances in Neural Information Processing Systems (NeurIPS 2020)**, v. 33, p. 1877-1901, 2020.
 
-DUGAN JR., Robert F.; POLANSKI, Virginia G. Writing for Computer Science: A Taxonomy of Writing Tasks and General Advice. **Journal of Computing Sciences in Colleges**, v. 21, n. 2, p. 195-203, 2005.
+DUGAN JR., Robert F.; POLANSKI, Virginia G. Writing for Computer Science: A Taxonomy of Writing Tasks and General Advice. **Journal of Computing Sciences in Colleges**, v. 21, n. 6, p. 191-203, 2006.
 
 HEVNER, Alan R. et al. Design Science in Information Systems Research. **MIS Quarterly**, v. 28, n. 1, p. 75-105, 2004.
 
@@ -86,3 +86,4 @@ VASWANI, Ashish et al. Attention Is All You Need. In: **Advances in Neural Infor
 WAZLAWICK, Raul Sidnei. **Metodologia de Pesquisa para Ciência da Computação**. 2. ed. Rio de Janeiro: Elsevier / Campus, 2014.
 
 ZHANG, Yue et al. Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models. **arXiv preprint arXiv:2309.01219**, 2023.
+
