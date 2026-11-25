@@ -313,16 +313,26 @@ def extrair_tema_documento_estrategico(documento_texto: str) -> str:
 
     return ""
 
-def gerar_titulo_conversa(llm, historico_texto: str) -> str:
-    """Usa o LLM para identificar o tema de pesquisa e criar um título curto (máx 5 palavras)."""
-    template_titulo = (
-        "Você é um orientador acadêmico. Com base no diálogo a seguir, identifique o TEMA DE PESQUISA "
-        "ou área de investigação delimitada pelo aluno e crie um título curto e formal (entre 2 a 5 palavras). "
-        "Exemplos de bons títulos: 'Visão Computacional no Glaucoma', 'LLMs em Prontuários Médicos', "
-        "'Otimização de Redes com GNNs'.\n"
-        "Regras: Não use emojis, não use aspas, não escreva 'Título:', responda APENAS com o nome do tema de pesquisa.\n\n"
-        "HISTÓRICO:\n{historico}\n\nTEMA DE PESQUISA:"
-    )
+def gerar_titulo_conversa(llm, historico_texto: str, modo: str = "estrategia") -> str:
+    """Usa o LLM para identificar o assunto principal e criar um título curto (máx 5 palavras)."""
+    if modo == "rag_estrito":
+        template_titulo = (
+            "Você é um orientador acadêmico. Com base na consulta metodológica ou auditoria a seguir, "
+            "crie um título curto e descritivo (entre 2 e 5 palavras) que resuma o foco da dúvida ou documento. "
+            "Exemplos de bons títulos: 'Auditoria de Anteprojeto', 'Validação de Hipótese Científica', "
+            "'Critérios de Amostragem', 'Estruturação da Metodologia'.\n"
+            "Regras: Não use emojis, não use aspas, não escreva 'Título:', responda APENAS com o título curto.\n\n"
+            "CONTEÚDO:\n{historico}\n\nTÍTULO CURTO:"
+        )
+    else:
+        template_titulo = (
+            "Você é um orientador acadêmico. Com base no diálogo a seguir, identifique o TEMA DE PESQUISA "
+            "ou área de investigação delimitada pelo aluno e crie um título curto e formal (entre 2 a 5 palavras). "
+            "Exemplos de bons títulos: 'Visão Computacional no Glaucoma', 'LLMs em Prontuários Médicos', "
+            "'Otimização de Redes com GNNs'.\n"
+            "Regras: Não use emojis, não use aspas, não escreva 'Título:', responda APENAS com o nome do tema de pesquisa.\n\n"
+            "HISTÓRICO:\n{historico}\n\nTEMA DE PESQUISA:"
+        )
     prompt = PromptTemplate.from_template(template_titulo)
     try:
         resultado = _executar_invoke_com_resiliencia(
@@ -334,7 +344,9 @@ def gerar_titulo_conversa(llm, historico_texto: str) -> str:
         # Remove prefixos indesejados caso o modelo responda 'Título: ...' ou 'Tema: ...'
         texto = re.sub(r'^(T[íi]tulo|Tema|Tema de Pesquisa|Assunto)\s*:\s*', '', texto, flags=re.IGNORECASE).strip()
         linhas = [l.strip() for l in texto.split('\n') if l.strip()]
-        return linhas[0] if linhas else texto
+        titulo = linhas[0] if linhas else texto
+        palavras = titulo.split()
+        return " ".join(palavras[:6]) if len(palavras) > 6 else titulo
     except Exception as e:
         print(f"Erro ao gerar título: {e}")
         return ""

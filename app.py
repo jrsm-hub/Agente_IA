@@ -627,6 +627,16 @@ elif st.session_state.tipo_conversa == "rag_estrito":
                     adicionar_mensagem(db, st.session_state.conversa_id, role="user", content=prompt_auditoria, fase="RAG_ESTRITO")
                     st.session_state.historico_mensagens.append({"role": "assistant", "content": resposta_completa})
                     adicionar_mensagem(db, st.session_state.conversa_id, role="assistant", content=resposta_completa, fase="RAG_ESTRITO")
+
+                    conv_data_atual = obter_dados_conversa(db, st.session_state.conversa_id)
+                    titulo_atual = conv_data_atual.get("title", "")
+                    if "Atendimento" in titulo_atual or "Nova Consulta" in titulo_atual or len(st.session_state.historico_mensagens) <= 3:
+                        nome_doc = st.session_state.get("doc_anexado_nome") or "Documento"
+                        resumo_ctx = f"Documento: {nome_doc}\nParecer: {resposta_completa[:1000]}"
+                        novo_titulo = gerar_titulo_conversa(llm, resumo_ctx, modo="rag_estrito")
+                        if not novo_titulo or "Nova Consulta" in novo_titulo or "Atendimento" in novo_titulo:
+                            novo_titulo = f"Auditoria ({nome_doc[:24]})"
+                        atualizar_titulo_conversa(db, st.session_state.conversa_id, novo_titulo, prefixo_icone="[Metodologia]")
                 except Exception as e:
                     exibir_erro_amigavel(e)
                     st.stop()
@@ -691,9 +701,10 @@ elif st.session_state.tipo_conversa == "rag_estrito":
         # Atualiza título inteligente com base na consulta se ainda for genérico
         conv_data_atual = obter_dados_conversa(db, st.session_state.conversa_id)
         titulo_atual = conv_data_atual.get("title", "")
-        if "Atendimento" in titulo_atual or len(st.session_state.historico_mensagens) <= 3:
-            novo_titulo = gerar_titulo_conversa(llm, f"Consulta: {prompt_usuario}")
-            if novo_titulo and "Atendimento" not in novo_titulo:
+        if "Atendimento" in titulo_atual or "Nova Consulta" in titulo_atual or len(st.session_state.historico_mensagens) <= 3:
+            resumo_ctx = f"Consulta: {prompt_usuario}\nResposta: {resposta_completa[:800]}"
+            novo_titulo = gerar_titulo_conversa(llm, resumo_ctx, modo="rag_estrito")
+            if novo_titulo and not any(p in novo_titulo for p in ("Atendimento", "Nova Consulta")):
                 atualizar_titulo_conversa(db, st.session_state.conversa_id, novo_titulo, prefixo_icone="[Metodologia]")
         
         st.rerun()
