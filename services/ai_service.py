@@ -578,12 +578,16 @@ def inicializar_agente_de_dialogo(llm, vectordb, historico_mensagens: list):
 def stream_resposta_rag_estrito(llm, vectordb, pergunta: str, historico_mensagens: list, documento_aluno: str = None):
     """Executa a busca RAG no ChromaDB e gera resposta em streaming com rigor científico e citação de fontes."""
     llm = assegurar_modelo_valido(llm)
-    # Se houver documento anexado pelo pesquisador, enriquece a busca com diretrizes metodológicas
+    # Se houver documento anexado pelo pesquisador, amplia a busca e o recorte conceitual
+    tem_documento = bool(documento_aluno and documento_aluno.strip())
     termo_busca = pergunta
-    if documento_aluno and documento_aluno.strip():
-        termo_busca = f"{pergunta} metodologia cientifica objetivos pesquisa procedimentos academicos"
+    if tem_documento:
+        termo_busca = (
+            f"{pergunta} metodologia cientifica problema de pesquisa hipotese objetivos "
+            "delineamento experimental validacao metricas amostragem cronograma"
+        )
 
-    docs = vectordb.similarity_search(termo_busca, k=4)
+    docs = vectordb.similarity_search(termo_busca, k=8 if tem_documento else 5)
 
     if docs:
         contexto = "\n\n".join([
@@ -612,8 +616,16 @@ def stream_resposta_rag_estrito(llm, vectordb, pergunta: str, historico_mensagen
             f"{doc_limpo[:MAX_CHARS_DOCUMENTO_ALUNO]}\n"
             "```\n"
             f"{aviso_corte}"
-            "DIRETRIZ DE ANÁLISE: Avalie o texto submetido pelo pesquisador à luz da literatura metodológica fornecida, "
-            "apontando congruências, lacunas e recomendações técnicas formais de aprimoramento.\n"
+            "DIRETRIZ DE ANÁLISE APROFUNDADA (PARECER ESTRUTURADO):\n"
+            "Não seja breve nem superficial. Produza uma auditoria metodológica detalhada e fundamentada nos trechos recuperados, "
+            "organizando o parecer obrigatoriamente nas cinco seções abaixo:\n"
+            "1. **Diagnóstico Geral e Alinhamento Temático:** síntese do escopo identificado, maturidade atual e adequação acadêmica.\n"
+            "2. **Congruências e Pontos Fortes:** o que já está bem estruturado no texto, conectando explicitamente aos conceitos dos trechos da literatura.\n"
+            "3. **Análise Crítica por Dimensão Metodológica:** avalie separadamente (a) delimitação do problema e pergunta norteadora, "
+            "(b) formulação de hipótese/objetivos testáveis, (c) separação clara entre método científico vs. cronograma/tarefas operacionais, "
+            "(d) procedimentos de coleta, dados, baseline e métricas de validação, e (e) riscos e limitações.\n"
+            "4. **Recomendações Práticas e Exemplos de Reformulação:** para cada lacuna relevante, indique exatamente o que ajustar e forneça sugestões concretas de reescrita aplicadas ao tema do documento.\n"
+            "5. **Prioridades Imediatas:** lista enxuta do que o pesquisador deve corrigir primeiro antes de avançar.\n"
         )
 
     template_estrito = """Você é um Consultor e Metodólogo Científico sênior, com rigor conceitual e fidelidade à literatura acadêmica.
