@@ -42,7 +42,12 @@ def criar_rag_tool(vectordb, llm):
         if not docs:
             return "Nenhuma informação relevante encontrada nos manuais disponíveis."
             
-        from services.ai_service import extrair_texto_conteudo, assegurar_modelo_valido, formatar_nome_fonte
+        from services.ai_service import (
+            extrair_texto_conteudo,
+            assegurar_modelo_valido,
+            formatar_nome_fonte,
+            _executar_invoke_com_resiliencia,
+        )
         llm_valido = assegurar_modelo_valido(llm)
         
         contexto = "\n\n".join([
@@ -58,14 +63,7 @@ def criar_rag_tool(vectordb, llm):
             f"RESPOSTA:"
         )
         
-        try:
-            resposta_raw = llm_valido.invoke(prompt)
-        except Exception as e:
-            if "404" in str(e) or "NOT_FOUND" in str(e) or "2.5" in str(e):
-                llm_valido.model = "gemini-3.5-flash-lite"
-                resposta_raw = llm_valido.invoke(prompt)
-            else:
-                raise e
+        resposta_raw = _executar_invoke_com_resiliencia(llm_valido, lambda m: m.invoke(prompt))
         resposta = extrair_texto_conteudo(resposta_raw)
         
         fontes = sorted(list(set(formatar_nome_fonte(doc.metadata.get('source', 'Manual')) for doc in docs if doc.metadata.get('source'))))

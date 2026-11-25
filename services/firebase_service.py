@@ -53,6 +53,22 @@ def criar_conversa(db, user_id: str, mensagem_inicial: str, tipo: str = "estrate
     nova_conversa_ref.collection('mensagens').add(msg_payload)
     return conversa_id
 
+def _timestamp_para_ordenacao(doc) -> float:
+    """Converte o campo de data do documento Firestore em float seguro para ordenação."""
+    dados = doc.to_dict() or {}
+    for campo in ("updated_at", "timestamp", "created_at"):
+        valor = dados.get(campo)
+        if valor is None:
+            continue
+        if hasattr(valor, "timestamp"):
+            try:
+                return float(valor.timestamp())
+            except Exception:
+                continue
+        if isinstance(valor, (int, float)):
+            return float(valor)
+    return 0.0
+
 def listar_conversas(db, user_id: str = None):
     """Retorna a lista de conversas do usuário ordenadas pela data mais recente."""
     if user_id:
@@ -62,11 +78,8 @@ def listar_conversas(db, user_id: str = None):
         docs = db.collection('conversas').order_by('updated_at', direction=firestore.Query.DESCENDING).stream()
     
     lista = list(docs)
-    # Ordena pelo timestamp mais recente (updated_at ou created_at)
-    lista.sort(
-        key=lambda d: (d.to_dict().get('updated_at') or d.to_dict().get('timestamp') or d.to_dict().get('created_at') or 0),
-        reverse=True
-    )
+    # Ordena pelo timestamp mais recente convertendo para float para evitar TypeError entre datetime e int
+    lista.sort(key=_timestamp_para_ordenacao, reverse=True)
     return lista
 
 def carregar_mensagens_conversa(db, conversa_id: str):

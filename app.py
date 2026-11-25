@@ -25,6 +25,7 @@ from services.firebase_service import (
 )
 from services.rag_service import carregar_vectordb
 from services.ai_service import (
+    MAX_CHARS_DOCUMENTO_ALUNO,
     assegurar_modelo_valido,
     carregar_llm,
     carregar_llm_estrito,
@@ -40,6 +41,11 @@ from services.ai_service import (
     extrair_texto_conteudo
 )
 from services.pdf_service import criar_pdf_formatado
+
+@st.cache_data(show_spinner=False)
+def gerar_pdf_em_cache(texto_markdown: str) -> bytes:
+    """Compila o PDF do documento estratégico com cache por conteúdo."""
+    return criar_pdf_formatado(texto_markdown)
 
 # Configurações iniciais da aplicação
 nest_asyncio.apply()
@@ -132,25 +138,12 @@ def exibir_erro_amigavel(e: Exception):
     """Exibe mensagem clara e orientações passo a passo em caso de falha de API ou permissão."""
     msg = str(e)
     nome = type(e).__name__
-    
-    chave_ativa = GOOGLE_API_KEY or ""
-    if chave_ativa and len(chave_ativa) >= 8:
-        chave_mascarada = f"`{chave_ativa[:4]}...{chave_ativa[-4:]}` (total {len(chave_ativa)} chars)"
-    else:
-        chave_mascarada = "`Não encontrada ou vazia`"
 
     if "PermissionDenied" in nome or "PermissionDenied" in msg or "403" in msg:
         st.error(
-            f"**Erro de Permissão na API do Google (403 Permission Denied):**\n\n"
-            f"A chave ativa carregada no momento é: **{chave_mascarada}**.\n\n"
-            "**Verificações no Streamlit Cloud:**\n"
-            "1. **A chave ativa acima é a sua chave nova?**\n"
-            "   - Se ela for a chave antiga (ou se estiver vazia), o Streamlit Cloud ainda não carregou a nova chave da nuvem.\n"
-            "   - No Streamlit Cloud, clique no canto inferior direito em **Manage app** (ou nos 3 pontinhos) > **Settings** > **Secrets**.\n"
-            "   - Certifique-se de que `GOOGLE_API_KEY = \"AIzaSy...\"` esteja digitada corretamente.\n"
-            "   - Clique em **Save** e em seguida selecione obrigatoriamente **Reboot App** no menu inferior direito para limpar a memória da nuvem.\n"
-            "2. **A chave nova foi gerada no Google AI Studio?**\n"
-            "   - Certifique-se de que a chave foi criada no [Google AI Studio](https://aistudio.google.com/) e que a conta não possui restrições de faturamento ou de idade."
+            "**Serviço de IA temporariamente indisponível (Erro de Autenticação):**\n\n"
+            "Não foi possível autenticar a solicitação na API de Inteligência Artificial neste momento. "
+            "Por favor, tente novamente mais tarde ou entre em contato com o pesquisador responsável pelo sistema."
         )
     elif "503" in msg or "UNAVAILABLE" in msg or "high demand" in msg.lower() or "overloaded" in msg.lower():
         st.warning(
@@ -347,7 +340,7 @@ if st.session_state.fase in ["INICIO", "SELECAO_MODO"] and not st.session_state.
             """
             ### 2. Consultoria Metodológica & Auditoria Textual (RAG)
             Consulta rigorosa à literatura científica e avaliação de rascunhos:
-            - **Respostas ancoradas estritamente** em manuais canônicos de pesquisa científica.
+            - **Respostas ancoradas estritamente** em manuais de referência em pesquisa científica.
             - **Mitigação de alucinações:** Esclarecimento de normas, métodos, amostragem e procedimentos.
             - **Leitor de Documentos:** Submissão de rascunhos (PDF/TXT) para parecer metodológico fundamentado.
             - **Citação formal** das obras e autores consultados na base.
@@ -356,8 +349,8 @@ if st.session_state.fase in ["INICIO", "SELECAO_MODO"] and not st.session_state.
         if st.button("Acessar Consultoria Metodológica", key="btn_modo_rag", use_container_width=True):
             inicializar_sessao()
             mensagem_inicial = (
-                "Ambiente de Consultoria Metodológica ativo. Estou fundamentado estritamente na literatura canônica "
-                "de metodologia científica para esclarecer dúvidas sobre delineamento de pesquisa, normas acadêmicas e procedimentos técnicos. "
+                "Ambiente de Consultoria Metodológica ativo. Estou fundamentado estritamente na literatura de referência "
+                "em metodologia científica para esclarecer dúvidas sobre delineamento de pesquisa, normas acadêmicas e procedimentos técnicos. "
                 "Você também pode submeter um documento (PDF ou TXT) para auditoria metodológica.\n\n"
                 "Qual é a sua consulta ou necessidade metodológica?"
             )
@@ -400,14 +393,17 @@ if st.session_state.tipo_conversa == "estrategia":
         st.divider()
         col_dl, col_info = st.columns([1, 2])
         with col_dl:
-            pdf_bytes = criar_pdf_formatado(st.session_state.documento_gerado)
-            st.download_button(
-                label="Baixar Estratégia em PDF",
-                data=pdf_bytes,
-                file_name="estrategia_de_pesquisa.pdf",
-                mime="application/pdf",
-                use_container_width=True
-            )
+            try:
+                pdf_bytes = gerar_pdf_em_cache(st.session_state.documento_gerado)
+                st.download_button(
+                    label="Baixar Estratégia em PDF",
+                    data=pdf_bytes,
+                    file_name="estrategia_de_pesquisa.pdf",
+                    mime="application/pdf",
+                    use_container_width=True
+                )
+            except Exception as e:
+                st.warning(f"Não foi possível compilar o PDF neste momento: {e}")
         with col_info:
             st.caption("*Documento estratégico compilado e pronto para exportação.*")
 
@@ -437,28 +433,27 @@ if st.session_state.tipo_conversa == "estrategia":
         if entrada_final:
             with st.chat_message("user", avatar=AVATAR_ALUNO):
                 st.markdown(entrada_final)
-            st.session_state.historico_mensagens.append({"role": "user", "content": entrada_final})
-            
-            rodada_atual = (len(st.session_state.historico_mensagens) // 2)
-            adicionar_mensagem(
-                db,
-                st.session_state.conversa_id,
-                role="user",
-                content=entrada_final,
-                fase="COLETA",
-                rodada=rodada_atual,
-                opcao_selecionada=resposta_selecionada
-            )
-            
-            historico_texto = "\n".join([f"{m['role']}: {extrair_texto_conteudo(m.get('content', ''))}" for m in st.session_state.historico_mensagens])
+
+            historico_com_entrada = st.session_state.historico_mensagens + [{"role": "user", "content": entrada_final}]
+            rodada_atual = (len(historico_com_entrada) // 2)
+            historico_texto = "\n".join([f"{m['role']}: {extrair_texto_conteudo(m.get('content', ''))}" for m in historico_com_entrada])
 
             with st.chat_message("assistant", avatar=AVATAR_ORIENTADOR):
                 with st.spinner("Formulando a próxima pergunta metodológica e opções..."):
                     try:
                         proxima_pergunta = gerar_proxima_pergunta_dinamica(llm, historico_texto)
-                        st.session_state.historico_mensagens.append({"role": "assistant", "content": proxima_pergunta})
-                        
                         _, opcoes_novas = separar_pergunta_e_opcoes(proxima_pergunta)
+                        st.session_state.historico_mensagens.append({"role": "user", "content": entrada_final})
+                        adicionar_mensagem(
+                            db,
+                            st.session_state.conversa_id,
+                            role="user",
+                            content=entrada_final,
+                            fase="COLETA",
+                            rodada=rodada_atual,
+                            opcao_selecionada=resposta_selecionada
+                        )
+                        st.session_state.historico_mensagens.append({"role": "assistant", "content": proxima_pergunta})
                         adicionar_mensagem(
                             db,
                             st.session_state.conversa_id,
@@ -494,6 +489,8 @@ if st.session_state.tipo_conversa == "estrategia":
                     st.session_state.documento_gerado = doc_final
                 except Exception as e:
                     exibir_erro_amigavel(e)
+                    if st.button("Tentar Gerar Documento Novamente", key="btn_retry_geracao", use_container_width=True):
+                        st.rerun()
                     st.stop()
             
             st.session_state.historico_mensagens.append({"role": "assistant", "content": doc_final})
@@ -552,21 +549,21 @@ if st.session_state.tipo_conversa == "estrategia":
         if prompt_usuario := st.chat_input("Faça uma pergunta sobre a sua estratégia de pesquisa..."):
             with st.chat_message("user", avatar=AVATAR_ALUNO):
                 st.markdown(prompt_usuario)
-            st.session_state.historico_mensagens.append({"role": "user", "content": prompt_usuario})
-            adicionar_mensagem(db, st.session_state.conversa_id, role="user", content=prompt_usuario, fase="DIALOGO_ABERTO")
-            
+
+            historico_temp = st.session_state.historico_mensagens + [{"role": "user", "content": prompt_usuario}]
             with st.chat_message("assistant", avatar=AVATAR_ORIENTADOR):
                 try:
                     stream = stream_dialogo_academico(
-                        llm, vectordb, prompt_usuario, st.session_state.historico_mensagens
+                        llm, vectordb, prompt_usuario, historico_temp
                     )
                     resposta = st.write_stream(stream)
+                    st.session_state.historico_mensagens.append({"role": "user", "content": prompt_usuario})
+                    adicionar_mensagem(db, st.session_state.conversa_id, role="user", content=prompt_usuario, fase="DIALOGO_ABERTO")
+                    st.session_state.historico_mensagens.append({"role": "assistant", "content": resposta})
+                    adicionar_mensagem(db, st.session_state.conversa_id, role="assistant", content=resposta, fase="DIALOGO_ABERTO")
                 except Exception as e:
                     exibir_erro_amigavel(e)
                     st.stop()
-            
-            st.session_state.historico_mensagens.append({"role": "assistant", "content": resposta})
-            adicionar_mensagem(db, st.session_state.conversa_id, role="assistant", content=resposta, fase="DIALOGO_ABERTO")
             st.rerun()
 
 
@@ -575,7 +572,7 @@ if st.session_state.tipo_conversa == "estrategia":
 # ==============================================================================
 elif st.session_state.tipo_conversa == "rag_estrito":
     st.title("Consultor Metodológico & Auditoria Textual")
-    st.caption("Respostas fundamentadas com rigor conceitual na literatura canônica de metodologia científica.")
+    st.caption("Respostas fundamentadas com rigor conceitual na literatura de referência em metodologia científica.")
 
     # Componente de Leitura de Documentos (PDF ou TXT)
     with st.expander("Submeter Documento para Auditoria Metodológica (PDF ou TXT)", expanded=True):
@@ -607,10 +604,14 @@ elif st.session_state.tipo_conversa == "rag_estrito":
 
     if st.session_state.get("doc_anexado_nome"):
         st.info(f"Documento ativo: **{st.session_state.doc_anexado_nome}** ({len(st.session_state.doc_anexado_texto)} caracteres extraídos com sucesso).")
+        if len(st.session_state.doc_anexado_texto) > MAX_CHARS_DOCUMENTO_ALUNO:
+            st.warning(
+                f"O documento possui {len(st.session_state.doc_anexado_texto)} caracteres; "
+                f"a auditoria considerará os primeiros {MAX_CHARS_DOCUMENTO_ALUNO} caracteres."
+            )
         if st.button("Emitir Parecer Metodológico Completo do Documento", key="btn_auditar_doc_auto", use_container_width=True):
             prompt_auditoria = "Por favor, realize uma auditoria metodológica rigorosa e fundamentada deste documento à luz dos manuais de pesquisa científica."
-            st.session_state.historico_mensagens.append({"role": "user", "content": prompt_auditoria})
-            adicionar_mensagem(db, st.session_state.conversa_id, role="user", content=prompt_auditoria, fase="RAG_ESTRITO")
+            historico_temp = st.session_state.historico_mensagens + [{"role": "user", "content": prompt_auditoria}]
             
             with st.chat_message("assistant", avatar=AVATAR_ORIENTADOR):
                 try:
@@ -618,10 +619,12 @@ elif st.session_state.tipo_conversa == "rag_estrito":
                         llm_estrito,
                         vectordb,
                         prompt_auditoria,
-                        st.session_state.historico_mensagens,
+                        historico_temp,
                         documento_aluno=st.session_state.doc_anexado_texto
                     )
                     resposta_completa = st.write_stream(stream)
+                    st.session_state.historico_mensagens.append({"role": "user", "content": prompt_auditoria})
+                    adicionar_mensagem(db, st.session_state.conversa_id, role="user", content=prompt_auditoria, fase="RAG_ESTRITO")
                     st.session_state.historico_mensagens.append({"role": "assistant", "content": resposta_completa})
                     adicionar_mensagem(db, st.session_state.conversa_id, role="assistant", content=resposta_completa, fase="RAG_ESTRITO")
                 except Exception as e:
@@ -664,9 +667,8 @@ elif st.session_state.tipo_conversa == "rag_estrito":
     if prompt_usuario := st.chat_input(placeholder_input):
         with st.chat_message("user", avatar=AVATAR_ALUNO):
             st.markdown(prompt_usuario)
-        st.session_state.historico_mensagens.append({"role": "user", "content": prompt_usuario})
-        adicionar_mensagem(db, st.session_state.conversa_id, role="user", content=prompt_usuario, fase="RAG_ESTRITO")
 
+        historico_temp = st.session_state.historico_mensagens + [{"role": "user", "content": prompt_usuario}]
         # Stream da resposta RAG com citação de fontes e documento
         with st.chat_message("assistant", avatar=AVATAR_ORIENTADOR):
             try:
@@ -674,10 +676,12 @@ elif st.session_state.tipo_conversa == "rag_estrito":
                     llm_estrito,
                     vectordb,
                     prompt_usuario,
-                    st.session_state.historico_mensagens,
+                    historico_temp,
                     documento_aluno=st.session_state.get("doc_anexado_texto")
                 )
                 resposta_completa = st.write_stream(stream)
+                st.session_state.historico_mensagens.append({"role": "user", "content": prompt_usuario})
+                adicionar_mensagem(db, st.session_state.conversa_id, role="user", content=prompt_usuario, fase="RAG_ESTRITO")
                 st.session_state.historico_mensagens.append({"role": "assistant", "content": resposta_completa})
                 adicionar_mensagem(db, st.session_state.conversa_id, role="assistant", content=resposta_completa, fase="RAG_ESTRITO")
             except Exception as e:

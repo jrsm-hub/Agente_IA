@@ -13,6 +13,8 @@ FALLBACK_MODELS = [
     "gemini-2.5-flash",
 ]
 
+MAX_CHARS_DOCUMENTO_ALUNO = 80000
+
 def extrair_texto_conteudo(conteudo) -> str:
     """Garante a conversão segura de qualquer formato retornado pelo LLM (str, list, dict, AIMessageChunk) em texto string."""
     if conteudo is None:
@@ -322,9 +324,11 @@ def gerar_titulo_conversa(llm, historico_texto: str) -> str:
         "HISTÓRICO:\n{historico}\n\nTEMA DE PESQUISA:"
     )
     prompt = PromptTemplate.from_template(template_titulo)
-    chain = prompt | llm
     try:
-        resultado = chain.invoke({"historico": historico_texto})
+        resultado = _executar_invoke_com_resiliencia(
+            llm,
+            lambda m: (prompt | m).invoke({"historico": historico_texto}),
+        )
         texto = extrair_texto_conteudo(resultado)
         texto = texto.strip().replace('"', '').replace("'", "").replace("`", "")
         # Remove prefixos indesejados caso o modelo responda 'Título: ...' ou 'Tema: ...'
@@ -404,22 +408,24 @@ DOCUMENTO ESTRATÉGICO DE PESQUISA (ESTRUTURA OBRIGATÓRIA):
 
 ### Caminho A (Abordagem Principal): [Nome Detalhado da Abordagem Principal]
 - **Descrição da Proposta:** [Como funciona esta abordagem, arquitetura ou técnica pretendida]
-- **Objetivo Geral & Específicos:** [O que será construído/analisado passo a passo]
-- **Metodologia & Dados:** [Quais bases de dados, ferramentas, métricas ou procedimentos serão adotados. Indicar fontes abertas ou alternativas viáveis caso haja restrição de acesso]
+- **Objetivo Geral & Específicos:** [O que se pretende demonstrar, validar ou alcançar cientificamente — sem transformar em lista sequencial de tarefas operacionais]
+- **Hipótese Norteadora e Baseline Comparativo:** [Formule a hipótese testável, indique o baseline ou referência do estado da arte para comparação e defina o critério objetivo para confirmar ou refutar a hipótese]
+- **Delineamento Metodológico e Dados:** [Descreva especificamente como a hipótese será testada: protocolo experimental ou analítico, tratamento dos dados, bases abertas ou alternativas viáveis, métricas de comparação e critérios de validade. NÃO inclua revisão bibliográfica nem etapas de cronograma neste campo]
 - **Por que este caminho é promissor:** [Contribuição científica e relevância]
 - **Riscos e Mitigações:** [Principais desafios técnicos/metodológicos e estratégias concretas de contingência]
 
 ### Caminho B (Abordagem Alternativa): [Nome Detalhado da Abordagem Alternativa]
 - **Descrição da Proposta:** [Abordagem alternativa para o mesmo tema com foco ou escopo diferente]
-- **Objetivo Geral & Específicos:** [O que será construído/analisado passo a passo]
-- **Metodologia & Dados:** [Quais bases de dados, ferramentas, métricas ou procedimentos serão adotados. Indicar fontes abertas ou alternativas viáveis caso haja restrição de acesso]
+- **Objetivo Geral & Específicos:** [O que se pretende demonstrar, validar ou alcançar cientificamente — sem transformar em lista sequencial de tarefas operacionais]
+- **Hipótese Norteadora e Baseline Comparativo:** [Formule a hipótese testável, indique o baseline ou referência do estado da arte para comparação e defina o critério objetivo para confirmar ou refutar a hipótese]
+- **Delineamento Metodológico e Dados:** [Descreva especificamente como a hipótese será testada: protocolo experimental ou analítico, tratamento dos dados, bases abertas ou alternativas viáveis, métricas de comparação e critérios de validade. NÃO inclua revisão bibliográfica nem etapas de cronograma neste campo]
 - **Por que este caminho é promissor:** [Diferencial em relação ao Caminho A]
 - **Riscos e Mitigações:** [Principais desafios técnicos/metodológicos e estratégias concretas de contingência]
 
-## 3. Recomendações Metodológicas e Próximos Passos
-1. **Passo 1 (Revisão Bibliográfica):** [Direcionamento de busca de artigos e autores-chave]
-2. **Passo 2 (Preparação do Ambiente / Dados):** [Coleta, ferramentas e pipeline inicial]
-3. **Passo 3 (Alinhamento com Orientador):** [Pontos centrais a apresentar para o orientador humano]
+## 3. Encaminhamentos Iniciais e Alinhamento com a Orientação
+1. **Mapeamento Inicial da Literatura:** [Palavras-chave, bases científicas e autores centrais para o levantamento bibliográfico no cronograma]
+2. **Preparação do Ambiente e Acesso aos Dados:** [Coleta, ferramentas e configuração inicial do pipeline]
+3. **Alinhamento com Orientador:** [Pontos centrais da hipótese, método e dados a validar com o orientador humano]
 
 ## 4. Cronograma Estimado de Execução por Etapas
 - **Etapa 1 (Fundamentação Teórica e Estado da Arte):** [Mapeamento da literatura, leitura crítica e fichamento de trabalhos correlatos]
@@ -472,7 +478,7 @@ class DialogoAcademicoAgent:
         historico_str = "\n".join([f"{m.get('role', 'user')}: {m.get('content', '')}" for m in msgs_recentes])
         
         prompt = (
-            "Você é um orientador e estrategista acadêmico experiente em Ciência da Computação e Metodologia Científica.\n"
+            "Você é um orientador e estrategista acadêmico experiente na área de Computação e Metodologia Científica.\n"
             "Sua missão é continuar a conversa com o aluno, tirando dúvidas sobre o projeto de pesquisa, aprofundando o tema e orientando os próximos passos.\n\n"
             f"HISTÓRICO RECENTE DA CONVERSA:\n{historico_str}\n\n"
             f"TRECHOS DE MANUAIS METODOLÓGICOS RELEVANTES:\n{contexto}\n\n"
@@ -481,7 +487,7 @@ class DialogoAcademicoAgent:
         )
         
         try:
-            resposta_raw = self.llm.invoke(prompt)
+            resposta_raw = _executar_invoke_com_resiliencia(self.llm, lambda m: m.invoke(prompt))
             resposta = extrair_texto_conteudo(resposta_raw)
         except Exception as e:
             resposta = f"Ocorreu um erro ao processar a resposta: {e}"
@@ -507,7 +513,7 @@ class DialogoAcademicoAgent:
         historico_str = "\n".join([f"{m.get('role', 'user')}: {m.get('content', '')}" for m in msgs_recentes])
         
         prompt = (
-            "Você é um orientador e estrategista acadêmico experiente em Ciência da Computação e Metodologia Científica.\n"
+            "Você é um orientador e estrategista acadêmico experiente na área de Computação e Metodologia Científica.\n"
             "Sua missão é continuar a conversa com o aluno, tirando dúvidas sobre o projeto de pesquisa, aprofundando o tema e orientando os próximos passos.\n\n"
             f"HISTÓRICO RECENTE DA CONVERSA:\n{historico_str}\n\n"
             f"TRECHOS DE MANUAIS METODOLÓGICOS RELEVANTES:\n{contexto}\n\n"
@@ -515,10 +521,7 @@ class DialogoAcademicoAgent:
             "Responda de forma didática, encorajadora, estruturada e em português do Brasil, fundamentando suas recomendações com rigor acadêmico."
         )
         
-        for chunk in self.llm.stream(prompt):
-            txt = extrair_texto_conteudo(chunk)
-            if txt:
-                yield txt
+        yield from _executar_stream_com_resiliencia(self.llm, lambda m: m.stream(prompt))
 
 def stream_dialogo_academico(llm, vectordb, pergunta: str, historico_mensagens: list):
     """Executa a busca RAG no ChromaDB e gera resposta em streaming para o diálogo livre com o orientador."""
@@ -537,7 +540,7 @@ def stream_dialogo_academico(llm, vectordb, pergunta: str, historico_mensagens: 
     historico_str = "\n".join([f"{m.get('role', 'user')}: {m.get('content', '')}" for m in msgs_recentes])
     
     prompt = (
-        "Você é um orientador e estrategista acadêmico experiente em Ciência da Computação e Metodologia Científica.\n"
+        "Você é um orientador e estrategista acadêmico experiente na área de Computação e Metodologia Científica.\n"
         "Sua missão é continuar a conversa com o aluno, tirando dúvidas sobre o projeto de pesquisa, aprofundando o tema e orientando os próximos passos.\n\n"
         f"HISTÓRICO RECENTE DA CONVERSA:\n{historico_str}\n\n"
         f"TRECHOS DE MANUAIS METODOLÓGICOS RELEVANTES:\n{contexto}\n\n"
@@ -578,11 +581,19 @@ def stream_resposta_rag_estrito(llm, vectordb, pergunta: str, historico_mensagen
 
     bloco_doc = ""
     if documento_aluno and documento_aluno.strip():
+        doc_limpo = documento_aluno.strip()
+        aviso_corte = ""
+        if len(doc_limpo) > MAX_CHARS_DOCUMENTO_ALUNO:
+            aviso_corte = (
+                f"\n[Observação: documento extenso com {len(doc_limpo)} caracteres; "
+                f"foram considerados os primeiros {MAX_CHARS_DOCUMENTO_ALUNO} caracteres.]\n"
+            )
         bloco_doc = (
             "\nDOCUMENTO / TEXTO SUBMETIDO PELO PESQUISADOR:\n"
             "```\n"
-            f"{documento_aluno[:4000]}\n"
+            f"{doc_limpo[:MAX_CHARS_DOCUMENTO_ALUNO]}\n"
             "```\n"
+            f"{aviso_corte}"
             "DIRETRIZ DE ANÁLISE: Avalie o texto submetido pelo pesquisador à luz da literatura metodológica fornecida, "
             "apontando congruências, lacunas e recomendações técnicas formais de aprimoramento.\n"
         )

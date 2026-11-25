@@ -64,8 +64,20 @@ def corrigir_palavras_quebradas(texto: str) -> str:
     # 1. Corrige quebras com hífen (ex: pesqui-\nsa -> pesquisa)
     texto = re.sub(r'([a-zA-ZÀ-ÿ]+)\s*-\s*\n\s*([a-zA-ZÀ-ÿ]+)', r'\1\2', texto)
     
-    # 2. Corrige sufixos partidos na linha seguinte (ex: padrõe\ns -> padrões, técnic\no -> técnico, definiçã\no -> definição)
-    texto = re.sub(r'([a-zA-ZÀ-ÿ]{2,})\s*\n\s*([a-zà-ÿ]{1,3})\b', r'\1\2', texto)
+    # 2. Corrige sufixos partidos na linha seguinte (ex: padrõe\ns -> padrões, técnic\no -> técnico, definiçã\no -> definição),
+    # evitando juntar palavras curtas comuns da língua portuguesa que iniciam a linha seguinte.
+    palavras_curtas_validas = {
+        "a", "e", "o", "as", "os", "ao", "à", "às", "da", "de", "do", "das", "dos",
+        "em", "na", "no", "nas", "nos", "um", "uma", "ou", "se", "por", "com", "que",
+        "não", "nao", "mas", "sob", "sem", "ser", "ter", "via", "já", "até", "ate",
+        "seu", "sua", "foi", "são", "sao", "tal", "tem", "vez", "fim", "uso", "bom",
+    }
+    def _unir_sufixo_se_quebrado(match):
+        inicio, sufixo = match.group(1), match.group(2)
+        if sufixo.lower() in palavras_curtas_validas:
+            return match.group(0)
+        return f"{inicio}{sufixo}"
+    texto = re.sub(r'([a-zA-ZÀ-ÿ]{2,})\s*\n\s*([a-zà-ÿ]{1,3})\b', _unir_sufixo_se_quebrado, texto)
     
     # 3. Corrige palavras partidas onde uma única letra ou terminação ficou separada por espaço
     texto = re.sub(r'\b([a-zA-ZÀ-ÿ]{3,}çã)\s+o\b', r'\1o', texto)
