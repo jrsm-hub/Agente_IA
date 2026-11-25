@@ -9,8 +9,7 @@ from config import GOOGLE_API_KEY, LLM_MODEL, LLM_TEMPERATURE
 
 FALLBACK_MODELS = [
     "gemini-3.5-flash-lite",
-    "gemini-2.5-flash-lite",
-    "gemini-2.5-flash",
+    "gemini-3.8-flash",
 ]
 
 MAX_CHARS_DOCUMENTO_ALUNO = 80000
@@ -220,11 +219,12 @@ def _eh_erro_modelo_inexistente(err: Exception) -> bool:
 
 
 def _montar_tentativas_modelo(llm) -> list[tuple[str, float]]:
-    """Define a sequência de tentativas: 2x no modelo principal (com backoff) + modelos alternativos."""
+    """Define a sequência de tentativas: 3x no modelo principal (com backoff) + modelos ativos alternativos."""
     modelo_atual = str(getattr(llm, "model", "") or LLM_MODEL or "gemini-3.5-flash-lite").replace("models/", "")
     tentativas = [
         (modelo_atual, 0.0),
         (modelo_atual, 2.0),
+        (modelo_atual, 4.0),
     ]
     for alt in FALLBACK_MODELS:
         if alt != modelo_atual:
@@ -249,6 +249,7 @@ def _instanciar_llm_alternativo(llm_base, modelo: str):
 def _executar_invoke_com_resiliencia(llm, executor_fn):
     """Executa chamadas síncronas ao LLM com backoff exponencial e fallback entre modelos."""
     ultimo_erro = None
+    erro_relevante = None
     for idx, (modelo, espera_base) in enumerate(_montar_tentativas_modelo(llm)):
         if idx > 0 and espera_base > 0 and not (ultimo_erro and _eh_erro_modelo_inexistente(ultimo_erro)):
             time.sleep(espera_base + random.uniform(0.2, 0.8))
@@ -257,14 +258,17 @@ def _executar_invoke_com_resiliencia(llm, executor_fn):
             return executor_fn(llm_atual)
         except Exception as e:
             ultimo_erro = e
+            if erro_relevante is None or not _eh_erro_modelo_inexistente(e):
+                erro_relevante = e
             if not _eh_erro_transitorio_ou_modelo(e):
                 raise e
-    raise ultimo_erro
+    raise erro_relevante or ultimo_erro
 
 
 def _executar_stream_com_resiliencia(llm, stream_fn):
     """Executa streaming do LLM com backoff, fallback e separador limpo caso caia no meio da geração."""
     ultimo_erro = None
+    erro_relevante = None
     ja_emitiu_texto = False
     for idx, (modelo, espera_base) in enumerate(_montar_tentativas_modelo(llm)):
         if idx > 0 and espera_base > 0 and not (ultimo_erro and _eh_erro_modelo_inexistente(ultimo_erro)):
@@ -283,9 +287,11 @@ def _executar_stream_com_resiliencia(llm, stream_fn):
             return
         except Exception as e:
             ultimo_erro = e
+            if erro_relevante is None or not _eh_erro_modelo_inexistente(e):
+                erro_relevante = e
             if not _eh_erro_transitorio_ou_modelo(e):
                 raise e
-    raise ultimo_erro
+    raise erro_relevante or ultimo_erro
 
 
 def extrair_tema_documento_estrategico(documento_texto: str) -> str:
