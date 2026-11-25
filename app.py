@@ -152,6 +152,18 @@ def exibir_erro_amigavel(e: Exception):
             "2. **A chave nova foi gerada no Google AI Studio?**\n"
             "   - Certifique-se de que a chave foi criada no [Google AI Studio](https://aistudio.google.com/) e que a conta não possui restrições de faturamento ou de idade."
         )
+    elif "503" in msg or "UNAVAILABLE" in msg or "high demand" in msg.lower() or "overloaded" in msg.lower():
+        st.warning(
+            "**Instabilidade temporária nos servidores de IA (Erro 503):**\n\n"
+            "Os servidores do Google Gemini estão passando por um pico momentâneo de acessos e não responderam após as tentativas automáticas.\n\n"
+            "**O que fazer:** aguarde cerca de **10 a 30 segundos** e clique novamente no botão (ou reenvie sua pergunta). Seu documento e o histórico da conversa continuam salvos."
+        )
+    elif "429" in msg or "RESOURCE_EXHAUSTED" in msg or "quota" in msg.lower():
+        st.warning(
+            "**Limite temporário de requisições atingido (Erro 429):**\n\n"
+            "Muitas solicitações foram enviadas em sequência para a API de IA.\n\n"
+            "**O que fazer:** aguarde cerca de **30 segundos** e tente novamente. Seu histórico e arquivos continuam preservados."
+        )
     else:
         st.error(f"Erro na comunicação com a API: {e}")
 

@@ -1,9 +1,17 @@
 import os
 import re
+import time
+import random
 import streamlit as st
 from langchain_core.prompts import PromptTemplate
 from langchain_google_genai import ChatGoogleGenerativeAI
 from config import GOOGLE_API_KEY, LLM_MODEL, LLM_TEMPERATURE
+
+FALLBACK_MODELS = [
+    "gemini-3.5-flash-lite",
+    "gemini-2.5-flash-lite",
+    "gemini-2.5-flash",
+]
 
 def extrair_texto_conteudo(conteudo) -> str:
     """Garante a conversão segura de qualquer formato retornado pelo LLM (str, list, dict, AIMessageChunk) em texto string."""
@@ -192,6 +200,92 @@ def carregar_llm_estrito(api_key: str = None, model_name: str = None):
     )
 
 
+def _eh_erro_transitorio_ou_modelo(err: Exception) -> bool:
+    """Identifica falhas temporárias de sobrecarga/cota (503/429) ou modelo indisponível (404)."""
+    msg = str(err).lower()
+    marcadores = (
+        "503", "unavailable", "high demand", "overloaded",
+        "429", "resource_exhausted", "quota",
+        "404", "not_found", "available", "2.5"
+    )
+    return any(m in msg for m in marcadores)
+
+
+def _eh_erro_modelo_inexistente(err: Exception) -> bool:
+    """Identifica erro de modelo não encontrado (404/NOT_FOUND), que não exige espera antes do fallback."""
+    msg = str(err).lower()
+    return "404" in msg or "not_found" in msg
+
+
+def _montar_tentativas_modelo(llm) -> list[tuple[str, float]]:
+    """Define a sequência de tentativas: 2x no modelo principal (com backoff) + modelos alternativos."""
+    modelo_atual = str(getattr(llm, "model", "") or LLM_MODEL or "gemini-3.5-flash-lite").replace("models/", "")
+    tentativas = [
+        (modelo_atual, 0.0),
+        (modelo_atual, 2.0),
+    ]
+    for alt in FALLBACK_MODELS:
+        if alt != modelo_atual:
+            tentativas.append((alt, 1.5))
+    return tentativas
+
+
+def _instanciar_llm_alternativo(llm_base, modelo: str):
+    """Cria instância separada de ChatGoogleGenerativeAI sem mutar o recurso em cache do Streamlit."""
+    chave = getattr(llm_base, "google_api_key", None)
+    if hasattr(chave, "get_secret_value"):
+        chave = chave.get_secret_value()
+    chave = (str(chave) if chave else GOOGLE_API_KEY or "").strip()
+    temperatura = getattr(llm_base, "temperature", LLM_TEMPERATURE)
+    return ChatGoogleGenerativeAI(
+        model=modelo,
+        google_api_key=chave,
+        temperature=temperatura,
+    )
+
+
+def _executar_invoke_com_resiliencia(llm, executor_fn):
+    """Executa chamadas síncronas ao LLM com backoff exponencial e fallback entre modelos."""
+    ultimo_erro = None
+    for idx, (modelo, espera_base) in enumerate(_montar_tentativas_modelo(llm)):
+        if idx > 0 and espera_base > 0 and not (ultimo_erro and _eh_erro_modelo_inexistente(ultimo_erro)):
+            time.sleep(espera_base + random.uniform(0.2, 0.8))
+        llm_atual = llm if idx == 0 else _instanciar_llm_alternativo(llm, modelo)
+        try:
+            return executor_fn(llm_atual)
+        except Exception as e:
+            ultimo_erro = e
+            if not _eh_erro_transitorio_ou_modelo(e):
+                raise e
+    raise ultimo_erro
+
+
+def _executar_stream_com_resiliencia(llm, stream_fn):
+    """Executa streaming do LLM com backoff, fallback e separador limpo caso caia no meio da geração."""
+    ultimo_erro = None
+    ja_emitiu_texto = False
+    for idx, (modelo, espera_base) in enumerate(_montar_tentativas_modelo(llm)):
+        if idx > 0 and espera_base > 0 and not (ultimo_erro and _eh_erro_modelo_inexistente(ultimo_erro)):
+            time.sleep(espera_base + random.uniform(0.2, 0.8))
+        llm_atual = llm if idx == 0 else _instanciar_llm_alternativo(llm, modelo)
+        precisa_separador = ja_emitiu_texto
+        try:
+            for chunk in stream_fn(llm_atual):
+                txt = extrair_texto_conteudo(chunk)
+                if txt:
+                    if precisa_separador:
+                        yield "\n\n---\n*(Instabilidade momentânea na conexão — retomando resposta completa abaixo:)*\n\n"
+                        precisa_separador = False
+                    ja_emitiu_texto = True
+                    yield txt
+            return
+        except Exception as e:
+            ultimo_erro = e
+            if not _eh_erro_transitorio_ou_modelo(e):
+                raise e
+    raise ultimo_erro
+
+
 def extrair_tema_documento_estrategico(documento_texto: str) -> str:
     """Extrai o tema delimitado ou subtópico de um Documento Estratégico em Markdown."""
     if not documento_texto:
@@ -259,16 +353,11 @@ def gerar_proxima_pergunta_dinamica(llm, historico_texto: str) -> str:
 
 **PRÓXIMA PERGUNTA:**"""
     prompt = PromptTemplate.from_template(template)
-    chain = prompt | llm
-    try:
-        resultado = chain.invoke({"historico": historico_texto})
-        return extrair_texto_conteudo(resultado)
-    except Exception as e:
-        if "404" in str(e) or "NOT_FOUND" in str(e) or "2.5" in str(e) or "429" in str(e) or "503" in str(e):
-            llm.model = "gemini-3.5-flash-lite"
-            resultado = (prompt | llm).invoke({"historico": historico_texto})
-            return extrair_texto_conteudo(resultado)
-        raise e
+    resultado = _executar_invoke_com_resiliencia(
+        llm,
+        lambda m: (prompt | m).invoke({"historico": historico_texto}),
+    )
+    return extrair_texto_conteudo(resultado)
 
 def stream_gerar_proxima_pergunta(llm, historico_texto: str, vectordb=None):
     """Gera a próxima pergunta afuniladora e 4 opções em streaming com alta responsividade."""
@@ -288,23 +377,10 @@ def stream_gerar_proxima_pergunta(llm, historico_texto: str, vectordb=None):
 
 **PRÓXIMA PERGUNTA:**"""
     prompt = PromptTemplate.from_template(template)
-    chain = prompt | llm
-    try:
-        for chunk in chain.stream({"historico": historico_texto}):
-            txt = extrair_texto_conteudo(chunk)
-            if txt:
-                yield txt
-    except Exception as e:
-        err_str = str(e)
-        if "404" in err_str or "NOT_FOUND" in err_str or "2.5" in err_str or "available" in err_str or "429" in err_str or "503" in err_str:
-            llm.model = "gemini-3.5-flash-lite"
-            chain_retry = prompt | llm
-            for chunk in chain_retry.stream({"historico": historico_texto}):
-                txt = extrair_texto_conteudo(chunk)
-                if txt:
-                    yield txt
-        else:
-            raise e
+    yield from _executar_stream_com_resiliencia(
+        llm,
+        lambda m: (prompt | m).stream({"historico": historico_texto}),
+    )
 
 TEMPLATE_DOCUMENTO_ESTRATEGICO = """Você é um orientador e estrategista acadêmico sênior. 
 Com base em todo o HISTÓRICO da entrevista com o aluno, elabore um Documento Estratégico de Pesquisa detalhado, aprofundado e completo em Markdown (em português do Brasil).
@@ -356,36 +432,20 @@ def gerar_documento_estrategico(llm, historico_texto: str) -> str:
     """Gera o documento de estratégia de pesquisa em Markdown a partir do histórico (síncrono)."""
     llm = assegurar_modelo_valido(llm)
     prompt = PromptTemplate.from_template(TEMPLATE_DOCUMENTO_ESTRATEGICO)
-    chain = prompt | llm
-    try:
-        resultado = chain.invoke({"historico": historico_texto})
-        return extrair_texto_conteudo(resultado)
-    except Exception as e:
-        if "404" in str(e) or "NOT_FOUND" in str(e) or "2.5" in str(e) or "429" in str(e) or "503" in str(e):
-            llm.model = "gemini-3.5-flash-lite"
-            resultado = (prompt | llm).invoke({"historico": historico_texto})
-            return extrair_texto_conteudo(resultado)
-        raise e
+    resultado = _executar_invoke_com_resiliencia(
+        llm,
+        lambda m: (prompt | m).invoke({"historico": historico_texto}),
+    )
+    return extrair_texto_conteudo(resultado)
 
 def stream_gerar_documento_estrategico(llm, historico_texto: str):
     """Gera o documento de estratégia de pesquisa em formato de streaming."""
     llm = assegurar_modelo_valido(llm)
     prompt = PromptTemplate.from_template(TEMPLATE_DOCUMENTO_ESTRATEGICO)
-    chain = prompt | llm
-    try:
-        for chunk in chain.stream({"historico": historico_texto}):
-            txt = extrair_texto_conteudo(chunk)
-            if txt:
-                yield txt
-    except Exception as e:
-        if "404" in str(e) or "NOT_FOUND" in str(e) or "2.5" in str(e) or "429" in str(e) or "503" in str(e):
-            llm.model = "gemini-3.5-flash-lite"
-            for chunk in (prompt | llm).stream({"historico": historico_texto}):
-                txt = extrair_texto_conteudo(chunk)
-                if txt:
-                    yield txt
-        else:
-            raise e
+    yield from _executar_stream_com_resiliencia(
+        llm,
+        lambda m: (prompt | m).stream({"historico": historico_texto}),
+    )
 
 class DialogoAcademicoAgent:
     """Agente conversacional com memória contextual e consulta integrada aos manuais RAG."""
@@ -485,20 +545,10 @@ def stream_dialogo_academico(llm, vectordb, pergunta: str, historico_mensagens: 
         "Responda de forma didática, encorajadora, estruturada e em português do Brasil, fundamentando suas recomendações com rigor acadêmico."
     )
     
-    try:
-        for chunk in llm.stream(prompt):
-            txt = extrair_texto_conteudo(chunk)
-            if txt:
-                yield txt
-    except Exception as e:
-        if "404" in str(e) or "NOT_FOUND" in str(e) or "2.5" in str(e) or "429" in str(e) or "503" in str(e):
-            llm.model = "gemini-3.5-flash-lite"
-            for chunk in llm.stream(prompt):
-                txt = extrair_texto_conteudo(chunk)
-                if txt:
-                    yield txt
-        else:
-            raise e
+    yield from _executar_stream_com_resiliencia(
+        llm,
+        lambda m: m.stream(prompt),
+    )
 
 def inicializar_agente_de_dialogo(llm, vectordb, historico_mensagens: list):
     """Inicializa o agente para diálogo livre pós-estratégia com RAG."""
@@ -559,32 +609,15 @@ CONSULTA DO PESQUISADOR:
 PARECER METODOLÓGICO FUNDAMENTADO:"""
 
     prompt = PromptTemplate.from_template(template_estrito)
-    chain = prompt | llm
-
-    try:
-        for chunk in chain.stream({
+    yield from _executar_stream_com_resiliencia(
+        llm,
+        lambda m: (prompt | m).stream({
             "contexto": contexto,
             "historico": historico_str,
             "pergunta": pergunta,
-            "bloco_documento": bloco_doc
-        }):
-            txt = extrair_texto_conteudo(chunk)
-            if txt:
-                yield txt
-    except Exception as e:
-        if "404" in str(e) or "NOT_FOUND" in str(e) or "2.5" in str(e) or "429" in str(e) or "503" in str(e):
-            llm.model = "gemini-3.5-flash-lite"
-            for chunk in (prompt | llm).stream({
-                "contexto": contexto,
-                "historico": historico_str,
-                "pergunta": pergunta,
-                "bloco_documento": bloco_doc
-            }):
-                txt = extrair_texto_conteudo(chunk)
-                if txt:
-                    yield txt
-        else:
-            raise e
+            "bloco_documento": bloco_doc,
+        }),
+    )
             
     # Adiciona a citação formatada das fontes encontradas (única listagem oficial)
     fontes_unicas = sorted(list(set(
